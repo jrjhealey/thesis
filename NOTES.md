@@ -76,14 +76,6 @@
 
 
 # Chapter 3: Tail
- - Definitely include a section with EMBL Radar, cite VanRaaij2001 as they did the same thing
- - Paper on identifying amino acid repeats Luo2014
- - No need for chaperons, unlike t4
- - similar stability
- - trimerisation
- - dichroweb predicts similar secondary structure
- - PVC13s are unquivocally most like the short t4 fibre due to not needing a chaperone, wherease the long fibres need gp57A
- - Homology from HHpred to the artificial adenovirus-phage chimera from van Raaij (PDB 1V1H?).
  - Could the dramatic change in secondary structure seen in temperature shifts be a clue to a conformational rearrangement in the tail fibres when transducing a signal?
 
 # Chapter 4: Synthetic and Natural Operon Regulation
