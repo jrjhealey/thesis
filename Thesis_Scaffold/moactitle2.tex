@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt,oneside]{report}
+
+\usepackage{moactitlepage}
+
+% fields shared by copyright and title page
+% =========================================
+
+% document title
+\renewcommand{\moactitle}{}
+
+\renewcommand{\moacauthor}{}
+
+% set to twoside for a two side document
+%\renewcommand{\moacpagelayout}{twoside}
+
+% what the document is for
+\renewcommand{\moacdegreetype}{Master of Science}
+
+\renewcommand{\moacuniversity}{University of Warwick}
+
+% fields for the copyright page
+% =============================
+
+
+\renewcommand{\moacdegree}{}
+\renewcommand{\moacdepositdate}{}
+
+% fields for the title page
+% =========================
+
+%\renewcommand{\moacdepartment}{Department of Something}
+
+% submission date
+\renewcommand{\moacdate}{June 2009}
+
+\renewcommand{\moacsupervisors}{}
+
+% The word  to appear between the title and author name
+% By default this is 'by'. Set to none for it not to appear
+%\renewcommand{\moaclinktitleauthor}{none}
+
+% additional fields you can change
+
+\renewcommand{\moacdocumenttype}{Thesis}
+
+% uncomment to add text below supervisors
+\renewcommand{\moacadditional}{}
+
+\begin{document}
+
+% generate copyright page for library
+\moaccopyright
+
+% generate titlepages
+\moactitlepage
+
+%package alters line spacing so set to your preference here
+%\doublespacing
+%\singlespacing
+
+% rest of document
+
+\end{document}

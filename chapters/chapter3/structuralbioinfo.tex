@@ -1,0 +1,112 @@
+\pagestyle{IHA-fancy-style}
+\lhead{\textsf{Chapter III}}
+\rhead{\textsf{Structural Bioinformatics of PVC Proteins}}
+
+
+\chapter{Structural Bioinformatics of PVC Proteins}\label{structbioinfo}
+\section{Introduction}
+
+\todo[inline]{Add a suitable epigraph}
+\todo[inline]{Make very clear that the sequence is NOT THE WHOLE STORY. We must try to get structural simulation data as structures diverge slower than sequence}
+\todo[inline]{be sure to write a section around the claim in this paper https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/ about sequences diverging faster than sequence}
+\todo[inline]{Use quote from \cite{Leiman2010} ``The evolutionary relationship cannot be detected in their amino acid sequences" and "The crystal structure of the N-terminal fragment the Escherichia coli CFT073 VgrG protein encoded by ORF c3393 shows a significant structural similarity to the gp5-gp27 complex, despite only 13\% sequence identity [84]"}
+\todo[inline]{Make a high-level chart of whether genes are more like phage or T6ss e.g. T4Like <------- PVC1           ----------> T6SS}
+
+As large multi-partite biological complexes, there are far too many proteins involved in the biology of PVCs to study them all in detail experimentally within a single thesis. However, due to the increasing availability of high performance computing resources, it is possible to study all the genes and proteins, to some extent and to reasonable confidence, using bioinformatics approaches. This chapter attempts to glean as many clues as possible about structure and function of the proteins involved in construction of PVCs, by `brute force'. In this particular case, a pre-public beta version of the Medical Research Council Cloud Infrastructure for Microbial Bioinformatics (MRC CLIMB) HPC was used and over 400 compute cores were available. By querying the sequences against structure databases and conducting simple structure simulations, hopefully new insights can be discovered which can inform  lab experiments.
+
+Since there are numerous PVC operons that have been identified, and each one contains $>$16 proteins, the dataset quickly becomes unmanageable for the experimentalist. A rigorous exploration of the hypothetical structures and functions of the proteins can collapse this dataset somewhat, and reveal subtleties of the structures which are interesting or relevant for further study. 
+
+As the databases for gene function and protein structure are continuously updated and improved, this chapter is also a `revisit' to the now outdated genome annotations that were first put together when the strains were sequenced. By re-running these analyses at various points, new putative functions and homologies may be discovered. 
+
+\subsection*{Chapter Aims}
+This chapter aims to confirm, and generate new, hypotheses about the structural elements of the PVCs via structural bioinformatics approaches. In the absence of a true resolved structure, simulations based upon related structures can be remarkably close to the real thing. This chapter also serves as a `tour' of the PVCs in depth, providing some context for the subsequent chapters. 
+Simulations allow us to get our first real `look' at the gross structure of the PVCs, and to propose hypotheses for experimental testing.
+
+\begin{itemize}
+	\item Explore the structural orthologies shared by PVC proteins which currently lack informative annotations.
+	\item Use structural simulation approaches to get a `first look' at the potential structure of the PVCs.
+	\item Examine any high quality simulations for physical characteristics of the PVCs.
+
+\end{itemize}
+
+
+\section{Methods}\todo{rename this section}
+	Many proteins in the existing \Pa{} annotations are listed as `hypothetical', and in the case of some older genome annotations for some of the more diverse PVC elements, this can be the entire operon \citep{Duchaud2003}. Since an annotation of `hypothetical' leaves nothing to inform experiments, short of blind cloning/deleting and structural resolution attempts, a logical first step seemed to be to assess each CDS within 16 PVC operons for any structural similarity (even at comparatively low scores) to glean as much information as possible and form further hypotheses about their roles. Not only does this provide better functional predictions that the existing ones, but simply querying against a more up to date database often turns up previously unseen similarities between proteins.
+	
+	\subsection{Annotation}\label{annotation}
+	From a previous project, a number of \Pa{} genomes were sequenced, and a number of existing sequences in NCBI were reassembled and re-annotated along with them for consistency. In all of the work conducted, we utilised the consistent, re-annotated sequences and any given locus tags will correspond to these. Genomes were annotated with a database of existing \Pa{} proteins, utilising Prokka \citep{Seemann2014} (see \vref{methods},  \vref{prokka}). All current annotated genomes are provided in supplementary information for this chapter. \todo[inline]{Discuss differences arising from reannotation?}
+	
+	\subsection{Hidden Markov Model Homology Searching}\label{hhresults}
+	As the Protein DataBank and other databases are frequently updated, Hidden Markov Model searches were run repeatedly throughout the course of the project, usually picking up at least 2 or 3 improved structural annotations, with each new run. This was performed using $\mathtt{HHsearch}$ from the HHsuite of tools \citep{Remmert2012}. Searches for 312 proteins were run via a commandline implementation of HHsearch v 2.0.15 on a Ubuntu server, with the following parameters: E-value cutoff = $1\times10^{-3}$, Probability cutoff = 60, and returned the top 10 hits. The searches were queried against the PDB database in each instance, having downloaded the latest version before each run.
+	
+Hidden Markov Models (``HMMs") are a sensitive way of searching for sequence similarity, that can outperform tools such as BLAST in certain situations. A Markov Model can be thought of as representing each position in the sequence as being one of many different amino acid possibilities, which are weighted. This arise from the fact that not all amino acids are equally likely to appear adjacent to one another - for instance, a stretch of amino acids, all of which can form $\beta$-sheets, are more likely to appear near one another than would an amino acid which contributes to helices, and thus HMMs capture domain information very well.
+	
+	\todo[inline]{Test for bimodal distribution of HHpred E-value scores?}
+
+	The latest full table of results for each gene can be found in the supplementary information.
+	
+	
+	
+\section{Exploration of the structure of PVCs by functional unit}
+It has been made abundantly clear that it is insufficient to consider sequence similarity alone when comparing structural proteins. Sequences are at liberty to diverge, and if the structure they give rise to is particularly robust, the `space' that the sequence has to drift in is even larger. This is a generally observed phenomenon, but appears to be particularly true for many of the proteins in contractile tail structres. One postulate for this is that phage represent an extremely ancient domain of life, and spend a significant amount of their life cycle outside of the protective environment of the cell they infect. Thus their proteins have evolved over aeons to become particularly stable and robust. The arms race associated with infection cycles has also no doubt driven the diversification of these proteins in an effort to avoid immune mechanisms of their hosts. It has been observed many times in the related literature that, for example, the vgrG/gp5-gp27 spike complex of these caudate systems look almost identical structurally, with many of the same domains identifiable such as the OB-fold, yet may share as little as 12\% protein sequence identity, and due to the slower evolution of proteins sequences attributable codon redundancy, the corresponding DNA sequences may be even less similar.
+
+Consequently, we must make efforts to study the structure as best as possible. In silico methods are improiving all the time, and with more computer power than ever, simulations are becoming routinely feasible. threading approaches are not ideal as they are still too dependent on first identifyin sequence similarity. ab initio approaches allow the structures to be refined without a dependence on the sequence, which should offer an improvement. Structurally conserved proteins with a high degree of robustness should therefore naturally coalesce toward the same structure.
+
+\subsection{The PVC tube}
+\addfloat{Image of PVC1-5 in locus position}
+Among the better annotated genes at the outset of this work, the first 5 loci of the PVCs, are predicted to match phage tail tube proteins, though the existing annotations were not much more informative than this (the vast majority of which were ``hypothetical proteins"). After re-annotation, these genes are consistently annotated as T4-like virus tail tube or baseplate proteins (orthologs of gp6/gp19) and sheath proteins from the recently resolved \emph{Pseudomonas aeruginosa} R-type pyocin. From the resolved structure databases and literature, gp19 is known to be the inner sheath of the T4 bacteriophage (as can be seen in PDB IDs 5IV5 and 5W5F \citep{Taylor2016, Zheng2017}), and the outer sheath of PDB ID 3J9Q which corresponds to the resolved pyocin tube structure \citep{Ge2015a}. Over several iterations of homology searches with the HHpred suite, these 3 recent PDB depositions have come to be the most highly similar structures predicted, though in past results, the best hits have included Type 6 Secretion System components from \emph{Edwardsiella tarda} (for the outer sheath proteins).
+
+These proteins comprise the bulk of the PVC, with electron microscopy estimates suggesting that they are about 200 nm in length, and therefore probably include as many as 50 hexameric `donuts' of each, taking in to account the measurements in \vref{tubestructure}
+
+
+The upcoming figures demonstrate the simulated structure similarities to the published known structures. In each case, as there are up to 5 simulated models per locus, and up to 16 alleles, so for simplicity, the `best' model, from the best fitting is, and an conservation map by overlaying the multiple sequence alignments in Appedix BLAH  to encapsulate the variability, as well as a strucuture overlay.
+
+For the outer sheath, there are 3 loci, for there are 1 loci, so each of these are shown separately
+
+
+
+
+
+
+\addfloat{Immunogenicity profiling of exterior sheath}
+\addfloat{Electrostatic comparisons of interior tube proteins + general comparisons}
+\addfloat{comparisons of PVCs2,3,4 to try and understand their paralogy?}
+
+
+
+\addfloat{table of HHpred matches}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Discussion}
+PVCs are a hybrid between T4 and pyocin like structures, with an inner sheath most resembling the former, and an outer sheath the latter.
+
+
+
+
+\todo[inline]{Table of HHpred results in appendix}
+\todo[inline]{Correlation between sequence similarity and structure similarity}
+
+
+
+

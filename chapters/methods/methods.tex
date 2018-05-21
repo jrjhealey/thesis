@@ -1,0 +1,830 @@
+\pagestyle{IHA-fancy-style}
+\lhead{\textsf{Chapter II}}
+\rhead{\textsf{Materials \& Methodology}}
+
+
+\chapter{Materials \& Methodology}\label{methods}
+
+All methods from all chapters are collected here in detail, for clarity. Where appropriate, the methods have been reiterated at a higher level, in the context of the experimental workflow in their respective chapters.
+
+%\section{Materials Suppliers}
+%Unless indicated otherwise, materials were procured from the following manufacturers:
+%
+%\small
+%\begin{itemize}
+%\item \emph{PCR enzymes}: Invitrogen \emph{Taq} was purchased from ThermoFisher Scientific. Q5\textsuperscript{\textregistered} Polymerase was purchased from New England Biolabs (NEB).
+%\item \emph{Restriction Enzymes}: All restriction enzymes were purchased from New England Biolabs
+%\item \emph{Strains}: Most strains used in this study were provided by other labs, but those that were purchased came from New England Biolabs.
+%\item \emph{Oligonucleotides}: Primers and synthesised oligonucleotides were primarily purchased from Integrated DNA Technologies (IDT) or Sigma-Aldrich
+%\item \emph{Protein Purification Columns}: Gel filtration and IMAC columns were purchased from General Electric (GE) Healthcare
+%\item \emph{Media}: Most media is provided pre-made at the University of Warwick. Autoinduction Media is a Formedium product.
+%\end{itemize}
+%
+%
+%\normalsize
+
+
+\section{Bacterial Culture Techniques}
+The vast majority of this project, as a molecular and synthetic biology research project,  involved microbial culture and heterologous expression work. Despite being a thesis on the study of \Pa, almost all of the work conducted was in \emph{E. coli}. As a member of the \emph{Enterobacteriaceae}, \Pa{} is fairly closely related to \emph{E. coli}, thus much of the genetic work can be conducted in the considerably more tractable lab strain with few, if any, complications.
+
+\subsection{Strains}
+A number of specialist and host strains were used for various purposes and they are detailed in \vref{strains}, along with their purpose, and if available, their genotypes. With the exception of BL21(DE3) ``NiCo21"'s, which were purchased from New England Biolabs, and DY380 which was a gift from Donald Court\footnote{\url{https://redrecombineering.ncifcrf.gov/}}, all strains were present in the lab freezer stocks. Their original sources are provided in the table.
+
+\begin{landscape}
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\rowcolors{1}{gray!10}{white}
+\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}m{0.07\linewidth}  >{\raggedright\arraybackslash}m{0.415\linewidth} >{\raggedright\arraybackslash}m{0.32\linewidth}  >{\centering\arraybackslash}m{0.14\linewidth}}
+\hiderowcolors
+\caption[Strains]{\emph{E. coli} strains used throughout this work, their available genotypic data, and their originating source.}
+\label{strains}\\
+
+Strain  & Genotype & Purpose & Reference\\[0.5ex]
+\hline\hline
+\multicolumn{4}{p{\linewidth}}{\centering Cloning/Plasmid Maintenance Strains}\tstrut\bstrut \\
+\hline
+\showrowcolors
+DH5-$\alpha$ & F- \emph{endA1 glnV44 thi-1 recA1 relA1 gyrA96 deoR nupG purB20 $\phi$80dlacZ$\Delta$M15 $\Delta$(lacZYA-argF)U169, hsdR17(rK-mK+), $\lambda$-} \newline HB1100 derivatised strain from Bethesda Research Laboratories
+& High transformation efficiency general purpose cloning strain. Cloning and plasmid maintenance & \citep{Glover1995} \\
+
+DH10-$\beta$ (``TOP10") & F- \emph{endA1 deoR+ recA1 galE15 galK16 nupG rpsL $\Delta$(lac)X74 $\phi$80lacZ$\Delta$M15 araD139 $\Delta$(ara,leu)7697 mcrA $\Delta$(mrr-hsdRMS-mcrBC) StrR $\lambda$-} \newline MC1061 derivatised strain & High transformation efficiency general purpose cloning strain, reported to be more tolerant of large inserts/constructs. Maintenance of cosmids and large constructs & Invitrogen \\
+
+EC100 & F- \emph{mcrA $\Delta$(mrr-hsdRMS-mcrBC) $\phi$80dlacZ$\Delta$M15 $\Delta$lacX74 recA1 endA1 araD139$\Delta$(ara, leu)7697 galU galK $\lambda$- rpsL nupG}  & High transformation efficiency cloning strain for exceptionally large constructs (cosmids/BACs etc.) Used in this study to harbour cosmid library & Epicenter (Lucigen) \\
+
+S17$\lambda$\emph{pir} & \emph{TpR SmR recA, thi, pro, hsdR-M+RP4: 2-Tc:Mu: Km Tn7 $\lambda$pir}  & \Ec{} strain for maintenance of conjugable plasmids & Biomedal \\
+
+
+\hline
+\multicolumn{4}{p{\linewidth}}{\centering Expression Strains}\tstrut\bstrut \\
+\hline
+
+\hiderowcolors
+NEB ``NiCo21" BL21(DE3) & \emph{can::CBD fhuA2 [lon] ompT gal ($\lambda$ DE3) [dcm] arnA::CBD slyD::CBD glmS6Ala $\Delta$hsdS $\lambda$ DE3 = $\lambda$ sBamHIo $\Delta$EcoRI-B int::(lacI::PlacUV5::T7 gene1) i21 $\Delta$ nin5} \newline Derivatised BL21(DE3) with reduced proteases/IMAC contaminating proteins & IMAC optimised BL21 expression strain lysogenised with the DE3 prophage for T7-polymerase driven expression via IPTG induction & New England Biolabs \\
+\showrowcolors
+
+
+\hline
+\multicolumn{4}{p{\linewidth}}{\centering Recombineering Strains}\tstrut\bstrut \\
+\hline
+
+
+DY380 & F- \emph{mcrA $\lambda$(mrr-hsdRMS-mcrBC) $\phi$80dlacZ M15 $\Delta$lacX74 deoR recA1 endA1 araD139 $\Delta$(ara, leu) 7649 galU galK rspL nupG [ $\lambda$cI857 (cro-bioA) $<>$ tet]} \newline Derivatised DH10-$\beta$ strain with defective $\lambda$ prophage and temperature sensitive cI875 repressor  & Recombineering strain with the $\beta$, $\gamma$ and $exo$ proteins chromosomally located. Can be derepressed by temperature shift to 42\degC. Used in this study to modify cosmids and overcome plasmid shortcomings. & \citep{Lee2001} \\
+
+BW25113 & F- \emph{$\Delta$(araD-araB)567, lacZ4787($\Delta$)::rrnB-3, LAM-, rph-1, $\Delta$(rhaD-rhaB)568, hsdR514} \newline Derivative of K12 strain BD792 & Keio Collection WT Parent strain. A $\Delta$\emph{rfaH} strain was used in this study for regulation analysis experiments, and the wild type was retained as a control. & \citep{Baba2006} \\
+
+\end{tabularx}
+\end{landscape}
+\newpage
+
+\subsection{Culture Conditions}
+	\subsubsection{Media}
+		\paragraph{LB}
+		Routine culture of \emph{E. coli} and \Pa{} was conducted in standard Lysogeny Broth (LB) liquid media and agar plates, at 200 RPM in a shaking incubator (or static incubator for plates). The media is supplemented with 0.1\% pyruvate when culturing \Pa. For \Plum{} strains, cultures were grown at 28\degC{} due to their temperature intolerance.
+		\paragraph{SOC}
+		Super Optimal Media with catabolite repression (SOC), is a high glucose medium routinely used in the recovery culture phase of bacterial transformation. It is designed to be a rich media which reduces stress on the transformed cells, allowing them to optimally uptake the target DNA. In particular, the high glucose content in comparison to standard LB media is useful as it represses the pBAD promotor system (used quite extensively in this study - see \vref{plasmids}), helping to clone otherwise potentially toxic/recalcitrant targets.
+
+	\subsubsection{Antibiotics \& Media Supplements}\label{Antibiotics}
+	Various antibiotics and media supplements were used during this project. \vref{supplementtable} shows concentrations of compounds used.
+	
+	
+\begin{table}[H]
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\caption[Media Supplements]{Antibiotics and other media supplements, and the final concentrations for use.}
+\begin{tabularx}{0.7\textwidth}{ c c }
+Supplement & Working Concentration  \\[0.5ex]
+\hline\hline
+\multicolumn{2}{p{0.5\textwidth}}{\centering Antibiotics}\tstrut\bstrut \\
+\hline
+Ampicillin & 100 \ugml \\
+Kanamycin & 25 \ugml \\
+Chloramphenicol & 25 \ugml \\
+Gentamycin & 10 \ugml \\
+Tetracycline & 10 \ugml \\
+\hline
+\multicolumn{2}{p{0.5\textwidth}}{\centering Growth Supplements}\tstrut\bstrut \\
+\hline
+
+Pyruvate & 0.1 \% (w/v) \\
+\hline
+\multicolumn{2}{p{0.5\textwidth}}{\centering Expression}\tstrut\bstrut \\
+\hline
+
+Arabinose & 0.2\% (w/v) \\
+IPTG & 2 mM \\
+Tetracyline & 0.2 $\mu$M \\
+\hline
+\multicolumn{2}{p{0.5\textwidth}}{\centering Repression}\tstrut\bstrut \\
+\hline
+Glucose & 0.2\% (w/v) \\
+
+\label{supplementtable}
+\end{tabularx}
+\end{table}
+
+
+
+		
+\section{Molecular Techniques - Nucleic Acid Methods}
+
+\subsection{Purification of Nucleic Acids}
+	DNA isolation was a frequent task in the course of this work. Replicon DNA in the form of plasmids and cosmids was required for screening, cloning and expression purposes. Genomic DNA was purified for PCR templates and for assessment of recombination. This was performed exclusively via commercial kit. Manufacturers protocols were followed in every case, with some minor modifications, which are detailed in this section. In all cases, DNA once purified was stored at -20\degC.
+	
+	\subsubsection{Genomic DNA}\label{gdna}
+		Genomic DNA (gDNA) is isolated with the Qiagen ``Blood and Tissue" extraction kit, with the following modifications for bacterial culture:
+
+		 5 - 10 mL of overnight culture is set up in appropriate conditions (i.e. with selection if possible). Cells are pelleted at 7,000 RCF, 4\degC{} for 10 minutes. Pellets are resuspended in 180\ul{} of the manufacturer supplied ATL buffer, with 20\ul{} of the supplied Proteinase K mix added. RNAse H is optionally added if the DNA is to be used for next generation sequencing. From here the protocol proceeds directly to the manufacturers step 2, and follows the standard procedure until elution. Elution was conducted in 2 x 17.5\ul{} washes in AE buffer (unless it is to be used for sequencing, then H$_2$O or EB Buffer is used).
+
+	\subsubsection{Replicon DNA}
+			\paragraph{Plasmids}\label{Plasmids}
+		For plasmid isolation the Qiagen Miniprep Spin Kit was used according to the manufacturers instructions. 5 - 10 mL overnights of culture are prepared in appropriate conditions (e.g. for plasmids with selection, add antibiotics - see \vref{Antibiotics}). 10 mL of culture is used for lower copy number plasmids, to ensure adequate DNA recovery. Elution was conducted in 2 x 17.5 \ul{} washes, with molecular grade water instead of a single 50 \ul{} buffer wash. For isolation of cosmids, and plasmids in excess of $\approx$ 10 kbp, the same miniprep kit is used, but with the manufacturers suggested optional optimisations, namely: the optional wash with PB buffer is conducted, and elution buffer/water is preheated to 70\degC. 2 x 17.5 \ul{} washes are conducted as in plasmid preparation.
+
+\newpage
+	\subsection{Plasmids and Cosmids}
+	All plasmids were either bought, gifted or created in this study. Recombineering plasmids pKD46/pCP20/pJET-FRT-Cm/pJET-FRT-Kan were a kind gift from Dr. Helge Bode at Goethe University, Frankfurt. pET29a was received from Jenny Goodman, a fellow PhD student at Warwick.
+	
+	\vref{plasmidtable} details all the existing plasmids used in this study that have been previously constructed and/or published. \vref{customplasmids} details all the constructs produced during the course of this study. 
+	
+\begin{landscape}
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\rowcolors{1}{gray!10}{white}
+\begin{tabularx}{\linewidth}{ >{\centering\arraybackslash}m{0.13\linewidth} >{\raggedright\arraybackslash} m{0.68\linewidth} >{\raggedleft\arraybackslash} m{0.16\linewidth} }
+\hiderowcolors
+\caption[Plasmids]{Existing plasmids used as the bases for derivations listed in \vref{customplasmids}. All plasmids were either gifted, existed in lab stocks already, or purchased.}
+\label{plasmidtable}\\
+
+Plasmid Designation  & Purpose &  Reference\\[0.5ex]
+\hline\hline
+\multicolumn{3}{p{\linewidth}}{\centering Cloning/Expression Plasmid Bases}\tstrut\bstrut \\
+\hline
+\showrowcolors
+pBAD30 & Basic inducible expression vector. Arabinose inducible via \emph{araBAD} system, glucose repressible. Ampicillin resistant, with a p15 \emph{ori} (compatibility group B) and f1 \emph{ori} (compatibility group A). & \citep{Guzman1995} \\
+
+pET15b & Inducible expression vector. IPTG inducible via \emph{lac}/T7 polymerase system, glucose repressible. Ampicillin resistant, with ColE1 \emph{ori} (compatibility group A). The plasmid contains an N-terminal hexa-histidine tag with a thrombin cleavage site for in-frame tagging of recombinant protein and cleavage after purification. & Novagen \\
+
+pET29a & Inducible expression vector. IPTG inducible via \emph{lac}/T7 polymerase system, glucose repressible. Kanamycin resistant, with ColE1 \emph{ori} (compatibility group A). The plasmid contains a C-terminal hexa-histidine tag with a thrombin cleavage site for in-frame tagging of recombinant protein and cleavage after purification. Additionally contains an N-terminal Streptavidin tag. & Novagen \\
+
+pGAG1 & Promoterless GFP reporter `empty' vector. Conjugative plasmid requiring $\lambda$\emph{pir} \emph{E. coli} for propagation. & CITATION NEEDED \\
+
+pAGAG & Promoterless GFP bearing plasmid, without GFP start codon for promotor fusion reporter construct creation. Conjugative plasmid requiring $\lambda$\emph{pir} \emph{E. coli} for propagation. & CITATION NEEDED \\
+
+\hline
+\hiderowcolors
+\multicolumn{3}{p{\linewidth}}{\centering Recombineering Plasmids}\tstrut\bstrut \\
+\hline
+\showrowcolors
+
+pKD46 & $\lambda$Red plasmid bearing $\beta$, $\gamma$, and \emph{Exo} recombineering enzymes, under the arabinose inducible control of the \emph{araBAD} system. Ampicillin resistant, with the temperature sensitive \emph{ori} 101ts (compatibility group C) & \citep{Datsenko2000} \\
+
+pCP20 & FRT ``flippase" bearing plasmid for excision of regions surrounded by FRT recognition sites (typically after successful recombineering with pKD). Ampicillin and Chloramphenicol resistant, with the temperature sensitive \emph{ori} 101ts (compatibility group C). & \citep{Datsenko2000} \\
+
+pJET-FRT-Cm & Recombineering knockout cassette template plasmids bearing an FRT-flanked Chloramphenicol cassette. Ampicillin and Chloramphenicol resistant, with a ColE1 \emph{ori} (compatibility group A). & Helge Bode (derivatised Thermo Scientific Vector)\\
+
+pJET-FRT-Kan & Recombineering knockout cassette template plasmids bearing an FRT-flanked Kanamycin cassette. Ampicillin and Kanamycin resistant, with a ColE1 \emph{ori} (compatibility group A). & Helge Bode (derivatised Thermo Scientific Vector) \\
+
+\end{tabularx}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\rowcolors{1}{gray!10}{white}
+\begin{tabularx}{\linewidth}{ c >{\centering\arraybackslash} m{0.26\linewidth} >{\centering} m{0.08\linewidth} m{0.48\linewidth} }
+\hiderowcolors
+\caption[Custom Plasmids]{Cloned and/or derivatised plasmids created during the course of this study.}
+\label{customplasmids}\\
+
+Plasmid Designation & Insert & Backbone  & Function/Purpose\\[0.5ex]
+\hline\hline
+\multicolumn{4}{p{\linewidth}}{\centering Expression Constructs}\tstrut\bstrut \\
+\hline
+\showrowcolors
+
+pET15b\_\emph{pnf13} & PVC\emph{pnf} Putative Tail Fibre Gene & pET15b & PVC\emph{pnf13} Tail fibre cloned in-frame with the N-terminal hexa-histidine tag and thrombin cleavage site, for expression and purification via IMAC \\
+
+pET15b\_\emph{lumt13} & PVC\emph{lumt} Putative Tail Fibre Gene & pET15b & PVC\emph{lumt13} Tail fibre cloned in-frame with the N-terminal hexa-histidine tag and thrombin cleavage site, for expression and purification via IMAC \\
+
+pET29a\_\emph{pnf13} & PVC\emph{pnf} Putative Tail Fibre Gene & pET29a & PVC\emph{pnf13} Tail fibre cloned in-frame with the C-terminal hexa-histidine tag and thrombin cleavage site, for expression and purification via IMAC \\
+
+pET29a\_\emph{lumt13} & PVC\emph{lumt} Putative Tail Fibre Gene & pET29a & PVC\emph{lumt13} Tail fibre cloned in-frame with the C-terminal hexa-histidine tag and thrombin cleavage site, for expression and purification via IMAC \\
+
+\hline
+\multicolumn{4}{p{\linewidth}}{\centering Reporter Constructs}\tstrut\bstrut \\
+\hline
+
+pAGAG\_PB68.1PVCpnf & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{pnf} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{pnf} operon promoter fused to GFP\\
+
+pAGAG\_PB68.1PVClopT & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{lopT} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{lopT} operon promoter fused to GFP\\
+
+pAGAG\_PB68.1PVCcif & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{cif} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{cif} operon promoter fused to GFP\\
+
+pAGAG\_PB68.1PVCU1 & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{Unit1} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{Unit1} operon promoter fused to GFP\\
+
+pAGAG\_TT01PVCU4 & \emph{P. luminescens} TT01 PVC\emph{Unit4} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+
+pAGAG\_TT01PVClopT & \emph{P. luminescens} TT01 PVC\emph{lopT} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+
+pAGAG\_TT01PVCcif & \emph{P. luminescens} TT01 PVC\emph{cif} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+
+pAGAG\_TT01PVCU1 & \emph{P. luminescens} TT01 PVC\emph{Unit1} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+
+\end{tabularx}
+
+\end{landscape}
+
+\subsection{PCR}
+	\subsubsection{Primers}\label{primers}
+	All primers used in this study were purchased from Integrated DNA Technologies (IDT).
+
+\begin{table}[H]
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\caption[Primer Sequences]{Primer sequences used in this study for simple amplification and detection purposes - no sequence modifications. Annealing temperatures are given as per the IDT Oligoanalyzer's reported value, or, in the case of values in square parentheses, those given by NEB Tm Calculator (with 500 nM primer concentration and Q5 product group parameters).}
+\vspace{0.2cm}
+\begin{tabularx}{\linewidth}{ c c L  c  c }
+
+Primer Name  & Function & \multicolumn{1}{c }{Sequence (5' $\rightarrow$ 3')} & Tm ($^{\circ}\mathrm{C}$) & Length (bp)\\[0.5ex]
+\hline\hline
+no1\_F & \multirow{2}{*}{Detection of pJET} & CGCACTTCCAGACCCAGATC & 57.9 & \multirow{2}{*}{$\approx$1200}\\[0.5ex]
+no2\_R & &  GATGGAGTAAATGGTACCTTGGG & 55.1 & \\[0.5ex]
+
+Gam\_Bet\_F & \multirow{2}{*}{Detection of pKD/pCP} & TTTCACAGCTATTTCAGGAGTTC & 52.9 & \multirow{2}{*}{1112}\\[0.5ex]
+Gam\_Bet\_R & &  CATGCTGCCACCTTCTG & 53.8 & \\[0.5ex]
+
+T7\_Prom\_F & \multirow{2}{*}{T7 Sequencing Primer} & TAATACGACTCACTATAGGG & 46.5 [58] & \multirow{2}{*}{Varied}\\[0.5ex]
+T7\_Term\_R & &  GCTAGTTATTGCTCAGCGG & 46.5 [58] & \\[0.5ex]
+
+rfaH\_5'\_SP\_F & \multirow{2}{*}{rfaH Knockout Sequencing Primer} & CAACTTCACGCAGCG & 51.4 [62] & \multirow{2}{*}{Varied}\\[0.5ex]
+rfaH\_3'\_SP\_R & & TATGACATTGCTGGAGCC & 52.2 [62] & \\[0.5ex]
+
+
+\label{primertable}
+\end{tabularx}
+\end{table}
+\todo[inline]{Finish populating all primer tables}
+
+\begin{landscape}
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+
+
+\begin{tabularx}{\linewidth}{c  c  L c  c }
+\caption[Functionalised Primer Sequences]{Primers for specialist purposes, harbouring modifications, including restriction sites for cloning and overlap homologies for recombineering and Gibson Assembly. Restriction Sites are shown in \textbf{bold}. Overlap homology is shown \underline{underlined} Annealing temperatures shown in [ ] are specific to NEB's Q5 Polymerase. F: Forward Primer, R: Reverse Primer, bp - Base Pair.}
+\label{specprimers}\\
+
+Primer Name  & Function/Target  & \multicolumn{1}{c}{Sequence (5' $\rightarrow$ 3')} & Tm ($^{\circ}\mathrm{C}$) & Length (bp)\\
+\hline\hline
+\multicolumn{5}{p{\linewidth}}{\centering Classical Cloning}\tstrut\bstrut\\
+\hline\tstrut\bstrut
+
+PVCpnf13-NdeI\_F & \multirow{3}{*}{\emph{pnf} Tail Fibre} & GAGTTA\textbf{CATATG}AACGAAACTCGTTATAATGC & [67] & \multirow{3}{*}{1548} \\
+PVCpnf13-BamHI\_R & & TTTTCA\textbf{GGATCC}TTAAAGCTTTATGATGAAAGC & [67] &  \\
+PVCpnf13-KpnI\_R & & TTTTCA\textbf{GGTACC}AAAAGCTTTATGATGAAAGC & [67] & \\
+
+PVClumt13-NdeI\_F & \multirow{3}{*}{\emph{lumt} Tail Fibre} & GCCGGA\textbf{CATATG}GACAACAAAAATAAC & [67] & \multirow{3}{*}{675} \\
+PVClumt13-BamHI\_R & & TTACTT\textbf{GGATCC}TTACACAACCTTAATCATATAG & [67] &  \\
+PVClumt13-KpnI\_R & & TTACTT\textbf{GGTACC}AACACAACCTTAATCATATAG & [67] & \\
+
+%
+rfaH\_EcoRI\_F & \multirow{2}{*}{\emph{rfaH}} & ACAGGT\textbf{CATATG}GAATTAAATGAGTTAACTAACAAATT & [71] & \multirow{2}{*}{500} \\
+rfaH\_SalI\_R & & CTA\textbf{GTCGAC}TTAGAGTTTGCGGAACTCG & [71] & \\
+
+\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\multicolumn{5}{p{\linewidth}}{\centering Gibson Assembly}\tstrut\bstrut \\
+\hline\tstrut\bstrut
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+pBAD30frag\_F & \multirow{2}{*}{pBAD30} & \underline{ATGTAATTAATTCAACCATCACGGAGAGTTTATCA}ACGCCGTAGCGCCGATGGTAGTGTGGGGTCTCCCC & [72] & \multirow{2}{*}{4791} \\
+pBAD30frag\_R & & \underline{CTTGTAGACATAAAAGCCCCTTTTTAGACAAAAAA}TAGCCCAAAAAAACGGGTATGGAGAAACAGTAGAG & [72] &  \\
+
+PNFfrag1\_F & \multirow{2}{*}{PVC\emph{pnf} 1-8} & \underline{CTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTA}TTTTTTGTCTAAAAAGGGGCTTTTATGTCTACAAG & [72] & \multirow{2}{*}{7181} \\
+PNFfrag1\_R & & \underline{GTGTCAGTATTTGATTTTCCATTCATCGTCACCTT}TCATTGGGTAAGATTAATTTTTGCGCCTTTGATTT & [72] &  \\
+
+PNFfrag2\_F & \multirow{2}{*}{PVC\emph{pnf} 9-12} & \underline{AAATCAAAGGCGCAAAAATTAATCTTACCCAATGA}AAGGTGACGATGAATGGAAAATCAAATACTGACAC & [72] & \multirow{2}{*}{6039} \\
+PNFfrag2\_R & & \underline{TCTTGTACAGTTGCATTATAACGAGTTTCGTTCAT}GATTAACTCCAGAAAACATATTTAATTCAACATCA & [72] &  \\
+
+PNFfrag3\_F & \multirow{2}{*}{PVC\emph{pnf} 13-15} & \underline{TGATGTTGAATTAAATATGTTTTCTGGAGTTAATC}ATGAACGAAACTCGTTATAATGCAACTGTACAAGA & [72] & \multirow{2}{*}{5514} \\
+PNFfrag3\_R & & \underline{TTATTGACATCAATAATAGTTTGCGTGTTTAACAT}AAAAAACCTCTCTTAAATTATATCGTGATAACTTT & [72] &  \\
+
+PNFfrag4\_F & \multirow{2}{*}{PVC\emph{pnf} 16-18} & \underline{AAAGTTATCACGATATAATTTAAGAGAGGTTTTTT}ATGTTAAACACGCAAACTATTATTGATGTCAATAA & [72] & \multirow{2}{*}{4416} \\
+PNFfrag4\_R & & \underline{GGGGAGACCCCACACTACCATCGGCGCTACGGCGT}TGATAAACTCTCCGTGATGGTTGAATTAATTACAT & [72] &  \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noalign{\let\noalign\relax\pagebreak}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hline
+\multicolumn{5}{p{\linewidth}}{\centering Recombineering Primers}\tstrut\bstrut\\[0.5ex]
+\hline\tstrut\bstrut
+$\psi$endA\_no1\_F & \multirow{2}{*}{\emph{endA} Deletion site} & \underline{AAACAGCTTTCGCTACGTTGCTGGCTCGTTTTAACACGGAGTAAGTGATG}CGCACTTCCAGACCCAGATC & [72] & \multirow{2}{*}{1100}\\
+$\psi$endA\_no2\_R & & \underline{GTTAACAAAAAGAATCCCGCTAGTGTAGGTTAGCTCTTTCGCGCCTGGCA}GATGGAGTAAATGGTACCTTGGG & [72] &\\
+
+speB\_no1\_F & \multirow{2}{*}{\emph{speB}} & \underline{GTTTTACCCGTGCGCATCGCATCTGGTGCTTACTCGCCCTTTTTCGCCGC}CGCACTTCCAGACCCAGATC & [72] & \multirow{2}{*}{1100} \\
+speB\_no2\_R & & \underline{GACGCGGAAGGGTTTTTTTATATCGACTTTGTAATAGGAGTCCATCCATG}GATGGAGTAAATGGTACCTTGGG & [72] &\\
+
+hyfC\_no1\_F & \multirow{2}{*}{\emph{hyfC}} & \underline{GTTTTACCCGTGCGCATCGCATCTGGTGCTTACTCGCCCTTTTTCGCCGC}CGCACTTCCAGACCCAGATC & [72] & \multirow{2}{*}{1100} \\
+hyfC\_no2\_R & & \underline{GACGCGGAAGGGTTTTTTTATATCGACTTTGTAATAGGAGTCCATCCATG}GATGGAGTAAATGGTACCTTGGG & [72] &\\
+
+\end{tabularx}
+\end{landscape}
+\newpage
+
+\subsubsection{\emph{Taq} \& Colony PCR}
+For colony PCR, and applications where sequence fidelity was not absolutely necessary (e.g. band shift assessment), \emph{Taq	} polymerase was used, purchased from Invitrogen. Typical reaction composition and cycling parameters are laid out in \vref{taqreaction}. The enzyme was used largely according the the manufacturers protocol.
+
+For rapid screening of transformed bacteria and detection of sequences in colonies/culture, colony PCR was used. Single colonies, or 5\ul{} of liquid culture, are resuspended in 50\ul{} of molecular grade water, boiled at 100\degC{} for 10 minutes and pelleted at 16,000 RCF for 1 minute. 5\ul{} of supernatant can then be used in place of the standard 1\ul{} of DNA template (offsetting the volumes with reduced water content in the PCR), to give good amplification.
+
+\vspace{0.3cm}
+\begin{table}[H]
+\centering
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\caption[Taq PCR Parameters]{PCR set up for use with \emph{Taq} polymerase. Subtable \textbf{(a)} shows typical thermocycling conditions. Subtable \textbf{(b)} shows a typical reaction composition. For colony PCR, 5\ul{} of DNA template is substituted and offset against the final volume of water added.}\label{taqreaction}
+
+\begin{subtable}[t]{0.65\linewidth}
+       \raggedright
+       \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize}
+       \caption{}
+       \begin{tabular}[t]{l p{1.6cm} c c}
+	 Step                            &                                             & Temperature (\degC)    & Time (m:s) \\
+	 \hline
+	 Initial Denaturation  &   					  &     94                      &      3:00 \\
+            Denature                    & \rdelim\}{3}{5mm}[ 29X Cycles] &     94                     &      0:45 \\
+            Anneal                        &  					   & \emph{Tm} - 3    &      0:30 \\
+            Extend                        &  					   &     72                     &      1:30 kb$^{-1}$ \\
+            Final Extension         &  						   &     72                     &      10:00 \\
+            Hold                            &   					   &       4                      &      Indefinitely \\ 
+     \end{tabular}
+\end{subtable}
+\hfill
+\begin{subtable}[t]{0.3\linewidth}
+\centering
+\captionsetup{singlelinecheck=off, justification=centering, font=footnotesize}
+\caption{}
+     \begin{tabular}[t]{l c}
+            Reagent    		     	&	Volume (\ul) \\
+            \hline
+            \emph{Taq} Buffer  	& 	5\\
+            \MgCl{} 			& 	0.75 \\
+            dNTPs 			& 	0.5 \\
+            Primer 1 			& 	1.25 \\
+            Primer 2 			& 	1.25 \\
+            Template 			& 	$\approx$ 1\\
+            Polymerase 		& 	0.3 \\
+            H$_2$O 			& 	to 25 \\
+            \end{tabular}
+\end{subtable}
+\end{table}
+
+\hrule
+
+\normalsize
+	\subsubsection{Q5}
+	For all cloning experiments and use cases where sequence fidelity was crucial, the high-fidelity enzyme Q5 was used, from New England Biolabs. Reactions were performed as per the manufacturers protocol, however reaction size was reduced, proportionally, to 20\ul.
+	
+	Annealing temperatures for reactions when using Q5 are non-standard. As such, annealing temperatures are recalculated with the online tool provided by NEB\footnote{\url{http://tmcalculator.neb.com/\#!/}}. Annealing temperatures are given in the primer table in \vref{primers}.
+\vspace{0.3cm}
+\begin{table}[H]
+\centering
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\caption[Q5 PCR Parameters]{PCR set up for use with Q5 polymerase. Subtable (a) shows typical thermocycling conditions. Subtable (b) shows a typical reaction composition.}\label{q5reaction}
+
+\begin{subtable}[t]{0.65\linewidth}
+       \raggedright
+       \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize}
+       \caption{}
+       \begin{tabular}[t]{l p{1.6cm} c c}
+	 Step                            &                                             & Temperature (\degC)    & Time (m:s) \\
+	 \hline
+	 Initial Denaturation  &   					  &     98                      &      0:30 \\
+            Denature                    & \rdelim\}{3}{5mm}[ 39X Cycles] &     98                     &      0:15 \\
+            Anneal                        &  					   & \emph{Tm} - 3    &      0:15 \\
+            Extend                        &  					   &     72                     &      0:30 kb$^{-1}$ \\
+            Final Extension         &  						   &     72                     &      10:00 \\
+            Hold                            &   					   &       4                      &      Indefinitely \\ 
+     \end{tabular}
+\end{subtable}
+\hfill
+\begin{subtable}[t]{0.3\linewidth}
+\centering
+\captionsetup{singlelinecheck=off, justification=centering, font=footnotesize}
+\caption{}
+     \begin{tabular}[t]{l c}
+            Reagent    & 	Volume (\ul) \\
+            \hline
+            Q5 Buffer    &  	2.5\\
+            dNTPs 	  & 	0.75 \\
+            Primer 1 	  & 	1.25 \\
+            Primer 2 	  & 	1.25 \\
+            Template 	  & 	$\approx$ 1\\
+            Polymerase & 	0.25 \\
+            H$_2$O 	  & 	to 20 \\
+            \end{tabular}
+\end{subtable}
+\end{table}
+
+\hrule
+		
+	\subsubsection{Post-PCR Clean-up}\label{pcrcleanup}
+	After PCR, gel extraction, and restriction digests, it is necessary to clean up nucleic acid samples, to remove residual buffers, additives, enzymes and DNA fragments. PCR clean up in this study was performed with the GE Healthcare ``illustra GFX" PCR DNA and Gel Band Purification Kit, as per the manufacturers instructions. The same elution modification is made as detailed in \vref{Plasmids}
+	
+	\subsubsection{Quantification}
+	\paragraph{Platereader}
+	Routine nucleic acid quantification was performed by measuring absorbance at 260 nm on the BMG Labtech SPECTROstar Nano microplate reader with the LVis plate insert. 1-2\ul{} of sample or blank is pipetted on to the plate in duplicate, absorbance measured and an average of the 2 returned values was taken as the DNA concentration of the sample.
+	
+%	\paragraph{Qubit$^{\circledR}$ Fluorimetry Assay}
+%	For more accurate DNA concentration determination, the Qubit fluorimetric dye based-assay from Invitrogen was used. High specificity or broad range kits were used depending on what range in input sample fell within. The kit was typically used with a 1:200 dilution of sample in working solution, and conducted as per the manufacturers instructions. New standards were prepared every time quantification was performed.
+%	
+\subsection{Agarose Gel Electrophoresis}
+	For sequences of between approximately 1-4 kb 1\% gels (w/v) were used. Larger DNA fragments were typically run on 0.8\% gels. For a ``mini-gel", 0.5 g of agarose powder  is added to 50 ml of 1X concentration Tris-Acetate-EDTA (TAE) buffer (and scaled appropriately for larger gels). The mixture is microwaved until the agarose is melted and the solution is completely clear. SYBR$^\circledR$-safe gel stain is added to the mixture at a 1:10,000X dilution. The liquid gel is poured in to casting trays with the appropriate comb for the number of wells required, and left to set for approximately 30 minutes. Gels were run in tanks containing 1X TAE, at 100 Volts for between 30-40 minutes, or until the loading dye cloud reached the bottom of the gel. Visualisation was performed using the GelDoc transillumination cabinet. To size the bands and act as a positive control for imaging, samples were run with Bioline Hyperladder 1kb, 100bp or NEB 2-log DNA ladders.
+		\small
+		\begin{itemize}
+		\item 50X Stock TAE Buffer (pH 8.2-8.4):
+			\begin{itemize}
+			\item 2 M Tris Base ($\mathrm{C}_{4}\mathrm{H}_{11}\mathrm{NO}_{3}$)
+			\item 57.1 mL Glacial Acetic acid ($\mathrm{CH}_{3}\mathrm{COOH}$)
+			\item 50 mM EDTA ($\mathrm{C}_{10}\mathrm{H}_{16}\mathrm{N}_{2}\mathrm{O}_{8}$)
+			\end{itemize}
+		\end{itemize}
+		\normalsize
+	
+	\subsubsection{Gel Extraction}
+	Gel extraction was used for isolating correct length fragments among mixed populations, or for separating products from their templates to avoid carry through of plasmids etc. A normal agarose gel is prepared, and then visualised by eye on a blue light or ultraviolet transillumination box after running. A scalpel is used to slice out the required band, and added to purification buffer from the PCR clean-up kit as detailed in \vref{pcrcleanup}. Extraction of the DNA from the agarose is performed as per the manufacturers instructions.
+	
+\subsection{Classical Cloning}
+	\subsubsection{Restriction Enzyme Digestions}\label{digestion}
+	Restriction enzymes are selected for cloning by ensuring their restriction sites are not present within the insert used, and whenever possible, 2 different enzymes are chosen for orientation and compatibility with the vector of choice, as well as ideally having complementary incubation temperatures and buffers. All restriction enzymes used in this study were purchased from New England Biolabs, and are detailed in the primer table in \vref{primertable}, highlighted in bold.
+	
+	Restriction digests were conducted mostly according to the manufacturers instructions. The reaction mixes were prepared as follows, to 40 $\mu$l total reaction volume: 4\ul{} reaction buffer, 0.4\ul{} of respective pairs of nucleases (unless specifically directed), a volume of DNA preparation to give between 700-1000 ng total DNA and lastly, nuclease-free water to the final reaction volume. NEB's website is referred to in order to work out buffer compatibility for enzyme pairs. When enzymes do not have the same buffer compatibility or incubation conditions, serial incubations were performed and a PCR clean up is performed between the first and second enzyme incubation.
+	
+	Digestions were typically left for $\approx$ 4 hours at 37\degC{} (unless specifically directed otherwise be the manufacturer. Overnight digestions were used when enzymes had no star activity, at a room temperature.
+
+	\subsubsection{Vector Dephosphorylation}
+	For difficult or low efficiency cloning, dephosphorylation of the vector to avoid self-ligation and recircularisation was conducted. Antarctic Phosphatase from NEB was used, according to the manufacturers instructions, as it can be inactivated by heating at 80\degC{} for 2 minutes, meaning that a subsequent clean up was not needed, preserving concentrations of DNA for transformation.
+
+	\subsubsection{Ligation}
+Ligation reactions were performed using T4 ligase from NEB in 10\ul{} total volume at room temperature for 1 hour as per manufacturer instructions, or overnight for less efficient reactions. Routinely, 3 different ligation insert:vector molar ratios (1:1, 3:1, 10:1) were used as it is often not possible to know ahead of time which will perform optimally. The mass of insert to use which corresponds to the above ratios is calculated like so:\\
+
+\begin{align}\label{ligationcalculation}
+{ng}_{Insert}  = { R \times {\left({ng}_{Vector} \times {bp}_{Insert} \over {bp}_{Vector} \right)}} \\
+\eqname{Molar Ratio Ligation Calculation} \
+\end{align}
+\myequations{Molar Ratio Ligation Calculation}
+
+
+
+\noindent where $R$ is the ratio you intend to use, ${ng}_{Vector}$ is the nanogram amount of vector DNA used (usually 30 ng); and ${bp}_{Insert}$, ${bp}_{Vector}$ are the sizes in basepairs of the insert and vector respectively.
+
+\subsection{Gibson Assembly}
+Gibson assembly was performed using the NEBuilder HiFi Gibson Assembly mastermix, as described by the manufacturer. Exceptions to the manufacturers 'one-pot' protocols were made for sequential assembly - i.e. for multiple fragment assembly, adjoining pairs (``A", ``B" \& ``C", ``D") were assembled in 2 reactions for 1 hour, then reactions combined to join fragments ``AB" with ``CD" for an additional hour to try and achieve a full size ``ABCD" fragment. DNA amounts and concentrations were altered from the manufacturers specifications in an experiment-dependant manner, and were optimised each time.
+
+Gibson primers were always designed with 35 basepair overlap homology on each side of a fragment joint. These could be easily PCR'd with Q5 at a Tm of 72\degC.
+
+\subsection{Transformation}
+
+\subsubsection{Creation of Chemically Competent Cells}
+		Overnight cultures were used to inoculate 100 mL LB media at a dilution of 1:100. Cultures were grown to exponential phase when the optical density at 600 nm (OD$_{600}$) reached between 0.4-0.5 and were then placed on ice for 10-15 minutes. The bacteria were then prepared for chemical competency via pelleting by centrifugation (4000 RCF and 4\degC{} for 10 minutes) resuspending in 20 ml of ionic Solution I (see below). Samples were kept on ice for 10 min and re-centrifuged. The pellet was then resuspended in 4 ml of Solution II for storage. Aliquots (50\ul) were placed on dry ice and stored at -80\degC{} for later use.
+		\small
+		\begin{itemize}
+		\item Solution I (pH 5.6-6):
+			\begin{itemize}
+			\item 10 mM Sodium Acetate ($\mathrm{C}_{2}\mathrm{H}_{3}\mathrm{Na}\mathrm{O}_{2}$)
+			\item 50 mM \MnCl
+			\item 5 mM NaCl
+			\end{itemize}
+		\item Solution II (pH 5.6-6):
+			\begin{itemize}
+			\item 10 mM Sodium Acetate ($\mathrm{C}_{2}\mathrm{H}_{3}\mathrm{Na}\mathrm{O}_{2}$)
+			\item 5\% glycerol
+			\item 70 mM \CaCl
+			\item 5 mM \MnCl
+			\end{itemize}
+		\end{itemize}
+		\normalsize
+
+\subsubsection{Heat-shock Transformation of Chemically Competent Cells}
+Transformation of commercial chemically competent bacteria was performed exactly as detailed in the manufacturers accompanying instructions. For `homemade' competents, cells were thawed on ice and 3\ul{} of plasmid or ligation reaction mix added. The cell/DNA mix was incubated on ice for 20 min and then heat shocked at 42\degC{} for 1 minute, followed by chilling on ice for 5 further minutes. After which, 1 mL of SOC media is added to the cells and they are recovered at 37\degC{} (except in the case of temperature sensitive replicons where 30\degC{} is used) for 1 hour. After recovery, 100\ul{} is plated on to appropriate selection plates (see \vref{Plasmids} and \vref{Antibiotics} for details). The remaining culture is pelleted at 13,000 RCF and resuspended in 100\ul{} SOC, then secondarily plated. Plates are then incubated at 37\degC{} unless temperature sensitive. Closed vector was routinely used as a transformation efficiency control.
+Successful transformation was checked for incorporation of inserts by colony PCR and/or diagnostic restriction digest. Successful clones were sent for sequencing, to assess the fidelity of the insert (see \vref{Sanger}).
+
+\subsubsection{Electrocompetent Cells}\label{electrocompetents}
+For recombineering protocols (see \vref{recombineering}), recalcitrant transformations, and transformation of large plasmids/cosmids, cells were typically transformed via electroporation instead of heat shock. Additionally, \emph{Photorhabdus}, does not tolerate the process of induced chemical competence, and so electroporation was a routine transformation protocol in these cases.
+
+\paragraph{\emph{E. coli}}
+For \emph{E. coli}, an appropriate number of 100 mL LB cultures for the intended number of transformations and controls, were inoculated from overnight cultures, at a 1:100 dilution. 100 mL provides approximately 100\ul{} of final cell volume. Cultures are incubated until they reach \OD{} 0.4-0.6. At this point, cells were chilled on to ice for 20 minutes. The culture was split in to 2 x 50 mL falcon tubes and centrifuged at 4000 RCF, 4\degC, for 10 minutes. Each pellet was then resuspended in 1 volume equivalent (50 mL) of ice cold sterile water to wash. Cells were re-pelleted as before. The ice cold water wash is repeated a further 2 times, each time in half the volume equivalent of the previous step. Cells were finally resuspended in 100\ul{} of ice cold sterile water ready for electroporation. Biorad 0.2 cm gap, long electrode cuvettes were used specifically, and were kept chilled right up until electroporation.
+
+Electroporation was conducted at 2.5 kV, 25 $\mu$F, 200 $\Omega$. Time constants between 4.9 - 5.4 were typically indicative of a successful electroporation. Immediately after pulsing, 1 mL of SOC media was added to the cells and they were recovered for 1 hour, shaking, at 37\degC{} (unless transforming temperature sensitive replicons). After recovery, cultures were plated on to appropriate selection media, as described earlier.
+
+
+\paragraph{\Pa}
+For \Pa, no protocols currently exist that are sufficiently optimised to reliably produce chemically competent cells. In order to create competent \Pa{} electroporation was used as the routine method of transformation. Cultures were grown to OD$_{600}$ 0.2 and then chilled on ice for 90 minutes, followed by centrifugation at 4000 x g and 4\degC{} for 10 minutes. In the same manner as for \emph{E. coli} described above, cells were washed 3 times with HEPES buffer (1 mM HEPES, pH 7.0, 5\% sucrose) in 1:1 volume equivalent, followed by a 0.5 equivalent, pelleting as above, between each round. The cells were finally resuspended HEPES in 0.001 volume of original culture, and chilled on ice for electroporation. Electroporation cuvettes were also chilled on ice and 50\ul{} of cells added to each, with 10\ul{} of DNA for transformation. Electroporation parameters were: 2.3 kV, 200, 25 $\mu$F and $\Omega$. Cells were then transferred to 1 mL of LB media containing 0.1\% pyruvate and 1 mM MgCl$_2$, and incubated at 30\degC{} for 2-3 hours followed by re-plating on to selective LB plates, incubated at room temperature in the dark.
+
+		\small
+		\begin{itemize}
+		\item \Pa{} Electroporation Wash Buffer (pH 7.0):
+			\begin{itemize}
+			\item 1 mM HEPES ($\mathrm{C}_{8}\mathrm{H}_{18}\mathrm{N}_{2}\mathrm{O}_{4}\mathrm{s}$)
+			\item 5\% Sucrose $\mathrm{C}_{12}\mathrm{H}_{22}\mathrm{O}_{11}$)
+			\end{itemize}
+		\end{itemize}
+		\normalsize
+	
+
+
+\subsection{Recombineering}\label{recombineering}
+The recombineering protocol devised in this work is a modified version of the electroporation protocol, with an included induction step for the recombineering enzymes.
+
+\subsubsection{Preparation of Linear Oligonucleotides}
+Primers to create the recombination cassette can be seen in \vref{specprimers}. Primers are designed such that they contain 50 nucleotides of homology to the target insertion site, with 20 nucleotides of cassette priming nucleotides 3' to the homology. Primers with a total length of 70 basepairs are amplified exclusively with Q5 (see \vref{q5reaction}). In order to ensure there is no carry through when using helper plasmids as template, all linear oligos were gel extracted, treated with DpnI digestion, and finally PCR purified.
+
+\subsubsection{Electroporation-Recombination using $\lambda$-Red Bearing Plasmids}\label{pKD}
+\emph{E. coli} harbouring plasmid pKD46 or pKD56 (see \vref{plasmidtable} were cultured overnight at 30\degC, as they contain a temperature sensitive origin of replication. The following day, 100 mL cultures are set up with a 1:100 dilution of the overnight. Cultures were grown (at 30\degC) until \OD{} 0.1, split in half, and one half was induced with 0.2\% Arabinose (for pKD46) or 0.2 $\mu$M tetracycline (for pKD56). The remaining half was retained as a non-induced control. The cultures continue to be grown until \OD{} 0.4-0.6 is reached, at which point the cells are chilled, washed and prepared for electroporation in the same manner as in \vref{electrocompetents}.
+
+Electroporation was conducted with the previously detailed parameters for \emph{E. coli}, using $\approx$ 400 ng of linear DNA - though this may need optimisation on a per-experiment basis. For co-electroporation of linear modifying oligo with the target replicon, a low replicon to cell ratio is used and a maximum of 1 ng of replicon DNA.
+
+To calculate this, 100\ul{} of cells from 50 mL of OD 0.4 culture should be approximately 1.6${\times}10^{10}$ cells in total (or 1.6${\times}10^{8} \mu\mathrm{L}^{-1}$), and double stranded DNA copy number can be calculated as follows:
+
+\begin{align}\label{dnacopies}
+{dsDNA}\ {(mol)}   = {\left( {mass}\ {(g)} \over Length\ (bp) \times 617.96\ g\ mol^{-1} + 36.04\ g\ mol^{-1} \right)}  \times \mathrm{N}_{A}\\
+\eqname{Conversion from mass and length of DNA to copy number} \
+\end{align}
+\myequations{Conversion from mass and length of DNA to copy number}
+
+\noindent where $\mathrm{N}_{A}$ is Avogadro's Constant.
+
+\subsubsection{Electroporation-Recombination with $\lambda$-Red Chromosomal Strains}
+The same workflow as detailed above in \vref{pKD} is followed for the recombineering strain DY380 which bears all the recombineering enzymes within the chromosome (see \vref{strains}), with the exception that induction is conducted at \OD{} by heat-shock at 42\degC{} for 15 minutes, and selection for the strain is done with tetracyline. 
+
+
+\subsection{Sequencing}
+	\subsubsection{Di-deoxy-chain-termination (Sanger) Sequencing}\label{Sanger}
+	Routine short amplicon ($\leq$1400 bp) sequencing of cloning constructs and for validation purposes was performed via the departmental outsourcing service to GATC Biotech, Germany. As Sanger sequencing is error prone, especially near the ends of an amplicon, sequence-sensitive applications were sequenced several times over.
+	Primers used for routine sequencing/confirmation can be seen in \vref{primers}.
+	
+	\subsubsection{Next Generation}
+	As the PVC operons are larger than is amenable to the vast majority of routine techniques (constructs might be anywhere from 20-50 kb), they were occasionally sequenced in-house on the Illumina MiSeq platform. They could be easily assembled in to single contigs after discarding contaminating host reads - see \vref{assembly}. Libraries were prepared according to the manufacturers specifications, using the paired-end 2x250bp Nextera XT kit.
+
+
+
+
+\section{Molecular Techniques - Protein Methods}
+\subsection{Expression}
+	Expression from pET vector constructs was trialled under a couple of standard conditions (\vref{tailfibres}). The T7 polymerase dependence of these plasmids meant that after construction in \Ec, the plasmids were miniprepped and transferred in to the NEB strain, NiCo21(DE3) in order to be expressed. This strain is optimised for the expression of proteins which are poly-histidine tagged, as a number of common proteins which contaminate affinity chromatography procedures have been engineered to reduce affinity, or tagged to allow secondary removal \citep{Bolanos-Garcia2006, Robichon2011}.
+
+Strains bearing the relevant construct were grown overnight in a small flask to provide enough volume for subsequent dilution. On the second day, up to 6 $\times$ 2 L flasks with 1 L of fresh media were inocculated at a 1:100 dilution. For any single purification round, only 2 L worth of pellet was used, but the remaining culture could be pelleted and flash frozen for use at a later time. The 1 L cultures were allowed to grow to an OD$_{600nm}$ of 0.4-0.6, at which point they were induced by addition of IPTG to a final concentration of 2 mM. Cultures were left to grow overnight at a reduced temperature of 25\degC.
+
+\subsection{Harvesting}
+On the day following large scale culture, cells are harvested by centrifugation at 5,000 RCF for 20 minutes in appropriate large volume centrifuge bottles, using a high-speed centrifuge. 6 x 1 Litre cultures were reduced by pelleting in to 3 pellets derived from 2 litres each. At this point, pellets could be flash frozen for long term storage, which was typically done with 2 of the 3 pellets, proceeding directly to lysis and purification with the remaining one.
+
+\subsection{Lysis}
+The retained pellet is stored on ice whenever possible during purification. Each pellet was resuspended in 30 mL of lysis buffer, with EDTA-free total protease inhibitors. Cells are lysed and protein released by sonication with a needle sonicator via repeated 1 minute sonication cycles 3 to 5 times. Alternatively, cells can be lysed with a homogenised, french press or other technique. After lysis, the solution is centrifuged at high speed (50,000 RCF) for 30 minutes at 4\degC{} to remove cellular debris. The clarified supernatant is retained, ready for column loading.
+
+At the same time as preparing the lysis buffer, an elution buffer is also prepared:
+
+
+		\small
+		\begin{itemize}
+		\item Lysis Buffer (pH 7.4):
+			\begin{itemize}
+			\item 500 mM \NaCl{}
+			\item 20 mM \NaPO{}
+			\item 10 mM Imidazole
+			\item 10\% (v/v) Glycerol
+			\end{itemize}
+		\item Elution Buffer (pH 7.4):
+			\begin{itemize}
+			\item 500 mM \NaCl{}
+			\item 20 mM \NaPO{}
+			\item 500 mM Imidazole
+			\item 10\% (v/v) glycerol
+			\end{itemize}
+		\end{itemize}
+		\normalsize
+	
+Additional additives, if compatible with the columns to be used, can be supplemented in to these buffers. In this project, 2 mM di-thio-threitol (DTT), 2 M urea and 2 mM Zinc Chloride were additionally tested to remove further impurities - see \vref{tailfibres}.
+
+\subsection{Purification}
+\subsubsection{Immobilised Metal-ion Affinity Chromatography}
+The expressed proteins were poly-histidine tagged to allow for various follow up techniques such as western blots, nano-bead immobilisation, but also for purification via Immobilised Metal ion Affinity Chromatography (IMAC). For this, Hi-Trap 5 mL IMAC columns were purchased from GE Healthcare. Columns were maintained and prepared as per the manufacturers instructions, and in this case, were charged with Nickel-II Chloride as the metal ion.
+
+The lysate from sonication is cycled through the column via a peristaltic pump (or chromatography apparatus). The longer the lysate is cycled through the pump the better retention of proteins, but care is taken to avoid adding air bubbles on to the column which would ruin the chromatogram. As a minimum, it was ensured that all the lysate was cycled through the column at least once.
+
+Once the column was loaded, it was processed on an Aktä Pure 2 Fast Protein Liquid Chromatography machine, or an Agilent High Performance Liquid Chromatography machine as soon as possible. The column was first washed by pumping $\geq$ 4 column volumes of buffer A (lysis buffer) through to remove loosely bound impurities. A gradient elution was then used, whereby buffer B (elution buffer listed above) is mixed steadily with the flow of buffer A, until the flow is 100\% buffer B, causing ionically bound proteins to disassociate with the Nickel at varying points depending on the strength of the association. The gradient was collected in a fractionator, and fractions responding to high UV$_{280nm}$ traces were taken for subsequent examination of purity via SDS-PAGE/Western blot.
+
+Alternatively, for quicker, but slightly less pure preparations, an ``assisted gravity flow" resin purification can also be used. ``cOmplete" His-tag purification resin from Sigma-Aldrich was purchased and used in conjunction with glass chromatography gravity flow columns from Bio-Rad. The resin was washed several times with multiple column volumes of ethanol, followed by deionised water. Depending on the volume of culture and expected protein yield, up to $\approx$ 3-4 mL of resin was added to the column and equilibrated by mixing with lysis buffer (as per the previous section). The buffer is allowed to drain from the column or can be ``assisted" by connecting a syringe to add back-pressure. The clarified lysate from high-speed centrifugation was then mixed with the resin by rotating the resin-lysate mixture end-over-end in a sealed falcon tube, in a cold room for a minimum of 1 hour (it can be left overnight for better yields). The resin was then added back to the column, and a low imidazole concentration wash buffer ($\approx$ 20 mM) passed through the column resin-protein matrix. Finally, elution buffer was passed through the column and collected. This was repeated 2 or 3 times to ensure as much protein as possible was collected.
+
+\subsubsection{Gel Filtration}
+For subsequent polishing of protein purifications, gel filtration was performed using the same chromatography apparatus. A simplified lysis buffer was used for gel filtration, the high salt content is retained for protein stability, but the imidazole and glycerol were removed. Fractions were once again collected which corresponded to peaks in the UV$_{280}$ trace.
+	
+\subsubsection{Concentration/Dialysis}
+Concentration of protein samples from gel filtration and IMAC was performed by centrifugation at 7,000 RCF in Amicon filter columns. Appropriate molecular weight cutoffs were chosen for the theoretical size of the protein to ensure maximum retention of just the protein of interest. Concentration of these volumes was typically a slow process, requiring several concentration cycles of 30 minutes to an hour at 4\degC, though this is indicative of high protein concentrations. Dialysis can also be performed using Amicon columns, by cycles of centrifugation, resuspension/dilution, and washing in the new buffer. Alternatively, dialysis was performed with Thermo ``Slide-A-Lyzer MINI" dialysis tubes, placed on an orbital shaker at low speed. Depending on the application, the buffer was changed a number of times over the course of approximately 48 hours.
+
+\subsection{Quantification}
+Routine quantification of protein samples was performed with a nanospectrophotometer, measuring absorbance at UV$_{280nm}$. Fluorescence dyes such as those used in the Qubit spectrometer were found to precipitate the proteins studied in this work and could not be relied on.
+
+\subsection{SDS-PAGE}
+	Sodium-Dodecyl-Sulphate Polyacrylamide Gel Electrophoresis was used routinely to estimate the purity of protein samples and to gauge their size to ensure correct expression and assembly. Commonly, precast gels were used with various well numbers/sizes. In cases where a large number of gels were required, gels were `homemade'. Precast gels, namely Biorad TGX Mini-protean 4-15\% gels were used for more sensitive applications such as Western Blots, and run as per the manufacturers instructions.
+
+Gels were prepared via standard methods, routinely using 12 and 15 \% v/v resolving gels for visualisation. Briefly, for a single 12 \% resolving gel, 1.5 M Tris-HCl pH 8.8 is mixed with 29 \% (w/v) acrylamide, water and 10 \% (w/v) sodium dodecyl-sulphate. 10 \% (w/v) ammonium persulphate is added and mixed thoroughly. The casting frame is set up and tested for leaks. Once ready to pour the gel, tetramethlyethylenediamine is added to catalyse the polymerisation of the gel. The gel is overlaid with a thin layer of isopropanol to ensure a straight interface for the stacking gel. For the stacking gel, the process is the same, but 0.5 M Tris-HCl is used at pH 6.8, and the volumes of the reagents change. For full details of the reaction proportions, see \vref{SDS} below. The stacking gel is poured in the the frame over the resolving gel once it is set, and an appropriate well comb is added. The gel is left to set for approximately an hour.
+
+
+\begin{table}[h]
+\centering
+\scriptsize
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
+\caption[SDS-PAGE reagent composition]{Reaction composition for creation of SDS-PAGE stacking and resolving gels. Abbreviations: SDS - Sodium Dodecyl Sulphate, APS - Ammonium Persulphate, TEMED - TEtraMethylEthyleneDiamine}\label{SDS}
+
+
+\begin{tabular}[h]{ l c c l c}
+                            &  \multicolumn{2}{c}{1 Resolving Gel}       &                                                & 1 Stacking Gel  \\[0.1em]\cmidrule(r{1pt}l{1pt}){1-3}\cmidrule(r{1pt}l{1pt}){4-5}
+	 Reagent                           & 12 \%        & 15 \%             &   Reagent                               &    \\[0.2em]
+	\hline \\[-0.2em]
+	 1.5 M Tris-HCl pH 8.8     &   1.41 mL    &   1.41 mL    &   0.5 M Tris-HCl pH 6.8       &   1.25 mL \\[0.5em]
+	 29 \% (w/v) acrylamide  &    2.3 mL     &    2.6 mL      &   29 \% (w/v) acrylamide    &   0.5 mL    \\[0.5em]
+	 Water                                 &   1.9 mL      &   1.3 mL       &   Water                                  &   3.25 mL\\[0.5em]
+	 10 \% (w/v) SDS               &    57.5\ul    &    57.5\ul     &   10 \% (w/v) SDS                 &    50\ul \\[0.5em]
+	 10 \% (w/v) APS               &    57.5\ul    &    57.5\ul      &  10 \% (w/v) APS                 &    50\ul \\[0.5em]
+	 TEMED                              &    5\ul          &    5\ul           &   TEMED                                &    7.5\ul \\[0.5em]
+\end{tabular}
+
+\end{table}
+
+	
+\subsection{Staining}
+Staining was performed by shaking overnight in a Coomassie blue solution, or for approximately 1 hour in Instant-Blue (Expedeon). Destaining was performed using an 80\% ethanol, 20\% acetic acid solution, mixed 1:1 with water, until the desired de-colouration was observed.
+
+\subsection{Western Blotting}
+For Western blots, gels were run as just described. Upon removal of the gel from the running tank, it was washed thoroughly in water. The gels band were transferred to polyvinylidene fluoride (PVDF) membranes via a Biorad ``TransBlot Turbo" electroblotter, using the 7 minute turbo protocol. For washing, antibody binding and visualisation, the Pierce Fast Western Blot kit from Thermo was used according to the manufacturers protocol. A rabbit anti-his monoclonal antibody from Cell Signalling was used as the primary. The secondary was included with the Pierce kit and was a horseradish peroxidase conjugate, which could be visualised in the GelDoc transillumination cabinet upon addition of luminol.
+
+
+\section{Bio-physical Techniques}
+\subsection{Fluorescence microscopy}
+For fluorescence microscopy time course studies, cultures were sampled across the growth curve. 2\ul{} of each time point normalised to an optical density of 0.05 was added to GeneFrames from Thermo, according to the manufacturers instructions. Images of the frames were collected on a Leica DMi8 microscope fitted with a Hamamatsu Flash4 Camera under phase contrast, and with a FITC filter cube for GFP fluorescence.
+
+
+\subsection{Circular Dichroism}
+	Circular Dichroism was performed using the JASCO 1500 instrument. Ideal protein concentrations to obtain appropriate HT voltages (not exceeding 600 V) were determined empirically at the time of use by taking single spectral traces at 20\degC{} and diluting 2-fold as necessary from a 1 $\mathrm{mg\ mL}^{-1}$ stock solution, dialysed in a 0.5 M Sodium Fluoride buffer. NaF is used as a salt substitute in place of \NaCl. Chlorides strongly absorb at around 190 nm, which impedes spectra collection. Similarly, the buffer pH is balanced with acetic acid so as to avoid the chloride group in hydrochloric acid. Measurements were taken between 185 - 260 nm, at a data pitch of 0.2 nm, 1 nm bandwidth, and a scanning speed of 100 nm min$^{-1}$. Each spectrum was accumulated 6 times and averaged. A buffer only baseline was also run for 6 accumulations and subtracted from the sample spectra after the run.
+
+Once ideal conditions for individual traces are identified, a temperature ramping gradient experiment was set up, increasing by 2\degC{} min$^{-1}$, to a final temperature of 90\degC, with spectra accumulated every 5\degC.
+
+Spectral data were analysed with the online tool \texttt{Dichroweb} \citep{Whitmore2004}. Details of reference sets and other analysis parameters are discussed in \vref{tailfibres} due to it requiring some empirical experimentation, and results are presented there.
+
+\subsection{Crystallography}
+Initial crystallographic screens were set up using $\approx$ 150\ul{} of purified protein at between 10 and 15\mgml. Crystallisation conditions were screened in picolitre drop volumes using the mosquito$^{\textregistered}$ crystal screening robot from TTP Biotech, and several commercially available 96-well format buffer plates; namely, the ``Wizard" 1, 2, 3, 4, ``SG1", and ``Morpheus" screens from Molecular Dimensions. In total, around 400 conditions could be screened in a manner of hours. Progress of crystallisation was checked every few days, and each well of the plate was examined via microscope.
+
+If promising preliminary conditions were identified, the corresponding buffer was made up in larger volume, and an increased buffer and protein crystal ``sitting drop'' was set up to obtain fully sized crystals for diffraction testing.
+
+\section{Bioinformatics Methods}
+Bioinformatics workflows often require a great many different tools for different purposes, and it is beyond the scope and remit of this thesis to discuss the intricacies of all of them. Here, an overview of their purpose in this study is given, and where necessary/relevant, the concept underlying the tool. Where specified parameters may have influenced the result of the computation, those parameters are provided here. Any specific scripts for file manipulation, analysis, or visualisation are given in \vref{scripts}. As is conventional in computer science and bioinformatics fora, names of scripts and programs will be given in \texttt{monospaced font}. Except where explicitly stated otherwise, software was used with its default/recommended parameters. Work was performed mostly on our local server (a ProLiant DL385p Gen8, with 32x AMD Opteron 6380s, 377 GB DDR3 RAM). For structural simulation, we fortunately had access to a pre-public early beta version of the now-completed MRC CLIMB infrastructure (Cloud Infrastructure for Microbial Bioinformatics)\citep{Connor2016a} (more information in \vref{structuresimulation}.
+
+For general file manipulation and miscellaneous tasks, various bespoke \texttt{bash} and \texttt{python} scripts were used. For inter-conversion of bioinformatic file formats, \texttt{BioPython} was a primary tool \citep{Cock2009}.
+
+\subsection{Quality Control}
+Short read sequencing obtained from MiSeq runs was assembled in-house. The retrieved sequences are examined for quality before assembly. Raw reads were first analysed with \texttt{FastQC v0.10.1} and optionally trimmed with \texttt{seqtk v1.0-r31}.
+
+\subsection{Assembly}
+Sequence files passing quality control were \emph{de novo} assembled using \texttt{SPAdes v2.5.1}, with the \texttt{--careful} flag, to reduce errors \citep{Bankevich2012}.  Optionally, the resulting contigs (if not a single sequence) were reordered to published reference genomes, mainly for visualisation purposes, using \texttt{progressiveMauve v2.3.1} \citep{Darling2010}.
+
+\subsection{Mapping}
+Mapping for examining coverage etc. was performed with \texttt{bwa v0.7.5a-r405} \citep{Li2009}. Coverage and quality estimates were calculated from these alignments, and visualised with, \texttt{QualiMap v.0.7.1} \citep{Garcia-Alcalde2012}
+
+\subsection{Annotation}\label{prokka}
+Annotation was performed with the prokaryotic annotation pipeline \texttt{prokka v1.11} \citep{Seemann2014}. A set of preferred/trusted annotations was provided with the \texttt{--proteins} option, compiled from the published \Plum{} TT01,  \Pasy{} ATCC43949 and \Pasy{} Kingscliff genomes as they contained some bespoke annotations from legacy use within the lab.
+
+\subsection{Alignment}
+Multiple sequence alignments were generated with \texttt{Clustal Omega v1.2.0} \citep{Sievers2011}.
+
+\subsection{Phylogenetics}
+Initial trees were computed with \texttt{RAxML v7.0.3} \citep{Stamatakis2006} with 500 rapid bootstraps in a single run ("\texttt{-f a}"). Seeds were arbitrarily set at ``12345" for all runs, for reproducibility purposes.
+
+Consensus trees were computed with \texttt{ASTRAL-II v4.7.12} \citep{Mirarab2015}. As there were at most 16 taxa in the trees provided to ASTRAL, it was run with the ``\texttt{--exact}" flag for improved accuracy.
+
+\subsection{Congruency}
+Congruency was estimated in 2 ways. The Adjusted Wallace Coefficient was used, but required an element of subjectivity. With this in mind, the data was also tested with a less powerful, but entirely objective method - the Normalised Robinson-Foulds distance.
+
+The Adjusted Wallace Coefficient (AWC) builds on a tool which compares how data is clustered via different methods. Much more information about the various metrics, and the technique's use in sequence typing can be found at the Comparing Partitions website\footnote{\url{http://www.comparingpartitions.info/index.php?link=Tut8}} \citep{Pinto2008, Severiano2011a, Severiano2011b, Carrico2006}. Since the manner in which it was used in this study is valid, but not the norm, some time will be spent explaining the process:
+
+In the case of experimental sequence typing, it is common to predict STs from one or more experimental techniques (e.g eletrophoretic restriction enzyme tests with 2 different restriction enzymes), and researchers commonly wish to see how well they agree on their predicted ST. The Comparing Partitions web-server takes as an input, a matrix where one scores how each taxon label clusters in each tree. This had to be created manually by visually inspecting the clustering behaviour of each tree, for a given taxon label. An arbitrary cluster label is assigned (1 to $n$), and the taxa that are within that cluster are assigned its number. Absent taxon labels were just assigned a unique cluster identifier (equivalent to not clustering at all). As this has a large subjective component, clustering was corroborated by several other individuals in a 'blind' manner (no knowledge of how anyone else clustered the trees). While subjective in the manner in which it was used here, the AWC has greater resolution, in that it is an asymmetric measurement. The metric captures some of the discriminatory power of one tree versus another, that is to say, \emph{how clear} a given cluster is. Under the normal use case, one can think of this as how `definitive' one typing method is versus another.
+
+In brief, the data of interest is clustered by 2 methods of choice. In this case, the clusters would be 2 different phylogenetic trees (clusterings), of operons where the `method` would be use of different genes (under normal usage, the clusters would be sequence types, and the `method' might be pulsed field gel eletrophoresis for example). This is repeated for all pairs of clustering methods. A contingency table is constructed from this information, which effectively describes how often the same cluster is predicted by each technique. The AWC then describes the fraction of all the times the same cluster is found between 2 methods, out of all the clusterings in which the taxa appeared. The ``Adjusted" part of the metric comes from the added step, in which the ``coefficient under independence" is subtracted from the Wallace Coefficient. This is a kind of normalising step, which removes the effects of clusters occurring randomly, leaving only the contributions from meaningful clusterings. Therefore, the final value of the AWC is given by the equation below. For a more detailed explanation, see the link and the references provided at the start of this section. The values returned from this equation are those depicted in resulting figures.
+
+\begin{align}\label{adwcoeff}
+{AW}_{A \rightarrow B} = {\mathrm{W}_{A \rightarrow B} - {W}_{i(A \rightarrow B)} \over { 1 - {W}_{i(A\rightarrow B)}}} \\%
+%
+\eqname{Adjusted Wallace Coefficient Definition} \
+\end{align}
+\myequations{Adjusted Wallace Coefficient Definition}
+
+
+The Normalised Robinson-Foulds metric was calculated simply with the inbuilt \texttt{compare} function from the \texttt{ETE3 v3.0.0b36} \citep{Huerta-Cepas2016a} toolkit in an all-vs-all pairwise manner for every tree, using the ``\texttt{--unrooted}" flag. The metric is defined as below, and this is the value used in the resulting figures. In short, the RF metric simply measures the minimum number of topological transformations required to maximise the congruency between 2 trees. The RF metric is one of the most widely used and probably easiest to intuitively understand, as well as being computationally efficient (linear or $O(n)$ running time) \citep{Pattengale2007}. The normalised RF metric is the same calculation, but normalised against the maximum distance 2 trees could have ($2(n-3)$ as there are always 3 fewer nodes than the number of leaves in a tree, if $n$ is the number of taxa present in both trees). RF ignores unshared branches, which is also advantageous for this study due to some gene deletions.
+
+\begin{align}\label{nrfmetric}
+{nRF}({T}_{1},T_{2}) = {1 \over 2}  {\left({\lvert B(T_{1}) - B(T_{2})\rvert + \lvert B(T_{2}) - B(T_{1}) \rvert} \over {2(n-3)} \right)}\\%
+%
+\eqname{Normalised Robinson-Foulds Metric Definition} \
+\end{align}
+\myequations{Normalised Robinson-Foulds Metric Definition}
+
+\noindent where $T_1$ and $T_2$ are 2 trees, and $B(T_i)$ is the set of bipartitions (splits) of Tree $i$. 
+
+%	Congruency was initially tested utilising a metric called the Adjusted Wallace Coefficient (AWC). The Wallace coefficient is one of many used in the study of clustering concordance, but has advantages over others such as the well known Rand metric \citep{Rand1971}, in that it has a directional component (this is explained in more detail shortly)\citep{Wallace1983}. The Wallace coefficient can be thought of as saying ``what is the probability that some data is classified together in test B, knowing that it also was in test A". Contingency tables correlating the 2 different clusterings of the same data are created, from which the metric quantifying the similarity is then derived.
+%	
+%	In the biological sciences, metrics such as these have long been used in sequence typing studies, as you may have, for example, clusterings based on 2 different eletrophoretic restriction enzyme experiments, and you wish to see how well they agree on their predicted ST. Much more information about the various metrics, and the technique's use in sequence typing can be found at the Comparing Partitions website\footnote{\url{http://www.comparingpartitions.info/index.php?link=Tut8}} \citep{Pinto2008, Severiano2011a, Severiano2011b, Carrico2006}. Since, in principle, the techniques can be applied to any hierarchical clustering, it is applied here to the problem of congruency estimation.
+%	
+%	 The Comparing Partitions web-server takes as an input, a matrix where one scores how each taxon label clusters in each tree. This had to be created manually by visually inspecting the clustering behaviour of each tree, for a given taxon label. An arbitrary cluster label is assigned (1 to $n$), and the taxa that are within that cluster are assigned its number. Absent taxon labels were just assigned a unique cluster identifier (equivalent to not clustering at all). As this has a large subjective component, clustering was corroborated by several other individuals in a 'blind' manner (no knowledge of how anyone else clustered the trees). While subjective in the manner in which it was used here, the AWC has greater resolution, in that it is an asymmetric measurement. The metric captures some of the discriminatory power of one tree versus another, that is to say, \emph{how clear} a given cluster is. Under the normal use case, one can think of this as how `definitive' one typing method is versus another.
+%	
+%	The basic steps for calculating the metric are outlined here, reproduced from the Comparing Partitions site, such that it is made clear where the numbers in the later figures are being derived from.
+%
+%	Firstly, the data of interest is clustered by 2 methods of choice, which can be represented $A=\{A_{1},\ A_{2},\ A_{3},\ \dots,\ A_{i}\}$ and $B=\{B_{1},\ B_{2},\ B_{3},\ \dots,\ B_{j}\}$. In this case, $A$ and $B$ would be 2 different phylogenetic trees (clusterings), of operons where the `method` would be use of different genes (under normal usage, the clusters would be sequence types, and the `method' might be pulsed field gel eletrophoresis for example). From this, an $i \times j$ contingency table can be constructed to calculate overlaps between the clusters,
+%
+%\begin{center}
+%\begin{tabular}{c c| c c c c | c}
+%& \multicolumn{6}{c}{Partition 1} \\
+%\multirow{6}{*}{\rotatebox[origin=c]{90}{Partition 2}}  & Class       & $B_1$ & $B_2$ & $\dots$ & $B_j$ & Sums\\
+%\cline{2-7}
+%&	$A_1$     & $n_{1,1}$ & $n_{1,2}$ & $\dots$ & $n_{1,j}$ & $n_{1\bullet}$ \\
+%&	$A_2$     & $n_{2,1}$ & $n_{2,2}$ & $\dots$ & $n_{2,j}$ & $n_{2\bullet}$ \\
+%&	$\vdots$ & $\vdots$ & $\vdots$ & $\ddots$ & $n_{3,j}$ & $n_{3\bullet}$ \\[-0.7ex]
+%&	$A_i$       & $n_{i,1}$ & $n_{i,2}$ & $\dots$ & $n_{i,j}$ & $n_{j\bullet}$ \\
+%\cline{2-7}
+%& 	Sums  & $n_{\bullet1}$ & $n_{\bullet2}$ & $\dots$ & $n_{\bullet j}$ & $N$ \\
+%
+%
+%\end{tabular}
+%\end{center}
+%
+%\noindent where $n_{i,j}$ represents a cluster which is common to both clustering methods.
+%
+%The information in the contingency table is then summed up, based on the pairwise agreements, and these values ($a$, $b$, $c$ and $d$) are the input variables for the web server's metric calculations. There are explicit formulae for calculating these values which can be found at the Comparing Partitions site, but have not been reproduced here as the mismatch matrix below demonstrates how these values are derived anyway,
+%
+%\begin{center}
+%\begin{tabular}{c c| c  c | c}
+%& \multicolumn{4}{c}{Partition 1} \\
+%\multirow{4}{*}{\rotatebox[origin=c]{90}{Partition 2}} & Number of pairs & In the same cluster & In different clusters &  Sums\\
+%\cline{2-5}
+%&	In the same cluster & $a$ & $b$ & $a + b$ \\
+%&	In different clusters & $c$ & $d$ & $c + d$ \\
+%\cline{2-5}
+%&	Sums & $ a + c $ & $ b + d $ & $M$ \\
+%
+%\end{tabular}
+%\end{center}
+%
+%
+%and thus Wallace Coefficients are then given by,
+%
+%\begin{align}\label{wcoeff}
+%{W}_{A \rightarrow B} = {a \over \left(a + b\right)} \mathrm{\quad and \quad } {W}_{B \rightarrow A} = {a \over \left(a + c\right)} \\
+%
+%
+%\eqname{Wallace Coefficient Calculation Definition} \
+%\end{align}
+%\myequations{Wallace Coefficient Definition}
+%
+%\noindent which calculates the fraction of how many times the same cluster is found between 2 different clustering methods, out of all the clusterings in which it appears. Complete mismatches ($d$) are discarded.
+%
+%However, this coefficient does not take into consideration the effect of 2 clusterings agreeing purely by chance and may overestimate the congruence value, and therefore the Adjusted Wallace Coefficient was devised to address this, which considers the metric under independence\citep{Pinto2008}, yielding the final equations where the contribution from random chance (complete independence of each clustering) is subtracted from the final score.
+%
+%\begin{align}\label{adwcoeff}
+%{AW}_{A \rightarrow B} = {\mathrm{W}_{A \rightarrow B} - {W}_{i(A \rightarrow B)} \over { 1 - {W}_{i(A\rightarrow B)}}} \\%
+%
+%\eqname{Adjusted Wallace Coefficient Definition} \
+%\end{align}
+%\myequations{Adjusted Wallace Coefficient Definition}
+
+\subsection{Ortholog Detection}
+For structural studies, the \texttt{HHSuite} of programs has proven to give useful and accurate predictions of protein structural orthologs, especially those which have only low confidence or distant homologies known. \texttt{HHSuite v2.0.15} \citep{Remmert2012, Soding2005} was used extensively in this work, being run iteratively over all the protein sequences of interest at various points, to identify new homologies detected as the databases are continually expanded and improved. The program was invoked with comparatively relaxed parameters in an effort to gather even low quality hits which may be more informative than ``hypothetical protein", using a minimum probability of 60, minimum E value of $1\times10^{-3}$, and was run against the latest version of the PDB70 database available from the HHSuite database site\footnote{\url{http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/}}. Results were parsed into a tabular format using a custom parser (scripts provided in supplementary information, and at GitHub\footnote{\url{https://github.com/jrjhealey/bioinfo-tools/blob/master/tabulateHHpred.py}}).
+
+\todo[inline]{Add MultiGeneBlast, if time allows}
+% 
+%For the exploratory efforts to identify PVC-like sequences in other genomes, \\ \texttt{MultiGeneBlast v1.1.0} was used, in conjunction with a custom parser for the output files (scripts provided in supplementary information, and at GitHub\footnote{\url{https://github.com/jrjhealey/MultiGeneBlastParser}}). To find the most similar hits, the program was run in `homology search' mode. For more distant hits, architecture mode is preferable. Parameters for the run such as \texttt{syntenyweight} and \texttt{distancekb}, were often varied to finesse the results on a run-to-run basis, as this is also dependent on the exact input sequences.
+
+\subsection{Structure Prediction}\label{structuresimulation}
+Due to the private state of the MRC CLIMB infrastructure at the time of carrying out this work, almost unilateral access to the Warwick node compute power was available. For the simulations, 12 virtual machines, each of 32 vCPUs (Intel Xeon E5-4610 v2s) and 96 GB of RAM (a total of 384 vCPUs, and 1,152 GB RAM) were used to spawn multithreaded jobs for $\approx$330 individual protein sequences. It is worth noting however, that structure simulation jobs are seemingly primarily processing speed/thread limited, as the memory requirements for a 32 core server running at or near full compute capacity, only requires about 45 GB of the 96 available, meaning the same workload could be achieved with probably \textless 500 GB of memory.
+
+A local installation of the \texttt{I-TASSER v4.4} structural prediction pipeline was implemented on each of the servers, and the $\approx$330 sequences to be simulated were distributed equally amongst the servers \citep{Yang2014, Roy2010, Zhang2008}. \texttt{I-TASSER} is consistently ranked as one of, if not the best, structural prediction suites available in the CASP competitions \citep{Moult2015}. 
+
+
+\subsection{Structural Analysis}
+For analysis and visualisation of structures generated in this work, UCSF \texttt{Chimera v1.12} (and to a lesser degree the experimental \texttt{ChimeraX v0.5}) were used primarily \citep{Pettersen2004, Goddard2018}. For automated large scale analysis, the commandline implementation of chimera modules \texttt{pychimera v0.2.2+3.g3b96991} was used \citep{Rodriguez-GuerraPedregal2018}.
+
+Of particular relevance is the \texttt{MatchMaker} function within \texttt{Chimera}, which was used for calculation of the Root Mean Square Deviation (RMSD) between structures, to assess accuracy, in the default `best-chain-pair' mode. Scripts for these analyses are also available on GitHub.
+
+\subsection{Repeat detection}
+Repeats in protein sequences were detected automatically via the EMBL-EBI's \texttt{Rapid Automatic Detection and Alignment of Repeats program (RADAR) v1.1.1.1} \footnote{\url{https://www.ebi.ac.uk/Tools/pfa/radar/}}. The most frequent or longest set of repeats were retained after a default number of iterations.
+
+\subsection{Data Visualisation}
+Various programs were used to visualise data for different tasks/purposes during this project.
+
+For examining sequence information, \texttt{Artemis v16.0.0} \citep{Rutherford2000} genome browser was a mainstay. For visualisation of smaller data sets, such as operons and plasmids, SnapGene\footnote{GSL Biotech LLC} was used. SnapGene was also the standard tool for \emph{in silico} cloning design and plasmid/operon maps in this thesis are rendered from the software. Phylogenetic trees were prepared with \texttt{FigTree v1.4.3}\footnote{\url{http://tree.bio.ed.ac.uk/software/figtree/}}
+
+For visualisation of plotted data, such as heatmaps and line graphs, the \texttt{ggplot2 v2.2.1.9000} package \citep{Wickham2009} within \texttt{R/RStudio v3.3.3} was used \citep{RStudioTeam2015, RCoreTeam2014}. Scripts for these are provided in the supplementary information and on GitHub\footnote{\url{https://github.com/jrjhealey/bioinformatics/tree/master/Rscripts}}
+
+General figures such as schematics and diagrams were typically prepared with Microsoft Powerpoint, or BioRender\footnote{\url{https://biorender.io/}}.
+
+
+
+\todo[inline]{Finish primer tables}
+\todo[inline]{flesh out table/figure captions and titles}

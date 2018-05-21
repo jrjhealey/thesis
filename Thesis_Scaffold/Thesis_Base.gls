@@ -1,0 +1,7 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossentry{PVC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{vii}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{1}}}%
+\end{theglossary}\glossarypostamble

@@ -1,0 +1,526 @@
+% !TEX encoding = UTF-8 Unicode
+
+%%%%%%%%%%%%%%%%%%% PREAMBLE BEGINNING %%%%%%%%%%%%%%%%%%
+
+%%% Document Setup and Geometry
+\documentclass[a4paper, oneside, 11pt]{report} % Doc Setup
+\usepackage[left=4cm, right=2cm, top=1.5cm, bottom=2.5cm]{geometry}  % Doc Geometry
+\usepackage{layout} % Show diagram of doc geometry with \layout
+\usepackage[type=none]{fgruler}
+\usepackage{datetime}
+	\newdateformat{monthyeardate}{%
+	\monthname[\THEMONTH], \THEYEAR}
+ % Show a page ruler
+\usepackage[doublespacing]{setspace} % Line spacing [double]
+\usepackage{lscape} % Allow use of landscape packages
+\usepackage{printlen} % Allow various print lengths
+
+%%% Document Elements
+\usepackage{tocloft} % Provide customisation options for ToC, ToF, ToT
+\usepackage[toc,page]{appendix} % Force appendices to be included in ToC
+\usepackage[toc]{glossaries} % Enable glossaries and add to ToC
+\setcounter{secnumdepth}{5} % Number deeper sections
+\setcounter{tocdepth}{5}% Number deeper sections
+\usepackage{epigraph} % Quotes at the start of chapters
+	\setlength{\epigraphwidth}{0.5\textwidth}
+
+
+\usepackage{abstract} % Enable Abstract environment
+        \renewcommand*\abstractname{\flushleft\textbf{Abstract}\hfill} % Redefine Abstract appearance
+        \renewcommand{\abstractnamefont}{\normalfont\Large\bfseries}
+
+\usepackage{natbib} % Bibliography
+\setlength{\bibsep}{0.512cm} % Increase spacing between references
+
+%%% Fonts
+\usepackage{lmodern} % Standard modern fonts
+\usepackage{textcomp} % Text companion fonts/special characters
+\usepackage{lettrine} % Use of dropcaps
+
+%%% Basic Packages
+\usepackage{amsmath, latexsym, amsfonts,
+            amssymb, txfonts, pxfonts,
+            wasysym, dsfont, siunitx} % Advanced maths operators/symbols
+        \newcommand{\eqname}[1]{\tag*{\llap{\emph{#1}}}} % Add name of equation below it
+
+\usepackage[export]{adjustbox} % Provide boxes to alter size of contents
+\usepackage{calc} % Specify lengths relative to document elements
+\usepackage{rotating} % Rotate text environment
+\usepackage{titlesec, titling} % Enable titlepages
+\usepackage{enumitem} % Enumerated lists
+\usepackage[usenames,dvipsnames]{color} % Enable colour
+\usepackage[table]{xcolor} % Enable colour within tables
+\usepackage{url} % Correctly format URLs
+\usepackage{lipsum} % Dummy text
+\usepackage{mdframed} % Customisable box frames
+        \newmdenv{allfour} % all 4 borders
+        \newmdenv[leftline=false,rightline=false]{topbot} % just top and bottom
+        \newmdenv[topline=false,rightline=false]{leftbot}% just left and bottom
+
+ %%% Specialist Packages
+ \usepackage{texshade} % typset multiple sequence alignments
+ 
+%%% Floats
+\usepackage{ltablex} % Use longtable with X columns
+         \keepXColumns % Preserve X columns
+
+\usepackage{array,booktabs} % Extra table customisation options
+\usepackage{multicol, multirow} % Merged cells
+\usepackage{bigdelim} % Use of large brackets in tables etc.
+\usepackage{makecell} % Manual control over cell sizes etc.
+
+
+\usepackage{graphicx} %input images
+% \includegraphics[width=somewidth, trim={left, bottom, right, top}, clip]{image.ext}
+
+\usepackage{float}  % Further control over float environment
+\usepackage{dblfloatfix} % 2-column floats
+
+\usepackage[leftcaption]{sidecap} % Add side captions to figures etc.
+\usepackage{subcaption} % More customisable captioning
+        \DeclareCaptionLabelSeparator{vertbar}{\normalsize\textbf{$\vert$\ \ }} % Redefine caption separate
+        \DeclareCaptionLabelFormat{custom}{\textsf{\textbf{#1\space#2}}\ } % Redefine caption spacing
+\usepackage[textfont=footnotesize, labelfont=bf, labelformat = custom, labelsep=vertbar, justification=justified, singlelinecheck=off]{caption}
+
+\usepackage{wrapfig} % Control float wrapping
+\usepackage{placeins} % Enables \FloatBarrier to stop figures moving beyond point\usepackage{cancel}
+\usepackage{epstopdf} % convert eps files to pdfs when included in the doc
+
+\usepackage[abs]{overpic} % annotations over images
+\usepackage{tikz} % Custom graphics
+\usetikzlibrary{decorations,
+                angles,
+                quotes,
+                calc,
+                positioning,
+                shapes,
+                arrows}
+
+\graphicspath{{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/}
+              {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/methods/img/}
+              {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/}
+              {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/}
+              {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/}
+              {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/}} % If images are not in the parent directory, add the directories here.
+
+%%% HEADER AND FOOTER CONTROL 
+\usepackage{fancyhdr}  % Adds customisable headers and footers
+%\renewcommand{\headrulewidth}{0.2pt}
+\headsep 25pt
+\headheight 20pt
+%\footskip  20pt
+%\footheight 15pt
+\setlength{\topmargin}{0pt}
+\setlength{\textheight}{670pt}
+
+\fancypagestyle{IHA-fancy-style}{%
+  \fancyhf{}% Clear header and footer
+ % \fancyhead[LE,RO]{\slshape \rightmark}
+  \fancyhead[LE,RO]{\slshape \leftmark}
+  \fancyfoot[LE,RO]{\thepage\ } % Custom footer
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header visible
+  \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
+
+
+
+% Redefine the plain page style
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[LE,RO]{\thepage\ } %
+  \renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+  \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
+
+%%% SORTED LISTS 
+\usepackage{datatool} 
+\newcommand{\sortitem}[1]{
+  \DTLnewrow{list} % Create a new entry
+  \DTLnewdbentry{list}{description}{#1}% Add entry as description
+}
+\newenvironment{sortedlist}{%
+  \DTLifdbexists{list}{\DTLcleardb{list}}{\DTLnewdb{list}}% Create new/discard old list
+}{%
+  \DTLsort{description}{list}% Sort list
+  \begin{itemize}%
+    \DTLforeach*{list}{\theDesc=description}{%
+      \item \theDesc}% Print each item
+  \end{itemize}%
+}
+%%%%%%%%%%%%%%%% CODE INSERTION %%%%%%%%%%%%%%
+% MATLAB
+\usepackage{listings}
+
+%%%%%%%%%%%%%%% TO-DO Notes Control %%%%%%%%%%%%%%%%%%
+\reversemarginpar % Switch margin side appearance of notes
+\usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
+\newcommand{\addref}[1]{\todo[color=red!40]{#1}}
+\newcommand{\clarify}[1]{\todo[color=cyan!40]{#1}}
+\newcommand{\addfloat}[1]{\todo[inline, color=purple!40]{#1}}
+
+% All customisable options for new todo styles:
+%    \todo[linecolor=green!70!white, backgroundcolor=blue!20!white, bordercolor=red]{Anything but default colors}.
+
+%%%ADDING MOAC/COPYWRITE PREFACE 
+\usepackage{moactitlepage}
+\renewcommand{\moactitle}{\emph{Photorhabdus} Virulence Cassettes: understanding the structure, and genomic role, of a novel bacterial toxin secretion weapon}
+\renewcommand{\moacauthor}{Joseph Richard John Healey}
+\renewcommand{\moacdegreetype}{Doctor of Philosophy}
+\renewcommand{\moacuniversity}{University of Warwick}
+\renewcommand{\moacdegree}{Mathematical Biology and Biophysical Chemistry}
+\renewcommand{\moacdepositdate}{\monthyeardate\today}
+\renewcommand{\moacdepartment}{MOAC CDT in collaboration with: \\ Warwick Medical School and Warwick Chemistry Department}
+\renewcommand{\moacdate}{}
+\renewcommand{\moacsupervisors}{Dr. Nicholas R. Waterfield and Prof. Matthew I. Gibson}
+\renewcommand{\moacdocumenttype}{Doctoral Thesis}
+
+%%% Renewing Commands for the rest of the Document 
+\renewcommand{\thesubfigure}{\Alph{subfigure}}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\vspace{0.3cm}\\} % adds a new paragraph environment called by \myparagraph
+\newcommand\tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
+\newcommand\bstrut{\rule[-0.9ex]{0pt}{0pt}}   % = `bottom' strut
+\newcommand{\vcentralise}[1]{\raisebox{-.5\height}{#1}}  % = Set an objects baseline to its midline to vertically centralise/justify objects.
+
+%%% Shorthands
+\newcommand\Pa{\emph{Photorhabdus}} % shorthand for italicised photorhabdus
+\newcommand\Plum{\emph{P. luminescens}} % shorthand for italicised P luminescens
+\newcommand\Pasy{\emph{P. asymbiotica}} % shorthand for italicised P asymbiotica
+\newcommand\Ptem{\emph{P. temperata}} % shorthand for italicised P temperata
+\newcommand\degC{ $^{\circ}\mathrm{C}$} % short hand for units of degrees celsius.
+\newcommand\Ec{\emph{E. coli} DH5-$\alpha$} % Shorthand for Esherichia coli DH5-alpha
+\newcommand\ul{ $\mu$L} % shorthand microlitre
+\newcommand\ugml{ $\mu\mathrm{g}\ \mathrm{mL}^{-1}$} % Shorthand ug/mL
+\newcommand\um{$\mu\mathrm{m}$}
+\newcommand\OD{OD$_{600\mathrm{nm}}$} % OD600 
+\newcommand\mgml{ $\mathrm{mg}\ \mathrm{mL}^{-1}$} % Shorthand mg/mL
+\newcommand{\sn}[2]{\ensuremath{{#1}{\times}10^{#2}}} % Standard form exponents
+
+
+\newcommand{\myarrow}{\raisebox{1pt}{\LEFTarrow$\!-$}} % block arrow
+% A custom blockarrow with specifiable vertical positioning and rotation
+\newcommand{\customarrow}[2]{\textbf{\raisebox{#1}{\rotatebox[origin=c]{#2}{\LEFTarrow$\!-$}}}}
+\newcommand\vb{$\vert$} % Simple vertical bar
+
+% PVC Shorthands
+\newcommand\PVCpnfUSA{PVCpnf$^{\mathrm{ATCC43949}}$}
+
+
+%%% Chemical formulae
+\newcommand\NaPO{$\mathrm{NaPO}_4$}
+\newcommand\NaCl{$\mathrm{NaCl}_2$}
+\newcommand\CaCl{$\mathrm{CaCl}_2$}
+\newcommand\MnCl{$\mathrm{MnCl}_2$}
+\newcommand\MgCl{$\mathrm{MgCl}_2$}
+
+
+%S hapes
+%%% Obscure region with white box
+\newcommand\obscure[3][white]{\textcolor{#1}{\rule{#2}{#3}}}
+\newcommand\frobscure[3][white!10]{\frame{\textcolor{#1}{\rule{#2}{#3}}}}
+
+% Symbol Nomenclature for Glycans
+
+\input{/Users/joehealey/Applications/TeX-SNFG/snfg.tex}
+
+%%% Markerless footnotes
+\newcommand\markerlessfootnote[1]{%
+  \begingroup
+  \makeatletter
+  \renewcommand\footnoterule{%
+    \kern-3\p@
+    \hrule\@width \textwidth
+    \kern2/6\p@}
+    \makeatother
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+% Horizontal rules around text headings
+\newcommand{\textbetweenrules}[2][.4pt]{%
+  \par\vspace{\topsep}
+  \noindent\makebox[\textwidth]{%
+    \sbox0{#2}%
+    \dimen0=.5\dimexpr\ht0+#1\relax
+    \dimen2=-.5\dimexpr\ht0-#1\relax
+    \leaders\hrule height \dimen0 depth \dimen2\hfill
+    \quad #2\quad
+    \leaders\hrule height \dimen0 depth \dimen2\hfill
+  }\par\nopagebreak\vspace{\topsep}
+}
+
+% New column type for tabular
+\newcolumntype{A}{>{\raggedleft\arraybackslash} m{0.17\linewidth} }
+\newcolumntype{B}{>{\raggedright\arraybackslash} m{0.65\linewidth} }
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{E}{>{\centering\arraybackslash} m{0.04\linewidth} }
+\newcolumntype{R}{>{\ttfamily\raggedleft\arraybackslash}X}
+\newcolumntype{L}{>{\ttfamily\raggedright\arraybackslash}X}
+\newcolumntype{W}{>{\centering\arraybackslash} m{0.20\linewidth} }
+                           % {X} is a reserved column type
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{Z}{>{\raggedright\arraybackslash}X}
+
+%%% Glossary
+%\newacronym{PVC}{PVC}{\textit{Photorhabdus} Virulence Cassette}
+%\makeglossaries
+
+
+\usepackage{pdfpages} % Input other PDF files
+%\usepackage{minted}
+\usepackage{varioref}
+\usepackage{hyperref} % Make sure it's loaded last to avoid conflicts
+\usepackage[capitalise,noabbrev]{cleveref} % must be loaded after hyperref
+
+\usepackage[annataritalic]{tengwarscript} % Should be loaded late/last (I think)
+
+
+
+
+%%%% Latex Font Sizes for reference: %%%%%%
+% \tiny
+% \scriptsize
+% \footnotesize
+% \small
+% \normalsize
+% \large
+% \Large
+% \LARGE
+% \huge
+% \Huge
+
+%%%%%% Predefined colour names in color package %%%%%%%%
+%  black, blue, brown, cyan, darkgray, gray, green, 
+%  lightgray, lime, magenta, olive, orange, pink,
+%  purple, red, teal, violet, white, yellow.
+
+
+\newlength\longest
+%%%%%%%%%%%%%%%             END OF PREAMBLE            %%%%%%%%%%%%%%%%%
+%	%	%	%	%	%	%	%	%	%	%	%	%	% 	%	%
+%%%%%%%%%%%%%%%         DOCUMENT BEGINNING         %%%%%%%%%%%%%%%%
+\begin{document}
+\pagestyle{IHA-fancy-style}
+
+%%%%%%%%%%%%%%%             CREATE PREFACES          %%%%%%%%%%%%%%%%%%%
+\moaccopyright \moactitlepage
+
+
+%%%%%%%%%%%%%%%      CREATE TABLE OF CONTENTS      %%%%%%%%%%%%%%%%%
+\rhead{\textsf{Contents}}
+\pagenumbering{roman}
+\setcounter{page}{1}
+\singlespacing
+\tableofcontents
+\cleardoublepage
+\newpage
+\doublespacing
+
+%%%%%%%%%%%%%%%      CREATE LIST OF FIGURES      %%%%%%%%%%%%%%%%%%
+\rhead{\textsf{List of Figures}}
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\newpage
+
+%%%%%%%%%%%%%%%       CREATE LIST OF TABLES       %%%%%%%%%%%%%%%%%%
+\rhead{\textsf{List of Tables}}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+\newpage
+
+%%%%%%%%%%%%%%% CREATE LIST OF EQUATIONS %%%%%%%%%%%%%%%
+
+\newcommand{\listequationsname}{List of Equations}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+\addcontentsline{toc}{chapter}{List of Equations}
+
+ \listofmyequations
+
+
+%%%%%%%%%%%%%%%          ACKNOWLEDGEMENTS          %%%%%%%%%%%%%%%%%%
+%\input{../chapters/acknowledgements/acknowledgements.tex}
+
+%%%%%%%%%%%%%%%                 DECLARATION                  %%%%%%%%%%%%%%%%%%
+\rhead{\textsf{}}
+\addcontentsline{toc}{chapter}{Declaration}
+\chapter*{Declaration}
+
+\lettrine[lraise=0.0, nindent=0.1em, slope=1em]{T}{ his} thesis is submitted to the University of Warwick in support of my application for the degree of Doctor of Philosophy. It has been composed by myself and has not been submitted in any previous application for any degree. The author previously submitted a Masters thesis, entitled ``\emph{Photorhabdus asymbiotica} as a Model Organism for Understanding Emerging Human Pathogens", for the degree of M.Sc. Mathematical Biology and Biophysical Chemistry, for a related project in 2014. While both pieces of work are the authors own, due to sharing commonality in research topic, there may be some superficial resemblance in introductory content and methods.
+
+All work and data analysis was conducted by the author except in the cases outlined below.
+
+Crystallography screening and diffraction testing was kindly performed with Dr. Avinash Punekar (University of Warwick).
+
+List of data provided and/or analysis carried out by collaborators.
+Parts of this thesis have been published by the author:
+List of publications including submitted papers.
+
+\newpage
+
+%%%%%%%%%%%%%%%                'Dedication'                %%%%%%%%%%%%%%%%%%
+\clearpage
+
+\thispagestyle{empty}
+\null\vfill
+
+\settowidth\longest{\large \itshape This field is not quite the same as others in that it will not tell us much [...].}
+\begin{center}
+\parbox{\longest}{%
+ \raggedright{\large \itshape%
+   ``I would like to describe a field, in which little has been done, \\
+   but in which an enormous amount can be done in principle. \\[2ex]
+   This field is not quite the same as others in that it will not tell us much [...]. \\
+   Furthermore, a point that is most important is that it would have an \\
+   enormous number of technical applications.\\[2ex]
+
+
+   \large \textbf{What I want to talk about is the problem of manipulating and controlling
+   things on a small scale...}'' \par\vspace{0.35cm}\hrule\bigskip
+   }
+   \raggedleft\Large\MakeUppercase{--- Richard P. Feynman}\par%
+}
+\end{center}
+\vfill
+
+\markerlessfootnote{The quotes used in the opening of this thesis and in the epigraphs of individual chapters have come from the transcript of Richard Feynman's discourse ``There's plenty of room at the bottom", as reproduced in the book ``Plenty of Room for Biology at the Bottom: An Introduction to Bionanotechnology" by E. Gazit and A. Mitraki}
+\clearpage
+
+\newpage
+%%%%%%%%%%%%%%%                 ABSTRACT                  %%%%%%%%%%%%%%%%%%
+\rhead{\textsf{Abstract}}
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\lipsum[1]
+\newpage
+
+%%%%%%%%%%%%%%%              ABBREVIATIONS                %%%%%%%%%%%%%%%%%%
+\rhead{\textsf{Abbreviations}}
+%\glossarystyle{altlisthypergroup}
+%\glsaddall
+%\printglossaries[title=Abbreviations,toctitle=Abbreviations] % broken...come back later...
+\chapter*{Abbreviations}
+\small
+\begin{sortedlist}
+\renewcommand\labelitemi{}
+  \sortitem{PCR \hfill Polymerase Chain Reaction}
+  \sortitem{ATCC \hfill American Type Culture Collection}
+  \sortitem{WMS \hfill Warwick Medical School}
+ \sortitem{F{} \hfill Forward}
+  \sortitem{R{} \hfill Reverse}
+  \sortitem{qRT-PCR \hfill quantitative Reverse-Transcriptase Polymerase Chain Reaction}
+  \sortitem{NEB \hfill New England Biolabs}
+  \sortitem{PVC \hfill \emph{Photorhabdus} Virulence Cassette}
+  \sortitem{gDNA \hfill genomic DeoxyriboNucleic Acid}
+  \sortitem{ppGpp \hfill Guanosine pentaphosphate}
+  \sortitem{\emph{pnf} \hfill \emph{Photorhabdus} Necrosis Factor}
+  \sortitem{RCF \hfill Relative Centrifugal Force}
+  \sortitem{bp \hfill basepairs}
+  \sortitem{kbp \hfill kilo-basepairs}
+  \sortitem{Mbp \hfill Mega-basepairs}
+  \sortitem{gp\#\# \hfill gene product \#\#}
+  \sortitem{hcp \hfill hemolysin co-regulated protein}
+  \sortitem{T6SS \hfill Type 6 Secretion System}
+  \sortitem{TVISS \hfill see T6SS}
+  \sortitem{LPS \hfill lipopolysaccharide}
+\end{sortedlist}
+
+\todo[inline]{Fill out full abbreviation list}
+\normalsize
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%%%%%%%%%%%%%%%        IMPORT CH1 - INTRO        %%%%%%%%%%%%%%%%%%
+\part{Introduction \& Methodology}
+\input{../chapters/intro/intro}
+\newpage
+%%%%%%%%%%%%%%%      IMPORT CH2 - METHODS    %%%%%%%%%%%%%%%%%%
+
+\input{../chapters/methods/methods}
+\newpage
+
+%%%%%%%%%%%%%%%      IMPORT CH3 - METHODS    %%%%%%%%%%%%%%%%%%
+\part{Computational Results}
+
+
+\input{../chapters/chapter3/structuralbioinfo.tex}
+\newpage
+
+%%%%%%%%%%%%%%%        IMPORT CH4 - Phylogenetics        %%%%%%%%%%%%%%%
+
+\input{../chapters/chapter4/bioinformatics.tex}
+\newpage
+%%%%%%%%%%%%%%%        IMPORT CH5 - Structural Tail Fibres        %%%%%%%%%%%%
+\part{Experimental Results}
+
+\input{../chapters/chapter5/tailfibres.tex}
+\newpage
+%%%%%%%%%%%%%%%        IMPORT CH6 - Regulation        %%%%%%%%%%%%%%%%%
+
+\input{../chapters/chapter6/regulation.tex}
+\newpage
+
+%%%%%%%%%%%%%%%        IMPORT CH7 -  Discussion       %%%%%%%%%%%%%%%%%
+
+
+\part{Discussion}
+\input{../chapters/discussion/discussion.tex}
+
+%%%%%%%%%%%%%%%             BIBLIOGRAPHY            %%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{fancy}
+\rhead{\textsf{Bibliography}}
+\addcontentsline{toc}{chapter}{Bibliography}
+\begingroup
+\bibliographystyle{apalike}
+\begin{footnotesize}
+\bibliography{/Users/joehealey/Documents/Bibtex/PhD_Thesis.bib}
+\end{footnotesize}
+\endgroup
+
+
+\newpage
+
+\begin{appendices}
+\chapter{Chapter \ref{structbioinfo} Appendices}
+
+\chapter{Chapter \ref{bioinformatics} Appendices}
+%\input{../appendices/bioinformatics_appendix/bioinformatics_appendix.tex}
+
+\chapter{Chapter \ref{tailfibres} Appendices}
+\input{../appendices/tailfibre_appendix/tailfibreappendix.tex}
+
+
+\chapter{Publications arising from this candidature}
+The following is a paper published in Angewandte Chemie in 2017. The structural modelling within the paper was performed by me and is the basis of my inclusion as an author. This paper is included as an appendix as it was a publication arising from a side project during my PhD candidature, but is not relevant to my personal thesis research, though the same methods as described in Chapter \ref{structbioinfo} were used.
+
+%\includepdf[pages={-}, scale=.85, offset=5mm -30mm, pagecommand={}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange201706703.pdf}
+\includepdf[pages={-}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange201706703.pdf}
+
+\end{appendices}
+
+%                                                    | | |                                                           | | |
+%%%%%%%%%%%%%%%% VVV DELETE AFTER COMPLETION VVV %%%%%%%%%%%%%%%
+%\newpage
+%\layout
+\newpage
+\todo[inline]{Document check over: Change captions to small caps as per fig 1.5 in intro}
+\todo[inline]{Document check over: ensure cite citations are being included as with \\citep}
+\todo[inline]{Document check over: go back and change citep to cite where the paper has been referred to directly in the text to get rid of unecessary brackets}
+\todo[inline]{Document check over: ensure all tables (particularly in Methods) have references if needed}
+\todo[inline]{Revisit captions, particularly in phylogenetics chapter to make them more descriptive.}
+\todo[inline]{Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}
+
+\todo[inline]{Document check over: Complete appendices including: All HHpred hits/Scripts/annotate multiple seq alignments}
+\todo[inline]{Document check over: finish declaration and abstract}
+\todo[inline]{Document check over: ensure consistent capitalisation of headings}
+\todo[inline]{Epigraphs for all chapters}
+\todo[inline]{Ensure all hyperreferences resolve correctly}
+\todo[inline]{Replace gray!10 everywhere so that it reproduces on paper better}
+\newpage
+\listoftodos[To Do]
+
+
+\end{document}
