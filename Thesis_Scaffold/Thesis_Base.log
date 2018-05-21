@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  21 MAY 2018 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  21 MAY 2018 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2282,26 +2282,13 @@ Package: tengwarscript 2014/07/12 v1.3.1 TengwarScript for LaTeX
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tengwarscript/annataritalic.cfg))
 \longest=\skip289
-(./Thesis_Base.aux
-
-LaTeX Warning: Label `pvc1tree' multiply defined.
-
-
-LaTeX Warning: Label `pvc1tree@cref' multiply defined.
-
-
-LaTeX Warning: Label `tailfibreplasmids' multiply defined.
-
-
-LaTeX Warning: Label `tailfibreplasmids@cref' multiply defined.
-
-)
+No file Thesis_Base.aux.
 \openout1 = `Thesis_Base.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 302.
 LaTeX Font Info:    Try loading font information for OML+pxmi on input line 302
 .
- (/usr/local/texlive/2017/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
 File: omlpxmi.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    ... okay on input line 302.
@@ -2456,8 +2443,6 @@ LaTeX Info: Redefining \Ref on input line 515.
 LaTeX Info: Redefining \ref on input line 302.
 LaTeX Info: Redefining \pageref on input line 302.
 LaTeX Info: Redefining \nameref on input line 302.
-
-(./Thesis_Base.out) (./Thesis_Base.out)
 \@outlinefile=\write7
 \openout7 = `Thesis_Base.out'.
 
@@ -2526,7 +2511,7 @@ LaTeX Font Info:    Font shape `OT1/pxss/bx/it' in size <9> not available
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<crest.pdf, id=686, 199.1691pt x 199.1691pt>
+<crest.pdf, id=20, 199.1691pt x 199.1691pt>
 File: crest.pdf Graphic file (type pdf)
  <use crest.pdf>
 Package pdftex.def Info: crest.pdf used on input line 306.
@@ -2544,13 +2529,13 @@ LaTeX Font Info:    Font shape `OT1/pxss/m/it' in size <10> not available
 (Font)              Font shape `OT1/pxss/m/sl' tried instead on input line 306.
 
 
-<moac.pdf, id=687, 113.8112pt x 113.8112pt>
+<moac.pdf, id=21, 113.8112pt x 113.8112pt>
 File: moac.pdf Graphic file (type pdf)
  <use moac.pdf>
 Package pdftex.def Info: moac.pdf used on input line 306.
 (pdftex.def)             Requested size: 56.90546pt x 56.90546pt.
 
-<warwick.pdf, id=688, 341.43358pt x 113.8112pt>
+<warwick.pdf, id=22, 341.43358pt x 113.8112pt>
 File: warwick.pdf Graphic file (type pdf)
  <use warwick.pdf>
 Package pdftex.def Info: warwick.pdf used on input line 306.
@@ -2561,44 +2546,27 @@ been already used, duplicate ignored
                    \relax 
 l.306 \moaccopyright \moactitlepage
                                     [1 <./crest.pdf> <./moac.pdf> <./warwick.pd
-f>] (./Thesis_Base.toc
-Overfull \hbox (1.0655pt too wide) in paragraph at lines 18--18
- [][] [][]\OT1/pxr/m/n/10.95 Of PVCs and the \OT1/pxr/m/it/10.95 Ser-ra-tia en-
-to-mophila \OT1/pxr/m/n/10.95 ``An-tifeed-ing prophage"[] []  
- []
-
-
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 35.
-
-[1]
-Overfull \hbox (0.41985pt too wide) in paragraph at lines 70--70
- [][] [][]\OT1/pxr/m/n/10.95 Electroporation-Recombination with $\OML/pxmi/m/it
-/10.95 ^^U$\OT1/pxr/m/n/10.95 -Red Chro-mo-so-mal 
- []
-
-[2] [3] [4])
+f>]
 \tf@toc=\write8
 \openout8 = `Thesis_Base.toc'.
 
- [5] (./Thesis_Base.lof
+
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 30.
+less on input line 315.
 
-[6
-
-] [7])
+[1]
 \tf@lof=\write9
 \openout9 = `Thesis_Base.lof'.
 
- [8] (./Thesis_Base.lot
-Overfull \hbox (48.44476pt too wide) in paragraph at lines 20--20
- [][] [][]\OT1/pxr/m/n/10.95 Secondary struc-ture pro-por-tions of re-solved ta
-il fi-bres ac-cord-ing to PDB2CD/Dichroweb[] []  
- []
 
-)
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 323.
+
+[2
+
+]
 \tf@lot=\write10
 \openout10 = `Thesis_Base.lot'.
 
@@ -2607,7 +2575,7 @@ il fi-bres ac-cord-ing to PDB2CD/Dichroweb[] []
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 329.
 
-[9]
+[3]
 \c@myequations=\count454
 \cftbeforemyequationsskip=\skip304
 \cftmyequationsindent=\skip305
@@ -2615,30 +2583,32 @@ less on input line 329.
 \c@equdepth=\count455
 \cftbeforeequtitleskip=\skip307
 \cftafterequtitleskip=\skip308
- (./Thesis_Base.equ)
+
+
+Package hyperref Warning: old equ file detected, not used; run LaTeX again.
+
 \tf@equ=\write11
 \openout11 = `Thesis_Base.equ'.
-
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 348.
 
-[10]
+[4]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 360.
 
-[11
+[5
 
-] [12
+] [6
 
 ]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 396.
 
-[13
+[7
 
 
 ]
@@ -2653,7 +2623,7 @@ ine 429.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 431.
 
-[14
+[8
 
 ]
 
@@ -2678,14 +2648,61 @@ less on input line 2.
 
 Chapter 1.
 
+Package natbib Warning: Citation `Naidoo2015' on page 2 undefined on input line
+ 22.
+
+
+Package natbib Warning: Citation `Saux1999a' on page 2 undefined on input line 
+22.
+
+
+Package natbib Warning: Citation `Boemare1993' on page 2 undefined on input lin
+e 22.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 23.
 
 [2
 
-] [3]
+]
+
+Package natbib Warning: Citation `Peat2010' on page 3 undefined on input line 2
+4.
+
+
+Package natbib Warning: Citation `Wilkinson2010a' on page 3 undefined on input 
+line 24.
+
+
+Package natbib Warning: Citation `Duchaud2003' on page 3 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `Wilkinson2009a' on page 3 undefined on input 
+line 26.
+
+
+Package natbib Warning: Citation `Lemaitre2007a' on page 3 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Peat2010' on page 3 undefined on input line 2
+6.
+
+
+Package natbib Warning: Citation `Mulley2015' on page 3 undefined on input line
+ 26.
+
+
+LaTeX Warning: Reference `lineages' on page 1 undefined on input line 26.
+
+
+LaTeX Warning: Reference `lineages' on page 1 undefined on input line 26.
+
+[3]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lineages.pdf,
- id=1249, 1027.84pt x 770.88pt>
+ id=197, 1027.84pt x 770.88pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lineages
 .pdf Graphic file (type pdf)
 
@@ -2694,10 +2711,108 @@ pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /intro/img/lineages.pdf used on input line 29.
 (pdftex.def)             Requested size: 426.79135pt x 220.78743pt.
- [4 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lineages.
-pdf>] [5] [6]
+
+
+Package natbib Warning: Citation `Waterfield2009' on page 4 undefined on input 
+line 31.
+
+
+LaTeX Warning: Reference `lifecycle' on page 1 undefined on input line 34.
+
+
+LaTeX Warning: Reference `lifecycle' on page 1 undefined on input line 34.
+
+
+Package natbib Warning: Citation `Ffrench-Constant2003' on page 4 undefined on 
+input line 34.
+
+
+Package natbib Warning: Citation `Daborn2001a' on page 4 undefined on input lin
+e 34.
+
+
+Package natbib Warning: Citation `Baur1998' on page 4 undefined on input line 3
+4.
+
+[4 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lineages.p
+df>]
+
+Package natbib Warning: Citation `Waterfield2004a' on page 5 undefined on input
+ line 36.
+
+
+Package natbib Warning: Citation `Peat2010' on page 5 undefined on input line 3
+9.
+
+
+Package natbib Warning: Citation `Clarke2008a' on page 5 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Farmer1989' on page 5 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Gerrard2003' on page 5 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Waterfield2009' on page 5 undefined on input 
+line 39.
+
+
+Package natbib Warning: Citation `Durham2001' on page 5 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Soniak2012' on page 5 undefined on input line
+ 39.
+
+[5]
+
+Package natbib Warning: Citation `Waterfield2009' on page 6 undefined on input 
+line 41.
+
+
+Package natbib Warning: Citation `Duchaud2003' on page 6 undefined on input lin
+e 41.
+
+
+Package natbib Warning: Citation `Joyce2008' on page 6 undefined on input line 
+41.
+
+
+Package natbib Warning: Citation `Hu2000' on page 6 undefined on input line 41.
+
+
+
+Package natbib Warning: Citation `Shi2018' on page 6 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `Orozco2016' on page 6 undefined on input line
+ 42.
+
+
+Package natbib Warning: Citation `Ffrench-Constant2003' on page 6 undefined on 
+input line 45.
+
+[6]
+
+Package natbib Warning: Citation `Chaston2011' on page 7 undefined on input lin
+e 47.
+
+
+Package natbib Warning: Citation `Naidoo2015' on page 7 undefined on input line
+ 47.
+
+
+Package natbib Warning: Citation `Waterfield2009' on page 7 undefined on input 
+line 47.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lifecycle.png
-, id=1356, 722.7pt x 505.89pt>
+, id=242, 722.7pt x 505.89pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lifecycl
 e.png Graphic file (type png)
 
@@ -2708,12 +2823,91 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 283.93872pt.
 
 
+Package natbib Warning: Citation `Ffrench-Constant2003' on page 7 undefined on 
+input line 53.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `lifecyclefig' on page 1 undefined on input line 58.
+
+
+LaTeX Warning: Reference `lifecyclefig' on page 1 undefined on input line 58.
+
+
+Package natbib Warning: Citation `Ciche2003a' on page 7 undefined on input line
+ 58.
+
+
+Package natbib Warning: Citation `Ciche2003a' on page 7 undefined on input line
+ 58.
+
 [7] [8 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lifecy
-cle.png>] [9] [10]
+cle.png>]
+
+Package natbib Warning: Citation `Bager2016' on page 9 undefined on input line 
+60.
+
+
+Package natbib Warning: Citation `Lango2010' on page 9 undefined on input line 
+60.
+
+
+Package natbib Warning: Citation `Tobias2016' on page 9 undefined on input line
+ 60.
+
+
+Package natbib Warning: Citation `Stephens1998' on page 9 undefined on input li
+ne 60.
+
+
+Package natbib Warning: Citation `Yang2006' on page 9 undefined on input line 7
+6.
+
+[9]
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 78.
+
+
+Package natbib Warning: Citation `Yang2006' on page 10 undefined on input line 
+81.
+
+
+Package natbib Warning: Citation `Waterfield2008' on page 10 undefined on input
+ line 81.
+
+
+Package natbib Warning: Citation `Landraud2004' on page 10 undefined on input l
+ine 81.
+
+
+Package natbib Warning: Citation `Buetow2001' on page 10 undefined on input lin
+e 81.
+
+
+LaTeX Warning: Reference `regulation' on page 1 undefined on input line 81.
+
+
+LaTeX Warning: Reference `regulation' on page 1 undefined on input line 81.
+
+[10]
+
+LaTeX Warning: Reference `PVCems' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Reference `PVCems' on page 1 undefined on input line 83.
+
+
+Package natbib Warning: Citation `Yang2006' on page 11 undefined on input line 
+83.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM1.png, i
-d=1418, 300.1614pt x 284.262pt>
+d=269, 300.1614pt x 284.262pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM1.p
 ng Graphic file (type png)
 
@@ -2729,7 +2923,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 93--95
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM2.png, i
-d=1420, 301.125pt x 284.262pt>
+d=271, 301.125pt x 284.262pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM2.p
 ng Graphic file (type png)
 
@@ -2745,7 +2939,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 101--103
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM3.png, i
-d=1422, 429.7656pt x 542.025pt>
+d=273, 429.7656pt x 542.025pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM3.p
 ng Graphic file (type png)
 
@@ -2760,14 +2954,22 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 109--111
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `Yang2006' on page 11 undefined on input line 
+120.
 
-[11] [12 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCE
-M1.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM
-2.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM3
-.png>]
+[11 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM1.pn
+g> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM2.png
+> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM3.png>
+]
+
+LaTeX Warning: Reference `pvcvariants' on page 1 undefined on input line 124.
+
+
+LaTeX Warning: Reference `pvcvariants' on page 1 undefined on input line 124.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/hostofhostsfi
-g.pdf, id=1445, 597.23125pt x 845.1575pt>
+g.pdf, id=286, 597.23125pt x 845.1575pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/hostofho
 stsfig.pdf Graphic file (type pdf)
 
@@ -2780,10 +2982,108 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 
 LaTeX Warning: Float too large for page by 2.70593pt on input line 131.
 
-[13] [14 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/host
-ofhostsfig.pdf>] [15]
+[12] [13 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/host
+ofhostsfig.pdf>]
+
+Package natbib Warning: Citation `Ge2015' on page 14 undefined on input line 14
+2.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 14 undefined on input li
+ne 142.
+
+
+Package natbib Warning: Citation `Kube2015a' on page 14 undefined on input line
+ 142.
+
+
+Package natbib Warning: Citation `Sarris2014' on page 14 undefined on input lin
+e 142.
+
+
+Package natbib Warning: Citation `Brackmann2017' on page 14 undefined on input 
+line 142.
+
+
+Package natbib Warning: Citation `Richard2014a' on page 14 undefined on input l
+ine 142.
+
+
+Package natbib Warning: Citation `Kube2015a' on page 14 undefined on input line
+ 142.
+
+
+Package natbib Warning: Citation `Sarris2014' on page 14 undefined on input lin
+e 142.
+
+
+Package natbib Warning: Citation `Taylor2018a' on page 14 undefined on input li
+ne 142.
+
+[14]
+
+Package natbib Warning: Citation `Ackermann1998' on page 15 undefined on input 
+line 145.
+
+
+Package natbib Warning: Citation `DHerelle1917' on page 15 undefined on input l
+ine 145.
+
+
+Package natbib Warning: Citation `Amos1975' on page 15 undefined on input line 
+147.
+
+
+Package natbib Warning: Citation `Kuhlbrandt2014' on page 15 undefined on input
+ line 147.
+
+
+Package natbib Warning: Citation `Aksyuk2009' on page 15 undefined on input lin
+e 147.
+
+
+Package natbib Warning: Citation `Kostyuchenko2003' on page 15 undefined on inp
+ut line 147.
+
+
+Package natbib Warning: Citation `Kostyuchenko2005' on page 15 undefined on inp
+ut line 147.
+
+
+Package natbib Warning: Citation `Fokine2004' on page 15 undefined on input lin
+e 147.
+
+
+Package natbib Warning: Citation `Fokine2013' on page 15 undefined on input lin
+e 147.
+
+
+Package natbib Warning: Citation `Rossmann2004' on page 15 undefined on input l
+ine 147.
+
+
+Package natbib Warning: Citation `Taylor2016b' on page 15 undefined on input li
+ne 147.
+
+
+Package natbib Warning: Citation `Lan2014' on page 15 undefined on input line 1
+47.
+
+
+LaTeX Warning: Reference `t4EMs' on page 1 undefined on input line 147.
+
+
+LaTeX Warning: Reference `t4EMs' on page 1 undefined on input line 147.
+
+
+LaTeX Warning: Reference `t4structure' on page 1 undefined on input line 147.
+
+
+LaTeX Warning: Reference `t4structure' on page 1 undefined on input line 147.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EM_of_phage_T
-4.jpg, id=1593, 437.635pt x 314.17375pt>
+4.jpg, id=383, 437.635pt x 314.17375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EM_of_ph
 age_T4.jpg Graphic file (type jpg)
 
@@ -2799,7 +3099,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 157--159
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/isEMdead.jpg,
- id=1595, 308.352pt x 190.7928pt>
+ id=385, 308.352pt x 190.7928pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/isEMdead
 .jpg Graphic file (type jpg)
 
@@ -2815,7 +3115,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 165--167
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EMlargescale.
-jpg, id=1597, 433.62pt x 219.7008pt>
+jpg, id=387, 433.62pt x 219.7008pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EMlarges
 cale.jpg Graphic file (type jpg)
 
@@ -2829,12 +3129,207 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 173--175
  [][] 
  []
 
-[16 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EM_of_pha
+
+Package natbib Warning: Citation `Knott2013' on page 15 undefined on input line
+ 177.
+
+
+Package natbib Warning: Citation `Bourdin2014' on page 15 undefined on input li
+ne 177.
+
+
+Package natbib Warning: Citation `Miller2003' on page 15 undefined on input lin
+e 182.
+
+[15 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EM_of_pha
 ge_T4.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/is
 EMdead.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/E
-Mlargescale.jpg>] [17] [18]
+Mlargescale.jpg>]
+
+LaTeX Warning: Reference `t4assemblyflowchart' on page 1 undefined on input lin
+e 184.
+
+
+LaTeX Warning: Reference `t4assemblyflowchart' on page 1 undefined on input lin
+e 184.
+
+
+LaTeX Warning: Reference `t4sheaths' on page 1 undefined on input line 184.
+
+
+LaTeX Warning: Reference `t4sheaths' on page 1 undefined on input line 184.
+
+
+Package natbib Warning: Citation `Kube2015a' on page 16 undefined on input line
+ 184.
+
+
+Package natbib Warning: Citation `Kostyuchenko2005' on page 16 undefined on inp
+ut line 184.
+
+
+Package natbib Warning: Citation `Leiman2004' on page 16 undefined on input lin
+e 184.
+
+
+LaTeX Warning: Reference `mechanismofaction' on page 1 undefined on input line 
+184.
+
+
+LaTeX Warning: Reference `mechanismofaction' on page 1 undefined on input line 
+184.
+
+
+Package natbib Warning: Citation `Ballister2008' on page 16 undefined on input 
+line 186.
+
+
+Package natbib Warning: Citation `Lan2014' on page 16 undefined on input line 1
+86.
+
+
+Package natbib Warning: Citation `Kanamaru2002' on page 16 undefined on input l
+ine 186.
+
+
+Package natbib Warning: Citation `Abuladze1994' on page 16 undefined on input l
+ine 186.
+
+
+Package natbib Warning: Citation `Katsura1987' on page 16 undefined on input li
+ne 186.
+
+
+Package natbib Warning: Citation `Katsura1984' on page 16 undefined on input li
+ne 186.
+
+
+Package natbib Warning: Citation `Isao1990' on page 16 undefined on input line 
+186.
+
+[16]
+
+LaTeX Warning: Reference `t4assemblyflowchart' on page 1 undefined on input lin
+e 188.
+
+
+LaTeX Warning: Reference `t4assemblyflowchart' on page 1 undefined on input lin
+e 188.
+
+
+Package natbib Warning: Citation `Leiman2004' on page 17 undefined on input lin
+e 188.
+
+
+LaTeX Warning: Reference `wedgeformation' on page 1 undefined on input line 188
+.
+
+
+LaTeX Warning: Reference `wedgeformation' on page 1 undefined on input line 188
+.
+
+
+LaTeX Warning: Reference `t6ss' on page 1 undefined on input line 190.
+
+
+LaTeX Warning: Reference `t6ss' on page 1 undefined on input line 190.
+
+
+Package natbib Warning: Citation `Veesler2011' on page 17 undefined on input li
+ne 190.
+
+
+Package natbib Warning: Citation `Leiman2009' on page 17 undefined on input lin
+e 190.
+
+
+Package natbib Warning: Citation `Basler2015' on page 17 undefined on input lin
+e 190.
+
+
+Package natbib Warning: Citation `Murzin1993' on page 17 undefined on input lin
+e 190.
+
+
+Package natbib Warning: Citation `Pukatzki2007' on page 17 undefined on input l
+ine 190.
+
+
+Package natbib Warning: Citation `Kanamaru2002' on page 17 undefined on input l
+ine 190.
+
+
+LaTeX Warning: Reference `t6ss' on page 1 undefined on input line 190.
+
+
+LaTeX Warning: Reference `t6ss' on page 1 undefined on input line 190.
+
+
+Package natbib Warning: Citation `Bartual2010' on page 17 undefined on input li
+ne 192.
+
+
+Package natbib Warning: Citation `Thomassen2003' on page 17 undefined on input 
+line 192.
+
+
+Package natbib Warning: Citation `Leiman2010' on page 17 undefined on input lin
+e 192.
+
+
+LaTeX Warning: Reference `baseplateformation' on page 1 undefined on input line
+ 192.
+
+
+LaTeX Warning: Reference `baseplateformation' on page 1 undefined on input line
+ 192.
+
+
+LaTeX Warning: Reference `baseplateformation' on page 1 undefined on input line
+ 192.
+
+
+LaTeX Warning: Reference `baseplateformation' on page 1 undefined on input line
+ 192.
+
+
+LaTeX Warning: Reference `extendedtailfibres' on page 1 undefined on input line
+ 192.
+
+
+LaTeX Warning: Reference `extendedtailfibres' on page 1 undefined on input line
+ 192.
+
+
+Package natbib Warning: Citation `Leiman2010' on page 17 undefined on input lin
+e 192.
+
+
+Package natbib Warning: Citation `Goldberg1997' on page 17 undefined on input l
+ine 192.
+
+
+Package natbib Warning: Citation `Ali2003' on page 17 undefined on input line 1
+92.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 192.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 192.
+
+[17]
+
+Package natbib Warning: Citation `Yap2014a' on page 18 undefined on input line 
+194.
+
+
+Package natbib Warning: Citation `Leiman2010' on page 18 undefined on input lin
+e 194.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t4assembly.jp
-g, id=1721, 290.04683pt x 306.2411pt>
+g, id=410, 290.04683pt x 306.2411pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t4assemb
 ly.jpg Graphic file (type jpg)
 
@@ -2860,8 +3355,17 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /intro/img/t4assembly.jpg used on input line 218.
 (pdftex.def)             Requested size: 426.79135pt x 143.19235pt.
 
+
+Package natbib Warning: Citation `Leiman2004' on page 18 undefined on input lin
+e 225.
+
+
+Package natbib Warning: Citation `Yap2014a' on page 18 undefined on input line 
+225.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-F5.jp
-g, id=1729, 346.29375pt x 998.73125pt>
+g, id=414, 346.29375pt x 998.73125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-
 F5.jpg Graphic file (type jpg)
 
@@ -2872,7 +3376,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 192.0548pt x 548.33928pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-F2.pn
-g, id=1731, 242.9075pt x 192.72pt>
+g, id=416, 242.9075pt x 192.72pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-
 F2.png Graphic file (type png)
 
@@ -2883,7 +3387,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 192.0548pt x 152.37357pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsb970-F1.png
-, id=1733, 297.11pt x 365.365pt>
+, id=418, 297.11pt x 365.365pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsb970-F
 1.png Graphic file (type png)
 
@@ -2894,7 +3398,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 179.25157pt x 220.44162pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nature17971-f
-1.png, id=1735, 509.905pt x 338.26375pt>
+1.png, id=420, 509.905pt x 338.26375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nature17
 971-f1.png Graphic file (type png)
 
@@ -2905,18 +3409,91 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 192.0548pt x 127.40602pt.
 
 
-LaTeX Warning: Float too large for page by 12.26709pt on input line 279.
+Package natbib Warning: Citation `Kostyuchenko2005' on page 18 undefined on inp
+ut line 277.
 
-[19] [20 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t4as
-sembly.jpg>] [21 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/
+
+Package natbib Warning: Citation `Kostyuchenko2003' on page 18 undefined on inp
+ut line 277.
+
+
+Package natbib Warning: Citation `Taylor2016' on page 18 undefined on input lin
+e 277.
+
+
+LaTeX Warning: Float too large for page by 1.26709pt on input line 279.
+
+[18] [19 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t4as
+sembly.jpg>] [20 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/
 img/nsmb975-F5.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/int
 ro/img/nsmb975-F2.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/
 intro/img/nsb970-F1.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapter
-s/intro/img/nature17971-f1.png>] [22
+s/intro/img/nature17971-f1.png>]
+
+Package natbib Warning: Citation `Ishii1965' on page 21 undefined on input line
+ 284.
+
+
+Package natbib Warning: Citation `jacob1954biosynthese' on page 21 undefined on
+ input line 284.
+
+
+Package natbib Warning: Citation `Ge2015' on page 21 undefined on input line 28
+4.
+
+
+LaTeX Warning: Reference `pyocinstructure' on page 1 undefined on input line 28
+4.
+
+
+LaTeX Warning: Reference `pyocinstructure' on page 1 undefined on input line 28
+4.
+
+
+Package natbib Warning: Citation `Scholl2008' on page 21 undefined on input lin
+e 284.
+
+
+Package natbib Warning: Citation `Ishii1965' on page 21 undefined on input line
+ 286.
+
+
+Package natbib Warning: Citation `Heo2007' on page 21 undefined on input line 2
+86.
+
+
+Package natbib Warning: Citation `Michel-Briand2002' on page 21 undefined on in
+put line 286.
+
+
+Package natbib Warning: Citation `Nakayama2000' on page 21 undefined on input l
+ine 286.
+
+
+Package natbib Warning: Citation `Heo2007' on page 21 undefined on input line 2
+86.
+
+
+Package natbib Warning: Citation `kageyama1975bacteriocins' on page 21 undefine
+d on input line 286.
+
+
+LaTeX Warning: Reference `pyocinems' on page 1 undefined on input line 286.
+
+
+LaTeX Warning: Reference `pyocinems' on page 1 undefined on input line 286.
+
+
+LaTeX Warning: Reference `PVCems' on page 1 undefined on input line 286.
+
+
+LaTeX Warning: Reference `PVCems' on page 1 undefined on input line 286.
+
+[21
 
 ]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin.jpg, i
-d=1810, 1246.6575pt x 879.285pt>
+d=452, 1246.6575pt x 879.285pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin.j
 pg Graphic file (type jpg)
 
@@ -2932,7 +3509,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 297--299
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afplarge.jpg,
- id=1812, 1284.8pt x 678.535pt>
+ id=454, 1284.8pt x 678.535pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afplarge
 .jpg Graphic file (type jpg)
 
@@ -2948,7 +3525,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 305--307
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/em_labelled.p
-df, id=1814, 853.1875pt x 740.7675pt>
+df, id=456, 853.1875pt x 740.7675pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/em_label
 led.pdf Graphic file (type pdf)
 
@@ -2962,21 +3539,103 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 313--315
  [][] 
  []
 
-[23 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin.jp
+
+Package natbib Warning: Citation `Lee1999' on page 22 undefined on input line 3
+17.
+
+
+Package natbib Warning: Citation `Williams2008a' on page 22 undefined on input 
+line 317.
+
+
+Package natbib Warning: Citation `Morse1976' on page 22 undefined on input line
+ 317.
+
+
+Package natbib Warning: Citation `Uratani1984' on page 22 undefined on input li
+ne 322.
+
+
+Package natbib Warning: Citation `Lee1999' on page 22 undefined on input line 3
+22.
+
+
+Package natbib Warning: Citation `OHKAWA1973' on page 22 undefined on input lin
+e 322.
+
+
+Package natbib Warning: Citation `Michel-Briand2002' on page 22 undefined on in
+put line 322.
+
+
+Package natbib Warning: Citation `Shinomiya1972' on page 22 undefined on input 
+line 322.
+
+
+Package natbib Warning: Citation `Scholl2008' on page 22 undefined on input lin
+e 322.
+
+
+Package natbib Warning: Citation `Michel-Briand2002' on page 22 undefined on in
+put line 324.
+
+
+Package natbib Warning: Citation `Coetzee1968' on page 22 undefined on input li
+ne 324.
+
+
+Package natbib Warning: Citation `Zink1995' on page 22 undefined on input line 
+324.
+
+
+Package natbib Warning: Citation `Birmingham1981' on page 22 undefined on input
+ line 324.
+
+
+Package natbib Warning: Citation `Scholl2008' on page 22 undefined on input lin
+e 324.
+
+[22 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin.jp
 g> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afplarge.j
 pg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/em_labell
 ed.pdf>]
 
-LaTeX Warning: cref  reference format for label type `paragraph' undefined on i
-nput line 326.
+LaTeX Warning: Reference `mac' on page 1 undefined on input line 326.
 
 
-LaTeX Warning: cref  reference format for label type `paragraph' undefined on i
-nput line 326.
+LaTeX Warning: Reference `mac' on page 1 undefined on input line 326.
+
+
+LaTeX Warning: Reference `cis' on page 1 undefined on input line 326.
+
+
+LaTeX Warning: Reference `cis' on page 1 undefined on input line 326.
+
+
+Package natbib Warning: Citation `Persson2009' on page 23 undefined on input li
+ne 326.
+
+
+LaTeX Warning: Reference `afp' on page 1 undefined on input line 326.
+
+
+LaTeX Warning: Reference `afp' on page 1 undefined on input line 326.
+
+
+Package natbib Warning: Citation `Ge2015' on page 23 undefined on input line 32
+8.
+
+
+LaTeX Warning: Reference `pyocinstructure' on page 1 undefined on input line 32
+8.
+
+
+LaTeX Warning: Reference `pyocinstructure' on page 1 undefined on input line 32
+8.
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/videostill.pn
-g, id=1875, 521.95pt x 803.0pt>
+g, id=470, 521.95pt x 803.0pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/videosti
 ll.png Graphic file (type png)
 
@@ -2987,7 +3646,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 128.0387pt x 527.24603pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin_maps.p
-df, id=1877, 231.26399pt x 115.99335pt>
+df, id=472, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin_m
 aps.pdf Graphic file (type pdf)
 
@@ -2998,7 +3657,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 277.41176pt x 308.32751pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocintube.jp
-g, id=1879, 385.44pt x 116.5956pt>
+g, id=474, 385.44pt x 116.5956pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocintu
 be.jpg Graphic file (type jpg)
 
@@ -3007,14 +3666,160 @@ e.jpg>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /intro/img/pyocintube.jpg used on input line 356.
 (pdftex.def)             Requested size: 290.21498pt x 183.21559pt.
- [24] [25 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/vid
-eostill.png (PNG copy)> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/intro/img/pyocin_maps.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chap
-ters/intro/img/pyocintube.jpg>] [26
 
-] [27] [28]
+
+Package natbib Warning: Citation `Ge2015' on page 23 undefined on input line 36
+9.
+
+
+Package natbib Warning: Citation `Ge2015' on page 23 undefined on input line 36
+9.
+
+
+Package natbib Warning: Citation `Pettersen2004' on page 23 undefined on input 
+line 369.
+
+[23] [24 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/vide
+ostill.png (PNG copy)> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/
+intro/img/pyocin_maps.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapt
+ers/intro/img/pyocintube.jpg>]
+
+LaTeX Warning: Reference `pyocinstructure' on page 1 undefined on input line 37
+6.
+
+
+LaTeX Warning: Reference `pyocinstructure' on page 1 undefined on input line 37
+6.
+
+
+Package natbib Warning: Citation `Ge2015' on page 25 undefined on input line 37
+6.
+
+
+Package natbib Warning: Citation `Kube2015a' on page 25 undefined on input line
+ 376.
+
+
+Package natbib Warning: Citation `Kube2015a' on page 25 undefined on input line
+ 376.
+
+
+Package natbib Warning: Citation `Ge2015' on page 25 undefined on input line 37
+6.
+
+
+LaTeX Warning: Reference `slicedtube' on page 1 undefined on input line 376.
+
+
+LaTeX Warning: Reference `slicedtube' on page 1 undefined on input line 376.
+
+
+Package natbib Warning: Citation `Remaut2006' on page 25 undefined on input lin
+e 376.
+
+
+Package natbib Warning: Citation `Ballister2008' on page 25 undefined on input 
+line 376.
+
+
+Package natbib Warning: Citation `Kudryashev2015' on page 25 undefined on input
+ line 376.
+
+
+Package natbib Warning: Citation `Clemens2015' on page 25 undefined on input li
+ne 376.
+
+
+Package natbib Warning: Citation `Ge2015' on page 25 undefined on input line 37
+8.
+
+
+Package natbib Warning: Citation `Richardson1981' on page 25 undefined on input
+ line 378.
+
+
+Package natbib Warning: Citation `Dunwell2004' on page 25 undefined on input li
+ne 378.
+
+
+Package natbib Warning: Citation `Ge2015' on page 25 undefined on input line 37
+8.
+
+[25
+
+]
+
+Package natbib Warning: Citation `Pell2009a' on page 26 undefined on input line
+ 380.
+
+
+Package natbib Warning: Citation `Jobichen2010' on page 26 undefined on input l
+ine 380.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 380.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 380.
+
+
+[26]
+
+LaTeX Warning: Reference `videostill' on page 1 undefined on input line 384.
+
+
+LaTeX Warning: Reference `videostill' on page 1 undefined on input line 384.
+
+
+LaTeX Warning: Reference `videostill' on page 1 undefined on input line 384.
+
+
+LaTeX Warning: Reference `videostill' on page 1 undefined on input line 384.
+
+
+Package natbib Warning: Citation `Shneider2013' on page 27 undefined on input l
+ine 384.
+
+
+Package natbib Warning: Citation `Kube2015a' on page 27 undefined on input line
+ 384.
+
+
+Package natbib Warning: Citation `Browning2012' on page 27 undefined on input l
+ine 384.
+
+
+Package natbib Warning: Citation `Ge2015' on page 27 undefined on input line 39
+1.
+
+
+Package natbib Warning: Citation `Rybakova1994' on page 27 undefined on input l
+ine 391.
+
+
+Package natbib Warning: Citation `Duchaud2003' on page 27 undefined on input li
+ne 391.
+
+
+Package natbib Warning: Citation `Sproer1999' on page 27 undefined on input lin
+e 391.
+
+
+Package natbib Warning: Citation `Brillard2002b' on page 27 undefined on input 
+line 391.
+
+
+Package natbib Warning: Citation `Chattopadhyay2012' on page 27 undefined on in
+put line 391.
+
+
+Package natbib Warning: Citation `OpenderKoul2011' on page 27 undefined on inpu
+t line 391.
+
+[27]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_large.jpg
-, id=1994, 975.645pt x 939.51pt>
+, id=508, 975.645pt x 939.51pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_larg
 e.jpg Graphic file (type jpg)
 
@@ -3030,7 +3835,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 402--404
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afpvariants.p
-ng, id=1996, 401.5pt x 678.535pt>
+ng, id=510, 401.5pt x 678.535pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afpvaria
 nts.png Graphic file (type png)
 
@@ -3046,7 +3851,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 410--412
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afp_tomogram.
-png, id=1998, 674.52pt x 307.1475pt>
+png, id=512, 674.52pt x 307.1475pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afp_tomo
 gram.png Graphic file (type png)
 
@@ -3060,12 +3865,86 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 418--420
  [][] 
  []
 
-[29 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_large
+
+Package natbib Warning: Citation `Sen2010' on page 28 undefined on input line 4
+22.
+
+
+Package natbib Warning: Citation `Hurst2007' on page 28 undefined on input line
+ 422.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 28 undefined on input li
+ne 422.
+
+
+Package natbib Warning: Citation `Hurst2011a' on page 28 undefined on input lin
+e 429.
+
+
+Package natbib Warning: Citation `Hurst2000' on page 28 undefined on input line
+ 429.
+
+
+Package natbib Warning: Citation `Hurst2004' on page 28 undefined on input line
+ 429.
+
+
+Package natbib Warning: Citation `Hurst2004' on page 28 undefined on input line
+ 429.
+
+
+Package natbib Warning: Citation `Hurst2007a' on page 28 undefined on input lin
+e 429.
+
+
+Package natbib Warning: Citation `Sen2010' on page 28 undefined on input line 4
+29.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 28 undefined on input li
+ne 429.
+
+
+Package natbib Warning: Citation `Rybakova2013' on page 28 undefined on input l
+ine 429.
+
+
+Package natbib Warning: Citation `Rybakova2015' on page 28 undefined on input l
+ine 429.
+
+
+Package natbib Warning: Citation `Hurst2004' on page 28 undefined on input line
+ 429.
+
+
+Package natbib Warning: Citation `Yang2006' on page 28 undefined on input line 
+429.
+
+[28 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_large
 .jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afpvari
 ants.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afp
-_tomogram.png (PNG copy)>] [30]
+_tomogram.png (PNG copy)>]
+
+Package natbib Warning: Citation `Rybakova2013' on page 29 undefined on input l
+ine 431.
+
+
+Package natbib Warning: Citation `Rybakova2015' on page 29 undefined on input l
+ine 433.
+
+
+Package natbib Warning: Citation `Pedulla2003' on page 29 undefined on input li
+ne 433.
+
+[29]
+
+Package natbib Warning: Citation `Rybakova1994' on page 30 undefined on input l
+ine 435.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map_recon
-structed.png, id=2060, 231.264pt x 116.1138pt>
+structed.png, id=527, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map_
 reconstructed.png Graphic file (type png)
 
@@ -3076,7 +3955,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 174.98601pt x 547.12337pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map.jpg, 
-id=2062, 308.352pt x 200.1879pt>
+id=529, 308.352pt x 200.1879pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map.
 jpg Graphic file (type jpg)
 
@@ -3124,13 +4003,131 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 247.53976pt x 244.45804pt.
 
 
+Package natbib Warning: Citation `Heymann2013' on page 30 undefined on input li
+ne 480.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 30 undefined on input li
+ne 480.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 30 undefined on input li
+ne 480.
+
+
 LaTeX Warning: Float too large for page by 10.16925pt on input line 482.
 
-[31] [32 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_
+[30] [31 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_
 map_reconstructed.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/
-intro/img/afp_map.jpg>] [33
+intro/img/afp_map.jpg>]
 
-] [34]
+LaTeX Warning: Reference `afpstructure' on page 1 undefined on input line 487.
+
+
+LaTeX Warning: Reference `afpstructure' on page 1 undefined on input line 487.
+
+
+Package natbib Warning: Citation `Sen2010' on page 32 undefined on input line 4
+87.
+
+
+Package natbib Warning: Citation `Ge2015' on page 32 undefined on input line 48
+7.
+
+
+LaTeX Warning: Reference `afp3' on page 1 undefined on input line 487.
+
+
+LaTeX Warning: Reference `afp3' on page 1 undefined on input line 487.
+
+
+LaTeX Warning: Reference `afp1' on page 1 undefined on input line 489.
+
+
+LaTeX Warning: Reference `afp1' on page 1 undefined on input line 489.
+
+
+Package natbib Warning: Citation `Sen2010' on page 32 undefined on input line 4
+89.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 32 undefined on input li
+ne 489.
+
+
+LaTeX Warning: Reference `afp2' on page 1 undefined on input line 491.
+
+
+LaTeX Warning: Reference `afp2' on page 1 undefined on input line 491.
+
+[32
+
+]
+
+Package natbib Warning: Citation `Rybakova2013' on page 33 undefined on input l
+ine 493.
+
+
+Package natbib Warning: Citation `Abuladze1994' on page 33 undefined on input l
+ine 493.
+
+
+Package natbib Warning: Citation `Katsura1987' on page 33 undefined on input li
+ne 493.
+
+
+Package natbib Warning: Citation `Bonemann2010' on page 33 undefined on input l
+ine 501.
+
+[33]
+
+Package natbib Warning: Citation `Dalbey2012' on page 34 undefined on input lin
+e 503.
+
+
+Package natbib Warning: Citation `Chang2014a' on page 34 undefined on input lin
+e 503.
+
+
+Package natbib Warning: Citation `Bleves2010' on page 34 undefined on input lin
+e 503.
+
+
+Package natbib Warning: Citation `Desvaux2009' on page 34 undefined on input li
+ne 503.
+
+
+Package natbib Warning: Citation `Abby2016' on page 34 undefined on input line 
+503.
+
+
+Package natbib Warning: Citation `Costa2015' on page 34 undefined on input line
+ 503.
+
+
+Package natbib Warning: Citation `Goulet2004' on page 34 undefined on input lin
+e 503.
+
+
+Package natbib Warning: Citation `Remaut2008' on page 34 undefined on input lin
+e 503.
+
+
+Package natbib Warning: Citation `Gerlach2007' on page 34 undefined on input li
+ne 503.
+
+
+Package natbib Warning: Citation `Abdallah2007' on page 34 undefined on input l
+ine 503.
+
+
+Package natbib Warning: Citation `Green2015' on page 34 undefined on input line
+ 503.
+
+
+Package natbib Warning: Citation `Green2015' on page 34 undefined on input line
+ 503.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 505.
@@ -3139,9 +4136,129 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 505.
 
-[35] [36] [37] [38]
+
+Package natbib Warning: Citation `Boyd2014' on page 34 undefined on input line 
+506.
+
+
+Package natbib Warning: Citation `Delepelaire2004' on page 34 undefined on inpu
+t line 506.
+
+
+Package natbib Warning: Citation `Douzi2012' on page 34 undefined on input line
+ 508.
+
+
+Package natbib Warning: Citation `Korotkov2012' on page 34 undefined on input l
+ine 508.
+
+
+Package natbib Warning: Citation `Lu2013' on page 34 undefined on input line 50
+8.
+
+
+Package natbib Warning: Citation `Korotkov2012' on page 34 undefined on input l
+ine 508.
+
+[34]
+
+Package natbib Warning: Citation `Aizawa2001' on page 35 undefined on input lin
+e 510.
+
+
+Package natbib Warning: Citation `AbuHatab1998' on page 35 undefined on input l
+ine 510.
+
+
+Package natbib Warning: Citation `Lane2007' on page 35 undefined on input line 
+510.
+
+
+Package natbib Warning: Citation `Green2015' on page 35 undefined on input line
+ 510.
+
+
+Package natbib Warning: Citation `Bundock1995' on page 35 undefined on input li
+ne 512.
+
+
+Package natbib Warning: Citation `Christie2005' on page 35 undefined on input l
+ine 512.
+
+
+Package natbib Warning: Citation `Green2015' on page 35 undefined on input line
+ 512.
+
+[35]
+
+Package natbib Warning: Citation `Thanassi2005' on page 36 undefined on input l
+ine 514.
+
+
+Package natbib Warning: Citation `Green2015' on page 36 undefined on input line
+ 514.
+
+
+Package natbib Warning: Citation `Ates2016' on page 36 undefined on input line 
+516.
+
+
+Package natbib Warning: Citation `Green2015' on page 36 undefined on input line
+ 516.
+
+
+Package natbib Warning: Citation `Bottai2017' on page 36 undefined on input lin
+e 516.
+
+[36]
+
+Package natbib Warning: Citation `Desvaux2009' on page 37 undefined on input li
+ne 518.
+
+
+Package natbib Warning: Citation `Goyal2014' on page 37 undefined on input line
+ 518.
+
+
+Package natbib Warning: Citation `Barnhart2010' on page 37 undefined on input l
+ine 518.
+
+
+Package natbib Warning: Citation `Lasica2017a' on page 37 undefined on input li
+ne 520.
+
+
+Package natbib Warning: Citation `Basler2015a' on page 37 undefined on input li
+ne 525.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 37 undefined on input lin
+e 525.
+
+
+Package natbib Warning: Citation `Pukatzki2007' on page 37 undefined on input l
+ine 525.
+
+
+Package natbib Warning: Citation `Cascales2012' on page 37 undefined on input l
+ine 525.
+
+
+Package natbib Warning: Citation `Mougous2006a' on page 37 undefined on input l
+ine 525.
+
+
+Package natbib Warning: Citation `Basler2015a' on page 37 undefined on input li
+ne 525.
+
+[37]
+
+Package natbib Warning: Citation `Russell2014' on page 38 undefined on input li
+ne 527.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_in_cell.
-jpg, id=2251, 929.4725pt x 553.06625pt>
+jpg, id=578, 929.4725pt x 553.06625pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_in_
 cell.jpg Graphic file (type jpg)
 
@@ -3157,7 +4274,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 538--540
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_annotate
-d.jpg, id=2253, 308.352pt x 264.99pt>
+d.jpg, id=580, 308.352pt x 264.99pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_ann
 otated.jpg Graphic file (type jpg)
 
@@ -3172,11 +4289,66 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 546--548
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `Basler2012' on page 38 undefined on input lin
+e 550.
 
-[39]
+
+Package natbib Warning: Citation `Chang2017' on page 38 undefined on input line
+ 550.
+
+
+Package natbib Warning: Citation `Pukatzki2006' on page 38 undefined on input l
+ine 555.
+
+
+Package natbib Warning: Citation `Green2015' on page 38 undefined on input line
+ 555.
+
+
+Package natbib Warning: Citation `Russell2014' on page 38 undefined on input li
+ne 555.
+
+
+Package natbib Warning: Citation `Hood2010' on page 38 undefined on input line 
+555.
+
+
+Package natbib Warning: Citation `English2012' on page 38 undefined on input li
+ne 555.
+
+
+Package natbib Warning: Citation `Russell2012' on page 38 undefined on input li
+ne 555.
+
+
+Package natbib Warning: Citation `Russell2014' on page 38 undefined on input li
+ne 555.
+
+
+Package natbib Warning: Citation `Gibbs2008' on page 38 undefined on input line
+ 555.
+
+
+Package natbib Warning: Citation `Wenren2013' on page 38 undefined on input lin
+e 555.
+
+
+Package natbib Warning: Citation `Hazan2004' on page 38 undefined on input line
+ 555.
+
+
+Package natbib Warning: Citation `Downing2005' on page 38 undefined on input li
+ne 555.
+
+
+Package natbib Warning: Citation `Mukamolova2006' on page 38 undefined on input
+ line 555.
+
+[38 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_in_c
+ell.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss
+_annotated.jpg>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_distal_g
-rey_flat.png, id=2297, 231.264pt x 116.1138pt>
+rey_flat.png, id=589, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_dis
 tal_grey_flat.png Graphic file (type png)
 
@@ -3187,7 +4359,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 295.76399pt x 170.74901pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal
-_grey_flat.png, id=2299, 231.264pt x 116.1138pt>
+_grey_flat.png, id=591, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_pro
 ximal_grey_flat.png Graphic file (type png)
 
@@ -3203,7 +4375,7 @@ Overfull \hbox (3.49744pt too wide) in paragraph at lines 566--576
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal
-_grey_flat_bottom.png, id=2301, 231.264pt x 116.1138pt>
+_grey_flat_bottom.png, id=593, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_pro
 ximal_grey_flat_bottom.png Graphic file (type png)
 
@@ -3214,7 +4386,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 123.76988pt x 118.92351pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal
-_grey_flat_topslice.png, id=2303, 231.264pt x 116.1138pt>
+_grey_flat_topslice.png, id=595, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_pro
 ximal_grey_flat_topslice.png Graphic file (type png)
 
@@ -3225,7 +4397,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 123.76988pt x 118.92351pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_distal_g
-rey_flat_top.png, id=2305, 231.264pt x 116.1138pt>
+rey_flat_top.png, id=597, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_dis
 tal_grey_flat_top.png Graphic file (type png)
 
@@ -3241,7 +4413,7 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 585--591
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_tmc.jpg,
- id=2307, 929.4725pt x 712.6625pt>
+ id=599, 929.4725pt x 712.6625pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_tmc
 .jpg Graphic file (type jpg)
 
@@ -3252,22 +4424,134 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 247.53976pt x 185.34444pt.
 
 
+Package natbib Warning: Citation `Nazarov2017' on page 39 undefined on input li
+ne 607.
+
+
+Package natbib Warning: Citation `Nazarov2017' on page 39 undefined on input li
+ne 607.
+
+
+Package natbib Warning: Citation `Durand2015' on page 39 undefined on input lin
+e 607.
+
+
 LaTeX Warning: Float too large for page by 9.33798pt on input line 609.
 
-[40 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_in_c
-ell.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss
-_annotated.jpg>] [41 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/in
-tro/img/t6ss_distal_grey_flat.png> </Users/joehealey/Documents/Warwick/PhD/Thes
-is/chapters/intro/img/t6ss_proximal_grey_flat.png> </Users/joehealey/Documents/
-Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal_grey_flat_bottom.png> </Use
-rs/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal_grey
-_flat_topslice.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/int
-ro/img/t6ss_distal_grey_flat_top.png> </Users/joehealey/Documents/Warwick/PhD/T
-hesis/chapters/intro/img/t6ss_tmc.jpg>] [42
+[39] [40 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss
+_distal_grey_flat.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/
+intro/img/t6ss_proximal_grey_flat.png> </Users/joehealey/Documents/Warwick/PhD/
+Thesis/chapters/intro/img/t6ss_proximal_grey_flat_bottom.png> </Users/joehealey
+/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal_grey_flat_topsli
+ce.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_
+distal_grey_flat_top.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapte
+rs/intro/img/t6ss_tmc.jpg>]
 
-] [43]
+Package natbib Warning: Citation `Mougous2006a' on page 41 undefined on input l
+ine 613.
+
+
+Package natbib Warning: Citation `Silverman2012a' on page 41 undefined on input
+ line 613.
+
+
+Package natbib Warning: Citation `Mougous2006a' on page 41 undefined on input l
+ine 613.
+
+
+Package natbib Warning: Citation `Osipiuk2011' on page 41 undefined on input li
+ne 613.
+
+
+Package natbib Warning: Citation `Pukatzki2007' on page 41 undefined on input l
+ine 613.
+
+
+Package natbib Warning: Citation `Zheng2007' on page 41 undefined on input line
+ 613.
+
+
+Package natbib Warning: Citation `Hachani2011' on page 41 undefined on input li
+ne 613.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 41 undefined on input lin
+e 613.
+
+
+Package natbib Warning: Citation `Chang2017' on page 41 undefined on input line
+ 613.
+
+
+LaTeX Warning: Reference `t6ss2' on page 1 undefined on input line 615.
+
+
+LaTeX Warning: Reference `t6ss2' on page 1 undefined on input line 615.
+
+
+Package natbib Warning: Citation `Cascales2012' on page 41 undefined on input l
+ine 615.
+
+
+Package natbib Warning: Citation `Wang2017' on page 41 undefined on input line 
+615.
+
+
+Package natbib Warning: Citation `Kube2014a' on page 41 undefined on input line
+ 615.
+
+
+Package natbib Warning: Citation `Kube2014a' on page 41 undefined on input line
+ 615.
+
+
+Package natbib Warning: Citation `Wang2017' on page 41 undefined on input line 
+615.
+
+
+Package natbib Warning: Citation `Kube2014a' on page 41 undefined on input line
+ 615.
+
+
+Package natbib Warning: Citation `Hanson2005' on page 41 undefined on input lin
+e 615.
+
+
+Package natbib Warning: Citation `Basler2015' on page 41 undefined on input lin
+e 615.
+
+
+Package natbib Warning: Citation `Costa2015' on page 41 undefined on input line
+ 615.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 41 undefined on input lin
+e 615.
+
+[41
+
+] [42]
+
+Package natbib Warning: Citation `Pukatzki2007' on page 43 undefined on input l
+ine 617.
+
+
+Package natbib Warning: Citation `Suarez2010' on page 43 undefined on input lin
+e 617.
+
+
+Package natbib Warning: Citation `Hood2010' on page 43 undefined on input line 
+617.
+
+
+Package natbib Warning: Citation `Cascales2012' on page 43 undefined on input l
+ine 617.
+
+
+Package natbib Warning: Citation `Sarris2014' on page 43 undefined on input lin
+e 617.
+
 LaTeX Font Info:    Try loading font information for OML+pxr on input line 617.
-
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pxfonts/omlpxr.fd
 File: omlpxr.fd 2000/12/14 v1.0
@@ -3275,10 +4559,163 @@ File: omlpxr.fd 2000/12/14 v1.0
 LaTeX Font Info:    Font shape `OML/pxr/m/n' in size <10.95> not available
 (Font)              Font shape `OML/pxmi/m/it' tried instead on input line 617.
 
- [44] [45]
-[46] [47] [48] [49] [50]
+
+
+Package natbib Warning: Citation `Shneider2013' on page 43 undefined on input l
+ine 617.
+
+
+Package natbib Warning: Citation `Shneider2013' on page 43 undefined on input l
+ine 617.
+
+
+Package natbib Warning: Citation `Cianfanelli2016' on page 43 undefined on inpu
+t line 617.
+
+
+Package natbib Warning: Citation `Hachani2014' on page 43 undefined on input li
+ne 617.
+
+
+Package natbib Warning: Citation `Ma2017' on page 43 undefined on input line 61
+7.
+
+
+Package natbib Warning: Citation `Cianfanelli2016' on page 43 undefined on inpu
+t line 617.
+
+[43]
+
+Package natbib Warning: Citation `Desmyter2015' on page 44 undefined on input l
+ine 619.
+
+
+Package natbib Warning: Citation `English2014' on page 44 undefined on input li
+ne 619.
+
+
+LaTeX Warning: Reference `wedgeformation' on page 1 undefined on input line 619
+.
+
+
+LaTeX Warning: Reference `wedgeformation' on page 1 undefined on input line 619
+.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 44 undefined on input lin
+e 619.
+
+
+Package natbib Warning: Citation `Brunet2013' on page 44 undefined on input lin
+e 619.
+
+
+Package natbib Warning: Citation `Leiman2009' on page 44 undefined on input lin
+e 619.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 44 undefined on input lin
+e 619.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 44 undefined on input lin
+e 619.
+
+
+Package natbib Warning: Citation `Nazarov2017' on page 44 undefined on input li
+ne 619.
+
+
+Package natbib Warning: Citation `Zheng2007' on page 44 undefined on input line
+ 621.
+
+
+Package natbib Warning: Citation `Ma2009' on page 44 undefined on input line 62
+1.
+
+
+Package natbib Warning: Citation `Felisberto-Rodrigues2011' on page 44 undefine
+d on input line 621.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 44 undefined on input lin
+e 621.
+
+
+Package natbib Warning: Citation `Durand2015' on page 44 undefined on input lin
+e 621.
+
+
+Package natbib Warning: Citation `Zoued2016' on page 44 undefined on input line
+ 621.
+
+[44]
+
+Package natbib Warning: Citation `Yang2006' on page 45 undefined on input line 
+628.
+
+
+Package natbib Warning: Citation `Shikuma2014' on page 45 undefined on input li
+ne 628.
+
+[45]
+
+Package natbib Warning: Citation `Shikuma2014' on page 46 undefined on input li
+ne 631.
+
+
+Package natbib Warning: Citation `Hadfield2011' on page 46 undefined on input l
+ine 631.
+
+
+Package natbib Warning: Citation `Shikuma2016' on page 46 undefined on input li
+ne 633.
+
+[46]
+
+Package natbib Warning: Citation `Bock2017' on page 47 undefined on input line 
+636.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 47 undefined on input lin
+e 638.
+
+
+Package natbib Warning: Citation `Penz2012' on page 47 undefined on input line 
+643.
+
+
+Package natbib Warning: Citation `Hedges2008' on page 47 undefined on input lin
+e 643.
+
+
+Package natbib Warning: Citation `Oliver2003' on page 47 undefined on input lin
+e 643.
+
+
+Package natbib Warning: Citation `Werren2008' on page 47 undefined on input lin
+e 643.
+
+[47]
+
+Package natbib Warning: Citation `Penz2012' on page 48 undefined on input line 
+645.
+
+
+Package natbib Warning: Citation `Werren2008' on page 48 undefined on input lin
+e 645.
+
+
+LaTeX Warning: Reference `structure_diagram' on page 1 undefined on input line 
+650.
+
+
+LaTeX Warning: Reference `structure_diagram' on page 1 undefined on input line 
+650.
+
+[48]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Structure_Com
-parison.pdf, id=2536, 1061.9675pt x 597.23125pt>
+parison.pdf, id=659, 1061.9675pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Structur
 e_Comparison.pdf Graphic file (type pdf)
 
@@ -3291,18 +4728,192 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 
 LaTeX Warning: Float too large for page by 2.05899pt on input line 658.
 
-[51 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Structure
-_Comparison.pdf>] [52
+[49 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Structure
+_Comparison.pdf>]
+
+Package natbib Warning: Citation `Brackmann2017' on page 50 undefined on input 
+line 663.
 
 
-] [53] [54] [55] [56] [57] [58]
+Package natbib Warning: Citation `Kube2015a' on page 50 undefined on input line
+ 663.
+
+
+Package natbib Warning: Citation `Kube2014' on page 50 undefined on input line 
+663.
+
+
+Package natbib Warning: Citation `Moody1973' on page 50 undefined on input line
+ 663.
+
+
+Package natbib Warning: Citation `Kube2015' on page 50 undefined on input line 
+665.
+
+
+LaTeX Warning: Reference `t6ssEMs' on page 1 undefined on input line 667.
+
+
+LaTeX Warning: Reference `t6ssEMs' on page 1 undefined on input line 667.
+
+
+Package natbib Warning: Citation `Kube2015' on page 50 undefined on input line 
+669.
+
+
+Package natbib Warning: Citation `Wang2017a' on page 50 undefined on input line
+ 669.
+
+
+Package natbib Warning: Citation `Vettiger2017' on page 50 undefined on input l
+ine 669.
+
+
+Package natbib Warning: Citation `Wang2017a' on page 50 undefined on input line
+ 669.
+
+
+Package natbib Warning: Citation `Brackmann2017' on page 50 undefined on input 
+line 669.
+
+[50
+
+
+]
+
+LaTeX Warning: Reference `pvcvariants' on page 1 undefined on input line 676.
+
+
+LaTeX Warning: Reference `pvcvariants' on page 1 undefined on input line 676.
+
+[51]
+
+Package natbib Warning: Citation `Yang2006' on page 52 undefined on input line 
+678.
+
+
+Package natbib Warning: Citation `Yang2006' on page 52 undefined on input line 
+684.
+
+
+Package natbib Warning: Citation `Waterfield2009' on page 52 undefined on input
+ line 684.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 686.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 686.
+
+[52]
+
+Package natbib Warning: Citation `Rybakova2013' on page 53 undefined on input l
+ine 688.
+
+
+Package natbib Warning: Citation `Rybakova2015a' on page 53 undefined on input 
+line 688.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 688.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 688.
+
+
+
+Package natbib Warning: Citation `Frickey2004' on page 53 undefined on input li
+ne 690.
+
+
+LaTeX Warning: Reference `t6ss' on page 1 undefined on input line 690.
+
+
+LaTeX Warning: Reference `t6ss' on page 1 undefined on input line 690.
+
+
+Package natbib Warning: Citation `Sarris2014' on page 53 undefined on input lin
+e 693.
+
+[53]
+
+Package natbib Warning: Citation `Lin1999' on page 54 undefined on input line 6
+95.
+
+
+Package natbib Warning: Citation `Bowen1998' on page 54 undefined on input line
+ 695.
+
+
+Package natbib Warning: Citation `Meusch2014' on page 54 undefined on input lin
+e 695.
+
+
+Package natbib Warning: Citation `Zhang2012a' on page 54 undefined on input lin
+e 701.
+
+
+Package natbib Warning: Citation `Iyer2004a' on page 54 undefined on input line
+ 701.
+
+[54]
+
+Package natbib Warning: Citation `Kube2015' on page 55 undefined on input line 
+705.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 705.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 705.
+
+
+[55]
+
+Package natbib Warning: Citation `Sarris2014' on page 56 undefined on input lin
+e 707.
+
+
+Package natbib Warning: Citation `Kube2015' on page 56 undefined on input line 
+707.
+
+[56]
 LaTeX Font Info:    Try loading font information for TS1+pxr on input line 713.
 
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pxfonts/ts1pxr.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/pxfonts/ts1pxr.fd
 File: ts1pxr.fd 2000/12/14 v1.0
-) [59]) [60]
-(../chapters/methods/methods.tex
+)
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 713.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 713.
+
+
+
+LaTeX Warning: Reference `bioinformatics' on page 1 undefined on input line 715
+.
+
+
+LaTeX Warning: Reference `bioinformatics' on page 1 undefined on input line 715
+.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 717.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 717.
+
+
+LaTeX Warning: Reference `regulation' on page 1 undefined on input line 719.
+
+
+LaTeX Warning: Reference `regulation' on page 1 undefined on input line 719.
+
+) [57] (../chapters/methods/methods.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -3313,17 +4924,36 @@ less on input line 1.
 
 Chapter 2.
 
+LaTeX Warning: Reference `strains' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Reference `strains' on page 1 undefined on input line 31.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 33.
 
-[61
+[58
 
 ]
+
+Package natbib Warning: Citation `Glover1995' on page 59 undefined on input lin
+e 75.
+
+
+Package natbib Warning: Citation `Lee2001' on page 59 undefined on input line 7
+5.
+
+
+Package natbib Warning: Citation `Baba2006' on page 59 undefined on input line 
+75.
+
+
 Overfull \hbox (12.0pt too wide) in alignment at lines 75--75
  [] [] [] [] 
  []
 
-[62
+[59
 
 ]
 
@@ -3333,49 +4963,125 @@ LaTeX Warning: Reference `plasmids' on page 1 undefined on input line 84.
 LaTeX Warning: Reference `plasmids' on page 1 undefined on input line 84.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 84.
+LaTeX Warning: Reference `supplementtable' on page 1 undefined on input line 87
+.
 
-[63
 
-] [64] [65] [66]
+LaTeX Warning: Reference `supplementtable' on page 1 undefined on input line 87
+.
+
+[60
+
+] [61]
+
+LaTeX Warning: Reference `Antibiotics' on page 1 undefined on input line 140.
+
+
+LaTeX Warning: Reference `Antibiotics' on page 1 undefined on input line 140.
+
+[62]
+
+LaTeX Warning: Reference `plasmidtable' on page 1 undefined on input line 146.
+
+
+LaTeX Warning: Reference `plasmidtable' on page 1 undefined on input line 146.
+
+
+LaTeX Warning: Reference `customplasmids' on page 1 undefined on input line 146
+.
+
+
+LaTeX Warning: Reference `customplasmids' on page 1 undefined on input line 146
+.
+
+[63]
+
+LaTeX Warning: Reference `customplasmids' on page 1 undefined on input line 186
+.
+
+
+LaTeX Warning: Reference `customplasmids' on page 1 undefined on input line 186
+.
+
+
+Package natbib Warning: Citation `Guzman1995' on page 64 undefined on input lin
+e 186.
+
+
+Package natbib Warning: Citation `Datsenko2000' on page 64 undefined on input l
+ine 186.
+
+
+Package natbib Warning: Citation `Datsenko2000' on page 64 undefined on input l
+ine 186.
+
+
 Overfull \hbox (15.90082pt too wide) in alignment at lines 186--186
  [] [] [] 
  []
 
-[67
+[64
 
 ]
 Overfull \hbox (16.14574pt too wide) in alignment at lines 232--232
  [] [] [] [] 
  []
 
-[68] [69
+[65] [66
 
 ]
 Overfull \hbox (12.0pt too wide) in alignment at lines 330--330
  [] [] [] [] [] 
  []
 
-[70
+[67
 
-] [71]
+] [68]
+
+LaTeX Warning: Reference `taqreaction' on page 1 undefined on input line 335.
+
+
+LaTeX Warning: Reference `taqreaction' on page 1 undefined on input line 335.
+
+
 Overfull \hbox (32.18129pt too wide) in paragraph at lines 354--354
 []|$[]$|  
  []
+
+
+LaTeX Warning: Reference `primers' on page 1 undefined on input line 387.
+
+
+LaTeX Warning: Reference `primers' on page 1 undefined on input line 387.
 
 
 Overfull \hbox (32.18129pt too wide) in paragraph at lines 403--403
 []|$[]$|  
  []
 
-[72
+[69
 
 ]
 
-LaTeX Warning: cref  reference format for label type `paragraph' undefined on i
-nput line 432.
+LaTeX Warning: Reference `Plasmids' on page 1 undefined on input line 432.
 
-[73] [74]
+
+LaTeX Warning: Reference `Plasmids' on page 1 undefined on input line 432.
+
+[70]
+
+LaTeX Warning: Reference `pcrcleanup' on page 1 undefined on input line 455.
+
+
+LaTeX Warning: Reference `pcrcleanup' on page 1 undefined on input line 455.
+
+
+LaTeX Warning: Reference `primertable' on page 1 undefined on input line 459.
+
+
+LaTeX Warning: Reference `primertable' on page 1 undefined on input line 459.
+
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
@@ -3385,12 +5091,46 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 474.
 
-[75] [76]
+[72] [73]
 
-LaTeX Warning: cref  reference format for label type `paragraph' undefined on i
-nput line 509.
+LaTeX Warning: Reference `Plasmids' on page 1 undefined on input line 509.
 
-[77] [78]
+
+LaTeX Warning: Reference `Plasmids' on page 1 undefined on input line 509.
+
+
+LaTeX Warning: Reference `Antibiotics' on page 1 undefined on input line 509.
+
+
+LaTeX Warning: Reference `Antibiotics' on page 1 undefined on input line 509.
+
+
+LaTeX Warning: Reference `Sanger' on page 1 undefined on input line 510.
+
+
+LaTeX Warning: Reference `Sanger' on page 1 undefined on input line 510.
+
+
+LaTeX Warning: Reference `recombineering' on page 1 undefined on input line 513
+.
+
+
+LaTeX Warning: Reference `recombineering' on page 1 undefined on input line 513
+.
+
+[74] [75]
+
+LaTeX Warning: Reference `specprimers' on page 1 undefined on input line 540.
+
+
+LaTeX Warning: Reference `specprimers' on page 1 undefined on input line 540.
+
+
+LaTeX Warning: Reference `q5reaction' on page 1 undefined on input line 540.
+
+
+LaTeX Warning: Reference `q5reaction' on page 1 undefined on input line 540.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 542.
@@ -3403,7 +5143,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 542.
 
-[79]
+
+LaTeX Warning: Reference `plasmidtable' on page 1 undefined on input line 543.
+
+
+LaTeX Warning: Reference `plasmidtable' on page 1 undefined on input line 543.
+
+
+LaTeX Warning: Reference `electrocompetents' on page 1 undefined on input line 
+543.
+
+
+LaTeX Warning: Reference `electrocompetents' on page 1 undefined on input line 
+543.
+
+[76]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 557.
@@ -3417,19 +5171,71 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 557.
 
 
-LaTeX Warning: Reference `assembly' on page 1 undefined on input line 567.
+LaTeX Warning: Reference `pKD' on page 1 undefined on input line 558.
+
+
+LaTeX Warning: Reference `pKD' on page 1 undefined on input line 558.
+
+
+LaTeX Warning: Reference `strains' on page 1 undefined on input line 558.
+
+
+LaTeX Warning: Reference `strains' on page 1 undefined on input line 558.
+
+
+LaTeX Warning: Reference `primers' on page 1 undefined on input line 564.
+
+
+LaTeX Warning: Reference `primers' on page 1 undefined on input line 564.
 
 
 LaTeX Warning: Reference `assembly' on page 1 undefined on input line 567.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 567.
+LaTeX Warning: Reference `assembly' on page 1 undefined on input line 567.
 
 
-[80] [81] [82]
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 574.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 574.
+
+
+Package natbib Warning: Citation `Bolanos-Garcia2006' on page 77 undefined on i
+nput line 574.
+
+
+Package natbib Warning: Citation `Robichon2011' on page 77 undefined on input l
+ine 574.
+
+[77] [78]
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 606.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 606.
+
+[79]
 Missing character: There is no Ã in font pxr!
 Missing character: There is no ¤ in font pxr!
- [83] [84] [85] [86]
+ [80] [81]
+
+LaTeX Warning: Reference `SDS' on page 1 undefined on input line 630.
+
+
+LaTeX Warning: Reference `SDS' on page 1 undefined on input line 630.
+
+[82] [83]
+
+Package natbib Warning: Citation `Whitmore2004' on page 84 undefined on input l
+ine 672.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 672.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 672.
+
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 675.
 
@@ -3444,28 +5250,147 @@ LaTeX Warning: Reference `scripts' on page 1 undefined on input line 680.
 LaTeX Warning: Reference `scripts' on page 1 undefined on input line 680.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 680.
+Package natbib Warning: Citation `Connor2016a' on page 84 undefined on input li
+ne 680.
 
 
-[87] [88] [89] [90] [91]
+LaTeX Warning: Reference `structuresimulation' on page 1 undefined on input lin
+e 680.
+
+
+LaTeX Warning: Reference `structuresimulation' on page 1 undefined on input lin
+e 680.
+
+[84]
+
+Package natbib Warning: Citation `Cock2009' on page 85 undefined on input line 
+682.
+
+
+Package natbib Warning: Citation `Bankevich2012' on page 85 undefined on input 
+line 688.
+
+
+Package natbib Warning: Citation `Darling2010' on page 85 undefined on input li
+ne 688.
+
+
+Package natbib Warning: Citation `Li2009' on page 85 undefined on input line 69
+1.
+
+
+Package natbib Warning: Citation `Garcia-Alcalde2012' on page 85 undefined on i
+nput line 691.
+
+
+Package natbib Warning: Citation `Seemann2014' on page 85 undefined on input li
+ne 694.
+
+
+Package natbib Warning: Citation `Sievers2011' on page 85 undefined on input li
+ne 697.
+
+[85]
+
+Package natbib Warning: Citation `Stamatakis2006' on page 86 undefined on input
+ line 700.
+
+
+Package natbib Warning: Citation `Mirarab2015' on page 86 undefined on input li
+ne 702.
+
+
+Package natbib Warning: Citation `Pinto2008' on page 86 undefined on input line
+ 707.
+
+
+Package natbib Warning: Citation `Severiano2011a' on page 86 undefined on input
+ line 707.
+
+
+Package natbib Warning: Citation `Severiano2011b' on page 86 undefined on input
+ line 707.
+
+
+Package natbib Warning: Citation `Carrico2006' on page 86 undefined on input li
+ne 707.
+
+[86]
+
+Package natbib Warning: Citation `Huerta-Cepas2016a' on page 87 undefined on in
+put line 721.
+
+
+Package natbib Warning: Citation `Pattengale2007' on page 87 undefined on input
+ line 721.
+
+[87]
+
+Package natbib Warning: Citation `Remmert2012' on page 88 undefined on input li
+ne 798.
+
+
+Package natbib Warning: Citation `Soding2005' on page 88 undefined on input lin
+e 798.
+
+[88]
+
+Package natbib Warning: Citation `Yang2014' on page 89 undefined on input line 
+807.
+
+
+Package natbib Warning: Citation `Roy2010' on page 89 undefined on input line 8
+07.
+
+
+Package natbib Warning: Citation `Zhang2008' on page 89 undefined on input line
+ 807.
+
+
+Package natbib Warning: Citation `Moult2015' on page 89 undefined on input line
+ 807.
+
+
+Package natbib Warning: Citation `Pettersen2004' on page 89 undefined on input 
+line 811.
+
+
+Package natbib Warning: Citation `Goddard2018' on page 89 undefined on input li
+ne 811.
+
+
+Package natbib Warning: Citation `Rodriguez-GuerraPedregal2018' on page 89 unde
+fined on input line 811.
+
+
 Overfull \hbox (0.54875pt too wide) in paragraph at lines 816--817
 \OT1/pxtt/m/n/10.95 Automatic Detection and Alignment of Repeats program (RADAR
 ) v1.1.1.1 [][][]\OT1/pxr/m/n/10.95 . The
  []
 
-[92]
-Overfull \hbox (8.5382pt too wide) in paragraph at lines 821--822
-[]\OT1/pxr/m/n/10.95 For ex-am-in-ing se-quence in-for-ma-tion, \OT1/pxtt/m/n/1
-0.95 Artemis v16.0.0 \OT1/pxr/m/n/10.95 ([]Ruther-ford et al.[], []2000[]) geno
-me
- []
+[89]
 
-) [93]
+Package natbib Warning: Citation `Rutherford2000' on page 90 undefined on input
+ line 821.
+
+
+Package natbib Warning: Citation `Wickham2009' on page 90 undefined on input li
+ne 823.
+
+
+Package natbib Warning: Citation `RStudioTeam2015' on page 90 undefined on inpu
+t line 823.
+
+
+Package natbib Warning: Citation `RCoreTeam2014' on page 90 undefined on input 
+line 823.
+
+) [90]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 445.
 
-[94
+[91
 
 ] (../chapters/chapter3/structuralbioinfo.tex
 
@@ -3484,22 +5409,61 @@ Underfull \hbox (badness 6876) in paragraph at lines 11--11
  []
 
 
+Package natbib Warning: Citation `Leiman2010' on page 92 undefined on input lin
+e 12.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 16.
 
-[95
+[92
 
-] [96] [97] [98]
+]
+
+Package natbib Warning: Citation `Duchaud2003' on page 93 undefined on input li
+ne 34.
+
+[93]
+
+Package natbib Warning: Citation `Seemann2014' on page 94 undefined on input li
+ne 37.
+
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 37.
+
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 37.
+
+
+LaTeX Warning: Reference `prokka' on page 1 undefined on input line 37.
+
+
+LaTeX Warning: Reference `prokka' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `Remmert2012' on page 94 undefined on input li
+ne 40.
+
+[94] [95]
+
+Package natbib Warning: Citation `Taylor2016' on page 96 undefined on input lin
+e 57.
+
+
+Package natbib Warning: Citation `Zheng2017' on page 96 undefined on input line
+ 57.
+
+
+Package natbib Warning: Citation `Ge2015a' on page 96 undefined on input line 5
+7.
+
 
 LaTeX Warning: Reference `tubestructure' on page 1 undefined on input line 59.
 
 
 LaTeX Warning: Reference `tubestructure' on page 1 undefined on input line 59.
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 59.
-
-[99]) [100] (../chapters/chapter4/bioinformatics.tex
+[96]) [97] (../chapters/chapter4/bioinformatics.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -3510,10 +5474,40 @@ less on input line 1.
 
 Chapter 4.
 
+Package natbib Warning: Citation `Yap2014' on page 98 undefined on input line 1
+3.
+
+
+Package natbib Warning: Citation `Ge2015' on page 98 undefined on input line 13
+.
+
+
+Package natbib Warning: Citation `Ghequire2015' on page 98 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `Cascales2012' on page 98 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `Sarris2014' on page 98 undefined on input lin
+e 13.
+
+
+Package natbib Warning: Citation `Kube2015' on page 98 undefined on input line 
+13.
+
+
+LaTeX Warning: Reference `intro' on page 1 undefined on input line 13.
+
+
+LaTeX Warning: Reference `intro' on page 1 undefined on input line 13.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 14.
 
-[101
+[98
 
 ]
 Overfull \hbox (15.605pt too wide) in paragraph at lines 23--24
@@ -3521,31 +5515,95 @@ Overfull \hbox (15.605pt too wide) in paragraph at lines 23--24
 like el-e-ments in ad-di-tional genomes. 
  []
 
-[102] [103] [104] [105]
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 27.
+
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 27.
+
+[99]
+
+LaTeX Warning: Reference `orthologs' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Reference `orthologs' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 80.
+
+[100]
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 88.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 88.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 88.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 88.
+
+[101] [102]
 Overfull \hbox (20.09933pt too wide) in alignment at lines 131--131
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[106
+[103
 
 ]
 
-LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
- line 147.
+Package natbib Warning: Citation `Yang2006' on page 104 undefined on input line
+ 137.
+
+
+LaTeX Warning: Reference `annotation' on page 1 undefined on input line 137.
+
+
+LaTeX Warning: Reference `annotation' on page 1 undefined on input line 137.
+
+
+LaTeX Warning: Reference `orthologs' on page 1 undefined on input line 137.
+
+
+LaTeX Warning: Reference `orthologs' on page 1 undefined on input line 137.
+
+
+Package natbib Warning: Citation `Sievers2011' on page 104 undefined on input l
+ine 147.
+
+
+Package natbib Warning: Citation `Stamatakis2014' on page 104 undefined on inpu
+t line 147.
+
+
+LaTeX Warning: Reference `pvc1tree' on page 104 undefined on input line 147.
+
+
+LaTeX Warning: Reference `pvc16tree' on page 104 undefined on input line 147.
+
+
+LaTeX Warning: Reference `pvc1tree' on page 104 undefined on input line 147.
+
+
+LaTeX Warning: Reference `pvc16tree' on page 104 undefined on input line 147.
 
 
 LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
  line 147.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 147.
+LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
+ line 147.
 
+[104
 
-[107
-
-] [108]
+] [105]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_boxplot
-_with_means.pdf, id=3230, 844.15375pt x 597.23125pt>
+_with_means.pdf, id=1125, 844.15375pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_bo
 xplot_with_means.pdf Graphic file (type pdf)
 
@@ -3556,7 +5614,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 358.50316pt x 253.64221pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/Score_boxp
-lot_with_means.pdf, id=3232, 844.15375pt x 597.23125pt>
+lot_with_means.pdf, id=1127, 844.15375pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/Score
 _boxplot_with_means.pdf Graphic file (type pdf)
 
@@ -3565,11 +5623,11 @@ boxplot_with_means.pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/Score_boxplot_with_means.pdf used on input line 163.
 (pdftex.def)             Requested size: 358.50316pt x 253.64221pt.
- [109 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_b
+ [106 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_b
 oxplot_with_means.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/
 chapter4/img/Score_boxplot_with_means.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1.pdf, 
-id=3260, 1018.80624pt x 655.44875pt>
+id=1157, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1.
 pdf Graphic file (type pdf)
 
@@ -3580,7 +5638,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC2.pdf, 
-id=3261, 1018.80624pt x 655.44875pt>
+id=1158, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC2.
 pdf Graphic file (type pdf)
 
@@ -3589,11 +5647,11 @@ df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC2.pdf used on input line 183.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [110 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
+ [107 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC2
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3.pdf, 
-id=3278, 1018.80624pt x 655.44875pt>
+id=1179, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3.
 pdf Graphic file (type pdf)
 
@@ -3604,7 +5662,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC4.pdf, 
-id=3279, 1018.80624pt x 655.44875pt>
+id=1180, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC4.
 pdf Graphic file (type pdf)
 
@@ -3613,11 +5671,11 @@ df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC4.pdf used on input line 201.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [111 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3
+ [108 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC4
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5.pdf, 
-id=3297, 1018.80624pt x 655.44875pt>
+id=1199, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5.
 pdf Graphic file (type pdf)
 
@@ -3628,7 +5686,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC6.pdf, 
-id=3298, 1018.80624pt x 655.44875pt>
+id=1200, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC6.
 pdf Graphic file (type pdf)
 
@@ -3637,11 +5695,11 @@ df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC6.pdf used on input line 219.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [112 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5
+ [109 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC6
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7.pdf, 
-id=3315, 1018.80624pt x 655.44875pt>
+id=1219, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7.
 pdf Graphic file (type pdf)
 
@@ -3652,7 +5710,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC8.pdf, 
-id=3316, 1018.80624pt x 655.44875pt>
+id=1220, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC8.
 pdf Graphic file (type pdf)
 
@@ -3661,11 +5719,11 @@ df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC8.pdf used on input line 237.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [113 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7
+ [110 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC8
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9.pdf, 
-id=3334, 1018.80624pt x 655.44875pt>
+id=1239, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9.
 pdf Graphic file (type pdf)
 
@@ -3676,7 +5734,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC10.pdf,
- id=3335, 1018.80624pt x 655.44875pt>
+ id=1240, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC10
 .pdf Graphic file (type pdf)
 
@@ -3685,11 +5743,11 @@ pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC10.pdf used on input line 254.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [114 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9
+ [111 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 0.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC11.pdf,
- id=3352, 1018.80624pt x 655.44875pt>
+ id=1260, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC11
 .pdf Graphic file (type pdf)
 
@@ -3700,7 +5758,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC12.pdf,
- id=3353, 1018.80624pt x 655.44875pt>
+ id=1261, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC12
 .pdf Graphic file (type pdf)
 
@@ -3709,11 +5767,11 @@ pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC12.pdf used on input line 271.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [115 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
+ [112 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 1.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC
 12.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC13.pdf,
- id=3370, 1018.80624pt x 655.44875pt>
+ id=1280, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC13
 .pdf Graphic file (type pdf)
 
@@ -3724,7 +5782,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC14.pdf,
- id=3371, 1018.80624pt x 655.44875pt>
+ id=1281, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC14
 .pdf Graphic file (type pdf)
 
@@ -3733,11 +5791,11 @@ pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC14.pdf used on input line 288.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [116 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
+ [113 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 3.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC
 14.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC15.pdf,
- id=3388, 1018.80624pt x 655.44875pt>
+ id=1300, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC15
 .pdf Graphic file (type pdf)
 
@@ -3748,7 +5806,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC16.pdf,
- id=3389, 1018.80624pt x 655.44875pt>
+ id=1301, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC16
 .pdf Graphic file (type pdf)
 
@@ -3757,11 +5815,24 @@ pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC16.pdf used on input line 305.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
- [117 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
+ [114 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 5.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC
 16.pdf>]
+
+LaTeX Warning: Reference `consensustree' on page 1 undefined on input line 314.
+
+
+
+LaTeX Warning: Reference `consensustree' on page 1 undefined on input line 314.
+
+
+
+Package natbib Warning: Citation `Mirarab2015' on page 115 undefined on input l
+ine 314.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC17.pdf,
- id=3410, 1042.89626pt x 655.44875pt>
+ id=1321, 1042.89626pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC17
 .pdf Graphic file (type pdf)
 
@@ -3770,10 +5841,29 @@ pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter4/img/PVC17.pdf used on input line 319.
 (pdftex.def)             Requested size: 405.45047pt x 254.82387pt.
- [118 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
+ [115 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 7.pdf>]
+
+Package natbib Warning: Citation `Rand1971' on page 116 undefined on input line
+ 332.
+
+
+Package natbib Warning: Citation `Wallace1983' on page 116 undefined on input l
+ine 332.
+
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 332.
+
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 332.
+
+
+Package natbib Warning: Citation `Robinson1981' on page 116 undefined on input 
+line 335.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/ADJW.pdf, 
-id=3429, 710.655pt x 710.655pt>
+id=1335, 710.655pt x 710.655pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/ADJW.
 pdf Graphic file (type pdf)
 
@@ -4044,7 +6134,7 @@ Overfull \hbox (4.26563pt too wide) in alignment at lines 357--357
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/nRF.pdf, i
-d=3431, 710.655pt x 710.655pt>
+d=1337, 710.655pt x 710.655pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/nRF.p
 df Graphic file (type pdf)
 
@@ -4228,20 +6318,32 @@ Overfull \hbox (4.26563pt too wide) in alignment at lines 381--381
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[119] [120 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img
-/ADJW.pdf>] [121 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapte
+[116] [117 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img
+/ADJW.pdf>] [118 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapte
 r4/img/nRF.pdf>]
 
-LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
-put line 395.
+Package natbib Warning: Citation `Zhang2012a' on page 119 undefined on input li
+ne 392.
 
 
 LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
 put line 395.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 395.
+LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
+put line 395.
 
+
+LaTeX Warning: Reference `clustering' on page 1 undefined on input line 397.
+
+
+LaTeX Warning: Reference `clustering' on page 1 undefined on input line 397.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 397.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 397.
 
 
 LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
@@ -4252,8 +6354,24 @@ LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
 put line 397.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 397.
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 397.
 
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 397.
+
+
+
+LaTeX Warning: Reference `ADWheatmap' on page 1 undefined on input line 399.
+
+
+LaTeX Warning: Reference `ADWheatmap' on page 1 undefined on input line 399.
+
+
+LaTeX Warning: Reference `nRFheatmap' on page 1 undefined on input line 399.
+
+
+LaTeX Warning: Reference `nRFheatmap' on page 1 undefined on input line 399.
 
 
 LaTeX Warning: Reference `hhpredhomologies' on page 1 undefined on input line 3
@@ -4263,11 +6381,24 @@ LaTeX Warning: Reference `hhpredhomologies' on page 1 undefined on input line 3
 LaTeX Warning: Reference `hhpredhomologies' on page 1 undefined on input line 3
 99.
 
+[119]
 
-Package hyperref Warning: Suppressing link with empty target on input line 399.
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 401.
 
 
-[122] [123]
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 401.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 403.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 403.
+
+[120]
+
+Package natbib Warning: Citation `Kostyuchenko2003' on page 121 undefined on in
+put line 405.
+
 
 LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
 put line 407.
@@ -4277,7 +6408,11 @@ LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
 put line 407.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 407.
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 407.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 407.
 
 
 
@@ -4287,46 +6422,176 @@ LaTeX Warning: Reference `strucbioinfx' on page 1 undefined on input line 407.
 LaTeX Warning: Reference `strucbioinfx' on page 1 undefined on input line 407.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 407.
+Package natbib Warning: Citation `Leiman2009' on page 121 undefined on input li
+ne 407.
 
+[121]
+
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 409.
+
+
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 409.
+
+
+Package natbib Warning: Citation `Arisaka2003' on page 122 undefined on input l
+ine 409.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 411.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 411.
+
+
+
+Package natbib Warning: Citation `Shneider2013' on page 122 undefined on input 
+line 411.
+
+[122]
+
+LaTeX Warning: Reference `anomalouslumt' on page 1 undefined on input line 413.
+
+
+
+LaTeX Warning: Reference `anomalouslumt' on page 1 undefined on input line 413.
+
+
+
+Package natbib Warning: Citation `Cardarelli2010' on page 123 undefined on inpu
+t line 413.
+
+
+Package natbib Warning: Citation `Aksyuk2009a' on page 123 undefined on input l
+ine 413.
+
+
+Package natbib Warning: Citation `Paul2004' on page 123 undefined on input line
+ 415.
+
+[123]
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 417.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 417.
+
+
+Package natbib Warning: Citation `Bartual2010' on page 124 undefined on input l
+ine 417.
+
+
+Package natbib Warning: Citation `Leiman2010' on page 124 undefined on input li
+ne 417.
+
+
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 417.
+
+
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 417.
+
+
+LaTeX Warning: Reference `pvc13tree' on page 1 undefined on input line 417.
+
+
+LaTeX Warning: Reference `pvc13tree' on page 1 undefined on input line 417.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 417.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 417.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004' on page 124 undefined o
+n input line 417.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 417.
+
+
+LaTeX Warning: Reference `tailfibres' on page 1 undefined on input line 417.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 124 undefined on input l
+ine 419.
+
+
+Package natbib Warning: Citation `Rybakova2015a' on page 124 undefined on input
+ line 419.
 
 [124]
 
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 409.
+Package natbib Warning: Citation `Hanson2005' on page 125 undefined on input li
+ne 421.
 
 
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 409.
+Package natbib Warning: Citation `Erzberger2006' on page 125 undefined on input
+ line 421.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 409.
+Package natbib Warning: Citation `Bonemann2009' on page 125 undefined on input 
+line 421.
 
 
-[125] [126]
-
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 417.
-
-
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 417.
+Package natbib Warning: Citation `Forster2014' on page 125 undefined on input l
+ine 421.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 417.
+Package natbib Warning: Citation `Hurst2004a' on page 125 undefined on input li
+ne 421.
 
+
+Package natbib Warning: Citation `Muskotal2006' on page 125 undefined on input 
+line 421.
+
+[125]
+
+Package natbib Warning: Citation `Rybakova2013' on page 126 undefined on input 
+line 423.
+
+
+LaTeX Warning: Reference `clustering' on page 1 undefined on input line 428.
+
+
+LaTeX Warning: Reference `clustering' on page 1 undefined on input line 428.
+
+[126]
+
+LaTeX Warning: Reference `pvc1tree' on page 1 undefined on input line 430.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 430.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 430.
+
+
+
+LaTeX Warning: Reference `pvc5tree' on page 1 undefined on input line 430.
+
+
+LaTeX Warning: Reference `pvc5tree' on page 1 undefined on input line 430.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 430.
+
+
+LaTeX Warning: Reference `AAID' on page 1 undefined on input line 430.
 
 [127]
 
-Package natbib Warning: Citation `Hurst2004a' on page 128 undefined on input li
-ne 421.
-
-[128] [129] [130]
-
 LaTeX Warning: Reference `pvc2tree' on page 1 undefined on input line 436.
 
 
 LaTeX Warning: Reference `pvc2tree' on page 1 undefined on input line 436.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 436.
+LaTeX Warning: Reference `pvc3tree' on page 1 undefined on input line 436.
 
+
+LaTeX Warning: Reference `pvc3tree' on page 1 undefined on input line 436.
 
 
 LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
@@ -4337,30 +6602,47 @@ LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
  line 436.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 436.
+Package natbib Warning: Citation `Ruby1999' on page 128 undefined on input line
+ 440.
 
 
-[131] [132] [133] [134]
+Package natbib Warning: Citation `Verma2013' on page 128 undefined on input lin
+e 440.
+
+[128] [129]
+
+Package natbib Warning: Citation `Arisaka2003' on page 130 undefined on input l
+ine 457.
+
+
+Package natbib Warning: Citation `Shneider2013' on page 130 undefined on input 
+line 458.
+
+[130]
+
+LaTeX Warning: Reference `GC' on page 1 undefined on input line 468.
+
+
+LaTeX Warning: Reference `GC' on page 1 undefined on input line 468.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 471--473
 
  []
 
+[131]
 
 LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 474.
 
 
 LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 474.
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 474.
-
-
-[135]) [136]
+) [132]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 456.
 
-[137
+[133
 
 ] (../chapters/chapter5/tailfibres.tex
 
@@ -4373,14 +6655,80 @@ less on input line 1.
 
 Chapter 5.
 
+Package natbib Warning: Citation `Clokie2011' on page 134 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `Bartual2010' on page 134 undefined on input l
+ine 11.
+
+
+Package natbib Warning: Citation `Sarris2014' on page 134 undefined on input li
+ne 11.
+
+
+LaTeX Warning: Reference `intro' on page 134 undefined on input line 11.
+
+
+Package natbib Warning: Citation `Leiman2010' on page 134 undefined on input li
+ne 13.
+
+
+Package natbib Warning: Citation `Granell2014' on page 134 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `Taylor2016' on page 134 undefined on input li
+ne 13.
+
+
+Package natbib Warning: Citation `Riede1987' on page 134 undefined on input lin
+e 13.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 14.
 
-[138
+[134
 
-] [139]
+]
+
+Package natbib Warning: Citation `Yang2006' on page 135 undefined on input line
+ 15.
+
+
+Package natbib Warning: Citation `Taylor2016b' on page 135 undefined on input l
+ine 15.
+
+
+Package natbib Warning: Citation `Taylor2016b' on page 135 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 17.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 17.
+
+
+LaTeX Warning: Reference `1v1h' on page 135 undefined on input line 17.
+
+
+LaTeX Warning: Reference `1qiu' on page 135 undefined on input line 17.
+
+
+Package natbib Warning: Citation `Bartual2010' on page 135 undefined on input l
+ine 17.
+
+
+Package natbib Warning: Citation `Granell2014' on page 135 undefined on input l
+ine 17.
+
+[135]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2xgf.pdf, 
-id=3692, 231.26399pt x 115.99335pt>
+id=1467, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2xgf.
 pdf Graphic file (type pdf)
 
@@ -4391,7 +6739,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 77.66156pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/5nxf.pdf, 
-id=3694, 231.26399pt x 115.99335pt>
+id=1469, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/5nxf.
 pdf Graphic file (type pdf)
 
@@ -4402,7 +6750,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 94.70767pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1h6w.pdf, 
-id=3696, 231.26399pt x 115.99335pt>
+id=1471, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1h6w.
 pdf Graphic file (type pdf)
 
@@ -4413,7 +6761,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 209.1301pt x 104.89745pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1qiu.pdf, 
-id=3698, 231.26399pt x 115.99335pt>
+id=1473, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1qiu.
 pdf Graphic file (type pdf)
 
@@ -4424,7 +6772,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 209.1301pt x 104.89745pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1v1h.pdf, 
-id=3700, 231.26399pt x 115.99335pt>
+id=1475, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1v1h.
 pdf Graphic file (type pdf)
 
@@ -4435,7 +6783,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 209.1301pt x 104.89745pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1pdi.pdf, 
-id=3702, 231.26399pt x 115.99335pt>
+id=1477, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1pdi.
 pdf Graphic file (type pdf)
 
@@ -4444,13 +6792,60 @@ df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/1pdi.pdf used on input line 66.
 (pdftex.def)             Requested size: 209.1301pt x 104.89745pt.
- [140] [141 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/im
-g/2xgf.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/im
-g/5nxf.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/im
-g/1h6w.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/im
-g/1qiu.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/im
-g/1v1h.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/im
-g/1pdi.pdf>]
+
+
+Package natbib Warning: Citation `Bartual2010' on page 136 undefined on input l
+ine 73.
+
+
+Package natbib Warning: Citation `Granell2014a' on page 136 undefined on input 
+line 73.
+
+
+Package natbib Warning: Citation `VanRaaij2001' on page 136 undefined on input 
+line 73.
+
+
+Package natbib Warning: Citation `VanRaaij1999' on page 136 undefined on input 
+line 73.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004' on page 136 undefined o
+n input line 73.
+
+
+Package natbib Warning: Citation `Kostyuchenko2003' on page 136 undefined on in
+put line 73.
+
+
+LaTeX Warning: Reference `bioinformatics' on page 1 undefined on input line 78.
+
+
+
+LaTeX Warning: Reference `bioinformatics' on page 1 undefined on input line 78.
+
+
+
+Package natbib Warning: Citation `Ge2015a' on page 136 undefined on input line 
+80.
+
+
+Package natbib Warning: Citation `Heymann2013' on page 136 undefined on input l
+ine 80.
+
+
+LaTeX Warning: Reference `afpstructure' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Reference `afpstructure' on page 1 undefined on input line 80.
+
+[136] [137 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+/2xgf.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+/5nxf.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+/1h6w.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+/1qiu.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+/1v1h.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+/1pdi.pdf>]
 
 LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 82.
 
@@ -4458,15 +6853,60 @@ LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 82.
 LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 82.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 82.
+Package natbib Warning: Citation `Yang2014' on page 138 undefined on input line
+ 82.
 
-[142]
+
+Package natbib Warning: Citation `Zhang2008' on page 138 undefined on input lin
+e 82.
+
+
+Package natbib Warning: Citation `Roy2010' on page 138 undefined on input line 
+82.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 82.
+
+
+Package natbib Warning: Citation `Kelly2015' on page 138 undefined on input lin
+e 82.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 84.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 84.
+
+[138]
+
+Package natbib Warning: Citation `Scholl2009a' on page 139 undefined on input l
+ine 86.
+
+
 Overfull \hbox (8.46002pt too wide) in paragraph at lines 88--89
 []\OT1/pxr/m/n/10.95 In sum-mary, this chap-ter ex-am-ines tail fi-bres in iso-
 la-tion from the difficult-to-manipulate
  []
 
-[143]
+[139]
+
+LaTeX Warning: Reference `pnflocus' on page 1 undefined on input line 102.
+
+
+LaTeX Warning: Reference `pnflocus' on page 1 undefined on input line 102.
+
+
+LaTeX Warning: Reference `lumtlocus' on page 1 undefined on input line 102.
+
+
+LaTeX Warning: Reference `lumtlocus' on page 1 undefined on input line 102.
+
+
 Overfull \hbox (3.94312pt too wide) in paragraph at lines 102--103
 \OT1/pxr/m/n/10.95 The pu-ta-tive tail fi-bre here-after called `pnf13' was clo
 ned from the \OT1/pxr/m/it/10.95 P. asym-bi-ot-ica \OT1/pxr/m/n/10.95 ATCC43949
@@ -4475,7 +6915,7 @@ ned from the \OT1/pxr/m/it/10.95 P. asym-bi-ot-ica \OT1/pxr/m/n/10.95 ATCC43949
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVCpnf_ATC
-C43949_Map.pdf, id=3804, 845.1575pt x 597.23125pt>
+C43949_Map.pdf, id=1538, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVCpn
 f_ATCC43949_Map.pdf Graphic file (type pdf)
 
@@ -4486,7 +6926,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 130.29626pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVClumt_AT
-CC43949_Map.pdf, id=3806, 845.1575pt x 597.23125pt>
+CC43949_Map.pdf, id=1540, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVClu
 mt_ATCC43949_Map.pdf Graphic file (type pdf)
 
@@ -4495,12 +6935,56 @@ t_ATCC43949_Map.pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/PVClumt_ATCC43949_Map.pdf used on input line 115.
 (pdftex.def)             Requested size: 426.79135pt x 141.87823pt.
- [144
+
+
+LaTeX Warning: Reference `consensustree' on page 1 undefined on input line 121.
+
+
+
+LaTeX Warning: Reference `consensustree' on page 1 undefined on input line 121.
+
+
+
+LaTeX Warning: Reference `pnflocus' on page 140 undefined on input line 121.
+
+
+LaTeX Warning: Reference `lumtlocus' on page 1 undefined on input line 121.
+
+
+LaTeX Warning: Reference `lumtlocus' on page 1 undefined on input line 121.
+
+[140
 
  </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVCpnf_AT
 CC43949_Map.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapte
-r5/img/PVClumt_ATCC43949_Map.pdf>] [145]
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pxfonts/omspxr.fd)
+r5/img/PVClumt_ATCC43949_Map.pdf>]
+
+LaTeX Warning: Reference `hhresults' on page 1 undefined on input line 124.
+
+
+LaTeX Warning: Reference `hhresults' on page 1 undefined on input line 124.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 12
+4.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 12
+4.
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 124.
+
+
+
+LaTeX Warning: Reference `structbioinfo' on page 1 undefined on input line 124.
+
+
+
+Package natbib Warning: Citation `Sarris2014' on page 141 undefined on input li
+ne 128.
+
+[141] (/usr/local/texlive/2017/texmf-dist/tex/latex/pxfonts/omspxr.fd)
 Overfull \hbox (1.0645pt too wide) in paragraph at lines 159--159
 []|$[][]\OT1/pxr/m/n/9 10[]$| 
  []
@@ -4582,7 +7066,7 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 159--159
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13_doma
-in_map.pdf, id=3868, 845.1575pt x 597.23125pt>
+in_map.pdf, id=1597, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13
 _domain_map.pdf Graphic file (type pdf)
 
@@ -4591,9 +7075,25 @@ domain_map.pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/pnf13_domain_map.pdf used on input line 164.
 (pdftex.def)             Requested size: 426.79135pt x 55.01349pt.
- [146]
+
+
+Package natbib Warning: Citation `Liu2011' on page 142 undefined on input line 
+166.
+
+
+Package natbib Warning: Citation `Thomassen2003' on page 142 undefined on input
+ line 166.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004' on page 142 undefined o
+n input line 166.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_dom
-ain_map.pdf, id=3880, 845.1575pt x 597.23125pt>
+ain_map.pdf, id=1599, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_domain_map.pdf Graphic file (type pdf)
 
@@ -4604,12 +7104,79 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 55.01349pt.
 
 
-Package natbib Warning: Citation `Thomassen2013' on page 147 undefined on input
+Package natbib Warning: Citation `Papanikolopoulou2004' on page 142 undefined o
+n input line 173.
+
+
+Package natbib Warning: Citation `Thomassen2013' on page 142 undefined on input
  line 173.
 
-[147 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13
-_domain_map.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapte
-r5/img/lumt13_domain_map.pdf>] [148]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 18
+0.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 18
+0.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 180.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 180.
+
+
+Package natbib Warning: Citation `Bartual2010' on page 142 undefined on input l
+ine 180.
+
+
+Package natbib Warning: Citation `VanRaaij2001' on page 142 undefined on input 
+line 180.
+
+
+Package natbib Warning: Citation `Heger2000' on page 142 undefined on input lin
+e 180.
+
+
+LaTeX Warning: Reference `pnfrepeats' on page 142 undefined on input line 180.
+
+
+LaTeX Warning: Reference `lumtrepeats' on page 142 undefined on input line 180.
+
+
+
+LaTeX Warning: Reference `pnfrepeats' on page 142 undefined on input line 180.
+
+
+LaTeX Warning: Reference `lumtrepeats' on page 142 undefined on input line 180.
+
+
+
+LaTeX Warning: Reference `tailfibreappendix' on page 1 undefined on input line 
+180.
+
+
+LaTeX Warning: Reference `tailfibreappendix' on page 1 undefined on input line 
+180.
+
+
+LaTeX Warning: Reference `pnfrepeats' on page 1 undefined on input line 180.
+
+[142] [143 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+/pnf13_domain_map.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/
+chapter5/img/lumt13_domain_map.pdf>]
+
+LaTeX Warning: Reference `tailfibremsa' on page 1 undefined on input line 182.
+
+
+LaTeX Warning: Reference `tailfibremsa' on page 1 undefined on input line 182.
+
+[144]
 Overfull \hbox (8.26859pt too wide) in paragraph at lines 226--226
 []|\OT1/pxr/m/n/9 Length|  
  []
@@ -4631,17 +7198,36 @@ LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
  line 283.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 283.
-
-
-
 LaTeX Warning: Float too large for page by 0.46951pt on input line 285.
 
-[149
+[145
 
-] [150]
+] [146]
+
+LaTeX Warning: Reference `customplasmids' on page 1 undefined on input line 292
+.
+
+
+LaTeX Warning: Reference `customplasmids' on page 1 undefined on input line 292
+.
+
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 292.
+
+
+LaTeX Warning: Reference `methods' on page 1 undefined on input line 292.
+
+
+LaTeX Warning: Reference `tailfibreplasmids' on page 1 undefined on input line 
+292.
+
+
+LaTeX Warning: Reference `tailfibreplasmids' on page 1 undefined on input line 
+292.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVC
-pnf13_Map.pdf, id=3971, 246.59027pt x 183.33092pt>
+pnf13_Map.pdf, id=1672, 246.59027pt x 183.33092pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b-PVCpnf13_Map.pdf Graphic file (type pdf)
 
@@ -4652,7 +7238,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 362.77525pt x 269.73935pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVC
-pnf13_Map.pdf, id=3973, 243.41339pt x 185.8915pt>
+pnf13_Map.pdf, id=1674, 243.41339pt x 185.8915pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a-PVCpnf13_Map.pdf Graphic file (type pdf)
 
@@ -4663,7 +7249,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 362.77525pt x 277.05238pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVC
-lumt13_Map.pdf, id=3975, 233.73924pt x 183.75752pt>
+lumt13_Map.pdf, id=1676, 233.73924pt x 183.75752pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b-PVClumt13_Map.pdf Graphic file (type pdf)
 
@@ -4674,7 +7260,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 341.43437pt x 268.44637pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVC
-lumt13_Map.pdf, id=3977, 220.50882pt x 185.13264pt>
+lumt13_Map.pdf, id=1678, 220.50882pt x 185.13264pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a-PVClumt13_Map.pdf Graphic file (type pdf)
 
@@ -4687,15 +7273,50 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 
 LaTeX Warning: Float too large for page by 3.57195pt on input line 338.
 
-[151
+[147
 
-] [152 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET
+] [148 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET
 15b-PVCpnf13_Map.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/c
-hapter5/img/pET29a-PVCpnf13_Map.pdf>] [153 </Users/joehealey/Documents/Warwick/
+hapter5/img/pET29a-PVCpnf13_Map.pdf>] [149 </Users/joehealey/Documents/Warwick/
 PhD/Thesis/chapters/chapter5/img/pET15b-PVClumt13_Map.pdf> </Users/joehealey/Do
 cuments/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVClumt13_Map.pdf>]
+
+LaTeX Warning: Reference `specprimers' on page 1 undefined on input line 345.
+
+
+LaTeX Warning: Reference `specprimers' on page 1 undefined on input line 345.
+
+
+LaTeX Warning: Reference `q5reaction' on page 1 undefined on input line 345.
+
+
+LaTeX Warning: Reference `q5reaction' on page 1 undefined on input line 345.
+
+
+LaTeX Warning: Reference `gdna' on page 1 undefined on input line 345.
+
+
+LaTeX Warning: Reference `gdna' on page 1 undefined on input line 345.
+
+
+LaTeX Warning: Reference `pnf13expressiontrial' on page 150 undefined on input 
+line 347.
+
+
+LaTeX Warning: Reference `lumt13expressiontrial' on page 150 undefined on input
+ line 347.
+
+
+LaTeX Warning: Reference `pnf13expressiontrial' on page 150 undefined on input 
+line 347.
+
+
+LaTeX Warning: Reference `lumt13expressiontrial' on page 150 undefined on input
+ line 347.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b_exp
-ression_trial_pnf13.pdf, id=4028, 486.81876pt x 391.4625pt>
+ression_trial_pnf13.pdf, id=1724, 486.81876pt x 391.4625pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b_expression_trial_pnf13.pdf Graphic file (type pdf)
 
@@ -4711,7 +7332,7 @@ LaTeX Font Warning: Font shape `U/wasy/bx/n' in size <10.95> not available
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a_exp
-ression_trial_pnf13.pdf, id=4030, 525.965pt x 411.5375pt>
+ression_trial_pnf13.pdf, id=1726, 525.965pt x 411.5375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a_expression_trial_pnf13.pdf Graphic file (type pdf)
 
@@ -4722,7 +7343,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 170.71393pt x 85.13281pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b_exp
-ression_trial_lumt13.pdf, id=4032, 464.73625pt x 426.59375pt>
+ression_trial_lumt13.pdf, id=1728, 464.73625pt x 426.59375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b_expression_trial_lumt13.pdf Graphic file (type pdf)
 
@@ -4733,7 +7354,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 170.71393pt x 79.93683pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a_exp
-ression_trial_lumt13.pdf, id=4034, 459.7175pt x 406.51875pt>
+ression_trial_lumt13.pdf, id=1730, 459.7175pt x 406.51875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a_expression_trial_lumt13.pdf Graphic file (type pdf)
 
@@ -4748,16 +7369,16 @@ Overfull \hbox (8.1375pt too wide) in paragraph at lines 451--452
 n-ity Chro-matog-ra-phy (``IMAC"),
  []
 
-[154
+[150
 
-] [155 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET
+] [151 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET
 15b_expression_trial_pnf13.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/
 chapters/chapter5/img/pET29a_expression_trial_pnf13.pdf> </Users/joehealey/Docu
 ments/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b_expression_trial_lumt13.p
 df> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a
 _expression_trial_lumt13.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13_afte
-r_gel_filtration_concentrated.pdf, id=4086, 48.27486pt x 40.02353pt>
+r_gel_filtration_concentrated.pdf, id=1786, 48.27486pt x 40.02353pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13
 _after_gel_filtration_concentrated.pdf Graphic file (type pdf)
 
@@ -4769,7 +7390,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 192.0548pt x 52.61047pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_aft
-er_gel_filtration_concentrated.pdf, id=4088, 420.57124pt x 407.5225pt>
+er_gel_filtration_concentrated.pdf, id=1788, 420.57124pt x 407.5225pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_after_gel_filtration_concentrated.pdf Graphic file (type pdf)
 
@@ -4779,11 +7400,26 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/lumt13_after_gel_filtration_concentrated.pdf used on input line 4
 63.
 (pdftex.def)             Requested size: 192.0548pt x 52.26338pt.
- [156 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf1
-3_after_gel_filtration_concentrated.pdf> </Users/joehealey/Documents/Warwick/Ph
-D/Thesis/chapters/chapter5/img/lumt13_after_gel_filtration_concentrated.pdf>]
+
+
+LaTeX Warning: Reference `trimerism' on page 1 undefined on input line 480.
+
+
+LaTeX Warning: Reference `trimerism' on page 1 undefined on input line 480.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2008' on page 152 undefined o
+n input line 480.
+
+
+Package natbib Warning: Citation `Gazit2008' on page 152 undefined on input lin
+e 480.
+
+[152 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13
+_after_gel_filtration_concentrated.pdf> </Users/joehealey/Documents/Warwick/PhD
+/Thesis/chapters/chapter5/img/lumt13_after_gel_filtration_concentrated.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/multimeris
-m.pdf, id=4131, 993.35117pt x 794.60866pt>
+m.pdf, id=1830, 993.35117pt x 794.60866pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/multi
 merism.pdf Graphic file (type pdf)
 
@@ -4792,10 +7428,17 @@ erism.pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/multimerism.pdf used on input line 484.
 (pdftex.def)             Requested size: 170.71393pt x 252.03844pt.
- [157 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/mult
+ [153 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/mult
 imerism.pdf>]
+
+LaTeX Warning: Reference `pnfmelt' on page 154 undefined on input line 520.
+
+
+LaTeX Warning: Reference `lumtmelt' on page 154 undefined on input line 520.
+
+
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf_AvgRun
-_CD_melt_2D.pdf, id=4146, 650.43pt x 433.62pt>
+_CD_melt_2D.pdf, id=1843, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf_A
 vgRun_CD_melt_2D.pdf Graphic file (type pdf)
 
@@ -4806,7 +7449,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 362.77525pt x 245.64417pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt_CD_me
-lt_2D.pdf, id=4148, 650.43pt x 433.62pt>
+lt_2D.pdf, id=1845, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt_
 CD_melt_2D.pdf Graphic file (type pdf)
 
@@ -4815,18 +7458,78 @@ D_melt_2D.pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/lumt_CD_melt_2D.pdf used on input line 535.
 (pdftex.def)             Requested size: 362.77525pt x 245.64417pt.
- [158
 
-] [159 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf
+
+Package natbib Warning: Citation `Whitmore2004' on page 154 undefined on input 
+line 542.
+
+
+Package natbib Warning: Citation `Lobley2002' on page 154 undefined on input li
+ne 542.
+
+[154
+
+] [155 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf
 _AvgRun_CD_melt_2D.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter5/img/lumt_CD_melt_2D.pdf>] [160]
+/chapter5/img/lumt_CD_melt_2D.pdf>]
+
+Package natbib Warning: Citation `Compton1986' on page 156 undefined on input l
+ine 545.
+
+
+Package natbib Warning: Citation `Sreerama2000b' on page 156 undefined on input
+ line 545.
+
+
+Package natbib Warning: Citation `Manavalan1987' on page 156 undefined on input
+ line 545.
+
+
+LaTeX Warning: Reference `pnfmelt' on page 156 undefined on input line 545.
+
+
+LaTeX Warning: Reference `lumtmelt' on page 156 undefined on input line 545.
+
+
+LaTeX Warning: Reference `pnfmelt' on page 156 undefined on input line 545.
+
+
+LaTeX Warning: Reference `lumtmelt' on page 156 undefined on input line 545.
+
+
+LaTeX Warning: Reference `K2D' on page 1 undefined on input line 545.
+
+
+LaTeX Warning: Reference `K2D' on page 1 undefined on input line 545.
+
+
+Package natbib Warning: Citation `Sreerama2000b' on page 156 undefined on input
+ line 547.
+
+
+Package natbib Warning: Citation `Sreerama2000a' on page 156 undefined on input
+ line 547.
+
+
+LaTeX Warning: Reference `dichrowebalgos' on page 1 undefined on input line 549
+.
+
+
+LaTeX Warning: Reference `dichrowebalgos' on page 1 undefined on input line 549
+.
+
+
+Package natbib Warning: Citation `Mao1982' on page 156 undefined on input line 
+549.
+
+[156]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
 arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_CDSSTRSet7.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_CDSSTRSet7.pdf, id=4210, 650.43pt x 433.62pt>
+1_CDSSTRSet7.pdf, id=1883, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_CDSSTRSet7.pdf Graphic file (type pdf)
 
@@ -4844,7 +7547,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_K2D.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_K2D.pdf, id=4212, 650.43pt x 433.62pt>
+1_K2D.pdf, id=1885, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_K2D.pdf Graphic file (type pdf)
 
@@ -4860,7 +7563,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Selcon4.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Selcon4.pdf, id=4214, 650.43pt x 433.62pt>
+1_Selcon4.pdf, id=1887, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Selcon4.pdf Graphic file (type pdf)
 
@@ -4876,7 +7579,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Selcon7.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Selcon7.pdf, id=4216, 650.43pt x 433.62pt>
+1_Selcon7.pdf, id=1889, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Selcon7.pdf Graphic file (type pdf)
 
@@ -4892,7 +7595,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Contin4.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Contin4.pdf, id=4218, 650.43pt x 433.62pt>
+1_Contin4.pdf, id=1891, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Contin4.pdf Graphic file (type pdf)
 
@@ -4908,7 +7611,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Contin7.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Contin7.pdf, id=4220, 650.43pt x 433.62pt>
+1_Contin7.pdf, id=1893, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Contin7.pdf Graphic file (type pdf)
 
@@ -4919,12 +7622,21 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 209.1301pt x 139.41626pt.
 
 
+LaTeX Warning: Reference `tailfibresbars' on page 1 undefined on input line 602
+.
+
+
+LaTeX Warning: Reference `tailfibresbars' on page 1 undefined on input line 602
+.
+
+
+
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
 arwick/PhD/Thesis/chapters/chapter5/img/Pnf_avg_SS.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Pnf_avg_SS
-.pdf, id=4224, 650.43pt x 433.62pt>
+.pdf, id=1895, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Pnf_a
 vg_SS.pdf Graphic file (type pdf)
 
@@ -4940,7 +7652,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/Lumt_avg_SS.pdf): PDF inclusion: found
 PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Lumt_avg_S
-S.pdf, id=4226, 650.43pt x 433.62pt>
+S.pdf, id=1897, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Lumt_
 avg_SS.pdf Graphic file (type pdf)
 
@@ -4953,21 +7665,138 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 
 LaTeX Warning: Float too large for page by 7.42732pt on input line 624.
 
-[161] [162 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
+[157] [158 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img
 /lumt13_R1S1_CDSSTRSet7.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/cha
 pters/chapter5/img/lumt13_R1S1_K2D.pdf> </Users/joehealey/Documents/Warwick/PhD
 /Thesis/chapters/chapter5/img/lumt13_R1S1_Selcon4.pdf> </Users/joehealey/Docume
 nts/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Selcon7.pdf> </Users/j
 oehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Contin4
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt
-13_R1S1_Contin7.pdf>] [163 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapt
+13_R1S1_Contin7.pdf>] [159 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapt
 ers/chapter5/img/Pnf_avg_SS.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis
-/chapters/chapter5/img/Lumt_avg_SS.pdf>] [164] [165] [166] [167]
+/chapters/chapter5/img/Lumt_avg_SS.pdf>]
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 628.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 628.
+
+
+LaTeX Warning: Reference `trimerism' on page 1 undefined on input line 628.
+
+
+LaTeX Warning: Reference `trimerism' on page 1 undefined on input line 628.
+
+
+Package natbib Warning: Citation `Rodriguez-GuerraPedregal2018' on page 160 und
+efined on input line 630.
+
+
+Package natbib Warning: Citation `Pettersen2004' on page 160 undefined on input
+ line 630.
+
+
+Package natbib Warning: Citation `Kabsch1983' on page 160 undefined on input li
+ne 630.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 632.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 632.
+
+
+LaTeX Warning: Reference `referenceSS' on page 1 undefined on input line 632.
+
+
+LaTeX Warning: Reference `referenceSS' on page 1 undefined on input line 632.
+
+[160]
+
+LaTeX Warning: Reference `pdb2cd' on page 1 undefined on input line 635.
+
+
+LaTeX Warning: Reference `pdb2cd' on page 1 undefined on input line 635.
+
+
+Package natbib Warning: Citation `Mavridis2017' on page 161 undefined on input 
+line 635.
+
+
+Package natbib Warning: Citation `Lees2006' on page 161 undefined on input line
+ 635.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 656.
+
+
+LaTeX Warning: Reference `tailfibrestructures' on page 1 undefined on input lin
+e 656.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 65
+6.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 65
+6.
+
+[161]
+
+LaTeX Warning: Reference `tailfibreintro' on page 1 undefined on input line 683
+.
+
+
+LaTeX Warning: Reference `tailfibreintro' on page 1 undefined on input line 683
+.
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 685.
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 685.
+
+
+LaTeX Warning: Reference `crystals' on page 1 undefined on input line 685.
+
+
+LaTeX Warning: Reference `crystals' on page 1 undefined on input line 685.
+
+
+LaTeX Warning: Reference `crystals' on page 1 undefined on input line 689.
+
+
+LaTeX Warning: Reference `crystals' on page 1 undefined on input line 689.
+
+
+Package natbib Warning: Citation `Dong2007a' on page 162 undefined on input lin
+e 689.
+
+
+Package natbib Warning: Citation `Wernimont2009' on page 162 undefined on input
+ line 689.
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 689.
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 689.
+
+[162] [163]
 Overfull \hbox (20.0pt too wide) in alignment at lines 737--737
  [] [] [] 
  []
 
-[168
+[164
 
 ]
 
@@ -4976,7 +7805,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20160908_174339.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160908_1
-74339.pdf, id=4381, 2569.1986pt x 1445.4pt>
+74339.pdf, id=2017, 2569.1986pt x 1445.4pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160
 908_174339.pdf Graphic file (type pdf)
 
@@ -4992,7 +7821,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20160908_174445.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160908_1
-74445.pdf, id=4383, 2569.1986pt x 1445.4pt>
+74445.pdf, id=2019, 2569.1986pt x 1445.4pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160
 908_174445.pdf Graphic file (type pdf)
 
@@ -5008,7 +7837,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_182707.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-82707.pdf, id=4385, 4047.12pt x 2276.505pt>
+82707.pdf, id=2021, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_182707.pdf Graphic file (type pdf)
 
@@ -5024,7 +7853,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_183352.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-83352.pdf, id=4387, 4047.12pt x 2276.505pt>
+83352.pdf, id=2023, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_183352.pdf Graphic file (type pdf)
 
@@ -5040,7 +7869,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_183451.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-83451.pdf, id=4389, 4047.12pt x 2276.505pt>
+83451.pdf, id=2025, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_183451.pdf Graphic file (type pdf)
 
@@ -5056,7 +7885,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_183740.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-83740.pdf, id=4391, 4047.12pt x 2276.505pt>
+83740.pdf, id=2027, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_183740.pdf Graphic file (type pdf)
 
@@ -5072,7 +7901,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_185249.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-85249.pdf, id=4393, 4047.12pt x 2276.505pt>
+85249.pdf, id=2029, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_185249.pdf Graphic file (type pdf)
 
@@ -5088,7 +7917,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_185734.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-85734.pdf, id=4395, 4047.12pt x 2276.505pt>
+85734.pdf, id=2031, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_185734.pdf Graphic file (type pdf)
 
@@ -5097,21 +7926,53 @@ File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/20170429_185734.pdf used on input line 759.
 (pdftex.def)             Requested size: 192.0548pt x 146.00433pt.
- [169 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2016
-0908_174339.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapte
-r5/img/20160908_174445.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chap
-ters/chapter5/img/20170429_182707.pdf> </Users/joehealey/Documents/Warwick/PhD/
-Thesis/chapters/chapter5/img/20170429_183352.pdf> </Users/joehealey/Documents/W
-arwick/PhD/Thesis/chapters/chapter5/img/20170429_183451.pdf> </Users/joehealey/
-Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_183740.pdf> </Users
-/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_185249.p
-df> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/201704
-29_185734.pdf>] [170
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 762.
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 762.
+
+[165 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160
+908_174339.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter
+5/img/20160908_174445.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapt
+ers/chapter5/img/20170429_182707.pdf> </Users/joehealey/Documents/Warwick/PhD/T
+hesis/chapters/chapter5/img/20170429_183352.pdf> </Users/joehealey/Documents/Wa
+rwick/PhD/Thesis/chapters/chapter5/img/20170429_183451.pdf> </Users/joehealey/D
+ocuments/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_183740.pdf> </Users/
+joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_185249.pd
+f> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2017042
+9_185734.pdf>]
+
+Package natbib Warning: Citation `Sperling2010' on page 166 undefined on input 
+line 769.
+
+
+Package natbib Warning: Citation `Hainfeld1999' on page 166 undefined on input 
+line 769.
+
+
+LaTeX Warning: Reference `nanoparticle' on page 1 undefined on input line 773.
+
+
+LaTeX Warning: Reference `nanoparticle' on page 1 undefined on input line 773.
+
+
+LaTeX Warning: Reference `pulldowncandidates' on page 1 undefined on input line
+ 775.
+
+
+LaTeX Warning: Reference `pulldowncandidates' on page 1 undefined on input line
+ 775.
+
+[166
 
 
 ]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/nanopartic
-le_hd.png, id=4487, 1806.75pt x 713.66624pt>
+le_hd.png, id=2118, 1806.75pt x 713.66624pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/nanop
 article_hd.png Graphic file (type png)
 
@@ -5120,60 +7981,103 @@ rticle_hd.png>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/nanoparticle_hd.png used on input line 780.
 (pdftex.def)             Requested size: 213.39568pt x 117.53795pt.
- [171 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/nano
-particle_hd.png>] [172
 
-] [173]
+
+Package natbib Warning: Citation `Sperling2010' on page 167 undefined on input 
+line 782.
+
+
+Package natbib Warning: Citation `Hainfeld1999' on page 167 undefined on input 
+line 782.
+
+[167 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/nanop
+article_hd.png>]
+
+Package natbib Warning: Citation `Simpson2015' on page 168 undefined on input l
+ine 816.
+
+
+Package natbib Warning: Citation `Le2013' on page 168 undefined on input line 8
+16.
+
+
+Package natbib Warning: Citation `Chatterjee2012' on page 168 undefined on inpu
+t line 816.
+
+
+Package natbib Warning: Citation `Morona1984' on page 168 undefined on input li
+ne 816.
+
+
+Package natbib Warning: Citation `Gaggar2003' on page 168 undefined on input li
+ne 816.
+
+
+Package natbib Warning: Citation `Guardado-Calvo2010' on page 168 undefined on 
+input line 816.
+
+[168
+
+]
+
+LaTeX Warning: Reference `glycan_results' on page 1 undefined on input line 818
+.
+
+
+LaTeX Warning: Reference `glycan_results' on page 1 undefined on input line 818
+.
+
+[169]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto-n-di
-fucohexaose-i.png, id=4529, 468.75125pt x 224.84pt>
+fucohexaose-i.png, id=2136, 468.75125pt x 224.84pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto-
 n-difucohexaose-i.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2f.png, 
-id=4531, 606.265pt x 278.03876pt>
+id=2138, 606.265pt x 278.03876pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2f.p
 ng>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2.png, i
-d=4533, 528.97626pt x 192.72pt>
+d=2140, 528.97626pt x 192.72pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2.pn
 g>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na4.png, i
-d=4535, 718.685pt x 483.8075pt>
+d=2142, 718.685pt x 483.8075pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na4.pn
 g>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2s-glucns.
-png, id=4537, 457.71pt x 185.69376pt>
+png, id=2144, 457.71pt x 185.69376pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2s-glu
 cns.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudi-h.png
-, id=4539, 429.605pt x 160.6pt>
+, id=2146, 429.605pt x 160.6pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudi-h
 .png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudiv-h.pn
-g, id=4541, 610.28pt x 232.87pt>
+g, id=2148, 610.28pt x 232.87pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudiv-
 h.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/mannobiose
-.png, id=4543, 168.63pt x 95.35625pt>
+.png, id=2150, 168.63pt x 95.35625pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/mannob
 iose.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/betagal.pn
-g, id=4545, 191.71625pt x 101.37875pt>
+g, id=2152, 191.71625pt x 101.37875pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/betaga
 l.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/galgalnacg
-lc.png, id=4546, 619.31375pt x 163.61125pt>
+lc.png, id=2153, 619.31375pt x 163.61125pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/galgal
 nacglc.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/3sialyl.pn
-g, id=4547, 578.16pt x 248.93pt>
+g, id=2154, 578.16pt x 248.93pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/3sialy
 l.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lstc.png, 
-id=4548, 677.53125pt x 179.67125pt>
+id=2155, 677.53125pt x 179.67125pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lstc.p
 ng>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/neocarrate
-traose.png, id=4549, 271.0125pt x 172.645pt>
+traose.png, id=2156, 271.0125pt x 172.645pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/neocar
 ratetraose.png>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto-
@@ -5202,6 +8106,10 @@ l.png>
 ng>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/neocar
 ratetraose.png>
+
+Package natbib Warning: Citation `Varki2015' on page 170 undefined on input lin
+e 883.
+
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto
 -n-difucohexaose-i.png Graphic file (type png)
 
@@ -5316,7 +8224,7 @@ ratetraose.png>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 /chapter5/img/neocarratetraose.png used on input line 883.
 (pdftex.def)             Requested size: 88.11906pt x 62.66267pt.
- [174
+ [170
 
  </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto-n-d
 ifucohexaose-i.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/cha
@@ -5331,12 +8239,203 @@ s/chapters/chapter5/img/neocarratetraose.png> </Users/joehealey/Documents/Warwi
 ck/PhD/Thesis/chapters/chapter5/img/betagal.png> </Users/joehealey/Documents/Wa
 rwick/PhD/Thesis/chapters/chapter5/img/galgalnacglc.png> </Users/joehealey/Docu
 ments/Warwick/PhD/Thesis/chapters/chapter5/img/3sialyl.png> </Users/joehealey/D
-ocuments/Warwick/PhD/Thesis/chapters/chapter5/img/lstc.png>] [175] [176] [177]
+ocuments/Warwick/PhD/Thesis/chapters/chapter5/img/lstc.png>]
 
-Package natbib Warning: Citation `Papanikolopoulou2004b' on page 178 undefined 
+LaTeX Warning: Reference `t6ssEMs' on page 1 undefined on input line 889.
+
+
+LaTeX Warning: Reference `t6ssEMs' on page 1 undefined on input line 889.
+
+
+Package natbib Warning: Citation `Chang2017' on page 171 undefined on input lin
+e 889.
+
+
+LaTeX Warning: Reference `pnf13expressiontrial' on page 1 undefined on input li
+ne 892.
+
+[171]
+
+LaTeX Warning: Reference `trimerism' on page 1 undefined on input line 896.
+
+
+LaTeX Warning: Reference `trimerism' on page 1 undefined on input line 896.
+
+
+LaTeX Warning: Reference `comparisons' on page 1 undefined on input line 896.
+
+
+LaTeX Warning: Reference `comparisons' on page 1 undefined on input line 896.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004a' on page 172 undefined 
+on input line 896.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2008' on page 172 undefined o
+n input line 896.
+
+
+Package natbib Warning: Citation `Gazit2008' on page 172 undefined on input lin
+e 896.
+
+
+LaTeX Warning: Reference `crystals' on page 1 undefined on input line 898.
+
+
+LaTeX Warning: Reference `crystals' on page 1 undefined on input line 898.
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 898.
+
+
+LaTeX Warning: Reference `crystalconditionstable' on page 1 undefined on input 
+line 898.
+
+[172]
+
+Package natbib Warning: Citation `Granell2014a' on page 173 undefined on input 
+line 900.
+
+
+Package natbib Warning: Citation `Bartual2010' on page 173 undefined on input l
+ine 900.
+
+
+Package natbib Warning: Citation `Hashemolhosseini1996' on page 173 undefined o
+n input line 900.
+
+
+Package natbib Warning: Citation `Hashemolhosseini1996' on page 173 undefined o
+n input line 900.
+
+[173]
+
+LaTeX Warning: Reference `domainstructuresection' on page 1 undefined on input 
+line 905.
+
+
+LaTeX Warning: Reference `domainstructuresection' on page 1 undefined on input 
+line 905.
+
+
+Package natbib Warning: Citation `Sandmeler1994' on page 174 undefined on input
+ line 905.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004a' on page 174 undefined 
 on input line 907.
 
-[178] [179] [180] [181] [182] [183]) [184] (../chapters/chapter6/regulation.tex
+
+Package natbib Warning: Citation `Papanikolopoulou2004' on page 174 undefined o
+n input line 907.
+
+
+Package natbib Warning: Citation `Krasnykh2001' on page 174 undefined on input 
+line 907.
+
+
+Package natbib Warning: Citation `Beck1998' on page 174 undefined on input line
+ 907.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004a' on page 174 undefined 
+on input line 907.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004b' on page 174 undefined 
+on input line 907.
+
+
+Package natbib Warning: Citation `Krasnykh2001' on page 174 undefined on input 
+line 909.
+
+
+Package natbib Warning: Citation `Li2006' on page 174 undefined on input line 9
+09.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 90
+9.
+
+
+LaTeX Warning: Reference `domainstructure' on page 1 undefined on input line 90
+9.
+
+
+Package natbib Warning: Citation `Papanikolopoulou2004' on page 174 undefined o
+n input line 909.
+
+[174]
+
+Package natbib Warning: Citation `Guardado-Calvo2010' on page 175 undefined on 
+input line 913.
+
+
+Package natbib Warning: Citation `Singh2015' on page 175 undefined on input lin
+e 913.
+
+
+Package natbib Warning: Citation `Lenman2018' on page 175 undefined on input li
+ne 913.
+
+
+Package natbib Warning: Citation `Nilsson2011' on page 175 undefined on input l
+ine 913.
+
+
+Package natbib Warning: Citation `BertozziSilva2016' on page 175 undefined on i
+nput line 915.
+
+
+Package natbib Warning: Citation `Singh2015' on page 175 undefined on input lin
+e 915.
+
+
+Package natbib Warning: Citation `Burmeister2004' on page 175 undefined on inpu
+t line 915.
+
+
+Package natbib Warning: Citation `Rademacher2012' on page 175 undefined on inpu
+t line 915.
+
+[175]
+
+Package natbib Warning: Citation `Varki2012' on page 176 undefined on input lin
+e 917.
+
+
+Package natbib Warning: Citation `Guardado-Calvo2010' on page 176 undefined on 
+input line 919.
+
+[176]
+
+Package natbib Warning: Citation `Flower1996' on page 177 undefined on input li
+ne 921.
+
+
+Package natbib Warning: Citation `Delva2009' on page 177 undefined on input lin
+e 923.
+
+
+Package natbib Warning: Citation `Ramachandran2006' on page 177 undefined on in
+put line 923.
+
+[177]
+
+Package natbib Warning: Citation `Johansson2007' on page 178 undefined on input
+ line 925.
+
+
+LaTeX Warning: Reference `bioinformatics' on page 1 undefined on input line 930
+.
+
+
+LaTeX Warning: Reference `bioinformatics' on page 1 undefined on input line 930
+.
+
+[178]) [179] [180] (../chapters/chapter6/regulation.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -5347,15 +8446,37 @@ less on input line 1.
 
 Chapter 6.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 14.
+Package natbib Warning: Citation `Waterfield2008' on page 181 undefined on inpu
+t line 9.
 
-)
+
+Package natbib Warning: Citation `Yang2006' on page 181 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `Yang2006' on page 181 undefined on input line
+ 9.
+
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 463.
+less on input line 19.
 
-[185
+[181
+
+] [182]
+
+Package natbib Warning: Citation `Sevostyanova2008' on page 183 undefined on in
+put line 36.
+
+
+Package natbib Warning: Citation `Artsimovitch2002' on page 183 undefined on in
+put line 36.
+
+
+(/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/resources/alig
+nments/PVC_upstream_w_RfaH.afasta: . . ) [183
+
+] [184]) [185
 
 ]
 
@@ -5437,6 +8558,10 @@ less on input line 486.
 ]
 Appendix A.
 
+LaTeX Warning: Reference `structbioinfo' on page 216 undefined on input line 48
+7.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 489.
 
@@ -5445,6 +8570,10 @@ less on input line 489.
 ]
 Appendix B.
 
+LaTeX Warning: Reference `bioinformatics' on page 217 undefined on input line 4
+89.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 492.
 
@@ -5452,6 +8581,9 @@ less on input line 492.
 
 ]
 Appendix C.
+
+LaTeX Warning: Reference `tailfibres' on page 218 undefined on input line 492.
+
 (../appendices/tailfibre_appendix/tailfibreappendix.tex
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
@@ -5462,6 +8594,9 @@ less on input line 1.
 ]
 Appendix D.
 
+LaTeX Warning: Reference `tailfibres' on page 219 undefined on input line 1.
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 251.
 
@@ -5470,13 +8605,17 @@ less on input line 251.
 ] [220] [221] [222]) [223]
 Appendix E.
 
+LaTeX Warning: Reference `structbioinfo' on page 224 undefined on input line 49
+7.
+
+
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
 arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=4917, 597.50829pt x 845.0471pt>
+06703.pdf, id=2757, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -5510,7 +8649,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=4920, page=1, 597.50829pt x 845.0471pt>
+06703.pdf, id=2760, page=1, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -5567,7 +8706,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5008, page=2, 597.50829pt x 845.0471pt>
+06703.pdf, id=2849, page=2, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -5600,7 +8739,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5049, page=3, 597.50829pt x 845.0471pt>
+06703.pdf, id=2890, page=3, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -5633,7 +8772,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5064, page=4, 597.50829pt x 845.0471pt>
+06703.pdf, id=2905, page=4, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -5659,50 +8798,57 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
 es/publications/ange201706703.pdf, page4 used on input line 500.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [228 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
-ge201706703.pdf>] [229] (./Thesis_Base.tdo
-Overfull \hbox (150.09184pt too wide) in paragraph at lines 8--8
- [][] [][][][] \OT1/pxr/m/n/10.95 be sure to write a sec-tion around the claim 
-in this pa-per https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/ 
- []
+ge201706703.pdf>] [229]
 
+Package hyperref Warning: old tdo file detected, not used; run LaTeX again.
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 18.
-
-[230
-
-] [231])
 \tf@tdo=\write12
 \openout12 = `Thesis_Base.tdo'.
 
 
-
 Package natbib Warning: There were undefined citations.
 
-[232]
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 526.
+
+[230
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 526.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
- (./Thesis_Base.aux)
+ (./Thesis_Base.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 526.
-Package rerunfilecheck Info: File `Thesis_Base.out' has not changed.
-(rerunfilecheck)             Checksum: 4E442FE0019C0B3CC905FB80A2C0A58E;13286.
 
+
+Package rerunfilecheck Warning: File `Thesis_Base.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis_Base.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  224148E13DBBAB170B49DDDD198940FE;13508.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 54849 strings out of 492995
- 1026667 string characters out of 4882705
- 6685380 words of memory out of 10000000
- 56378 multiletter control sequences out of 15000+600000
- 95993 words of font info for 246 fonts, out of 5000000 for 9000
+ 57316 strings out of 492995
+ 1056689 string characters out of 4882705
+ 6652690 words of memory out of 10000000
+ 58858 multiletter control sequences out of 15000+600000
+ 94472 words of font info for 238 fonts, out of 5000000 for 9000
  1141 hyphenation exceptions out of 8191
- 783i,21n,94p,10450b,5692s stack positions out of 10000i,500n,10000p,5000000b,80000s
+ 970i,21n,94p,10450b,25623s stack positions out of 10000i,500n,10000p,5000000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/pxfonts/pxexa.pfb></usr/local/texlive/2017/t
@@ -5725,10 +8871,10 @@ palatino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palati
 no/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplr
 i8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10
 .pfb>
-Output written on Thesis_Base.pdf (248 pages, 43119407 bytes).
+Output written on Thesis_Base.pdf (240 pages, 43073563 bytes).
 PDF statistics:
- 5450 PDF objects out of 6186 (max. 8388607)
- 4558 compressed objects within 46 object streams
- 886 named destinations out of 1000 (max. 500000)
- 2593 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3201 PDF objects out of 3580 (max. 8388607)
+ 2363 compressed objects within 24 object streams
+ 883 named destinations out of 1000 (max. 500000)
+ 1257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

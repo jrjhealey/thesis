@@ -3,12 +3,77 @@
 \rhead{\textsf{Synthetic \& Natural PVC Operon Regulation}}
 
 
-\chapter{Synthetic \& Natural PVC Operon Regulation}\label{regulation}
+\chapter{Synthetic \& natural PVC operon regulation}\label{regulation}
+
+\section{Introduction}
+PVCs were originally identified due to their toxic effects in a ``Rapid Virulence Annotation" screen \citep{Waterfield2008, Yang2006}. The ``RVA" screen examined a cosmid library comprised of \emph{Photorhabdus} sequences which were heterologously expressed in ordinary lab \emph{E. coli}, tested against insects, nematodes, amoebae and macrophages. Should the cosmid clone contain a genomic region which encoded a toxin or virulence factor, assorted lethalities or morbidities could be detected in the screened cell or organism types. The PVCs were one such virulence factor, which demonstrated lethality in macrophages, insects and ..... \todo{find out from nick the PVC RVA results}. PVC bearing cosmids were obtained in various states of completeness, often with the 5' regions deleted, though enough functional cosmids were recovered to produce the first work on the PVCs \citep{Yang2006}. The frequency of deletion of regions of the PVC bearing cosmids suggested that intact cosmids were not easily recovered in \emph{E. coli} and had a toxic effect. This was borne out by steadily decreasing viability of certain cosmid clones when routinely cultured for experiments.
+
+
+Mention the Hurst paper that cloned the Afp RfaH related thing.
+
+
+
+\subsection*{Chapter Aims:}
+\begin{itemize}
+	\item Engineer controllable PVC expression constructs.
+	\item Examine the natural regulation and expression patterns of \emph{Photorhabdus} populations.
+\end{itemize}
+\clearpage
+
+
+
 
 Cosmid recombineering attempts
 Gibson constructs
 reporter construction
 Microscopy
+
+\section{Experimental procedures}
+
+
+\subsection{A putative role for RfaH in PVC regulation}
+
+RfaH sequence = \emph{ops} GGCGGTAGnnTG (in e coli) \citep{Sevostyanova2008, Artsimovitch2002}
+
+
+Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked out in Photo
+ - Mention that RfaH was initially thought to be essential in the first wave of keio knockouts but later was able to be removed.
+
+
+\begin{figure}[p]
+\vspace{-0.5cm}
+\begin{texshade}{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/resources/alignments/PVC_upstream_w_RfaH.afasta}
+\seqtype{N}
+\setends{19}{0..180}
+\setfont{numbering}{tt}{md}{sc}{tiny}
+\setfont{names}{tt}{md}{up}{tiny}
+\setfont{residues}{tt}{md}{sc}{tiny}
+\setfont{ruler}{tt}{bf}{sc}{tiny}
+\shadingmode[allmatchspecial]{similar}
+%\conservedresidues{Black}{LightCornflowerBlue}{upper}{md}
+%\allmatchresidues{Goldenrod}{RoyalPurple}{upper}{bf}
+\threshold[80]{30}
+\smallblockskip
+\hideruler
+\vsepspace{0.2pt}
+\hideconsensus
+\topspace{-3pt}
+\featuressmall
+\feature{top}{1}{1..12}{brace}{RfaH ops site}
+
+%
+%\shortcaption{Multiple sequence alignment of PVC tail fibre genes, denoting conserved domains}
+%\showcaption[bottom]{\small Multiple sequence alignments for all tail fibre sequences known for the PVCs. This is the same alignment as that referred to in previous chapters and in Appendix \vref{bioinformatics_appendix}. The MSA was generated with Clustal Omega, and has been visualised here via the \texttt{TexShade} package. Residues are colour coded by residue similarity.}
+%
+\end{texshade}
+	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=5pt}
+	\caption[Multiple sequence alignment of redundant RfaH \emph{ops} sites]{\textsc{\normalsize Identifying RfaH \emph{ops} sites via profile MSA.}\vspace{0.1cm}\newline A sequence alignment of $\approx$500 bases upstream of the first locus of the PVC operons (only $\approx$200 bases reproduced here), with redundant permutations of the RfaH \emph{ops} binding site profile aligned. 5' regions of the PVCs were first aligned together, then permutations of the canonical \emph{E. coli} RfaH binding site were generated and aligned together against the existing MSA to identify the binding site and its conservation (or lack thereof). Visualised here via the \texttt{TexShade} \LaTeX package, identical residues are yellow-on-purple, residues conserved at over 80 \% are white-on-blue, residues conserved at over 30 \% are black-on-pink, and uncoloured residues are less conserved than this cutoff.}
+	\label{rfahmsa}
+\end{figure}
+\clearpage
+
+
+
 
 
 \subsection{Population heterogeneity in PVC activity}
@@ -19,7 +84,7 @@ Microscopy
 %\input{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/reporter_microscopy.tex}
 
 
-\subsection{Discussion}
+\section{Discussion}
 Remember to discuss the enlongation/filamenting of some bacteria - almost always green too)
 Example panels:
 TT01 LopT, 5 hours, bottom panel + 72 hour bottom panel
