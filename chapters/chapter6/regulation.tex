@@ -5,18 +5,35 @@
 
 \chapter{Synthetic \& natural PVC operon regulation}\label{regulation}
 
+\epigraph{\emph{``...cells are very tiny, but they are very active; they manufacture various substances; they walk around; they wiggle; and they do all kinds of marvellous things...''}}{\textit{Richard P. Feynman}}
+
 \section{Introduction}
-PVCs were originally identified due to their toxic effects in a ``Rapid Virulence Annotation" screen \citep{Waterfield2008, Yang2006}. The ``RVA" screen examined a cosmid library comprised of \emph{Photorhabdus} sequences which were heterologously expressed in ordinary lab \emph{E. coli}, tested against insects, nematodes, amoebae and macrophages. Should the cosmid clone contain a genomic region which encoded a toxin or virulence factor, assorted lethalities or morbidities could be detected in the screened cell or organism types. The PVCs were one such virulence factor, which demonstrated lethality in macrophages, insects and ..... \todo{find out from nick the PVC RVA results}. PVC bearing cosmids were obtained in various states of completeness, often with the 5' regions deleted, though enough functional cosmids were recovered to produce the first work on the PVCs \citep{Yang2006}. The frequency of deletion of regions of the PVC bearing cosmids suggested that intact cosmids were not easily recovered in \emph{E. coli} and had a toxic effect. This was borne out by steadily decreasing viability of certain cosmid clones when routinely cultured for experiments.
+PVCs were originally identified due to their toxic effects in a ``Rapid Virulence Annotation" screen \citep{Waterfield2008, Yang2006}. The ``RVA" screen examined a cosmid library comprised of \emph{Photorhabdus} sequences which were heterologously expressed in ordinary lab \emph{E. coli},  and tested against insects, nematodes, amoebae and macrophages for activity. Should the cosmid clone contain a genomic region which encoded a toxin or virulence factor, assorted lethalities or morbidities could be detected in the screened cell or organism types.
 
+PVC bearing cosmids were obtained in various states of completeness, often with the 5' regions deleted, though enough functional cosmids were recovered to produce the first work on the PVCs \citep{Yang2006}. The frequency of deletion of regions of the PVC bearing cosmids suggested that intact cosmids were not easily recovered in \emph{E. coli} and had a toxic effect. This was borne out by steadily decreasing viability of certain cosmid clones when routinely cultured for experiments.
 
-Mention the Hurst paper that cloned the Afp RfaH related thing.
+The precise basis of this toxicity is still unknown. One hypothesis was that the PVCs (being somewhat phage-like), were potentially lysing the cells that produced them (some of the operons are found in close register to holin-lysin pairs). Since the PVCs were obtained in the cosmids with their own promotors and regulatory signals, their expression was likely uncontrolled or `haywire', n a non-\emph{Photorhabdus} host, even though \emph{Photorhabdus} and \emph{E. coli} are both Enterobacterial.
 
+However, there were a number of PVC operons, that despite being cloned in their entirety, did not cause such pronounced toxicity. Inferring from RNAseq data for the PVCs in \emph{Photorhabdus}, many PVC operons are silent under normal culture conditions, or expressed at lower levels. These silent operons, while propagable, were of limited use for further study since they are not producing active PVCs. Thus, one of the earliest aims in this project was to explore methods for more reliable and controllable heterologous expression of PVCs on demand. This is also desirable as the cosmid clones often contain flanking sequence to the PVCs, which could contain genes/proteins which confound assays.
 
+In addition to genetically engineering control of PVC sequences, a better understanding of the natural expression patterns and regulation of the PVCs is also desirable. The wide variety of PVC loci suggests they are responding to a plethora of environmental cues to trigger their deployment, and thus their expression patterns could be very prescriptive. Furthermore, due in large part to its esoteric lifestyle, \emph{Photorhabdus} is known to exhibit a significant degree of population heterogeneity \citep{Langer2017,Heinrich2016}. This suggests that not only might the PVCs expression/deployment depend on environmental cues, but that it may also depend on culture conditions (such as density), growth phase, and phenotypic state (\emph{Photorhabdus} exists as `primary' and `secondary' cells \citep{Boemare1988}). Its primary/secondary variability has been shown to manifest in various phenotypes. For instance, the bulk of the bioluminescence produced by \emph{Photorhabdus} cultures is attributable to the primary (1$^{\circ}$) cells \citep{Boemare1988, AKHURST1980}, the majority of anthraquinone-based pigmentation occurs in 1$^{\circ}$ cells  with a particular metabolic suppression in 2$^{\circ}$ whereby the same transcription factor \emph{AntJ} has diametrically opposite effects in primaries versus secondaries \citep{Heinrich2016, Langer2017}. Among other examples include the differential deployment of a variety of proteolytic enzymes \citep{Marokhazi2004}, a global shift in fundamental biochemical processes such as respiration \citep{Smigielski1994} and production of secondary metabolites \citep{Turlin2006}, and, perhaps most prominently and significantly of all, 2$^{\circ}$ cells are incapable of association with the nematode vector. Thus, a second aim of this chapter is to asses the PVC operons for any heterogeneity in expression among a bacterial population.
+
+Little is precisely known about the choreography of PVC (and, more broadly, many caudate structure's) expression and assembly. The T4 phage is the best understood, as evidenced in \vref{t4assembly}, however T4 genetics are quite far removed from that of simple caudate structures, with a much larger genome and both ``early" and ``late" expression profiles \citep{OFarrell1973}. The best indication for the regulatory system in the PVCs comes, once again, from the work of \cite{Hurst2007a, Hurst2004}. In the original studies that attempted to elucidate the structure, expression of the Afp cluster was only achievable when an additional protein from the pADAP plasmid was also heterologously expressed. Namely \emph{anfA1}, the protein was identified upstream of the Afp cluster as part of a pair of genes (the other is termed \emph{anfA2}), which contained a NusG-like domain with some sequence similarity to the RfaH transcript elongation factor, and over-expression resulted in a concomitant over-expression of the Afp itself.
+
+RfaH, a specialised version of NusG (a generalist elongation factor) has been shown to be important in the expression of long operons \citep{Bailey1996}, by prolonging the transcripts and preventing the polymerase from prematurely dropping off the strand (increasing processivity), ordinarily brought about by Rho-dependent termination. RfaH is recruited to the RNA polymerase transcript elongation complex (TES) at a specific DNA motif called the he \emph{ops} (operon polarity suppression) site (which in \emph{E. coli} has the sequence \texttt{5'-GGCGGTAGnnTG-3'}). Transcription is enhanced for roughly 20 kb downstream \citep{Artsimovitch2002, Leeds1996, Leeds1997}, which is the approximate minimal length of the structural components of a PVC operon. Effectors for PVCs often appear with their own promoters and can be transcribed independently of the rest of the operon.
+
+Gene clusters which have been demonstrated to be dependent on RfaH, include the LPS core, exopolysaccharides \citep{Wilkinson1972}, haemolysin toxins \citep{Landraud2003, Leeds1996, Leeds1997} and the F-type conjugation pilus. The \emph{ops} site which RfaH obligately depends upon has also been found in \emph{Shigella flexneri}, \emph{Yersinia enterocolitica}, \emph{Vibrio cholerae} and \emph{Klebsiella pneumoniae} polysaccharide synthesis clusters, as well as the  RP4 fertility operon of \emph{Pseudomonas aeruginosa} \citep{Bailey1997} - and of course the \emph{S. entomophila} Afp \citep{Hurst2007a}. The \emph{ops} site is therefore widespread in the \emph{Proteobacteria}, and possibly further. Deletion of either the \emph{ops} site, or RfaH itself results in equivalent reduction in transcription \citep{Bailey1997}. Interestingly, the \emph{ops} site has also been identified as part of a larger 39 bp sequence known as the ``JUMPStart" sequence, which consists of a conserved but somewhat degenerate GC-rich hairpin structure immediately prior to the \emph{ops} sequence. The JUMPStart sequence has been detected in most of the examples listed previously \citep{Wang1998}. It is not, however, found in the \emph{tra} operon that gives rise to the F pilus, nor in the \emph{hyl} haemolysin operon \citep{Nieto1996} (except in some cases, such as the J96 strain where \cite{Leeds2007} showed the \emph{hyl} operon does use a full JUMPStart motif). Why the JUMPStart sequence, which can be thought of as an extended \emph{ops} sequence, with the same function is necessary is not clear, since the \emph{ops} site is sufficient for RfaH recruitment
+
+Literature such as the papers by \cite{Bailey1996} and \citep{Santangelo2002} note that RfaH regulation seems to also be a hallmark of long operons whose products are destined for the extracellular environment, though if there is a strict dependence/relationship on this is not clear, and there is certainly no understood mechanism; it is tempting to speculate that this might be the case for the PVCs and Afps which are also destined for the extracellular environment, however. 
+
+Explain what an operon polarity supressor is (and operon polarity)
+JUMPstart?
 
 \subsection*{Chapter Aims:}
 \begin{itemize}
 	\item Engineer controllable PVC expression constructs.
-	\item Examine the natural regulation and expression patterns of \emph{Photorhabdus} populations.
+	\item Examine the natural regulation and expression patterns of PVCs in \emph{Photorhabdus} populations.
+	\item Investigate the putative role of RfaH-like proteins in PVC regulation.
 \end{itemize}
 \clearpage
 
@@ -30,15 +47,36 @@ Microscopy
 
 \section{Experimental procedures}
 
+\subsection{Cloning and engineering PVC operons}
+\subsubsection{Recombineering}
+Recombineering approach to insert promotors upstream blah blah
+\addfloat{Diagram of recombineering mechanism}
+
+\myparagraph{Chromosomal engineering}
+Worked!
+
+\myparagraph{Cosmid engineering}
+\addfloat{Diagram of the devised method for engineering cosmids}
+Nightmare!
+
+
+\subsubsection{Gibson assembly}
+
+\subsubsection{Long range PCR}
+
 
 \subsection{A putative role for RfaH in PVC regulation}
 
+Alignment of RfaH - AnfA1 and any other ops active proteins?
+
 RfaH sequence = \emph{ops} GGCGGTAGnnTG (in e coli) \citep{Sevostyanova2008, Artsimovitch2002}
 
+Show/state that the JUMPStart sequence is closely related (contains an ops), but there doesn't appear to be a compelling structure for it in PVCs
 
 Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked out in Photo
  - Mention that RfaH was initially thought to be essential in the first wave of keio knockouts but later was able to be removed.
 
+Add the AFP 5' UTR to the alignment?
 
 \begin{figure}[p]
 \vspace{-0.5cm}
@@ -56,7 +94,9 @@ Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked ou
 \smallblockskip
 \hideruler
 \vsepspace{0.2pt}
-\hideconsensus
+\showsequencelogo{bottom}
+\showconsensus[ColdHot]{bottom}
+\defconsensus{.}{lower}{upper}
 \topspace{-3pt}
 \featuressmall
 \feature{top}{1}{1..12}{brace}{RfaH ops site}
@@ -85,6 +125,11 @@ Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked ou
 
 
 \section{Discussion}
+
+Do not get too hung up on RfaH itself - it may be a different protein thats LIKE RfaH that's responsible. Sigma70 binds to the same site for example..\citep{Sevostyanova2008}
+
+Discussion of Yangs constructs - the long form including the RfaH upstream region has aberrant expression profiles (circumstantial data)
+
 Remember to discuss the enlongation/filamenting of some bacteria - almost always green too)
 Example panels:
 TT01 LopT, 5 hours, bottom panel + 72 hour bottom panel

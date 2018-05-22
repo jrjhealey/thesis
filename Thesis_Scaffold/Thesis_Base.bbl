@@ -34,6 +34,13 @@ Aizawa, S. (2001).
 \newblock {Bacterial flagella and type III secretion systems}.
 \newblock {\em FEMS Microbiology Letters}, 202(2):157--164.
 
+\bibitem[Akhurst, 1980]{AKHURST1980}
+Akhurst, R.~J. (1980).
+\newblock {Morphological and functional dimorphism in Xenorhabdus spp.,
+  bacteria symbiotically associated with the insect pathogenic nematodes
+  Neoaplectana and Heterorhabditis}.
+\newblock {\em Journal of General Microbiology}, 121(May):303--309.
+
 \bibitem[Aksyuk et~al., 2009a]{Aksyuk2009}
 Aksyuk, A.~a., Leiman, P.~G., Kurochkina, L.~P., Shneider, M.~M., Kostyuchenko,
   V.~a., Mesyanzhinov, V.~V., and Rossmann, M.~G. (2009a).
@@ -67,6 +74,13 @@ Arisaka, F., Kanamaru, S., Leiman, P., and Rossmann, M.~G. (2003).
 \newblock {\em International Journal of Biochemistry and Cell Biology},
   35(1):16--21.
 
+\bibitem[Artsimovitch and Landick, 2002]{Artsimovitch2002}
+Artsimovitch, I. and Landick, R. (2002).
+\newblock {The transcriptional regulator RfaH stimulates RNA chain synthesis
+  after recruitment to elongation complexes by the exposed nontemplate DNA
+  strand}.
+\newblock {\em Cell}, 109(2):193--203.
+
 \bibitem[Ates et~al., 2016]{Ates2016}
 Ates, L.~S., Houben, E. N.~G., and Bitter, W. (2016).
 \newblock {Type VII Secretion: A Highly Versatile Secretion System}.
@@ -85,6 +99,18 @@ Bager, R., Roghanian, M., Gerdes, K., and Clarke, D.~J. (2016).
 \newblock {Alarmone (p)ppGpp regulates the transition from pathogenicity to
   mutualism in Photorhabdus luminescens}.
 \newblock {\em Molecular Microbiology}, 100(4):735--747.
+
+\bibitem[Bailey et~al., 1996]{Bailey1996}
+Bailey, M.~J., Hughes, C., and Koronakis, V. (1996).
+\newblock {Increased distal gene transcription by the elongation factor RfaH, a
+  specialized homologue of NusG}.
+\newblock {\em Mol Microbiol}, 22(4):729--737.
+
+\bibitem[Bailey et~al., 1997]{Bailey1997}
+Bailey, M.~J., Hughes, C., and Koronakis, V. (1997).
+\newblock {RfaH and the ops element, components of a novel system controlling
+  bacterial transcription elongation.}
+\newblock {\em Molecular microbiology}, 26(5):845--851.
 
 \bibitem[Ballister et~al., 2008]{Ballister2008}
 Ballister, E.~R., Lai, A.~H., Zuckermann, R.~N., Cheng, Y., and Mougous, J.~D.
@@ -172,6 +198,12 @@ B{\"{o}}ck, D., Medeiros, J.~M., Tsao, H.-f., Penz, T., Weiss, G.~L.,
 \newblock {In situ architecture, function, and evolution of a contractile
   injection system}.
 \newblock {\em Science}, 717(August):713--717.
+
+\bibitem[Boemare and Akhurst, 1988]{Boemare1988}
+Boemare, N.~E. and Akhurst, R.~J. (1988).
+\newblock {Biochemical and Physiological Characterization of Colony Form
+  Variants in Xenorhabdus spp. (Enterobacteriaceae)}.
+\newblock {\em Microbiology}, 134(May):751--761.
 
 \bibitem[Boemare et~al., 1993]{Boemare1993}
 Boemare, N.~E., Akhurst, R.~J., and R., M.~G. (1993).
@@ -775,6 +807,13 @@ Heger, A. and Holm, L. (2000).
   sequences}.
 \newblock {\em Proteins: Structure, Function and Genetics}, 41(2):224--237.
 
+\bibitem[Heinrich et~al., 2016]{Heinrich2016}
+Heinrich, A.~K., Glaeser, A., Tobias, N.~J., Heermann, R., and Bode, H.~B.
+  (2016).
+\newblock {Heterogeneous regulation of bacterial natural product biosynthesis
+  via a novel transcription factor}.
+\newblock {\em Heliyon}, 2(11).
+
 \bibitem[Heo et~al., 2007]{Heo2007}
 Heo, Y.~J., Chung, I.~Y., Choi, K.~B., and Cho, Y.~H. (2007).
 \newblock {R-type pyocin is required for competitive growth advantage between
@@ -993,6 +1032,13 @@ Lan, M., Klose, T., Plevka, P., Aksyuk, A., Zhang, X., Arisaka, F., and
   T4 baseplate}.
 \newblock {\em Journal of Structural Biology}, 187(2):95--102.
 
+\bibitem[Landraud et~al., 2003]{Landraud2003}
+Landraud, L., Gibert, M., Popoff, M.~R., Boquet, P., and Gauthier, M. (2003).
+\newblock {Expression of cnf1 by Escherichia coli J96 involves a large upstream
+  DNA region including the hlyCABD operon, and is regulated by the RfaH
+  protein}.
+\newblock {\em Molecular Microbiology}, 47(6):1653--1667.
+
 \bibitem[Landraud et~al., 2004]{Landraud2004}
 Landraud, L., Pulcini, C., Gounon, P., Flatau, G., Boquet, P., and Lemichez, E.
   (2004).
@@ -1004,6 +1050,13 @@ Landraud, L., Pulcini, C., Gounon, P., Flatau, G., Boquet, P., and Lemichez, E.
 Lane, C.~E. (2007).
 \newblock {Bacterial Endosymbionts: Genome Reduction in a Hot Spot}.
 \newblock {\em Current Biology}, 17(13):510--512.
+
+\bibitem[Langer et~al., 2017]{Langer2017}
+Langer, A., Moldovan, A., Harmath, C., Joyce, S.~A., Clarke, D.~J., and
+  Heermann, R. (2017).
+\newblock {HexA is a versatile regulator involved in the control of phenotypic
+  heterogeneity of Photorhabdus luminescens}.
+\newblock {\em PLoS ONE}, 12(4):1--23.
 
 \bibitem[Lango and Clarke, 2010]{Lango2010}
 Lango, L. and Clarke, D.~J. (2010).
@@ -1040,6 +1093,18 @@ Lee, F. K.~N., Dudas, K.~C., Hanson, J.~a., Bud, M., Loverde, P.~T., Apicella,
   Pseudomonas aeruginosa C Is a Bacteriophage Tail-Like Particle That Contains
   Single-Stranded DNA}.
 \newblock 67(2):717--725.
+
+\bibitem[Leeds and Welch, 1996]{Leeds1996}
+Leeds, J.~A. and Welch, R.~A. (1996).
+\newblock {RfaH enhances elongation of Escherichia coli hlyCABD mRNA}.
+\newblock {\em Journal of Bacteriology}, 178(7):1850--1857.
+
+\bibitem[Leeds and Welch, 1997]{Leeds1997}
+Leeds, J.~A. and Welch, R.~A. (1997).
+\newblock {Enhancing transcription through the Escherichia coli hemolysin
+  operon, hlyCABD: RfaH and upstream JUMPStart DNA sequences function together
+  via a postinitiation mechanism}.
+\newblock {\em Journal of Bacteriology}, 179(11):3519--3527.
 
 \bibitem[Lees et~al., 2006]{Lees2006}
 Lees, J.~G., Miles, A.~J., Wien, F., and Wallace, B.~A. (2006).
@@ -1144,6 +1209,14 @@ Mao, D., Wachter, E., and Wallace, B.~A. (1982).
 \newblock {Folding of the mitochondrial proton adenosinetriphosphatase
   proteolipid channel in phospholipid vesicles.}
 \newblock {\em Biochemistry}, 21(20):4960--4968.
+
+\bibitem[Marokh{\'{a}}zi et~al., 2004]{Marokhazi2004}
+Marokh{\'{a}}zi, J., Lengyel, K., Pek{\'{a}}r, S., Felf{\"{o}}ldi, G., Patthy,
+  A., Gr{\'{a}}f, L., Fodor, A., and Venekei, I. (2004).
+\newblock {Comparison of proteolytic activities produced by entomopathogenic
+  Photorhabdus bacteria: Strain- and phase-dependent heterogeneity in
+  composition and activity of four enzymes}.
+\newblock {\em Applied and Environmental Microbiology}, 70(12):7311--7320.
 
 \bibitem[Mavridis and Janes, 2017]{Mavridis2017}
 Mavridis, L. and Janes, R.~W. (2017).
@@ -1262,6 +1335,13 @@ Nguyen, V.~S., Douzi, B., Durand, E., Roussel, A., Cascales, E., and Cambillau,
   system}.
 \newblock {\em Current Opinion in Structural Biology}, 49:77--84.
 
+\bibitem[Nieto et~al., 1996]{Nieto1996}
+Nieto, J.~M., Bailey, M. J.~A., Hughes, C., and Koronakis, V. (1996).
+\newblock {Suppression of transcription polarity in the Escherichia coli
+  haemolysin operon by a short upstream element shared by polysaccharide and
+  DNA transfer determinants}.
+\newblock {\em Molecular Microbiology}, 19(4):705--713.
+
 \bibitem[Nilsson et~al., 2011]{Nilsson2011}
 Nilsson, E.~C., Storm, R.~J., Bauer, J., Johansson, S.~M., Lookene, A.,
   {\AA}ngstr{\"{o}}m, J., Hedenstr{\"{o}}m, M., Eriksson, T.~L.,
@@ -1270,6 +1350,11 @@ Nilsson, E.~C., Storm, R.~J., Bauer, J., Johansson, S.~M., Lookene, A.,
 \newblock {The GD1a glycan is a cellular receptor for adenoviruses causing
   epidemic keratoconjunctivitis}.
 \newblock {\em Nature Medicine}, 17(1):105--109.
+
+\bibitem[O'Farrell and Gold, 1973]{OFarrell1973}
+O'Farrell, P.~Z. and Gold, L. (1973).
+\newblock {Bacteriophage T4 Gene Expression}.
+\newblock {\em Journal of Biological Chemistry}, 248(15):5502--5511.
 
 \bibitem[Ohkawa et~al., 1973]{OHKAWA1973}
 Ohkawa, I., Kageyama, M., and Egami, F. (1973).
@@ -1550,6 +1635,11 @@ Sandmeler, H. (1994).
   bacteriophage tail fibres}.
 \newblock {\em Molecular Microbiology}, 12(3):343--350.
 
+\bibitem[Santangelo and Roberts, 2002]{Santangelo2002}
+Santangelo, T.~J. and Roberts, J.~W. (2002).
+\newblock {RfaH, a bacterial transcription antiterminator}.
+\newblock {\em Molecular Cell}, 9(4):698--700.
+
 \bibitem[Sarris et~al., 2014]{Sarris2014}
 Sarris, P.~F., Ladoukakis, E.~D., Panopoulos, N.~J., and Scoulica, E.~V.
   (2014).
@@ -1602,6 +1692,13 @@ Severiano, A., Pinto, F.~R., Ramirez, M., and Carri{\c{c}}o, J.~A. (2011b).
 \newblock {Adjusted Wallace coefficient as a measure of congruence between
   typing methods}.
 \newblock {\em Journal of Clinical Microbiology}, 49(11):3997--4000.
+
+\bibitem[Sevostyanova et~al., 2008]{Sevostyanova2008}
+Sevostyanova, A., Svetlov, V., Vassylyev, D.~G., and Artsimovitch, I. (2008).
+\newblock {The elongation factor RfaH and the initiation factor bind to the
+  same site on the transcription elongation complex}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  105(3):865--870.
 
 \bibitem[Shi and Bode, 2018]{Shi2018}
 Shi, Y.-M. and Bode, H.~B. (2018).
@@ -1666,6 +1763,14 @@ Singh, A.~K., Berb{\'{i}}s, M.~{\'{A}}., Ballmann, M.~Z., Kilcoyne, M.,
 \newblock {Structure and sialyllactose binding of the carboxy-terminal head
   domain of the fibre from a siadenovirus, Turkey adenovirus 3}.
 \newblock {\em PLoS ONE}, 10(9):1--22.
+
+\bibitem[Smigielski et~al., 1994]{Smigielski1994}
+Smigielski, A.~J., Akhurst, R.~J., and Boemaret, N.~E. (1994).
+\newblock {Phase Variation in {\textless}i{\textgreater}Xenorhabdus
+  nematophilus{\textless}/i{\textgreater} and
+  {\textless}i{\textgreater}Photorhabdus luminescens{\textless}/i{\textgreater}
+  : Differences in Respiratory Activity and Membrane Energization}.
+\newblock {\em Applied and Environmental Microbiology}, 60(1):120--125.
 
 \bibitem[S{\"{o}}ding et~al., 2005]{Soding2005}
 S{\"{o}}ding, J., Biegert, A., and Lupas, A.~N. (2005).
@@ -1768,6 +1873,13 @@ Tobias, N.~J., Heinrich, A.~K., Eresmann, H., Wright, P.~R., Neubacher, N.,
   regulation of secondary metabolites.}
 \newblock {\em Environmental microbiology}, pages 1--20.
 
+\bibitem[Turlin et~al., 2006]{Turlin2006}
+Turlin, E., Pascal, G., Rousselle, J.~C., Lenormand, P., Ngo, S., Danchin, A.,
+  and Derzelle, S. (2006).
+\newblock {Proteome analysis of the phenotypic variation process in
+  Photorhabdus luminescens}.
+\newblock {\em Proteomics}, 6(9):2705--2725.
+
 \bibitem[Uratani and Hoshino, 1984]{Uratani1984}
 Uratani, Y. and Hoshino, T. (1984).
 \newblock {Pyocin Ri Inhibits Active Transport in Pseudomonas aeruginosa and
@@ -1840,6 +1952,12 @@ Wang, J., Brackmann, M., Casta{\~{n}}o-D{\'{i}}ez, D., Kudryashev, M., Goldie,
   sheath-tube complex}.
 \newblock {\em Nature Microbiology}, 2(11):1507--1512.
 
+\bibitem[Wang et~al., 1998]{Wang1998}
+Wang, L., Jensen, S., Hallman, R., and Reeves, P.~R. (1998).
+\newblock {Expression of the O antigen gene cluster is regulated by RfaH
+  through the JUMPstart sequence}.
+\newblock {\em FEMS Microbiology Letters}, 165(1):201--206.
+
 \bibitem[Waterfield et~al., 2009]{Waterfield2009}
 Waterfield, N.~R., Ciche, T.~A., and Clarke, D.~J. (2009).
 \newblock {Photorhabdus and a host of hosts.}
@@ -1904,6 +2022,12 @@ Wilkinson, P., Waterfield, N.~R., Crossman, L., Corton, C., Sanchez-contreras,
 \newblock {Comparative genomics of the emerging human pathogen Photorhabdus
   asymbiotica with the insect pathogen Photorhabdus luminescens.}
 \newblock {\em BMC Genomics}, 10(302):302.
+
+\bibitem[Wilkinson et~al., 1972]{Wilkinson1972}
+Wilkinson, R.~G., Gemski, P., and Stocker, B.~a. (1972).
+\newblock {Non-smooth mutants of Salmonella typhimurium: differentiation by
+  phage sensitivity and genetic mapping.}
+\newblock {\em Journal of general microbiology}, 70(3):527--54.
 
 \bibitem[Williams et~al., 2008]{Williams2008a}
 Williams, S.~R., Gebhart, D., Martin, D.~W., and Scholl, D. (2008).
