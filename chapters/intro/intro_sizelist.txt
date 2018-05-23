@@ -1,0 +1,39 @@
+-rw-r--r--  1 joehealey staff 146K May 23 12:17 intro.tex
+
+img:
+total 15M
+-rw-r--r-- 1 joehealey staff  21K May 21 13:42 EM_of_phage_T4.jpg
+-rw-r--r-- 1 joehealey staff  29K May 21 13:42 lineages.pdf
+-rw-r--r-- 1 joehealey staff  37K May 21 13:42 pyocintube.jpg
+-rw-r--r-- 1 joehealey staff  59K May 21 13:42 nsmb975-F5.jpg
+-rw-r--r-- 1 joehealey staff  74K May 21 13:42 Afpvariants.png
+-rw-r--r-- 1 joehealey staff  76K May 21 13:42 nsmb975-F2.png
+-rw-r--r-- 1 joehealey staff 109K May 21 13:42 Structure_Comparison.pdf
+-rw-r--r-- 1 joehealey staff 123K May 21 13:42 t6ss_tmc.jpg
+-rw-r--r-- 1 joehealey staff 139K May 21 13:42 nsb970-F1.png
+-rw-r--r-- 1 joehealey staff 158K May 21 13:42 t6ss_in_cell.jpg
+-rw-r--r-- 1 joehealey staff 166K May 21 13:42 afplarge.jpg
+-rw-r--r-- 1 joehealey staff 177K May 21 13:42 videostill.png
+-rw-r--r-- 1 joehealey staff 194K May 21 13:42 afp_map.jpg
+-rw-r--r-- 1 joehealey staff 195K May 21 13:42 nature17971-f1.png
+-rw-r--r-- 1 joehealey staff 206K May 21 13:42 EMlargescale.jpg
+-rw-r--r-- 1 joehealey staff 212K May 21 13:42 isEMdead.jpg
+-rw-r--r-- 1 joehealey staff 223K May 21 13:42 t4assembly.jpg
+-rw-r--r-- 1 joehealey staff 235K May 21 13:42 Afp_tomogram.png
+-rw-r--r-- 1 joehealey staff 236K May 21 13:42 afp_large.jpg
+-rw-r--r-- 1 joehealey staff 282K May 21 13:42 pyocin.jpg
+-rw-r--r-- 1 joehealey staff 305K May 21 13:42 t6ss_annotated.jpg
+-rw-r--r-- 1 joehealey staff 380K May 21 13:42 afp_map_reconstructed.png
+-rw-r--r-- 1 joehealey staff 413K May 21 13:42 em_labelled.pdf
+-rw-r--r-- 1 joehealey staff 537K May 21 13:42 PVCEM1.png
+-rw-r--r-- 1 joehealey staff 539K May 21 13:42 PVCEM2.png
+-rw-r--r-- 1 joehealey staff 580K May 21 13:42 t6ss_distal_grey_flat_top.png
+-rw-r--r-- 1 joehealey staff 764K May 21 13:42 t6ss_proximal_grey_flat_topslice.png
+-rw-r--r-- 1 joehealey staff 787K May 21 13:42 t6ss_proximal_grey_flat_bottom.png
+-rw-r--r-- 1 joehealey staff 824K May 21 13:42 pyocin_maps.pdf
+-rw-r--r-- 1 joehealey staff 875K May 21 13:42 t6ss_proximal_grey_flat.png
+-rw-r--r-- 1 joehealey staff 1.1M May 21 13:42 t6ss_proximal_grey_bottom.png
+-rw-r--r-- 1 joehealey staff 1.2M May 21 13:42 t6ss_distal_grey_flat.png
+-rw-r--r-- 1 joehealey staff 1.2M May 21 13:42 PVCEM3.png
+-rw-r--r-- 1 joehealey staff 1.3M May 21 13:42 lifecycle.png
+-rw-r--r-- 1 joehealey staff 1.6M May 21 13:42 hostofhostsfig.pdf

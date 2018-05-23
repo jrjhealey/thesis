@@ -1,0 +1,5 @@
+-rw-r--r-- 1 joehealey staff 1.2K May 21 13:42 methods.log
+-rw-r--r-- 1 joehealey staff  78K May 21 13:42 methods.tex
+
+img:
+total 0

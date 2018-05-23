@@ -29,6 +29,13 @@ Ackermann, H.-W. (1998).
 \newblock {Tailed Bacteriophages: The Order Caudovirales}.
 \newblock {\em Advances in Virus Research}, 51:135--201.
 
+\bibitem[Adhya et~al., 1974]{Adhya1974}
+Adhya, S., Gottesman, M., and {De Crombrugghe}, B. (1974).
+\newblock {Release of polarity in Escherichia coli by gene N of phage lambda:
+  termination and antitermination of transcription.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 71(6):2534--8.
+
 \bibitem[Aizawa, 2001]{Aizawa2001}
 Aizawa, S. (2001).
 \newblock {Bacterial flagella and type III secretion systems}.
@@ -120,6 +127,12 @@ Ballister, E.~R., Lai, A.~H., Zuckermann, R.~N., Cheng, Y., and Mougous, J.~D.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 105(10):3733--3738.
 
+\bibitem[Banerjee et~al., 2006]{Banerjee2006}
+Banerjee, S., Chalissery, J., Bandey, I., and Sen, R. (2006).
+\newblock {Rho-dependent transcription termination: more questions than
+  answers.}
+\newblock {\em Journal of microbiology (Seoul, Korea)}, 44(1):11--22.
+
 \bibitem[Bankevich et~al., 2012]{Bankevich2012}
 Bankevich, A., Nurk, S., Antipov, D., Gurevich, A.~A., Dvorkin, M., Kulikov,
   A.~S., Lesin, V.~M., Nikolenko, S.~I., Pham, S. O.~N., Prjibelski, A.~D.,
@@ -172,6 +185,13 @@ Beck, K. and Brodsky, B. (1998).
 \newblock {Supercoiled protein motifs: The collagen triple-helix and the
   $\alpha$- helical coiled coil}.
 \newblock {\em Journal of Structural Biology}, 122(1-2):17--29.
+
+\bibitem[Bergmann et~al., 2007]{Bergmann2007}
+Bergmann, S., Sch{\"{u}}mann, J., Scherlach, K., Lange, C., Brakhage, A.~A.,
+  and Hertweck, C. (2007).
+\newblock {Genomics-driven discovery of PKS-NRPS hybrid metabolites from
+  Aspergillus nidulans}.
+\newblock {\em Nature Chemical Biology}, 3(4):213--217.
 
 \bibitem[{Bertozzi Silva} et~al., 2016]{BertozziSilva2016}
 {Bertozzi Silva}, J., Storms, Z., and Sauvageau, D. (2016).
@@ -334,6 +354,11 @@ Chang, Y., Rettberg, L.~A., Ortega, D.~R., and Jensen, G.~J. (2017).
   structures of an intact type VI secretion system revealed by electron
   cryotomography}.
 \newblock {\em EMBO reports}, 18(7):1090--1099.
+
+\bibitem[Charlop-Powers et~al., 2014]{Charlop-Powers2014}
+Charlop-Powers, Z., Milshteyn, A., and Brady, S.~F. (2014).
+\newblock {Metagenomic small molecule discovery methods}.
+\newblock {\em Current Opinion in Microbiology}, 19(1):70--75.
 
 \bibitem[Chaston et~al., 2011]{Chaston2011}
 Chaston, J.~M., Suen, G., Tucker, S.~L., Andersen, A.~W., Bhasin, A., Bode, E.,
@@ -637,6 +662,13 @@ Frickey, T. and Lupas, A.~N. (2004).
 Gaggar, A., Shayakhmetov, D.~M., and Lieber, A. (2003).
 \newblock {CD46 is a cellular receptor for group B adenoviruses}.
 \newblock {\em Nature Medicine}, 9(11):1408--1412.
+
+\bibitem[Garc{\'{i}}a et~al., 2004]{Garcia2004}
+Garc{\'{i}}a, B., Olivera, E.~R., Sandoval, {\'{A}}., Arias-Barrau, E., Arias,
+  S., Naharro, G., and Luengo, J.~M. (2004).
+\newblock {Strategy for cloning large gene assemblages as illustrated using the
+  phenylacetate and polyhydroxyalkanoate gene clusters}.
+\newblock {\em Applied and Environmental Microbiology}, 70(8):5019--5025.
 
 \bibitem[Garc{\'{i}}a-Alcalde et~al., 2012]{Garcia-Alcalde2012}
 Garc{\'{i}}a-Alcalde, F., Okonechnikov, K., Carbonell, J., Cruz, L.~M.,
@@ -1070,6 +1102,12 @@ Lasica, A.~M., Ksiazek, M., Madej, M., and Potempa, J. (2017).
   into Its Structure and Function}.
 \newblock {\em Frontiers in Cellular and Infection Microbiology}, 7(May).
 
+\bibitem[Lautru et~al., 2005]{Lautru2005}
+Lautru, S., Deeth, R.~J., Bailey, L.~M., and Challis, G.~L. (2005).
+\newblock {Discovery of a new peptide natural product by streptomyces
+  coelicolor genome mining}.
+\newblock {\em Nature Chemical Biology}, 1(5):265--269.
+
 \bibitem[Le et~al., 2013]{Le2013}
 Le, S., He, X., Tan, Y., Huang, G., Zhang, L., Lux, R., Shi, W., and Hu, F.
   (2013).
@@ -1328,6 +1366,12 @@ Nazarov, S., Schneider, J.~P., Brackmann, M., Goldie, K.~N., Stahlberg, H., and
   sheath distal end}.
 \newblock {\em The EMBO Journal}, page e201797103.
 
+\bibitem[Netta et~al., 2009]{Netta2009}
+Netta, M., Ikedab, H., and Moore, B.~S. (2009).
+\newblock {Genomic basis for natural product biosynthetic diversity in the
+  actinomycetes}.
+\newblock {\em Natural Product Reports}, 26(11):1362--1384.
+
 \bibitem[Nguyen et~al., 2018]{Nguyen2018}
 Nguyen, V.~S., Douzi, B., Durand, E., Roussel, A., Cascales, E., and Cambillau,
   C. (2018).
@@ -1350,6 +1394,11 @@ Nilsson, E.~C., Storm, R.~J., Bauer, J., Johansson, S.~M., Lookene, A.,
 \newblock {The GD1a glycan is a cellular receptor for adenoviruses causing
   epidemic keratoconjunctivitis}.
 \newblock {\em Nature Medicine}, 17(1):105--109.
+
+\bibitem[Nudler and Gottesman, 2002]{Nudler2002}
+Nudler, E. and Gottesman, M.~E. (2002).
+\newblock {Transcription termination and anti-termination in E. coli}.
+\newblock {\em Genes to Cells}, 7(8):755--768.
 
 \bibitem[O'Farrell and Gold, 1973]{OFarrell1973}
 O'Farrell, P.~Z. and Gold, L. (1973).
@@ -1635,6 +1684,13 @@ Sandmeler, H. (1994).
   bacteriophage tail fibres}.
 \newblock {\em Molecular Microbiology}, 12(3):343--350.
 
+\bibitem[Santangelo et~al., 2008]{Santangelo2008}
+Santangelo, T.~J., {\v{C}}uboňov{\'{a}}, L., Matsumi, R., Atomi, H., Imanaka,
+  T., and Reeve, J.~N. (2008).
+\newblock {Polarity in archaeal operon transcription in Thermococcus
+  kodakaraensis}.
+\newblock {\em Journal of Bacteriology}, 190(6):2244--2248.
+
 \bibitem[Santangelo and Roberts, 2002]{Santangelo2002}
 Santangelo, T.~J. and Roberts, J.~W. (2002).
 \newblock {RfaH, a bacterial transcription antiterminator}.
@@ -1886,6 +1942,12 @@ Uratani, Y. and Hoshino, T. (1984).
   Depolarizes Membrane Potential}.
 \newblock 157(2):1--6.
 
+\bibitem[{Van Lanen} and Shen, 2006]{VanLanen2006}
+{Van Lanen}, S.~G. and Shen, B. (2006).
+\newblock {Microbial genomics for the improvement of natural product
+  discovery}.
+\newblock {\em Current Opinion in Microbiology}, 9(3):252--260.
+
 \bibitem[van Raaij et~al., 1999]{VanRaaij1999}
 van Raaij, M.~J., Mitraki, A., Lavigne, G., and Cusack, S. (1999).
 \newblock {A triple beta-spiral in the adenovirus ﬁbre shaft reveals a new
@@ -1938,6 +2000,14 @@ Wallace, D.~L. (1983).
 \newblock {\em Journal of the American Statistical Association},
   78(383):553--569.
 
+\bibitem[Wang et~al., 2016]{Wang2016}
+Wang, H., Li, Z., Jia, R., Hou, Y., Yin, J., Bian, X., Li, A., M{\"{u}}ller,
+  R., Stewart, A.~F., Fu, J., and Zhang, Y. (2016).
+\newblock {RecET direct cloning and Red$\alpha$$\beta$ recombineering of
+  biosynthetic gene clusters, large operons or single genes for heterologous
+  expression}.
+\newblock {\em Nature Protocols}, 11(7):1175--1190.
+
 \bibitem[Wang et~al., 2017a]{Wang2017}
 Wang, J., Brackmann, M., Casta{\~{n}}o-D{\'{i}}ez, D., Kudryashev, M., Goldie,
   K.~N., Maier, T., Stahlberg, H., and Basler, M. (2017a).
@@ -1983,6 +2053,12 @@ Wenren, L.~M., Sullivan, N.~L., and Cardarelli, L. (2013).
 \newblock {Two Independent Pathways for Self-Recognition in Proteus mirabilis
   Are Linked by Type VI-Dependent Export}.
 \newblock {\em mBio}, 4(4):1--10.
+
+\bibitem[Wenzel and M{\"{u}}ller, 2009]{Wenzel2009}
+Wenzel, S.~C. and M{\"{u}}ller, R. (2009).
+\newblock {The impact of genomics on the exploitation of the myxobacterial
+  secondary metabolome}.
+\newblock {\em Natural Product Reports}, 26(11):1385.
 
 \bibitem[Wernimont and Edwards, 2009]{Wernimont2009}
 Wernimont, A. and Edwards, A. (2009).
@@ -2080,6 +2156,11 @@ Zheng, W., Wang, F., Taylor, N.~M., Guerrero-Ferreira, R.~C., Leiman, P.~G.,
 \newblock {Refined Cryo-EM Structure of the T4 Tail Tube: Exploring the Lowest
   Dose Limit}.
 \newblock {\em Structure}, 25(9):1436--1441.e2.
+
+\bibitem[Ziemert et~al., 2016]{Ziemert2016}
+Ziemert, N., Alanjary, M., and Weber, T. (2016).
+\newblock {The evolution of genome mining in microbes – a review}.
+\newblock {\em Nat. Prod. Rep.}, 33(8):988--1005.
 
 \bibitem[Zink et~al., 1995]{Zink1995}
 Zink, R., Loessner, M.~J., and Scherer, S. (1995).

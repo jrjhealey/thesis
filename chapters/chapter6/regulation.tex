@@ -20,14 +20,13 @@ In addition to genetically engineering control of PVC sequences, a better unders
 
 Little is precisely known about the choreography of PVC (and, more broadly, many caudate structure's) expression and assembly. The T4 phage is the best understood, as evidenced in \vref{t4assembly}, however T4 genetics are quite far removed from that of simple caudate structures, with a much larger genome and both ``early" and ``late" expression profiles \citep{OFarrell1973}. The best indication for the regulatory system in the PVCs comes, once again, from the work of \cite{Hurst2007a, Hurst2004}. In the original studies that attempted to elucidate the structure, expression of the Afp cluster was only achievable when an additional protein from the pADAP plasmid was also heterologously expressed. Namely \emph{anfA1}, the protein was identified upstream of the Afp cluster as part of a pair of genes (the other is termed \emph{anfA2}), which contained a NusG-like domain with some sequence similarity to the RfaH transcript elongation factor, and over-expression resulted in a concomitant over-expression of the Afp itself.
 
-RfaH, a specialised version of NusG (a generalist elongation factor) has been shown to be important in the expression of long operons \citep{Bailey1996}, by prolonging the transcripts and preventing the polymerase from prematurely dropping off the strand (increasing processivity), ordinarily brought about by Rho-dependent termination. RfaH is recruited to the RNA polymerase transcript elongation complex (TES) at a specific DNA motif called the he \emph{ops} (operon polarity suppression) site (which in \emph{E. coli} has the sequence \texttt{5'-GGCGGTAGnnTG-3'}). Transcription is enhanced for roughly 20 kb downstream \citep{Artsimovitch2002, Leeds1996, Leeds1997}, which is the approximate minimal length of the structural components of a PVC operon. Effectors for PVCs often appear with their own promoters and can be transcribed independently of the rest of the operon.
+RfaH, a specialised version of NusG (a generalist elongation factor) has been shown to be important in the expression of long operons \citep{Bailey1996}, by prolonging the transcripts and preventing the polymerase from prematurely dropping off the strand (increasing processivity), ordinarily brought about by Rho-dependent termination. RfaH is recruited to the RNA polymerase transcript elongation complex (TES) at a specific DNA motif called the he \emph{ops} (operon polarity suppression) site (which in \emph{E. coli} has the sequence \texttt{5'-GGCGGTAGnnTG-3'}). Operon polarity refers to the mechanism by which under `ordinary' expression circumstances, Rho proteins bind to exposed mRNA regions brought about by ribosome halting, but RNA polymerase processing continuing. In prokaryotes, translation occurs directly on the nascent 5'-end of the transcript as it is produced from the RNA polymerase, meaning the 2 complexes are in close register the majority of the time. However, when a stop codon in the nascent RNA is met by the ribosome, it halts, meanwhile the RNA polymerase continues to process, and therefore a small gap of exposed RNA can form. The Rho proteins bind to this region of exposed RNA, track along it, and disrupt the RNA polymerase, preventing/reducing the `unintended' transcription of downstream genes. This reduction in expression of downstream regions is what is known as operon polarity \citep{Santangelo2008, Adhya1974, Banerjee2006, Nudler2002}. The \emph{ops} site therefore earns its name by mediating a counteracting effect to this `premature' transcription termination for long operons, by ensuring that the RNA polymerase stays attached to the template and continues to process the mRNA for a full length operon. Transcription is enhanced for roughly 20 kb downstream \citep{Artsimovitch2002, Leeds1996, Leeds1997}, which is the approximate minimal length of the structural components of a PVC operon. Effectors for PVCs often appear with their own promoters and can be transcribed independently of the rest of the operon.
 
-Gene clusters which have been demonstrated to be dependent on RfaH, include the LPS core, exopolysaccharides \citep{Wilkinson1972}, haemolysin toxins \citep{Landraud2003, Leeds1996, Leeds1997} and the F-type conjugation pilus. The \emph{ops} site which RfaH obligately depends upon has also been found in \emph{Shigella flexneri}, \emph{Yersinia enterocolitica}, \emph{Vibrio cholerae} and \emph{Klebsiella pneumoniae} polysaccharide synthesis clusters, as well as the  RP4 fertility operon of \emph{Pseudomonas aeruginosa} \citep{Bailey1997} - and of course the \emph{S. entomophila} Afp \citep{Hurst2007a}. The \emph{ops} site is therefore widespread in the \emph{Proteobacteria}, and possibly further. Deletion of either the \emph{ops} site, or RfaH itself results in equivalent reduction in transcription \citep{Bailey1997}. Interestingly, the \emph{ops} site has also been identified as part of a larger 39 bp sequence known as the ``JUMPStart" sequence, which consists of a conserved but somewhat degenerate GC-rich hairpin structure immediately prior to the \emph{ops} sequence. The JUMPStart sequence has been detected in most of the examples listed previously \citep{Wang1998}. It is not, however, found in the \emph{tra} operon that gives rise to the F pilus, nor in the \emph{hyl} haemolysin operon \citep{Nieto1996} (except in some cases, such as the J96 strain where \cite{Leeds2007} showed the \emph{hyl} operon does use a full JUMPStart motif). Why the JUMPStart sequence, which can be thought of as an extended \emph{ops} sequence, with the same function is necessary is not clear, since the \emph{ops} site is sufficient for RfaH recruitment
+Gene clusters which have been demonstrated to be dependent on RfaH, include the LPS core, exopolysaccharides \citep{Wilkinson1972}, haemolysin toxins \citep{Landraud2003, Leeds1996, Leeds1997} and the F-type conjugation pilus. The \emph{ops} site which RfaH obligately depends upon has also been found in \emph{Shigella flexneri}, \emph{Yersinia enterocolitica}, \emph{Vibrio cholerae} and \emph{Klebsiella pneumoniae} polysaccharide synthesis clusters, as well as the RP4 fertility operon of \emph{Pseudomonas aeruginosa} \citep{Bailey1997} - and of course the \emph{S. entomophila} Afp \citep{Hurst2007a}. The \emph{ops} site is therefore widespread in the \emph{Proteobacteria}, and possibly further. Deletion of either the \emph{ops} site, or RfaH itself results in equivalent reduction in transcription \citep{Bailey1997}. Interestingly, the \emph{ops} site has also been identified as part of a larger 39 bp sequence known as the ``JUMPStart" sequence, which consists of a conserved but somewhat degenerate GC-rich hairpin structure immediately prior to the \emph{ops} sequence. The JUMPStart sequence has been detected in most of the examples listed previously \citep{Wang1998}. It is not, however, found in the \emph{tra} operon that gives rise to the F pilus, nor in the typical \emph{hyl} haemolysin operon \citep{Nieto1996} - however, \cite{Leeds2007} showed the \emph{hyl} operon of the \emph{E. coli} J96 strain \emph{does} use a full JUMPStart motif). Why the JUMPStart sequence, which can be thought of as an extended \emph{ops} sequence, with the same function is necessary, is not clear, since the \emph{ops} site is evidently sufficient for RfaH recruitment and long operon expression in some cases.
 
-Literature such as the papers by \cite{Bailey1996} and \citep{Santangelo2002} note that RfaH regulation seems to also be a hallmark of long operons whose products are destined for the extracellular environment, though if there is a strict dependence/relationship on this is not clear, and there is certainly no understood mechanism; it is tempting to speculate that this might be the case for the PVCs and Afps which are also destined for the extracellular environment, however. 
+Interestingly, literature such as the papers by \cite{Bailey1996} and \cite{Santangelo2002} note that RfaH regulation seems to also be a hallmark of long operons whose products are destined for the extracellular environment/membrane (e.g. LPS, pili, secreted enzymes), though if there is a strict dependence/relationship on this is not clear, and there is certainly no understood mechanism; it is tempting to speculate that this might be the case for the PVCs and Afps which are also destined for the extracellular environment, however. 
 
-Explain what an operon polarity supressor is (and operon polarity)
-JUMPstart?
+Finally, therefore, another aim for this chapter was to investigate any potential roles RfaH might have in PVC mechanistics. 
 
 \subsection*{Chapter Aims:}
 \begin{itemize}
@@ -48,8 +47,15 @@ Microscopy
 \section{Experimental procedures}
 
 \subsection{Cloning and engineering PVC operons}
+As discussed in the introduction to this chapter, the only existing heterologous expression system that was available was the `raw' cosmid clones from the initial identification of the PVCs. The most bioactive of these, PVCpnf from the \emph{P. asymbiotica} ATCC43949 strain, was also the most unstable and over time freezer stocks had dwindled since it could not be easily propagated. This section will explore the experimental efforts undertaken to try and reconstruct these long operons in \emph{E. coli}.
+
+All of the techniques that follow have specifically avoided attempts at classically cloning PVCs, instead opting for techniques that rely on homologous recombination. Classical restriction based cloning was ruled out early on, as the operons are very long and rich in restriction sites that rendered a lot of the reliable `standard' lab enzymes no longer an option, especially as the operons would probably need to be cloned in several chunks. Ideally, a robust technique was desired that would allow any of the PVC operons to be cloned. A dependence on particular restriction sites might preclude certain operons from being cloned. Additionally, it was unknown whether there was internal structure to the operons such as internal promoters. Certain proteins are certainly transcriptionally coupled for example, so the incorporation of restriction sites and any intervening spaces could impact the expression and assembly of the PVCs. However, a previous post-doc of the group did achieve the cloning of a single operon in this manner separately, contemporary with the efforts here. While this demonstrates in principle that classical cloning is a viable approach for constructing these operons, a previous attempt by the same lab at an alternative operon had lead to various assembly errors internal to the sequence, and rendered the construct unusable.
+
+Moreover, much of the existing literature for cloning of long operons pointed to homologous recombination based techniques as a promising approach for subcloning recalcitrant or difficult targets (for example, \cite{Wang2016, Garcia2004}, both of whom present novel DNA capture techniques). Despite the interest in bioprospecting or `genome mining' (combing genomes for biosynthetic gene clusters of interest) of late \citep{Ziemert2016, VanLanen2006, Netta2009, Lautru2005, Bergmann2007, Wenzel2009, Charlop-Powers2014}, due in no small part to the explosion of interest and improved capabilities in (meta)genomics, it is still very difficult to manipulate sequences of this size.
+
 \subsubsection{Recombineering}
-Recombineering approach to insert promotors upstream blah blah
+Synthetic genome paper
+
 \addfloat{Diagram of recombineering mechanism}
 
 \myparagraph{Chromosomal engineering}
@@ -63,6 +69,26 @@ Nightmare!
 \subsubsection{Gibson assembly}
 
 \subsubsection{Long range PCR}
+
+
+
+
+
+
+
+\subsection{Population heterogeneity in PVC activity}
+
+
+
+% Separate input file for all the microscopy images due to size.
+Images were captured on a Leica DMi-8 inverted epifluorescent microscrope with a Hamamatsu Flash4 4K camera, under phase contrast and GFP fluorescent channels. Due to heterogeneity in the sample prep on agar pad-based slides, some images were darker than others. Consequently, images have been postprocessed to normalise their intensities to a control reference image which had an acceptable grey intensity for reproduction clarity. Images have also had their colour depth reduced, as well as being downsampled to 35 pixels per inch, from 72.
+
+%\input{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/reporter_microscopy.tex}
+
+
+
+
+
 
 
 \subsection{A putative role for RfaH in PVC regulation}
@@ -92,6 +118,9 @@ Add the AFP 5' UTR to the alignment?
 %\allmatchresidues{Goldenrod}{RoyalPurple}{upper}{bf}
 \threshold[80]{30}
 \smallblockskip
+%\rulersteps{5}
+%\showruler{top}
+
 \hideruler
 \vsepspace{0.2pt}
 \showsequencelogo{bottom}
@@ -113,20 +142,12 @@ Add the AFP 5' UTR to the alignment?
 \clearpage
 
 
-
-
-
-\subsection{Population heterogeneity in PVC activity}
-
-\todo[inline]{Brighten any microscopy images that need it (almost all 24 hour for example)}
-\todo[inline]{Complete and run the imageprocessing script to deal with image size/brightness}
-% Separate input file for all the microscopy images due to size.
-%\input{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/reporter_microscopy.tex}
-
-
 \section{Discussion}
 
 Do not get too hung up on RfaH itself - it may be a different protein thats LIKE RfaH that's responsible. Sigma70 binds to the same site for example..\citep{Sevostyanova2008}
+
+
+
 
 Discussion of Yangs constructs - the long form including the RfaH upstream region has aberrant expression profiles (circumstantial data)
 

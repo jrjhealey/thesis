@@ -1,0 +1,45 @@
+-rw-r--r--  1 joehealey staff 1.2K May 21 13:42 bioinformatics.log
+-rw-r--r--  1 joehealey staff  68K May 22 18:13 bioinformatics.tex
+
+img:
+total 2.3M
+-rw-r--r-- 1 joehealey staff 3.0K May 21 13:42 PVC17.pdf
+-rw-r--r-- 1 joehealey staff 3.2K May 21 13:42 PVC3.pdf
+-rw-r--r-- 1 joehealey staff 3.3K May 21 13:42 PVC13.pdf
+-rw-r--r-- 1 joehealey staff 3.4K May 21 13:42 PVC14.pdf
+-rw-r--r-- 1 joehealey staff 3.4K May 21 13:42 PVC8.pdf
+-rw-r--r-- 1 joehealey staff 3.5K May 21 13:42 PVC2.pdf
+-rw-r--r-- 1 joehealey staff 3.5K May 21 13:42 PVC1.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC11.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC5.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC16.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC15.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC4.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC12.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC9.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC6.pdf
+-rw-r--r-- 1 joehealey staff 3.6K May 21 13:42 PVC7.pdf
+-rw-r--r-- 1 joehealey staff 3.7K May 21 13:42 PVC10.pdf
+-rw-r--r-- 1 joehealey staff 7.0K May 21 13:42 nRF.pdf
+-rw-r--r-- 1 joehealey staff 7.2K May 21 13:42 ADJW.pdf
+-rw-r--r-- 1 joehealey staff 7.3K May 21 13:42 GC_boxplot_with_means.pdf
+-rw-r--r-- 1 joehealey staff 7.4K May 21 13:42 Score_boxplot_with_means.pdf
+-rw-r--r-- 1 joehealey staff  16K May 21 13:42 PVC13.png
+-rw-r--r-- 1 joehealey staff  18K May 21 13:42 PVC3.png
+-rw-r--r-- 1 joehealey staff  19K May 21 13:42 PVC14.png
+-rw-r--r-- 1 joehealey staff  20K May 21 13:42 PVC7.png
+-rw-r--r-- 1 joehealey staff  20K May 21 13:42 PVC10.png
+-rw-r--r-- 1 joehealey staff  20K May 21 13:42 PVC15.png
+-rw-r--r-- 1 joehealey staff  20K May 21 13:42 PVC6.png
+-rw-r--r-- 1 joehealey staff  21K May 21 13:42 PVC2.png
+-rw-r--r-- 1 joehealey staff  21K May 21 13:42 PVC8.png
+-rw-r--r-- 1 joehealey staff  21K May 21 13:42 PVC17_species.png
+-rw-r--r-- 1 joehealey staff  21K May 21 13:42 PVC11.png
+-rw-r--r-- 1 joehealey staff  21K May 21 13:42 PVC1.png
+-rw-r--r-- 1 joehealey staff  21K May 21 13:42 PVC16.png
+-rw-r--r-- 1 joehealey staff  22K May 21 13:42 PVC4.png
+-rw-r--r-- 1 joehealey staff  22K May 21 13:42 PVC5.png
+-rw-r--r-- 1 joehealey staff  22K May 21 13:42 PVC12.png
+-rw-r--r-- 1 joehealey staff  22K May 21 13:42 PVC9.png
+-rw-r--r-- 1 joehealey staff 899K May 21 13:42 robinsonfoulds_heatmapNAs_symmetric.png
+-rw-r--r-- 1 joehealey staff 906K May 21 13:42 robinsonfoulds_heatmap_symmetric.png

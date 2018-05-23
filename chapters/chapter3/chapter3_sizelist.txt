@@ -1,0 +1,5 @@
+-rw-r--r-- 1 joehealey staff 1.3K May 21 13:42 structuralbioinfo.log
+-rw-r--r-- 1 joehealey staff  11K May 21 13:42 structuralbioinfo.tex
+
+img:
+total 0
