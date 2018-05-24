@@ -50,6 +50,7 @@
  - Table of 'type 6'-iness, 'T4'-iness, Afp-iness etc.
   - Triangular ggtern-like graph?
  - Use of inner sheath proteins for phylogenetics may not be valid, if they transpire to be specialised basplate adapter proteins etc. They may not be fulfilling the role suspected.
+- predict the length of each PVC operon based on tape measure protein and the linear R2=0.92 relationship for the lolz.
 
 
 # Chapter 2: Phylogenetics
@@ -88,7 +89,7 @@
  - Stress response?
    - Elongation of the cells?
    - Crystals forming (phase bright)?
-
+- ACTgenerator to try and find the best RfaH candidate in photo?
 # Misc:
  - MGB parser: check if 2 seqs overlap, if so, take the longest or the intersection of the 2?
  - MGB parser: test for identical sequences, and remove redundancy.
