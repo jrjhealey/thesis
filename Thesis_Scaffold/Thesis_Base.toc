@@ -155,22 +155,22 @@
 \contentsline {subsection}{\numberline {5.3.4}Summary and future work}{183}{subsection.5.3.4}
 \contentsline {chapter}{\numberline {6}Synthetic \& natural PVC operon regulation}{186}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{186}{section.6.1}
-\contentsline {section}{\numberline {6.2}Experimental procedures}{191}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Cloning and engineering PVC operons}{191}{subsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.1.1}Recombineering}{192}{subsubsection.6.2.1.1}
-\contentsline {paragraph}{\numberline {6.2.1.1.1}Chromosomal engineering}{192}{paragraph.6.2.1.1.1}
-\contentsline {paragraph}{\numberline {6.2.1.1.2}Cosmid engineering}{192}{paragraph.6.2.1.1.2}
-\contentsline {subsubsection}{\numberline {6.2.1.2}Gibson assembly}{192}{subsubsection.6.2.1.2}
-\contentsline {subsubsection}{\numberline {6.2.1.3}Long range PCR}{192}{subsubsection.6.2.1.3}
-\contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{192}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}A putative role for RfaH in PVC regulation}{193}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Discussion}{195}{section.6.3}
-\contentsline {part}{IV\hspace {1em}Discussion}{196}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{197}{chapter.7}
-\contentsline {chapter}{Bibliography}{197}{chapter.7}
-\contentsline {chapter}{Appendices}{228}{section*.112}
-\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{229}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{230}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{231}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{232}{Appendix.a.D}
-\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{237}{Appendix.a.E}
+\contentsline {section}{\numberline {6.2}Experimental procedures}{192}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Cloning and engineering PVC operons}{192}{subsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Recombineering}{193}{subsubsection.6.2.1.1}
+\contentsline {paragraph}{\numberline {6.2.1.1.1}Chromosomal engineering}{193}{paragraph.6.2.1.1.1}
+\contentsline {paragraph}{\numberline {6.2.1.1.2}Cosmid engineering}{193}{paragraph.6.2.1.1.2}
+\contentsline {subsubsection}{\numberline {6.2.1.2}Gibson assembly}{194}{subsubsection.6.2.1.2}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Long range PCR}{194}{subsubsection.6.2.1.3}
+\contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{194}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}A putative role for RfaH in PVC regulation}{194}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Discussion}{197}{section.6.3}
+\contentsline {part}{IV\hspace {1em}Discussion}{198}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{199}{chapter.7}
+\contentsline {chapter}{Bibliography}{199}{chapter.7}
+\contentsline {chapter}{Appendices}{230}{section*.115}
+\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{231}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{232}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{233}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{234}{Appendix.a.D}
+\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{239}{Appendix.a.E}
