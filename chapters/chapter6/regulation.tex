@@ -12,7 +12,7 @@ PVCs were originally identified due to their toxic effects in a ``Rapid Virulenc
 
 PVC bearing cosmids were obtained in various states of completeness, often with the 5' regions deleted, though enough functional cosmids were recovered to produce the first work on the PVCs \citep{Yang2006}. The frequency of deletion of regions of the PVC bearing cosmids suggested that intact cosmids were not easily recovered in \emph{E. coli} and had a toxic effect. This was borne out by steadily decreasing viability of certain cosmid clones when routinely cultured for experiments.
 
-The precise basis of this toxicity is still unknown. One hypothesis was that the PVCs (being somewhat phage-like), were potentially lysing the cells that produced them (some of the operons are found in close register to holin-lysin pairs). Since the PVCs were obtained in the cosmids with their own promotors and regulatory signals, their expression was likely uncontrolled or `haywire', n a non-\emph{Photorhabdus} host, even though \emph{Photorhabdus} and \emph{E. coli} are both Enterobacterial.
+The precise basis of this toxicity is still unknown. One hypothesis was that the PVCs (being somewhat phage-like), were potentially lysing the cells that produced them (some of the operons are found in close register to holin-lysin pairs). Since the PVCs were obtained in the cosmids with their own promoters and regulatory signals, their expression was likely uncontrolled or `haywire', n a non-\emph{Photorhabdus} host, even though \emph{Photorhabdus} and \emph{E. coli} are both Enterobacterial.
 
 However, there were a number of PVC operons, that despite being cloned in their entirety, did not cause such pronounced toxicity. Inferring from RNAseq data for the PVCs in \emph{Photorhabdus}, many PVC operons are silent under normal culture conditions, or expressed at lower levels. These silent operons, while propagable, were of limited use for further study since they are not producing active PVCs. Thus, one of the earliest aims in this project was to explore methods for more reliable and controllable heterologous expression of PVCs on demand. This is also desirable as the cosmid clones often contain flanking sequence to the PVCs, which could contain genes/proteins which confound assays.
 
@@ -46,37 +46,51 @@ Finally, therefore, another aim for this chapter was to investigate any potentia
 \clearpage
 
 
-Add a workflow?
-
-HexA involvement - Helge's HexA knockout?
-
-Population heterogeneity associated with RFaH?
-
-Cosmid recombineering attempts
-Gibson constructs
-reporter construction
-Microscopy
-
 \section{Experimental procedures}
 
+\vref{workflows} depicts a high level overview of the experimental threads running through this chapter as it contains areas of different focus. The chapter is broadly divided in to efforts to reconstitute the PVCs heterologously in \emph{E. coli} through a number of methods (2 blue threads), and similarly, efforts to understand the activity of the natural expression system in several ways (2 orange threads).
+
+
+\begin{figure}[h!]
+\centering
+    \includegraphics[width=0.9\textwidth, clip, trim={0 460 0 0 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Workflows.pdf}
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+\caption[Flowchart of work threads for PVC regulation studies]{\textsc{\normalsize A high level flowchart of the threads for studying PVC regulation.} \vspace{0.1cm} \newline A high level flowchart showing the experimental threads for this chapter. The upper blue chart shows the efforts towards making controllable synthetic PVC constructs through recombineering and synthetic fragment assembly approaches. The lower orange chart depicts the 2 primary packages of work undertaken to probe the natural regulatory system of the PVCs, and the `sub-threads' within this. Namely, construction of promoter fusions allowing for studies of the population heterogeneity (or lack thereof) in PVC expression, and an examination of AnfA1 orthologue control of PVCs within \emph{Photorhabdus}. }
+\label{workflows}
+\end{figure}
+
+
+
+
 \subsection{Cloning and engineering PVC operons}
-As discussed in the introduction to this chapter, the only existing heterologous expression system that was available was the `raw' cosmid clones from the initial identification of the PVCs. The most bioactive of these, PVCpnf from the \emph{P. asymbiotica} ATCC43949 strain, was also the most unstable and over time freezer stocks had dwindled since it could not be easily propagated. This section will explore the experimental efforts undertaken to try and reconstruct these long operons in \emph{E. coli}.
+As discussed in the introduction to this chapter, the only existing heterologous expression system that was available was the `raw' cosmid clones from the initial identification of the PVCs. The most bioactive of these, PVCpnf from the \emph{P. asymbiotica} ATCC43949 strain, was also the most genetically unstable, and over time freezer stocks had dwindled since it could not be easily propagated. This section will explore the experimental efforts undertaken to try and reconstruct these long operons in \emph{E. coli}.
 
 All of the techniques that follow have specifically avoided attempts at classically cloning PVCs, instead opting for techniques that rely on homologous recombination. Classical restriction based cloning was ruled out early on, as the operons are very long and rich in restriction sites that rendered a lot of the reliable `standard' lab enzymes no longer an option, especially as the operons would probably need to be cloned in several chunks. Ideally, a robust technique was desired that would allow any of the PVC operons to be cloned. A dependence on particular restriction sites might preclude certain operons from being cloned. Additionally, it was unknown whether there was internal structure to the operons such as internal promoters. Certain proteins are certainly transcriptionally coupled for example, so the incorporation of restriction sites and any intervening spaces could impact the expression and assembly of the PVCs. However, a previous post-doc of the group did achieve the cloning of a single operon in this manner separately, contemporary with the efforts here. While this demonstrates in principle that classical cloning is a viable approach for constructing these operons, a previous attempt by the same lab at an alternative operon had lead to various assembly errors internal to the sequence, and rendered the construct unusable.
 
 Moreover, much of the existing literature for cloning of long operons pointed to homologous recombination based techniques as a promising approach for subcloning recalcitrant or difficult targets (for example, \cite{Wang2016, Garcia2004}, both of whom present novel DNA capture techniques). Despite the interest in bioprospecting or `genome mining' (combing genomes for biosynthetic gene clusters of interest) of late \citep{Ziemert2016, VanLanen2006, Netta2009, Lautru2005, Bergmann2007, Wenzel2009, Charlop-Powers2014}, due in no small part to the explosion of interest and improved capabilities in (meta)genomics, it is still very difficult to manipulate sequences of this size.
 
 \subsubsection{Recombineering}
-Since the original cosmids containing segments of the the captured genome were available, it was decided that a promising approach might be to try and engineer control in to the replicons that were already obtained, attributing the reductions in cell viability to simple uncontrolled expression via natural promotors.
+Since the original cosmids containing segments of the captured genome were available, it was decided that a promising approach might be to try and engineer control in to the replicons that were already obtained, attributing the reductions in cell viability to simple uncontrolled expression via natural promoters.
 
-Recombineering is a long standing technique for `recombination-mediated genetic engineering' (hence the name), and relies on the use 
+Recombineering is a long standing technique for `recombination-mediated genetic engineering' (hence the name). It relies on the use of 3 phage $\lambda$ proteins, named Gam, Beta, and exo, to facilitate the incorporation of segments of linear DNA with 5' and 3' homologous stretches to an insert site of choice. Perhaps its most `famous' use is the technique of choice for the generation of the Keio collection of \emph{E. coli} knockouts, which first defined a minimal essential genome \citep{Baba2006}. Two major alternative techniques exist, using 2 different enzyme sets: RecET from the Rac prophage and ``Lambda-Red", which is the mechanism discussed here. Exo is an exonuclease responsible for creating 3' overhangs (it has 5' $\rightarrow$ 3' exonuclease activity, hence its name); Beta is a single strand binding protein which stabilises these overhangs so that they aren't degraded by host enzymes and recombination can occur more efficiently. To further improve the recombination efficiency, the Gam protein inhibits the RecBCD nuclease complex \citep{Yu2000}. \vref{recombineeringmechanism} shows a schematic of how the process works.
 
 
+\begin{figure}[p]
+    \includegraphics[width=\textwidth, clip, trim={0 0 0 0 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Recombineering.pdf}
+    \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+    \caption[Recombineering mechanism of action]{\textsc{\normalsize The mechanism of action for ``$\lambda$ Red"-based recombineering.} \vspace{0.1cm} \newline ``$\lambda$ Red"-mediated engineering is performed by amplifying an insert sequence of interest using primers with overhanging sequences (up to $\approx$ 50 bp), which are homologous to the flanking regions of the intended insert site. The linear DNA is electoporated in to the desired cells. Phage $\lambda$ proteins are induced in the cells prior to making them electrocompetent, and thus the exonuclease Exo is readily available to begin digesting the linear DNA. As it does so, single stranded binding proteins, Beta, bind the overhangs to stabilise the fragment and prevent degradation. The Gam protein which is also expressed with Beta and Exo, inhibits the Rec nuclease complex to preserve the linear DNA and improve efficiency. Finally, the sequence of interest recombines with the target site as determined by the flanking regions.}
+\label{recombineeringmechanism}
+\end{figure}
 
-\addfloat{Diagram of recombineering mechanism}
 
 \myparagraph{Chromosomal engineering}
-Worked!
+Since recombineering was a new technique in the lab, a working protocol was first devised by attempting to knock out chromosomal targets. Three chromosomal \emph{E. coli} targets were chosen as trials. Initially the \emph{att} site used for phage insertion was chosen as it was proposed that this should be non-essential. All attempts to engineer this site failed however, and thus it was hypothesised that perhaps this region was too `genetically active', possibly with prophages moving, to be engineerable. Instead, the 3 sites chosen to replace it were the \emph{hyfC} locus, which encodes part of the hydrogenase complex, since in the Keio collection data this was scored as the least essential gene (and thus should be easy to knock out) \citep{Yu2000}. Moreover, the hydrogenase is only transcriptionally active under anaerobic conditions \citep{Skibinski2002}, which suggested that the region would be experiencing less `cellular traffic', such as RNA polymerases, thus making recombination as simple as possible. Next, using the same approach \emph{speB} was identified as the next-least essential protein. \emph{speB} encodes an `agmatinase' enzyme, which is responsible for producing putrescine and urea from the precursor agmatine \citep{Szumanski1990}. Lastly, the endonuclease encoded by the gene \emph{endA} was targeted for knockout. The primers in \vref{specprimers}, show the sequences used to amplify antibiotic resistance cassettes encoded on the helper plasmids pJET-FRT-Kan and pJET-FRT-Cat. These plasmids carry an antibiotic cassette flanked by conserved primers that can be used to amplify either, and Flp-flippase recombination sites which can be used to optionally `pop out' the introduced marker to create (semi)clean deletions. Note, \emph{endA} is denoted as a `pseudo' \emph{endA} in the table with a $\psi$, since the protein is actually mutated in laboratory \emph{E. coli} already. to reduce its proteolytic activity, however the locus is still mostly present.
+
+Recombineering was performed as outlined in \vref{recombineering}. Successful colonies were screen with the primers used to amplify the cassette, and a number of successful colonies were observed for all 3 inserts. To be certain that the insert was correct, flanking primers to the \emph{hyfC} locus were designed $\approx$ 200 bp up and downstream of the insertion site, and used to confirm the correct insertion via Sanger sequencing.
+
+With the technique successfully applied in the test case, the protocol was adapted and applied to recombineering the cosmids.
+
+\addfloat{Re-create gel image?}
 
 \myparagraph{Cosmid engineering}
 \addfloat{Diagram of the devised method for engineering cosmids}
@@ -85,7 +99,6 @@ Nightmare!
 
 \subsubsection{Gibson assembly}
 
-\subsubsection{Long range PCR}
 
 
 
@@ -94,20 +107,21 @@ Nightmare!
 
 
 \subsection{Population heterogeneity in PVC activity}
-A pre-existing hypothesis for the manner in which PVCs are deployed was that the populations may demonstrate extreme variability/heterogeneity, as is often the case with other aspects of \emph{Photorhabdus} physiology. In order to investigate this further, a selection of PVC operons from both \Plum{} and \Pasy{} were chosen to have their promotors cloned in to fusions with GFP. Briefly, the promotorless GFP bearing plasmid pGAG had been previously derivatised by the lab to remove the ribosome binding site and start codon of the GFP so that full promotor region fusions could be made. Primers were then designed to incorporate $\approx$500 bp upstream of 4 PVC operons, and the first 5 amino acids of each PVC1 locus from both \Plum{} and \Pasy, thus reconstituting the now fused GFP coding sequence and ensuring a reliable fusion. The constructs can be found in \addfloat{Construct maps}, and were confirmed by Sanger sequencing. Vector descriptions and primers can be found in \vref{methods}.
+A pre-existing hypothesis for the manner in which PVCs are deployed was that the populations may demonstrate extreme variability/heterogeneity, as is often the case with other aspects of \emph{Photorhabdus} physiology. In order to investigate this further, a selection of PVC operons from both \Plum{} and \Pasy{} were chosen to have their promoters cloned in to fusions with GFP. Briefly, the promoterless GFP bearing plasmid pGAG had been previously derivatised by the lab to remove the ribosome binding site and start codon of the GFP so that full promoter region fusions could be made. Primers were then designed to incorporate $\approx$500 bp upstream of 4 PVC operons, and the first 5 amino acids of each PVC1 locus from both \Plum{} and \Pasy, thus reconstituting the now fused GFP coding sequence and ensuring a reliable fusion. The constructs can be found in \addfloat{Construct maps}, and were confirmed by Sanger sequencing. Vector descriptions and primers can be found in \vref{methods}.
 
 Images were captured on a Leica DMi-8 inverted epifluorescent microscope with a Hamamatsu Flash4 4K camera, under phase contrast and GFP fluorescent channels. Due to heterogeneity in the sample prep on agar pad-based slides, some images were darker than others. Consequently, images have been postprocessed to normalise their intensities to a control reference image which had an acceptable grey intensity for reproduction clarity. Images have also had their colour depth reduced, as well as being downsampled to 35 pixels per inch, from 72.
 
 % Separate input file for all the microscopy images due to size.
 %\input{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/reporter_microscopy.tex}
 
-
+\todo[inline]{Get some images of the BW strain's unusual morphology to justify not using it}
 
 
 
 
 
 \subsection{A putative role for RfaH in PVC regulation}
+HexA involvement - Helge's HexA knockout?
 
 Alignment of RfaH - AnfA1 and any other ops active proteins?
 
@@ -144,7 +158,7 @@ Add the AFP 5' UTR to the alignment?
 \defconsensus{.}{lower}{upper}
 \topspace{-3pt}
 \featuressmall
-\feature{top}{1}{1..12}{brace}{RfaH ops site}
+\feature{top}{1}{1..12}{brace}{ops site}
 
 %
 %\shortcaption{Multiple sequence alignment of PVC tail fibre genes, denoting conserved domains}
@@ -157,6 +171,14 @@ Add the AFP 5' UTR to the alignment?
 \end{figure}
 \clearpage
 
+
+\subsubsection{Activity in RfaH mutant strains}
+
+\myparagraph{\emph{Photorhabdus}}
+No luck. Suicide plasmid and recombineering.
+
+\myparagraph{\emph{E. coli}}
+BW keio strain has weird morphology down the microscope. Decided not to proceed any further.
 
 \section{Discussion}
 
@@ -172,3 +194,11 @@ Example panels:
 TT01 LopT, 5 hours, bottom panel + 72 hour bottom panel
 TT01 Unit 1, 72 hours, top panel.
 Thai, 72 hours, bottom panel. Long green, but also long and non green
+
+
+
+\subsection{Summary and future work}
+Flow cytometry (quantitation of reporters). Test more conditions (e.g. human blood, insect blood etc).
+
+RNAseq doesn't reveal much about operon transcript architecture - Direct RNA sequencing or systematic qPCR might be worthwhile.
+

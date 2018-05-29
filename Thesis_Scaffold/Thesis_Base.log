@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  25 MAY 2018 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  29 MAY 2018 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2526,7 +2526,7 @@ LaTeX Font Info:    Font shape `OT1/pxss/bx/it' in size <9> not available
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<crest.pdf, id=722, 199.1691pt x 199.1691pt>
+<crest.pdf, id=738, 199.1691pt x 199.1691pt>
 File: crest.pdf Graphic file (type pdf)
  <use crest.pdf>
 Package pdftex.def Info: crest.pdf used on input line 306.
@@ -2544,13 +2544,13 @@ LaTeX Font Info:    Font shape `OT1/pxss/m/it' in size <10> not available
 (Font)              Font shape `OT1/pxss/m/sl' tried instead on input line 306.
 
 
-<moac.pdf, id=723, 113.8112pt x 113.8112pt>
+<moac.pdf, id=739, 113.8112pt x 113.8112pt>
 File: moac.pdf Graphic file (type pdf)
  <use moac.pdf>
 Package pdftex.def Info: moac.pdf used on input line 306.
 (pdftex.def)             Requested size: 56.90546pt x 56.90546pt.
 
-<warwick.pdf, id=724, 341.43358pt x 113.8112pt>
+<warwick.pdf, id=740, 341.43358pt x 113.8112pt>
 File: warwick.pdf Graphic file (type pdf)
  <use warwick.pdf>
 Package pdftex.def Info: warwick.pdf used on input line 306.
@@ -2685,7 +2685,7 @@ less on input line 23.
 
 ] [3]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lineages.pdf,
- id=1299, 1027.84pt x 770.88pt>
+ id=1323, 1027.84pt x 770.88pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lineages
 .pdf Graphic file (type pdf)
 
@@ -2697,7 +2697,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
  [4 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lineages.
 pdf>] [5] [6]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lifecycle.png
-, id=1406, 722.7pt x 505.89pt>
+, id=1430, 722.7pt x 505.89pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lifecycl
 e.png Graphic file (type png)
 
@@ -2713,7 +2713,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [7] [8 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/lifecy
 cle.png>] [9] [10]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM1.png, i
-d=1468, 300.1614pt x 284.262pt>
+d=1492, 300.1614pt x 284.262pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM1.p
 ng Graphic file (type png)
 
@@ -2729,7 +2729,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 93--95
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM2.png, i
-d=1470, 301.125pt x 284.262pt>
+d=1494, 301.125pt x 284.262pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM2.p
 ng Graphic file (type png)
 
@@ -2745,7 +2745,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 101--103
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM3.png, i
-d=1472, 429.7656pt x 542.025pt>
+d=1496, 429.7656pt x 542.025pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM3.p
 ng Graphic file (type png)
 
@@ -2767,7 +2767,7 @@ M1.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM
 2.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/PVCEM3
 .png>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/hostofhostsfi
-g.pdf, id=1496, 597.23125pt x 845.1575pt>
+g.pdf, id=1520, 597.23125pt x 845.1575pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/hostofho
 stsfig.pdf Graphic file (type pdf)
 
@@ -2783,7 +2783,7 @@ LaTeX Warning: Float too large for page by 2.70593pt on input line 131.
 [13] [14 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/host
 ofhostsfig.pdf>] [15]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EM_of_phage_T
-4.jpg, id=1643, 437.635pt x 314.17375pt>
+4.jpg, id=1668, 437.635pt x 314.17375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EM_of_ph
 age_T4.jpg Graphic file (type jpg)
 
@@ -2799,7 +2799,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 157--159
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/isEMdead.jpg,
- id=1645, 308.352pt x 190.7928pt>
+ id=1670, 308.352pt x 190.7928pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/isEMdead
 .jpg Graphic file (type jpg)
 
@@ -2815,7 +2815,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 165--167
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EMlargescale.
-jpg, id=1647, 433.62pt x 219.7008pt>
+jpg, id=1672, 433.62pt x 219.7008pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/EMlarges
 cale.jpg Graphic file (type jpg)
 
@@ -2834,7 +2834,7 @@ ge_T4.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/is
 EMdead.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/E
 Mlargescale.jpg>] [17] [18]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t4assembly.jp
-g, id=1771, 290.04683pt x 306.2411pt>
+g, id=1796, 290.04683pt x 306.2411pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t4assemb
 ly.jpg Graphic file (type jpg)
 
@@ -2861,7 +2861,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 143.19235pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-F5.jp
-g, id=1779, 346.29375pt x 998.73125pt>
+g, id=1804, 346.29375pt x 998.73125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-
 F5.jpg Graphic file (type jpg)
 
@@ -2872,7 +2872,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 192.0548pt x 548.33928pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-F2.pn
-g, id=1781, 242.9075pt x 192.72pt>
+g, id=1806, 242.9075pt x 192.72pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsmb975-
 F2.png Graphic file (type png)
 
@@ -2883,7 +2883,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 192.0548pt x 152.37357pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsb970-F1.png
-, id=1783, 297.11pt x 365.365pt>
+, id=1808, 297.11pt x 365.365pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nsb970-F
 1.png Graphic file (type png)
 
@@ -2894,7 +2894,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 179.25157pt x 220.44162pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nature17971-f
-1.png, id=1785, 509.905pt x 338.26375pt>
+1.png, id=1810, 509.905pt x 338.26375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/nature17
 971-f1.png Graphic file (type png)
 
@@ -2916,7 +2916,7 @@ s/intro/img/nature17971-f1.png>] [22
 
 ]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin.jpg, i
-d=1860, 1246.6575pt x 879.285pt>
+d=1884, 1246.6575pt x 879.285pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin.j
 pg Graphic file (type jpg)
 
@@ -2932,7 +2932,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 297--299
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afplarge.jpg,
- id=1862, 1284.8pt x 678.535pt>
+ id=1886, 1284.8pt x 678.535pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afplarge
 .jpg Graphic file (type jpg)
 
@@ -2948,7 +2948,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 305--307
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/em_labelled.p
-df, id=1864, 853.1875pt x 740.7675pt>
+df, id=1888, 853.1875pt x 740.7675pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/em_label
 led.pdf Graphic file (type pdf)
 
@@ -2976,7 +2976,7 @@ nput line 326.
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/videostill.pn
-g, id=1925, 521.95pt x 803.0pt>
+g, id=1950, 521.95pt x 803.0pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/videosti
 ll.png Graphic file (type png)
 
@@ -2987,7 +2987,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 128.0387pt x 527.24603pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin_maps.p
-df, id=1927, 231.26399pt x 115.99335pt>
+df, id=1952, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocin_m
 aps.pdf Graphic file (type pdf)
 
@@ -2998,7 +2998,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 277.41176pt x 308.32751pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocintube.jp
-g, id=1929, 385.44pt x 116.5956pt>
+g, id=1954, 385.44pt x 116.5956pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/pyocintu
 be.jpg Graphic file (type jpg)
 
@@ -3014,7 +3014,7 @@ ters/intro/img/pyocintube.jpg>] [26
 
 ] [27] [28]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_large.jpg
-, id=2046, 975.645pt x 939.51pt>
+, id=2071, 975.645pt x 939.51pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_larg
 e.jpg Graphic file (type jpg)
 
@@ -3030,7 +3030,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 402--404
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afpvariants.p
-ng, id=2048, 401.5pt x 678.535pt>
+ng, id=2073, 401.5pt x 678.535pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afpvaria
 nts.png Graphic file (type png)
 
@@ -3046,7 +3046,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 410--412
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afp_tomogram.
-png, id=2050, 674.52pt x 307.1475pt>
+png, id=2075, 674.52pt x 307.1475pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afp_tomo
 gram.png Graphic file (type png)
 
@@ -3065,7 +3065,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 418--420
 ants.png> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Afp
 _tomogram.png (PNG copy)>] [30]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map_recon
-structed.png, id=2113, 231.264pt x 116.1138pt>
+structed.png, id=2137, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map_
 reconstructed.png Graphic file (type png)
 
@@ -3076,7 +3076,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 174.98601pt x 547.12337pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map.jpg, 
-id=2115, 308.352pt x 200.1879pt>
+id=2139, 308.352pt x 200.1879pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/afp_map.
 jpg Graphic file (type jpg)
 
@@ -3146,7 +3146,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [36] [37] [38] [39]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_in_cell.
-jpg, id=2316, 929.4725pt x 553.06625pt>
+jpg, id=2340, 929.4725pt x 553.06625pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_in_
 cell.jpg Graphic file (type jpg)
 
@@ -3162,7 +3162,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 538--540
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_annotate
-d.jpg, id=2318, 308.352pt x 264.99pt>
+d.jpg, id=2342, 308.352pt x 264.99pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_ann
 otated.jpg Graphic file (type jpg)
 
@@ -3180,7 +3180,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 546--548
 ell.jpg> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss
 _annotated.jpg>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_distal_g
-rey_flat.png, id=2362, 231.264pt x 116.1138pt>
+rey_flat.png, id=2386, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_dis
 tal_grey_flat.png Graphic file (type png)
 
@@ -3191,7 +3191,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 295.76399pt x 170.74901pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal
-_grey_flat.png, id=2364, 231.264pt x 116.1138pt>
+_grey_flat.png, id=2388, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_pro
 ximal_grey_flat.png Graphic file (type png)
 
@@ -3207,7 +3207,7 @@ Overfull \hbox (3.49744pt too wide) in paragraph at lines 566--576
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal
-_grey_flat_bottom.png, id=2366, 231.264pt x 116.1138pt>
+_grey_flat_bottom.png, id=2390, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_pro
 ximal_grey_flat_bottom.png Graphic file (type png)
 
@@ -3218,7 +3218,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 123.76988pt x 118.92351pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_proximal
-_grey_flat_topslice.png, id=2368, 231.264pt x 116.1138pt>
+_grey_flat_topslice.png, id=2392, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_pro
 ximal_grey_flat_topslice.png Graphic file (type png)
 
@@ -3229,7 +3229,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 123.76988pt x 118.92351pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_distal_g
-rey_flat_top.png, id=2370, 231.264pt x 116.1138pt>
+rey_flat_top.png, id=2394, 231.264pt x 116.1138pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_dis
 tal_grey_flat_top.png Graphic file (type png)
 
@@ -3245,7 +3245,7 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 585--591
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_tmc.jpg,
- id=2372, 929.4725pt x 712.6625pt>
+ id=2396, 929.4725pt x 712.6625pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/t6ss_tmc
 .jpg Graphic file (type jpg)
 
@@ -3280,7 +3280,7 @@ LaTeX Font Info:    Font shape `OML/pxr/m/n' in size <10.95> not available
  [45] [46]
 [47] [48] [49] [50] [51]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Structure_Com
-parison.pdf, id=2595, 1061.9675pt x 597.23125pt>
+parison.pdf, id=2619, 1061.9675pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/Structur
 e_Comparison.pdf Graphic file (type pdf)
 
@@ -3351,22 +3351,37 @@ Overfull \hbox (16.14574pt too wide) in alignment at lines 232--232
  [] [] [] [] 
  []
 
-[69] [70
+[69]
+Overfull \hbox (6.40561pt too wide) in paragraph at lines 266--266
+[]|\OT1/pxtt/m/n/8 GATGGAGTAAATGGTACCTTGGG|  
+ []
+
+
+Overfull \hbox (2.20561pt too wide) in paragraph at lines 266--266
+[]|\OT1/pxtt/m/n/8 CCCTCATTACTGTTGCTGTTAC|  
+ []
+
+
+Overfull \hbox (6.40561pt too wide) in paragraph at lines 266--266
+[]|\OT1/pxtt/m/n/8 TTTCACAGCTATTTCAGGAGTTC|  
+ []
+
+[70
 
 ]
-Overfull \hbox (12.0pt too wide) in alignment at lines 331--331
+Overfull \hbox (12.0pt too wide) in alignment at lines 334--334
  [] [] [] [] [] 
  []
 
 [71
 
 ] [72]
-Overfull \hbox (32.18129pt too wide) in paragraph at lines 355--355
+Overfull \hbox (32.18129pt too wide) in paragraph at lines 358--358
 []|$[]$|  
  []
 
 
-Overfull \hbox (32.18129pt too wide) in paragraph at lines 404--404
+Overfull \hbox (32.18129pt too wide) in paragraph at lines 407--407
 []|$[]$|  
  []
 
@@ -3375,57 +3390,57 @@ Overfull \hbox (32.18129pt too wide) in paragraph at lines 404--404
 ]
 
 LaTeX Warning: cref  reference format for label type `paragraph' undefined on i
-nput line 433.
+nput line 436.
 
 [74] [75]
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 475.
+(amsmath)                 on input line 478.
 
 [76] [77]
 
 LaTeX Warning: cref  reference format for label type `paragraph' undefined on i
-nput line 510.
+nput line 513.
 
 [78] [79]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 543.
+(hyperref)                removing `math shift' on input line 546.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 543.
+(hyperref)                removing `\lambda' on input line 546.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 543.
+(hyperref)                removing `math shift' on input line 546.
 
 [80]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 558.
+(hyperref)                removing `math shift' on input line 561.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 558.
+(hyperref)                removing `\lambda' on input line 561.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 558.
+(hyperref)                removing `math shift' on input line 561.
 
 
-LaTeX Warning: Reference `assembly' on page 1 undefined on input line 568.
+LaTeX Warning: Reference `assembly' on page 1 undefined on input line 571.
 
 
-LaTeX Warning: Reference `assembly' on page 1 undefined on input line 568.
+LaTeX Warning: Reference `assembly' on page 1 undefined on input line 571.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 568.
+Package hyperref Warning: Suppressing link with empty target on input line 571.
 
 
 [81] [82] [83]
@@ -3433,30 +3448,30 @@ Missing character: There is no √ in font pxr!
 Missing character: There is no § in font pxr!
  [84] [85] [86] [87]
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 676.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 679.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 676.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 679.
 
 Missing character: There is no Æ in font pxr!
 
-LaTeX Warning: Reference `scripts' on page 1 undefined on input line 681.
+LaTeX Warning: Reference `scripts' on page 1 undefined on input line 684.
 
 
-LaTeX Warning: Reference `scripts' on page 1 undefined on input line 681.
+LaTeX Warning: Reference `scripts' on page 1 undefined on input line 684.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 681.
+Package hyperref Warning: Suppressing link with empty target on input line 684.
 
 
 [88] [89] [90] [91] [92]
-Overfull \hbox (0.54875pt too wide) in paragraph at lines 817--818
+Overfull \hbox (0.54875pt too wide) in paragraph at lines 820--821
 \OT1/pxtt/m/n/10.95 Automatic Detection and Alignment of Repeats program (RADAR
 ) v1.1.1.1 [][][]\OT1/pxr/m/n/10.95 . The
  []
 
 [93]
-Overfull \hbox (8.5382pt too wide) in paragraph at lines 822--823
+Overfull \hbox (8.5382pt too wide) in paragraph at lines 825--826
 []\OT1/pxr/m/n/10.95 For ex-am-in-ing se-quence in-for-ma-tion, \OT1/pxtt/m/n/1
 0.95 Artemis v16.0.0 \OT1/pxr/m/n/10.95 ([]Ruther-ford et al.[], []2000[]) geno
 me
@@ -3524,7 +3539,7 @@ like el-e-ments in ad-di-tional genomes.
  []
 
 [103] [104] [105] [106]
-Overfull \hbox (20.09933pt too wide) in alignment at lines 131--131
+Overfull \hbox (20.09933pt too wide) in alignment at lines 133--133
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -3533,718 +3548,706 @@ Overfull \hbox (20.09933pt too wide) in alignment at lines 131--131
 ]
 
 LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
- line 147.
+ line 149.
 
 
 LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
- line 147.
+ line 149.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 147.
+Package hyperref Warning: Suppressing link with empty target on input line 149.
 
 
 [108
 
 ] [109]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_boxplot
-_with_means.pdf, id=3295, 844.15375pt x 597.23125pt>
+_with_means.pdf, id=3320, 844.15375pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_bo
 xplot_with_means.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_box
 plot_with_means.pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/GC_boxplot_with_means.pdf used on input line 155.
+/chapter4/img/GC_boxplot_with_means.pdf used on input line 157.
 (pdftex.def)             Requested size: 358.50316pt x 253.64221pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/Score_boxp
-lot_with_means.pdf, id=3297, 844.15375pt x 597.23125pt>
+lot_with_means.pdf, id=3322, 844.15375pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/Score
 _boxplot_with_means.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/Score_
 boxplot_with_means.pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/Score_boxplot_with_means.pdf used on input line 163.
+/chapter4/img/Score_boxplot_with_means.pdf used on input line 165.
 (pdftex.def)             Requested size: 358.50316pt x 253.64221pt.
  [110 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/GC_b
 oxplot_with_means.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/
 chapter4/img/Score_boxplot_with_means.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1.pdf, 
-id=3325, 1018.80624pt x 655.44875pt>
+id=3350, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC1.pdf used on input line 175.
+/chapter4/img/PVC1.pdf used on input line 177.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC2.pdf, 
-id=3326, 1018.80624pt x 655.44875pt>
+id=3351, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC2.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC2.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC2.pdf used on input line 183.
+/chapter4/img/PVC2.pdf used on input line 185.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [111 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC2
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3.pdf, 
-id=3344, 1018.80624pt x 655.44875pt>
+id=3370, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC3.pdf used on input line 193.
+/chapter4/img/PVC3.pdf used on input line 195.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC4.pdf, 
-id=3345, 1018.80624pt x 655.44875pt>
+id=3371, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC4.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC4.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC4.pdf used on input line 201.
+/chapter4/img/PVC4.pdf used on input line 203.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [112 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC3
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC4
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5.pdf, 
-id=3363, 1018.80624pt x 655.44875pt>
+id=3388, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC5.pdf used on input line 211.
+/chapter4/img/PVC5.pdf used on input line 213.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC6.pdf, 
-id=3364, 1018.80624pt x 655.44875pt>
+id=3389, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC6.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC6.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC6.pdf used on input line 219.
+/chapter4/img/PVC6.pdf used on input line 221.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [113 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC5
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC6
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7.pdf, 
-id=3381, 1018.80624pt x 655.44875pt>
+id=3406, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC7.pdf used on input line 229.
+/chapter4/img/PVC7.pdf used on input line 231.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC8.pdf, 
-id=3382, 1018.80624pt x 655.44875pt>
+id=3407, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC8.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC8.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC8.pdf used on input line 237.
+/chapter4/img/PVC8.pdf used on input line 239.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [114 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC7
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC8
 .pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9.pdf, 
-id=3399, 1018.80624pt x 655.44875pt>
+id=3424, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC9.pdf used on input line 246.
+/chapter4/img/PVC9.pdf used on input line 248.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC10.pdf,
- id=3400, 1018.80624pt x 655.44875pt>
+ id=3425, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC10
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC10.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC10.pdf used on input line 254.
+/chapter4/img/PVC10.pdf used on input line 256.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [115 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC9
 .pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 0.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC11.pdf,
- id=3417, 1018.80624pt x 655.44875pt>
+ id=3442, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC11
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC11.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC11.pdf used on input line 263.
+/chapter4/img/PVC11.pdf used on input line 265.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC12.pdf,
- id=3418, 1018.80624pt x 655.44875pt>
+ id=3443, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC12
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC12.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC12.pdf used on input line 271.
+/chapter4/img/PVC12.pdf used on input line 273.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [116 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 1.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC
 12.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC13.pdf,
- id=3435, 1018.80624pt x 655.44875pt>
+ id=3460, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC13
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC13.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC13.pdf used on input line 280.
+/chapter4/img/PVC13.pdf used on input line 282.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC14.pdf,
- id=3436, 1018.80624pt x 655.44875pt>
+ id=3461, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC14
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC14.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC14.pdf used on input line 288.
+/chapter4/img/PVC14.pdf used on input line 290.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [117 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 3.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC
 14.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC15.pdf,
- id=3454, 1018.80624pt x 655.44875pt>
+ id=3480, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC15
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC15.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC15.pdf used on input line 297.
+/chapter4/img/PVC15.pdf used on input line 299.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC16.pdf,
- id=3455, 1018.80624pt x 655.44875pt>
+ id=3481, 1018.80624pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC16
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC16.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC16.pdf used on input line 305.
+/chapter4/img/PVC16.pdf used on input line 307.
 (pdftex.def)             Requested size: 405.45047pt x 260.84467pt.
  [118 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 5.pdf> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC
 16.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC17.pdf,
- id=3476, 1042.89626pt x 655.44875pt>
+ id=3502, 1042.89626pt x 655.44875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC17
 .pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC17.
 pdf>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/PVC17.pdf used on input line 319.
+/chapter4/img/PVC17.pdf used on input line 321.
 (pdftex.def)             Requested size: 405.45047pt x 254.82387pt.
  [119 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/PVC1
 7.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/ADJW.pdf, 
-id=3495, 710.655pt x 710.655pt>
+id=3521, 710.655pt x 710.655pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/ADJW.
 pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/ADJW.p
 df>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/ADJW.pdf used on input line 340.
+/chapter4/img/ADJW.pdf used on input line 342.
 (pdftex.def)             Requested size: 426.79135pt x 414.74104pt.
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 359--359
  []|[]| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 12.74| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 11.75| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 6.13| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 14.26| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 10.12| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 6.71| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 8.11| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 13.53| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 13.53| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 7.25| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 12.74| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 13.43| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 3.67| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 9.11| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 11.01| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 11.01| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 13.43|| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 11.86| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 10.74| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 7.12| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 10.12| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 9.36| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 9.69| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 12.23| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 10.41| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 10.41| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 10.83| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 11.86| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 8.91| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 8.95| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 12.05| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 12.55| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 12.55| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 359--359
  []|\OT1/pxr/m/n/9 8.91| 
  []
 
 
-Overfull \hbox (4.26563pt too wide) in alignment at lines 357--357
+Overfull \hbox (4.26563pt too wide) in alignment at lines 359--359
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/nRF.pdf, i
-d=3497, 710.655pt x 710.655pt>
+d=3523, 710.655pt x 710.655pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/nRF.p
 df Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img/nRF.pd
 f>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
-/chapter4/img/nRF.pdf used on input line 369.
+/chapter4/img/nRF.pdf used on input line 371.
 (pdftex.def)             Requested size: 426.79135pt x 426.7975pt.
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (9.4197pt too wide) in paragraph at lines 381--381
+Overfull \hbox (9.4197pt too wide) in paragraph at lines 383--383
  []|[]| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 7.05| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 9.01| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 9.36| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 5.99| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 9.62| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 9.28| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 9.74| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 7.01| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 6.47| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 9.28| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 5.95| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 6.32| 
  []
 
 
-Overfull \hbox (6.8937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (6.8937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 12.26| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 7.63| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 6.42| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 6.46| 
  []
 
 
-Overfull \hbox (2.3937pt too wide) in paragraph at lines 381--381
+Overfull \hbox (2.3937pt too wide) in paragraph at lines 383--383
  []|\OT1/pxr/m/n/9 5.64|| 
  []
 
 
-Overfull \hbox (4.26563pt too wide) in alignment at lines 381--381
+Overfull \hbox (4.26563pt too wide) in alignment at lines 383--383
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [120] [121 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter4/img
 /ADJW.pdf>] [122 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapte
 r4/img/nRF.pdf>]
-
-LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
-put line 395.
-
-
-LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
-put line 395.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 395.
-
-
 
 LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
 put line 397.
@@ -4258,103 +4261,115 @@ Package hyperref Warning: Suppressing link with empty target on input line 397.
 
 
 
-LaTeX Warning: Reference `hhpredhomologies' on page 1 undefined on input line 3
-99.
+LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
+put line 399.
 
 
-LaTeX Warning: Reference `hhpredhomologies' on page 1 undefined on input line 3
-99.
+LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
+put line 399.
 
 
 Package hyperref Warning: Suppressing link with empty target on input line 399.
 
 
+
+LaTeX Warning: Reference `hhpredhomologies' on page 1 undefined on input line 4
+01.
+
+
+LaTeX Warning: Reference `hhpredhomologies' on page 1 undefined on input line 4
+01.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 401.
+
+
 [123] [124]
 
 LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
-put line 407.
+put line 409.
 
 
 LaTeX Warning: Reference `multiplesequencealignments' on page 1 undefined on in
-put line 407.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 407.
-
-
-
-LaTeX Warning: Reference `strucbioinfx' on page 1 undefined on input line 407.
-
-
-LaTeX Warning: Reference `strucbioinfx' on page 1 undefined on input line 407.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 407.
-
-
-[125]
-
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 409.
-
-
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 409.
+put line 409.
 
 
 Package hyperref Warning: Suppressing link with empty target on input line 409.
 
 
+
+LaTeX Warning: Reference `strucbioinfx' on page 1 undefined on input line 409.
+
+
+LaTeX Warning: Reference `strucbioinfx' on page 1 undefined on input line 409.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 409.
+
+
+[125]
+
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 411.
+
+
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 411.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 411.
+
+
 [126] [127]
 
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 417.
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 419.
 
 
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 417.
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 419.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 417.
+Package hyperref Warning: Suppressing link with empty target on input line 419.
 
 
 [128]
 
 Package natbib Warning: Citation `Hurst2004a' on page 129 undefined on input li
-ne 421.
+ne 423.
 
 [129] [130] [131]
 
-LaTeX Warning: Reference `pvc2tree' on page 1 undefined on input line 436.
+LaTeX Warning: Reference `pvc2tree' on page 1 undefined on input line 438.
 
 
-LaTeX Warning: Reference `pvc2tree' on page 1 undefined on input line 436.
+LaTeX Warning: Reference `pvc2tree' on page 1 undefined on input line 438.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 436.
+Package hyperref Warning: Suppressing link with empty target on input line 438.
 
-
-
-LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
- line 436.
 
 
 LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
- line 436.
+ line 438.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 436.
+LaTeX Warning: Reference `bioinformatics_appendix' on page 1 undefined on input
+ line 438.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 438.
 
 
 [132] [133] [134] [135]
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
+Underfull \hbox (badness 10000) in paragraph at lines 473--475
 
  []
 
 
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 474.
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 478.
 
 
-LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 474.
+LaTeX Warning: Reference `strucbioinfo' on page 1 undefined on input line 478.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 474.
+Package hyperref Warning: Suppressing link with empty target on input line 478.
 
 
 [136]) [137]
@@ -4382,7 +4397,7 @@ less on input line 14.
 
 ] [140]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2xgf.pdf, 
-id=3762, 231.26399pt x 115.99335pt>
+id=3785, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2xgf.
 pdf Graphic file (type pdf)
 
@@ -4393,7 +4408,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 77.66156pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/5nxf.pdf, 
-id=3764, 231.26399pt x 115.99335pt>
+id=3787, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/5nxf.
 pdf Graphic file (type pdf)
 
@@ -4404,7 +4419,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 94.70767pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1h6w.pdf, 
-id=3766, 231.26399pt x 115.99335pt>
+id=3789, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1h6w.
 pdf Graphic file (type pdf)
 
@@ -4415,7 +4430,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 209.1301pt x 104.89745pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1qiu.pdf, 
-id=3768, 231.26399pt x 115.99335pt>
+id=3791, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1qiu.
 pdf Graphic file (type pdf)
 
@@ -4426,7 +4441,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 209.1301pt x 104.89745pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1v1h.pdf, 
-id=3770, 231.26399pt x 115.99335pt>
+id=3793, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1v1h.
 pdf Graphic file (type pdf)
 
@@ -4437,7 +4452,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 209.1301pt x 104.89745pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1pdi.pdf, 
-id=3772, 231.26399pt x 115.99335pt>
+id=3795, 231.26399pt x 115.99335pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/1pdi.
 pdf Graphic file (type pdf)
 
@@ -4477,7 +4492,7 @@ ned from the \OT1/pxr/m/it/10.95 P. asym-bi-ot-ica \OT1/pxr/m/n/10.95 ATCC43949
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVCpnf_ATC
-C43949_Map.pdf, id=3875, 845.1575pt x 597.23125pt>
+C43949_Map.pdf, id=3898, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVCpn
 f_ATCC43949_Map.pdf Graphic file (type pdf)
 
@@ -4488,7 +4503,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 130.29626pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVClumt_AT
-CC43949_Map.pdf, id=3877, 845.1575pt x 597.23125pt>
+CC43949_Map.pdf, id=3900, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/PVClu
 mt_ATCC43949_Map.pdf Graphic file (type pdf)
 
@@ -4584,7 +4599,7 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 159--159
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13_doma
-in_map.pdf, id=3938, 845.1575pt x 597.23125pt>
+in_map.pdf, id=3961, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13
 _domain_map.pdf Graphic file (type pdf)
 
@@ -4595,7 +4610,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 426.79135pt x 55.01349pt.
  [147]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_dom
-ain_map.pdf, id=3951, 845.1575pt x 597.23125pt>
+ain_map.pdf, id=3974, 845.1575pt x 597.23125pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_domain_map.pdf Graphic file (type pdf)
 
@@ -4647,7 +4662,7 @@ LaTeX Warning: Float too large for page by 0.46951pt on input line 285.
 
 ] [151]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVC
-pnf13_Map.pdf, id=4043, 246.59027pt x 183.33092pt>
+pnf13_Map.pdf, id=4066, 246.59027pt x 183.33092pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b-PVCpnf13_Map.pdf Graphic file (type pdf)
 
@@ -4658,7 +4673,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 362.77525pt x 269.73935pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVC
-pnf13_Map.pdf, id=4045, 243.41339pt x 185.8915pt>
+pnf13_Map.pdf, id=4068, 243.41339pt x 185.8915pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a-PVCpnf13_Map.pdf Graphic file (type pdf)
 
@@ -4669,7 +4684,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 362.77525pt x 277.05238pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVC
-lumt13_Map.pdf, id=4047, 233.73924pt x 183.75752pt>
+lumt13_Map.pdf, id=4070, 233.73924pt x 183.75752pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b-PVClumt13_Map.pdf Graphic file (type pdf)
 
@@ -4680,7 +4695,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 341.43437pt x 268.44637pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVC
-lumt13_Map.pdf, id=4049, 220.50882pt x 185.13264pt>
+lumt13_Map.pdf, id=4072, 220.50882pt x 185.13264pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a-PVClumt13_Map.pdf Graphic file (type pdf)
 
@@ -4701,7 +4716,7 @@ hapter5/img/pET29a-PVCpnf13_Map.pdf>] [154 </Users/joehealey/Documents/Warwick/
 PhD/Thesis/chapters/chapter5/img/pET15b-PVClumt13_Map.pdf> </Users/joehealey/Do
 cuments/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVClumt13_Map.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b_exp
-ression_trial_pnf13.pdf, id=4100, 486.81876pt x 391.4625pt>
+ression_trial_pnf13.pdf, id=4124, 486.81876pt x 391.4625pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b_expression_trial_pnf13.pdf Graphic file (type pdf)
 
@@ -4717,7 +4732,7 @@ LaTeX Font Warning: Font shape `U/wasy/bx/n' in size <10.95> not available
 
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a_exp
-ression_trial_pnf13.pdf, id=4102, 525.965pt x 411.5375pt>
+ression_trial_pnf13.pdf, id=4126, 525.965pt x 411.5375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a_expression_trial_pnf13.pdf Graphic file (type pdf)
 
@@ -4728,7 +4743,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 170.71393pt x 85.13281pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b_exp
-ression_trial_lumt13.pdf, id=4104, 464.73625pt x 426.59375pt>
+ression_trial_lumt13.pdf, id=4128, 464.73625pt x 426.59375pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15
 b_expression_trial_lumt13.pdf Graphic file (type pdf)
 
@@ -4739,7 +4754,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 170.71393pt x 79.93683pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a_exp
-ression_trial_lumt13.pdf, id=4106, 459.7175pt x 406.51875pt>
+ression_trial_lumt13.pdf, id=4130, 459.7175pt x 406.51875pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29
 a_expression_trial_lumt13.pdf Graphic file (type pdf)
 
@@ -4763,7 +4778,7 @@ ments/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b_expression_trial_lumt13.p
 df> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a
 _expression_trial_lumt13.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13_afte
-r_gel_filtration_concentrated.pdf, id=4158, 48.27486pt x 40.02353pt>
+r_gel_filtration_concentrated.pdf, id=4181, 48.27486pt x 40.02353pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf13
 _after_gel_filtration_concentrated.pdf Graphic file (type pdf)
 
@@ -4775,7 +4790,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 192.0548pt x 52.61047pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_aft
-er_gel_filtration_concentrated.pdf, id=4160, 420.57124pt x 407.5225pt>
+er_gel_filtration_concentrated.pdf, id=4183, 420.57124pt x 407.5225pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_after_gel_filtration_concentrated.pdf Graphic file (type pdf)
 
@@ -4789,7 +4804,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 3_after_gel_filtration_concentrated.pdf> </Users/joehealey/Documents/Warwick/Ph
 D/Thesis/chapters/chapter5/img/lumt13_after_gel_filtration_concentrated.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/multimeris
-m.pdf, id=4203, 993.35117pt x 794.60866pt>
+m.pdf, id=4227, 993.35117pt x 794.60866pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/multi
 merism.pdf Graphic file (type pdf)
 
@@ -4801,7 +4816,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
  [158 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/mult
 imerism.pdf>]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf_AvgRun
-_CD_melt_2D.pdf, id=4218, 650.43pt x 433.62pt>
+_CD_melt_2D.pdf, id=4242, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pnf_A
 vgRun_CD_melt_2D.pdf Graphic file (type pdf)
 
@@ -4812,7 +4827,7 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 (pdftex.def)             Requested size: 362.77525pt x 245.64417pt.
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt_CD_me
-lt_2D.pdf, id=4220, 650.43pt x 433.62pt>
+lt_2D.pdf, id=4244, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt_
 CD_melt_2D.pdf Graphic file (type pdf)
 
@@ -4832,7 +4847,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_CDSSTRSet7.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_CDSSTRSet7.pdf, id=4283, 650.43pt x 433.62pt>
+1_CDSSTRSet7.pdf, id=4308, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_CDSSTRSet7.pdf Graphic file (type pdf)
 
@@ -4850,7 +4865,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_K2D.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_K2D.pdf, id=4285, 650.43pt x 433.62pt>
+1_K2D.pdf, id=4310, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_K2D.pdf Graphic file (type pdf)
 
@@ -4866,7 +4881,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Selcon4.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Selcon4.pdf, id=4287, 650.43pt x 433.62pt>
+1_Selcon4.pdf, id=4312, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Selcon4.pdf Graphic file (type pdf)
 
@@ -4882,7 +4897,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Selcon7.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Selcon7.pdf, id=4289, 650.43pt x 433.62pt>
+1_Selcon7.pdf, id=4314, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Selcon7.pdf Graphic file (type pdf)
 
@@ -4898,7 +4913,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Contin4.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Contin4.pdf, id=4291, 650.43pt x 433.62pt>
+1_Contin4.pdf, id=4316, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Contin4.pdf Graphic file (type pdf)
 
@@ -4914,7 +4929,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S1_Contin7.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt13_R1S
-1_Contin7.pdf, id=4293, 650.43pt x 433.62pt>
+1_Contin7.pdf, id=4318, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lumt1
 3_R1S1_Contin7.pdf Graphic file (type pdf)
 
@@ -4930,7 +4945,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/Pnf_avg_SS.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Pnf_avg_SS
-.pdf, id=4297, 650.43pt x 433.62pt>
+.pdf, id=4322, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Pnf_a
 vg_SS.pdf Graphic file (type pdf)
 
@@ -4946,7 +4961,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/Lumt_avg_SS.pdf): PDF inclusion: found
 PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Lumt_avg_S
-S.pdf, id=4299, 650.43pt x 433.62pt>
+S.pdf, id=4324, 650.43pt x 433.62pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/Lumt_
 avg_SS.pdf Graphic file (type pdf)
 
@@ -4982,7 +4997,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20160908_174339.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160908_1
-74339.pdf, id=4453, 2569.1986pt x 1445.4pt>
+74339.pdf, id=4477, 2569.1986pt x 1445.4pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160
 908_174339.pdf Graphic file (type pdf)
 
@@ -4998,7 +5013,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20160908_174445.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160908_1
-74445.pdf, id=4455, 2569.1986pt x 1445.4pt>
+74445.pdf, id=4479, 2569.1986pt x 1445.4pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20160
 908_174445.pdf Graphic file (type pdf)
 
@@ -5014,7 +5029,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_182707.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-82707.pdf, id=4457, 4047.12pt x 2276.505pt>
+82707.pdf, id=4481, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_182707.pdf Graphic file (type pdf)
 
@@ -5030,7 +5045,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_183352.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-83352.pdf, id=4459, 4047.12pt x 2276.505pt>
+83352.pdf, id=4483, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_183352.pdf Graphic file (type pdf)
 
@@ -5046,7 +5061,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_183451.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-83451.pdf, id=4461, 4047.12pt x 2276.505pt>
+83451.pdf, id=4485, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_183451.pdf Graphic file (type pdf)
 
@@ -5062,7 +5077,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_183740.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-83740.pdf, id=4463, 4047.12pt x 2276.505pt>
+83740.pdf, id=4487, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_183740.pdf Graphic file (type pdf)
 
@@ -5078,7 +5093,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_185249.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-85249.pdf, id=4465, 4047.12pt x 2276.505pt>
+85249.pdf, id=4489, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_185249.pdf Graphic file (type pdf)
 
@@ -5094,7 +5109,7 @@ arwick/PhD/Thesis/chapters/chapter5/img/20170429_185734.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170429_1
-85734.pdf, id=4467, 4047.12pt x 2276.505pt>
+85734.pdf, id=4491, 4047.12pt x 2276.505pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/20170
 429_185734.pdf Graphic file (type pdf)
 
@@ -5117,7 +5132,7 @@ df> </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/201704
 
 ]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/nanopartic
-le_hd.png, id=4561, 1806.75pt x 713.66624pt>
+le_hd.png, id=4586, 1806.75pt x 713.66624pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/nanop
 article_hd.png Graphic file (type png)
 
@@ -5131,55 +5146,55 @@ particle_hd.png>] [173
 
 ] [174]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto-n-di
-fucohexaose-i.png, id=4601, 468.75125pt x 224.84pt>
+fucohexaose-i.png, id=4627, 468.75125pt x 224.84pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto-
 n-difucohexaose-i.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2f.png, 
-id=4603, 606.265pt x 278.03876pt>
+id=4629, 606.265pt x 278.03876pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2f.p
 ng>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2.png, i
-d=4605, 528.97626pt x 192.72pt>
+d=4631, 528.97626pt x 192.72pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na2.pn
 g>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na4.png, i
-d=4607, 718.685pt x 483.8075pt>
+d=4633, 718.685pt x 483.8075pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/na4.pn
 g>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2s-glucns.
-png, id=4609, 457.71pt x 185.69376pt>
+png, id=4635, 457.71pt x 185.69376pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/2s-glu
 cns.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudi-h.png
-, id=4611, 429.605pt x 160.6pt>
+, id=4637, 429.605pt x 160.6pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudi-h
 .png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudiv-h.pn
-g, id=4613, 610.28pt x 232.87pt>
+g, id=4639, 610.28pt x 232.87pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/hudiv-
 h.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/mannobiose
-.png, id=4615, 168.63pt x 95.35625pt>
+.png, id=4641, 168.63pt x 95.35625pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/mannob
 iose.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/betagal.pn
-g, id=4617, 191.71625pt x 101.37875pt>
+g, id=4643, 191.71625pt x 101.37875pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/betaga
 l.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/galgalnacg
-lc.png, id=4618, 619.31375pt x 163.61125pt>
+lc.png, id=4644, 619.31375pt x 163.61125pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/galgal
 nacglc.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/3sialyl.pn
-g, id=4619, 578.16pt x 248.93pt>
+g, id=4645, 578.16pt x 248.93pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/3sialy
 l.png>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lstc.png, 
-id=4620, 677.53125pt x 179.67125pt>
+id=4646, 677.53125pt x 179.67125pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lstc.p
 ng>
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/neocarrate
-traose.png, id=4621, 271.0125pt x 172.645pt>
+traose.png, id=4647, 271.0125pt x 172.645pt>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/neocar
 ratetraose.png>
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/lacto-
@@ -5370,7 +5385,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 21.
 
 [188]
 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/RfaH_mecha
-nism.pdf, id=4886, 963.6pt x 542.025pt>
+nism.pdf, id=4912, 963.6pt x 542.025pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/RfaH_
 mechanism.pdf Graphic file (type pdf)
 
@@ -5384,18 +5399,60 @@ Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [189] [190 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img
-/RfaH_mechanism.pdf>] [191] [192
+/RfaH_mechanism.pdf>] [191]
+</Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Workflows.
+pdf, id=5021, 542.025pt x 963.6pt>
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Workf
+lows.pdf Graphic file (type pdf)
 
-] [193] [194]
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Workfl
+ows.pdf>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
+/chapter6/img/Workflows.pdf used on input line 56.
+(pdftex.def)             Requested size: 384.1096pt x 355.66672pt.
+ [192
+
+ </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Workflows
+.pdf>] [193]
+
+Package natbib Warning: Citation `Yu2000' on page 194 undefined on input line 7
+5.
+
+
+</Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Recombinee
+ring.pdf, id=5081, 544.0325pt x 683.55376pt>
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Recom
+bineering.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Recomb
+ineering.pdf>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/chapters
+/chapter6/img/Recombineering.pdf used on input line 79.
+(pdftex.def)             Requested size: 426.79135pt x 536.26755pt.
+
+
+Package natbib Warning: Citation `Yu2000' on page 194 undefined on input line 8
+7.
+
+
+Package natbib Warning: Citation `Skibinski2002' on page 194 undefined on input
+ line 87.
+
+
+Package natbib Warning: Citation `Szumanski1990' on page 194 undefined on input
+ line 87.
+
+[194] [195 </Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img
+/Recombineering.pdf>] [196] [197]
 (/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/resources/alig
-nments/PVC_upstream_w_RfaH.afasta: . . ) [195] [196]) [197
+nments/PVC_upstream_w_RfaH.afasta: . . ) [198] [199]) [200
 
 ]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 468.
 
-[198
+[201
 
 ] (../chapters/discussion/discussion.tex
 
@@ -5412,41 +5469,41 @@ Chapter 7.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 1.
 
-[199
+[202
 
 ]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 64.
 
-[200
+[203
 
-] [201] [202] [203]
+] [204] [205] [206]
 LaTeX Font Info:    Font shape `OML/pxr/m/n' in size <9> not available
 (Font)              Font shape `OML/pxmi/m/it' tried instead on input line 360.
 
- [204] [205] [206] [207]
+ [207] [208] [209] [210]
 Missing character: There is no ¬ in font pxr!
 Missing character: There is no † in font pxr!
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
- [208] [209]
+ [211] [212]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
- [210] [211]
+ [213] [214]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no î in font pxr!
 
-[212] [213] [214] [215] [216] [217]
+[215] [216] [217] [218] [219] [220]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ê in font pxr!
- [218] [219] [220] [221] [222]
+ [221] [222] [223] [224] [225]
 Missing character: There is no à in font pxr!
- [223]
+ [226]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
@@ -5454,23 +5511,23 @@ Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
 
-[224] [225]
+[227] [228]
 Missing character: There is no Ô in font pxr!
 Missing character: There is no ¨ in font pxr!
 Missing character: There is no Å in font pxr!
 Missing character: There is no Ô in font pxr!
 Missing character: There is no ¨ in font pxr!
 Missing character: There is no Å in font pxr!
- [226] [227] [228]
+ [229] [230] [231]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
-) [229]
+) [232]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 486.
 
-[230
+[233
 
 
 ]
@@ -5479,7 +5536,7 @@ Appendix A.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 489.
 
-[231
+[234
 
 ]
 Appendix B.
@@ -5487,7 +5544,7 @@ Appendix B.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 492.
 
-[232
+[235
 
 ]
 Appendix C.
@@ -5496,7 +5553,7 @@ Appendix C.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 1.
 
-[233
+[236
 
 ]
 Appendix D.
@@ -5504,9 +5561,9 @@ Appendix D.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 251.
 
-[234
+[237
 
-] [235] [236] [237]) [238]
+] [238] [239] [240]) [241]
 Appendix E.
 
 
@@ -5515,7 +5572,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5241, 597.50829pt x 845.0471pt>
+06703.pdf, id=5345, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -5549,7 +5606,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5244, page=1, 597.50829pt x 845.0471pt>
+06703.pdf, id=5348, page=1, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -5571,7 +5628,7 @@ es/publications/ange201706703.pdf, page1 used on input line 500.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 500.
 
-[239
+[242
 
 ]
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
@@ -5598,107 +5655,107 @@ e201706703.pdf Graphic file (type pdf)
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
 es/publications/ange201706703.pdf, page1 used on input line 500.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [240 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
-ge201706703.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
-arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
-und PDF version <1.6>, but at most version <1.5> allowed
-
-</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5331, page=2, 597.50829pt x 845.0471pt>
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 2>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page2 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 2>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page2 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 2>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page2 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [241 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
-ge201706703.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
-arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
-und PDF version <1.6>, but at most version <1.5> allowed
-
-</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5372, page=3, 597.50829pt x 845.0471pt>
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 3>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page3 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 3>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page3 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 3>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page3 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [242 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
-ge201706703.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
-arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
-und PDF version <1.6>, but at most version <1.5> allowed
-
-</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=5387, page=4, 597.50829pt x 845.0471pt>
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 4>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page4 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 4>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page4 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 4>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page4 used on input line 500.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [243 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
-ge201706703.pdf>] [244] (./Thesis_Base.tdo
+ge201706703.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
+arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+
+</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
+06703.pdf, id=5435, page=2, 597.50829pt x 845.0471pt>
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 2>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page2 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 2>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page2 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 2>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page2 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [244 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
+ge201706703.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
+arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+
+</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
+06703.pdf, id=5477, page=3, 597.50829pt x 845.0471pt>
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 3>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page3 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 3>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page3 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 3>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page3 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [245 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
+ge201706703.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
+arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+
+</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
+06703.pdf, id=5492, page=4, 597.50829pt x 845.0471pt>
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 4>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page4 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 4>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page4 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 4>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page4 used on input line 500.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [246 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
+ge201706703.pdf>] [247] (./Thesis_Base.tdo
 Overfull \hbox (150.09184pt too wide) in paragraph at lines 10--10
  [][] [][][][] \OT1/pxr/m/n/10.95 be sure to write a sec-tion around the claim 
 in this pa-per https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/ 
@@ -5708,9 +5765,9 @@ in this pa-per https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 16.
 
-[245
+[248
 
-] [246])
+] [249])
 \tf@tdo=\write12
 \openout12 = `Thesis_Base.tdo'.
 
@@ -5718,15 +5775,21 @@ less on input line 16.
 
 Package natbib Warning: There were undefined citations.
 
-[247]
+[250]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
  (./Thesis_Base.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
-Package rerunfilecheck Info: File `Thesis_Base.out' has not changed.
-(rerunfilecheck)             Checksum: A63E3E7CA007CE597258DB2D38CFFEC7;14009.
 
+
+Package rerunfilecheck Warning: File `Thesis_Base.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis_Base.out':
+(rerunfilecheck)             Before: 39640C8428D431A1AB419A6F8A346255;14351
+(rerunfilecheck)             After:  7EC350C2F1945C17DC21AC61227D6264;14347.
 
 LaTeX Warning: There were undefined references.
 
@@ -5735,10 +5798,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 57739 strings out of 492995
- 1064161 string characters out of 4882705
- 6870274 words of memory out of 10000000
- 59196 multiletter control sequences out of 15000+600000
+ 57783 strings out of 492995
+ 1065421 string characters out of 4882705
+ 6870709 words of memory out of 10000000
+ 59230 multiletter control sequences out of 15000+600000
  95993 words of font info for 246 fonts, out of 5000000 for 9000
  1141 hyphenation exceptions out of 8191
  970i,21n,982p,10450b,25809s stack positions out of 10000i,500n,10000p,5000000b,80000s
@@ -5765,10 +5828,10 @@ latino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8
 a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10.p
 fb>
-Output written on Thesis_Base.pdf (263 pages, 43361292 bytes).
+Output written on Thesis_Base.pdf (266 pages, 43456957 bytes).
 PDF statistics:
- 5799 PDF objects out of 6186 (max. 8388607)
- 4863 compressed objects within 49 object streams
- 953 named destinations out of 1000 (max. 500000)
- 2676 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5905 PDF objects out of 6186 (max. 8388607)
+ 4951 compressed objects within 50 object streams
+ 961 named destinations out of 1000 (max. 500000)
+ 2730 words of extra memory for PDF output out of 10000 (max. 10000000)
 
