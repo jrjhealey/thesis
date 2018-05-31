@@ -164,18 +164,18 @@
 \contentsline {subsubsection}{\numberline {6.2.1.2}Gibson assembly}{196}{subsubsection.6.2.1.2}
 \contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{197}{subsection.6.2.2}
 \contentsline {subsubsection}{\numberline {6.2.2.1}Cellular morphology in reporter assays}{209}{subsubsection.6.2.2.1}
-\contentsline {subsection}{\numberline {6.2.3}A putative role for RfaH in PVC regulation}{209}{subsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.3.1}Activity in RfaH mutant strains}{212}{subsubsection.6.2.3.1}
-\contentsline {paragraph}{\numberline {6.2.3.1.1}\emph {Photorhabdus}}{212}{paragraph.6.2.3.1.1}
-\contentsline {paragraph}{\numberline {6.2.3.1.2}\emph {E. coli}}{212}{paragraph.6.2.3.1.2}
-\contentsline {section}{\numberline {6.3}Discussion}{212}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Summary and future work}{212}{subsection.6.3.1}
-\contentsline {part}{IV\hspace {1em}Discussion}{214}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{215}{chapter.7}
-\contentsline {chapter}{Bibliography}{215}{chapter.7}
-\contentsline {chapter}{Appendices}{246}{section*.125}
-\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{247}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{248}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{249}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{250}{Appendix.a.D}
-\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{255}{Appendix.a.E}
+\contentsline {subsection}{\numberline {6.2.3}A putative role for RfaH in PVC regulation}{211}{subsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Activity in RfaH mutant strains}{213}{subsubsection.6.2.3.1}
+\contentsline {paragraph}{\numberline {6.2.3.1.1}\emph {Photorhabdus}}{213}{paragraph.6.2.3.1.1}
+\contentsline {paragraph}{\numberline {6.2.3.1.2}\emph {E. coli}}{213}{paragraph.6.2.3.1.2}
+\contentsline {section}{\numberline {6.3}Discussion}{213}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Summary and future work}{213}{subsection.6.3.1}
+\contentsline {part}{IV\hspace {1em}Discussion}{215}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{216}{chapter.7}
+\contentsline {chapter}{Bibliography}{216}{chapter.7}
+\contentsline {chapter}{Appendices}{247}{section*.126}
+\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{248}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{249}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{250}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{251}{Appendix.a.D}
+\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{256}{Appendix.a.E}

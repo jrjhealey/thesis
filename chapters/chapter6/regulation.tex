@@ -134,7 +134,86 @@ A rationale for the population heterogeneity observed in \emph{Photorhabdus} cul
 \addfloat{maybe reproduce the figure in question when mentioning it in the text above?}
 
 \subsubsection{Cellular morphology in reporter assays}
-LopT lots of long but not green cells.
+An unexpected observation from the microscopy is the appearance of a number of elongated cells in several of the panels. Subjectively, it seemed that the extended cell morphology correlated to some degree with GFP fluorescence, though examples of non-fluorescent cells can be seen too.
+
+A number of the previous panels demonstrate these phenotypes:
+
+\begin{figure}[p]
+  
+\hspace{1cm}\begin{subfigure}{\linewidth}
+  \begin{subfigure}{0.4\linewidth}
+    \begin{tikzpicture}[boximg]
+    % Main image as a node
+      \node[anchor=south west] (img) {\includegraphics[width=\linewidth]{TT01U1_72HR_1_GREEN-crunch-lighter-resample.pdf}};
+    % Define scope of anchors for boxes?
+      \begin{scope}[x=(img.south east),y=(img.north west)]
+        \node[draw, minimum height=0.8cm, minimum width=1.5cm] (B1) at (0.6,0.87) {};
+     \end{scope}
+    \end{tikzpicture}
+  \end{subfigure}\hspace{2cm}\begin{subfigure}[t]{0.4\linewidth}
+    \begin{tikzpicture}[boximg]
+      \node (img1) {\includegraphics[width=\linewidth, trim={550 1400 250 0} ,clip]{TT01U1_72HR_1_GREEN-crunch-lighter-resample.pdf}};
+      \draw (img1.south west) rectangle (img1.north east);
+    \end{tikzpicture}
+  \end{subfigure}
+  \begin{tikzpicture}[overlay,boximg]
+    \draw (B1) -- (img1) ;
+  \end{tikzpicture}
+  \end{subfigure}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=15pt}
+  \caption*{\textbf{\emph{P. luminescens} TT01 ``Unit 1" Panel 1, 72 Hours}}
+\vspace{1cm}
+
+%%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{\linewidth}
+  \hspace{1cm}\begin{subfigure}{0.4\linewidth}
+    \begin{tikzpicture}[boximg]
+    % Main image as a node
+      \node[anchor=south west] (img) {\includegraphics[width=\linewidth]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}};
+    % Define scope of anchors for boxes?
+      \begin{scope}[x=(img.south east),y=(img.north west)]
+        \node[draw, minimum height=0.8cm, minimum width=0.7cm] (B1) at (0.5,0.65) {};
+        \node[draw, minimum height=1.4cm, minimum width=0.7cm] (B2) at (0.3,0.35) {};
+     \end{scope}
+    \end{tikzpicture}
+  \end{subfigure}\hspace{2cm}\begin{subfigure}[t]{0.4\linewidth}
+    \begin{tikzpicture}[boximg]
+      \node (img1) {\includegraphics[width=\linewidth, trim={700 1100 400 450} ,clip]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}};
+      \draw (img1.south west) rectangle (img1.north east);
+    \end{tikzpicture}  
+    \begin{tikzpicture}[boximg]
+      \node (img2) {\rotatebox{90}{\includegraphics[height=\linewidth, trim={450 350 1200 600} ,clip]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}}};
+      \draw (img2.south west) rectangle (img2.north east);
+    \end{tikzpicture}
+  \end{subfigure}
+
+  \begin{tikzpicture}[overlay,boximg]
+    \draw (B1) -- (img1) ;
+    \draw (B2) -- (img2) ;
+  \end{tikzpicture}
+  \end{subfigure}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=15pt}
+  \caption*{\textbf{\emph{P. luminescens} TT01 ``Unit 1" Panel 1, 72 Hours}}
+  
+  
+  
+  
+  
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+\caption[Elongated cellular morphologies observed in reporter microscopy]{\textsc{\normalsize Elongated cell morphologies observed in reporter assays.} \vspace{0.1cm} \newline During the reporter microscopy assays, elongated cells could often be seen, and these elongated cells seemed to exhibit fluorescence in many cases. It is by no means an entirely correlative relationship, as many elongated but non fluorescent cells are visible in certain panels, but it did occur frequently enough so as to stand out. Those that did exhibit fluorescence and elongation tended not to be among the brightest visible cells however. }
+\label{elongating}
+\end{figure}
+
+
+Remember to discuss the enlongation/filamenting of some bacteria - almost always green too)
+Example panels:
+TT01 LopT, 5 hours, bottom panel + 72 hour bottom panel
+TT01 Unit 1, 72 hours, top panel.
+Thai, 72 hours, bottom panel. Long green, but also long and non green
+
+Additionally, it may be noticed that many of the cells, regardless of length, begin to form phase-bright points apically, reminiscent of a forespore. These structures are not spores however (as \emph{Photorhabdus} is non-sporulative), but instead are likely protein crystal depositions which are produced later in the growth process to act as nutrient depots for nematodes that would be grazing on the bacteria `in the wild'.
+
 
 
 \subsection{A putative role for RfaH in PVC regulation}
@@ -205,13 +284,6 @@ Do not get too hung up on RfaH itself - it may be a different protein thats LIKE
 
 
 Discussion of Yangs constructs - the long form including the RfaH upstream region has aberrant expression profiles (circumstantial data)
-
-Remember to discuss the enlongation/filamenting of some bacteria - almost always green too)
-Example panels:
-TT01 LopT, 5 hours, bottom panel + 72 hour bottom panel
-TT01 Unit 1, 72 hours, top panel.
-Thai, 72 hours, bottom panel. Long green, but also long and non green
-
 
 
 \subsection{Summary and future work}
