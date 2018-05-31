@@ -50,11 +50,11 @@ Finally, therefore, another aim for this chapter was to investigate any potentia
 
 \vref{workflows} depicts a high level overview of the experimental threads running through this chapter as it contains areas of different focus. The chapter is broadly divided in to efforts to reconstitute the PVCs heterologously in \emph{E. coli} through a number of methods (2 blue threads), and similarly, efforts to understand the activity of the natural expression system in several ways (2 orange threads).
 
-
+\vspace{0.2cm}
 \begin{figure}[h!]
 \centering
-    \includegraphics[width=0.9\textwidth, clip, trim={0 460 0 0 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Workflows.pdf}
-\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+    \includegraphics[width=0.9\textwidth, clip, trim={0 520 0 0 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/Workflows.pdf}
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=15pt}
 \caption[Flowchart of work threads for PVC regulation studies]{\textsc{\normalsize A high level flowchart of the threads for studying PVC regulation.} \vspace{0.1cm} \newline A high level flowchart showing the experimental threads for this chapter. The upper blue chart shows the efforts towards making controllable synthetic PVC constructs through recombineering and synthetic fragment assembly approaches. The lower orange chart depicts the 2 primary packages of work undertaken to probe the natural regulatory system of the PVCs, and the `sub-threads' within this. Namely, construction of promoter fusions allowing for studies of the population heterogeneity (or lack thereof) in PVC expression, and an examination of AnfA1 orthologue control of PVCs within \emph{Photorhabdus}. }
 \label{workflows}
 \end{figure}
@@ -67,7 +67,7 @@ As discussed in the introduction to this chapter, the only existing heterologous
 
 All of the techniques that follow have specifically avoided attempts at classically cloning PVCs, instead opting for techniques that rely on homologous recombination. Classical restriction based cloning was ruled out early on, as the operons are very long and rich in restriction sites that rendered a lot of the reliable `standard' lab enzymes no longer an option, especially as the operons would probably need to be cloned in several chunks. Ideally, a robust technique was desired that would allow any of the PVC operons to be cloned. A dependence on particular restriction sites might preclude certain operons from being cloned. Additionally, it was unknown whether there was internal structure to the operons such as internal promoters. Certain proteins are certainly transcriptionally coupled for example, so the incorporation of restriction sites and any intervening spaces could impact the expression and assembly of the PVCs. However, a previous post-doc of the group did achieve the cloning of a single operon in this manner separately, contemporary with the efforts here. While this demonstrates in principle that classical cloning is a viable approach for constructing these operons, a previous attempt by the same lab at an alternative operon had lead to various assembly errors internal to the sequence, and rendered the construct unusable.
 
-Moreover, much of the existing literature for cloning of long operons pointed to homologous recombination based techniques as a promising approach for subcloning recalcitrant or difficult targets (for example, \cite{Wang2016, Garcia2004}, both of whom present novel DNA capture techniques). Despite the interest in bioprospecting or `genome mining' (combing genomes for biosynthetic gene clusters of interest) of late \citep{Ziemert2016, VanLanen2006, Netta2009, Lautru2005, Bergmann2007, Wenzel2009, Charlop-Powers2014}, due in no small part to the explosion of interest and improved capabilities in (meta)genomics, it is still very difficult to manipulate sequences of this size.
+Moreover, much of the existing literature for cloning of long operons pointed to homologous recombination based techniques as a promising approach for subcloning recalcitrant or difficult targets (for example, \cite{Wang2016, Garcia2004}, both of whom present novel DNA capture techniques). Despite the interest in bioprospecting or `genome mining' (combing genomes for biosynthetic gene clusters of interest) of late \citep{Ziemert2016, VanLanen2006, Netta2009, Lautru2005, Bergmann2007, Wenzel2009, Charlop-Powers2014}, due in no small part to the explosion of interest and improved capabilities in (meta)genomics, it is still non-trivial to manipulate sequences of this size.
 
 \subsubsection{Recombineering}
 Since the original cosmids containing segments of the captured genome were available, it was decided that a promising approach might be to try and engineer control in to the replicons that were already obtained, attributing the reductions in cell viability to simple uncontrolled expression via natural promoters.
@@ -98,41 +98,58 @@ Nightmare!
 
 
 \subsubsection{Gibson assembly}
+To attempt to clone the PVCs in a manner that would not depend on restriction sites, a process of construct creation using the fairly new ``Gibson" assembly technique was tested and optimised. Gibson assembly has been popularised ever since the advent of the first synthetic genome produced by \cite{Gibson2010c, Gibson2009a} (hence the name). The method promises \emph{in vitro} assembly in a largely sequence-agnostic manner, crucially without the requirement for restriction sites, for fragments up to the hundreds of kilobase range. The technique works by mixing overlapping linear DNA, which have complementary ends (in a manner similar to recombineering), and using 3 isothermal enzymes to create `sticky ends' which anneal, are `gap-filled' and ligated, all in a single reaction pot. Firstly, T5 exonuclease creates the 3' overhangs, exposing the complementary overlaps as stretches of single stranded DNA. These complementary regions base pair, and the T5 nuclease is displaced by the Phusion polymerase (or \emph{Taq}), which `back fills' the gaps created by the exonuclease beyond the overlap sites. This leaves a double stranded fusion product of the adjoining fragments, but with disconnected backbones. As the last step of the isothermal assembly reaction, the \emph{Taq} ligase enzyme seals the backbones, yielding 2 fully connected fragments with a high degree of sequence fidelity at the joins.
 
 
 
-
-
+Mention that separately PVCs 1-5, 13, and 11 have all been cloned without a problem, thus no toxicity there
 
 
 
 \subsection{Population heterogeneity in PVC activity}
 A pre-existing hypothesis for the manner in which PVCs are deployed was that the populations may demonstrate extreme variability/heterogeneity, as is often the case with other aspects of \emph{Photorhabdus} physiology. In order to investigate this further, a selection of PVC operons from both \Plum{} and \Pasy{} were chosen to have their promoters cloned in to fusions with GFP. Briefly, the promoterless GFP bearing plasmid pGAG had been previously derivatised by the lab to remove the ribosome binding site and start codon of the GFP so that full promoter region fusions could be made. Primers were then designed to incorporate $\approx$500 bp upstream of 4 PVC operons, and the first 5 amino acids of each PVC1 locus from both \Plum{} and \Pasy, thus reconstituting the now fused GFP coding sequence and ensuring a reliable fusion. The constructs can be found in \addfloat{Construct maps}, and were confirmed by Sanger sequencing. Vector descriptions and primers can be found in \vref{methods}.
 
-Images were captured on a Leica DMi-8 inverted epifluorescent microscope with a Hamamatsu Flash4 4K camera, under phase contrast and GFP fluorescent channels. Due to heterogeneity in the sample prep on agar pad-based slides, some images were darker than others. Consequently, images have been postprocessed to normalise their intensities to a control reference image which had an acceptable grey intensity for reproduction clarity. Images have also had their colour depth reduced, as well as being downsampled to 35 pixels per inch, from 72.
+Images were captured on a Leica DMi-8 inverted epifluorescent microscope with a Hamamatsu Flash4 4K camera, under phase contrast and GFP fluorescent channels. Due to heterogeneity in the sample prep on agar pad-based slides, some images were darker than others. Consequently, images have been postprocessed to normalise their intensities to a control reference image which had an acceptable grey intensity for reproduction clarity. Images have also had their colour depth reduced, as well as being downsampled to 35 pixels per inch, from 72 (to reduce image file size).
+
+4 images per slide/time point are shown to give a representative sampling of the slide as best as possible. There is a key to the semi-quantitative fluorescence levels below each column. In a departure from the sequence discussed in the chapters so far, the \emph{P. asymbioitca} strain used here is not the `model' strain ATCC43949, but instead a Thai isolate denoted PB68.1. This was used as it is considerably easier to transform than the ATCC43949 strain, allowing for an \emph{P. asymbiotica} and a \Plum{} strain comparison.
+
+The degree of fluorescence is scored based on the intensity seen in the stills captured, but also indirectly incorporates a dimension of time, as the semi-quantitative values that are given are also taking in to consideration the time taken to scan the slide and look for regions of interest. To be more explicit, if a slide was found with one or two extremely bright cells, but it took considerably longer to find those 2 cells amongst the population, that sample will be given a lower brightness score, reflecting the heterogeneity and scarcity of the fluorescent cells. A selection of `empty vector' controls, without promoters or GFP start codons are shown  
 
 % Separate input file for all the microscopy images due to size.
-%\input{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/reporter_microscopy.tex}
+\input{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/reporter_microscopy.tex}
+\clearpage
 
-\todo[inline]{Get some images of the BW strain's unusual morphology to justify not using it}
+The microscopy shows clearly that the manner in which different PVC operons are regulated/deployed can vary enormously, and not just between operons, but also between individual cells translating the same sequences. There is a general trend across almost all of the reporters demonstrating increased expression levels in individuals and the population at the later time points (24-72 hours), as the cultures enter stationary phase, in some cases diminishing slightly past 24 hours (\vref{RMTHAICIF}, the PB68.1 ``Cif" reporter, is a good example of this).
 
+Generally, there seem to be 2 predominant patterns of fluorescence (though they are also not mutually exclusive). On the one hand, in many of the panels, particularly in the later time points, low level fluorescence appears in most or all of the cells, for example in \Plum{} TT01 ``Unit 1" and \Pasy{} PB68.1 ``Cif". On the other hand, even amongst these reporters, there are still individual cells which fluoresce noticeably brighter, revealing more of the variability in transcription/translation of the PVCs.
 
+No expression is seen at all from the ``LopT" construct of PB68.1, at very little can be seen from the equivalent \Plum{} reporter. This appears to be more of an exception though since it seems that there is a general trend of increased expression of most PVC operons in the \Pasy{} strains, compared to \Plum. Aside from ``LopT", the only PVC shared across both species is the ``Cif" operon, and while it is expressed in \Plum, \Pasy{} seems to be expressing it to a much greater degree, especially evident in the 24 hour time point (\vref{RMTHAICIF}).
 
+In the majority of the panels it is possible to see isolated, extremely bright cells. This is most pronounced in the \Pasy{} PB68.1 ``Pnf" and ``Unit 1" panels, where intense expression in certain cells is seen across the growth phases, including, unusually, as early as 2 hours in to measurement. This correlates nicely with the fact that in \Pasy{} ATCC43949 ``pnf" was the most bioactive PVC when assayed in the legacy cosmid screening, and also goes some way to explaining the lack of stability. Interestingly, the intensity of expression in most cells appears to reduce late on in the growth phases, but many more cells begin to express the operon at comparatively low level. It appears that co-locality is also not an indicator of expression, with the degree of fluorescence varying even among very densely packed regions of cells - the bottom right panel of the PB68.1 ``Pnf" reporter is an excellent example of this. The increased fluorescence in later time points would suggest that there may be a quorum-based density dependence as the cultures become more turbid, but based on this data alone it is difficult to disentangle effects of density versus a stringent response.
+
+The increase in the numbers of cells expressing PVC operons in later stages of growth may be a good indicator of the stringent response. As the PVCs are virulence factors, their expression is likely intrinsically linked to the stress response of the bacteria \citep{Dalebroux2010, Chatnaparat2015 }. For example, the Type III secretion system has been shown to be controlled by the alarmone ppGpp \citep{Ancona2015}. While a hallmark of the stringent response is often a redirection of resources toward biosynthetic gene clusters in an attempt to mitigate starvation, it seems that \emph{Photorhabdus} perhaps opts for a more `hail Mary' approach by increasing its virulence factor production. This may make sense when the natural environment of \emph{Photorhabdus} is considered: it may be attempting to kill and bioconvert organisms invading the carcass of recently killed insects, to then use as a new source of nutrients.
+
+A rationale for the population heterogeneity observed in \emph{Photorhabdus} cultures may also be linked to this unusual life cycle. Since only a small number of bacteria ever re-associate with the nematode in a `wild' infection, a significant proportion of the population are sacrifical. This may take the form of as food for the nematodes, or simply as factories of small molecules and enzymes associated with the protection of the cadaver. In the case of the PVCs, given their size, there is likely to be a lysis mechanism (and some operons encode lysins etc.), which results in the death of the cell in order to release such a cocktail of virulence factors etc.
+
+\addfloat{maybe reproduce the figure in question when mentioning it in the text above?}
+
+\subsubsection{Cellular morphology in reporter assays}
+LopT lots of long but not green cells.
 
 
 \subsection{A putative role for RfaH in PVC regulation}
 HexA involvement - Helge's HexA knockout?
 
-Alignment of RfaH - AnfA1 and any other ops active proteins?
 
-RfaH sequence = \emph{ops} GGCGGTAGnnTG (in e coli) \citep{Sevostyanova2008, Artsimovitch2002}
-
-Show/state that the JUMPStart sequence is closely related (contains an ops), but there doesn't appear to be a compelling structure for it in PVCs
+Blast alignment of AnfA1 revealing just RfaH in photorhabdus.
+Then mention efforts to knock out rfah with recombineering and suicide plasmids - cant be done
 
 Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked out in Photo
  - Mention that RfaH was initially thought to be essential in the first wave of keio knockouts but later was able to be removed.
 
-Add the AFP 5' UTR to the alignment?
+Thus, knockout studies were not feasible in the time remaining, and may actually not be tractable at all for photorhabdus studies.
+Future work:
+	Over expression of RfaH instead, though its role in multiple operons will likely make it very difficult to fully understand its role
 
 \begin{figure}[p]
 \vspace{-0.5cm}
@@ -199,6 +216,12 @@ Thai, 72 hours, bottom panel. Long green, but also long and non green
 
 \subsection{Summary and future work}
 Flow cytometry (quantitation of reporters). Test more conditions (e.g. human blood, insect blood etc).
+
+Overall, the attempts to robustly clone the PVCs in a restriction-free manner were ultimately unsuccessful, though not without some promise. It seems that constructs of this size are somewhat amenable to assembly in this manner. There are some thoughts regarding toxicity of the constructs may have played a part in preventing obtaining the full structure. If the project was to be re-done with the benefit of this hindsight, a promising alternative mechanism might be to do much of the assembly in yeast. This is the process that was followed in the early stages of the synthetic genome project, whereby short fragments were continually recombined in to progressively larger components before being transplated to \emph{E. coli}. It is also possible that the gene products which are thought to be potentially toxic to the \emph{E. coli} may not exert such an effect in a yeast, since the cellular structure and biochemical pathways are somewhat `orthogonal'.
+
+The widespread literature regarding Gibson assembly unambiguously confirms its utility for cloning large operons in a single reaction using overlapping component oligonucleotides. With further optimisation of the overlapping sequence lengths, molar fragment ratios, and enzyme mix, Gibson assembly still seems to be a robust approach to cloning, notwithstanding any toxic effects of the subcloned regions. Additionally, with toxicity in mind, it may be the case that incorporating the putatively toxic regions as portions of larger fragments might improve the efficiency of recovery of full sequences.
+
+Other members of the lab have had success in assembling multiple fragments (albeit of considerably smaller size) by the use of custom made enzyme mixes. In this study, only ready mixed assembly kits from NEB were tested, so there may be scope to improve the assembly process by `starting from scratch'.
 
 RNAseq doesn't reveal much about operon transcript architecture - Direct RNA sequencing or systematic qPCR might be worthwhile.
 
