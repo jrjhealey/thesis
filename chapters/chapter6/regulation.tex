@@ -62,7 +62,7 @@ Finally, therefore, another aim for this chapter was to investigate any potentia
 
 
 
-\subsection{Cloning and engineering PVC operons}
+\subsection{Cloning and engineering PVC operons}\label{cloningPVCs}
 As discussed in the introduction to this chapter, the only existing heterologous expression system that was available was the `raw' cosmid clones from the initial identification of the PVCs. The most bioactive of these, PVCpnf from the \emph{P. asymbiotica} ATCC43949 strain, was also the most genetically unstable, and over time freezer stocks had dwindled since it could not be easily propagated. This section will explore the experimental efforts undertaken to try and reconstruct these long operons in \emph{E. coli}.
 
 All of the techniques that follow have specifically avoided attempts at classically cloning PVCs, instead opting for techniques that rely on homologous recombination. Classical restriction based cloning was ruled out early on, as the operons are very long and rich in restriction sites that rendered a lot of the reliable `standard' lab enzymes no longer an option, especially as the operons would probably need to be cloned in several chunks. Ideally, a robust technique was desired that would allow any of the PVC operons to be cloned. A dependence on particular restriction sites might preclude certain operons from being cloned. Additionally, it was unknown whether there was internal structure to the operons such as internal promoters. Certain proteins are certainly transcriptionally coupled for example, so the incorporation of restriction sites and any intervening spaces could impact the expression and assembly of the PVCs. However, a previous post-doc of the group did achieve the cloning of a single operon in this manner separately, contemporary with the efforts here. While this demonstrates in principle that classical cloning is a viable approach for constructing these operons, a previous attempt by the same lab at an alternative operon had lead to various assembly errors internal to the sequence, and rendered the construct unusable.
@@ -123,7 +123,7 @@ The microscopy shows clearly that the manner in which different PVC operons are 
 
 Generally, there seem to be 2 predominant patterns of fluorescence (though they are also not mutually exclusive). On the one hand, in many of the panels, particularly in the later time points, low level fluorescence appears in most or all of the cells, for example in \Plum{} TT01 ``Unit 1" and \Pasy{} PB68.1 ``Cif". On the other hand, even amongst these reporters, there are still individual cells which fluoresce noticeably brighter, revealing more of the variability in transcription/translation of the PVCs.
 
-No expression is seen at all from the ``LopT" construct of PB68.1, at very little can be seen from the equivalent \Plum{} reporter. This appears to be more of an exception though since it seems that there is a general trend of increased expression of most PVC operons in the \Pasy{} strains, compared to \Plum. Aside from ``LopT", the only PVC shared across both species is the ``Cif" operon, and while it is expressed in \Plum, \Pasy{} seems to be expressing it to a much greater degree, especially evident in the 24 hour time point (\vref{RMTHAICIF}).
+No expression is seen at all from the ``LopT" construct of PB68.1, and very little can be seen from the equivalent \Plum{} reporter. This appears to be more of an exception though since it seems that there is a general trend of increased expression of most PVC operons in the \Pasy{} strains, compared to \Plum. Aside from ``LopT", the only PVC shared across both species is the ``Cif" operon, and while it is expressed in \Plum, \Pasy{} seems to be expressing it to a much greater degree, especially evident in the 24 hour time point (\vref{RMTHAICIF}).
 
 In the majority of the panels it is possible to see isolated, extremely bright cells. This is most pronounced in the \Pasy{} PB68.1 ``Pnf" and ``Unit 1" panels, where intense expression in certain cells is seen across the growth phases, including, unusually, as early as 2 hours in to measurement. This correlates nicely with the fact that in \Pasy{} ATCC43949 ``pnf" was the most bioactive PVC when assayed in the legacy cosmid screening, and also goes some way to explaining the lack of stability. Interestingly, the intensity of expression in most cells appears to reduce late on in the growth phases, but many more cells begin to express the operon at comparatively low level. It appears that co-locality is also not an indicator of expression, with the degree of fluorescence varying even among very densely packed regions of cells - the bottom right panel of the PB68.1 ``Pnf" reporter is an excellent example of this. The increased fluorescence in later time points would suggest that there may be a quorum-based density dependence as the cultures become more turbid, but based on this data alone it is difficult to disentangle effects of density versus a stringent response.
 
@@ -131,28 +131,33 @@ The increase in the numbers of cells expressing PVC operons in later stages of g
 
 A rationale for the population heterogeneity observed in \emph{Photorhabdus} cultures may also be linked to this unusual life cycle. Since only a small number of bacteria ever re-associate with the nematode in a `wild' infection, a significant proportion of the population are sacrifical. This may take the form of as food for the nematodes, or simply as factories of small molecules and enzymes associated with the protection of the cadaver. In the case of the PVCs, given their size, there is likely to be a lysis mechanism (and some operons encode lysins etc.), which results in the death of the cell in order to release such a cocktail of virulence factors etc.
 
-\addfloat{maybe reproduce the figure in question when mentioning it in the text above?}
-
 \subsubsection{Cellular morphology in reporter assays}
-An unexpected observation from the microscopy is the appearance of a number of elongated cells in several of the panels. Subjectively, it seemed that the extended cell morphology correlated to some degree with GFP fluorescence, though examples of non-fluorescent cells can be seen too.
+The reporter microscopy reveals a number of interesting phenotypic patterns aside from the obvious heterogeneity discussed in the previous section.
 
-A number of the previous panels demonstrate these phenotypes:
+\myparagraph{Cellular elongation}
+An unexpected observation from the microscopy is the appearance of a number of elongated cells in several of the panels. It is not entirely clear whether this is coincidental, however, in the control cultures, and in the case of the ``LopT" construct for \emph{P. asymbiotica} where no PVC expression is seen whatsoever, there are few if any elongated cells to speak of.
+
+Subjectively, it seemed that the extended cell morphology correlated to some degree with GFP fluorescence, though examples of non-fluorescent cells can be seen too.
+
+\vref{elongating} shows some inset magnifications of a few examples of this phenotype.
+
 
 \begin{figure}[p]
-  
-\hspace{1cm}\begin{subfigure}{\linewidth}
+\centering  
+\begin{subfigure}{\linewidth}
+\centering
   \begin{subfigure}{0.4\linewidth}
     \begin{tikzpicture}[boximg]
     % Main image as a node
       \node[anchor=south west] (img) {\includegraphics[width=\linewidth]{TT01U1_72HR_1_GREEN-crunch-lighter-resample.pdf}};
     % Define scope of anchors for boxes?
       \begin{scope}[x=(img.south east),y=(img.north west)]
-        \node[draw, minimum height=0.8cm, minimum width=1.5cm] (B1) at (0.6,0.87) {};
+        \node[draw, minimum height=1cm, minimum width=2cm] (B1) at (0.58,0.87) {};
      \end{scope}
     \end{tikzpicture}
-  \end{subfigure}\hspace{2cm}\begin{subfigure}[t]{0.4\linewidth}
+  \end{subfigure}\hspace{1cm}\begin{subfigure}{0.4\linewidth}
     \begin{tikzpicture}[boximg]
-      \node (img1) {\includegraphics[width=\linewidth, trim={550 1400 250 0} ,clip]{TT01U1_72HR_1_GREEN-crunch-lighter-resample.pdf}};
+      \node (img1) {\includegraphics[width=\linewidth, trim={550 1450 250 10} ,clip]{TT01U1_72HR_1_GREEN-crunch-lighter-resample.pdf}};
       \draw (img1.south west) rectangle (img1.north east);
     \end{tikzpicture}
   \end{subfigure}
@@ -160,32 +165,36 @@ A number of the previous panels demonstrate these phenotypes:
     \draw (B1) -- (img1) ;
   \end{tikzpicture}
   \end{subfigure}
-  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=15pt}
-  \caption*{\textbf{\emph{P. luminescens} TT01 ``Unit 1" Panel 1, 72 Hours}}
-\vspace{1cm}
-
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
+  \caption*{\large\textbf{\emph{P. luminescens} TT01 ``Unit 1" Panel 1, 72 Hours}}
+  \vspace{0.2cm}
 %%%%%%%%%%%%%%%%
 
   \begin{subfigure}{\linewidth}
-  \hspace{1cm}\begin{subfigure}{0.4\linewidth}
+  \centering
+  \begin{subfigure}{0.4\linewidth}
     \begin{tikzpicture}[boximg]
     % Main image as a node
       \node[anchor=south west] (img) {\includegraphics[width=\linewidth]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}};
     % Define scope of anchors for boxes?
       \begin{scope}[x=(img.south east),y=(img.north west)]
-        \node[draw, minimum height=0.8cm, minimum width=0.7cm] (B1) at (0.5,0.65) {};
-        \node[draw, minimum height=1.4cm, minimum width=0.7cm] (B2) at (0.3,0.35) {};
+        \node[draw, minimum height=1cm, minimum width=1.5cm] (B1) at (0.58,0.65) {};
+        \node[draw, minimum height=1.8cm, minimum width=1cm] (B2) at (0.3,0.35) {};
      \end{scope}
     \end{tikzpicture}
-  \end{subfigure}\hspace{2cm}\begin{subfigure}[t]{0.4\linewidth}
+  \end{subfigure}\hspace{1cm}\begin{subfigure}{0.4\linewidth}
     \begin{tikzpicture}[boximg]
-      \node (img1) {\includegraphics[width=\linewidth, trim={700 1100 400 450} ,clip]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}};
+      \node (img1) {\includegraphics[width=\linewidth, trim={750 1160 450 500} ,clip]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}};
       \draw (img1.south west) rectangle (img1.north east);
-    \end{tikzpicture}  
+    \end{tikzpicture}
+    
+    \vspace{0.4cm}  
+    
     \begin{tikzpicture}[boximg]
-      \node (img2) {\rotatebox{90}{\includegraphics[height=\linewidth, trim={450 350 1200 600} ,clip]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}}};
+      \node (img2) {\rotatebox{90}{\includegraphics[height=\linewidth, trim={450 300 1200 650} ,clip]{THAIU1_72HR_4_GREEN-crunch-lighter-resample.pdf}}};
       \draw (img2.south west) rectangle (img2.north east);
     \end{tikzpicture}
+    \put(-48,5){{\footnotesize\color{Dandelion!60}Rotated $90^{\circ}$}}
   \end{subfigure}
 
   \begin{tikzpicture}[overlay,boximg]
@@ -193,31 +202,60 @@ A number of the previous panels demonstrate these phenotypes:
     \draw (B2) -- (img2) ;
   \end{tikzpicture}
   \end{subfigure}
-  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=15pt}
-  \caption*{\textbf{\emph{P. luminescens} TT01 ``Unit 1" Panel 1, 72 Hours}}
-  
-  
-  
-  
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
+  \caption*{\large\textbf{\emph{P. asymbiotica} PB68.1 ``Unit 1" Panel 4, 72 Hours}}
+  \vspace{0.2cm}
+%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{\linewidth}
+  \centering
+  \begin{subfigure}{0.4\linewidth}
+    \begin{tikzpicture}[boximg]
+    % Main image as a node
+      \node[anchor=south west] (img) {\includegraphics[width=\linewidth]{TT01LOPT_5HR_4_LOWGREEN-crunch-lighter-resample.pdf}};
+    % Define scope of anchors for boxes?
+      \begin{scope}[x=(img.south east),y=(img.north west)]
+        \node[draw, minimum height=1.8cm, minimum width=3.2cm] (B1) at (0.67,0.49) {};
+     \end{scope}
+    \end{tikzpicture}
+  \end{subfigure}\hspace{1cm}\begin{subfigure}{0.4\linewidth}
+    \begin{tikzpicture}[boximg]
+      \node (img1) {\includegraphics[width=\linewidth, trim={580 580 10 570} ,clip]{TT01LOPT_5HR_4_LOWGREEN-crunch-lighter-resample.pdf}};
+      \draw (img1.south west) rectangle (img1.north east);
+    \end{tikzpicture}  
+  \end{subfigure}
+
+  \begin{tikzpicture}[overlay,boximg]
+    \draw (B1) -- (img1) ;
+  \end{tikzpicture}
+  \end{subfigure}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
+  \caption*{\large\textbf{\emph{P. luminescens} TT01 ``LopT" Panel 4, 24 Hours}}
   
 \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
-\caption[Elongated cellular morphologies observed in reporter microscopy]{\textsc{\normalsize Elongated cell morphologies observed in reporter assays.} \vspace{0.1cm} \newline During the reporter microscopy assays, elongated cells could often be seen, and these elongated cells seemed to exhibit fluorescence in many cases. It is by no means an entirely correlative relationship, as many elongated but non fluorescent cells are visible in certain panels, but it did occur frequently enough so as to stand out. Those that did exhibit fluorescence and elongation tended not to be among the brightest visible cells however. }
+\caption[Elongated cellular morphologies observed in reporter microscopy]{\textsc{\normalsize Elongated cell morphologies observed in reporter assays.} \vspace{0.1cm} \newline During the reporter microscopy assays, elongated cells could often be seen, and these elongated cells seemed to exhibit fluorescence in many cases. It is by no means a perfectly correlative relationship, as many elongated but non-fluorescent cells are visible in certain panels, but it did occur frequently enough so as to stand out. Those that did exhibit fluorescence and elongation tended not to be among the brightest visible cells however. }
 \label{elongating}
 \end{figure}
 
-
-Remember to discuss the enlongation/filamenting of some bacteria - almost always green too)
-Example panels:
-TT01 LopT, 5 hours, bottom panel + 72 hour bottom panel
-TT01 Unit 1, 72 hours, top panel.
-Thai, 72 hours, bottom panel. Long green, but also long and non green
-
-Additionally, it may be noticed that many of the cells, regardless of length, begin to form phase-bright points apically, reminiscent of a forespore. These structures are not spores however (as \emph{Photorhabdus} is non-sporulative), but instead are likely protein crystal depositions which are produced later in the growth process to act as nutrient depots for nematodes that would be grazing on the bacteria `in the wild'.
+The elongated phenotype does not seem to be restricted to any one time point, however it does seem somewhat greater in the 5 hour time points. Initially it was thought that the elongation may be a general effect of stress response, however its emergence at early time points would run counter to this hypothesis. Instead, a speculative explanation for the observation may be some sort of failure to divide, which is then propagated through the life of the culture. The next section provides a rationale for this.
 
 
+\myparagraph{Culture integrity}
+Part of the hypothesis for the heterogeneity is attributed to the presence of a sacrificial \emph{Photorhabdus} sub-population. It was not known, however, whether this results in lysis of these cells. Exactly how PVCs are released in to the extracellular milieu is a mystery, but the most parsimonious hypothesis had been that the cells burst, releasing the PVCs, much like a phage would lyse an infected host bacterium.
 
-\subsection{A putative role for RfaH in PVC regulation}
-HexA involvement - Helge's HexA knockout?
+Certainly, this was thought to be the case based on heterologous expression in \emph{E. coli} as well, as the viability of these cultures diminished over time (discussed in \vref{cloningPVCs}). However, from these images, no evidence of lysed cells was found. Moreover, those that express very intensely typically showed profoundly normal cellular morphology.
+
+This suggests that through an as-yet-unknown mechanism, \emph{Photorhabdus} (but not \emph{E. coli}), are somehow capable of releasing complexes the size of the PVCs in to the environment without lysing. A rationale for the speculation in the previous section regarding cellular elongation may point to a loss of control of cell wall/membrane morphology, if they are being remodelled in order to allow the escape of the PVCs. For this to be definitive however, one would expect that the fluorescence indicating PVC expression to correlate with the unusual morphologies. Instead, the most intensely fluorescent cells, and therefore those that should theoretically be maximally producing PVCs, tended to have decidedly `normal' cellular morphologies.
+
+It is possible that, as the reporters are fused to just the first gene in the operon, that expression of the 5' region of the gene cluster is occurring, but not resulting in expression of the whole operon and therefore mature PVCs. There is not a compelling reason to doubt that the reporters do not reflect the activity of the whole operon however, as the expression patterns (for the \Pasy{} ``Pnf" reporter for example) reflect the known expression activity of the operons from other data such as RNAseq and bioassays. Similarly, in separate studies, it has been demonstrated that \Plum{} TT01 ``Unit 4" does indeed elaborate mature PVCs when expressed.
+
+
+
+
+\subsection{A putative role for transcript elongation in PVC regulation}
+As explored in the Introduction to this chapter, the closely related Afp tailocin discovered by \cite{Hurst2004} and the orthologue AfpX \citep{Hurst2018} both rely on the AnfA1 gene for expression, which is reminiscent of an RfaH or NusG-like protein, and located nearby on the pADAP plasmid \citep{Hurst2007a}. Given the close relationship, it was hypothesised that the PVCs may also be controlled in a similar fashion, though they are not carried on a plasmid and there is no obvious AnfA1 equivalent near any of the PVC operons identified to date.
+
+
 
 
 Blast alignment of AnfA1 revealing just RfaH in photorhabdus.
@@ -280,10 +318,9 @@ BW keio strain has weird morphology down the microscope. Decided not to proceed 
 
 Do not get too hung up on RfaH itself - it may be a different protein thats LIKE RfaH that's responsible. Sigma70 binds to the same site for example..\citep{Sevostyanova2008}
 
-
-
-
 Discussion of Yangs constructs - the long form including the RfaH upstream region has aberrant expression profiles (circumstantial data)
+
+Miscroscopy unambigously confirms population heterogeneity in the cultures, but presents conflicting theories about the manner in which the PVCs are deployed (i.e. not restricted to the stringent response), and there is little categorical agreement between expression activity and assorted cellular morphologies.
 
 
 \subsection{Summary and future work}
@@ -295,5 +332,7 @@ The widespread literature regarding Gibson assembly unambiguously confirms its u
 
 Other members of the lab have had success in assembling multiple fragments (albeit of considerably smaller size) by the use of custom made enzyme mixes. In this study, only ready mixed assembly kits from NEB were tested, so there may be scope to improve the assembly process by `starting from scratch'.
 
+
 RNAseq doesn't reveal much about operon transcript architecture - Direct RNA sequencing or systematic qPCR might be worthwhile.
 
+HexA involvement - Helge's HexA knockout?

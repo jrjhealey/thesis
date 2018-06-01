@@ -75,6 +75,13 @@ Amos, L.~A. and Klug, A. (1975).
   T4 Bacteriophage}.
 \newblock {\em Journal of Molecular Biology}, 99:51--73.
 
+\bibitem[Ancona et~al., 2015]{Ancona2015}
+Ancona, V., Lee, J.~H., Chatnaparat, T., Oh, J., Hong, J.~I., and Zhao, Y.
+  (2015).
+\newblock {The bacterial alarmone (p)ppGpp activates the type III secretion
+  system in Erwinia amylovora}.
+\newblock {\em Journal of Bacteriology}, 197(8):1433--1443.
+
 \bibitem[Arisaka et~al., 2003]{Arisaka2003}
 Arisaka, F., Kanamaru, S., Leiman, P., and Rossmann, M.~G. (2003).
 \newblock {The tail lysozyme complex of bacteriophage T4}.
@@ -490,6 +497,11 @@ Dalbey, R.~E. and Kuhn, A. (2012).
   secreted proteins find their way}.
 \newblock {\em FEMS Microbiology Reviews}, 36(6):1023--1045.
 
+\bibitem[Dalebroux et~al., 2010]{Dalebroux2010}
+Dalebroux, Z.~D., Svensson, S.~L., Gaynor, E.~C., and Swanson, M.~S. (2010).
+\newblock {ppGpp Conjures Bacterial Virulence}.
+\newblock {\em Microbiology and Molecular Biology Reviews}, 74(2):171--199.
+
 \bibitem[Darling et~al., 2010]{Darling2010}
 Darling, A.~E., Mau, B., and Perna, N.~T. (2010).
 \newblock {Progressivemauve: Multiple genome alignment with gene gain, loss and
@@ -728,6 +740,24 @@ Gibbs, K.~A., Urbanowski, M.~L., and Greenberg, E.~P. (2008).
 \newblock {Genetic Determinants of Self Identity and Social Recognition in
   Bacteria}.
 \newblock {\em Science}, 321(5886):256--259.
+
+\bibitem[Gibson et~al., 2010]{Gibson2010c}
+Gibson, D.~G., Glass, J.~I., Lartigue, C., Noskov, V.~N., Chuang, R.-Y.,
+  Algire, M.~A., Benders, G.~A., Montague, M.~G., Ma, L., Moodie, M.~M.,
+  Merryman, C., Vashee, S., Krishnakumar, R., Assad-Garcia, N.,
+  Andrews-pfannkoch, C., Denisova, E.~a., Young, L., Qi, Z.-q., Segall-Shapiro,
+  T.~H., Calvey, C.~H., Parmar, P.~P., Hutchison, C.~a., Smith, H.~O., Venter,
+  J.~C., Iii, C. A.~H., Smith, H.~O., and Venter, J.~C. (2010).
+\newblock {Creation of a bacterial cell controlled by a chemically synthesized
+  genome}.
+\newblock {\em Science (New York, N.Y.)}, 329(5987):52--56.
+
+\bibitem[Gibson et~al., 2009]{Gibson2009a}
+Gibson, D.~G., Young, L., Chuang, R.~Y., Venter, J.~C., Hutchison, C.~A., and
+  Smith, H.~O. (2009).
+\newblock {Enzymatic assembly of DNA molecules up to several hundred
+  kilobases}.
+\newblock {\em Nature Methods}, 6(5):343--345.
 
 \bibitem[Glover, 1995]{Glover1995}
 Glover, D.~M. (1995).
@@ -1849,6 +1879,13 @@ Singh, A.~K., Berb{\'{i}}s, M.~{\'{A}}., Ballmann, M.~Z., Kilcoyne, M.,
   domain of the fibre from a siadenovirus, Turkey adenovirus 3}.
 \newblock {\em PLoS ONE}, 10(9):1--22.
 
+\bibitem[Skibinski et~al., 2002]{Skibinski2002}
+Skibinski, D. a.~G., Golby, P., Chang, Y.-s., Sargent, F., Hoffman, R., Harper,
+  R., Guest, J.~R., Attwood, M.~M., Berks, B.~C., and Andrews, S.~C. (2002).
+\newblock {Regulation of the Hydrogenase-4 Operon of Escherichia coli by the
+  sigma-54 -Dependent Transcriptional Activators FhlA and HyfR}.
+\newblock {\em Society}, 184(23):6642--6653.
+
 \bibitem[Smigielski et~al., 1994]{Smigielski1994}
 Smigielski, A.~J., Akhurst, R.~J., and Boemaret, N.~E. (1994).
 \newblock {Phase Variation in {\textless}i{\textgreater}Xenorhabdus
@@ -1916,6 +1953,12 @@ Suarez, G., Sierra, J.~C., Erova, T.~E., Sha, J., Horneman, A.~J., and Chopra,
 \newblock {A type VI secretion system effector protein, VgrG1, from Aeromonas
   hydrophila that induces host cell toxicity by ADP ribosylation of actin}.
 \newblock {\em Journal of Bacteriology}, 192(1):155--168.
+
+\bibitem[Szumanski and Boyle, 1990]{Szumanski1990}
+Szumanski, M.~B. and Boyle, S.~M. (1990).
+\newblock {Analysis and sequence of the speB gene encoding agmatine
+  ureohydrolase, a putrescine biosynthetic enzyme in Escherichia coli}.
+\newblock {\em Journal of Bacteriology}, 172(2):538--547.
 
 \bibitem[Taylor et~al., 2016a]{Taylor2016b}
 Taylor, N.~M., Prokhorov, N.~S., Guerrero-Ferreira, R.~C., Shneider, M.~M.,
@@ -2160,6 +2203,14 @@ Yap, M.~L. and Rossmann, M.~G. (2014a).
 Yap, M.~L. and Rossmann, M.~G. (2014b).
 \newblock {Structure and function of bacteriophage T4}.
 \newblock {\em Future Microbiology}, 9(12):1319--1327.
+
+\bibitem[Yu et~al., 2000]{Yu2000}
+Yu, D., Ellis, H.~M., Lee, E.~C., Jenkins, N.~a., Copeland, N.~G., and Court,
+  D.~L. (2000).
+\newblock {An efficient recombination system for chromosome engineering in
+  Escherichia coli.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 97(11):5978--83.
 
 \bibitem[Zhang et~al., 2012]{Zhang2012a}
 Zhang, D., de~Souza, R.~F., Anantharaman, V., Iyer, L.~M., and Aravind, L.
