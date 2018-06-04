@@ -167,17 +167,17 @@
 \contentsline {paragraph}{\numberline {6.2.2.1.1}Cellular elongation}{209}{paragraph.6.2.2.1.1}
 \contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{210}{paragraph.6.2.2.1.2}
 \contentsline {subsection}{\numberline {6.2.3}A putative role for transcript elongation in PVC regulation}{212}{subsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.3.1}Activity in RfaH mutant strains}{215}{subsubsection.6.2.3.1}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Mutagenising RfaH}{215}{subsubsection.6.2.3.1}
 \contentsline {paragraph}{\numberline {6.2.3.1.1}\emph {Photorhabdus}}{215}{paragraph.6.2.3.1.1}
 \contentsline {paragraph}{\numberline {6.2.3.1.2}\emph {E. coli}}{215}{paragraph.6.2.3.1.2}
-\contentsline {section}{\numberline {6.3}Discussion}{215}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Summary and future work}{215}{subsection.6.3.1}
-\contentsline {part}{IV\hspace {1em}Discussion}{217}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{218}{chapter.7}
-\contentsline {chapter}{Bibliography}{218}{chapter.7}
-\contentsline {chapter}{Appendices}{250}{section*.125}
-\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{251}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{252}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{253}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{254}{Appendix.a.D}
-\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{259}{Appendix.a.E}
+\contentsline {section}{\numberline {6.3}Discussion}{216}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Summary and future work}{216}{subsection.6.3.1}
+\contentsline {part}{IV\hspace {1em}Discussion}{218}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{219}{chapter.7}
+\contentsline {chapter}{Bibliography}{219}{chapter.7}
+\contentsline {chapter}{Appendices}{251}{section*.125}
+\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{252}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{253}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{254}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{255}{Appendix.a.D}
+\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{260}{Appendix.a.E}

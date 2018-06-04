@@ -243,7 +243,7 @@ The elongated phenotype does not seem to be restricted to any one time point, ho
 \myparagraph{Culture integrity}
 Part of the hypothesis for the heterogeneity is attributed to the presence of a sacrificial \emph{Photorhabdus} sub-population. It was not known, however, whether this results in lysis of these cells. Exactly how PVCs are released in to the extracellular milieu is a mystery, but the most parsimonious hypothesis had been that the cells burst, releasing the PVCs, much like a phage would lyse an infected host bacterium.
 
-Certainly, this was thought to be the case based on heterologous expression in \emph{E. coli} as well, as the viability of these cultures diminished over time (discussed in \vref{cloningPVCs}). However, from these images, no evidence of lysed cells was found. Moreover, those that express very intensely typically showed profoundly normal cellular morphology.
+Certainly, this was thought to be the case based on heterologous expression in \emph{E. coli} as well, as the viability of these cultures diminished over time (discussed in \vref{cloningPVCs}). However, from these images, no evidence of lysed cells was found. Moreover, those that express very intensely typically showed profoundly normal cellular morphology. No such reduction in viability of \emph{Photorhabdus} has been observed, even when heterologously over-expressing certain PVC operons, though unusual pigmentation and other phenotypes indicative of stress have been noted.
 
 This suggests that through an as-yet-unknown mechanism, \emph{Photorhabdus} (but not \emph{E. coli}), are somehow capable of releasing complexes the size of the PVCs in to the environment without lysing. A rationale for the speculation in the previous section regarding cellular elongation may point to a loss of control of cell wall/membrane morphology, if they are being remodelled in order to allow the escape of the PVCs. For this to be definitive however, one would expect that the fluorescence indicating PVC expression to correlate with the unusual morphologies. Instead, the most intensely fluorescent cells, and therefore those that should theoretically be maximally producing PVCs, tended to have decidedly `normal' cellular morphologies.
 
@@ -251,22 +251,14 @@ It is possible that, as the reporters are fused to just the first gene in the op
 
 
 
-
 \subsection{A putative role for transcript elongation in PVC regulation}
-As explored in the Introduction to this chapter, the closely related Afp tailocin discovered by \cite{Hurst2004} and the orthologue AfpX \citep{Hurst2018} both rely on the AnfA1 gene for expression, which is reminiscent of an RfaH or NusG-like protein, and located nearby on the pADAP plasmid \citep{Hurst2007a}. Given the close relationship, it was hypothesised that the PVCs may also be controlled in a similar fashion, though they are not carried on a plasmid and there is no obvious AnfA1 equivalent near any of the PVC operons identified to date.
+As explored in the Introduction to this chapter, the closely related Afp tailocin discovered by \cite{Hurst2004} and the orthologue AfpX \citep{Hurst2018} both rely on the AnfA1 gene for expression, which is reminiscent of an RfaH or NusG-like protein, and located nearby on the pADAP plasmid \citep{Hurst2007a}. Given this close relationship, it was hypothesised that the PVCs may also be controlled in a similar fashion, though they are not carried on a plasmid and there is no obvious AnfA1 equivalent near any of the PVC operons identified to date.
 
+Searching for probable orthologues within \emph{Photorhabdus} via BLAST, with even extremely loose identity cut-offs reveals only matches to the chromosomally located RfaH protein, with no `specialised' orthologues like that of AnfA1 identified. Moreover, without restricting BLAST results to the \emph{Photorhabdus} genus specifically, a significant number of various NusG and RfaH orthologues match with better identity, such that the even the chromosomal RfaH identified doesn't even appear in the top 100 best matches. The next non-\emph{Serratia} sequence to match is NusG (WP\_087638535) from \emph{Klebsiella penumoniae} at an E-value of \sn{6.38}{14} versus \sn{4}{12} for the first \emph{Photorhabdus} sequences to match (BLASTp). The \emph{Serratia} AnfA1 protein therefore represents a specialised NusG/RfaH-like homolog, and has likely undergone very different selection pressures, due to its carriage on a mobile element (large plasmid).
 
+For \emph{Photorhabdus}, this presents a couple of hypotheses (if it is assumed for the moment that PVCs are indeed regulated by an \emph{rfaH}-like protein). Firstly, that the chromosomal RfaH is sufficient for regulation of the PVCs and acts to ensure anti-termination as it would for any other operon. Some support for this idea can be taken from the fact that the \emph{Photorhabdus} \emph{ops} site is evidently reasonably diverse (for a conserved site). As the alignment in \vref{rfahmsa} shows, across 16 PVC operons, only 4 positions are identical, with a further 2 differing only in 2 or 3 particular operons, and the consensus sequence has a Hamming distance of 6 to the prototypical \emph{E. coli} sequence. A diversified operator sequence would suggest a diversified cognate binding protein, so as to ensure the binding partnership is maintained. It is also interesting that the putative \emph{ops} sequence for the PVCs does not adhere to what is canonically considered the conserved sequence, whilst the \emph{Serratia} Afp site does (with a sequence of \texttt{5'-GGCGGTAG\underline{CA}TG-3'}, only varying in the 2 degenerate N sites shared by \emph{E. coli} (underlined)). The alternative explanation is that \emph{Photorhabdus} is using an even more diverse orthologue of a NusG/RfaH-like protein, and the efforts to identify the \emph{Photorhabdus} equivalent of AnfA1 simply isnt sensitive enough. This hypothesis might mesh with the fact that the \emph{ops} site is so diverse, but is difficult to prove bioinformatically, and will likely need some experimental data to correlate.
 
-
-Blast alignment of AnfA1 revealing just RfaH in photorhabdus.
-Then mention efforts to knock out rfah with recombineering and suicide plasmids - cant be done
-
-Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked out in Photo
- - Mention that RfaH was initially thought to be essential in the first wave of keio knockouts but later was able to be removed.
-
-Thus, knockout studies were not feasible in the time remaining, and may actually not be tractable at all for photorhabdus studies.
-Future work:
-	Over expression of RfaH instead, though its role in multiple operons will likely make it very difficult to fully understand its role
+\vref{rfahmsa} shows a multiple sequence alignment of multiple permutations of the RfaH \emph{ops} site (with an N at every position) aligned against $\approx$500 bp of sequence upstream of the first PVC CDS, from 16 operons. Thus, the sequence is sufficiently conserved that it captures the \emph{ops} site with various redundancy, not resulting in alignment to elsewhere in the sequence. Despite the variability in the \emph{Photorhabdus} equivalent site, the canonical \emph{ops} site can be aligned, highlighting its position in 16 PVC operons.
 
 \begin{figure}[p]
 \vspace{-0.5cm}
@@ -288,8 +280,9 @@ Future work:
 \hideruler
 \vsepspace{0.2pt}
 \showsequencelogo{bottom}
-\showconsensus[ColdHot]{bottom}
-\defconsensus{.}{lower}{upper}
+%\showconsensus[ColdHot]{bottom}
+%\defconsensus{.}{lower}{upper}
+\hideconsensus
 \topspace{-3pt}
 \featuressmall
 \feature{top}{1}{1..12}{brace}{ops site}
@@ -306,7 +299,22 @@ Future work:
 \clearpage
 
 
-\subsubsection{Activity in RfaH mutant strains}
+\subsubsection{Mutagenising RfaH}
+With only one candidate for an AnfA1 orthologue detected within \emph{Photorhabdus} it was decided to try and create knockouts of the protein to see if this abolished all PVC biosynthesis and would result in no GFP intensity in the reporter constructs. Given RfaH's broad role in anti-termination of many operons potentially, it wasn't clear whether it would be possible to knock it out however. Turning once again to the Keio collection, it was noted that a $\Delta$\emph{rfaH} strain was available (BW25113 strain JW3818\footnote{\url{https://cgsc2.biology.yale.edu/Strain.php?ID=109043}}), thus the gene was non-essential in other \emph{Enterobacteriaceae}. This Keio strain was also fortunately available from a neighbouring lab, and was secured for assaying. It has been noted however, that NusG is essential, and that RfaH is likely the result of a gene duplication and paralogy event, which may at least partially account for its lack of essentiality \citep{Baba2006, Belogurov2007}.
+
+
+
+Then mention efforts to knock out rfah with recombineering and suicide plasmids - cant be done
+
+Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked out in Photo
+ - Mention that RfaH was initially thought to be essential in the first wave of keio knockouts but later was able to be removed.
+
+Thus, knockout studies were not feasible in the time remaining, and may actually not be tractable at all for photorhabdus studies.
+Future work:
+	Over expression of RfaH instead, though its role in multiple operons will likely make it very difficult to fully understand its role
+
+
+
 
 \myparagraph{\emph{Photorhabdus}}
 No luck. Suicide plasmid and recombineering.

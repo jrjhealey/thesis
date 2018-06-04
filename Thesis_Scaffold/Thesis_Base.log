@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  1 JUN 2018 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  4 JUN 2018 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8115,16 +8115,21 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 225--226
 [][] 
  []
 
-[210] [211]
+[210] [211] [212]
 (/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/resources/alig
-nments/PVC_upstream_w_RfaH.afasta: . . ) [212] [213] [214] [215
+nments/PVC_upstream_w_RfaH.afasta: . . ) [213] [214]
 
-]) [216]
+Package natbib Warning: Citation `Belogurov2007' on page 215 undefined on input
+ line 303.
+
+[215
+
+] [216]) [217]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 469.
 
-[217
+[218
 
 ] (../chapters/discussion/discussion.tex
 
@@ -8141,41 +8146,41 @@ Chapter 7.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 1.
 
-[218
+[219
 
 ]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 64.
 
-[219
+[220
 
-] [220] [221] [222]
+] [221] [222] [223]
 LaTeX Font Info:    Font shape `OML/pxr/m/n' in size <9> not available
 (Font)              Font shape `OML/pxmi/m/it' tried instead on input line 367.
 
- [223] [224] [225] [226]
+ [224] [225] [226] [227]
 Missing character: There is no ¬ in font pxr!
 Missing character: There is no † in font pxr!
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
- [227] [228]
+ [228] [229]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
- [229] [230]
+ [230] [231]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no î in font pxr!
 
-[231] [232] [233] [234] [235] [236] [237]
+[232] [233] [234] [235] [236] [237] [238]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ê in font pxr!
- [238] [239] [240] [241]
+ [239] [240] [241] [242]
 Missing character: There is no à in font pxr!
- [242]
+ [243]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
@@ -8183,23 +8188,23 @@ Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
 
-[243] [244] [245]
+[244] [245] [246]
 Missing character: There is no Ô in font pxr!
 Missing character: There is no ¨ in font pxr!
 Missing character: There is no Å in font pxr!
 Missing character: There is no Ô in font pxr!
 Missing character: There is no ¨ in font pxr!
 Missing character: There is no Å in font pxr!
- [246] [247] [248]
+ [247] [248] [249]
 Missing character: There is no ‚ in font pxr!
 Missing character: There is no Ä in font pxr!
 Missing character: There is no ì in font pxr!
-) [249]
+) [250]
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 487.
 
-[250
+[251
 
 
 ]
@@ -8208,7 +8213,7 @@ Appendix A.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 490.
 
-[251
+[252
 
 ]
 Appendix B.
@@ -8216,7 +8221,7 @@ Appendix B.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 493.
 
-[252
+[253
 
 ]
 Appendix C.
@@ -8225,7 +8230,7 @@ Appendix C.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 1.
 
-[253
+[254
 
 ]
 Appendix D.
@@ -8233,9 +8238,9 @@ Appendix D.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 251.
 
-[254
+[255
 
-] [255] [256] [257]) [258]
+] [256] [257] [258]) [259]
 Appendix E.
 
 
@@ -8244,7 +8249,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=6172, 597.50829pt x 845.0471pt>
+06703.pdf, id=6183, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -8278,7 +8283,7 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=6175, page=1, 597.50829pt x 845.0471pt>
+06703.pdf, id=6186, page=1, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
@@ -8300,7 +8305,7 @@ es/publications/ange201706703.pdf, page1 used on input line 501.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 501.
 
-[259
+[260
 
 ]
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
@@ -8327,39 +8332,6 @@ e201706703.pdf Graphic file (type pdf)
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
 es/publications/ange201706703.pdf, page1 used on input line 501.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [260 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
-ge201706703.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
-arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
-und PDF version <1.6>, but at most version <1.5> allowed
-
-</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=6262, page=2, 597.50829pt x 845.0471pt>
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 2>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page2 used on input line 501.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 2>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page2 used on input line 501.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
-e201706703.pdf Graphic file (type pdf)
-
-<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 2>
-Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page2 used on input line 501.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [261 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
 ge201706703.pdf>]
 
@@ -8368,30 +8340,30 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=6304, page=3, 597.50829pt x 845.0471pt>
+06703.pdf, id=6274, page=2, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 3>
+201706703.pdf, page 2>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page3 used on input line 501.
+es/publications/ange201706703.pdf, page2 used on input line 501.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 3>
+201706703.pdf, page 2>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page3 used on input line 501.
+es/publications/ange201706703.pdf, page2 used on input line 501.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 3>
+201706703.pdf, page 2>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page3 used on input line 501.
+es/publications/ange201706703.pdf, page2 used on input line 501.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [262 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
 ge201706703.pdf>]
@@ -8401,33 +8373,66 @@ arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
-06703.pdf, id=6319, page=4, 597.50829pt x 845.0471pt>
+06703.pdf, id=6315, page=3, 597.50829pt x 845.0471pt>
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 4>
+201706703.pdf, page 3>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page4 used on input line 501.
+es/publications/ange201706703.pdf, page3 used on input line 501.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 4>
+201706703.pdf, page 3>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page4 used on input line 501.
+es/publications/ange201706703.pdf, page3 used on input line 501.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
 e201706703.pdf Graphic file (type pdf)
 
 <use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
-201706703.pdf, page 4>
+201706703.pdf, page 3>
 Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
-es/publications/ange201706703.pdf, page4 used on input line 501.
+es/publications/ange201706703.pdf, page3 used on input line 501.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [263 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
-ge201706703.pdf>] [264] (./Thesis_Base.tdo
+ge201706703.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/joehealey/Documents/W
+arwick/PhD/Thesis/appendices/publications/ange201706703.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+
+</Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange2017
+06703.pdf, id=6330, page=4, 597.50829pt x 845.0471pt>
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 4>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page4 used on input line 501.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 4>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page4 used on input line 501.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ang
+e201706703.pdf Graphic file (type pdf)
+
+<use /Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange
+201706703.pdf, page 4>
+Package pdftex.def Info: /Users/joehealey/Documents/Warwick/PhD/Thesis/appendic
+es/publications/ange201706703.pdf, page4 used on input line 501.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [264 </Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/an
+ge201706703.pdf>] [265] (./Thesis_Base.tdo
 Overfull \hbox (150.09184pt too wide) in paragraph at lines 10--10
  [][] [][][][] \OT1/pxr/m/n/10.95 be sure to write a sec-tion around the claim 
 in this pa-per https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/ 
@@ -8437,9 +8442,9 @@ in this pa-per https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 16.
 
-[265
+[266
 
-] [266])
+] [267])
 \tf@tdo=\write12
 \openout12 = `Thesis_Base.tdo'.
 
@@ -8447,15 +8452,21 @@ less on input line 16.
 
 Package natbib Warning: There were undefined citations.
 
-[267]
+[268]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
  (./Thesis_Base.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
-Package rerunfilecheck Info: File `Thesis_Base.out' has not changed.
-(rerunfilecheck)             Checksum: 552E8DF400ADA502DE42A88D854C1AB9;14639.
 
+
+Package rerunfilecheck Warning: File `Thesis_Base.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis_Base.out':
+(rerunfilecheck)             Before: 552E8DF400ADA502DE42A88D854C1AB9;14639
+(rerunfilecheck)             After:  07267437279F67C57936A137A82A70A7;14625.
 
 LaTeX Warning: There were undefined references.
 
@@ -8464,13 +8475,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 58663 strings out of 492995
- 1140088 string characters out of 4882705
- 6884447 words of memory out of 10000000
- 59924 multiletter control sequences out of 15000+600000
+ 58668 strings out of 492995
+ 1140135 string characters out of 4882705
+ 6876129 words of memory out of 10000000
+ 59927 multiletter control sequences out of 15000+600000
  109840 words of font info for 291 fonts, out of 5000000 for 9000
  1141 hyphenation exceptions out of 8191
- 970i,21n,982p,10450b,25807s stack positions out of 10000i,500n,10000p,5000000b,80000s
+ 970i,21n,982p,10450b,25801s stack positions out of 10000i,500n,10000p,5000000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb></usr/local/texlive/20
@@ -8494,10 +8505,10 @@ latino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8
 a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10.p
 fb>
-Output written on Thesis_Base.pdf (283 pages, 66637300 bytes).
+Output written on Thesis_Base.pdf (284 pages, 66639365 bytes).
 PDF statistics:
- 6739 PDF objects out of 7423 (max. 8388607)
- 5489 compressed objects within 55 object streams
- 1006 named destinations out of 1200 (max. 500000)
+ 6750 PDF objects out of 7423 (max. 8388607)
+ 5499 compressed objects within 55 object streams
+ 1008 named destinations out of 1200 (max. 500000)
  3453 words of extra memory for PDF output out of 10000 (max. 10000000)
 
