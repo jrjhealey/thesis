@@ -69,7 +69,7 @@ All of the techniques that follow have specifically avoided attempts at classica
 
 Moreover, much of the existing literature for cloning of long operons pointed to homologous recombination based techniques as a promising approach for subcloning recalcitrant or difficult targets (for example, \cite{Wang2016, Garcia2004}, both of whom present novel DNA capture techniques). Despite the interest in bioprospecting or `genome mining' (combing genomes for biosynthetic gene clusters of interest) of late \citep{Ziemert2016, VanLanen2006, Netta2009, Lautru2005, Bergmann2007, Wenzel2009, Charlop-Powers2014}, due in no small part to the explosion of interest and improved capabilities in (meta)genomics, it is still non-trivial to manipulate sequences of this size.
 
-\subsubsection{Recombineering}
+\subsubsection{Recombineering}\label{recombineering}
 Since the original cosmids containing segments of the captured genome were available, it was decided that a promising approach might be to try and engineer control in to the replicons that were already obtained, attributing the reductions in cell viability to simple uncontrolled expression via natural promoters.
 
 Recombineering is a long standing technique for `recombination-mediated genetic engineering' (hence the name). It relies on the use of 3 phage $\lambda$ proteins, named Gam, Beta, and exo, to facilitate the incorporation of segments of linear DNA with 5' and 3' homologous stretches to an insert site of choice. Perhaps its most `famous' use is the technique of choice for the generation of the Keio collection of \emph{E. coli} knockouts, which first defined a minimal essential genome \citep{Baba2006}. Two major alternative techniques exist, using 2 different enzyme sets: RecET from the Rac prophage and ``Lambda-Red", which is the mechanism discussed here. Exo is an exonuclease responsible for creating 3' overhangs (it has 5' $\rightarrow$ 3' exonuclease activity, hence its name); Beta is a single strand binding protein which stabilises these overhangs so that they aren't degraded by host enzymes and recombination can occur more efficiently. To further improve the recombination efficiency, the Gam protein inhibits the RecBCD nuclease complex \citep{Yu2000}. \vref{recombineeringmechanism} shows a schematic of how the process works.
@@ -83,7 +83,7 @@ Recombineering is a long standing technique for `recombination-mediated genetic 
 \end{figure}
 
 
-\myparagraph{Chromosomal engineering}
+\myparagraph{Chromosomal engineering}\label{chromosomalengineering}
 Since recombineering was a new technique in the lab, a working protocol was first devised by attempting to knock out chromosomal targets. Three chromosomal \emph{E. coli} targets were chosen as trials. Initially the \emph{att} site used for phage insertion was chosen as it was proposed that this should be non-essential. All attempts to engineer this site failed however, and thus it was hypothesised that perhaps this region was too `genetically active', possibly with prophages moving, to be engineerable. Instead, the 3 sites chosen to replace it were the \emph{hyfC} locus, which encodes part of the hydrogenase complex, since in the Keio collection data this was scored as the least essential gene (and thus should be easy to knock out) \citep{Yu2000}. Moreover, the hydrogenase is only transcriptionally active under anaerobic conditions \citep{Skibinski2002}, which suggested that the region would be experiencing less `cellular traffic', such as RNA polymerases, thus making recombination as simple as possible. Next, using the same approach \emph{speB} was identified as the next-least essential protein. \emph{speB} encodes an `agmatinase' enzyme, which is responsible for producing putrescine and urea from the precursor agmatine \citep{Szumanski1990}. Lastly, the endonuclease encoded by the gene \emph{endA} was targeted for knockout. The primers in \vref{specprimers}, show the sequences used to amplify antibiotic resistance cassettes encoded on the helper plasmids pJET-FRT-Kan and pJET-FRT-Cat. These plasmids carry an antibiotic cassette flanked by conserved primers that can be used to amplify either, and Flp-flippase recombination sites which can be used to optionally `pop out' the introduced marker to create (semi)clean deletions. Note, \emph{endA} is denoted as a `pseudo' \emph{endA} in the table with a $\psi$, since the protein is actually mutated in laboratory \emph{E. coli} already. to reduce its proteolytic activity, however the locus is still mostly present.
 
 Recombineering was performed as outlined in \vref{recombineering}. Successful colonies were screen with the primers used to amplify the cassette, and a number of successful colonies were observed for all 3 inserts. To be certain that the insert was correct, flanking primers to the \emph{hyfC} locus were designed $\approx$ 200 bp up and downstream of the insertion site, and used to confirm the correct insertion via Sanger sequencing.
@@ -106,7 +106,7 @@ Mention that separately PVCs 1-5, 13, and 11 have all been cloned without a prob
 
 
 
-\subsection{Population heterogeneity in PVC activity}
+\subsection{Population heterogeneity in PVC activity}\label{heterogeneity}
 A pre-existing hypothesis for the manner in which PVCs are deployed was that the populations may demonstrate extreme variability/heterogeneity, as is often the case with other aspects of \emph{Photorhabdus} physiology. In order to investigate this further, a selection of PVC operons from both \Plum{} and \Pasy{} were chosen to have their promoters cloned in to fusions with GFP. Briefly, the promoterless GFP bearing plasmid pGAG had been previously derivatised by the lab to remove the ribosome binding site and start codon of the GFP so that full promoter region fusions could be made. Primers were then designed to incorporate $\approx$500 bp upstream of 4 PVC operons, and the first 5 amino acids of each PVC1 locus from both \Plum{} and \Pasy, thus reconstituting the now fused GFP coding sequence and ensuring a reliable fusion. The constructs can be found in \addfloat{Construct maps}, and were confirmed by Sanger sequencing. Vector descriptions and primers can be found in \vref{methods}.
 
 Images were captured on a Leica DMi-8 inverted epifluorescent microscope with a Hamamatsu Flash4 4K camera, under phase contrast and GFP fluorescent channels. Due to heterogeneity in the sample prep on agar pad-based slides, some images were darker than others. Consequently, images have been postprocessed to normalise their intensities to a control reference image which had an acceptable grey intensity for reproduction clarity. Images have also had their colour depth reduced, as well as being downsampled to 35 pixels per inch, from 72 (to reduce image file size).
@@ -256,11 +256,14 @@ As explored in the Introduction to this chapter, the closely related Afp tailoci
 
 Searching for probable orthologues within \emph{Photorhabdus} via BLAST, with even extremely loose identity cut-offs reveals only matches to the chromosomally located RfaH protein, with no `specialised' orthologues like that of AnfA1 identified. Moreover, without restricting BLAST results to the \emph{Photorhabdus} genus specifically, a significant number of various NusG and RfaH orthologues match with better identity, such that the even the chromosomal RfaH identified doesn't even appear in the top 100 best matches. The next non-\emph{Serratia} sequence to match is NusG (WP\_087638535) from \emph{Klebsiella penumoniae} at an E-value of \sn{6.38}{14} versus \sn{4}{12} for the first \emph{Photorhabdus} sequences to match (BLASTp). The \emph{Serratia} AnfA1 protein therefore represents a specialised NusG/RfaH-like homolog, and has likely undergone very different selection pressures, due to its carriage on a mobile element (large plasmid).
 
+Unusually, the PB68.1 strain has an additional \emph{rfaH} paralogue further downstream on the same strand, associated with a number of pilus encoding genes. On further investigation, this additional gene copy appears to only be present in \Pasy{} strains with an Eastern/Asian origin, being present in isolates from Nepal (``Nepal") and Australia (``Beaudesert" and ``Kingscliff"), but not in the USA associated strains (ATCC43949/ATCC43951) or European isolates (``HIT" or ``JUN").
+
 For \emph{Photorhabdus}, this presents a couple of hypotheses (if it is assumed for the moment that PVCs are indeed regulated by an \emph{rfaH}-like protein). Firstly, that the chromosomal RfaH is sufficient for regulation of the PVCs and acts to ensure anti-termination as it would for any other operon. Some support for this idea can be taken from the fact that the \emph{Photorhabdus} \emph{ops} site is evidently reasonably diverse (for a conserved site). As the alignment in \vref{rfahmsa} shows, across 16 PVC operons, only 4 positions are identical, with a further 2 differing only in 2 or 3 particular operons, and the consensus sequence has a Hamming distance of 6 to the prototypical \emph{E. coli} sequence. A diversified operator sequence would suggest a diversified cognate binding protein, so as to ensure the binding partnership is maintained. It is also interesting that the putative \emph{ops} sequence for the PVCs does not adhere to what is canonically considered the conserved sequence, whilst the \emph{Serratia} Afp site does (with a sequence of \texttt{5'-GGCGGTAG\underline{CA}TG-3'}, only varying in the 2 degenerate N sites shared by \emph{E. coli} (underlined)). The alternative explanation is that \emph{Photorhabdus} is using an even more diverse orthologue of a NusG/RfaH-like protein, and the efforts to identify the \emph{Photorhabdus} equivalent of AnfA1 simply isnt sensitive enough. This hypothesis might mesh with the fact that the \emph{ops} site is so diverse, but is difficult to prove bioinformatically, and will likely need some experimental data to correlate.
 
 \vref{rfahmsa} shows a multiple sequence alignment of multiple permutations of the RfaH \emph{ops} site (with an N at every position) aligned against $\approx$500 bp of sequence upstream of the first PVC CDS, from 16 operons. Thus, the sequence is sufficiently conserved that it captures the \emph{ops} site with various redundancy, not resulting in alignment to elsewhere in the sequence. Despite the variability in the \emph{Photorhabdus} equivalent site, the canonical \emph{ops} site can be aligned, highlighting its position in 16 PVC operons.
 
-\begin{figure}[p]
+\vspace{1cm}
+\begin{figure}[h]
 \vspace{-0.5cm}
 \begin{texshade}{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/resources/alignments/PVC_upstream_w_RfaH.afasta}
 \seqtype{N}
@@ -299,34 +302,48 @@ For \emph{Photorhabdus}, this presents a couple of hypotheses (if it is assumed 
 \clearpage
 
 
-\subsubsection{Mutagenising RfaH}
-With only one candidate for an AnfA1 orthologue detected within \emph{Photorhabdus} it was decided to try and create knockouts of the protein to see if this abolished all PVC biosynthesis and would result in no GFP intensity in the reporter constructs. Given RfaH's broad role in anti-termination of many operons potentially, it wasn't clear whether it would be possible to knock it out however. Turning once again to the Keio collection, it was noted that a $\Delta$\emph{rfaH} strain was available (BW25113 strain JW3818\footnote{\url{https://cgsc2.biology.yale.edu/Strain.php?ID=109043}}), thus the gene was non-essential in other \emph{Enterobacteriaceae}. This Keio strain was also fortunately available from a neighbouring lab, and was secured for assaying. It has been noted however, that NusG is essential, and that RfaH is likely the result of a gene duplication and paralogy event, which may at least partially account for its lack of essentiality \citep{Baba2006, Belogurov2007}.
+\subsubsection{Controlling RfaH activity}
+With only one candidate for an AnfA1 orthologue detected within \emph{Photorhabdus} it was decided to try and create over-expressable constructs of the protein, to study whether a greater number of the population could be encouraged to express the operon through direct induction. This was pursued in a couple of different ways.
 
-
-
-Then mention efforts to knock out rfah with recombineering and suicide plasmids - cant be done
-
-Mention BW2115 knock out having weird morphology, and RfaH couldnt be knocked out in Photo
- - Mention that RfaH was initially thought to be essential in the first wave of keio knockouts but later was able to be removed.
-
-Thus, knockout studies were not feasible in the time remaining, and may actually not be tractable at all for photorhabdus studies.
-Future work:
-	Over expression of RfaH instead, though its role in multiple operons will likely make it very difficult to fully understand its role
-
-
-
-
-\myparagraph{\emph{Photorhabdus}}
-No luck. Suicide plasmid and recombineering.
 
 \myparagraph{\emph{E. coli}}
-BW keio strain has weird morphology down the microscope. Decided not to proceed any further.
+Turning once again to the Keio collection, it was noted that a $\Delta$\emph{rfaH} strain was available (BW25113 strain JW3818\footnote{\url{https://cgsc2.biology.yale.edu/Strain.php?ID=109043}})\citep{Baba2006}. This Keio strain was fortunately available from a neighbouring lab, and was secured for assaying. It has been observed that NusG is essential, and that RfaH is likely the result of a gene duplication and paralogy event, which may at least partially account for its lack of essentiality \citep{Belogurov2007}.
+
+The reporter constructs produced for use in \vref{heterogeneity} were transformed in to the deletion JW3818 strain, and \emph{rfaH} was also cloned in to the inducible pBAD30 plasmid in anticipation of complementation studies.
+
+Upon assaying the deletion mutant of \emph{E. coli} however, it was observed microscopically that the BW25113 strain, despite being a K-12 lineage \emph{E. coli}, had unusual cellular morphologies. Rather than the typical length rod shape that is expected, a morphology where a central `waist' appeared constricted was observed (making the cells appear to have a coccoid, figure-of-eight shape). It was decided that this unusual morphology may interfere with any further study, possibly due to BW25113 being a `wilder' strain, and this experimental thread was abandoned.
+
+\myparagraph{\emph{Photorhabdus}}
+Having abandoned the \emph{E. coli} approach, an alternative strategy with \emph{Photorhabdus} was devised. A recombineering approach and the use of a suicide plasmid were attempted in order to introduce an inducible promotor upstream of the \emph{rfaH} locus in the TT01 and PB68.1 strains of \Plum{} and \Pasy, respectively. Due to \Pasy{} PB68.1's paralogy in \emph{rfaH}, only the gene located in the equivalent site as the TT01 orthologue was targeted. It is unknown what effect a secondary gene copy might have at this stage.
+
+\emph{Photorhabdus} can be recalcitrant when cloning at the best of times, but in other efforts the PB68.1 strain has proven the most tractable \Pasy{} strain. The suicide plasmid approach which has been effeective in other work, was designed to incorporate an inducible promoter in front of the gene. Ideally, a \Pasy{} strain such as ATCC43949, which is the more prototypical \Pasy{} strain used in the lab, could have been used to avoid the problem of paralogy, however there have never been successful attempts to engineer it. The suicide plasmid was conjugated in to \emph{Photorhabdus} via the \emph{E. coli} propagation strain, S17 $\lambda$\emph{pir},
+
+Since it was unknown whether the region of the genome would be tractable or not, recombineering was also attempted as an alternative. Recent papers have shown that recombineering is feasible in \emph{Photorhabdus}, and endogenous orthologus of the exo, beta, and gam proteins have also been found \citep{Yin2015}.
+
+Despite all positive indications from previous literature attesting to the potential non-essentiality of RfaH, and former successes in engineering \emph{Photorhabdus} however, it was not possible to recover any successfully recombined colonies and thus this element of the study was also abandoned. As was observed with the initial attempts at recombineering the \emph{att} site, discussed in \vref{chromosomalengineering}, it appears that some regions within the chromosome are simply too recalcitrant. In \emph{Photorhabdus} it may be the case that this RfaH locus is too tightly controlled due to its involvement with other genetic pathways, and that any attempt to interfere with it resulted in non-viable cells. The locus is also quite densely populated with genes on both strands, as can be seen in \vref{rfahlocus}, which shows the \Plum{} TT01 chromosomal region for the attempted engineering. The 5' region of RfaH is only $\approx$600 bp (highlighted in cyan in the figure), and likely contains promotors for the \emph{ubiD} gene on the opposite strand. Thus, there is potentially a high degree of transcriptional activity and secondary structure in the region which could prevent efficient recombination.
+
+\begin{figure}[h]
+    \includegraphics[width=\textwidth, clip, trim={82 260 82 200 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/rfah_locus.pdf}
+    \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+    \caption[RfaH locale in \Plum{} TT01]{\textsc{\normalsize The chromosomal locale of \emph{rfaH} in \Plum{} TT01} \vspace{0.1cm} \newline The chromosomal locale of the \emph{rfaH} in \Plum{} TT01, demonstrating the narrow upstream region targeted, unsuccessfully, for engineering (cyan). \Pasy{} PB68.1 has an equivalent locus, and an additional paralogue elsewhere in the genome, closely associated with a pilus, only found in certain \emph{Photorhabdus} strains.}
+\label{rfahlocus}
+\end{figure}
+
 
 \section{Discussion}
 
-Do not get too hung up on RfaH itself - it may be a different protein thats LIKE RfaH that's responsible. Sigma70 binds to the same site for example..\citep{Sevostyanova2008}
+This chapter has attempted to get a handle on the manner in which PVCs are deployed naturally, and devise new ways of heterologously cloning these operons, such that they could be synthetically expressed at will in future. Being able to express a large, multipartite, biological structure such as the PVCs will be crucial to their continued study, but there are practical considerations to be made that are not usually a concern for more `standard' protein expression.
+
+Heterologous expression of PVCs presents some slightly unique challenges. Unlike phage, which can be easily recovered from plaque assays and infected cultures (though do have their own set of considerations such as identifying a infectable host), the synthesis of PVCs is being directed by the cell, rather than `its own' DNA. Both the R-type pyocin and Afp have the advantage than purification is made much more straight-forward by virtue of there only being single examples of the structures in any one genome. Thus, the host organism can be used for production and any genetic manipulations, with confidence in the `final product'. In the case of \emph{Photorhabdus}, one cannot be entirely certain that, when isolating PVCs, the product of a single operon is obtained, and not a mix from the 4-5 that are present elsewhere in the genome. The paralogy this results in also means that, without making up to 6 simultaneous modifications, it is also impossible to rule out conserved elements of different PVCs naturally `transcomplementing' one another. In the case of the Afp operons, they were also readily available on natural plasmids, making them considerably more genetically tractable.
+
+Consequently, moving out of the host organism, and in to an expression strain such as a laboratory \emph{E. coli} is desirable. Broadly speaking there are 2 approaches to cloning long operons such as these: `bottom up' - cloning small pieces, and stitching them together, or `top down' - capturing intact long segments of DNA and then engineering on to these constructs as necessary.
 
 Discussion of Yangs constructs - the long form including the RfaH upstream region has aberrant expression profiles (circumstantial data)
+
+
+Do not get too hung up on RfaH itself - it may be a different protein thats LIKE RfaH that's responsible. Sigma70 binds to the same site for example..\citep{Sevostyanova2008}
+
+
 
 Miscroscopy unambigously confirms population heterogeneity in the cultures, but presents conflicting theories about the manner in which the PVCs are deployed (i.e. not restricted to the stringent response), and there is little categorical agreement between expression activity and assorted cellular morphologies.
 
@@ -340,7 +357,14 @@ The widespread literature regarding Gibson assembly unambiguously confirms its u
 
 Other members of the lab have had success in assembling multiple fragments (albeit of considerably smaller size) by the use of custom made enzyme mixes. In this study, only ready mixed assembly kits from NEB were tested, so there may be scope to improve the assembly process by `starting from scratch'.
 
+In future, an optimised long range PCR approach might be an option. During this project some attempts to PCR up to 18 kb were successful, though subsequent extraction of the DNA proved problematic, let alone cloning. As with many of the trickier molecular techniques, long range PCR is something of a `dark art', requiring considerable optimisation.
+
+
 
 RNAseq doesn't reveal much about operon transcript architecture - Direct RNA sequencing or systematic qPCR might be worthwhile.
 
+Thai doesn't appear significantly more active in PVC reporters, suggesting that 2 rfaH proteins may not have an influence.
 HexA involvement - Helge's HexA knockout?
+
+
+In future: more attempts/optimisation to control/knock out RfaH in photorhabdus. Maybe knock it out from scratch in a better E coli strain.
