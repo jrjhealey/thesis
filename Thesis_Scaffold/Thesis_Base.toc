@@ -170,14 +170,14 @@
 \contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{215}{subsubsection.6.2.3.1}
 \contentsline {paragraph}{\numberline {6.2.3.1.1}\emph {E. coli}}{215}{paragraph.6.2.3.1.1}
 \contentsline {paragraph}{\numberline {6.2.3.1.2}\emph {Photorhabdus}}{215}{paragraph.6.2.3.1.2}
-\contentsline {section}{\numberline {6.3}Discussion}{217}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Summary and future work}{218}{subsection.6.3.1}
-\contentsline {part}{IV\hspace {1em}Discussion}{220}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{221}{chapter.7}
-\contentsline {chapter}{Bibliography}{221}{chapter.7}
-\contentsline {chapter}{Appendices}{253}{section*.128}
-\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{254}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{255}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{256}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{257}{Appendix.a.D}
-\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{262}{Appendix.a.E}
+\contentsline {section}{\numberline {6.3}Discussion}{218}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Summary and future work}{222}{subsection.6.3.1}
+\contentsline {part}{IV\hspace {1em}Discussion}{224}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{225}{chapter.7}
+\contentsline {chapter}{Bibliography}{225}{chapter.7}
+\contentsline {chapter}{Appendices}{258}{section*.128}
+\contentsline {chapter}{\numberline {A}Chapter \ref {structbioinfo} Appendices}{259}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Chapter \ref {bioinformatics} Appendices}{260}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Chapter \ref {tailfibres} Appendices}{261}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Chapter \ref {tailfibres} Appendices}{262}{Appendix.a.D}
+\contentsline {chapter}{\numberline {E}Publications arising from this candidature}{267}{Appendix.a.E}

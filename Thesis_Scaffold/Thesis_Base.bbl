@@ -742,6 +742,13 @@ Ghequire, M. G.~K. and {De Mot}, R. (2015).
 \newblock {The Tailocin Tale: Peeling off Phage Tails}.
 \newblock {\em Trends in Microbiology}, 23(10):587--590.
 
+\bibitem[Giacalone et~al., 2006]{Giacalone2006}
+Giacalone, M.~J., Gentile, A.~M., Lovitt, B.~T., Berkley, N.~L., Gunderson,
+  C.~W., and Surber, M.~W. (2006).
+\newblock {Toxic protein expression in Escherichia coli using a rhamnose-based
+  tightly regulated and tunable promoter system}.
+\newblock {\em BioTechniques}, 40(3):355--364.
+
 \bibitem[Gibbs et~al., 2008]{Gibbs2008}
 Gibbs, K.~A., Urbanowski, M.~L., and Greenberg, E.~P. (2008).
 \newblock {Genetic Determinants of Self Identity and Social Recognition in
@@ -1057,6 +1064,14 @@ Kelly, L., Mezulis, S., Yates, C., Wass, M., and Sternberg, M. (2015).
   analysis}.
 \newblock {\em Nature Protocols}, 10(6):845--858.
 
+\bibitem[Khlebnikov et~al., 2000]{Khlebnikov2000}
+Khlebnikov, A., Risa, {\O}., Skaug, T., Trent, A., Keasling, J.~D., and
+  Carrier, T.~A. (2000).
+\newblock {Regulatable Arabinose-Inducible Gene Expression System with
+  Consistent Control in All Cells of a Culture Regulatable Arabinose-Inducible
+  Gene Expression System with Consistent Control in All Cells of a Culture}.
+\newblock {\em Society}, 182(24):7029--7034.
+
 \bibitem[Knott and Genoud, 2013]{Knott2013}
 Knott, G. and Genoud, C. (2013).
 \newblock {Is EM dead?}
@@ -1182,9 +1197,16 @@ Le, S., He, X., Tan, Y., Huang, G., Zhang, L., Lux, R., Shi, W., and Hu, F.
   PaP1 and JG004}.
 \newblock {\em PLoS ONE}, 8(7):1--8.
 
-\bibitem[Lee et~al., 2001]{Lee2001}
+\bibitem[Lee et~al., 2001a]{Lee2001}
 Lee, E.-C., Yu, D., {Martinez de Velasco}, J., Tessarollo, L., Swing, D.~A.,
-  Court, D.~L., Jenkins, N.~A., and Copeland, N.~G. (2001).
+  Court, D.~L., Jenkins, N.~A., and Copeland, N.~G. (2001a).
+\newblock {A Highly Efficient Escherichia coli-Based Chromosome Engineering
+  System Adapted for Recombinogenic Targeting and Subcloning of BAC DNA}.
+\newblock {\em Genomics}, 73(1):56--65.
+
+\bibitem[Lee et~al., 2001b]{Lee2001a}
+Lee, E.-C., Yu, D., {Martinez de Velasco}, J., Tessarollo, L., Swing, D.~A.,
+  Court, D.~L., Jenkins, N.~A., and Copeland, N.~G. (2001b).
 \newblock {A Highly Efficient Escherichia coli-Based Chromosome Engineering
   System Adapted for Recombinogenic Targeting and Subcloning of BAC DNA}.
 \newblock {\em Genomics}, 73(1):56--65.
@@ -1858,6 +1880,13 @@ Shneider, M.~M., Buth, S.~a., Ho, B.~T., Basler, M., Mekalanos, J.~J., and
   system spike.}
 \newblock {\em Nature}, 500(7462):350--3.
 
+\bibitem[Siegele and Hu, 1997]{Siegele1997}
+Siegele, D.~A. and Hu, J.~C. (1997).
+\newblock {Gene expression from plasmids containing the araBAD promoter at
+  subsaturating inducer concentrations represents mixed populations}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  94(15):8168--8172.
+
 \bibitem[Sievers et~al., 2011]{Sievers2011}
 Sievers, F., Wilm, A., Dineen, D., Gibson, T.~J., Karplus, K., Li, W., Lopez,
   R., McWilliam, H., Remmert, M., S{\"{o}}ding, J., Thompson, J.~D., and
@@ -1994,6 +2023,11 @@ Thanassi, D.~G., Stathopoulos, C., Karkal, A., and Li, H. (2005).
   bacteria}.
 \newblock {\em Molecular Membrane Biology}, 22(1-2):63--72.
 
+\bibitem[Thomason et~al., 2007]{Thomason2007}
+Thomason, L.~C., Costantino, N., Shaw, D.~V., and Court, D.~L. (2007).
+\newblock {Multicopy plasmid modification with phage ?? Red recombineering}.
+\newblock {\em Plasmid}, 58:148--158.
+
 \bibitem[Thomassen et~al., 2003]{Thomassen2003}
 Thomassen, E., Gielen, G., Sch{\"{u}}tz, M., Schoehn, G., Abrahams, J.~P.,
   Miller, S., and {Van Raaij}, M.~J. (2003).
@@ -2066,6 +2100,15 @@ Verma, S.~C. and Miyashiro, T. (2013).
 \newblock {Quorum sensing in the squid-Vibrio symbiosis.}
 \newblock {\em International journal of molecular sciences},
   14(8):16386--16401.
+
+\bibitem[Vetcher et~al., 2005]{Vetcher2005}
+Vetcher, L., Tian, Z.-q., Mcdaniel, R., Rascher, A., Revill, W.~P., Hutchinson,
+  C.~R., and Hu, Z. (2005).
+\newblock {Rapid Engineering of the Geldanamycin Biosynthesis Pathway by Red /
+  ET Recombination and Gene Complementation Rapid Engineering of the
+  Geldanamycin Biosynthesis Pathway by Red / ET Recombination and Gene
+  Complementation}.
+\newblock {\em Society}, 71(4):1829--1835.
 
 \bibitem[Vettiger et~al., 2017]{Vettiger2017}
 Vettiger, A., Winter, J., Lin, L., and Basler, M. (2017).
@@ -2216,6 +2259,12 @@ Yin, J., Zhu, H., Xia, L., Ding, X., Hoffmann, T., Hoffmann, M., Bian, X.,
   M{\"{u}}ller, R., Fu, J., Stewart, A.~F., and Zhang, Y. (2015).
 \newblock {A new recombineering system for Photorhabdus and Xenorhabdus}.
 \newblock {\em Nucleic Acids Research}, 43(6):e36.
+
+\bibitem[Yosef et~al., 2004]{Yosef2004}
+Yosef, I., Bloushtain, N., Shapira, M., and Qimron, U. (2004).
+\newblock {Restoration of gene function by homologous recombination: From PCR
+  to gene expression in one step}.
+\newblock {\em Applied and Environmental Microbiology}, 70(12):7156--7160.
 
 \bibitem[Yu et~al., 2000]{Yu2000}
 Yu, D., Ellis, H.~M., Lee, E.~C., Jenkins, N.~a., Copeland, N.~G., and Court,
