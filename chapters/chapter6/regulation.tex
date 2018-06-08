@@ -315,8 +315,75 @@ For \emph{Photorhabdus}, this presents a couple of hypotheses (if it is assumed 
 \clearpage
 
 As a final observation, contiguous alignment of the prototypical JUMPStart motif discussed in the Introduction to this chapter was not observed within the region around the \emph{ops} site, suggesting that the PVCs do not utilise this extended regulatory structure.
+Nor, when selecting a 20 base pair span immediately upstream of this \emph{ops} site, could any RNA hairpins be detected. Interestingly, for the Afp however, and almost perfect JUMPStart motif was found, which does not appear to have been previously reported. \vref{jumpstarts} shows the results of Vienna-RNA's RNAfold package, visualised with the Forna package, along with their folding energies. RNAs are shown for 16 PVC operons, as well as the Afp. The 3' \emph{ops} sequence is highlighted in blue, and an example of the canonical JUMPStart motif is reproduced from Wikimedia in \vref{canonicaljs}.
 
 
+\begin{figure}[h]
+\centering
+    \includegraphics[width=0.7\textwidth, clip, trim={0 0 0 0 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/JUMPstart-RNA.png}
+    \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+    \caption[The canoncial semi-degenerate JUMPstart motif]{\textsc{\normalsize The canonical sequence and structure of a JUMPstart motif} \vspace{0.1cm} \newline A diagram of the canonical JUMPstart motif, as reproduced from Wikimedia (\url{https://en.wikipedia.org/wiki/JUMPstart_RNA_motif}). The \emph{ops} site is clearly visible at the 3' end of the region. The hairpin structure of the motif is generally well conserved, though can differ in length by around 6 nucleotides, and has a pseudo-degenerate sequence. Certain positions are free to vary, whilst others are not. In a few positions, there is some degeneracy, permitting just 2 of the 4 bases for example.}
+\label{canonicaljs}
+\end{figure}
+
+
+
+\begin{figure}[p]
+\centering
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={20 0 20 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/AFP_JS.png}}
+  \put(-50,50){3.14}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{Afp}
+  \end{subfigure}
+
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVCcif_ATCC43949_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVCcif_KINGSCLIFF_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVCcif_TT01_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVClopT_ATCC43949_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVClopT_TT01_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVClopT_KINGSCLIFF_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVClumt_ATCC43949_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  \begin{subfigure}{0.24\textwidth}
+  \frame{\includegraphics[width=\textwidth, clip, trim={150 0 150 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/PVClumt_KINGSCLIFF_JS.png}}
+  \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=5pt}
+  \caption{}
+  \end{subfigure}
+  
+  
+\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+\caption[RNA structures for JUMPstart locations in PVCs/Afp]{\textsc{\normalsize Blah blah.}}
+\label{jumpstarts}
+\end{figure}
 
 \subsubsection{Controlling RfaH activity}
 With only one candidate for an AnfA1 orthologue detected within \emph{Photorhabdus} it was decided to try and create over-expressable constructs of the protein, to study whether a greater number of the population could be encouraged to express the operon through direct induction. This was pursued in a couple of different ways.
@@ -327,7 +394,7 @@ Turning once again to the Keio collection, it was noted that a $\Delta$\emph{rfa
 
 The reporter constructs produced for use in \vref{heterogeneity} were transformed in to the deletion JW3818 strain, and \emph{rfaH} was also cloned in to the inducible pBAD30 plasmid in anticipation of complementation studies.
 
-Upon assaying the deletion mutant of \emph{E. coli} however, it was observed microscopically that the BW25113 strain, despite being a K-12 lineage \emph{E. coli}, had unusual cellular morphologies. Rather than the typical length rod shape that is expected, a morphology where a central `waist' appeared constricted was observed (making the cells appear to have a coccoid, figure-of-eight shape). It was decided that this unusual morphology may interfere with any further study, possibly due to BW25113 being a `wilder' strain, and this experimental thread was abandoned.
+Upon assaying the deletion mutant of \emph{E. coli} however, it was observed microscopically that the BW25113 strain, despite being a K-12 lineage \emph{E. coli}, had unusual cellular morphologies. Rather than the typical length rod shape that is expected, a morphology where a central `waist' appeared constricted was observed (making the cells appear to have a semi-coccoid, figure-of-eight shape). It was decided that this unusual morphology may interfere with any further study, possibly due to BW25113 being a `wilder' strain, and this experimental thread was abandoned.
 
 \myparagraph{\emph{Photorhabdus}}
 Having abandoned the \emph{E. coli} approach, an alternative strategy with \emph{Photorhabdus} was devised. A recombineering approach and the use of a suicide plasmid were attempted in order to introduce an inducible promotor upstream of the \emph{rfaH} locus in the TT01 and PB68.1 strains of \Plum{} and \Pasy, respectively. Due to \Pasy{} PB68.1's paralogy in \emph{rfaH}, only the gene located in the equivalent site as the TT01 orthologue was targeted. It is unknown what effect a secondary gene copy might have at this stage.
@@ -336,11 +403,11 @@ Having abandoned the \emph{E. coli} approach, an alternative strategy with \emph
 
 Since it was unknown whether the region of the genome would be tractable or not, recombineering was also attempted as an alternative. Recent papers have shown that recombineering is feasible in \emph{Photorhabdus}, and endogenous orthologus of the exo, beta, and gam proteins have also been found \citep{Yin2015}.
 
-Despite all positive indications from previous literature attesting to the potential non-essentiality of RfaH, and former successes in engineering \emph{Photorhabdus} however, it was not possible to recover any successfully recombined colonies and thus this element of the study was also abandoned. As was observed with the initial attempts at recombineering the \emph{att} site, discussed in \vref{chromosomalengineering}, it appears that some regions within the chromosome are simply too recalcitrant. In \emph{Photorhabdus} it may be the case that this RfaH locus is too tightly controlled due to its involvement with other genetic pathways, and that any attempt to interfere with it resulted in non-viable cells. The locus is also quite densely populated with genes on both strands, as can be seen in \vref{rfahlocus}, which shows the \Plum{} TT01 chromosomal region for the attempted engineering. The 5' region of RfaH is only $\approx$600 bp (highlighted in cyan in the figure), and likely contains promotors for the \emph{ubiD} gene on the opposite strand. Thus, there is potentially a high degree of transcriptional activity and secondary structure in the region which could prevent efficient recombination.
+Despite all positive indications from previous literature attesting to the potential non-essentiality of RfaH, and former successes in engineering \emph{Photorhabdus} however, it was not possible to recover any successfully recombined colonies and thus this element of the study was also abandoned. As was observed with the initial attempts at recombineering the \emph{att} site, discussed in \vref{chromosomalengineering}, it appears that some regions within the chromosome are simply too recalcitrant. In \emph{Photorhabdus} it may be the case that this RfaH locus is too tightly controlled due to its involvement with other genetic pathways, and that any attempt to interfere with it resulted in non-viable cells. The locus is also quite densely populated with genes on both strands, as can be seen in \vref{rfahlocus}, which shows the \Plum{} TT01 chromosomal region for the attempted engineering. The 5' region of RfaH is only $\approx$600 bp (highlighted in cyan in the figure), and likely contains promoters for the \emph{ubiD} gene on the opposite strand. Thus, there is potentially a high degree of transcriptional activity and secondary structure in the region which could prevent efficient recombination.
 
-\begin{figure}[h]
-    \includegraphics[width=\textwidth, clip, trim={82 260 82 200 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/rfah_locus.pdf}
-    \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+\begin{figure}[h!]
+    \includegraphics[width=0.9\textwidth, clip, trim={82 260 82 200 }]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/rfah_locus.pdf}
+    \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=5pt}
     \caption[RfaH locale in \Plum{} TT01]{\textsc{\normalsize The chromosomal locale of \emph{rfaH} in \Plum{} TT01} \vspace{0.1cm} \newline The chromosomal locale of the \emph{rfaH} in \Plum{} TT01, demonstrating the narrow upstream region targeted, unsuccessfully, for engineering (cyan). \Pasy{} PB68.1 has an equivalent locus, and an additional paralogue elsewhere in the genome, closely associated with a pilus, only found in certain \emph{Photorhabdus} strains.}
 \label{rfahlocus}
 \end{figure}

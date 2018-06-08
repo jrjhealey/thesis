@@ -55,6 +55,7 @@
 
 # Chapter 2: Phylogenetics
 
+ - Maybe re-do the workflow? Not so keen on tikz
  - i) Show that PVCs are actually very limited to photorhabdus from the MGB results.
 
     - Perhaps show a graph of the cumulative blast scores dropping off outside Photo?
@@ -90,6 +91,7 @@
    - Elongation of the cells?
    - Crystals forming (phase bright)?
 - ACTgenerator to try and find the best RfaH candidate in photo?
+- NusG essential in e. coli? RfaH not?
 # Misc:
  - MGB parser: check if 2 seqs overlap, if so, take the longest or the intersection of the 2?
  - MGB parser: test for identical sequences, and remove redundancy.
