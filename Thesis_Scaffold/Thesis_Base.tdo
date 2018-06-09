@@ -1,54 +1,46 @@
 \contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Fill out full abbreviation list}{xiv}{section*.4}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Revisit the Afp section to clarify that there is more than one Afp now, as a result of the Hurst2018 paper (also read the paper)}{2}{section*.5}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Finish populating all primer tables}{70}{section*.22}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ remove rfaH primers if necessary, and add the primers for reporter construction from katies thesis.}{70}{section*.23}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ primers for pCEP construction?}{70}{section*.24}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add methods for conjugation if not here already}{70}{section*.25}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add MultiGeneBlast, if time allows}{93}{section*.37}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Finish primer tables}{94}{section*.38}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ flesh out table/figure captions and titles}{94}{section*.39}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add a suitable epigraph}{96}{section*.40}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make very clear that the sequence is NOT THE WHOLE STORY. We must try to get structural simulation data as structures diverge slower than sequence}{96}{section*.41}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ be sure to write a section around the claim in this paper https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/ about sequences diverging faster than sequence}{96}{section*.42}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Use quote from \cite {Leiman2010} ``The evolutionary relationship cannot be detected in their amino acid sequences" and "The crystal structure of the N-terminal fragment the Escherichia coli CFT073 VgrG protein encoded by ORF c3393 shows a significant structural similarity to the gp5-gp27 complex, despite only 13\% sequence identity [84]"}{96}{section*.43}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make a high-level chart of whether genes are more like phage or T6ss e.g. T4Like <------- PVC1 ----------> T6SS}{96}{section*.44}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ rename this section}{98}{section*.45}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Discuss differences arising from reannotation?}{98}{section*.46}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Test for bimodal distribution of HHpred E-value scores?}{99}{section*.47}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Image of PVC1-5 in locus position}{100}{section*.48}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Immunogenicity profiling of exterior sheath}{101}{section*.49}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Electrostatic comparisons of interior tube proteins + general comparisons}{101}{section*.50}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ comparisons of PVCs2,3,4 to try and understand their paralogy?}{101}{section*.51}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ table of HHpred matches}{101}{section*.52}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Table of HHpred results in appendix}{101}{section*.53}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Correlation between sequence similarity and structure similarity}{101}{section*.54}
-\contentsline {todo}{\color@fb@x {}{black}{}{red!40}{\leavevmode {\color {red!40}o}}\ Change this to a non-tikz figure for consistency?}{104}{section*.56}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Run MGB for a selection of closely related genomes, and for photorhabdus. Identify all PVCs from all photo genomes to date. Identify orthologs in a selection of closely related species}{123}{section*.78}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Zhang et al \citep {Zhang2012a} posit that PVCs are present in MANY species outside the enterobacteria - examine this further?}{123}{section*.79}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ add reference to figure once made}{123}{section*.80}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Nabil: Add a schematic of PVC presence and absence between strains to intro}{137}{section*.81}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make a Sarris/Easyfig type thing to show mosaicism?}{137}{section*.82}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Include more details of the parameters of clustering the genes (ID/function etc)}{137}{section*.83}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Explain the clustering table, or change to presence/absence and move locus tag info to supp.}{137}{section*.84}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ add more detail to tree, GC and AAID figure captions (mention median line in GC/AAID}{137}{section*.85}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Consider collapsing low support nodes in trees/colour coordination/annotation/show significance of splits}{137}{section*.86}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ consider merging trees in to 4x4 panels}{137}{section*.87}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ annotate heatmaps/figures with the functions of the PVC\# numberings (e.g. "tube"/"spike")}{137}{section*.88}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Create more summary figures for the discussion e.g. table of PVC identification criteria}{137}{section*.89}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Elaborate on the limitations of the method (e.g. this is parsimony, but could be wrong)}{137}{section*.90}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Re-create gel image?}{196}{section*.112}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Diagram of the devised method for engineering cosmids}{196}{section*.113}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{273}{section*.131}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with \\citep}{273}{section*.132}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: go back and change citep to cite where the paper has been referred to directly in the text to get rid of unecessary brackets}{273}{section*.133}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{273}{section*.134}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Revisit captions, particularly in phylogenetics chapter to make them more descriptive.}{273}{section*.135}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{273}{section*.136}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count}{273}{section*.137}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{273}{section*.138}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Complete appendices including: All HHpred hits/Scripts/annotate multiple seq alignments}{273}{section*.139}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: finish declaration and abstract}{273}{section*.140}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{273}{section*.141}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Epigraphs for all chapters}{273}{section*.142}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{273}{section*.143}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{273}{section*.144}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Finish populating all primer tables}{70}{section*.21}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ remove rfaH primers if necessary, and add the primers for reporter construction from katies thesis.}{70}{section*.22}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ primers for pCEP construction?}{70}{section*.23}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add methods for conjugation if not here already}{70}{section*.24}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add MultiGeneBlast, if time allows}{93}{section*.36}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Finish primer tables}{94}{section*.37}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ flesh out table/figure captions and titles}{94}{section*.38}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ be sure to write a section around the claim in this paper https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4137710/ about sequences diverging faster than sequence}{96}{section*.39}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make a high-level chart of whether genes are more like phage or T6ss e.g. T4Like <------- PVC1 ----------> T6SS}{96}{section*.40}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Image of PVC1-5 in locus position}{100}{section*.41}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Immunogenicity profiling of exterior sheath}{101}{section*.42}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Electrostatic comparisons of interior tube proteins + general comparisons}{101}{section*.43}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ comparisons of PVCs2,3,4 to try and understand their paralogy?}{101}{section*.44}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ table of HHpred matches}{101}{section*.45}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Table of HHpred results in appendix}{101}{section*.46}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Correlation between sequence similarity and structure similarity}{101}{section*.47}
+\contentsline {todo}{\color@fb@x {}{black}{}{red!40}{\leavevmode {\color {red!40}o}}\ Change this to a non-tikz figure for consistency?}{104}{section*.49}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Run MGB for a selection of closely related genomes, and for photorhabdus. Identify all PVCs from all photo genomes to date. Identify orthologs in a selection of closely related species}{123}{section*.71}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Zhang et al \citep {Zhang2012a} posit that PVCs are present in MANY species outside the enterobacteria - examine this further?}{123}{section*.72}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ add reference to figure once made}{123}{section*.73}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Nabil: Add a schematic of PVC presence and absence between strains to intro}{137}{section*.74}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make a Sarris/Easyfig type thing to show mosaicism?}{137}{section*.75}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Include more details of the parameters of clustering the genes (ID/function etc)}{137}{section*.76}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Explain the clustering table, or change to presence/absence and move locus tag info to supp.}{137}{section*.77}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ add more detail to tree, GC and AAID figure captions (mention median line in GC/AAID}{137}{section*.78}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Consider collapsing low support nodes in trees/colour coordination/annotation/show significance of splits}{137}{section*.79}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ consider merging trees in to 4x4 panels}{137}{section*.80}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ annotate heatmaps/figures with the functions of the PVC\# numberings (e.g. "tube"/"spike")}{137}{section*.81}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Create more summary figures for the discussion e.g. table of PVC identification criteria}{137}{section*.82}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Elaborate on the limitations of the method (e.g. this is parsimony, but could be wrong)}{137}{section*.83}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Diagram of the devised method for engineering cosmids}{197}{section*.106}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{275}{section*.124}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with \\citep}{275}{section*.125}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: go back and change citep to cite where the paper has been referred to directly in the text to get rid of unecessary brackets}{275}{section*.126}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{275}{section*.127}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Revisit captions, particularly in phylogenetics chapter to make them more descriptive.}{275}{section*.128}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{275}{section*.129}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count}{275}{section*.130}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{275}{section*.131}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Complete appendices including: All HHpred hits/Scripts/annotate multiple seq alignments}{275}{section*.132}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: finish declaration and abstract}{275}{section*.133}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{275}{section*.134}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Epigraphs for all chapters}{275}{section*.135}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{275}{section*.136}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{275}{section*.137}

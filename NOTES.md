@@ -16,7 +16,7 @@
  - Make it plain that because there was so little functional information to go off in the original annotations, re-annotating and querying via HHPred was necessary and useful
  - HHpred results (supplementary table)
  - rmsd vs sequence ID xorrelation
- - DipTest binomial distribution
+ - Interesting to note that the innner and outer tubes don't share the same/equivalent orthologies.
  - interior charge
    - The Ge et al paper has a similar figure where the electrostatics are very pronounced. Copy this.
    - Process for making inner tube donuts:
