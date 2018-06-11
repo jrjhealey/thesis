@@ -1,182 +1,183 @@
 \BOOKMARK [0][-]{Item.2}{List of Figures}{}% 1
 \BOOKMARK [0][-]{Item.2}{List of Tables}{}% 2
 \BOOKMARK [0][-]{Item.2}{List of Equations}{}% 3
-\BOOKMARK [0][-]{Item.2}{Declaration}{}% 4
-\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 5
-\BOOKMARK [-1][-]{part.1}{I Introduction \046 Methodology}{}% 6
-\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 7
-\BOOKMARK [1][-]{section.1.1}{Pa}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.1.1}{The Pa genus: the same but different}{section.1.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.2}{A biological `box of tricks'}{section.1.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.3}{The life cycle of a pathogen and mutualist}{section.1.1}% 11
-\BOOKMARK [1][-]{section.1.2}{The Pa Virulence Cassette}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.2.1}{Discovery of the PVCs}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.2}{Pa is a PVC Addict}{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.3}{PVCs as contractile nanomachines}{section.1.2}% 15
-\BOOKMARK [3][-]{subsubsection.1.2.3.1}{Of PVCs and Phage}{subsection.1.2.3}% 16
-\BOOKMARK [3][-]{subsubsection.1.2.3.2}{Of PVCs and R-type Pyocins/Tailocins}{subsection.1.2.3}% 17
-\BOOKMARK [3][-]{subsubsection.1.2.3.3}{Of PVCs and the Serratia entomophila ``Antifeeding prophage"}{subsection.1.2.3}% 18
-\BOOKMARK [3][-]{subsubsection.1.2.3.4}{Of PVCs and Type VI Secretion Systems}{subsection.1.2.3}% 19
-\BOOKMARK [4][-]{paragraph.1.2.3.4.1}{The ``Type x" Secretion System repertoire}{subsubsection.1.2.3.4}% 20
-\BOOKMARK [3][-]{subsubsection.1.2.3.5}{Of PVCs and their extended family}{subsection.1.2.3}% 21
-\BOOKMARK [4][-]{paragraph.1.2.3.5.1}{In Pseudoalteromonas luteoviolacea}{subsubsection.1.2.3.5}% 22
-\BOOKMARK [4][-]{paragraph.1.2.3.5.2}{In Amoebophilus asiaticus}{subsubsection.1.2.3.5}% 23
-\BOOKMARK [4][-]{paragraph.1.2.3.5.3}{In Cardinium hertegii}{subsubsection.1.2.3.5}% 24
-\BOOKMARK [2][-]{subsection.1.2.4}{Mechanism of Action}{section.1.2}% 25
-\BOOKMARK [2][-]{subsection.1.2.5}{The status quo of PVC genetics}{section.1.2}% 26
-\BOOKMARK [3][-]{subsubsection.1.2.5.1}{The PVC tail tube and sheath}{subsection.1.2.5}% 27
-\BOOKMARK [3][-]{subsubsection.1.2.5.2}{The spike complex and baseplate}{subsection.1.2.5}% 28
-\BOOKMARK [3][-]{subsubsection.1.2.5.3}{The operon core}{subsection.1.2.5}% 29
-\BOOKMARK [3][-]{subsubsection.1.2.5.4}{The hypervariable payload region}{subsection.1.2.5}% 30
-\BOOKMARK [2][-]{subsection.1.2.6}{PVC myths}{section.1.2}% 31
-\BOOKMARK [1][-]{section.1.3}{Summary and Thesis Aims}{chapter.1}% 32
-\BOOKMARK [0][-]{chapter.2}{Materials \046 Methodology}{part.1}% 33
-\BOOKMARK [1][-]{section.2.1}{Bacterial Culture Techniques}{chapter.2}% 34
-\BOOKMARK [2][-]{subsection.2.1.1}{Strains}{section.2.1}% 35
-\BOOKMARK [2][-]{subsection.2.1.2}{Culture Conditions}{section.2.1}% 36
-\BOOKMARK [3][-]{subsubsection.2.1.2.1}{Media}{subsection.2.1.2}% 37
-\BOOKMARK [4][-]{paragraph.2.1.2.1.1}{LB}{subsubsection.2.1.2.1}% 38
-\BOOKMARK [4][-]{paragraph.2.1.2.1.2}{SOC}{subsubsection.2.1.2.1}% 39
-\BOOKMARK [3][-]{subsubsection.2.1.2.2}{Antibiotics \046 Media Supplements}{subsection.2.1.2}% 40
-\BOOKMARK [1][-]{section.2.2}{Molecular Techniques - Nucleic Acid Methods}{chapter.2}% 41
-\BOOKMARK [2][-]{subsection.2.2.1}{Purification of Nucleic Acids}{section.2.2}% 42
-\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Genomic DNA}{subsection.2.2.1}% 43
-\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Replicon DNA}{subsection.2.2.1}% 44
-\BOOKMARK [4][-]{paragraph.2.2.1.2.1}{Plasmids}{subsubsection.2.2.1.2}% 45
-\BOOKMARK [2][-]{subsection.2.2.2}{Plasmids and Cosmids}{section.2.2}% 46
-\BOOKMARK [2][-]{subsection.2.2.3}{PCR}{section.2.2}% 47
-\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Primers}{subsection.2.2.3}% 48
-\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Taq \046 Colony PCR}{subsection.2.2.3}% 49
-\BOOKMARK [3][-]{subsubsection.2.2.3.3}{Q5}{subsection.2.2.3}% 50
-\BOOKMARK [3][-]{subsubsection.2.2.3.4}{Post-PCR Clean-up}{subsection.2.2.3}% 51
-\BOOKMARK [3][-]{subsubsection.2.2.3.5}{Quantification}{subsection.2.2.3}% 52
-\BOOKMARK [4][-]{paragraph.2.2.3.5.1}{Platereader}{subsubsection.2.2.3.5}% 53
-\BOOKMARK [2][-]{subsection.2.2.4}{Agarose Gel Electrophoresis}{section.2.2}% 54
-\BOOKMARK [3][-]{subsubsection.2.2.4.1}{Gel Extraction}{subsection.2.2.4}% 55
-\BOOKMARK [2][-]{subsection.2.2.5}{Classical Cloning}{section.2.2}% 56
-\BOOKMARK [3][-]{subsubsection.2.2.5.1}{Restriction Enzyme Digestions}{subsection.2.2.5}% 57
-\BOOKMARK [3][-]{subsubsection.2.2.5.2}{Vector Dephosphorylation}{subsection.2.2.5}% 58
-\BOOKMARK [3][-]{subsubsection.2.2.5.3}{Ligation}{subsection.2.2.5}% 59
-\BOOKMARK [2][-]{subsection.2.2.6}{Gibson Assembly}{section.2.2}% 60
-\BOOKMARK [2][-]{subsection.2.2.7}{Transformation}{section.2.2}% 61
-\BOOKMARK [3][-]{subsubsection.2.2.7.1}{Creation of Chemically Competent Cells}{subsection.2.2.7}% 62
-\BOOKMARK [3][-]{subsubsection.2.2.7.2}{Heat-shock Transformation of Chemically Competent Cells}{subsection.2.2.7}% 63
-\BOOKMARK [3][-]{subsubsection.2.2.7.3}{Electrocompetent Cells}{subsection.2.2.7}% 64
-\BOOKMARK [4][-]{paragraph.2.2.7.3.1}{E. coli}{subsubsection.2.2.7.3}% 65
-\BOOKMARK [4][-]{paragraph.2.2.7.3.2}{Pa}{subsubsection.2.2.7.3}% 66
-\BOOKMARK [2][-]{subsection.2.2.8}{Recombineering}{section.2.2}% 67
-\BOOKMARK [3][-]{subsubsection.2.2.8.1}{Preparation of Linear Oligonucleotides}{subsection.2.2.8}% 68
-\BOOKMARK [3][-]{subsubsection.2.2.8.2}{Electroporation-Recombination using -Red Bearing Plasmids}{subsection.2.2.8}% 69
-\BOOKMARK [3][-]{subsubsection.2.2.8.3}{Electroporation-Recombination with -Red Chromosomal Strains}{subsection.2.2.8}% 70
-\BOOKMARK [2][-]{subsection.2.2.9}{Sequencing}{section.2.2}% 71
-\BOOKMARK [3][-]{subsubsection.2.2.9.1}{Di-deoxy-chain-termination \(Sanger\) Sequencing}{subsection.2.2.9}% 72
-\BOOKMARK [3][-]{subsubsection.2.2.9.2}{Next Generation}{subsection.2.2.9}% 73
-\BOOKMARK [1][-]{section.2.3}{Molecular Techniques - Protein Methods}{chapter.2}% 74
-\BOOKMARK [2][-]{subsection.2.3.1}{Expression}{section.2.3}% 75
-\BOOKMARK [2][-]{subsection.2.3.2}{Harvesting}{section.2.3}% 76
-\BOOKMARK [2][-]{subsection.2.3.3}{Lysis}{section.2.3}% 77
-\BOOKMARK [2][-]{subsection.2.3.4}{Purification}{section.2.3}% 78
-\BOOKMARK [3][-]{subsubsection.2.3.4.1}{Immobilised Metal-ion Affinity Chromatography}{subsection.2.3.4}% 79
-\BOOKMARK [3][-]{subsubsection.2.3.4.2}{Gel Filtration}{subsection.2.3.4}% 80
-\BOOKMARK [3][-]{subsubsection.2.3.4.3}{Concentration/Dialysis}{subsection.2.3.4}% 81
-\BOOKMARK [2][-]{subsection.2.3.5}{Quantification}{section.2.3}% 82
-\BOOKMARK [2][-]{subsection.2.3.6}{SDS-PAGE}{section.2.3}% 83
-\BOOKMARK [2][-]{subsection.2.3.7}{Staining}{section.2.3}% 84
-\BOOKMARK [2][-]{subsection.2.3.8}{Western Blotting}{section.2.3}% 85
-\BOOKMARK [1][-]{section.2.4}{Bio-physical Techniques}{chapter.2}% 86
-\BOOKMARK [2][-]{subsection.2.4.1}{Fluorescence microscopy}{section.2.4}% 87
-\BOOKMARK [2][-]{subsection.2.4.2}{Circular Dichroism}{section.2.4}% 88
-\BOOKMARK [2][-]{subsection.2.4.3}{Crystallography}{section.2.4}% 89
-\BOOKMARK [1][-]{section.2.5}{Bioinformatics Methods}{chapter.2}% 90
-\BOOKMARK [2][-]{subsection.2.5.1}{Quality Control}{section.2.5}% 91
-\BOOKMARK [2][-]{subsection.2.5.2}{Assembly}{section.2.5}% 92
-\BOOKMARK [2][-]{subsection.2.5.3}{Mapping}{section.2.5}% 93
-\BOOKMARK [2][-]{subsection.2.5.4}{Annotation}{section.2.5}% 94
-\BOOKMARK [2][-]{subsection.2.5.5}{Alignment}{section.2.5}% 95
-\BOOKMARK [2][-]{subsection.2.5.6}{Phylogenetics}{section.2.5}% 96
-\BOOKMARK [2][-]{subsection.2.5.7}{Congruency}{section.2.5}% 97
-\BOOKMARK [2][-]{subsection.2.5.8}{Ortholog Detection}{section.2.5}% 98
-\BOOKMARK [2][-]{subsection.2.5.9}{Structure Prediction}{section.2.5}% 99
-\BOOKMARK [2][-]{subsection.2.5.10}{Structural Analysis}{section.2.5}% 100
-\BOOKMARK [2][-]{subsection.2.5.11}{Repeat detection}{section.2.5}% 101
-\BOOKMARK [2][-]{subsection.2.5.12}{RNA structure analysis}{section.2.5}% 102
-\BOOKMARK [2][-]{subsection.2.5.13}{Data Visualisation}{section.2.5}% 103
-\BOOKMARK [-1][-]{part.2}{II Computational Results}{}% 104
-\BOOKMARK [0][-]{chapter.3}{Structural Bioinformatics of PVC Proteins}{part.2}% 105
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 106
-\BOOKMARK [1][-]{section.3.2}{Experimental procedures}{chapter.3}% 107
-\BOOKMARK [2][-]{subsection.3.2.1}{Annotation}{section.3.2}% 108
-\BOOKMARK [2][-]{subsection.3.2.2}{Hidden Markov Model Homology Searching}{section.3.2}% 109
-\BOOKMARK [2][-]{subsection.3.2.3}{Exploration of the structure of PVCs by functional unit}{section.3.2}% 110
-\BOOKMARK [2][-]{subsection.3.2.4}{The PVC tube}{section.3.2}% 111
-\BOOKMARK [1][-]{section.3.3}{Discussion}{chapter.3}% 112
-\BOOKMARK [0][-]{chapter.4}{Comparative Phylogenetics of PVC Operons}{part.2}% 113
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 114
-\BOOKMARK [1][-]{section.4.2}{Phylogenetics and Congruency Analysis}{chapter.4}% 115
-\BOOKMARK [2][-]{subsection.4.2.1}{Syntenic Clustering of Orthologs}{section.4.2}% 116
-\BOOKMARK [3][-]{subsubsection.4.2.1.1}{Curation of the anomalous lumt operon}{subsection.4.2.1}% 117
-\BOOKMARK [2][-]{subsection.4.2.2}{Curation of Sequences}{section.4.2}% 118
-\BOOKMARK [2][-]{subsection.4.2.3}{Sequence Alignment and Phylogenies}{section.4.2}% 119
-\BOOKMARK [3][-]{subsubsection.4.2.3.1}{GC Content and CDS Identity Within Operons}{subsection.4.2.3}% 120
-\BOOKMARK [2][-]{subsection.4.2.4}{Gene trees}{section.4.2}% 121
-\BOOKMARK [2][-]{subsection.4.2.5}{Consensus Tree Inference via ASTRAL-II}{section.4.2}% 122
-\BOOKMARK [2][-]{subsection.4.2.6}{Congruency Analysis}{section.4.2}% 123
-\BOOKMARK [3][-]{subsubsection.4.2.6.1}{Adjusted Wallace Coefficient}{subsection.4.2.6}% 124
-\BOOKMARK [3][-]{subsubsection.4.2.6.2}{Normalised Robinson-Foulds}{subsection.4.2.6}% 125
-\BOOKMARK [2][-]{subsection.4.2.7}{Detecting PVC Homologs}{section.4.2}% 126
-\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 127
-\BOOKMARK [2][-]{subsection.4.3.1}{Correlation between PVC structural proteins and their payloads}{section.4.3}% 128
-\BOOKMARK [2][-]{subsection.4.3.2}{Identifying the PVC blueprint in other locations}{section.4.3}% 129
-\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Summary and future work}{subsection.4.3.2}% 130
-\BOOKMARK [-1][-]{part.3}{III Experimental Results}{}% 131
-\BOOKMARK [0][-]{chapter.5}{Structure and Function of PVC Tail Fibre-like Genes}{part.3}% 132
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 133
-\BOOKMARK [1][-]{section.5.2}{Experimental procedures}{chapter.5}% 134
-\BOOKMARK [2][-]{subsection.5.2.1}{in silico examination of tail fibre sequences}{section.5.2}% 135
-\BOOKMARK [3][-]{subsubsection.5.2.1.1}{Domain structure}{subsection.5.2.1}% 136
-\BOOKMARK [3][-]{subsubsection.5.2.1.2}{Sequence characteristics}{subsection.5.2.1}% 137
-\BOOKMARK [3][-]{subsubsection.5.2.1.3}{in silico cloning}{subsection.5.2.1}% 138
-\BOOKMARK [2][-]{subsection.5.2.2}{Experimental cloning, expression and purification}{section.5.2}% 139
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{IMAC Purification and Polishing}{subsection.5.2.2}% 140
-\BOOKMARK [2][-]{subsection.5.2.3}{Structural Analyses}{section.5.2}% 141
-\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Trimerism of PVC tail fibre proteins}{subsection.5.2.3}% 142
-\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Thermal stability and secondary structure studies via Circular Dichroism}{subsection.5.2.3}% 143
-\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Secondary structure prediction via Dichroweb}{subsection.5.2.3}% 144
-\BOOKMARK [4][-]{paragraph.5.2.3.3.1}{Algorithm and reference set selection}{subsubsection.5.2.3.3}% 145
-\BOOKMARK [4][-]{paragraph.5.2.3.3.2}{Secondary structure predictions}{subsubsection.5.2.3.3}% 146
-\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Comparisons with known structures}{subsection.5.2.3}% 147
-\BOOKMARK [3][-]{subsubsection.5.2.3.5}{Crystallography}{subsection.5.2.3}% 148
-\BOOKMARK [4][-]{paragraph.5.2.3.5.1}{In-situ partial proteolysis}{subsubsection.5.2.3.5}% 149
-\BOOKMARK [2][-]{subsection.5.2.4}{Finding binding partners for tail fibre proteins}{section.5.2}% 150
-\BOOKMARK [3][-]{subsubsection.5.2.4.1}{Iron nanoparticle protein pulldowns}{subsection.5.2.4}% 151
-\BOOKMARK [3][-]{subsubsection.5.2.4.2}{Sugar binding studies via glycan arrays}{subsection.5.2.4}% 152
-\BOOKMARK [1][-]{section.5.3}{Discussion}{chapter.5}% 153
-\BOOKMARK [2][-]{subsection.5.3.1}{Cloning, purification, and characterisation of PVC tail fibres}{section.5.3}% 154
-\BOOKMARK [2][-]{subsection.5.3.2}{The chimeric/split domain structure of PVC tail fibres}{section.5.3}% 155
-\BOOKMARK [2][-]{subsection.5.3.3}{Candidate binding targets for PVC tail fibres}{section.5.3}% 156
-\BOOKMARK [2][-]{subsection.5.3.4}{Summary and future work}{section.5.3}% 157
-\BOOKMARK [0][-]{chapter.6}{Synthetic \046 natural PVC operon regulation}{part.3}% 158
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 159
-\BOOKMARK [1][-]{section.6.2}{Experimental procedures}{chapter.6}% 160
-\BOOKMARK [2][-]{subsection.6.2.1}{Cloning and engineering PVC operons}{section.6.2}% 161
-\BOOKMARK [3][-]{subsubsection.6.2.1.1}{Recombineering}{subsection.6.2.1}% 162
-\BOOKMARK [4][-]{paragraph.6.2.1.1.1}{Chromosomal engineering}{subsubsection.6.2.1.1}% 163
-\BOOKMARK [4][-]{paragraph.6.2.1.1.2}{Cosmid engineering}{subsubsection.6.2.1.1}% 164
-\BOOKMARK [3][-]{subsubsection.6.2.1.2}{Gibson assembly}{subsection.6.2.1}% 165
-\BOOKMARK [2][-]{subsection.6.2.2}{Population heterogeneity in PVC activity}{section.6.2}% 166
-\BOOKMARK [3][-]{subsubsection.6.2.2.1}{Cellular morphology in reporter assays}{subsection.6.2.2}% 167
-\BOOKMARK [4][-]{paragraph.6.2.2.1.1}{Cellular elongation}{subsubsection.6.2.2.1}% 168
-\BOOKMARK [4][-]{paragraph.6.2.2.1.2}{Culture integrity}{subsubsection.6.2.2.1}% 169
-\BOOKMARK [2][-]{subsection.6.2.3}{A putative role for transcript elongation in PVC regulation}{section.6.2}% 170
-\BOOKMARK [3][-]{subsubsection.6.2.3.1}{Controlling RfaH activity}{subsection.6.2.3}% 171
-\BOOKMARK [1][-]{section.6.3}{Discussion}{chapter.6}% 172
-\BOOKMARK [2][-]{subsection.6.3.1}{Summary and future work}{section.6.3}% 173
-\BOOKMARK [-1][-]{part.4}{IV Discussion}{}% 174
-\BOOKMARK [0][-]{chapter.7}{Discussion}{part.4}% 175
-\BOOKMARK [0][-]{chapter.7}{Bibliography}{part.4}% 176
-\BOOKMARK [0][-]{section*.123}{Appendices}{part.4}% 177
-\BOOKMARK [0][-]{Appendix.a.A}{Chapter 3 Appendices}{part.4}% 178
-\BOOKMARK [0][-]{Appendix.a.B}{Chapter 4 Appendices}{part.4}% 179
-\BOOKMARK [0][-]{Appendix.a.C}{Chapter 5 Appendices}{part.4}% 180
-\BOOKMARK [0][-]{Appendix.a.D}{Chapter 5 Appendices}{part.4}% 181
-\BOOKMARK [0][-]{Appendix.a.E}{Publications arising from this candidature}{part.4}% 182
+\BOOKMARK [0][-]{Item.2}{Acknowledgements}{}% 4
+\BOOKMARK [0][-]{chapter*.1}{Declaration}{}% 5
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 6
+\BOOKMARK [-1][-]{part.1}{I Introduction \046 Methodology}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 8
+\BOOKMARK [1][-]{section.1.1}{Pa}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.1}{The Pa genus: the same but different}{section.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.2}{A biological `box of tricks'}{section.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.3}{The life cycle of a pathogen and mutualist}{section.1.1}% 12
+\BOOKMARK [1][-]{section.1.2}{The Pa Virulence Cassette}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.2.1}{Discovery of the PVCs}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.2}{Pa is a PVC Addict}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.3}{PVCs as contractile nanomachines}{section.1.2}% 16
+\BOOKMARK [3][-]{subsubsection.1.2.3.1}{Of PVCs and Phage}{subsection.1.2.3}% 17
+\BOOKMARK [3][-]{subsubsection.1.2.3.2}{Of PVCs and R-type Pyocins/Tailocins}{subsection.1.2.3}% 18
+\BOOKMARK [3][-]{subsubsection.1.2.3.3}{Of PVCs and the Serratia entomophila ``Antifeeding prophage"}{subsection.1.2.3}% 19
+\BOOKMARK [3][-]{subsubsection.1.2.3.4}{Of PVCs and Type VI Secretion Systems}{subsection.1.2.3}% 20
+\BOOKMARK [4][-]{paragraph.1.2.3.4.1}{The ``Type x" Secretion System repertoire}{subsubsection.1.2.3.4}% 21
+\BOOKMARK [3][-]{subsubsection.1.2.3.5}{Of PVCs and their extended family}{subsection.1.2.3}% 22
+\BOOKMARK [4][-]{paragraph.1.2.3.5.1}{In Pseudoalteromonas luteoviolacea}{subsubsection.1.2.3.5}% 23
+\BOOKMARK [4][-]{paragraph.1.2.3.5.2}{In Amoebophilus asiaticus}{subsubsection.1.2.3.5}% 24
+\BOOKMARK [4][-]{paragraph.1.2.3.5.3}{In Cardinium hertegii}{subsubsection.1.2.3.5}% 25
+\BOOKMARK [2][-]{subsection.1.2.4}{Mechanism of Action}{section.1.2}% 26
+\BOOKMARK [2][-]{subsection.1.2.5}{The status quo of PVC genetics}{section.1.2}% 27
+\BOOKMARK [3][-]{subsubsection.1.2.5.1}{The PVC tail tube and sheath}{subsection.1.2.5}% 28
+\BOOKMARK [3][-]{subsubsection.1.2.5.2}{The spike complex and baseplate}{subsection.1.2.5}% 29
+\BOOKMARK [3][-]{subsubsection.1.2.5.3}{The operon core}{subsection.1.2.5}% 30
+\BOOKMARK [3][-]{subsubsection.1.2.5.4}{The hypervariable payload region}{subsection.1.2.5}% 31
+\BOOKMARK [2][-]{subsection.1.2.6}{PVC myths}{section.1.2}% 32
+\BOOKMARK [1][-]{section.1.3}{Summary and Thesis Aims}{chapter.1}% 33
+\BOOKMARK [0][-]{chapter.2}{Materials \046 Methodology}{part.1}% 34
+\BOOKMARK [1][-]{section.2.1}{Bacterial Culture Techniques}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.1.1}{Strains}{section.2.1}% 36
+\BOOKMARK [2][-]{subsection.2.1.2}{Culture Conditions}{section.2.1}% 37
+\BOOKMARK [3][-]{subsubsection.2.1.2.1}{Media}{subsection.2.1.2}% 38
+\BOOKMARK [4][-]{paragraph.2.1.2.1.1}{LB}{subsubsection.2.1.2.1}% 39
+\BOOKMARK [4][-]{paragraph.2.1.2.1.2}{SOC}{subsubsection.2.1.2.1}% 40
+\BOOKMARK [3][-]{subsubsection.2.1.2.2}{Antibiotics \046 Media Supplements}{subsection.2.1.2}% 41
+\BOOKMARK [1][-]{section.2.2}{Molecular Techniques - Nucleic Acid Methods}{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.2.1}{Purification of Nucleic Acids}{section.2.2}% 43
+\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Genomic DNA}{subsection.2.2.1}% 44
+\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Replicon DNA}{subsection.2.2.1}% 45
+\BOOKMARK [4][-]{paragraph.2.2.1.2.1}{Plasmids}{subsubsection.2.2.1.2}% 46
+\BOOKMARK [2][-]{subsection.2.2.2}{Plasmids and Cosmids}{section.2.2}% 47
+\BOOKMARK [2][-]{subsection.2.2.3}{PCR}{section.2.2}% 48
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Primers}{subsection.2.2.3}% 49
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Taq \046 Colony PCR}{subsection.2.2.3}% 50
+\BOOKMARK [3][-]{subsubsection.2.2.3.3}{Q5}{subsection.2.2.3}% 51
+\BOOKMARK [3][-]{subsubsection.2.2.3.4}{Post-PCR Clean-up}{subsection.2.2.3}% 52
+\BOOKMARK [3][-]{subsubsection.2.2.3.5}{Quantification}{subsection.2.2.3}% 53
+\BOOKMARK [4][-]{paragraph.2.2.3.5.1}{Platereader}{subsubsection.2.2.3.5}% 54
+\BOOKMARK [2][-]{subsection.2.2.4}{Agarose Gel Electrophoresis}{section.2.2}% 55
+\BOOKMARK [3][-]{subsubsection.2.2.4.1}{Gel Extraction}{subsection.2.2.4}% 56
+\BOOKMARK [2][-]{subsection.2.2.5}{Classical Cloning}{section.2.2}% 57
+\BOOKMARK [3][-]{subsubsection.2.2.5.1}{Restriction Enzyme Digestions}{subsection.2.2.5}% 58
+\BOOKMARK [3][-]{subsubsection.2.2.5.2}{Vector Dephosphorylation}{subsection.2.2.5}% 59
+\BOOKMARK [3][-]{subsubsection.2.2.5.3}{Ligation}{subsection.2.2.5}% 60
+\BOOKMARK [2][-]{subsection.2.2.6}{Gibson Assembly}{section.2.2}% 61
+\BOOKMARK [2][-]{subsection.2.2.7}{Transformation}{section.2.2}% 62
+\BOOKMARK [3][-]{subsubsection.2.2.7.1}{Creation of Chemically Competent Cells}{subsection.2.2.7}% 63
+\BOOKMARK [3][-]{subsubsection.2.2.7.2}{Heat-shock Transformation of Chemically Competent Cells}{subsection.2.2.7}% 64
+\BOOKMARK [3][-]{subsubsection.2.2.7.3}{Electrocompetent Cells}{subsection.2.2.7}% 65
+\BOOKMARK [4][-]{paragraph.2.2.7.3.1}{E. coli}{subsubsection.2.2.7.3}% 66
+\BOOKMARK [4][-]{paragraph.2.2.7.3.2}{Pa}{subsubsection.2.2.7.3}% 67
+\BOOKMARK [2][-]{subsection.2.2.8}{Recombineering}{section.2.2}% 68
+\BOOKMARK [3][-]{subsubsection.2.2.8.1}{Preparation of Linear Oligonucleotides}{subsection.2.2.8}% 69
+\BOOKMARK [3][-]{subsubsection.2.2.8.2}{Electroporation-Recombination using -Red Bearing Plasmids}{subsection.2.2.8}% 70
+\BOOKMARK [3][-]{subsubsection.2.2.8.3}{Electroporation-Recombination with -Red Chromosomal Strains}{subsection.2.2.8}% 71
+\BOOKMARK [2][-]{subsection.2.2.9}{Sequencing}{section.2.2}% 72
+\BOOKMARK [3][-]{subsubsection.2.2.9.1}{Di-deoxy-chain-termination \(Sanger\) Sequencing}{subsection.2.2.9}% 73
+\BOOKMARK [3][-]{subsubsection.2.2.9.2}{Next Generation}{subsection.2.2.9}% 74
+\BOOKMARK [1][-]{section.2.3}{Molecular Techniques - Protein Methods}{chapter.2}% 75
+\BOOKMARK [2][-]{subsection.2.3.1}{Expression}{section.2.3}% 76
+\BOOKMARK [2][-]{subsection.2.3.2}{Harvesting}{section.2.3}% 77
+\BOOKMARK [2][-]{subsection.2.3.3}{Lysis}{section.2.3}% 78
+\BOOKMARK [2][-]{subsection.2.3.4}{Purification}{section.2.3}% 79
+\BOOKMARK [3][-]{subsubsection.2.3.4.1}{Immobilised Metal-ion Affinity Chromatography}{subsection.2.3.4}% 80
+\BOOKMARK [3][-]{subsubsection.2.3.4.2}{Gel Filtration}{subsection.2.3.4}% 81
+\BOOKMARK [3][-]{subsubsection.2.3.4.3}{Concentration/Dialysis}{subsection.2.3.4}% 82
+\BOOKMARK [2][-]{subsection.2.3.5}{Quantification}{section.2.3}% 83
+\BOOKMARK [2][-]{subsection.2.3.6}{SDS-PAGE}{section.2.3}% 84
+\BOOKMARK [2][-]{subsection.2.3.7}{Staining}{section.2.3}% 85
+\BOOKMARK [2][-]{subsection.2.3.8}{Western Blotting}{section.2.3}% 86
+\BOOKMARK [1][-]{section.2.4}{Bio-physical Techniques}{chapter.2}% 87
+\BOOKMARK [2][-]{subsection.2.4.1}{Fluorescence microscopy}{section.2.4}% 88
+\BOOKMARK [2][-]{subsection.2.4.2}{Circular Dichroism}{section.2.4}% 89
+\BOOKMARK [2][-]{subsection.2.4.3}{Crystallography}{section.2.4}% 90
+\BOOKMARK [1][-]{section.2.5}{Bioinformatics Methods}{chapter.2}% 91
+\BOOKMARK [2][-]{subsection.2.5.1}{Quality Control}{section.2.5}% 92
+\BOOKMARK [2][-]{subsection.2.5.2}{Assembly}{section.2.5}% 93
+\BOOKMARK [2][-]{subsection.2.5.3}{Mapping}{section.2.5}% 94
+\BOOKMARK [2][-]{subsection.2.5.4}{Annotation}{section.2.5}% 95
+\BOOKMARK [2][-]{subsection.2.5.5}{Alignment}{section.2.5}% 96
+\BOOKMARK [2][-]{subsection.2.5.6}{Phylogenetics}{section.2.5}% 97
+\BOOKMARK [2][-]{subsection.2.5.7}{Congruency}{section.2.5}% 98
+\BOOKMARK [2][-]{subsection.2.5.8}{Ortholog Detection}{section.2.5}% 99
+\BOOKMARK [2][-]{subsection.2.5.9}{Structure Prediction}{section.2.5}% 100
+\BOOKMARK [2][-]{subsection.2.5.10}{Structural Analysis}{section.2.5}% 101
+\BOOKMARK [2][-]{subsection.2.5.11}{Repeat detection}{section.2.5}% 102
+\BOOKMARK [2][-]{subsection.2.5.12}{RNA structure analysis}{section.2.5}% 103
+\BOOKMARK [2][-]{subsection.2.5.13}{Data Visualisation}{section.2.5}% 104
+\BOOKMARK [-1][-]{part.2}{II Computational Results}{}% 105
+\BOOKMARK [0][-]{chapter.3}{Structural Bioinformatics of PVC Proteins}{part.2}% 106
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 107
+\BOOKMARK [2][-]{subsection.3.1.1}{The sequence identity problem}{section.3.1}% 108
+\BOOKMARK [1][-]{section.3.2}{Experimental procedures}{chapter.3}% 109
+\BOOKMARK [2][-]{subsection.3.2.1}{Hidden Markov Model Homology Searching}{section.3.2}% 110
+\BOOKMARK [2][-]{subsection.3.2.2}{Exploration of the structure of PVCs by functional unit}{section.3.2}% 111
+\BOOKMARK [2][-]{subsection.3.2.3}{The PVC tube}{section.3.2}% 112
+\BOOKMARK [1][-]{section.3.3}{Discussion}{chapter.3}% 113
+\BOOKMARK [0][-]{chapter.4}{Comparative Phylogenetics of PVC Operons}{part.2}% 114
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 115
+\BOOKMARK [1][-]{section.4.2}{Phylogenetics and Congruency Analysis}{chapter.4}% 116
+\BOOKMARK [2][-]{subsection.4.2.1}{Syntenic Clustering of Orthologs}{section.4.2}% 117
+\BOOKMARK [3][-]{subsubsection.4.2.1.1}{Curation of the anomalous lumt operon}{subsection.4.2.1}% 118
+\BOOKMARK [2][-]{subsection.4.2.2}{Curation of Sequences}{section.4.2}% 119
+\BOOKMARK [2][-]{subsection.4.2.3}{Sequence Alignment and Phylogenies}{section.4.2}% 120
+\BOOKMARK [3][-]{subsubsection.4.2.3.1}{GC Content and CDS Identity Within Operons}{subsection.4.2.3}% 121
+\BOOKMARK [2][-]{subsection.4.2.4}{Gene trees}{section.4.2}% 122
+\BOOKMARK [2][-]{subsection.4.2.5}{Consensus Tree Inference via ASTRAL-II}{section.4.2}% 123
+\BOOKMARK [2][-]{subsection.4.2.6}{Congruency Analysis}{section.4.2}% 124
+\BOOKMARK [3][-]{subsubsection.4.2.6.1}{Adjusted Wallace Coefficient}{subsection.4.2.6}% 125
+\BOOKMARK [3][-]{subsubsection.4.2.6.2}{Normalised Robinson-Foulds}{subsection.4.2.6}% 126
+\BOOKMARK [2][-]{subsection.4.2.7}{Detecting PVC Homologs}{section.4.2}% 127
+\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 128
+\BOOKMARK [2][-]{subsection.4.3.1}{Correlation between PVC structural proteins and their payloads}{section.4.3}% 129
+\BOOKMARK [2][-]{subsection.4.3.2}{Identifying the PVC blueprint in other locations}{section.4.3}% 130
+\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Summary and future work}{subsection.4.3.2}% 131
+\BOOKMARK [-1][-]{part.3}{III Experimental Results}{}% 132
+\BOOKMARK [0][-]{chapter.5}{Structure and Function of PVC Tail Fibre-like Genes}{part.3}% 133
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 134
+\BOOKMARK [1][-]{section.5.2}{Experimental procedures}{chapter.5}% 135
+\BOOKMARK [2][-]{subsection.5.2.1}{in silico examination of tail fibre sequences}{section.5.2}% 136
+\BOOKMARK [3][-]{subsubsection.5.2.1.1}{Domain structure}{subsection.5.2.1}% 137
+\BOOKMARK [3][-]{subsubsection.5.2.1.2}{Sequence characteristics}{subsection.5.2.1}% 138
+\BOOKMARK [3][-]{subsubsection.5.2.1.3}{in silico cloning}{subsection.5.2.1}% 139
+\BOOKMARK [2][-]{subsection.5.2.2}{Experimental cloning, expression and purification}{section.5.2}% 140
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{IMAC Purification and Polishing}{subsection.5.2.2}% 141
+\BOOKMARK [2][-]{subsection.5.2.3}{Structural Analyses}{section.5.2}% 142
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Trimerism of PVC tail fibre proteins}{subsection.5.2.3}% 143
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Thermal stability and secondary structure studies via Circular Dichroism}{subsection.5.2.3}% 144
+\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Secondary structure prediction via Dichroweb}{subsection.5.2.3}% 145
+\BOOKMARK [4][-]{paragraph.5.2.3.3.1}{Algorithm and reference set selection}{subsubsection.5.2.3.3}% 146
+\BOOKMARK [4][-]{paragraph.5.2.3.3.2}{Secondary structure predictions}{subsubsection.5.2.3.3}% 147
+\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Comparisons with known structures}{subsection.5.2.3}% 148
+\BOOKMARK [3][-]{subsubsection.5.2.3.5}{Crystallography}{subsection.5.2.3}% 149
+\BOOKMARK [4][-]{paragraph.5.2.3.5.1}{In-situ partial proteolysis}{subsubsection.5.2.3.5}% 150
+\BOOKMARK [2][-]{subsection.5.2.4}{Finding binding partners for tail fibre proteins}{section.5.2}% 151
+\BOOKMARK [3][-]{subsubsection.5.2.4.1}{Iron nanoparticle protein pulldowns}{subsection.5.2.4}% 152
+\BOOKMARK [3][-]{subsubsection.5.2.4.2}{Sugar binding studies via glycan arrays}{subsection.5.2.4}% 153
+\BOOKMARK [1][-]{section.5.3}{Discussion}{chapter.5}% 154
+\BOOKMARK [2][-]{subsection.5.3.1}{Cloning, purification, and characterisation of PVC tail fibres}{section.5.3}% 155
+\BOOKMARK [2][-]{subsection.5.3.2}{The chimeric/split domain structure of PVC tail fibres}{section.5.3}% 156
+\BOOKMARK [2][-]{subsection.5.3.3}{Candidate binding targets for PVC tail fibres}{section.5.3}% 157
+\BOOKMARK [2][-]{subsection.5.3.4}{Summary and future work}{section.5.3}% 158
+\BOOKMARK [0][-]{chapter.6}{Synthetic \046 natural PVC operon regulation}{part.3}% 159
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 160
+\BOOKMARK [1][-]{section.6.2}{Experimental procedures}{chapter.6}% 161
+\BOOKMARK [2][-]{subsection.6.2.1}{Cloning and engineering PVC operons}{section.6.2}% 162
+\BOOKMARK [3][-]{subsubsection.6.2.1.1}{Recombineering}{subsection.6.2.1}% 163
+\BOOKMARK [4][-]{paragraph.6.2.1.1.1}{Chromosomal engineering}{subsubsection.6.2.1.1}% 164
+\BOOKMARK [4][-]{paragraph.6.2.1.1.2}{Cosmid engineering}{subsubsection.6.2.1.1}% 165
+\BOOKMARK [3][-]{subsubsection.6.2.1.2}{Gibson assembly}{subsection.6.2.1}% 166
+\BOOKMARK [2][-]{subsection.6.2.2}{Population heterogeneity in PVC activity}{section.6.2}% 167
+\BOOKMARK [3][-]{subsubsection.6.2.2.1}{Cellular morphology in reporter assays}{subsection.6.2.2}% 168
+\BOOKMARK [4][-]{paragraph.6.2.2.1.1}{Cellular elongation}{subsubsection.6.2.2.1}% 169
+\BOOKMARK [4][-]{paragraph.6.2.2.1.2}{Culture integrity}{subsubsection.6.2.2.1}% 170
+\BOOKMARK [2][-]{subsection.6.2.3}{A putative role for transcript elongation in PVC regulation}{section.6.2}% 171
+\BOOKMARK [3][-]{subsubsection.6.2.3.1}{Controlling RfaH activity}{subsection.6.2.3}% 172
+\BOOKMARK [1][-]{section.6.3}{Discussion}{chapter.6}% 173
+\BOOKMARK [2][-]{subsection.6.3.1}{Summary and future work}{section.6.3}% 174
+\BOOKMARK [-1][-]{part.4}{IV Discussion}{}% 175
+\BOOKMARK [0][-]{chapter.7}{Discussion}{part.4}% 176
+\BOOKMARK [0][-]{chapter.7}{Bibliography}{part.4}% 177
+\BOOKMARK [0][-]{section*.125}{Appendices}{part.4}% 178
+\BOOKMARK [0][-]{Appendix.a.A}{Chapter 3 Appendices}{part.4}% 179
+\BOOKMARK [0][-]{Appendix.a.B}{Chapter 4 Appendices}{part.4}% 180
+\BOOKMARK [0][-]{Appendix.a.C}{Chapter 5 Appendices}{part.4}% 181
+\BOOKMARK [0][-]{Appendix.a.D}{Chapter 5 Appendices}{part.4}% 182
+\BOOKMARK [0][-]{Appendix.a.E}{Publications arising from this candidature}{part.4}% 183

@@ -409,6 +409,12 @@ Chattopadhyay, P., Chatterjee, S., Gorthi, S., and Sen, S.~K. (2012).
   Dual Property of Biopesticide and Biofertilizer}.
 \newblock 2(1):1--12.
 
+\bibitem[Chothia and Lesk, 1986]{Chothia1986}
+Chothia, C. and Lesk, A.~M. (1986).
+\newblock {The relation between the divergence of sequence and structure in
+  proteins.}
+\newblock {\em The EMBO journal}, 5(4):823--6.
+
 \bibitem[Christie et~al., 2005]{Christie2005}
 Christie, P.~J., Atmakuri, K., Krishnamoorthy, V., Jakubowski, S., and
   Cascales, E. (2005).
@@ -991,6 +997,13 @@ ichi Ishii, S., Nishi, Y., and Egami, F. (1965).
 \newblock {The fine structure of a pyocin}.
 \newblock {\em Journal of Molecular Biology}, 13(2):IN5--IN12.
 
+\bibitem[Illerg{\aa}rd et~al., 2009]{Illergard2009}
+Illerg{\aa}rd, K., Ardell, D.~H., and Elofsson, A. (2009).
+\newblock {Structure is three to ten times more conserved than sequence - A
+  study of structural response in protein cores}.
+\newblock {\em Proteins: Structure, Function and Bioinformatics},
+  77(3):499--508.
+
 \bibitem[Isao, 1990]{Isao1990}
 Isao, M. O. F. L. D. L.~T. (1990).
 \newblock {Department of Biology, College of Arts and Sciences, The
@@ -1063,6 +1076,12 @@ Kelly, L., Mezulis, S., Yates, C., Wass, M., and Sternberg, M. (2015).
 \newblock {The Phyre2 web portal for protein modelling, prediction, and
   analysis}.
 \newblock {\em Nature Protocols}, 10(6):845--858.
+
+\bibitem[Kerpedjiev et~al., 2015]{Kerpedjiev2015}
+Kerpedjiev, P., Hammer, S., and Hofacker, I.~L. (2015).
+\newblock {Forna (force-directed RNA): Simple and effective online RNA
+  secondary structure diagrams}.
+\newblock {\em Bioinformatics}, 31(20):3377--3379.
 
 \bibitem[Khlebnikov et~al., 2000]{Khlebnikov2000}
 Khlebnikov, A., Risa, {\O}., Skaug, T., Trent, A., Keasling, J.~D., and
@@ -1303,6 +1322,12 @@ Lobley, A., Whitmore, L., and Wallace, B.~A. (2002).
 \newblock {DICHROWEB: an interactive website for the analysis of protein
   secondary structure from circular dichroism spectra}.
 \newblock {\em Bioinformatics}, 18(1):211--212.
+
+\bibitem[Lorenz et~al., 2011]{Lorenz2011}
+Lorenz, R., Bernhart, S.~H., {H{\"{o}}ner zu Siederdissen}, C., Tafer, H.,
+  Flamm, C., Stadler, P.~F., and Hofacker, I.~L. (2011).
+\newblock {ViennaRNA Package 2.0}.
+\newblock {\em Algorithms for Molecular Biology}, 6(1).
 
 \bibitem[Lu et~al., 2013]{Lu2013}
 Lu, C., Turley, S., Marionni, S.~T., Park, Y.~J., Lee, K.~K., Patrick, M.,
@@ -1704,6 +1729,11 @@ Robinson, D.~F. and Foulds, L.~R. (1981).
 Rossmann, M.~G., Mesyanzhinov, V.~V., Arisaka, F., and Leiman, P.~G. (2004).
 \newblock {The bacteriophage T4 DNA injection machine}.
 \newblock {\em Current Opinion in Structural Biology}, 14:171--180.
+
+\bibitem[Rost, 1999]{rost1999twilight}
+Rost, B. (1999).
+\newblock {Twilight zone of protein sequence alignments}.
+\newblock {\em Protein engineering}, 12(2):85--94.
 
 \bibitem[Roy et~al., 2010]{Roy2010}
 Roy, A., Kucukural, A., and Zhang, Y. (2010).

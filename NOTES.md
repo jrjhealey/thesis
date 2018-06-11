@@ -14,8 +14,6 @@
  - Introduce the chapter by drawing attention to the fact that homology modelling approaches are widely used when structures are absent.
  - Hurst2004 showed that PVC2 is required for formation of the toxic Afp. Yet more evidence that PVC3 is the one that's deleted. May also need to mention this in the Phylogenetics Chapter.
  - Make it plain that because there was so little functional information to go off in the original annotations, re-annotating and querying via HHPred was necessary and useful
- - HHpred results (supplementary table)
- - rmsd vs sequence ID xorrelation
  - Interesting to note that the innner and outer tubes don't share the same/equivalent orthologies.
  - interior charge
    - The Ge et al paper has a similar figure where the electrostatics are very pronounced. Copy this.
@@ -24,6 +22,7 @@
      - Match structure to reference
      - Apply references sym to the structures (sym #subject group #ref)
        - May need to do this separately for each model, and re-save each donut as a single PDB in order to tile (-> do this by using `combine`, not group)
+ - Run the sequences through the PDB shape matching tool and find all the examples where it differs from sequence matches?
 
 
  - tail fibre (lumt? ligand docking? galactose?)

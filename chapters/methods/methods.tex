@@ -818,6 +818,20 @@ For analysis and visualisation of structures generated in this work, UCSF \textt
 
 Of particular relevance is the \texttt{MatchMaker} function within \texttt{Chimera}, which was used for calculation of the Root Mean Square Deviation (RMSD) between structures, to assess accuracy, in the default `best-chain-pair' mode. Scripts for these analyses are also available on GitHub.
 
+RMSD is calculated as follows:
+
+
+\begin{align}\label{rmsdeqn}
+%
+\mathrm{RMSD(v,w)} = \sqrt{ {1 \over n} \sum_{i=1}^{n} (({v_{ix} - w_{ix})}^2 + ({v_{iy} - w_{iy})}^2 + ({v_{iz} - w_{iz})}^2  } \\
+\eqname{Root Mean Square Deviation of atomic positions} \
+\end{align}
+\myequations{Root Mean Square Deviation}
+
+\noindent where a set of $n$ points, $v$ and $w$, correspond to the $x$, $y$, and $z$ atomic positions of the atoms respectively (as per their subscripts). Thus the function returns the average Euclidean distance in any direction between 2 points or sets of points. The lower this value is, the closer 2 points are and this functionally translates to a better superimposition of 2 protein structures (for instance).
+
+
+
 \subsection{Repeat detection}
 Repeats in protein sequences were detected automatically via the EMBL-EBI's \texttt{Rapid Automatic Detection and Alignment of Repeats program (RADAR) v1.1.1.1} \footnote{\url{https://www.ebi.ac.uk/Tools/pfa/radar/}}. The most frequent or longest set of repeats were retained after a default number of iterations.
 
