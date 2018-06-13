@@ -174,6 +174,6 @@
 \contentsline {part}{IV\hspace {1em}Discussion}{229}{part.4}
 \contentsline {chapter}{\numberline {7}Discussion}{230}{chapter.7}
 \contentsline {chapter}{Bibliography}{230}{chapter.7}
-\contentsline {chapter}{Appendices}{264}{section*.119}
+\contentsline {chapter}{Appendices}{264}{section*.109}
 \contentsline {chapter}{\numberline {A}Chapter \ref {bioinformatics} Appendices}{265}{Appendix.a.A}
 \contentsline {chapter}{\numberline {B}Publications arising from this candidature}{266}{Appendix.a.B}

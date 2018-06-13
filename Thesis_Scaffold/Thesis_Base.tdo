@@ -12,30 +12,20 @@
 \contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Table of HHpred results in appendix}{105}{section*.45}
 \contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Correlation between sequence similarity and structure similarity}{105}{section*.46}
 \contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Change this to a non-tikz figure for consistency?}{108}{section*.48}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Nabil: Add a schematic of PVC presence and absence between strains to intro}{139}{section*.70}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make a Sarris/Easyfig type thing to show mosaicism?}{139}{section*.71}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Include more details of the parameters of clustering the genes (ID/function etc)}{139}{section*.72}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Explain the clustering table, or change to presence/absence and move locus tag info to supp.}{139}{section*.73}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ add more detail to tree, GC and AAID figure captions (mention median line in GC/AAID}{139}{section*.74}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Consider collapsing low support nodes in trees/colour coordination/annotation/show significance of splits}{139}{section*.75}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ consider merging trees in to 4x4 panels}{139}{section*.76}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ annotate heatmaps/figures with the functions of the PVC\# numberings (e.g. "tube"/"spike")}{139}{section*.77}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Create more summary figures for the discussion e.g. table of PVC identification criteria}{139}{section*.78}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Elaborate on the limitations of the method (e.g. this is parsimony, but could be wrong)}{139}{section*.79}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Diagram of the devised method for engineering cosmids}{199}{section*.102}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{271}{section*.120}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ move table of clustering from the bioinformatics chapter to the appendices}{271}{section*.121}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with \\citep}{271}{section*.122}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: go back and change citep to cite where the paper has been referred to directly in the text to get rid of unecessary brackets}{271}{section*.123}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{271}{section*.124}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Revisit captions, particularly in phylogenetics chapter to make them more descriptive.}{271}{section*.125}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{271}{section*.126}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count}{271}{section*.127}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{271}{section*.128}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Complete appendices including: All HHpred hits/Scripts/annotate multiple seq alignments}{271}{section*.129}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: finish declaration and abstract}{271}{section*.130}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{271}{section*.131}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Epigraphs for all chapters}{271}{section*.132}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{271}{section*.133}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{271}{section*.134}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Modify bibtex to italicise et al - without breaking everything?}{271}{section*.135}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Diagram of the devised method for engineering cosmids}{199}{section*.92}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{271}{section*.110}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ move table of clustering from the bioinformatics chapter to the appendices}{271}{section*.111}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with \\citep}{271}{section*.112}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: go back and change citep to cite where the paper has been referred to directly in the text to get rid of unecessary brackets}{271}{section*.113}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{271}{section*.114}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Revisit captions, particularly in phylogenetics chapter to make them more descriptive.}{271}{section*.115}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{271}{section*.116}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count}{271}{section*.117}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{271}{section*.118}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Complete appendices including: All HHpred hits/Scripts/annotate multiple seq alignments}{271}{section*.119}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: finish declaration and abstract}{271}{section*.120}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{271}{section*.121}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Epigraphs for all chapters}{271}{section*.122}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{271}{section*.123}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{271}{section*.124}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Modify bibtex to italicise et al - without breaking everything?}{271}{section*.125}
