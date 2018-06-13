@@ -165,7 +165,7 @@
 
 %%%ADDING MOAC/COPYWRITE PREFACE 
 \usepackage{moactitlepage}
-\renewcommand{\moactitle}{\emph{Photorhabdus} Virulence Cassettes: understanding the structure, and genomic role, of a novel bacterial toxin secretion weapon}
+\renewcommand{\moactitle}{\emph{Photorhabdus} Virulence Cassettes: understanding the structure, and genomic role, of a novel bacterial toxin delivery mechanism}
 \renewcommand{\moacauthor}{Joseph Richard John Healey}
 \renewcommand{\moacdegreetype}{Doctor of Philosophy}
 \renewcommand{\moacuniversity}{University of Warwick}
@@ -263,10 +263,6 @@
 \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
 \newcolumntype{Z}{>{\raggedright\arraybackslash}X}
 
-%%% Glossary
-%\newacronym{PVC}{PVC}{\textit{Photorhabdus} Virulence Cassette}
-%\makeglossaries
-
 
 \usepackage{pdfpages} % Input other PDF files
 %\usepackage{minted}
@@ -275,9 +271,6 @@
 \usepackage[capitalise,noabbrev]{cleveref} % must be loaded after hyperref
 
 \usepackage[annataritalic]{tengwarscript} % Should be loaded late/last (I think)
-
-
-
 
 %%%% Latex Font Sizes for reference: %%%%%%
 % \tiny
@@ -298,17 +291,34 @@
 
 
 \newlength\longest
-%%%%%%%%%%%%%%%             END OF PREAMBLE            %%%%%%%%%%%%%%%%%
-%	%	%	%	%	%	%	%	%	%	%	%	%	% 	%	%
-%%%%%%%%%%%%%%%         DOCUMENT BEGINNING         %%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                          END OF PREAMBLE                           %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                          DOCUMENT BEGINS                           %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \pagestyle{IHA-fancy-style}
 
-%%%%%%%%%%%%%%%             CREATE PREFACES          %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                          CREATE PREFACES                           %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \moaccopyright \moactitlepage
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                         TABLE OF CONTENTS                          %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%      CREATE TABLE OF CONTENTS      %%%%%%%%%%%%%%%%%
 \rhead{\textsf{Contents}}
 \pagenumbering{roman}
 \setcounter{page}{1}
@@ -318,55 +328,99 @@
 \newpage
 \doublespacing
 
-%%%%%%%%%%%%%%%      CREATE LIST OF FIGURES      %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                          LIST OF FIGURES                           %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \rhead{\textsf{List of Figures}}
 \listoffigures
 \addcontentsline{toc}{chapter}{List of Figures}
 \newpage
 
-%%%%%%%%%%%%%%%       CREATE LIST OF TABLES       %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                          LIST OF TABLES                            %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \rhead{\textsf{List of Tables}}
 \listoftables
 \addcontentsline{toc}{chapter}{List of Tables}
 \newpage
 
-%%%%%%%%%%%%%%% CREATE LIST OF EQUATIONS %%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                         LIST OF EQUATIONS                          %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\listequationsname}{List of Equations}
 \newlistof{myequations}{equ}{\listequationsname}
 \newcommand{\myequations}[1]{%
 \addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
 \addcontentsline{toc}{chapter}{List of Equations}
+\listofmyequations
 
- \listofmyequations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                            DEDICATION                              %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\thispagestyle{empty}
+\vspace*{1cm}
+\begin{center}
+\begin{minipage}{0.8\textwidth}
+\centering
+\Large
+\textbf{\textit{For Nan Sue,}}
 
+\textbf{\textit{who reached the finish line before I was able to.}}
+\end{minipage}
+\end{center}
 
-%%%%%%%%%%%%%%%          ACKNOWLEDGEMENTS          %%%%%%%%%%%%%%%%%%
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                         ACKNOWLEDGEMENTS                           %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{../chapters/acknowledgements/acknowledgements.tex}
 
-%%%%%%%%%%%%%%%                 DECLARATION                  %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                           DECLARATION                              %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \rhead{\textsf{}}
 \addcontentsline{toc}{chapter}{Declaration}
 \chapter*{Declaration}
 
-\lettrine[lraise=0.0, nindent=0.1em, slope=1em]{T}{ his} thesis is submitted to the University of Warwick in support of my application for the degree of Doctor of Philosophy. It has been composed by myself and has not been submitted in any previous application for any degree. The author previously submitted a Masters thesis, entitled ``\emph{Photorhabdus asymbiotica} as a Model Organism for Understanding Emerging Human Pathogens", for the degree of M.Sc. Mathematical Biology and Biophysical Chemistry, for a related project in 2014. While both pieces of work are the authors own, due to sharing commonality in research topic, there may be some superficial resemblance in introductory content and methods.
+\lettrine[lraise=0.0, nindent=0.1em, slope=1em]{T}{ his} thesis is submitted to the University of Warwick in support of my application for the degree of Doctor of Philosophy. It is an entirely novel work of the authors own creation, and has not been submitted in any previous application for any degree. The author previously submitted a Masters thesis, entitled ``\emph{Photorhabdus asymbiotica} as a Model Organism for Understanding Emerging Human Pathogens", for the degree of M.Sc. Mathematical Biology and Biophysical Chemistry, for a related project in 2014. While both pieces of work are the authors own, due to sharing commonality in research topic, there may be some superficial resemblance in introductory content and methods.
 
 All work and data analysis was conducted by the author except in the cases outlined below.
 
-Crystallography screening and diffraction testing was kindly performed with Dr. Avinash Punekar (University of Warwick).
+Assistance with protein purification (including running FPLC-IMAC and Gel Filtration processes) was Crystallography screening and diffraction testing was kindly performed with Dr. Avinash Punekar (University of Warwick). Thanks go to Dr. Alexia Hapeshi for all the NGS data generated in sequencing constructs and for new genomes. A Masters student, Katie Smart, created the promoter constructs utilised in \vref{regulation}.
 
-List of data provided and/or analysis carried out by collaborators.
-Parts of this thesis have been published by the author:
-List of publications including submitted papers.
+Publications arising from this candidature (see \vref{publications}):
+
+\begin{itemize}
+\item Graham, B., Bailey, T. L., \underline{Healey, J. R. J.}, Marcellini, M., Deville, S. and Gibson, M. I., \textbf{(2017)}.
+``Polyproline is a minimal antifreeze protein mimetic and enhances the cryopreservation of cell monolayers." \textbf{129}, 16157-16160 \emph{Angewandte Chemie International Edition} DOI: 10.1002/ange.201706703
+\end{itemize}
+Author Contribution: Creation of simulated structural and modelling data for exemplifying amphipathy of antifreeze protein mimetics.
 
 \newpage
 
-%%%%%%%%%%%%%%%                'Dedication'                %%%%%%%%%%%%%%%%%%
-\clearpage
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                              OPENING                               %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \thispagestyle{empty}
 \null\vfill
-
 \settowidth\longest{\large \itshape This field is not quite the same as others in that it will not tell us much [...].}
 \begin{center}
 \parbox{\longest}{%
@@ -386,92 +440,167 @@ List of publications including submitted papers.
 \end{center}
 \vfill
 
-\markerlessfootnote{The quotes used in the opening of this thesis and in the epigraphs of individual chapters have come from the transcript of Richard Feynman's discourse ``There's plenty of room at the bottom", as reproduced in the book ``Plenty of Room for Biology at the Bottom: An Introduction to Bionanotechnology" by E. Gazit and A. Mitraki}
+\markerlessfootnote{The quotes used in the opening of this thesis and in the epigraphs of individual chapters have come from the transcript of Richard Feynman's discourse ``There's plenty of room at the bottom", as reproduced in the book ``Plenty of Room for Biology at the Bottom: An Introduction to Bionanotechnology" by E. Gazit and A. Mitraki. Feynman was substantially ahead of his time in predicting not only what could be achieved with biology, but also making astute predictions about how they may manifest. Not bad for a physicist!}
 \clearpage
 
 \newpage
-%%%%%%%%%%%%%%%                 ABSTRACT                  %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                              ABSTRACT                              %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \rhead{\textsf{Abstract}}
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-\lipsum[1]
+\lettrine[lraise=0.0, nindent=0.1em, slope=1em]{T}{ he} ``\emph{Photorhabdus} Virulence Cassette" is an elaborate macromolecular protein complex evolved to specifically and potently deliver effector molecules to the interior of target cells. A PVC can be thought of a ``headless bacteriophage", with with a protein cargo rather than a nucleic acid one. This thesis sheds light on some of the `dark matter' in the content and operon structure of PVCs, though mysteries remain. The Introduction guides the reader through the universe of similar protein complexes. The first 2 results chapters `pave the way' for lab experiments by examining the PVCs in a number of computational workflows. In Chapter 3, the disconnect between sequence and structure for proteins is examined - and what this means for PVCs. Through sensitive methods, less dependent on sequence, new, informative homologies are detected, and we get a `first look' at the likely structure for many elements of a PVC. Chapter 4 explores the operon structure of PVCs, identifying proteins which are non-essential to PVC function, and demonstrating the variability between operons. In the first of the `wet lab' chapters, Chapter 5 examines the enigmatic proposed `tail fibres' of the PVCs, identified as hypervariable in Chapter 4. This chapter represents the first experimental study of such proteins, and goes a long way to confirming their true nature as real tail fibres. Finally, Chapter 6 details the efforts made to heterologously clone controllable PVCs - a non-trivial task it turns out; and to understand the regulation and population dynamics of how PVCs are deployed by \emph{Photorhabdus} naturally.
+
 \newpage
 
-%%%%%%%%%%%%%%%              ABBREVIATIONS                %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                           ABBREVIATIONS                            %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \rhead{\textsf{Abbreviations}}
-%\glossarystyle{altlisthypergroup}
-%\glsaddall
-%\printglossaries[title=Abbreviations,toctitle=Abbreviations] % broken...come back later...
 \chapter*{Abbreviations}
 \small
 \begin{sortedlist}
 \renewcommand\labelitemi{}
-  \sortitem{PCR \hfill Polymerase Chain Reaction}
-  \sortitem{ATCC \hfill American Type Culture Collection}
-  \sortitem{WMS \hfill Warwick Medical School}
- \sortitem{F{} \hfill Forward}
-  \sortitem{R{} \hfill Reverse}
-  \sortitem{qRT-PCR \hfill quantitative Reverse-Transcriptase Polymerase Chain Reaction}
-  \sortitem{NEB \hfill New England Biolabs}
-  \sortitem{PVC \hfill \emph{Photorhabdus} Virulence Cassette}
-  \sortitem{gDNA \hfill genomic DeoxyriboNucleic Acid}
-  \sortitem{ppGpp \hfill Guanosine pentaphosphate}
-  \sortitem{\emph{pnf} \hfill \emph{Photorhabdus} Necrosis Factor}
-  \sortitem{RCF \hfill Relative Centrifugal Force}
-  \sortitem{bp \hfill basepairs}
-  \sortitem{kbp \hfill kilo-basepairs}
-  \sortitem{Mbp \hfill Mega-basepairs}
-  \sortitem{gp\#\# \hfill gene product \#\#}
-  \sortitem{hcp \hfill hemolysin co-regulated protein}
-  \sortitem{T6SS \hfill Type 6 Secretion System}
-  \sortitem{TVISS \hfill see T6SS}
-  \sortitem{LPS \hfill lipopolysaccharide}
+  \sortitem{PCR         \hfill Polymerase Chain Reaction}
+  \sortitem{ATCC        \hfill American Type Culture Collection}
+  \sortitem{F{}         \hfill Forward}
+  \sortitem{R{}         \hfill Reverse}
+  \sortitem{qRT-PCR     \hfill quantitative Reverse-Transcriptase Polymerase Chain Reaction}
+  \sortitem{NEB         \hfill New England Biolabs}
+  \sortitem{PVC         \hfill \emph{Photorhabdus} Virulence Cassette}
+  \sortitem{gDNA        \hfill genomic DeoxyriboNucleic Acid}
+  \sortitem{ppGpp       \hfill Guanosine pentaphosphate}
+  \sortitem{pnf         \hfill \emph{Photorhabdus} Necrosis Factor}
+  \sortitem{RCF         \hfill Relative Centrifugal Force}
+  \sortitem{bp          \hfill basepairs}
+  \sortitem{kbp         \hfill kilo-basepairs}
+  \sortitem{Mbp         \hfill Mega-basepairs}
+  \sortitem{gp\#\#      \hfill gene product \#\#}
+  \sortitem{hcp         \hfill hemolysin co-regulated protein}
+  \sortitem{T6SS        \hfill Type 6 Secretion System}
+  \sortitem{TXSS        \hfill Type $x$ Secretion System}
+  \sortitem{TVISS       \hfill see T6SS}
+  \sortitem{LPS         \hfill lipopolysaccharide}
+  \sortitem{MAC         \hfill Metamorphosis Associated Complex}
+  \sortitem{SDS-PAGE    \hfill Sodium Dodecyl Sulfate Polyacrylamide Gel Electrophoresis}
+  \sortitem{FPLC        \hfill Fast Protein Liquid Chromatography}
+  \sortitem{HPLC        \hfill High Performace Liquid Chromatography}
+  \sortitem{IMAC        \hfill Immobilised Metal ion Affinity Chromatography}
+  \sortitem{CDS         \hfill Coding DNA Sequence}
+  \sortitem{EM          \hfill Electron Microscopy/Micrograph}
+  \sortitem{Afp/AfpX    \hfill Antifeeding prophage}
+  \sortitem{nRF         \hfill Normalised Robinson-Foulds distance}
+  \sortitem{AWC         \hfill Adjusted Wallace Coefficient}
+  \sortitem{lumt        \hfill Large Unknown Mosaic Toxin}
+  \sortitem{cif         \hfill Cell-cycle Inhibition Factor}
+  \sortitem{lopt        \hfill \emph{luminescens} Outer membrane Protein}
+  \sortitem{ops         \hfill Operon Polarity Suppressor}
+  \sortitem{IJ          \hfill Infective Juvenile nematode}
+  \sortitem{cnf         \hfill Cytonecrosis Factor}
+  \sortitem{DMSO        \hfill DiMethylSulfOxide}
+  \sortitem{Vgr         \hfill Valine-glycine repeat protein}
+  \sortitem{PDB         \hfill Protein DataBank}
+  \sortitem{EMDB        \hfill Electron Microscopy DataBank}
+  \sortitem{TBC         \hfill Tube-Baseplate Complex}
+  \sortitem{pADAP       \hfill Amber Disease Associated Plasmid}
+  \sortitem{LD$_{50}$   \hfill Lethal Dose at 50\% mortality}
+  \sortitem{PAAR        \hfill Proline-Alanine-Alanine Repeat protein}
+  \sortitem{Tss         \hfill Type Six Subunit}
+  \sortitem{PLTS        \hfill Phage-Like Translocation System}
+  \sortitem{SOC         \hfill Super Optimal media with Catabolise Repression}
+  \sortitem{EDTA        \hfill EthyleneDiamineTetraacetic Acid}
+  \sortitem{TAE         \hfill Tris-Acetate-EDTA}
+  \sortitem{Tm          \hfill Melting/Annealing Temperature}
+  \sortitem{kV          \hfill kiloVolts}
+  \sortitem{$\mu$F      \hfill MicroFarads}
+  \sortitem{HEPES       \hfill 4-(2-HydroxyEthyl)-1-PiperazineEthaneSulfonic acid}
+  \sortitem{UV          \hfill UltraViolet}
+  \sortitem{TEMED       \hfill TetraMethylEthylene}
+  \sortitem{PVDF        \hfill Polyvinylidene Fluoride}
+  \sortitem{DTT         \hfill DiThioThreitol}
+  \sortitem{GFP         \hfill Green Fluorescent Protein}
+  \sortitem{BLAST       \hfill Basic Local Alignment Search Tool}
+  \sortitem{MSA         \hfill Multiple Sequence Alignment}
+  \sortitem{INDEL       \hfill INsertion of DELetion in a sequence}
+  
 \end{sortedlist}
 
-\todo[inline]{Fill out full abbreviation list}
 \normalsize
 \newpage
 
 \pagenumbering{arabic}
 \setcounter{page}{1}
-%%%%%%%%%%%%%%%        IMPORT CH1 - INTRO        %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                       IMPORT CH1 - INTRO                           %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \part{Introduction \& Methodology}
 \input{../chapters/intro/intro}
 \newpage
-%%%%%%%%%%%%%%%      IMPORT CH2 - METHODS    %%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                      IMPORT CH2 - METHODS                          %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{../chapters/methods/methods}
 \newpage
 
-%%%%%%%%%%%%%%%      IMPORT CH3 - METHODS    %%%%%%%%%%%%%%%%%%
 \part{Computational Results}
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                     IMPORT CH3 - STRUCTURAL                        %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{../chapters/chapter3/structuralbioinfo.tex}
 \newpage
 
-%%%%%%%%%%%%%%%        IMPORT CH4 - Phylogenetics        %%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                    IMPORT CH4 - PHYLOGENETICS                      %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{../chapters/chapter4/bioinformatics.tex}
 \newpage
-%%%%%%%%%%%%%%%        IMPORT CH5 - Structural Tail Fibres        %%%%%%%%%%%%
-\part{Experimental Results}
 
+
+\part{Experimental Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                     IMPORT CH5 - TAIL FIBRES                       %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{../chapters/chapter5/tailfibres.tex}
 \newpage
-%%%%%%%%%%%%%%%        IMPORT CH6 - Regulation        %%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                      IMPORT CH6 - REGULATION                       %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{../chapters/chapter6/regulation.tex}
 \newpage
 
-%%%%%%%%%%%%%%%        IMPORT CH7 -  Discussion       %%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                      IMPORT CH7 - DISCUSSION                       %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \part{Discussion}
 \input{../chapters/discussion/discussion.tex}
 
-%%%%%%%%%%%%%%%             BIBLIOGRAPHY            %%%%%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                            BIBLIOGRAPHY                            %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagestyle{fancy}
 \rhead{\textsf{Bibliography}}
 \addcontentsline{toc}{chapter}{Bibliography}
@@ -481,32 +610,46 @@ List of publications including submitted papers.
 \bibliography{/Users/joehealey/Documents/Bibtex/PhD_Thesis.bib}
 \end{footnotesize}
 \endgroup
-
-
 \newpage
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                             APPENDICES                             %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{appendices}
-\chapter{Chapter \ref{structbioinfo} Appendices}
+%\chapter{Chapter \ref{structbioinfo} Appendices}
 
-\chapter{Chapter \ref{bioinformatics} Appendices}
+\chapter{Chapter \ref{bioinformatics} Appendices}\label{bioinformatics_appendix}
 %\input{../appendices/bioinformatics_appendix/bioinformatics_appendix.tex}
+%
+%\chapter{Chapter \ref{tailfibres} Appendices}
+%\input{../appendices/tailfibre_appendix/tailfibreappendix.tex}
+%
 
-\chapter{Chapter \ref{tailfibres} Appendices}
-\input{../appendices/tailfibre_appendix/tailfibreappendix.tex}
-
-
-\chapter{Publications arising from this candidature}
+\chapter{Publications arising from this candidature}\label{publications}
 The following is a paper published in Angewandte Chemie in 2017. The structural modelling within the paper was performed by me and is the basis of my inclusion as an author. This paper is included as an appendix as it was a publication arising from a side project during my PhD candidature, but is not relevant to my personal thesis research, though the same methods as described in Chapter \ref{structbioinfo} were used.
 
-%\includepdf[pages={-}, scale=.85, offset=5mm -30mm, pagecommand={}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange201706703.pdf}
+As a brief abstract for the reader; the paper concerns attempts to create mimics of biological `antifreeze' proteins, for application in areas such as cryopreservation. Ice crystal growth is a significant problem which leads to reduction in cell viability, and compromises the quality of vital resources such as stored donor blood, among others. Current methods employ toxic compounds such as glycerol and dimethylsulfoxide which can cause undesirable downstream consequences for the patient, and also require extensive dialysis which high in cost, both in terms of time and money, and is low in efficiency.
+
+The paper demonstrates that polyproline helices exhibit ice recrystallisation inhibition activity, and it is postulated that this is due to alternating patches of hydrophobicity and -philicity (amphipathy). When used in concert with one of the standard cryopresevation additives, 10\% DMSO, polyproline additives increased cellular recovery from thawing by up to 30\%.
+
 \includepdf[pages={-}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange201706703.pdf}
 
 \end{appendices}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%           |      |           DELETE          |      |              %%
+%%           |      |            UPON           |      |              %%
+%%           V      V         COMPLETION        V      V              %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%                                                    | | |                                                           | | |
-%%%%%%%%%%%%%%%% VVV DELETE AFTER COMPLETION VVV %%%%%%%%%%%%%%%
-%\newpage
-%\layout
 \newpage
 \todo[inline]{Document check over: Change captions to small caps as per fig 1.5 in intro}
 \todo[inline]{move table of clustering from the bioinformatics chapter to the appendices}
@@ -523,6 +666,7 @@ The following is a paper published in Angewandte Chemie in 2017. The structural 
 \todo[inline]{Epigraphs for all chapters}
 \todo[inline]{Ensure all hyperreferences resolve correctly}
 \todo[inline]{Replace gray!10 everywhere so that it reproduces on paper better}
+\todo[inline]{Modify bibtex to italicise et al - without breaking everything?}
 \newpage
 \listoftodos[To Do]
 

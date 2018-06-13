@@ -62,6 +62,13 @@ Aksyuk, A.~A., Leiman, P.~G., Shneider, M.~M., Mesyanzhinov, V.~V., and
   of the Baseplate}.
 \newblock {\em Structure}, 17(6):800--808.
 
+\bibitem[Alexander et~al., 2007]{Alexander2007}
+Alexander, P.~A., He, Y., Chen, Y., Orban, J., and Bryan, P.~N. (2007).
+\newblock {The design and characterization of two proteins with 88{\%} sequence
+  identity but different structure and function}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  104(29):11963--11968.
+
 \bibitem[Ali et~al., 2003]{Ali2003}
 Ali, S.~A., Iwabuchi, N., Matsui, T., Hirota, K., Kidokoro, S.~I., Arai, M.,
   Kuwajima, K., Schuck, P., and Arisaka, F. (2003).
@@ -504,6 +511,11 @@ Daborn, P.~J., Waterfield, N., Blight, M.~A., and Ffrench-constant, R.~H.
   luminescens in Culture and during Insect Infec}.
 \newblock {\em Journal of Bacteriology}, 183(20):5834--5839.
 
+\bibitem[Dalal et~al., 1997]{Dalal1997}
+Dalal, S., Balasubramanian, S., and Regan, L. (1997).
+\newblock {Transmuting $\alpha$ helices and $\beta$ sheets}.
+\newblock {\em Folding and Design}, 2(5):R71--R79.
+
 \bibitem[Dalbey and Kuhn, 2012]{Dalbey2012}
 Dalbey, R.~E. and Kuhn, A. (2012).
 \newblock {Protein Traffic in Gram-negative bacteria - how exported and
@@ -922,6 +934,11 @@ Heymann, J.~B., Bartho, J.~D., Rybakova, D., Venugopal, H.~P., Winkler, D.~C.,
 \newblock {Three-dimensional structure of the toxin-delivery particle
   antifeeding prophage of serratia entomophila}.
 \newblock {\em Journal of Biological Chemistry}, 288(35):25276--25284.
+
+\bibitem[Holm and Sander, 1996]{Holm1996}
+Holm, L. and Sander, C. (1996).
+\newblock {Mapping the protein universe}.
+\newblock {\em Science}, 273(5275):595--602.
 
 \bibitem[Hood et~al., 2010]{Hood2010}
 Hood, R.~D., Singh, P., Hsu, F., G{\"{u}}vener, T., Carl, M.~a., Trinidad, R.
@@ -1349,6 +1366,16 @@ Ma, L.~S., Lin, J.~S., and Lai, E.~M. (2009).
   secretion system-mediated Hcp secretion in Agrobacterium tumefaciens}.
 \newblock {\em Journal of Bacteriology}, 191(13):4316--4329.
 
+\bibitem[Machado et~al., 2018]{Machado2018}
+Machado, R. A.~R., W{\"{u}}thrich, D., Kuhnert, P., Arce, C. C.~M.,
+  Th{\"{o}}nen, L., Ruiz, C., and Zhang, X. (2018).
+\newblock {Whole-genome-based revisit of Photorhabdus phylogeny : proposal for
+  the elevation of most Photorhabdus subspecies to the species level and
+  description of one novel species Photorhabdus bodei sp . nov ., and one novel
+  subspecies Photorhabdus laumondii subs}.
+\newblock {\em International Journal of Systematic and Evolutionary
+  Microbiology}, pages 1--18.
+
 \bibitem[Manavalan and Johnson, 1987]{Manavalan1987}
 Manavalan, P. and Johnson, W.~C. (1987).
 \newblock {Variable selection method improves the prediction of protein
@@ -1724,6 +1751,10 @@ Robinson, D.~F. and Foulds, L.~R. (1981).
 {Rodr{\'{i}}guez-Guerra Pedregal}, J. and Mar{\'{e}}chal, J.-D. (2018).
 \newblock {PyChimera: use UCSF Chimera modules in any Python 2.7 project}.
 \newblock {\em Bioinformatics}, (January):1--2.
+
+\bibitem[Rose and Creamer, 1994]{Rose1994}
+Rose, G.~D. and Creamer, T.~P. (1994).
+\newblock {Protein folding: Predicting predicting}.
 
 \bibitem[Rossmann et~al., 2004]{Rossmann2004}
 Rossmann, M.~G., Mesyanzhinov, V.~V., Arisaka, F., and Leiman, P.~G. (2004).

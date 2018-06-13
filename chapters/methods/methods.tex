@@ -79,9 +79,9 @@ BW25113 & F- \emph{$\Delta$(araD-araB)567, lacZ4787($\Delta$)::rrnB-3, LAM-, rph
 \subsection{Culture Conditions}
 	\subsubsection{Media}
 		\paragraph{LB}
-		Routine culture of \emph{E. coli} and \Pa{} was conducted in standard Lysogeny Broth (LB) liquid media and agar plates, at 200 RPM in a shaking incubator (or static incubator for plates). The media is supplemented with 0.1\% pyruvate when culturing \Pa. For \Plum{} strains, cultures were grown at 28\degC{} due to their temperature intolerance.
+		Routine culture of \emph{E. coli} and \Pa{} was conducted in standard Lysogeny Broth (LB) liquid media and agar plates, at 200 RCF in a shaking incubator (or static incubator for plates). The media is supplemented with 0.1\% pyruvate when culturing \Pa. For \Plum{} strains, cultures were grown at 28\degC{} due to their temperature intolerance.
 		\paragraph{SOC}
-		Super Optimal Media with catabolite repression (SOC), is a high glucose medium routinely used in the recovery culture phase of bacterial transformation. It is designed to be a rich media which reduces stress on the transformed cells, allowing them to optimally uptake the target DNA. In particular, the high glucose content in comparison to standard LB media is useful as it represses the pBAD promoter system (used quite extensively in this study - see \vref{plasmids}), helping to clone otherwise potentially toxic/recalcitrant targets.
+		Super Optimal Media with catabolite repression (SOC), is a high glucose medium routinely used in the recovery culture phase of bacterial transformation. It is designed to be a rich media which reduces stress on the transformed cells, allowing them to optimally uptake the target DNA. In particular, the high glucose content in comparison to standard LB media is useful as it represses the pBAD and pLac promoter systems, helping to clone otherwise potentially toxic/recalcitrant targets.
 
 	\subsubsection{Antibiotics \& Media Supplements}\label{Antibiotics}
 	Various antibiotics and media supplements were used during this project. \vref{supplementtable} shows concentrations of compounds used.
@@ -135,8 +135,8 @@ Glucose & 0.2\% (w/v) \\
 
 		 5 - 10 mL of overnight culture is set up in appropriate conditions (i.e. with selection if possible). Cells are pelleted at 7,000 RCF, 4\degC{} for 10 minutes. Pellets are resuspended in 180\ul{} of the manufacturer supplied ATL buffer, with 20\ul{} of the supplied Proteinase K mix added. RNAse H is optionally added if the DNA is to be used for next generation sequencing. From here the protocol proceeds directly to the manufacturers step 2, and follows the standard procedure until elution. Elution was conducted in 2 x 17.5\ul{} washes in AE buffer (unless it is to be used for sequencing, then H$_2$O or EB Buffer is used).
 
-	\subsubsection{Replicon DNA}
-			\paragraph{Plasmids}\label{Plasmids}
+	\subsubsection{Replicon DNA}\label{Plasmids}
+			\paragraph{Plasmids}
 		For plasmid isolation the Qiagen Miniprep Spin Kit was used according to the manufacturers instructions. 5 - 10 mL overnights of culture are prepared in appropriate conditions (e.g. for plasmids with selection, add antibiotics - see \vref{Antibiotics}). 10 mL of culture is used for lower copy number plasmids, to ensure adequate DNA recovery. Elution was conducted in 2 x 17.5 \ul{} washes, with molecular grade water instead of a single 50 \ul{} buffer wash. For isolation of cosmids, and plasmids in excess of $\approx$ 10 kbp, the same miniprep kit is used, but with the manufacturers suggested optional optimisations, namely: the optional wash with PB buffer is conducted, and elution buffer/water is preheated to 70\degC. 2 x 17.5 \ul{} washes are conducted as in plasmid preparation.
 
 \newpage
@@ -570,7 +570,7 @@ The same workflow as detailed above in \vref{pKD} is followed for the recombinee
 	Primers used for routine sequencing/confirmation can be seen in \vref{primers}.
 	
 	\subsubsection{Next Generation}
-	As the PVC operons are larger than is amenable to the vast majority of routine techniques (constructs might be anywhere from 20-50 kb), they were occasionally sequenced in-house on the Illumina MiSeq platform. They could be easily assembled in to single contigs after discarding contaminating host reads - see \vref{assembly}. Libraries were prepared according to the manufacturers specifications, using the paired-end 2x250bp Nextera XT kit.
+	As the PVC operons are larger than is amenable to the vast majority of routine techniques (constructs might be anywhere from 20-50 kb), they were occasionally sequenced in-house on the Illumina MiSeq platform. They could be generally be assembled in to single contiguous sequences after discarding contaminating host reads - see \vref{assembly}. Libraries were prepared according to the manufacturers specifications, using the paired-end 2x250bp Nextera XT kit. Reads were downsampled if assembly issues were encountered.
 
 
 
@@ -617,7 +617,7 @@ The expressed proteins were poly-histidine tagged to allow for various follow up
 
 The lysate from sonication is cycled through the column via a peristaltic pump (or chromatography apparatus). The longer the lysate is cycled through the pump the better retention of proteins, but care is taken to avoid adding air bubbles on to the column which would ruin the chromatogram. As a minimum, it was ensured that all the lysate was cycled through the column at least once.
 
-Once the column was loaded, it was processed on an Aktä Pure 2 Fast Protein Liquid Chromatography machine, or an Agilent High Performance Liquid Chromatography machine as soon as possible. The column was first washed by pumping $\geq$ 4 column volumes of buffer A (lysis buffer) through to remove loosely bound impurities. A gradient elution was then used, whereby buffer B (elution buffer listed above) is mixed steadily with the flow of buffer A, until the flow is 100\% buffer B, causing ionically bound proteins to disassociate with the Nickel at varying points depending on the strength of the association. The gradient was collected in a fractionator, and fractions responding to high UV$_{280nm}$ traces were taken for subsequent examination of purity via SDS-PAGE/Western blot.
+Once the column was loaded, it was processed on an Akt{\"a} Pure 2 Fast Protein Liquid Chromatography machine, or an Agilent High Performance Liquid Chromatography machine as soon as possible. The column was first washed by pumping $\geq$ 4 column volumes of buffer A (lysis buffer) through to remove loosely bound impurities. A gradient elution was then used, whereby buffer B (elution buffer listed above) is mixed steadily with the flow of buffer A, until the flow is 100\% buffer B, causing ionically bound proteins to disassociate with the Nickel at varying points depending on the strength of the association. The gradient was collected in a fractionator, and fractions responding to high UV$_{280nm}$ traces were taken for subsequent examination of purity via SDS-PAGE/Western blot.
 
 Alternatively, for quicker, but slightly less pure preparations, an ``assisted gravity flow" resin purification can also be used. ``cOmplete" His-tag purification resin from Sigma-Aldrich was purchased and used in conjunction with glass chromatography gravity flow columns from Bio-Rad. The resin was washed several times with multiple column volumes of ethanol, followed by deionised water. Depending on the volume of culture and expected protein yield, up to $\approx$ 3-4 mL of resin was added to the column and equilibrated by mixing with lysis buffer (as per the previous section). The buffer is allowed to drain from the column or can be ``assisted" by connecting a syringe to add back-pressure. The clarified lysate from high-speed centrifugation was then mixed with the resin by rotating the resin-lysate mixture end-over-end in a sealed falcon tube, in a cold room for a minimum of 1 hour (it can be left overnight for better yields). The resin was then added back to the column, and a low imidazole concentration wash buffer ($\approx$ 20 mM) passed through the column resin-protein matrix. Finally, elution buffer was passed through the column and collected. This was repeated 2 or 3 times to ensure as much protein as possible was collected.
 
@@ -628,7 +628,7 @@ For subsequent polishing of protein purifications, gel filtration was performed 
 Concentration of protein samples from gel filtration and IMAC was performed by centrifugation at 7,000 RCF in Amicon filter columns. Appropriate molecular weight cutoffs were chosen for the theoretical size of the protein to ensure maximum retention of just the protein of interest. Concentration of these volumes was typically a slow process, requiring several concentration cycles of 30 minutes to an hour at 4\degC, though this is indicative of high protein concentrations. Dialysis can also be performed using Amicon columns, by cycles of centrifugation, resuspension/dilution, and washing in the new buffer. Alternatively, dialysis was performed with Thermo ``Slide-A-Lyzer MINI" dialysis tubes, placed on an orbital shaker at low speed. Depending on the application, the buffer was changed a number of times over the course of approximately 48 hours.
 
 \subsection{Quantification}
-Routine quantification of protein samples was performed with a nanospectrophotometer, measuring absorbance at UV$_{280nm}$. Fluorescence dyes such as those used in the Qubit spectrometer were found to precipitate the proteins studied in this work and could not be relied on.
+Routine quantification of protein samples was performed with a nanospectrophotometer, measuring absorbance at UV$_{\mathrm{280nm}}$. Fluorescence dyes such as those used in the Qubit spectrometer were found to precipitate the proteins studied in this work and could not be relied on.
 
 \subsection{SDS-PAGE}
 	Sodium-Dodecyl-Sulphate Polyacrylamide Gel Electrophoresis was used routinely to estimate the purity of protein samples and to gauge their size to ensure correct expression and assembly. Commonly, precast gels were used with various well numbers/sizes. In cases where a large number of gels were required, gels were `homemade'. Precast gels, namely Biorad TGX Mini-protean 4-15\% gels were used for more sensitive applications such as Western Blots, and run as per the manufacturers instructions.
@@ -683,14 +683,14 @@ Initial crystallographic screens were set up using $\approx$ 150\ul{} of purifie
 If promising preliminary conditions were identified, the corresponding buffer was made up in larger volume, and an increased buffer and protein crystal ``sitting drop'' was set up to obtain fully sized crystals for diffraction testing.
 
 \section{Bioinformatics Methods}
-Bioinformatics workflows often require a great many different tools for different purposes, and it is beyond the scope and remit of this thesis to discuss the intricacies of all of them. Here, an overview of their purpose in this study is given, and where necessary/relevant, the concept underlying the tool. Where specified parameters may have influenced the result of the computation, those parameters are provided here. Any specific scripts for file manipulation, analysis, or visualisation are given in \vref{scripts}. As is conventional in computer science and bioinformatics fora, names of scripts and programs will be given in \texttt{monospaced font}. Except where explicitly stated otherwise, software was used with its default/recommended parameters. Work was performed mostly on our local server (a ProLiant DL385p Gen8, with 32x AMD Opteron 6380s, 377 GB DDR3 RAM). For structural simulation, we fortunately had access to a pre-public early beta version of the now-completed MRC CLIMB infrastructure (Cloud Infrastructure for Microbial Bioinformatics)\citep{Connor2016a} (more information in \vref{structuresimulation}.
+Bioinformatics workflows often require a great many different tools for different purposes, and it is beyond the scope and remit of this thesis to discuss the intricacies of all of them. Here, an overview of their purpose in this study is given, and where necessary/relevant, the concept underlying the tool. Where specified parameters may have influenced the result of the computation, those parameters are provided here. All scripts created for this thesis are available online at GitHub\footnote{\url{https://github.com/jrjhealey}}. As is conventional in computer science and bioinformatics fora, names of scripts and programs will be given in \texttt{monospaced font}. Except where explicitly stated otherwise, software was used with its default/recommended parameters. Work was performed mostly on our local server (a ProLiant DL385p Gen8, with 32x AMD Opteron 6380s, 377 GB DDR3 RAM). For structural simulation, we fortunately had access to a pre-public early beta version of the now-completed MRC CLIMB infrastructure (Cloud Infrastructure for Microbial Bioinformatics)\citep{Connor2016a} (more information in \vref{structuresimulation}).
 
 For general file manipulation and miscellaneous tasks, various bespoke \texttt{bash} and \texttt{python} scripts were used. For inter-conversion of bioinformatic file formats, \texttt{BioPython} was a primary tool \citep{Cock2009}.
 
 \subsection{Quality Control}
 Short read sequencing obtained from MiSeq runs was assembled in-house. The retrieved sequences are examined for quality before assembly. Raw reads were first analysed with \texttt{FastQC v0.10.1} and optionally trimmed with \texttt{seqtk v1.0-r31}.
 
-\subsection{Assembly}
+\subsection{Assembly}\label{assembly}
 Sequence files passing quality control were \emph{de novo} assembled using \texttt{SPAdes v2.5.1}, with the \texttt{--careful} flag, to reduce errors \citep{Bankevich2012}.  Optionally, the resulting contigs (if not a single sequence) were reordered to published reference genomes, mainly for visualisation purposes, using \texttt{progressiveMauve v2.3.1} \citep{Darling2010}.
 
 \subsection{Mapping}
@@ -801,10 +801,10 @@ The Normalised Robinson-Foulds metric was calculated simply with the inbuilt \te
 %\myequations{Adjusted Wallace Coefficient Definition}
 
 \subsection{Ortholog Detection}
-For structural studies, the \texttt{HHSuite} of programs has proven to give useful and accurate predictions of protein structural orthologs, especially those which have only low confidence or distant homologies known. \texttt{HHSuite v2.0.15} \citep{Remmert2012, Soding2005} was used extensively in this work, being run iteratively over all the protein sequences of interest at various points, to identify new homologies detected as the databases are continually expanded and improved. The program was invoked with comparatively relaxed parameters in an effort to gather even low quality hits which may be more informative than ``hypothetical protein", using a minimum probability of 60, minimum E value of $1\times10^{-3}$, and was run against the latest version of the PDB70 database available from the HHSuite database site\footnote{\url{http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/}}. Results were parsed into a tabular format using a custom parser (scripts provided in supplementary information, and at GitHub\footnote{\url{https://github.com/jrjhealey/bioinfo-tools/blob/master/tabulateHHpred.py}}).
+For structural studies, the \texttt{HHSuite} of programs has proven to give useful and accurate predictions of protein structural orthologs, especially those which have only low confidence or distant homologies known. \texttt{HHSuite v2.0.15} \citep{Remmert2012, Soding2005} was used extensively in this work, being run iteratively over all the protein sequences of interest at various points, to identify new homologies detected as the databases are continually expanded and improved. The program was invoked with comparatively relaxed parameters in an effort to gather even low quality hits which may be more informative than ``hypothetical protein", using a minimum probability of 60, minimum E value of $1\times10^{-3}$, and was run against the latest version of the PDB70 database available from the HHSuite database site\footnote{\url{http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/}}.
 
-\todo[inline]{Add MultiGeneBlast, if time allows}
-% 
+
+%\subsection{MultiGeneBlast Ortholog Detection} 
 %For the exploratory efforts to identify PVC-like sequences in other genomes, \\ \texttt{MultiGeneBlast v1.1.0} was used, in conjunction with a custom parser for the output files (scripts provided in supplementary information, and at GitHub\footnote{\url{https://github.com/jrjhealey/MultiGeneBlastParser}}). To find the most similar hits, the program was run in `homology search' mode. For more distant hits, architecture mode is preferable. Parameters for the run such as \texttt{syntenyweight} and \texttt{distancekb}, were often varied to finesse the results on a run-to-run basis, as this is also dependent on the exact input sequences.
 
 \subsection{Structure Prediction}\label{structuresimulation}
@@ -843,11 +843,10 @@ Various programs were used to visualise data for different tasks/purposes during
 
 For examining sequence information, \texttt{Artemis v16.0.0} \citep{Rutherford2000} genome browser was a mainstay. For visualisation of smaller data sets, such as operons and plasmids, SnapGene\footnote{GSL Biotech LLC} was used. SnapGene was also the standard tool for \emph{in silico} cloning design and plasmid/operon maps in this thesis are rendered from the software. Phylogenetic trees were prepared with \texttt{FigTree v1.4.3}\footnote{\url{http://tree.bio.ed.ac.uk/software/figtree/}}
 
-For visualisation of plotted data, such as heatmaps and line graphs, the \texttt{ggplot2 v2.2.1.9000} package \citep{Wickham2009} within \texttt{R/RStudio v3.3.3} was used \citep{RStudioTeam2015, RCoreTeam2014}. Scripts for these are provided in the supplementary information and on GitHub\footnote{\url{https://github.com/jrjhealey/bioinformatics/tree/master/Rscripts}}
+For visualisation of plotted data, such as heatmaps and line graphs, the \texttt{ggplot2 v2.2.1.9000} package \citep{Wickham2009} within \texttt{R/RStudio v3.3.3} was used \citep{RStudioTeam2015, RCoreTeam2014}.
 
 General figures such as schematics and diagrams were typically prepared with Microsoft Powerpoint, or BioRender\footnote{\url{https://biorender.io/}}.
 
 
 
 \todo[inline]{Finish primer tables}
-\todo[inline]{flesh out table/figure captions and titles}

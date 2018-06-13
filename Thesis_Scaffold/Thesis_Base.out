@@ -124,60 +124,56 @@
 \BOOKMARK [2][-]{subsection.4.2.6}{Congruency Analysis}{section.4.2}% 124
 \BOOKMARK [3][-]{subsubsection.4.2.6.1}{Adjusted Wallace Coefficient}{subsection.4.2.6}% 125
 \BOOKMARK [3][-]{subsubsection.4.2.6.2}{Normalised Robinson-Foulds}{subsection.4.2.6}% 126
-\BOOKMARK [2][-]{subsection.4.2.7}{Detecting PVC Homologs}{section.4.2}% 127
-\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 128
-\BOOKMARK [2][-]{subsection.4.3.1}{Correlation between PVC structural proteins and their payloads}{section.4.3}% 129
-\BOOKMARK [2][-]{subsection.4.3.2}{Identifying the PVC blueprint in other locations}{section.4.3}% 130
-\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Summary and future work}{subsection.4.3.2}% 131
-\BOOKMARK [-1][-]{part.3}{III Experimental Results}{}% 132
-\BOOKMARK [0][-]{chapter.5}{Structure and Function of PVC Tail Fibre-like Genes}{part.3}% 133
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 134
-\BOOKMARK [1][-]{section.5.2}{Experimental procedures}{chapter.5}% 135
-\BOOKMARK [2][-]{subsection.5.2.1}{in silico examination of tail fibre sequences}{section.5.2}% 136
-\BOOKMARK [3][-]{subsubsection.5.2.1.1}{Domain structure}{subsection.5.2.1}% 137
-\BOOKMARK [3][-]{subsubsection.5.2.1.2}{Sequence characteristics}{subsection.5.2.1}% 138
-\BOOKMARK [3][-]{subsubsection.5.2.1.3}{in silico cloning}{subsection.5.2.1}% 139
-\BOOKMARK [2][-]{subsection.5.2.2}{Experimental cloning, expression and purification}{section.5.2}% 140
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{IMAC Purification and Polishing}{subsection.5.2.2}% 141
-\BOOKMARK [2][-]{subsection.5.2.3}{Structural Analyses}{section.5.2}% 142
-\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Trimerism of PVC tail fibre proteins}{subsection.5.2.3}% 143
-\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Thermal stability and secondary structure studies via Circular Dichroism}{subsection.5.2.3}% 144
-\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Secondary structure prediction via Dichroweb}{subsection.5.2.3}% 145
-\BOOKMARK [4][-]{paragraph.5.2.3.3.1}{Algorithm and reference set selection}{subsubsection.5.2.3.3}% 146
-\BOOKMARK [4][-]{paragraph.5.2.3.3.2}{Secondary structure predictions}{subsubsection.5.2.3.3}% 147
-\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Comparisons with known structures}{subsection.5.2.3}% 148
-\BOOKMARK [3][-]{subsubsection.5.2.3.5}{Crystallography}{subsection.5.2.3}% 149
-\BOOKMARK [4][-]{paragraph.5.2.3.5.1}{In-situ partial proteolysis}{subsubsection.5.2.3.5}% 150
-\BOOKMARK [2][-]{subsection.5.2.4}{Finding binding partners for tail fibre proteins}{section.5.2}% 151
-\BOOKMARK [3][-]{subsubsection.5.2.4.1}{Iron nanoparticle protein pulldowns}{subsection.5.2.4}% 152
-\BOOKMARK [3][-]{subsubsection.5.2.4.2}{Sugar binding studies via glycan arrays}{subsection.5.2.4}% 153
-\BOOKMARK [1][-]{section.5.3}{Discussion}{chapter.5}% 154
-\BOOKMARK [2][-]{subsection.5.3.1}{Cloning, purification, and characterisation of PVC tail fibres}{section.5.3}% 155
-\BOOKMARK [2][-]{subsection.5.3.2}{The chimeric/split domain structure of PVC tail fibres}{section.5.3}% 156
-\BOOKMARK [2][-]{subsection.5.3.3}{Candidate binding targets for PVC tail fibres}{section.5.3}% 157
-\BOOKMARK [2][-]{subsection.5.3.4}{Summary and future work}{section.5.3}% 158
-\BOOKMARK [0][-]{chapter.6}{Synthetic \046 natural PVC operon regulation}{part.3}% 159
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 160
-\BOOKMARK [1][-]{section.6.2}{Experimental procedures}{chapter.6}% 161
-\BOOKMARK [2][-]{subsection.6.2.1}{Cloning and engineering PVC operons}{section.6.2}% 162
-\BOOKMARK [3][-]{subsubsection.6.2.1.1}{Recombineering}{subsection.6.2.1}% 163
-\BOOKMARK [4][-]{paragraph.6.2.1.1.1}{Chromosomal engineering}{subsubsection.6.2.1.1}% 164
-\BOOKMARK [4][-]{paragraph.6.2.1.1.2}{Cosmid engineering}{subsubsection.6.2.1.1}% 165
-\BOOKMARK [3][-]{subsubsection.6.2.1.2}{Gibson assembly}{subsection.6.2.1}% 166
-\BOOKMARK [2][-]{subsection.6.2.2}{Population heterogeneity in PVC activity}{section.6.2}% 167
-\BOOKMARK [3][-]{subsubsection.6.2.2.1}{Cellular morphology in reporter assays}{subsection.6.2.2}% 168
-\BOOKMARK [4][-]{paragraph.6.2.2.1.1}{Cellular elongation}{subsubsection.6.2.2.1}% 169
-\BOOKMARK [4][-]{paragraph.6.2.2.1.2}{Culture integrity}{subsubsection.6.2.2.1}% 170
-\BOOKMARK [2][-]{subsection.6.2.3}{A putative role for transcript elongation in PVC regulation}{section.6.2}% 171
-\BOOKMARK [3][-]{subsubsection.6.2.3.1}{Controlling RfaH activity}{subsection.6.2.3}% 172
-\BOOKMARK [1][-]{section.6.3}{Discussion}{chapter.6}% 173
-\BOOKMARK [2][-]{subsection.6.3.1}{Summary and future work}{section.6.3}% 174
-\BOOKMARK [-1][-]{part.4}{IV Discussion}{}% 175
-\BOOKMARK [0][-]{chapter.7}{Discussion}{part.4}% 176
-\BOOKMARK [0][-]{chapter.7}{Bibliography}{part.4}% 177
-\BOOKMARK [0][-]{section*.125}{Appendices}{part.4}% 178
-\BOOKMARK [0][-]{Appendix.a.A}{Chapter 3 Appendices}{part.4}% 179
-\BOOKMARK [0][-]{Appendix.a.B}{Chapter 4 Appendices}{part.4}% 180
-\BOOKMARK [0][-]{Appendix.a.C}{Chapter 5 Appendices}{part.4}% 181
-\BOOKMARK [0][-]{Appendix.a.D}{Chapter 5 Appendices}{part.4}% 182
-\BOOKMARK [0][-]{Appendix.a.E}{Publications arising from this candidature}{part.4}% 183
+\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 127
+\BOOKMARK [2][-]{subsection.4.3.1}{Correlation between PVC structural proteins and their payloads}{section.4.3}% 128
+\BOOKMARK [2][-]{subsection.4.3.2}{Identifying the PVC blueprint in other locations}{section.4.3}% 129
+\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Summary and future work}{subsection.4.3.2}% 130
+\BOOKMARK [-1][-]{part.3}{III Experimental Results}{}% 131
+\BOOKMARK [0][-]{chapter.5}{Structure and Function of PVC Tail Fibre-like Genes}{part.3}% 132
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 133
+\BOOKMARK [1][-]{section.5.2}{Experimental procedures}{chapter.5}% 134
+\BOOKMARK [2][-]{subsection.5.2.1}{in silico examination of tail fibre sequences}{section.5.2}% 135
+\BOOKMARK [3][-]{subsubsection.5.2.1.1}{Domain structure}{subsection.5.2.1}% 136
+\BOOKMARK [3][-]{subsubsection.5.2.1.2}{Sequence characteristics}{subsection.5.2.1}% 137
+\BOOKMARK [3][-]{subsubsection.5.2.1.3}{in silico cloning}{subsection.5.2.1}% 138
+\BOOKMARK [2][-]{subsection.5.2.2}{Experimental cloning, expression and purification}{section.5.2}% 139
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{IMAC Purification and Polishing}{subsection.5.2.2}% 140
+\BOOKMARK [2][-]{subsection.5.2.3}{Structural Analyses}{section.5.2}% 141
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Trimerism of PVC tail fibre proteins}{subsection.5.2.3}% 142
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Thermal stability and secondary structure studies via Circular Dichroism}{subsection.5.2.3}% 143
+\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Secondary structure prediction via Dichroweb}{subsection.5.2.3}% 144
+\BOOKMARK [4][-]{paragraph.5.2.3.3.1}{Algorithm and reference set selection}{subsubsection.5.2.3.3}% 145
+\BOOKMARK [4][-]{paragraph.5.2.3.3.2}{Secondary structure predictions}{subsubsection.5.2.3.3}% 146
+\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Comparisons with known structures}{subsection.5.2.3}% 147
+\BOOKMARK [3][-]{subsubsection.5.2.3.5}{Crystallography}{subsection.5.2.3}% 148
+\BOOKMARK [4][-]{paragraph.5.2.3.5.1}{In-situ partial proteolysis}{subsubsection.5.2.3.5}% 149
+\BOOKMARK [2][-]{subsection.5.2.4}{Finding binding partners for tail fibre proteins}{section.5.2}% 150
+\BOOKMARK [3][-]{subsubsection.5.2.4.1}{Iron nanoparticle protein pulldowns}{subsection.5.2.4}% 151
+\BOOKMARK [3][-]{subsubsection.5.2.4.2}{Sugar binding studies via glycan arrays}{subsection.5.2.4}% 152
+\BOOKMARK [1][-]{section.5.3}{Discussion}{chapter.5}% 153
+\BOOKMARK [2][-]{subsection.5.3.1}{Cloning, purification, and characterisation of PVC tail fibres}{section.5.3}% 154
+\BOOKMARK [2][-]{subsection.5.3.2}{The chimeric/split domain structure of PVC tail fibres}{section.5.3}% 155
+\BOOKMARK [2][-]{subsection.5.3.3}{Candidate binding targets for PVC tail fibres}{section.5.3}% 156
+\BOOKMARK [2][-]{subsection.5.3.4}{Summary and future work}{section.5.3}% 157
+\BOOKMARK [0][-]{chapter.6}{Synthetic \046 natural PVC operon regulation}{part.3}% 158
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 159
+\BOOKMARK [1][-]{section.6.2}{Experimental procedures}{chapter.6}% 160
+\BOOKMARK [2][-]{subsection.6.2.1}{Cloning and engineering PVC operons}{section.6.2}% 161
+\BOOKMARK [3][-]{subsubsection.6.2.1.1}{Recombineering}{subsection.6.2.1}% 162
+\BOOKMARK [4][-]{paragraph.6.2.1.1.1}{Chromosomal engineering}{subsubsection.6.2.1.1}% 163
+\BOOKMARK [4][-]{paragraph.6.2.1.1.2}{Cosmid engineering}{subsubsection.6.2.1.1}% 164
+\BOOKMARK [3][-]{subsubsection.6.2.1.2}{Gibson assembly}{subsection.6.2.1}% 165
+\BOOKMARK [2][-]{subsection.6.2.2}{Population heterogeneity in PVC activity}{section.6.2}% 166
+\BOOKMARK [3][-]{subsubsection.6.2.2.1}{Cellular morphology in reporter assays}{subsection.6.2.2}% 167
+\BOOKMARK [4][-]{paragraph.6.2.2.1.1}{Cellular elongation}{subsubsection.6.2.2.1}% 168
+\BOOKMARK [4][-]{paragraph.6.2.2.1.2}{Culture integrity}{subsubsection.6.2.2.1}% 169
+\BOOKMARK [2][-]{subsection.6.2.3}{A putative role for transcript elongation in PVC regulation}{section.6.2}% 170
+\BOOKMARK [3][-]{subsubsection.6.2.3.1}{Controlling RfaH activity}{subsection.6.2.3}% 171
+\BOOKMARK [1][-]{section.6.3}{Discussion}{chapter.6}% 172
+\BOOKMARK [2][-]{subsection.6.3.1}{Summary and future work}{section.6.3}% 173
+\BOOKMARK [-1][-]{part.4}{IV Discussion}{}% 174
+\BOOKMARK [0][-]{chapter.7}{Discussion}{part.4}% 175
+\BOOKMARK [0][-]{chapter.7}{Bibliography}{part.4}% 176
+\BOOKMARK [0][-]{section*.119}{Appendices}{part.4}% 177
+\BOOKMARK [0][-]{Appendix.a.A}{Chapter 4 Appendices}{part.4}% 178
+\BOOKMARK [0][-]{Appendix.a.B}{Publications arising from this candidature}{part.4}% 179
