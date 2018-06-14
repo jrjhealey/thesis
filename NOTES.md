@@ -102,6 +102,7 @@
  - Evidence for convergent evolution rather than direct descension?
    - PVCs functionally resemble Afp, but structurally resemble Pyocins.
    - More ancestral/less mobile than initially suspected.
+     - They have adapted with their genomes (asymbiotica PVCs are more like one another than luminescens)
  - Have shown here that though many things that look like PVCs exist, the 'true' PVCs are very restricted to the 'rhabduses. Serratia has the closest relative, but the 'MRCA' of PVCs and Afps etc must exist somewhere within the split from serratia and photorhabdus
  - Speculate on the role of the ATPase
    - Recycling more efficient than de novo synthesis Kube2015 (and references 12, 61, 76)

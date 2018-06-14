@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  13 JUN 2018 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.8)  14 JUN 2018 18:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8557,10 +8557,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 59339 strings out of 492995
- 1156632 string characters out of 4882705
- 6893878 words of memory out of 10000000
- 60501 multiletter control sequences out of 15000+600000
+ 59337 strings out of 492995
+ 1156579 string characters out of 4882705
+ 6893408 words of memory out of 10000000
+ 60499 multiletter control sequences out of 15000+600000
  110189 words of font info for 293 fonts, out of 5000000 for 9000
  1141 hyphenation exceptions out of 8191
  970i,21n,982p,10450b,25805s stack positions out of 10000i,500n,10000p,5000000b,80000s
@@ -8590,7 +8590,7 @@ s/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
 alatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/wasy2-ps/wa
 syb10.pfb>
-Output written on Thesis_Base.pdf (295 pages, 67884267 bytes).
+Output written on Thesis_Base.pdf (295 pages, 67885312 bytes).
 PDF statistics:
  7029 PDF objects out of 7423 (max. 8388607)
  5692 compressed objects within 57 object streams
