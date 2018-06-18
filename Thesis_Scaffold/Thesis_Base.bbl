@@ -1174,6 +1174,14 @@ K{\"{u}}hlbrandt, W. (2014).
 \newblock {The Resolution Revolution}.
 \newblock {\em Science}, 343:1443--1444.
 
+\bibitem[Kumar et~al., 2013]{Kumar2013}
+Kumar, S.~N., Nambisan, B., Kumar, B. S.~D., Vasudevan, N.~G., Mohandas, C.,
+  Cheriyan, V.~T., and Anto, R.~J. (2013).
+\newblock {Antioxidant and anticancer activity of
+  3,5-dihydroxy-4-isopropylstilbene produced by Bacillus sp. N strain isolated
+  from entomopathogenic nematode}.
+\newblock {\em Archives of Pharmacal Research}, (3):1--11.
+
 \bibitem[Lan et~al., 2014]{Lan2014}
 Lan, M., Klose, T., Plevka, P., Aksyuk, A., Zhang, X., Arisaka, F., and
   Rossmann, M.~G. (2014).
@@ -1607,9 +1615,16 @@ Pattengale, N.~D., Gottlieb, E.~J., and Moret, B. M.~E. (2007).
 \newblock {Efficiently Computing the Robinson-Foulds Metric}.
 \newblock {\em Journal of Computational Biology}, 14(6):724--735.
 
-\bibitem[Paul et~al., 2004]{Paul2004}
+\bibitem[Paul et~al., 2004a]{Paul2004}
 Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
-  Jenal, U. (2004).
+  Jenal, U. (2004a).
+\newblock {Cell cycle-dependent dynamic localization of a bacterial response
+  regulator with a novel di-guanylate cyclase output domain}.
+\newblock {\em Genes and Development}, 18(6):715--727.
+
+\bibitem[Paul et~al., 2004b]{Paul2004a}
+Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
+  Jenal, U. (2004b).
 \newblock {Cell cycle-dependent dynamic localization of a bacterial response
   regulator with a novel di-guanylate cyclase output domain}.
 \newblock {\em Genes and Development}, 18(6):715--727.
