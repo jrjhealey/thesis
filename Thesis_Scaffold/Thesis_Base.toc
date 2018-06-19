@@ -68,22 +68,21 @@
 \contentsline {subsection}{\numberline {2.2.8}Recombineering}{80}{subsection.2.2.8}
 \contentsline {subsubsection}{\numberline {2.2.8.1}Preparation of Linear Oligonucleotides}{80}{subsubsection.2.2.8.1}
 \contentsline {subsubsection}{\numberline {2.2.8.2}Electroporation-Recombination using $\lambda $-Red Bearing Plasmids}{80}{subsubsection.2.2.8.2}
-\contentsline {subsubsection}{\numberline {2.2.8.3}Electroporation-Recombination with $\lambda $-Red Chromosomal Strains}{81}{subsubsection.2.2.8.3}
 \contentsline {subsection}{\numberline {2.2.9}Sequencing}{81}{subsection.2.2.9}
 \contentsline {subsubsection}{\numberline {2.2.9.1}Di-deoxy-chain-termination (Sanger) Sequencing}{81}{subsubsection.2.2.9.1}
 \contentsline {subsubsection}{\numberline {2.2.9.2}Next Generation}{81}{subsubsection.2.2.9.2}
-\contentsline {section}{\numberline {2.3}Molecular Techniques - Protein Methods}{82}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Expression}{82}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}Molecular Techniques - Protein Methods}{81}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Expression}{81}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Harvesting}{82}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Lysis}{83}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Lysis}{82}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Purification}{83}{subsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.4.1}Immobilised Metal-ion Affinity Chromatography}{83}{subsubsection.2.3.4.1}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Gel Filtration}{85}{subsubsection.2.3.4.2}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Gel Filtration}{84}{subsubsection.2.3.4.2}
 \contentsline {subsubsection}{\numberline {2.3.4.3}Concentration/Dialysis}{85}{subsubsection.2.3.4.3}
 \contentsline {subsection}{\numberline {2.3.5}Quantification}{85}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}SDS-PAGE}{86}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.6}SDS-PAGE}{85}{subsection.2.3.6}
 \contentsline {subsection}{\numberline {2.3.7}Staining}{86}{subsection.2.3.7}
-\contentsline {subsection}{\numberline {2.3.8}Western Blotting}{87}{subsection.2.3.8}
+\contentsline {subsection}{\numberline {2.3.8}Western Blotting}{86}{subsection.2.3.8}
 \contentsline {section}{\numberline {2.4}Bio-physical Techniques}{87}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Fluorescence microscopy}{87}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Circular Dichroism}{87}{subsection.2.4.2}
@@ -92,16 +91,16 @@
 \contentsline {subsection}{\numberline {2.5.1}Quality Control}{89}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Assembly}{89}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Mapping}{89}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Annotation}{90}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Alignment}{90}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.4}Annotation}{89}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}Alignment}{89}{subsection.2.5.5}
 \contentsline {subsection}{\numberline {2.5.6}Phylogenetics}{90}{subsection.2.5.6}
 \contentsline {subsection}{\numberline {2.5.7}Congruency}{90}{subsection.2.5.7}
 \contentsline {subsection}{\numberline {2.5.8}Ortholog Detection}{92}{subsection.2.5.8}
-\contentsline {subsection}{\numberline {2.5.9}Structure Prediction}{93}{subsection.2.5.9}
+\contentsline {subsection}{\numberline {2.5.9}Structure Prediction}{92}{subsection.2.5.9}
 \contentsline {subsection}{\numberline {2.5.10}Structural Analysis}{93}{subsection.2.5.10}
 \contentsline {subsection}{\numberline {2.5.11}Repeat detection}{94}{subsection.2.5.11}
 \contentsline {subsection}{\numberline {2.5.12}RNA structure analysis}{94}{subsection.2.5.12}
-\contentsline {subsection}{\numberline {2.5.13}Data Visualisation}{95}{subsection.2.5.13}
+\contentsline {subsection}{\numberline {2.5.13}Data Visualisation}{94}{subsection.2.5.13}
 \contentsline {part}{II\hspace {1em}Computational Results}{96}{part.2}
 \contentsline {chapter}{\numberline {3}Structural Bioinformatics of PVC Proteins}{97}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{97}{section.3.1}
@@ -127,7 +126,7 @@
 \contentsline {section}{\numberline {4.3}Discussion}{125}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Correlation between PVC structural proteins and their payloads}{132}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Identifying the PVC blueprint in other locations}{135}{subsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Summary and future work}{138}{subsubsection.4.3.2.1}
+\contentsline {subsection}{\numberline {4.3.3}Summary and future work}{138}{subsection.4.3.3}
 \contentsline {part}{III\hspace {1em}Experimental Results}{140}{part.3}
 \contentsline {chapter}{\numberline {5}Structure and Function of PVC Tail Fibre-like Genes}{141}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{141}{section.5.1}
@@ -163,19 +162,21 @@
 \contentsline {paragraph}{\numberline {6.2.1.1.1}Chromosomal engineering}{197}{paragraph.6.2.1.1.1}
 \contentsline {paragraph}{\numberline {6.2.1.1.2}Cosmid engineering}{199}{paragraph.6.2.1.1.2}
 \contentsline {subsubsection}{\numberline {6.2.1.2}Gibson assembly}{200}{subsubsection.6.2.1.2}
-\contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{202}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Cellular morphology in reporter assays}{214}{subsubsection.6.2.2.1}
-\contentsline {paragraph}{\numberline {6.2.2.1.1}Cellular elongation}{214}{paragraph.6.2.2.1.1}
-\contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{215}{paragraph.6.2.2.1.2}
-\contentsline {subsection}{\numberline {6.2.3}A putative role for transcript elongation in PVC regulation}{217}{subsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{222}{subsubsection.6.2.3.1}
-\contentsline {section}{\numberline {6.3}Discussion}{224}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Summary and future work}{228}{subsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.1.1}PVC cloning}{229}{subsubsection.6.3.1.1}
-\contentsline {subsubsection}{\numberline {6.3.1.2}PVC natural regulation and population dynamics}{230}{subsubsection.6.3.1.2}
-\contentsline {part}{IV\hspace {1em}Discussion}{233}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{234}{chapter.7}
-\contentsline {chapter}{Bibliography}{234}{chapter.7}
-\contentsline {chapter}{Appendices}{268}{section*.110}
-\contentsline {chapter}{\numberline {A}Chapter \ref {bioinformatics} Appendices}{269}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Publications arising from this candidature}{270}{Appendix.a.B}
+\contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{203}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Cellular morphology in reporter assays}{215}{subsubsection.6.2.2.1}
+\contentsline {paragraph}{\numberline {6.2.2.1.1}Cellular elongation}{215}{paragraph.6.2.2.1.1}
+\contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{216}{paragraph.6.2.2.1.2}
+\contentsline {subsection}{\numberline {6.2.3}A putative role for transcript elongation in PVC regulation}{218}{subsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{223}{subsubsection.6.2.3.1}
+\contentsline {section}{\numberline {6.3}Discussion}{225}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Heterologous expression and control of PVC operons}{225}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Understanding the natural regulation and deployment of PVCs}{229}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Summary and future work}{231}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{232}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{234}{subsubsection.6.3.3.2}
+\contentsline {part}{IV\hspace {1em}Discussion}{236}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{237}{chapter.7}
+\contentsline {chapter}{Bibliography}{237}{chapter.7}
+\contentsline {chapter}{Appendices}{271}{section*.108}
+\contentsline {chapter}{\numberline {A}Chapter \ref {bioinformatics} Appendices}{272}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Publications arising from this candidature}{273}{Appendix.a.B}

@@ -100,7 +100,6 @@ Ampicillin & 100 \ugml \\
 Kanamycin & 25 \ugml \\
 Chloramphenicol & 25 \ugml \\
 Gentamycin & 10 \ugml \\
-Tetracycline & 10 \ugml \\
 \hline
 \multicolumn{2}{p{0.5\textwidth}}{\centering Growth Supplements}\tstrut\bstrut \\
 \hline
@@ -141,7 +140,7 @@ Glucose & 0.2\% (w/v) \\
 
 \newpage
 	\subsection{Plasmids and Cosmids}
-	All plasmids were either bought, gifted or created in this study. Recombineering plasmids pKD46/pCP20/pJET-FRT-Cm/pJET-FRT-Kan were a kind gift from Dr. Helge Bode at Goethe University, Frankfurt. pET29a was received from Jenny Goodman, a fellow PhD student at Warwick.
+	All plasmids were either bought, gifted or created in this study. Recombineering plasmids pKD46/pJET-FRT-Cm/pJET-FRT-Kan were a kind gift from Dr. Helge Bode at Goethe University, Frankfurt. pET29a was received from Jenny Goodman, a fellow PhD student at Warwick.
 	
 	\vref{plasmidtable} details all the existing plasmids used in this study that have been previously constructed and/or published. \vref{customplasmids} details all the constructs produced during the course of this study. 
 	
@@ -177,8 +176,6 @@ pAGAG & Promoterless GFP bearing plasmid, without GFP start codon for promoter f
 
 pKD46 & $\lambda$Red plasmid bearing $\beta$, $\gamma$, and \emph{Exo} recombineering enzymes, under the arabinose inducible control of the \emph{araBAD} system. Ampicillin resistant, with the temperature sensitive \emph{ori} 101ts (compatibility group C) & \citep{Datsenko2000} \\
 
-pCP20 & FRT ``flippase" bearing plasmid for excision of regions surrounded by FRT recognition sites (typically after successful recombineering with pKD). Ampicillin and Chloramphenicol resistant, with the temperature sensitive \emph{ori} 101ts (compatibility group C). & \citep{Datsenko2000} \\
-
 pJET-FRT-Cm & Recombineering knockout cassette template plasmids bearing an FRT-flanked Chloramphenicol cassette. Ampicillin and Chloramphenicol resistant, with a ColE1 \emph{ori} (compatibility group A). & Helge Bode (derivatised Thermo Scientific Vector)\\
 
 pJET-FRT-Kan & Recombineering knockout cassette template plasmids bearing an FRT-flanked Kanamycin cassette. Ampicillin and Kanamycin resistant, with a ColE1 \emph{ori} (compatibility group A). & Helge Bode (derivatised Thermo Scientific Vector) \\
@@ -209,12 +206,21 @@ pET29a\_\emph{pnf13} & PVC\emph{pnf} Putative Tail Fibre Gene & pET29a & PVC\emp
 
 pET29a\_\emph{lumt13} & PVC\emph{lumt} Putative Tail Fibre Gene & pET29a & PVC\emph{lumt13} Tail fibre cloned in-frame with the C-terminal hexa-histidine tag and thrombin cleavage site, for expression and purification via IMAC \\
 
+
 \hline
+\hiderowcolors
+\multicolumn{4}{p{\linewidth}}{\centering Recombineering Constructs}\tstrut\bstrut \\
+\hline
+pJETBAD-FRT-Kan & \emph{araBAD} promotor system and terminators & pJET-FRT-Kan & Recombineering helper plasmid derivatised from pJET-FRT-Kan by addition of the pBAD30 promoter system adjacent to the Kanomycin resistance cassette.  \\
+
+\rowcolor{gray!10} pJETBAD-FRT-Cm & \emph{araBAD} promotor system and terminators & pJET-FRT-Cm & Recombineering helper plasmid derivatised from pJET-FRT-Cm by addition of the pBAD30 promoter system adjacent to the Chloramphenicol resistance cassette.  \\
+\hline
+\hiderowcolors
 \multicolumn{4}{p{\linewidth}}{\centering Reporter Constructs}\tstrut\bstrut \\
 \hline
 
 pAGAG\_PB68.1PVCpnf & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{pnf} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{pnf} operon promoter fused to GFP\\
-
+\showrowcolors
 pAGAG\_PB68.1PVClopT & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{lopT} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{lopT} operon promoter fused to GFP\\
 
 pAGAG\_PB68.1PVCcif & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{cif} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{cif} operon promoter fused to GFP\\
@@ -267,8 +273,6 @@ rfaH\_3'\_SP\_R & & TATGACATTGCTGGAGCC & 52.2 [62] & \\[0.5ex]
 \end{table}
 \todo[inline]{Finish populating all primer tables}
 \todo[inline]{remove rfaH primers if necessary, and add the primers for reporter construction from katies thesis.}
-\todo[inline]{primers for pCEP construction?}
-\todo[inline]{Add methods for conjugation if not here already}
 
 \begin{landscape}
 \scriptsize
@@ -293,8 +297,8 @@ PVClumt13-BamHI\_R & & TTACTT\textbf{GGATCC}TTACACAACCTTAATCATATAG & [67] &  \\
 PVClumt13-KpnI\_R & & TTACTT\textbf{GGTACC}AACACAACCTTAATCATATAG & [67] & \\
 
 %
-rfaH\_EcoRI\_F & \multirow{2}{*}{\emph{rfaH}} & ACAGGT\textbf{CATATG}GAATTAAATGAGTTAACTAACAAATT & [71] & \multirow{2}{*}{500} \\
-rfaH\_SalI\_R & & CTA\textbf{GTCGAC}TTAGAGTTTGCGGAACTCG & [71] & \\
+%rfaH\_EcoRI\_F & \multirow{2}{*}{\emph{rfaH}} & ACAGGT\textbf{CATATG}GAATTAAATGAGTTAACTAACAAATT & [71] & \multirow{2}{*}{500} \\
+%rfaH\_SalI\_R & & CTA\textbf{GTCGAC}TTAGAGTTTGCGGAACTCG & [71] & \\
 
 \hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -546,7 +550,7 @@ The recombineering protocol devised in this work is a modified version of the el
 Primers to create the recombination cassette can be seen in \vref{specprimers}. Primers are designed such that they contain 50 nucleotides of homology to the target insertion site, with 20 nucleotides of cassette priming nucleotides 3' to the homology. Primers with a total length of 70 basepairs are amplified exclusively with Q5 (see \vref{q5reaction}). In order to ensure there is no carry through when using helper plasmids as template, all linear oligos were gel extracted, treated with DpnI digestion, and finally PCR purified.
 
 \subsubsection{Electroporation-Recombination using $\lambda$-Red Bearing Plasmids}\label{pKD}
-\emph{E. coli} harbouring plasmid pKD46 or pKD56 (see \vref{plasmidtable} were cultured overnight at 30\degC, as they contain a temperature sensitive origin of replication. The following day, 100 mL cultures are set up with a 1:100 dilution of the overnight. Cultures were grown (at 30\degC) until \OD{} 0.1, split in half, and one half was induced with 0.2\% Arabinose (for pKD46) or 0.2 $\mu$M tetracycline (for pKD56). The remaining half was retained as a non-induced control. The cultures continue to be grown until \OD{} 0.4-0.6 is reached, at which point the cells are chilled, washed and prepared for electroporation in the same manner as in \vref{electrocompetents}.
+\emph{E. coli} harbouring plasmid pKD46 (see \vref{plasmidtable} were cultured overnight at 30\degC, as they contain a temperature sensitive origin of replication. The following day, 100 mL cultures are set up with a 1:100 dilution of the overnight. Cultures were grown (at 30\degC) until \OD{} 0.1, split in half, and one half was induced with 0.2\% Arabinose for pKD46. The remaining half was retained as a non-induced control. The cultures continue to be grown until \OD{} 0.4-0.6 is reached, at which point the cells are chilled, washed and prepared for electroporation in the same manner as in \vref{electrocompetents}.
 
 Electroporation was conducted with the previously detailed parameters for \emph{E. coli}, using $\approx$ 400 ng of linear DNA - though this may need optimisation on a per-experiment basis. For co-electroporation of linear modifying oligo with the target replicon, a low replicon to cell ratio is used and a maximum of 1 ng of replicon DNA.
 
@@ -559,9 +563,6 @@ To calculate this, 100\ul{} of cells from 50 mL of OD 0.4 culture should be appr
 \myequations{Conversion from mass and length of DNA to copy number}
 
 \noindent where $\mathrm{N}_{A}$ is Avogadro's Constant.
-
-\subsubsection{Electroporation-Recombination with $\lambda$-Red Chromosomal Strains}
-The same workflow as detailed above in \vref{pKD} is followed for the recombineering strain DY380 which bears all the recombineering enzymes within the chromosome (see \vref{strains}), with the exception that induction is conducted at \OD{} by heat-shock at 42\degC{} for 15 minutes, and selection for the strain is done with tetracyline. 
 
 
 \subsection{Sequencing}
