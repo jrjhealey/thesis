@@ -129,18 +129,36 @@ With the technique successfully applied in the test case, the protocol was adapt
 \end{figure}
 
 \myparagraph{Cosmid engineering}
-With a functional protocol for recombineering established to good efficiency in the chromosome, the next step is to apply it to the cosmids. Since the cosmids contained extraneous genomic sequence, their own replication origins, and multiple resistance markers, a more complicated engineering process was designed and is depicted in \vref{engineeringcosmids}.
+Unlike the chromosomal targets, which were simply `overwritten' with a resistance cassette, the objective of engineering the cosmids is to incorporate an inducible promoter upstream of the operon, thus providing control potentially without having to reconstruct the operons. The first step was to generate helper plasmids which would bear the template for incorporation. To this end, the helper plasmids pJET-FRT-Kan and pJET-FRT-Cm were derivatised with the \emph{araBAD} promoter system from pBAD30, this provided a selectable marker and inducible promoter adjacent to one another which could then be PCR'd for use as the electroporated linear oligonucleotide. The resultant plasmids maps are shown in \vref{helpermaps}, with the primer sites used for cassette amplification which incorporate the selection marker, promoter system, and FRT (``Flippase Recognition Target") sites, so that the marker can be subsequently removed if desired.
 
-Unlike the chromosomal targets, which were simply `overwritten' with a resistance cassette, the objective of engineering the cosmids is to incorporate an inducible promoter upstream of the operon, thus providing control potentially without having to reconstruct the operons. The first step was to generate helper plasmids which would bear the template for incorporation. To this end, the helper plasmids pJET-FRT-Kan and pJET-FRT-Cm were derivatised with the \emph{araBAD} promoter system from pBAD30, this provided a selectable marker and inducible promoter adjacent to one another which could then be PCR'd for use as the electroporated linear oligonucleotide.
+\begin{figure}[p]
+\centering
+  \begin{subfigure}{\textwidth}
+    \includegraphics[width=\textwidth, clip, trim={0 0 0 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/pJETBADCm.png}
+    \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
+  \end{subfigure}
+  
+  \begin{subfigure}{\textwidth}
+    \includegraphics[width=\textwidth, clip, trim={0 0 0 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/img/pJETBADKan.png}
+    \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
+  \end{subfigure}
+    
+    \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+    \caption[Cosmid recombineering helper plasmids created]{\textsc{\normalsize Helper plasmids bearing the promoter/marker system for recombineering.} \vspace{0.1cm} \newline Vector maps for the plasmids derivatised from the pJET-FRT plasmids which carry selectable markers flanked by FRT sites, such that the marker can be removed after a deletion has been achieved. The plasmids were derivatised in this study by incorporation of the araBAD promoter system.}
+\label{helpermaps}
+\end{figure}
 
-\addfloat{Diagram of the devised method for engineering cosmids}
 
-Unfortunately it became apparent that recombineering multicopy replicons introduces an additional level of complexity. It was not possibly to unambiguously identify correctly engineered constructs from the resultant mix of modified, parental, and chimeric sequences. The issues surrounding this kind of engineering are evaluated further in the Discussion for this chapter, but ultimately after the significant effort invested in optimising the protocols and generating the required materials and constructs necessary, it was decided that the approach should be abandoned in favour of a more reliable and less time consuming alternative, one of which is explored in the next section.
+With a functional protocol for recombineering established to good efficiency in the chromosome, the next step is to apply it to the cosmids. Since the cosmids contained extraneous genomic sequence, their own replication origins, and multiple resistance markers, a more complicated engineering process had to be designed. While the recombination process is as simple as the chromosomal protocol, the extra complications arise from these resistance markers and the origins would limit the plasmids that could be used in future in transcomplementation etc.
 
-%Dy380?
-% If not including, make sure to remove from section 2.2.8.2 Electroporation-Recombination using λ-Red Bearing Plasmids and 
-% 2.2.8.3 Electroporation-Recombination with λ-Red Chromosomal Strains
+Firstly, the pKD46 plasmid which was used for chromosomal recombination could not be used with many of the cosmids as they both harbour Ampicillin resistance markers and thus the selection would not maintain each of them. To circumvent this problem, the DY380 strain was procured which features the same enzymes integrated in to the chromosome, and has a tetracycline marker. This also alleviates the need for an additional incompatibility group between plasmid origins (fortunately, the 101ts origin that pKD plasmids use is compatible with ColE1 origins). This allows the cosmids to be propagated within the strain with the prerequisite enzymes present.
 
+Next, the template cassette from the 2 helper plasmids had to be chosen according to the library sequence. PVC operons were present on either cosmids with Ampiciliin/Kanamycin/Neomycin resistance, or on fosmids with only Chloramphenicol resistance, but obviously only one template cassette is therefore compatible. The linear oligos would need to be prepared on a cosmid-by-cosmid (or fosmid) basis, so as to incorporate the homology needed. This was done in such a way as to remove a chunk of the extraneous genomic sequence at the 5' end at the same time.
+
+Unfortunately it became apparent in development of the process that recombineering multicopy replicons introduces an additional level of complexity than was even anticipated. It was not possible to unambiguously identify correctly engineered constructs from the resultant mix of modified, parental, and chimeric sequences. The issues surrounding this kind of engineering are evaluated further in the Discussion for this chapter and have been highlighted in the literature in the past, but ultimately after the significant effort invested in optimising the protocols and generating the required materials and constructs necessary, it was decided that the approach should be abandoned in favour of a more reliable and less time consuming alternative, one of which is explored in the next section.
+
+
+\clearpage
 \subsubsection{Gibson assembly}
 To attempt to clone the PVCs in a manner that would not depend on restriction sites, a process of construct creation using the fairly new ``Gibson" assembly technique was tested and optimised. Gibson assembly has been popularised ever since the advent of the first synthetic genome produced by \cite{Gibson2010c, Gibson2009a} (hence the name). The method promises \emph{in vitro} assembly in a largely sequence-agnostic manner, crucially without the requirement for restriction sites, for fragments up to the hundreds of kilobase range. The technique works by mixing overlapping linear DNA, which have complementary ends (in a manner similar to recombineering), and using 3 isothermal enzymes to create `sticky ends' which anneal, are `gap-filled' and ligated, all in a single reaction pot. Firstly, T5 exonuclease creates the 3' overhangs, exposing the complementary overlaps as stretches of single stranded DNA. These complementary regions base pair, and the T5 nuclease is displaced by the Phusion polymerase (or \emph{Taq}), which `back fills' the gaps created by the exonuclease beyond the overlap sites. This leaves a double stranded fusion product of the adjoining fragments, but with disconnected backbones. As the last step of the isothermal assembly reaction, the \emph{Taq} ligase enzyme seals the backbones, yielding 2 fully connected fragments with a high degree of sequence fidelity at the joins.
 

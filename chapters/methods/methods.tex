@@ -100,6 +100,8 @@ Ampicillin & 100 \ugml \\
 Kanamycin & 25 \ugml \\
 Chloramphenicol & 25 \ugml \\
 Gentamycin & 10 \ugml \\
+Tetracycline & 10 \ugml \\
+
 \hline
 \multicolumn{2}{p{0.5\textwidth}}{\centering Growth Supplements}\tstrut\bstrut \\
 \hline
@@ -253,7 +255,7 @@ pAGAG\_TT01PVCU1 & \emph{P. luminescens} TT01 PVC\emph{Unit1} promoter & pAGAG &
 Primer Name  & Function & \multicolumn{1}{c }{Sequence (5' $\rightarrow$ 3')} & Tm ($^{\circ}\mathrm{C}$) & Length (bp)\\[0.5ex]
 \hline\hline
 no1\_F & \multirow{2}{*}{Detection of pJET} & CGCACTTCCAGACCCAGATC & 57.9 & \multirow{2}{*}{$\approx$1200}\\[0.5ex]
-no2\_R & &  GATGGAGTAAATGGTACCTTGGG & 55.1 & \\[0.5ex]
+no2\_R & &  GATGGAGTAAAT\textbf{GGTACC}TTGGG & 55.1 & \\[0.5ex]
 
 hyfC\_Junction\_F & \multirow{2}{*}{Recombineering sequencing confirmation} & CCCTCATTACTGTTGCTGTTAC & 50.0 & \multirow{2}{*}{1847}\\[0.5ex]
 hyfC\_Junction\_R & & GCAGCCGCCTGTAATTTC & 50 & \\[0.5ex]
@@ -279,26 +281,55 @@ rfaH\_3'\_SP\_R & & TATGACATTGCTGGAGCC & 52.2 [62] & \\[0.5ex]
 \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
 
 
-\begin{tabularx}{\linewidth}{c  c  L c  c }
+\begin{tabularx}{\linewidth}{l  c  L c  c }
 \caption[Functionalised Primer Sequences]{Primers for specialist purposes, harbouring modifications, including restriction sites for cloning and overlap homologies for recombineering and Gibson Assembly. Restriction Sites are shown in \textbf{bold}. Overlap homology is shown \underline{underlined} Annealing temperatures shown in [ ] are specific to NEB's Q5 Polymerase. F: Forward Primer, R: Reverse Primer, bp - Base Pair.}
 \label{specprimers}\\
 
 Primer Name  & Function/Target  & \multicolumn{1}{c}{Sequence (5' $\rightarrow$ 3')} & Tm ($^{\circ}\mathrm{C}$) & Length (bp)\\
 \hline\hline
-\multicolumn{5}{p{\linewidth}}{\centering Classical Cloning}\tstrut\bstrut\\
+\multicolumn{5}{p{\linewidth}}{\centering Classical Cloning - Protein Purification}\tstrut\bstrut\\
 \hline\tstrut\bstrut
 
-PVCpnf13-NdeI\_F & \multirow{3}{*}{\emph{pnf} Tail Fibre} & GAGTTA\textbf{CATATG}AACGAAACTCGTTATAATGC & [67] & \multirow{3}{*}{1548} \\
-PVCpnf13-BamHI\_R & & TTTTCA\textbf{GGATCC}TTAAAGCTTTATGATGAAAGC & [67] &  \\
-PVCpnf13-KpnI\_R & & TTTTCA\textbf{GGTACC}AAAAGCTTTATGATGAAAGC & [67] & \\
+PVCpnf13-NdeI\_F   & \multirow{3}{*}{\emph{pnf} Tail Fibre}  & GAGTTA\textbf{CATATG}AACGAAACTCGTTATAATGC  & \multirow{3}{*}{[67]} & \multirow{3}{*}{1548} \\
+PVCpnf13-BamHI\_R  &                                         & TTTTCA\textbf{GGATCC}TTAAAGCTTTATGATGAAAGC &  &  \\
+PVCpnf13-KpnI\_R   &                                         & TTTTCA\textbf{\textbf{GGTACC}}AAAAGCTTTATGATGAAAGC  &  &  \\
 
-PVClumt13-NdeI\_F & \multirow{3}{*}{\emph{lumt} Tail Fibre} & GCCGGA\textbf{CATATG}GACAACAAAAATAAC & [67] & \multirow{3}{*}{675} \\
-PVClumt13-BamHI\_R & & TTACTT\textbf{GGATCC}TTACACAACCTTAATCATATAG & [67] &  \\
-PVClumt13-KpnI\_R & & TTACTT\textbf{GGTACC}AACACAACCTTAATCATATAG & [67] & \\
+PVClumt13-NdeI\_F  & \multirow{3}{*}{\emph{lumt} Tail Fibre} & GCCGGA\textbf{CATATG}GACAACAAAAATAAC        & \multirow{3}{*}{[67]} & \multirow{3}{*}{675} \\
+PVClumt13-BamHI\_R &                                         & TTACTT\textbf{GGATCC}TTACACAACCTTAATCATATAG &  &  \\
+PVClumt13-KpnI\_R  &                                         & TTACTT\textbf{\textbf{GGTACC}}AACACAACCTTAATCATATAG  &  & \\
 
-%
+\hline\hline
+\multicolumn{5}{p{\linewidth}}{\centering Classical Cloning - Promoter Fusions}\tstrut\bstrut\\
+\hline\tstrut\bstrut
+
+TT01U4-BamHI\_F & \multirow{2}{*}{TT01 PVCU4 Promoter} & ATT\textbf{GGATCC}TCGCTGTTCTCTCTTTTCACC     & \multirow{2}{*}{[59]} & \multirow{2}{*}{$\approx$500}\\
+TT01U4-KpnI\_R   &                                      & ATT\textbf{GGTACC}TGGAGTTGTAGACATGATTTTTTCC &  & \\
+
+TT01U1-BamHI\_F  & \multirow{2}{*}{TT01 PVCU1 Promoter} & ATA\textbf{GGATCC}CTACTGGGATGTGTATTCAAACA & \multirow{2}{*}{[59]} & \multirow{2}{*}{$\approx$500}\\
+TT01U1-KpnI\_R   &                                      & ATT\textbf{GGTACC}TGGAGTTATAGCCATGATTCTTC & & \\
+
+TT01Cif-BamHI\_F  & \multirow{2}{*}{TT01 PVCCif Promoter} & ATA\textbf{GGATCC}CGAGCAATAATGCTGTGAAT      & \multirow{2}{*}{[59]} & \multirow{2}{*}{$\approx$500}\\
+TT01Cif-KpnI\_R   &                                       & ATA\textbf{GGTACC}GACAGTTGTAGACATTGTTATTTCC &  & \\
+
+TT01LopT-BamHI\_F & \multirow{2}{*}{TT01 PVCLopt Promoter} & ATA\textbf{GGATCC}CGCTGTAGTTTGTTTTAAAAAGG     & \multirow{2}{*}{[59]} & \multirow{2}{*}{$\approx$500}\\
+TT01LopT-KpnI\_R  &                                            & ATT\textbf{GGTACC}TGTAGTTACGGACATAGTTTATTTCC &  & \\
+
+PB68.1Pnf-BamHI\_F & \multirow{2}{*}{PB68.1 PVCPnf Promoter} & ATA\textbf{GGATCC}ATCCCAACGTATCTTGTCC     & \multirow{2}{*}{[58]} & \multirow{2}{*}{$\approx$500}\\
+PB68.1Pnf-KpnI\_R  &                                            & ATT\textbf{GGTACC}TGTACTTGTAGACATAAAAGCCC &  & \\
+
+PB68.1LopT-BamHI\_F & \multirow{2}{*}{PB68.1 PVCLopT Promoter} & ATA\textbf{GGATCC}CCAATAACCTGACATATTAAACCG     & \multirow{2}{*}{[58]}& \multirow{2}{*}{$\approx$500}\\
+PB68.1LopT-KpnI\_R  &                                          & ATT\textbf{GGTACC}TGTGGTTGTAGTCATAATTATTTCCT &  & \\
+
+PB68.1Cif-BamHI\_F  & \multirow{2}{*}{PB68.1 PVCCif Promoter} & ATA\textbf{GGATCC}GCATGTTATTTTCCTGCCTATTAT     & \multirow{2}{*}{[59]} & \multirow{2}{*}{$\approx$500}\\
+PB68.1Cif-KpnI\_R   &                                            & ATA\textbf{GGTACC}GGCAGTTGTAGACATCGTTA &  & \\
+
+PB68.1U1-BamHI\_F  & \multirow{2}{*}{PB68.1Cif PVCU1 Promoter} & ATA\textbf{GGATCC}CAATTTTAACTATTTACTGGACTTCG     & \multirow{2}{*}{[57]} & \multirow{2}{*}{$\approx$500}\\
+PB68.1U1-KpnI\_R   &                                            & ATT\textbf{GGTACC}TGGAGTTGTAGACATAATGTTTCC &  & \\
+
+
 %rfaH\_EcoRI\_F & \multirow{2}{*}{\emph{rfaH}} & ACAGGT\textbf{CATATG}GAATTAAATGAGTTAACTAACAAATT & [71] & \multirow{2}{*}{500} \\
 %rfaH\_SalI\_R & & CTA\textbf{GTCGAC}TTAGAGTTTGCGGAACTCG & [71] & \\
+\noalign{\let\noalign\relax\pagebreak}
 
 \hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -306,36 +337,35 @@ PVClumt13-KpnI\_R & & TTACTT\textbf{GGTACC}AACACAACCTTAATCATATAG & [67] & \\
 \hline\tstrut\bstrut
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-pBAD30frag\_F & \multirow{2}{*}{pBAD30} & \underline{ATGTAATTAATTCAACCATCACGGAGAGTTTATCA}ACGCCGTAGCGCCGATGGTAGTGTGGGGTCTCCCC & [72] & \multirow{2}{*}{4791} \\
-pBAD30frag\_R & & \underline{CTTGTAGACATAAAAGCCCCTTTTTAGACAAAAAA}TAGCCCAAAAAAACGGGTATGGAGAAACAGTAGAG & [72] &  \\
+pBAD30frag\_F & \multirow{2}{*}{pBAD30} & \underline{ATGTAATTAATTCAACCATCACGGAGAGTTTATCA}ACGCCGTAGCGCCGATGGTAGTGTGGGGTCTCCCC & \multirow{2}{*}{[72]} & \multirow{2}{*}{4791} \\
+pBAD30frag\_R & & \underline{CTTGTAGACATAAAAGCCCCTTTTTAGACAAAAAA}TAGCCCAAAAAAACGGGTATGGAGAAACAGTAGAG &  &  \\
 
-PNFfrag1\_F & \multirow{2}{*}{PVC\emph{pnf} 1-8} & \underline{CTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTA}TTTTTTGTCTAAAAAGGGGCTTTTATGTCTACAAG & [72] & \multirow{2}{*}{7181} \\
-PNFfrag1\_R & & \underline{GTGTCAGTATTTGATTTTCCATTCATCGTCACCTT}TCATTGGGTAAGATTAATTTTTGCGCCTTTGATTT & [72] &  \\
+PNFfrag1\_F & \multirow{2}{*}{PVC\emph{pnf} 1-8} & \underline{CTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTA}TTTTTTGTCTAAAAAGGGGCTTTTATGTCTACAAG & \multirow{2}{*}{[72]} & \multirow{2}{*}{7181} \\
+PNFfrag1\_R & & \underline{GTGTCAGTATTTGATTTTCCATTCATCGTCACCTT}TCATTGGGTAAGATTAATTTTTGCGCCTTTGATTT &  &  \\
 
-PNFfrag2\_F & \multirow{2}{*}{PVC\emph{pnf} 9-12} & \underline{AAATCAAAGGCGCAAAAATTAATCTTACCCAATGA}AAGGTGACGATGAATGGAAAATCAAATACTGACAC & [72] & \multirow{2}{*}{6039} \\
-PNFfrag2\_R & & \underline{TCTTGTACAGTTGCATTATAACGAGTTTCGTTCAT}GATTAACTCCAGAAAACATATTTAATTCAACATCA & [72] &  \\
+PNFfrag2\_F & \multirow{2}{*}{PVC\emph{pnf} 9-12} & \underline{AAATCAAAGGCGCAAAAATTAATCTTACCCAATGA}AAGGTGACGATGAATGGAAAATCAAATACTGACAC & \multirow{2}{*}{[72]} & \multirow{2}{*}{6039} \\
+PNFfrag2\_R & & \underline{TCTTGTACAGTTGCATTATAACGAGTTTCGTTCAT}GATTAACTCCAGAAAACATATTTAATTCAACATCA &  &  \\
 
-PNFfrag3\_F & \multirow{2}{*}{PVC\emph{pnf} 13-15} & \underline{TGATGTTGAATTAAATATGTTTTCTGGAGTTAATC}ATGAACGAAACTCGTTATAATGCAACTGTACAAGA & [72] & \multirow{2}{*}{5514} \\
-PNFfrag3\_R & & \underline{TTATTGACATCAATAATAGTTTGCGTGTTTAACAT}AAAAAACCTCTCTTAAATTATATCGTGATAACTTT & [72] &  \\
+PNFfrag3\_F & \multirow{2}{*}{PVC\emph{pnf} 13-15} & \underline{TGATGTTGAATTAAATATGTTTTCTGGAGTTAATC}ATGAACGAAACTCGTTATAATGCAACTGTACAAGA & \multirow{2}{*}{[72]} & \multirow{2}{*}{5514} \\
+PNFfrag3\_R & & \underline{TTATTGACATCAATAATAGTTTGCGTGTTTAACAT}AAAAAACCTCTCTTAAATTATATCGTGATAACTTT &  &  \\
 
-PNFfrag4\_F & \multirow{2}{*}{PVC\emph{pnf} 16-18} & \underline{AAAGTTATCACGATATAATTTAAGAGAGGTTTTTT}ATGTTAAACACGCAAACTATTATTGATGTCAATAA & [72] & \multirow{2}{*}{4416} \\
-PNFfrag4\_R & & \underline{GGGGAGACCCCACACTACCATCGGCGCTACGGCGT}TGATAAACTCTCCGTGATGGTTGAATTAATTACAT & [72] &  \\
+PNFfrag4\_F & \multirow{2}{*}{PVC\emph{pnf} 16-18} & \underline{AAAGTTATCACGATATAATTTAAGAGAGGTTTTTT}ATGTTAAACACGCAAACTATTATTGATGTCAATAA & \multirow{2}{*}{[72]} & \multirow{2}{*}{4416} \\
+PNFfrag4\_R & & \underline{GGGGAGACCCCACACTACCATCGGCGCTACGGCGT}TGATAAACTCTCCGTGATGGTTGAATTAATTACAT &  &  \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noalign{\let\noalign\relax\pagebreak}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \hline
 \multicolumn{5}{p{\linewidth}}{\centering Recombineering Primers}\tstrut\bstrut\\[0.5ex]
 \hline\tstrut\bstrut
-$\psi$endA\_no1\_F & \multirow{2}{*}{\emph{endA} Deletion site} & \underline{AAACAGCTTTCGCTACGTTGCTGGCTCGTTTTAACACGGAGTAAGTGATG}CGCACTTCCAGACCCAGATC & [72] & \multirow{2}{*}{1100}\\
-$\psi$endA\_no2\_R & & \underline{GTTAACAAAAAGAATCCCGCTAGTGTAGGTTAGCTCTTTCGCGCCTGGCA}GATGGAGTAAATGGTACCTTGGG & [72] &\\
+$\psi$endA\_no1\_F & \multirow{2}{*}{\emph{endA} Deletion site} & \underline{AAACAGCTTTCGCTACGTTGCTGGCTCGTTTTAACACGGAGTAAGTGATG}CGCACTTCCAGACCCAGATC & \multirow{2}{*}{[72]} & \multirow{2}{*}{1100}\\
+$\psi$endA\_no2\_R & & \underline{GTTAACAAAAAGAATCCCGCTAGTGTAGGTTAGCTCTTTCGCGCCTGGCA}GATGGAGTAAAT\textbf{GGTACC}TTGGG &  &\\
 
-speB\_no1\_F & \multirow{2}{*}{\emph{speB}} & \underline{GTTTTACCCGTGCGCATCGCATCTGGTGCTTACTCGCCCTTTTTCGCCGC}CGCACTTCCAGACCCAGATC & [72] & \multirow{2}{*}{1100} \\
-speB\_no2\_R & & \underline{GACGCGGAAGGGTTTTTTTATATCGACTTTGTAATAGGAGTCCATCCATG}GATGGAGTAAATGGTACCTTGGG & [72] &\\
+speB\_no1\_F & \multirow{2}{*}{\emph{speB}} & \underline{GTTTTACCCGTGCGCATCGCATCTGGTGCTTACTCGCCCTTTTTCGCCGC}CGCACTTCCAGACCCAGATC & \multirow{2}{*}{[72]} & \multirow{2}{*}{1100} \\
+speB\_no2\_R & & \underline{GACGCGGAAGGGTTTTTTTATATCGACTTTGTAATAGGAGTCCATCCATG}GATGGAGTAAAT\textbf{GGTACC}TTGGG &  &\\
 
-hyfC\_no1\_F & \multirow{2}{*}{\emph{hyfC}} & \underline{GTTTTACCCGTGCGCATCGCATCTGGTGCTTACTCGCCCTTTTTCGCCGC}CGCACTTCCAGACCCAGATC & [72] & \multirow{2}{*}{1100} \\
-hyfC\_no2\_R & & \underline{GACGCGGAAGGGTTTTTTTATATCGACTTTGTAATAGGAGTCCATCCATG}GATGGAGTAAATGGTACCTTGGG & [72] &\\
+hyfC\_no1\_F & \multirow{2}{*}{\emph{hyfC}} & \underline{GTTTTACCCGTGCGCATCGCATCTGGTGCTTACTCGCCCTTTTTCGCCGC}CGCACTTCCAGACCCAGATC & \multirow{2}{*}{[72]} & \multirow{2}{*}{1100} \\
+hyfC\_no2\_R & & \underline{GACGCGGAAGGGTTTTTTTATATCGACTTTGTAATAGGAGTCCATCCATG}GATGGAGTAAAT\textbf{GGTACC}TTGGG &  &\\
 
 \end{tabularx}
 \end{landscape}
@@ -564,6 +594,8 @@ To calculate this, 100\ul{} of cells from 50 mL of OD 0.4 culture should be appr
 
 \noindent where $\mathrm{N}_{A}$ is Avogadro's Constant.
 
+\subsubsection{Electroporation-Recombination with $\lambda$-Red Chromosomal Strains}
+The same workflow as detailed above in \vref{pKD} is followed for the recombineering strain DY380 which bears all the recombineering enzymes within the chromosome (see \vref{strains}), with the exception that induction is conducted at \OD{} by heat-shock at 42\degC{} for 15 minutes, and selection for the strain is done with tetracyline. 
 
 \subsection{Sequencing}
 	\subsubsection{Di-deoxy-chain-termination (Sanger) Sequencing}\label{Sanger}

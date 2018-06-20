@@ -370,6 +370,11 @@ Cascales, E. and Cambillau, C. (2012).
 \newblock {\em Philosophical transactions of the Royal Society of London.
   Series B, Biological sciences}, 367(1592):1102--11.
 
+\bibitem[Challinor and Bode, 2015]{Challinor2015}
+Challinor, V.~L. and Bode, H.~B. (2015).
+\newblock {Bioactive natural products from novel microbial sources}.
+\newblock {\em Annals of the New York Academy of Sciences}, 1354(1):82--97.
+
 \bibitem[Chang et~al., 2014]{Chang2014a}
 Chang, J.~H., Desveaux, D., and Creason, A.~L. (2014).
 \newblock {The ABCs and 123s of Bacterial Secretion Systems in Plant
@@ -568,6 +573,13 @@ D'H{\'{e}}relle, F. (1917).
 \newblock {An invisible microbe that is antagonistic to the dysentery
   bacillus}.
 \newblock {\em Comptesrendus Acad. Sciences,}, 165:373--375.
+
+\bibitem[Dodd et~al., 2006]{Dodd2006a}
+Dodd, S.~J., Hurst, M. R.~H., Glare, T.~R., O'Callaghan, M., and Ronson, C.~W.
+  (2006).
+\newblock {Occurrence of sep insecticidal toxin complex genes in Serratia spp.
+  and Yersinia frederiksenii}.
+\newblock {\em Applied and Environmental Microbiology}, 72(10):6584--6592.
 
 \bibitem[Dong et~al., 2007]{Dong2007a}
 Dong, A., Xu, X., Edwards, A.~M., Chang, C., Chruszcz, M., Cuff, M.,
@@ -810,6 +822,12 @@ Goldberg, E., Tsugita, A., Matsui, T., Griniuviene, B., Tanaka, N., and
 \newblock {Isolation and Characterization of a Molecular Chaperone , gp57A , of
   Bacteriophage T4}.
 \newblock {\em Journal of Bacteriology}, 179(6):1846--1851.
+
+\bibitem[Goodson et~al., 2017]{Goodson2017}
+Goodson, J.~R., Klupt, S., Zhang, C., Straight, P., and Winkler, W.~C. (2017).
+\newblock {LoaP is a broadly conserved antiterminator protein that regulates
+  antibiotic gene clusters in Bacillus amyloliquefaciens}.
+\newblock {\em Nature Microbiology}, 2(February):1--10.
 
 \bibitem[Goulet et~al., 2004]{Goulet2004}
 Goulet, V., Britigan, B., Nakayama, K., and Grenier, D. (2004).
@@ -1719,6 +1737,12 @@ Rand, W.~M. (1971).
 \newblock {Objective Criteria for the Evaluation of Clustering Methods}.
 \newblock {\em Journal of the American Statistical Association}, 66(336):846.
 
+\bibitem[Reich and Schoolnik, 1996]{Reich1996}
+Reich, K.~A. and Schoolnik, G.~K. (1996).
+\newblock {Halovibrin, secreted from the light organ symbiont Vibrio fischeri,
+  is a member of a new class of ADP-ribosyltransferases}.
+\newblock {\em Journal of Bacteriology}, 178(1):209--215.
+
 \bibitem[Remaut et~al., 2008]{Remaut2008}
 Remaut, H., Tang, C., Henderson, N.~S., Pinkner, J.~S., Wang, T., Hultgren,
   S.~J., Thanassi, D.~G., Waksman, G., and Li, H. (2008).
@@ -1913,13 +1937,6 @@ Severiano, A., Pinto, F.~R., Ramirez, M., and Carri{\c{c}}o, J.~A. (2011b).
   typing methods}.
 \newblock {\em Journal of Clinical Microbiology}, 49(11):3997--4000.
 
-\bibitem[Sevostyanova et~al., 2008]{Sevostyanova2008}
-Sevostyanova, A., Svetlov, V., Vassylyev, D.~G., and Artsimovitch, I. (2008).
-\newblock {The elongation factor RfaH and the initiation factor bind to the
-  same site on the transcription elongation complex}.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  105(3):865--870.
-
 \bibitem[Shi and Bode, 2018]{Shi2018}
 Shi, Y.-M. and Bode, H.~B. (2018).
 \newblock {Chemical language and warfare of bacterial natural products in
@@ -2041,6 +2058,12 @@ Sreerama, N. and Woody, R.~W. (2000).
   Spectra: Comparison of CONTIN, SELCON, and CDSSTR Methods with an Expanded
   Reference Set}.
 \newblock {\em Analytical Biochemistry}, 287(2):252--260.
+
+\bibitem[Stabb et~al., 2001]{Stabb2001}
+Stabb, E.~V., Reich, K.~A., and Ruby, E.~G. (2001).
+\newblock {Vibrio fischeri genes hvnA and hvnB encode secreted
+  NAD+-glycohydrolases}.
+\newblock {\em Journal of Bacteriology}, 183(1):309--317.
 
 \bibitem[Stamatakis, 2006]{Stamatakis2006}
 Stamatakis, A. (2006).
@@ -2341,6 +2364,11 @@ Yosef, I., Bloushtain, N., Shapira, M., and Qimron, U. (2004).
 \newblock {Restoration of gene function by homologous recombination: From PCR
   to gene expression in one step}.
 \newblock {\em Applied and Environmental Microbiology}, 70(12):7156--7160.
+
+\bibitem[Young et~al., 2000]{Young2000}
+Young, R., Wang, I.~N., and Roof, W.~D. (2000).
+\newblock {Phages will out: Strategies of host cell lysis}.
+\newblock {\em Trends in Microbiology}, 8(3):120--128.
 
 \bibitem[Yu et~al., 2000]{Yu2000}
 Yu, D., Ellis, H.~M., Lee, E.~C., Jenkins, N.~a., Copeland, N.~G., and Court,
