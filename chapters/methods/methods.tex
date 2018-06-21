@@ -701,7 +701,8 @@ For Western blots, gels were run as just described. Upon removal of the gel from
 \section{Bio-physical Techniques}
 \subsection{Fluorescence microscopy}
 For fluorescence microscopy time course studies, cultures were sampled across the growth curve. 2\ul{} of each time point normalised to an optical density of 0.05 was added to GeneFrames from Thermo, according to the manufacturers instructions. Images of the frames were collected on a Leica DMi8 microscope fitted with a Hamamatsu Flash4 Camera under phase contrast, and with a FITC filter cube for GFP fluorescence.
-
+\subsubsection{Image normalisation and consistency}
+Images were taken under equivalent conditions, with an exposure determined empirically at the time of imaging, in order to ensure minimal GFP bleaching, but sufficient signal to visualise. Heterogeneity in sample preparation on the GeneFrames meant that some images appeared darker than others for equivalent exposures. To make images more consistent, \texttt{ImageMagick v7.0.8-2 Q16} was used to normalise the images to a single reference image that was considered sufficiently bright for clarity. This was done using the Hue/Saturation/Intensity (HSI) colourspace of the \texttt{matchimages.sh} script which wraps a number of ImageMagick functions\footnote{\url{http://www.fmwconcepts.com/imagemagick/matchimage/index.php}}
 
 \subsection{Circular Dichroism}
 	Circular Dichroism was performed using the JASCO 1500 instrument. Ideal protein concentrations to obtain appropriate HT voltages (not exceeding 600 V) were determined empirically at the time of use by taking single spectral traces at 20\degC{} and diluting 2-fold as necessary from a 1 $\mathrm{mg\ mL}^{-1}$ stock solution, dialysed in a 0.5 M Sodium Fluoride buffer. NaF is used as a salt substitute in place of \NaCl. Chlorides strongly absorb at around 190 nm, which impedes spectra collection. Similarly, the buffer pH is balanced with acetic acid so as to avoid the chloride group in hydrochloric acid. Measurements were taken between 185 - 260 nm, at a data pitch of 0.2 nm, 1 nm bandwidth, and a scanning speed of 100 nm min$^{-1}$. Each spectrum was accumulated 6 times and averaged. A buffer only baseline was also run for 6 accumulations and subtracted from the sample spectra after the run.
@@ -882,4 +883,3 @@ General figures such as schematics and diagrams were typically prepared with Mic
 
 
 
-\todo[inline]{Finish primer tables}

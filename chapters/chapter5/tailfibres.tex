@@ -83,9 +83,9 @@ Existing computational methods such as the simulations described in \vref{struct
 
 This leaves experimental structural determination as the best option, though it remains non trivial. Structural resolution via Nuclear Magnetic Resonance is unlikely to be feasible for most tail fibres. There is an upper bound on the size that NMR studies can resolve ($\approx$35 kDa), which even some of the smallest tail fibres exceed, due to their trimeric nature. It is possible that sub-cloning the proteins on a domain-by-domain basis may be within the range NMR could be applicable to, but this would become laborious and raise issues about correct folding and so on. Cryo-EM is also a possibility; as seen in the Heymann paper, it has the resolution to image the tail fibres in complex with the tail tube, but with the caveat that they are immobilised by the tube itself to prevent class averaging losing the densities. Additionally, the fibres may only be a few atoms thick at their thinnest point, which without high-end equipment could be extremely difficult to image effectively due to low contrast. This leaves X-ray crystallography as the main viable option, but this is also not without caveats. In a number of papers (such as those producing the structures in \vref{tailfibrestructures}), crystallisation was only achievable when expressing sub-cloned domains of the the protein, and often required the presence of multiple chaperones too.
 
-The variability, above and beyond that of the rest of the operons, in the tail fibre proteins of the PVCs, combined with the PVCs known role as anti-eukaryotic toxin systems, suggests that their putative tail fibre proteins may be of particular interest. Understanding the existing target binding spectrum may shed some light on the role of the PVCs in virulence and pathogenesis during \emph{Photorhabdus}' infection cycle in the various hosts it can infect. In future we would also like to be able to explore rational modification and engineering of the tail fibres, potentially  controlling their tropisms. This is effectively a case of recapitulating similar studies which have been done for re-targeted R-type pyocins \citep{Scholl2009a}, whereby tail fibres were swapped or fused, conferring new target cell spectrums to pyocins that would ordinarily have no effect on the cell type of interest. In the case of the PVCs, a natural repertoire of diverse tail fibres exists, providing an as-yet-unstudied library of motifs to potentially target different cell types - though a crucial difference being that these cell types will be eukaryotic, and will convey a cargo, unlike the Pyocins.
+The variability, above and beyond that of the rest of the operons, in the tail fibre proteins of the PVCs, combined with the PVCs known role as anti-eukaryotic toxin systems, suggests that their tail fibre proteins may be of particular interest. Understanding the existing target binding spectrum may elucidate the role of the PVCs in virulence and pathogenesis during \emph{Photorhabdus}' infection cycle in the various hosts it exploits. In future we would also like to be able to explore rational modification and engineering of the tail fibres, potentially controlling their tropisms. This is effectively a case of recapitulating similar studies which have been done for re-targeted R-type pyocins \citep{Scholl2009a}, whereby tail fibres were swapped or fused, conferring new target cell spectrums to pyocins that would ordinarily have no effect on the cell type of interest. In the case of the PVCs, a natural repertoire of diverse tail fibres exists, providing an as-yet-unstudied library of motifs to potentially target different cell types - though a crucial difference being that these cell types will be eukaryotic rather than prokaryotic.
 
-In summary, this chapter examines tail fibres in isolation from the difficult-to-manipulate PVCs; in order to shed the first `experimental light' on the true nature of their structure, orthology, and function.
+In summary, this chapter examines tail fibres in isolation from the difficult-to-manipulate PVCs; in order to scrutinse their structure, orthology, and function.
 
 \subsection*{Chapter Aims:}
 \begin{itemize}
@@ -289,29 +289,31 @@ Belying their diversity, there does not appear to be one particular structural m
 
 \subsubsection{\emph{in silico} cloning}
 
-From the sequence analysis alone, it was not possible to tell categorically which region of the tail fibres would be responsible for binding to the host, and binding to the rest of the tail structure. It was decided to clone both of the fibres studied C- and N- terminally hexahistidine tagged in case one tag was found to interfere with the protein downstream. Primers were designed to insert the 2 genes in-frame with the histidine tags in pET15b (N-terminal) and pET29a (C-terminal), yielding pET15b-pnf13, pET15b-lumt13, pET29a-pnf13 and pET29a-lumt13 (see \vref{customplasmids} and \vref{methods} for technical detail such as primer sequences etc.). For each gene, the same forward primer bearing an NdeI restriction site was used for both pET15b and pET29a, with the ATG of the restriction site serving as the start codon for the gene. Reverse primers had to be redesigned for each vector, utilising a BamHI site for pET15b, and a KpnI site for pET29a. Also for pET29a, 2 additional bases were added to the histidine tag linker region to bring the tag in-frame. Construct maps can be found in \vref{tailfibreplasmids}.
+From the sequence analysis alone, it was not possible to tell categorically which region of the tail fibres would be responsible for binding to the host, and binding to the rest of the tail structure. It was decided to clone both of the fibres studied C- and N- terminally hexahistidine tagged in case one tag was found to interfere with the protein downstream. Primers were designed to insert the 2 genes in-frame with the histidine tags in pET15b (N-terminal) and pET29a (C-terminal), yielding pET15b-pnf13, pET15b-lumt13, pET29a-pnf13 and pET29a-lumt13 (see \vref{customplasmids} and \vref{methods} for technical detail such as primer sequences etc.). For each gene, the same forward primer bearing an NdeI restriction site was used for both pET15b and pET29a, with the ATG of the restriction site serving as the start codon for the gene. Reverse primers had to be redesigned for each vector, utilising a BamHI site for pET15b, and a KpnI site for pET29a. Also for pET29a, 2 additional bases were added to the histidine tag linker region to bring the tag in-frame. Construct maps can be found in \vrefrange{tailfibreplasmidspnf}{tailfibreplasmidslumt}.
 
 
 \begin{figure}[p]
 \centering
     \begin{subfigure}{\textwidth}
         \centering
-        \includegraphics[width=0.85\textwidth, trim={0 0 0 0 }, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVCpnf13_Map.pdf}
+        \includegraphics[width=0.85\textwidth, trim={0 0 0 40 }, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVCpnf13_Map.pdf}
         \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
         \caption{}
         \label{pET15pnf}
     \end{subfigure}%
     
+    \vspace{0.5cm}
+    
     \begin{subfigure}{\textwidth}
         \centering
-            \includegraphics[width=0.85\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVCpnf13_Map.pdf}
+            \includegraphics[width=0.85\textwidth, trim={0 0 0 40}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVCpnf13_Map.pdf}
             \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
             \caption{}
             \label{pET29pnf}
         \end{subfigure}%    
 	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
 	\caption[Plasmid maps for cloned PVCpnf tail fibre proteins]{\textsc{\normalsize Fusion construct maps for tagged PVCpnf13 tail fibres.}\vspace{0.1cm} \newline Plasmid maps for the tail fibre-hexahistidine tag fusion proteins of the PVCpnf operon from \emph{P. asymbiotica} ATCC43949, used in this study for purification and functionalisation. The insert sequences are annotated as red CDSs, the primers are labelled in pink, restriction sites in black, fusion tags in light pink oval boxes. \textbf{(A)} The tail fibre from the PVCpnf operon fused N-terminally to a hexahistidine tag in the vector pET15b.\textbf{(B)} The tail fibre from the PVCpnf operon fused C-terminally to a hexahistidine tag in the vector pET29a.}
-	\label{tailfibreplasmids}
+	\label{tailfibreplasmidspnf}
 \end{figure}
 
 
@@ -319,22 +321,24 @@ From the sequence analysis alone, it was not possible to tell categorically whic
 \centering
     \begin{subfigure}{\textwidth}
         \centering
-        \includegraphics[width=0.80\textwidth, trim={0 0 0 0 }, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVClumt13_Map.pdf}
+        \includegraphics[width=0.85\textwidth, trim={0 0 0 40 }, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET15b-PVClumt13_Map.pdf}
         \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
         \caption{}
         \label{pET15lumt}
     \end{subfigure}%
     
+    \vspace{0.5cm}
+    
     \begin{subfigure}{\textwidth}
         \centering
-            \includegraphics[width=0.79\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVClumt13_Map.pdf}
+            \includegraphics[width=0.85\textwidth, trim={0 0 0 40}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter5/img/pET29a-PVClumt13_Map.pdf}
             \captionsetup{singlelinecheck=off, justification=centering, font=footnotesize, aboveskip=10pt}
             \caption{}
             \label{pET29lumt}
         \end{subfigure}%    
 	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
 	\caption[Plasmid maps for cloned PVClumt tail fibre proteins]{\textsc{\normalsize Fusion construct maps for tagged PVClumt13 tail fibres.}\vspace{0.1cm} \newline Plasmid maps for the tail fibre-hexahistidine tag fusion proteins of the PVClumt operon from \emph{P. asymbiotica} ATCC43949, used in this study for purification and functionalisation. The insert sequences are annotated as green CDSs, the primers are labelled in pink, restriction sites in black, fusion tags in light pink oval boxes. \textbf{(A)} The tail fibre from the PVClumt operon fused N-terminally to a hexahistidine tag in the vector pET15b.\textbf{(B)} The tail fibre from the PVClumt operon fused C-terminally to a hexahistidine tag in the vector pET29a.}
-	\label{tailfibreplasmids}
+	\label{tailfibreplasmidslumt}
 \end{figure}
 \clearpage
 
