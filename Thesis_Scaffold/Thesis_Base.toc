@@ -162,23 +162,23 @@
 \contentsline {subsection}{\numberline {6.2.1}Cloning and engineering PVC operons}{194}{subsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.1.1}Recombineering}{196}{subsubsection.6.2.1.1}
 \contentsline {paragraph}{\numberline {6.2.1.1.1}Chromosomal engineering}{196}{paragraph.6.2.1.1.1}
-\contentsline {paragraph}{\numberline {6.2.1.1.2}Cosmid engineering}{198}{paragraph.6.2.1.1.2}
+\contentsline {paragraph}{\numberline {6.2.1.1.2}Cosmid engineering}{199}{paragraph.6.2.1.1.2}
 \contentsline {subsubsection}{\numberline {6.2.1.2}Gibson assembly}{202}{subsubsection.6.2.1.2}
 \contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{204}{subsection.6.2.2}
 \contentsline {subsubsection}{\numberline {6.2.2.1}Cellular morphology in reporter assays}{216}{subsubsection.6.2.2.1}
 \contentsline {paragraph}{\numberline {6.2.2.1.1}Cellular elongation}{216}{paragraph.6.2.2.1.1}
-\contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{217}{paragraph.6.2.2.1.2}
+\contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{218}{paragraph.6.2.2.1.2}
 \contentsline {subsection}{\numberline {6.2.3}A putative role for transcript elongation in PVC regulation}{219}{subsection.6.2.3}
 \contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{224}{subsubsection.6.2.3.1}
 \contentsline {section}{\numberline {6.3}Discussion}{226}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Heterologous expression and control of PVC operons}{226}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Understanding the natural regulation and deployment of PVCs}{230}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Summary and future work}{232}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}Summary and future work}{233}{subsection.6.3.3}
 \contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{233}{subsubsection.6.3.3.1}
 \contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{235}{subsubsection.6.3.3.2}
-\contentsline {part}{IV\hspace {1em}Discussion}{237}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{238}{chapter.7}
-\contentsline {chapter}{Bibliography}{238}{chapter.7}
-\contentsline {chapter}{Appendices}{272}{section*.108}
-\contentsline {chapter}{\numberline {A}Chapter \ref {bioinformatics} Appendices}{273}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Publications arising from this candidature}{274}{Appendix.a.B}
+\contentsline {part}{IV\hspace {1em}Discussion}{238}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{239}{chapter.7}
+\contentsline {chapter}{Bibliography}{239}{chapter.7}
+\contentsline {chapter}{Appendices}{273}{section*.108}
+\contentsline {chapter}{\numberline {A}Chapter \ref {bioinformatics} Appendices}{274}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Publications arising from this candidature}{275}{Appendix.a.B}
