@@ -174,11 +174,11 @@
 \contentsline {subsection}{\numberline {6.3.1}Heterologous expression and control of PVC operons}{226}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Understanding the natural regulation and deployment of PVCs}{230}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Summary and future work}{233}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{233}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{235}{subsubsection.6.3.3.2}
-\contentsline {part}{IV\hspace {1em}Discussion}{238}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{239}{chapter.7}
-\contentsline {chapter}{Bibliography}{239}{chapter.7}
-\contentsline {chapter}{Appendices}{273}{section*.108}
-\contentsline {chapter}{\numberline {A}Chapter \ref {bioinformatics} Appendices}{274}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Publications arising from this candidature}{275}{Appendix.a.B}
+\contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{234}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{236}{subsubsection.6.3.3.2}
+\contentsline {part}{IV\hspace {1em}Discussion}{239}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{240}{chapter.7}
+\contentsline {chapter}{Bibliography}{240}{chapter.7}
+\contentsline {chapter}{Appendices}{274}{section*.108}
+\contentsline {chapter}{\numberline {A}Chapter \ref {bioinformatics} Appendices}{275}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Publications arising from this candidature}{276}{Appendix.a.B}

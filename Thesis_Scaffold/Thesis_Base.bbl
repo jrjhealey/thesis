@@ -200,13 +200,6 @@ Beck, K. and Brodsky, B. (1998).
   $\alpha$- helical coiled coil}.
 \newblock {\em Journal of Structural Biology}, 122(1-2):17--29.
 
-\bibitem[Belogurov et~al., 2007]{Belogurov2007}
-Belogurov, G.~A., Vassylyeva, M.~N., Svetlov, V., Klyuyev, S., Grishin, N.~V.,
-  Vassylyev, D., and Artsimovitch, I. (2007).
-\newblock {Structural Basis for Converting a General Transcription Factor into
-  an Operon-Specific Virulence Regulator}.
-\newblock {\em Molecular Cell}, 26(1):117--129.
-
 \bibitem[Bergmann et~al., 2007]{Bergmann2007}
 Bergmann, S., Sch{\"{u}}mann, J., Scherlach, K., Lange, C., Brakhage, A.~A.,
   and Hertweck, C. (2007).
@@ -1191,6 +1184,14 @@ Kudryashev, M., Wang, R.-R., Brackmann, M., Scherer, S., Maier, T., Baker, D.,
 K{\"{u}}hlbrandt, W. (2014).
 \newblock {The Resolution Revolution}.
 \newblock {\em Science}, 343:1443--1444.
+
+\bibitem[Kuijpers et~al., 2013]{Kuijpers2013}
+Kuijpers, N. G.~A., Solis-Escalante, D., Bosman, L., van~den Broek, M., Pronk,
+  J.~T., Daran, J.~M., and Daran-Lapujade, P. (2013).
+\newblock {A versatile, efficient strategy for assembly of multi-fragment
+  expression vectors in Saccharomyces cerevisiae using 60 bp synthetic
+  recombination sequences}.
+\newblock {\em Microbial Cell Factories}, 12(1):1--13.
 
 \bibitem[Kumar et~al., 2013]{Kumar2013}
 Kumar, S.~N., Nambisan, B., Kumar, B. S.~D., Vasudevan, N.~G., Mohandas, C.,
