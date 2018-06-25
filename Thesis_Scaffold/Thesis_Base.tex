@@ -33,6 +33,14 @@
 \usepackage{natbib} % Bibliography
 \setlength{\bibsep}{0.512cm} % Increase spacing between references
 
+\usepackage{pgffor, ifthen} % Add notes pages
+\newcommand{\notes}[3][\empty]{%
+    \foreach \n in {1,...,#2}{%
+        \ifthenelse{\equal{#1}{\empty}}
+            {\rule{#3}{0.5pt}\\}
+            {\rule{#3}{0.5pt}\vspace{#1}\\}
+        }
+}
 %%% Fonts
 \usepackage{lmodern} % Standard modern fonts
 \usepackage{textcomp} % Text companion fonts/special characters
@@ -124,7 +132,16 @@
   \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
 }
 
-
+\fancypagestyle{augment}{%
+  \fancyhf{}% Clear header and footer
+ % \fancyhead[LE,RO]{\slshape \rightmark}
+  \fancyhead[LE,RO]{\slshape \leftmark}
+  \fancyfoot[R]{\thepage\ } % Custom footer
+  \fancyfoot[L]{\raisebox{-0.1cm}{\includegraphics[height=0.5cm, clip, trim={100 100 100 100}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/Thesis_Scaffold/Auglogo.png}}
+}
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header visible
+  \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
 
 % Redefine the plain page style
 \fancypagestyle{plain}{%
@@ -463,6 +480,7 @@ Author Contribution: Creation of simulated structural and modelling data for exe
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \rhead{\textsf{Abbreviations}}
 \chapter*{Abbreviations}
+\addcontentsline{toc}{chapter}{Abbreviations}
 \small
 \begin{sortedlist}
 \renewcommand\labelitemi{}
@@ -548,6 +566,21 @@ Author Contribution: Creation of simulated structural and modelling data for exe
 
 \normalsize
 \newpage
+\chapter*{Note to the reader}
+
+
+Welcome to the future! This thesis contains elements which can be viewed in augmented reality! (I know right?!). If you want to view these features, you'll need a smart phone or tablet device, and you'll need to download the ``Augment" app. It can be found in the the Google Play Store or Apple App Store (\url{www.augment.com}).
+
+Any time you see the symbol below on a page, you can scan that page, and see the model spring to life on the page! (Note, that due to some rendering limitations and reduced resolution, the augmented reality image may not entirely resemble the image on the page, and in cases where the render would have been too large, the image might have been replaced with a related one for simplicity).
+
+\vspace{1cm}
+\begin{figure}[h!]
+\centering
+    \includegraphics[width=0.6\textwidth, clip, trim={0 0 0 0}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/Thesis_Scaffold/Auglogo.png}
+\end{figure}
+
+\newpage
+
 
 \pagenumbering{arabic}
 \setcounter{page}{1}
@@ -665,10 +698,13 @@ The paper demonstrates that polyproline helices exhibit ice recrystallisation in
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \newpage
+\pagestyle{empty}
+\chapter*{Notes}
+\notes[9pt]{37}{\textwidth}\clearpage
+
 \todo[inline]{Document check over: Change captions to small caps as per fig 1.5 in intro}
-\todo[inline]{Document check over: ensure cite citations are being included as with \\citep}
+\todo[inline]{Document check over: ensure cite citations are being included as with citep}
 \todo[inline]{Document check over: ensure all tables (particularly in Methods) have references if needed}
 \todo[inline]{Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}
 \todo[inline]{Word count with TeX count (and include in the preamble somwhere?}
