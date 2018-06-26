@@ -122,22 +122,23 @@
 %\footheight 15pt
 \setlength{\topmargin}{0pt}
 \setlength{\textheight}{670pt}
-
+\newcommand{\myleftmark}{}% reserve global names
+\newcommand{\myrightmark}{}
 \fancypagestyle{IHA-fancy-style}{%
-  \fancyhf{}% Clear header and footer
- % \fancyhead[LE,RO]{\slshape \rightmark}
-  \fancyhead[LE,RO]{\slshape \leftmark}
-  \fancyfoot[LE,RO]{\thepage\ } % Custom footer
+  \fancyhf{}% remove default
+  \fancyhead[L]{\sffamily \myleftmark}%
+  \fancyhead[R]{\sffamily \myrightmark}%
+  \fancyfoot[R]{\thepage\ } % Custom footer
   \renewcommand{\headrulewidth}{0.4pt}% Line at the header visible
   \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
 }
 
 \fancypagestyle{augment}{%
-  \fancyhf{}% Clear header and footer
- % \fancyhead[LE,RO]{\slshape \rightmark}
-  \fancyhead[LE,RO]{\slshape \leftmark}
-  \fancyfoot[R]{\thepage\ } % Custom footer
-  \fancyfoot[L]{\raisebox{-0.1cm}{\includegraphics[height=0.5cm, clip, trim={100 100 100 100}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/Thesis_Scaffold/Auglogo.png}}
+  \fancyhf{}% remove default
+  \fancyhead[L]{\sffamily \myleftmark}%
+  \fancyhead[R]{\sffamily \myrightmark}%
+  \fancyfoot[R]{\thepage\ }% Custom footer
+  \fancyfoot[L]{\raisebox{-0.2cm}{\includegraphics[height=0.5cm, clip, trim={100 100 100 100}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/Thesis_Scaffold/Auglogo.png}}
 }
   \renewcommand{\headrulewidth}{0.4pt}% Line at the header visible
   \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
@@ -150,6 +151,9 @@
   \renewcommand{\headrulewidth}{0pt}% Line at the header invisible
   \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
 }
+
+\usepackage{floatpag} % for changing the header styles in full page image pages
+
 
 %%% SORTED LISTS 
 \usepackage{datatool} 
@@ -309,6 +313,14 @@
 
 \newlength\longest
 
+\makeatletter % Redefining the Chapter so automatically include names/numbers
+\let\@oldchapter=\@chapter
+\def\@chapter[#1]#2{\@oldchapter[#1]{#2}%
+  \xdef\myleftmark{Chapter~\thechapter}%
+  \xdef\myrightmark{#2}%
+}
+\makeatother
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                    %%
 %%                          END OF PREAMBLE                           %%
@@ -320,8 +332,9 @@
 %%                          DOCUMENT BEGINS                           %%
 %%                                                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{document}
 \pagestyle{IHA-fancy-style}
+\begin{document}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                    %%
@@ -478,7 +491,6 @@ Author Contribution: Creation of simulated structural and modelling data for exe
 %%                           ABBREVIATIONS                            %%
 %%                                                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\rhead{\textsf{Abbreviations}}
 \chapter*{Abbreviations}
 \addcontentsline{toc}{chapter}{Abbreviations}
 \small
@@ -571,7 +583,7 @@ Author Contribution: Creation of simulated structural and modelling data for exe
 
 Welcome to the future! This thesis contains elements which can be viewed in augmented reality! (I know right?!). If you want to view these features, you'll need a smart phone or tablet device, and you'll need to download the ``Augment" app. It can be found in the the Google Play Store or Apple App Store (\url{www.augment.com}).
 
-Any time you see the symbol below on a page, you can scan that page, and see the model spring to life on the page! (Note, that due to some rendering limitations and reduced resolution, the augmented reality image may not entirely resemble the image on the page, and in cases where the render would have been too large, the image might have been replaced with a related one for simplicity).
+Any time you see the symbol below on a page (bottom left footer), you can scan that page with the app, and see the model spring to life on the page! (Note, that due to some rendering limitations and reduced resolution, the augmented reality image may not entirely resemble the image on the page, and in cases where the render would have been too large, the image might have been replaced with a related one for simplicity).
 
 \vspace{1cm}
 \begin{figure}[h!]
@@ -670,7 +682,7 @@ Any time you see the symbol below on a page, you can scan that page, and see the
 \begin{appendices}
 %\chapter{Chapter \ref{structbioinfo} Appendices}
 
-\chapter{Chapter \ref{bioinformatics} Appendices}\label{bioinformatics_appendix}
+\chapter{Chapter 4 Appendices}\label{bioinformatics_appendix}
 %\input{../appendices/bioinformatics_appendix/bioinformatics_appendix.tex}
 %
 %\chapter{Chapter \ref{tailfibres} Appendices}
