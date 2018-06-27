@@ -181,5 +181,7 @@
 \contentsline {chapter}{\numberline {7}Discussion}{242}{chapter.7}
 \contentsline {chapter}{Bibliography}{242}{chapter.7}
 \contentsline {chapter}{Appendices}{276}{section*.111}
-\contentsline {chapter}{\numberline {A}Chapter 4 Appendices}{277}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Publications arising from this candidature}{278}{Appendix.a.B}
+\contentsline {chapter}{\numberline {A}Chapter 3 Appendices}{277}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}HHPred results for all loci}{277}{section.a.A.1}
+\contentsline {chapter}{\numberline {B}Chapter 4 Appendices}{280}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Publications arising from this candidature}{281}{Appendix.a.C}

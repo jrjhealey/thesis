@@ -23,7 +23,7 @@
      - Apply references sym to the structures (sym #subject group #ref)
        - May need to do this separately for each model, and re-save each donut as a single PDB in order to tile (-> do this by using `combine`, not group)
  - Run the sequences through the PDB shape matching tool and find all the examples where it differs from sequence matches?
-
+ - Alternating positive and negative charge on the inner tube proteins? one ortholog has pos-pos, the other has neg-neg - suggests that they may form alternating stacks?
 
  - tail fibre (lumt? ligand docking? galactose?)
  - interior volume measurements
