@@ -10,10 +10,8 @@
 # Methods:
 
 # Chapter 1: Structural Bioinformatics
- - Another quote from Silverman2012a: "For the most part, this homology is apparent at the structural level, not at the sequence level"
- - Introduce the chapter by drawing attention to the fact that homology modelling approaches are widely used when structures are absent.
  - Hurst2004 showed that PVC2 is required for formation of the toxic Afp. Yet more evidence that PVC3 is the one that's deleted. May also need to mention this in the Phylogenetics Chapter.
- - Make it plain that because there was so little functional information to go off in the original annotations, re-annotating and querying via HHPred was necessary and useful
+
  - Interesting to note that the innner and outer tubes don't share the same/equivalent orthologies.
  - interior charge
    - The Ge et al paper has a similar figure where the electrostatics are very pronounced. Copy this.
@@ -25,7 +23,6 @@
  - Run the sequences through the PDB shape matching tool and find all the examples where it differs from sequence matches?
  - Alternating positive and negative charge on the inner tube proteins? one ortholog has pos-pos, the other has neg-neg - suggests that they may form alternating stacks?
 
- - tail fibre (lumt? ligand docking? galactose?)
  - interior volume measurements
  - interior sheath high RMSDs but equivalent space occupation
  - speculation on sheath contractility/defunctness?
@@ -50,8 +47,20 @@
   - Triangular ggtern-like graph?
  - Use of inner sheath proteins for phylogenetics may not be valid, if they transpire to be specialised basplate adapter proteins etc. They may not be fulfilling the role suspected.
 - predict the length of each PVC operon based on tape measure protein and the linear R2=0.92 relationship for the lolz.
-
-
+- VgrG most resembles a simplified structure from E coli c3393 type 6, rather than T4 etc.
+- Tape measure protein models are junk, but possibly highly coiled? Would fit with what little is known about them.
+- Discuss the PVC7-SIR2 homology and general likelihood of enzymes being present in the structural region of the PVCs.
+- PAAR proteins
+  - Some ultra weak homologies, even for the proteins which do hit a PAAR protein.
+  - The structural models bear some resemblance
+  - The protein length is roughly correct (and small)
+  - the PAAR signature is not obvious from the sequence however.
+  - The proteins are well conserved in some places, but most other sites are variant
+ - Spike lysozyme domain split?
+   - Not sure why it's retained though? Cellular escape/secretion?
+ - PVC14 as a cap protein despite showing no good homologies to anything (alpha helicity)
+   - PLT_U2 has 1 extra protein
+ - Do some more looking in to the hallmarks of the cap/terminator proteins since no decent homology found so far.
 # Chapter 2: Phylogenetics
 
  - Maybe re-do the workflow? Not so keen on tikz

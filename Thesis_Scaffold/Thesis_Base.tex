@@ -272,6 +272,17 @@
   }\par\nopagebreak\vspace{\topsep}
 }
 
+\newcommand{\ltextbetweenrules}[2][.4pt]{%
+  \par\vspace{\topsep}
+  \noindent\makebox[\linewidth]{%
+    \sbox0{#2}%
+    \dimen0=.5\dimexpr\ht0+#1\relax
+    \dimen2=-.5\dimexpr\ht0-#1\relax
+    \leaders\hrule height \dimen0 depth \dimen2\hfill
+    \quad #2\quad
+    \leaders\hrule height \dimen0 depth \dimen2\hfill
+  }\par\nopagebreak\vspace{\topsep}
+}
 % New column type for tabular
 \newcolumntype{A}{>{\raggedleft\arraybackslash} m{0.17\linewidth} }
 \newcolumntype{B}{>{\raggedright\arraybackslash} m{0.65\linewidth} }
