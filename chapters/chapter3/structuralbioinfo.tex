@@ -70,7 +70,23 @@ Individual homologies for different sections of the PVC operons will be discusse
 
 \subsubsection{Homology modelling, threading and structural refinement}
 
-RMSD graph
+   1. Y Zhang. I-TASSER server for protein 3D structure prediction.
+      BMC Bioinformatics, 9: 40 (2008).
+   2. A Roy, A Kucukural, Y Zhang. I-TASSER: a unified platform
+      for automated protein structure and function prediction.
+      Nature Protocols, 5: 725-738 (2010).
+   3. J Yang, A Roy, Y Zhang. Protein-ligand binding site recognition
+      using complementary binding-specific substructure comparison and
+      sequence profile alignment. Bioinformatics, 29:2588-2595 (2013).
+
+\begin{figure}[h]
+\thisfloatpagestyle{IHA-fancy-style}
+\includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/RMSDhist.pdf}
+	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+	\caption[I-Tasser homology model accuracy distribution]{\textsc{\normalsize Distribution of atomic deviations for all simulated models.}\vspace{0.1cm} \newline A histogram of the Root Mean Square Deviation (in \AA{}ngstroms), between a modelled sequence and its closest structural match, as determined by HHSuite. RMSDs were calculated using the MatchMaker function within UCSF Chimera. The dashed grey line denotes the mean RMSD value.}
+	\label{rmsdhist}
+\end{figure}
+
 
 \subsection{Exploration of the structure of PVCs by functional unit}
 It has been made abundantly clear that it is insufficient to consider sequence similarity alone when comparing structural proteins. Sequences are at liberty to diverge, and if the structure they give rise to is particularly robust, the `space' that the sequence has to drift in is even larger. This is a generally observed phenomenon, but appears to be particularly true for many of the proteins in contractile tail structres. One postulate for this is that phage represent an extremely ancient domain of life, and spend a significant amount of their life cycle outside of the protective environment of the cell they infect. Thus their proteins have evolved over aeons to become particularly stable and robust. The arms race associated with infection cycles has also no doubt driven the diversification of these proteins in an effort to avoid immune mechanisms of their hosts. It has been observed many times in the related literature that, for example, the vgrG/gp5-gp27 spike complex of these caudate systems look almost identical structurally, with many of the same domains identifiable such as the OB-fold, yet may share as little as 12\% protein sequence identity, and due to the slower evolution of proteins sequences attributable codon redundancy, the corresponding DNA sequences may be even less similar.
@@ -104,10 +120,23 @@ Might some PVCs be defunct? If not - is there a minimal outer sheath?
 \addfloat{EM density fittings for AFP/T4/PVC sheaths etc}
 
 
+\subsubsection{The spike complex}
+\addfloat{CDSs in operon position}
 
+Comparisons of VgrGs - show that the lysozyme domain looks to me missing compared to T4. Maybe explains the gene next to it?
 
+PAAR models. Vaguely similar in shape, known to be super variable so difficult to spot via sequence identity.
 
+\subsubsection{The operon core}
+\addfloat{CDSs in operon position}
+Tail fibres - highlight hyper variable domains
 
+Tape measure proteins - high in helix? (add the calculations from the hhpred hits).
+Tape measure proteins - annotate the MSA with helical regions according to DSSP?
+Tape measure proteins - speculate on length
+
+\subsubsection{The payload region}
+\addfloat{CDSs in operon position}
 
 
 
