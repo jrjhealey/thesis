@@ -197,9 +197,8 @@
 \renewcommand{\moacsupervisors}{Dr. Nicholas R. Waterfield and Prof. Matthew I. Gibson}
 \renewcommand{\moacdocumenttype}{Doctoral Thesis}
 
-%%% Renewing Commands for the rest of the Document 
+%%% Renewing Commands for the rest of the Document
 \renewcommand{\thesubfigure}{\Alph{subfigure}}
-\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\vspace{0.3cm}\\} % adds a new paragraph environment called by \myparagraph
 \newcommand\tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
 \newcommand\bstrut{\rule[-0.9ex]{0pt}{0pt}}   % = `bottom' strut
 \newcommand{\vcentralise}[1]{\raisebox{-.5\height}{#1}}  % = Set an objects baseline to its midline to vertically centralise/justify objects.
@@ -283,7 +282,8 @@
     \leaders\hrule height \dimen0 depth \dimen2\hfill
   }\par\nopagebreak\vspace{\topsep}
 }
-% New column type for tabular
+
+%%%%%% Column Declarations
 \newcolumntype{A}{>{\raggedleft\arraybackslash} m{0.17\linewidth} }
 \newcolumntype{B}{>{\raggedright\arraybackslash} m{0.65\linewidth} }
 \newcolumntype{C}{>{\centering\arraybackslash}X}
@@ -301,6 +301,9 @@
 \usepackage{varioref}
 \usepackage[hidelinks]{hyperref} % Make sure it's loaded last to avoid conflicts
 \usepackage[capitalise,noabbrev]{cleveref} % must be loaded after hyperref
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\vspace{0.3cm}\\} % adds a new paragraph environment called by \myparagraph
+\crefname{paragraph}{Paragraph}{Paragraphs} % Add "Paragraph" to cleverefs typesettable capabilities (must come after cleverref is loaded)
+ 
 
 \usepackage[annataritalic]{tengwarscript} % Should be loaded late/last (I think)
 
@@ -573,7 +576,8 @@ Author Contribution: Creation of simulated structural and modelling data for exe
   \sortitem{CAR         \hfill Coxsackie Adenovirus Receptor}
   \sortitem{ssRNA       \hfill single-stranded RNA}
   \sortitem{dsDNA       \hfill double-stranded DNA}
-  \sortitem{NRMSD       \hfill Normalise Root Mean Square Deviation}
+  \sortitem{NRMSD       \hfill Normalised Root Mean Square Deviation}
+  \sortitem{RMSD        \hfill Root Mean Square Deviation}
   \sortitem{NTA         \hfill NitriloTriacetic Acid}
   \sortitem{FITC        \hfill Fluorescein IsoThioCyanate}
   \sortitem{ELISA       \hfill Enzyme-Linked ImmunoSorbant Assay}
@@ -583,7 +587,8 @@ Author Contribution: Creation of simulated structural and modelling data for exe
   \sortitem{FRT         \hfill Flippase Recognition Target}
   \sortitem{HSI         \hfill Hue/Saturation/Intensity colourspace}
   \sortitem{TES         \hfill Transcript Elongation Complex}
-  
+  \sortitem{C-score     \hfill Confidence Score}
+  \sortitem{TM-score    \hfill Template Modelling Score}
   
 \end{sortedlist}
 
@@ -691,7 +696,7 @@ Any time you see the symbol below on a page (bottom left footer), you can scan t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{appendices}
-\chapter{Chapter 3 Appendices}
+\chapter{Chapter 3 Appendices}\label{structural_appendix}
 \input{../appendices/structuralbioinformatics_appendix/structuralbioinformatics_appendix.tex}
 
 

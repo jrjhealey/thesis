@@ -1,12 +1,5 @@
 ### Notes to be incorporated in to the thesis as and when they strike me.
 
-# Intro:
- - Diagram of PVC 'ownership' by genome (host of hosts)
- - MERV model (poison arrow)
- - Strand exchange
- - Read the new Hurst manuscript from the 16th March '18
-
-
 # Methods:
 
 # Chapter 1: Structural Bioinformatics
@@ -47,6 +40,7 @@
   - Triangular ggtern-like graph?
  - Use of inner sheath proteins for phylogenetics may not be valid, if they transpire to be specialised basplate adapter proteins etc. They may not be fulfilling the role suspected.
 - predict the length of each PVC operon based on tape measure protein and the linear R2=0.92 relationship for the lolz.
+  - Compare this to a couple of micrographs measured by ImageJ (if time)
 - VgrG most resembles a simplified structure from E coli c3393 type 6, rather than T4 etc.
 - Tape measure protein models are junk, but possibly highly coiled? Would fit with what little is known about them.
 - Discuss the PVC7-SIR2 homology and general likelihood of enzymes being present in the structural region of the PVCs.
@@ -61,6 +55,31 @@
  - PVC14 as a cap protein despite showing no good homologies to anything (alpha helicity)
    - PLT_U2 has 1 extra protein
  - Do some more looking in to the hallmarks of the cap/terminator proteins since no decent homology found so far.
+
+Best homologies so far as reference:
+
+* PVC1  Inner tube
+* PVC2  Outer tube
+* PVC3  Outer tube
+* PVC4  Outer tube/collar?
+* PVC5  Inner tube
+* PVC6  Completely unknown
+* PVC7  Some sort of metalloprotein/enzyme?
+* PVC8  VgrG-like spike
+* PVC9  Lysozyme (VgrG domain?)
+* PVC10 PAAR Spike tip
+* PVC11 GP6 Baseplate component*
+* PVC12 GGDEF protein/regulator? Defunct?
+* PVC13 Tail fibre chimera
+* PVC14 Tape measure protein***
+* PVC15 ATPase
+* PVC16 Cap/terminator
+
+
+*Draw attention to the fact that these would form hexamers around the VgrG spike?
+** Tape measure protein alpha helicity
+Mention that LUMT is a weirdo in multiple places.
+
 # Chapter 2: Phylogenetics
 
  - Maybe re-do the workflow? Not so keen on tikz
