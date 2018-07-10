@@ -129,6 +129,8 @@ It is important to mention however, that despite all these metrics, whether or n
 
 Among the better annotated genes at the outset of this work, the first 5 loci of the PVCs, are predicted to match phage tail tube proteins of various sorts, though the existing annotations were not much more informative than this (for the rest of the operon the vast majority of which were ``hypothetical proteins"). With further inspection, these genes have become consistently annotated as T4-like virus tail tube or baseplate proteins (orthologs of gp6/gp19) and sheath proteins from the recently resolved \emph{Pseudomonas aeruginosa} R-type pyocin. In some previous rounds of annotation, homologies to the Type 6 Secretion Systems of \emph{Edwardsiella tarda}, \emph{Vibrio cholerae}, and \emph{Burkholderia pseudomallei} were also detected for the inner sheath proteins (PVC1 \& 5), which underscores the original notion that PVCs seem to resemble a sort of hybrid, somewhere between a T6SS and a phage in sequence similarity.
 
+\addfloat{figure of the tubes (maybe just a top down) for T6SS, pyocin, T4. Might be needed for orienting the reader}
+
 From the resolved structure databases and literature, gp19 is known to be the inner sheath of the T4 bacteriophage (as can be seen in PDB IDs 5IV5 and 5W5F \citep{Taylor2016, Zheng2017}), and the outer sheath of PDB ID 3J9Q which corresponds to the resolved pyocin tube structure \citep{Ge2015a}. Over several iterations of homology searches with the HHpred suite, these 3 recent PDB depositions have come to be the most highly similar structures predicted.
 
 \vref{tubehomologs} shows a summarised selection of the orthologues which HHPred has picked up over time. A full list of the most recent orthologies detected can be found in Appendix \vref{structural_appendix}.
@@ -162,7 +164,9 @@ Locus & PDB ID Hit & Structure & Component \\
 {\tiny \noindent * PVC5 attracts the same 3 homology matches as PVC1, plus 4TV4.}
 \normalsize
 
-\vrefrange{PVC1comparisons}{PVC5comparisons} showcases the similarities and differences in structure between the first 5 PVC loci and their nearest structural homologs. In addition, the figure also shows the structure of the R-type pyocin which the outer sheath protein match to so conclusively, to try to understand why the inner sheath proteins do not reflect this same orthology; as well as a simulated structure for the Antifeeding Prophage equivalent locus. The Afp is the closest orthologue when only DNA or amino acid sequence is considered, but no resolved structure exists.
+Figures \vrefrange{PVC1comparisons}{PVC5comparisons} showcase the similarities and differences in structure between the first 5 PVC loci and their nearest structural homologs. In addition, \vref{PVC1comparisons} also shows the structure of the R-type pyocin which the outer sheath protein match against so conclusively, to try to understand why the inner sheath proteins do not reflect this same orthology; as well as a simulated structure for the Antifeeding Prophage equivalent locus. The Afp is the closest orthologue when only DNA or amino acid sequence is considered, but no resolved structure exists.
+
+Rather than show all the PVC loci compared to their homologs, where the PVC loci are similar, one example is shown (as in \vref{PVC1comparisons}) and then all the PVC variants are compared with one another in the subsequent figures.
 
 \begin{figure}[h]
  \thispagestyle{augment}
@@ -174,15 +178,13 @@ Locus & PDB ID Hit & Structure & Component \\
  \put(-241,-10){\small Afp Simulation}
  \put(-100,-10){\small Pyocin} 
  \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=20pt}
- \caption[PVC1 homolog comparisons]{\textsc{\normalsize Comparisons of the structure of PVC locus 1 to orthologous proteins.}\vspace{0.1cm} \newline An example model of PVC locus 1 from the PVCPnf operon of \Pasy{} ATCC43949. Here the structure is compared to (from top left to bottom right) the Hcp protein (3EAA) of the \emph{E. tarda} T6SS, gp19 (5W5F chain V) from the T4 bacteriophage, gp6 also from T4 (5IV5 chain F), a simulated Afp1 structure, and an interior sheath monomer from the R-type pyocin (3J9Q chain V). Models are shown `rainbow' coloured, from one terminus to the other, with a molecular surface `ghost'. It is evident that the 2 T4 proteins, despite being frequent sequence based matches to PVC1 (and 5), are not the closest matches in terms of structural conformation. The 3D model to accompany this page shows superimposed $\alpha$-carbon chain traces for all the structures (though without the T4 baseplate as its superposition is poor) - the PVC protein is rendered in thicker red wires/pipes, and the homologs in various monochrome shades. }
+ \caption[PVC1 homolog comparisons]{\textsc{\normalsize Comparisons of the structure of PVC locus 1 to orthologous proteins.}\vspace{0.1cm} \newline An example model of PVC locus 1 from the PVCPnf operon of \Pasy{} ATCC43949. Here the structure is compared to (from top left to bottom right) the Hcp protein (3EAA) of the \emph{E. tarda} T6SS, gp19 (5W5F chain V) from the T4 bacteriophage, gp6 also from T4 (5IV5 chain F), a simulated Afp1 structure from \emph{S. entomophila}, and an interior sheath monomer from the R-type pyocin (3J9Q chain V) from \emph{P. aeruginosa}. Models are shown `rainbow' coloured, from one terminus to the other, with a molecular surface `ghost'. It is evident that the 2 T4 proteins, despite being frequent sequence based matches to PVC1 (and 5), are not the closest matches in terms of structural conformation. The 3D model to accompany this page shows superimposed $\alpha$-carbon chain traces for all the structures (though without the T4 baseplate as its superposition is poor) - the PVC protein is rendered in thicker red wires/pipes, and the homologs in various monochrome shades. }
 	\label{PVC1comparisons}
 \end{figure}
 
-The inner sheath proteins from all these structures form a conserved pair of anti-parallel $\beta$-sheets which are sandwiched together approximately perpendicular to one another (with the exception of the T4 baseplate protein which is clearly an erroneous homology). They all exhibit a lower right hand extension positioned almost exactly in the centre of the amino acid chain (cyan/aquamarine). In the case of the T4 gp19 tube protein, this is quite extended, along with a much longer protruding C-terminus (dark blue).
+The inner sheath proteins from all these structures form a conserved pair of anti-parallel $\beta$-sheets which are sandwiched together approximately perpendicular to one another (with the exception of the T4 baseplate protein which is clearly an erroneous homology). They all exhibit a lower right hand extension positioned almost exactly in the centre of the amino acid chain (cyan/aquamarine). In the case of the T4 gp19 tube protein (chain F from PDB ID 5IV5), this is quite extended, along with a much longer protruding C-terminus (dark blue).
 
-The PDB ID 5IV5 is the entire baseplate complex, including part of the tube (which is PDB ID 5W5F), from the T4 phage. It seems unusual that many of the proteins match (at the sequence and secondary structure level) so well to chains within the model which are \emph{not} the tube, instead forming part of the baseplate complex, primarily gp6. It is clear from looking at the structures visually that these proteins are homologues of the inner sheath proteins (which are matched by HHPred for some of the PVC1 proteins, but the minority in actual fact - see \vref{HHpredPVC1}). The basis for matching the gp6 monomer, therefore, is likely because they share similar predominantly $\beta$-sheet secondary structures (ADD SOMETHING ABOUT THEIR SEQUENCE IDENTITY - CAN'T BE THE EXPLANATION?).
-
-The T4 gp6 protein (modelled here is chain F from 5IV5) has some extended loops which would interface with the neighbouring monomers compared with both the PVC model and Hcp protein (PDB ID 3EAA). 
+The PDB ID 5IV5 is the entire baseplate complex of T4, including part of the tube (and encapsulates PDB ID 5W5F, so there is a slightly redudant match), from the T4 phage. It seems unusual that many of the proteins match (at the sequence and secondary structure level) so well to chains within the model which are \emph{not} the tube, instead forming part of the baseplate complex, primarily gp6. It is clear from looking at the structures visually that these proteins are homologues of the inner sheath proteins (which are matched by HHPred for some of the PVC1 proteins, but the minority in actual fact - see \vref{HHpredPVC1}). The basis for matching the gp6 monomer, therefore, is likely because they share similar predominantly $\beta$-sheet secondary structures (ADD SOMETHING ABOUT THEIR SEQUENCE IDENTITY - CAN'T BE THE EXPLANATION?).
 
 Strangely, it wasn't easy to obtain good quality overlays when matching chains between the PVC models and those of the R-type pyocin, even though they visible resemble one another reasonably well, and could be imposed within each other's simulated density maps well (not shown). To this end, some manual rotation/translation of the model has been performed to have a consistent orientation with the other models.
 
@@ -197,18 +199,34 @@ Might some PVCs be defunct? If not - is there a minimal outer sheath?
 Measurements of the axes of the tube proteins to extrapolate PVC length and subunits.
 
 
-\myparagraph{Understanding operon paralogy in structural genes by examining structural conservation}
+\myparagraph{Structural comparisons of duplicated and triplicated tube proteins}
 An unanswered question is why \emph{Photorhabdus} has managed to maintain so many copies of what appear to be highly paralogous proteins in the tube region. Not only are the proteins paralogous within a single operon, but multiplied up by 5 or 6 times to account for the other operons, and somehow proteins with as many as 10 or more copies are somehow preserved. If the proteins are sufficiently different in specific ways, it may be the case that they aren't so paralogous after all. 
+
+
+
+\begin{figure}[h]
+ \thispagestyle{augment}
+ \frame{\includegraphics[width=\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1vsPVC5.png}}
+ \put(-80,155){\small Interior Aspect}
+ \put(-80,45){\small  Reverse Aspect}
+ \put(-260,-10){\small PVC1}
+ \put(-140,-10){\small PVC5}
+ \put(-70,90){%
+  \begin{tikzpicture}[scale = .3]%
+    \draw (0,0)  -- (0,3)  node [midway] {\AxisRotator[x=0.15cm,y=0.3cm,->,rotate=-90]};%
+  \end{tikzpicture}%
+ }
+ \put(-38,101){$180^{\circ}$}
+ \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=20pt}
+ \caption[PVC1 and PVC5 paralog conservation comparison]{\textsc{\normalsize Comparisons of sequence conservation between inner sheath paralogues.}\vspace{0.1cm} \newline Models of PVC1 and PVC5 are shown, coloured according to their per-columns sequence conservation (as per the sequence alignments in Appendix \ref{bioinformatics_appendix}. Front and rear rotations of the models are shown. This highlights the lack of significant structural differences and generally high sequence conservation, though PVC1 is slightly more variable. Conservation is rendered from high (green), to low (red), as per the inset scalebar.}
+	\label{PVC1vsPVC5}
+\end{figure}
 
 
 To highlight the similarities and differences between loci from different PVCs, to highlight the variability between operons, the structures are also rendered by conservation by overlaying the multiple sequence alignments in \ref{bioinformatics_appendix}. 
 
 PVC5 matched additional orthologues that PVC1, did not - let's explore the differences between PVC1 and 5
 
-\cite{Hurst2004} demonstrated that Afp2 is required for formation of a toxic Afp. In several PVC operons a deletion in one of the 3 proteins which match to outer sheaths are observed. Initially, it was not obvious which of these 3 proteins, assumed to be equally paralogous, would be deleted in each case. It seemed unusual that 3 outer sheath CDSs would be required whilst only 2 inner sheath CDSs are ever present, if stoichiometry was the only explanation for their paralogy. On further inspection, it appears that the deletions in these outer sheath proteins is always PVC3 rather than 2 or 4. Unpublished communication from the Hurst lab has proposed that PVC4 may actually be a slightly modified variant of the outer tube. This may be such that it functions as an adapter protein at one end of the tube, possibly as a collar that interfaces with the baseplate.
-
-
-It is also interesting that the inner and outer tube orthologies do not share the same provenance. It might be expected that they should all match to the next closest structure (e.g. all matching to the \emph{P. aeruginosa} R-type pyocin). This indicates that the inner and outer sheaths may be subject to different evolutionary pressures. Additionally, interior sheath proteins are smaller and better conserved. This may, therefore, be indicative of \emph{Photorhabdus} honing the exterior of the sheath in different environments. An appealing hypothesis, especially since legacy data has shown that different PVCs are deployed in very particular inducing conditions\todo{move to discussion?}.
 
 
 
@@ -269,6 +287,12 @@ Tape measure proteins - speculate on length
 
 \section{Discussion}
 PVCs are a hybrid between T4 and pyocin like structures, with an inner sheath most resembling the former, and an outer sheath the latter.
+
+
+It is also interesting that the inner and outer tube orthologies do not share the same provenance. It might be expected that they should all match to the next closest structure (e.g. all matching to the \emph{P. aeruginosa} R-type pyocin). This indicates that the inner and outer sheaths may be subject to different evolutionary pressures. Additionally, interior sheath proteins are smaller and better conserved. This may, therefore, be indicative of \emph{Photorhabdus} honing the exterior of the sheath in different environments. An appealing hypothesis, especially since legacy data has shown that different PVCs are deployed in very particular inducing conditions\todo{move to discussion?}.
+
+
+\cite{Hurst2004} demonstrated that Afp2 is required for formation of a toxic Afp. In several PVC operons a deletion in one of the 3 proteins which match to outer sheaths are observed. Initially, it was not obvious which of these 3 proteins, assumed to be equally paralogous, would be deleted in each case. It seemed unusual that 3 outer sheath CDSs would be required whilst only 2 inner sheath CDSs are ever present, if stoichiometry was the only explanation for their paralogy. On further inspection, it appears that the deletions in these outer sheath proteins is always PVC3 rather than 2 or 4. Unpublished communication from the Hurst lab has proposed that PVC4 may actually be a slightly modified variant of the outer tube. This may be such that it functions as an adapter protein at one end of the tube, possibly as a collar that interfaces with the baseplate.
 
 Mention translational coupling of the spike complex and PVC5
 

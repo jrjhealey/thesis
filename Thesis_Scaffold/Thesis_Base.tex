@@ -104,7 +104,10 @@
                 positioning,
                 shapes,
                 arrows}
-\tikzset{boximg/.style={remember picture,{Dandelion!60},thick,draw,inner sep=0pt,outer sep=0pt}}
+\tikzset{boximg/.style={remember picture,{Dandelion!60},thick,draw,inner sep=0pt,outer sep=0pt}} % drawing annotation boxes
+\newcommand{\AxisRotator}[1][rotate=0]{%
+    \tikz [x=0.25cm,y=0.60cm,line width=.2ex,-stealth,#1] \draw (0,0) arc (-150:150:1 and 1);%  drawing rotation symbols
+}
 
 \graphicspath{{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/}
               {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/methods/img/}
