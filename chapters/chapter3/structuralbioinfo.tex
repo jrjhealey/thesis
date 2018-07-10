@@ -57,7 +57,10 @@ As the Protein DataBank and other databases are frequently updated, Hidden Marko
 	
 Hidden Markov Models (``HMMs") are a sensitive way of searching for sequence similarity, that can outperform tools such as BLAST in certain situations. A Markov Model can be thought of as representing each position in the sequence as being one of many different amino acid possibilities, which are weighted according to their likelihood \citep{Eddy2004}. This arises from the fact that not all amino acids are equally likely to appear adjacent to one another - for instance, a stretch of amino acids, all of which can form $\beta$-sheets, are more likely to appear near one another than would an amino acid which contributes to helices, and thus HMMs capture domain information very well. They are especially suited to the task of identifying distant and very variable homologies, in fact, to quote directly from the HHSuite manual: ``HHsearch and HHblits [different algorithm implementations] can detect homologous relationships far beyond the twilight zone, i.e., below 20\% sequence identity. Sequence identity is therefore not an appropriate measure of relatedness anymore".
 
-Individual homologies for different sections of the PVC operons will be discussed in the coming sections. In overall terms, there are 2 loose distributions to the hits. As the histogram in \vref{probhist} shows, of the roughly 300 sequences that were profiled, about half are extremely well matched, with probability scores of approximately 85\% or higher. The probability score from HHSuite is essentially a measure of how good a match is to a query in terms of their likelihoods of being orthologues. It functions similarly to the more common E-Value, but also takes in to consideration the secondary structures of the proteins matched, which is partly why it is able to reliably identify more distant matches than sequence identity alone.
+Individual homologies for different sections of the PVC operons will be discussed in the coming sections. In overall terms, there are 2 loose distributions to the hits. As the histogram in \vref{probhist} shows, of the roughly 350 sequences that were profiled, about half are extremely well matched, with probability scores of approximately 85\% or higher. The probability score from HHSuite is essentially a measure of how good a match is to a query in terms of their likelihoods of being orthologues. It functions similarly to the more common E-Value, but also takes in to consideration the secondary structures of the proteins matched, which is partly why it is able to reliably identify more distant matches than sequence identity alone.
+
+At the outset of this work, in the $\approx$ 350 studied PVC CDSs, 249 of them were annotated as hypothetical proteins. As a result of further probing through HMMs, all loci have garnered a hit/annotation of some sort, though there are still some unreliable hits. The least well profiled genes primarily consist of PVC14 - a putative tube tape measure protein, PVC7 an unknown protein which does however attract consistent annotation in almost all operons to a SIR2 metalloprotein deacetylase \citep{Shore2000}, and to assorted unique genes which do not mesh with the consistent nomenclature. These include several from the PVClumt operon, which in many ways appears to be a particularly unusual operon, and other unusual genes such as an additional locus in the PVCUnit2 locus of \Plum{} TT01, between the canonical PVC13 and 14. Unsurprisingly, the proteins with the highest confidence hits matched those with the best annotations before the project began, namely the sheath proteins and toxin enzymes. That said, many of the initial annotations for the tube proteins provided little more information than that they shared similarity with phage tail ``major" and ``minor" proteins. Through HMM searching, these annotations have begun to point to more specific matches such as gp19 orthologues and the sheaths of R-type pyocins. Moreover, subtle differences in the `conserved' sheath proteins reveal that not all operon's sheath proteins match the same orthologues.
+
 
 \begin{figure}[h]
 \thisfloatpagestyle{IHA-fancy-style}
@@ -108,7 +111,7 @@ It is important to mention however, that despite all these metrics, whether or n
 
 11 of the sequences attempted failed to simulate. Firstly, 8 sequences from the \Pasy{} Kingscliff genome failed to simulate due to the presence of ambiguous amino acids as a result of a lower quality genome assembly. Three proteins were rejected due to being too long - I-Tasser's algorithms have a hard cut-off of 1500 amino acids. 
 
-\clearpage
+
 \subsection{Exploration of the structure of PVCs by functional unit}
 %It has been made abundantly clear that it is insufficient to consider sequence similarity alone when comparing structural proteins. Sequences are at liberty to diverge, and if the structure they give rise to is particularly robust, the `space' that the sequence has to drift in is even larger. This is a generally observed phenomenon, but appears to be particularly true for many of the proteins in contractile tail structures. One postulate for this is that phage represent an extremely ancient domain of life, and spend a significant amount of their life cycle outside of the protective environment of the cell they infect. Thus their proteins have evolved over aeons to become particularly stable and robust. The arms race associated with infection cycles has also no doubt driven the diversification of these proteins in an effort to avoid immune mechanisms of their hosts. It has been observed many times in the related literature that, for example, the vgrG/gp5-gp27 spike complex of these caudate systems look almost identical structurally, with many of the same domains identifiable such as the OB-fold, yet may share as little as 12\% protein sequence identity, and due to the slower evolution of proteins sequences attributable codon redundancy, the corresponding DNA sequences may be even less similar.
 %
@@ -119,7 +122,7 @@ It is important to mention however, that despite all these metrics, whether or n
 \thisfloatpagestyle{IHA-fancy-style}
 \includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1-5_expanded_map.png}
 	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
-	\caption[Tube protein region of a PVC operon]{\textsc{\normalsize The 5 loci that comprise the tube structure of a PVC.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 5 loci that give rise to the function unit of the spike complex itself are blown up below as an aid to understanding the operon organisation and the proteins under discussion.}
+	\caption[Tube protein region of a PVC operon]{\textsc{\normalsize The 5 loci that comprise the tube structure of a PVC.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 5 loci that give rise to the functional unit of the spike complex itself are blown up below as an aid to understanding the operon organisation and the proteins under discussion.}
 	\label{PVC1-5map}
 \end{figure}
 
@@ -140,43 +143,73 @@ From the resolved structure databases and literature, gp19 is known to be the in
 }
 \hiderowcolors
 \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, belowskip=5pt}
-\caption[HHPred hit summary for PVC1-5]{\textsc{\normalsize HHPred orthology summary for the tail tube proteins.}\vspace{0.1cm} \newline A summary of homology matches via HHPred for the first 5 PVC loci. The hits have varying degrees of confidence but have Probabilities greater than 60\% and E-Values of less than \sn{1}{-5}. They represent a `collapsed' set of common hits from all the variants for each locus. Hit scores for the inner sheath proteins (PVC1 and 5) are consistently lower than for the outer sheath proteins (PVC2-4) - all scores for the most recent analysis can be found in Appendix \vref{structural_appendix}. \newline
-*PVC5 attracts the same 3 homology matches as PVC1, plus 4TV4. }\\
+\caption[HHPred hit summary for PVC1-5]{\textsc{\normalsize HHPred orthology summary for the tail tube proteins.}\vspace{0.1cm} \newline A summary of homology matches via HHPred for the first 5 PVC loci. The hits have varying degrees of confidence but have Probabilities greater than 60\% and E-Values of less than \sn{1}{-5}. They represent a `collapsed' set of common hits from all the variants for each locus. Hit scores for the inner sheath proteins (PVC1 and 5) are consistently lower than for the outer sheath proteins (PVC2-4) - all scores for the most recent analysis can be found in Appendix \vref{structural_appendix}.}\\
 \label{tubehomologs}\\
 Locus & PDB ID Hit & Structure & Component \\
 \hline\hline
 \showrowcolors
 \hline
 
-\rowcolor{white!10}                              & 5IV5 & Bacteriophage T4 & Baseplate wedge protein gp6 \\ 
-\rowcolor{white!10}                              & 5W5F & Bacteriophage T4 & Tail tube protein gp19 \\
-\rowcolor{white!10}                              & 3EAA & T6SS             & Inner sheath protein \\
-\rowcolor{white!10} \multirow{-4}{*}{PVC1 \& 5*} & 4TV4 & T6SS             & Inner sheath protein \\
+\rowcolor{white!10}                              & 5IV5 & Bacteriophage T4 & Baseplate wedge protein (gp6) \\ 
+\rowcolor{white!10}                              & 5W5F & Bacteriophage T4 & Tail tube protein (gp19) \\
+\rowcolor{white!10}                              & 3EAA & T6SS             & Inner sheath protein (Hcp/TssD)\\
+\rowcolor{white!10} \multirow{-4}{*}{PVC1 \& 5*} & 4TV4 & T6SS             & Inner sheath protein (Hcp/TssD)\\
 \rowcolor{gray!10}  PVC2, 3, \& 4                & 3J9Q & R-type Pyocin    & Outer sheath protein \\
 
 \end{tabularx}
+\hrule
+\vspace{0.1cm}
+{\tiny \noindent * PVC5 attracts the same 3 homology matches as PVC1, plus 4TV4.}
 \normalsize
 
-\myparagraph{Understanding operon paralogy in structural genes by examining structural conservation}
+\vrefrange{PVC1comparisons}{PVC5comparisons} showcases the similarities and differences in structure between the first 5 PVC loci and their nearest structural homologs. In addition, the figure also shows the structure of the R-type pyocin which the outer sheath protein match to so conclusively, to try to understand why the inner sheath proteins do not reflect this same orthology; as well as a simulated structure for the Antifeeding Prophage equivalent locus. The Afp is the closest orthologue when only DNA or amino acid sequence is considered, but no resolved structure exists.
 
-An unanswered question is why \emph{Photorhabdus} has managed to maintain so many copies of what appear to be highly paralogous proteins in the tube region. Not only are the proteins paralogous within a single operon, but multiplied up by 5 or 6 times to account for the other operons, and somehow proteins with as many as 10 or more copies are somehow preserved. If the proteins are sufficiently different in specific ways, it may be the case that they aren't so paralogous after all
+\begin{figure}[h]
+ \thispagestyle{augment}
+ \includegraphics[width=\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1_homolog_comparison.png}
+ \put(-380,108){\small PVC Simulation}
+ \put(-227,106){\small T6SS}
+ \put(-105,108){\small T4 Tube}
+ \put(-374,-10){\small T4 Baseplate}
+ \put(-241,-10){\small Afp Simulation}
+ \put(-100,-10){\small Pyocin} 
+ \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=20pt}
+ \caption[PVC1 homolog comparisons]{\textsc{\normalsize Comparisons of the structure of PVC locus 1 to orthologous proteins.}\vspace{0.1cm} \newline An example model of PVC locus 1 from the PVCPnf operon of \Pasy{} ATCC43949. Here the structure is compared to (from top left to bottom right) the Hcp protein (3EAA) of the \emph{E. tarda} T6SS, gp19 (5W5F chain V) from the T4 bacteriophage, gp6 also from T4 (5IV5 chain F), a simulated Afp1 structure, and an interior sheath monomer from the R-type pyocin (3J9Q chain V). Models are shown `rainbow' coloured, from one terminus to the other, with a molecular surface `ghost'. It is evident that the 2 T4 proteins, despite being frequent sequence based matches to PVC1 (and 5), are not the closest matches in terms of structural conformation. The 3D model to accompany this page shows superimposed $\alpha$-carbon chain traces for all the structures (though without the T4 baseplate as its superposition is poor) - the PVC protein is rendered in thicker red wires/pipes, and the homologs in various monochrome shades. }
+	\label{PVC1comparisons}
+\end{figure}
+
+The inner sheath proteins from all these structures form a conserved pair of anti-parallel $\beta$-sheets which are sandwiched together approximately perpendicular to one another (with the exception of the T4 baseplate protein which is clearly an erroneous homology). They all exhibit a lower right hand extension positioned almost exactly in the centre of the amino acid chain (cyan/aquamarine). In the case of the T4 gp19 tube protein, this is quite extended, along with a much longer protruding C-terminus (dark blue).
+
+The PDB ID 5IV5 is the entire baseplate complex, including part of the tube (which is PDB ID 5W5F), from the T4 phage. It seems unusual that many of the proteins match (at the sequence and secondary structure level) so well to chains within the model which are \emph{not} the tube, instead forming part of the baseplate complex, primarily gp6. It is clear from looking at the structures visually that these proteins are homologues of the inner sheath proteins (which are matched by HHPred for some of the PVC1 proteins, but the minority in actual fact - see \vref{HHpredPVC1}). The basis for matching the gp6 monomer, therefore, is likely because they share similar predominantly $\beta$-sheet secondary structures (ADD SOMETHING ABOUT THEIR SEQUENCE IDENTITY - CAN'T BE THE EXPLANATION?).
+
+The T4 gp6 protein (modelled here is chain F from 5IV5) has some extended loops which would interface with the neighbouring monomers compared with both the PVC model and Hcp protein (PDB ID 3EAA). 
+
+Strangely, it wasn't easy to obtain good quality overlays when matching chains between the PVC models and those of the R-type pyocin, even though they visible resemble one another reasonably well, and could be imposed within each other's simulated density maps well (not shown). To this end, some manual rotation/translation of the model has been performed to have a consistent orientation with the other models.
+
+Electrostatic comparisons of interior tube proteins + general comparisons
+PVC1 vs Hcp vs gp19 vs R-type pyocin (also show their pairwise sequence identities?)
+
+comparisons of PVCs2,3,4 to try and understand their paralogy? Same with PVC 1 and 5
+Compare the structures of the MOST different PVC1s, PVC5s, etc.
+
+Might some PVCs be defunct? If not - is there a minimal outer sheath?
+
+Measurements of the axes of the tube proteins to extrapolate PVC length and subunits.
+
+
+\myparagraph{Understanding operon paralogy in structural genes by examining structural conservation}
+An unanswered question is why \emph{Photorhabdus} has managed to maintain so many copies of what appear to be highly paralogous proteins in the tube region. Not only are the proteins paralogous within a single operon, but multiplied up by 5 or 6 times to account for the other operons, and somehow proteins with as many as 10 or more copies are somehow preserved. If the proteins are sufficiently different in specific ways, it may be the case that they aren't so paralogous after all. 
 
 
 To highlight the similarities and differences between loci from different PVCs, to highlight the variability between operons, the structures are also rendered by conservation by overlaying the multiple sequence alignments in \ref{bioinformatics_appendix}. 
+
+PVC5 matched additional orthologues that PVC1, did not - let's explore the differences between PVC1 and 5
 
 \cite{Hurst2004} demonstrated that Afp2 is required for formation of a toxic Afp. In several PVC operons a deletion in one of the 3 proteins which match to outer sheaths are observed. Initially, it was not obvious which of these 3 proteins, assumed to be equally paralogous, would be deleted in each case. It seemed unusual that 3 outer sheath CDSs would be required whilst only 2 inner sheath CDSs are ever present, if stoichiometry was the only explanation for their paralogy. On further inspection, it appears that the deletions in these outer sheath proteins is always PVC3 rather than 2 or 4. Unpublished communication from the Hurst lab has proposed that PVC4 may actually be a slightly modified variant of the outer tube. This may be such that it functions as an adapter protein at one end of the tube, possibly as a collar that interfaces with the baseplate.
 
 
 It is also interesting that the inner and outer tube orthologies do not share the same provenance. It might be expected that they should all match to the next closest structure (e.g. all matching to the \emph{P. aeruginosa} R-type pyocin). This indicates that the inner and outer sheaths may be subject to different evolutionary pressures. Additionally, interior sheath proteins are smaller and better conserved. This may, therefore, be indicative of \emph{Photorhabdus} honing the exterior of the sheath in different environments. An appealing hypothesis, especially since legacy data has shown that different PVCs are deployed in very particular inducing conditions\todo{move to discussion?}.
 
-
-\addfloat{Electrostatic comparisons of interior tube proteins + general comparisons}
-\addfloat{comparisons of PVCs2,3,4 to try and understand their paralogy? Same with PVC 1 and 5}
-Compare the structures of the MOST different PVC1s, PVC5s, etc.
-
-Might some PVCs be defunct? If not - is there a minimal outer sheath?
-
-Measurements of the axes of the tube proteins to extrapolate PVC length and subunits.
 
 
 \addfloat{EM density fittings for AFP/T4/PVC sheaths etc}
@@ -198,7 +231,7 @@ Homology to gp6 is likely spurious? Show that they fit gp19 and other inner shea
 \thisfloatpagestyle{IHA-fancy-style}
 \includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC6-10_expanded_map.png}
 	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
-	\caption[Spike complex protein region of a PVC operon]{\textsc{\normalsize The 5 loci predicted to comprise the spike and baseplate complex of a PVC.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 5 loci that give rise to the function unit of the spike complex itself are blown up below as an aid to understanding the operon organisation and the proteins under discussion.}
+	\caption[Spike complex protein region of a PVC operon]{\textsc{\normalsize The 5 loci predicted to comprise the spike and baseplate complex of a PVC.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 5 loci that give rise to the functional unit of the spike complex itself are blown up below as an aid to understanding the operon organisation and the proteins under discussion.}
 	\label{PVC6-10map}
 \end{figure}
 
@@ -208,7 +241,13 @@ Comparisons of VgrGs - show that the lysozyme domain looks to me missing compare
 PAAR models. Vaguely similar in shape, known to be super variable so difficult to spot via sequence identity.
 
 \subsubsection{The operon core}
-\addfloat{CDSs in operon position}
+\begin{figure}[h!]
+\thisfloatpagestyle{IHA-fancy-style}
+\includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC11-16_expanded_map.png}
+	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+	\caption[`Core' protein region of a PVC operon]{\textsc{\normalsize The 6 loci comprising the `core' of a PVC operon with various functions.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 6 loci that give rise to the operon core are blown up below as an aid to understanding the operon organisation and the proteins under discussion. The `core' is a collection of conserved proteins present in almost all PVC operons, typically comprised of larger, single copy genes, some which are proposed to be structural, but also the proteins responsible for cell surface adhesion, and an ATPase which potentially loads payloads or recycles the tube apparatus.}
+	\label{PVC11-16map}
+\end{figure}
 Tail fibres - highlight hyper variable domains
 
 Tape measure proteins - high in helix? (add the calculations from the hhpred hits).
@@ -237,6 +276,7 @@ Mention translational coupling of the spike complex and PVC5
 \todo[inline]{Table of HHpred results in appendix}
 \todo[inline]{Correlation between sequence similarity and structure similarity}
 
-
+Evaluations/Considerations:
+Obviously the simulations presented in this chapter are of assorted qualities, and care must be taken when concluding anything from theoretical data alone, however, there is a sufficient body of related proteins for many PVC loci, that comparative modelling can provide, and has provided, hypotheses and potential answers for a number of questions which are not answerable without resolving the structures either experimentally or otherwise.
 
 

@@ -632,6 +632,11 @@ Durand, E., Nguyen, V.~S., Zoued, A., Logger, L., P{\'{e}}hau-Arnaudet, G.,
 Durham, S. (2001).
 \newblock {No Title}.
 
+\bibitem[Eddy, 2004]{Eddy2004}
+Eddy, S.~R. (2004).
+\newblock {What is a hidden Markov model?}
+\newblock {\em Nature Biotechnology}, 22(10):1315--1316.
+
 \bibitem[English et~al., 2014]{English2014}
 English, G., Byron, O., Cianfanelli, F., Prescott, A., and Coulthurst, S.
   (2014).
@@ -1786,6 +1791,12 @@ Robinson, D.~F. and Foulds, L.~R. (1981).
 \newblock {Comparison of phylogenetic trees}.
 \newblock {\em Mathematical Biosciences}, 53(1-2):131--147.
 
+\bibitem[Rodriguez et~al., 1998]{Rodriguez1998}
+Rodriguez, R., Chinea, G., Lopez, N., Pons, T., and Vriend, G. (1998).
+\newblock {Homology modeling, model and software evaluation: three related
+  resources.}
+\newblock {\em Bioinformatics (Oxford, England)}, 14(6):523--528.
+
 \bibitem[{Rodr{\'{i}}guez-Guerra Pedregal} and Mar{\'{e}}chal,
   2018]{Rodriguez-GuerraPedregal2018}
 {Rodr{\'{i}}guez-Guerra Pedregal}, J. and Mar{\'{e}}chal, J.-D. (2018).
@@ -1974,6 +1985,13 @@ Shneider, M.~M., Buth, S.~a., Ho, B.~T., Basler, M., Mekalanos, J.~J., and
   system spike.}
 \newblock {\em Nature}, 500(7462):350--3.
 
+\bibitem[Shore, 2000]{Shore2000}
+Shore, D. (2000).
+\newblock {The Sir2 protein family: A novel deacetylase for gene silencing and
+  more}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  97(26):14030--14032.
+
 \bibitem[Siegele and Hu, 1997]{Siegele1997}
 Siegele, D.~A. and Hu, J.~C. (1997).
 \newblock {Gene expression from plasmids containing the araBAD promoter at
@@ -1989,8 +2007,13 @@ Sievers, F., Wilm, A., Dineen, D., Gibson, T.~J., Karplus, K., Li, W., Lopez,
   alignments using Clustal Omega}.
 \newblock {\em Molecular Systems Biology}, 7(539).
 
-\bibitem[Silverman et~al., 2012]{Silverman2012a}
-Silverman, J.~M., Brunet, Y.~R., Cascales, E., and Mougous, J.~D. (2012).
+\bibitem[Silverman et~al., 2012a]{Silverman2012a}
+Silverman, J.~M., Brunet, Y.~R., Cascales, E., and Mougous, J.~D. (2012a).
+\newblock {Structure and Regulation of the Type VI Secretion System}.
+\newblock {\em Annual Review of Microbiology}, 66(1):453--472.
+
+\bibitem[Silverman et~al., 2012b]{Silverman2012}
+Silverman, J.~M., Brunet, Y.~R., Cascales, E., and Mougous, J.~D. (2012b).
 \newblock {Structure and Regulation of the Type VI Secretion System}.
 \newblock {\em Annual Review of Microbiology}, 66(1):453--472.
 
@@ -2391,6 +2414,12 @@ Zhang, D., de~Souza, R.~F., Anantharaman, V., Iyer, L.~M., and Aravind, L.
 Zhang, Y. (2008).
 \newblock {I-TASSER server for protein 3D structure prediction}.
 \newblock {\em BMC Bioinformatics}, 9:1--8.
+
+\bibitem[Zhang and Skolnick, 2005]{Zhang2005}
+Zhang, Y. and Skolnick, J. (2005).
+\newblock {TM-align: A protein structure alignment algorithm based on the
+  TM-score}.
+\newblock {\em Nucleic Acids Research}, 33(7):2302--2309.
 
 \bibitem[Zheng and Leung, 2007]{Zheng2007}
 Zheng, J. and Leung, K.~Y. (2007).
