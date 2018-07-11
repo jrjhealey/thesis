@@ -109,6 +109,35 @@
     \tikz [x=0.25cm,y=0.60cm,line width=.2ex,-stealth,#1] \draw (0,0) arc (-150:150:1 and 1);%  drawing rotation symbols
 }
 
+%%%%%%%%%%%%%%%%%% Drawing a Tikz eye %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\pgfkeys{/eye/.cd,
+  x/.code           = {\def\eye@x{#1}},
+  y/.code           = {\def\eye@y{#1}},
+  rotation/.code    = {\def\eye@rot{#1}},
+  radius/.code      = {\def\eye@rad{#1}}
+  }
+\newcommand{\eye}[1][]{% size, x, y, rotation  
+\pgfkeys{/eye/.cd,
+  x         = 0,
+  y         = 0,
+  rotation  = 0,
+  radius    = 1
+  } 
+\pgfqkeys{/eye}{#1}   
+   \draw[rotate around={\eye@rot:(\eye@x,\eye@y)}] 
+         (\eye@x,\eye@y) -- ++(-.5*55:\eye@rad) 
+         (\eye@x,\eye@y) -- ++(.5*55:\eye@rad);
+   \draw (\eye@x,\eye@y) ++(\eye@rot+55:.75*\eye@rad) arc (\eye@rot+55:\eye@rot-55:.75*\eye@rad);
+  % IRIS
+   \draw[fill=gray] (\eye@x,\eye@y) ++(\eye@rot+55/3:.75*\eye@rad) arc (\eye@rot+180-55:\eye@rot+180+55:.28*\eye@rad);
+  %PUPIL, a filled arc 
+   \draw[fill=black] (\eye@x,\eye@y) ++(\eye@rot+55/3:.75*\eye@rad) arc (\eye@rot+55/3:\eye@rot-55/3:.75*\eye@rad);
+}
+\makeatother   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \graphicspath{{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/intro/img/}
               {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/methods/img/}
               {/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/}
@@ -449,7 +478,7 @@
 
 All work and data analysis was conducted by the author except in the cases outlined below.
 
-Assistance with protein purification (including running FPLC-IMAC and Gel Filtration processes) was Crystallography screening and diffraction testing was kindly performed with Dr. Avinash Punekar (University of Warwick). Thanks go to Dr. Alexia Hapeshi for all the NGS data generated in sequencing constructs and for new genomes. A Masters student, Katie Smart, created the promoter constructs utilised in \vref{regulation}.
+Assistance with protein purification (including running FPLC-IMAC and Gel Filtration processes), as well as Crystallography screening and diffraction testing, was kindly performed with Dr. Avinash Punekar and Chris Thoroughgood. Thanks go to Dr. Alexia Hapeshi for all the NGS data generated in sequencing constructs and for new genomes. A Masters student, Katie Smart, created the promoter constructs utilised in \vref{regulation}.
 
 Publications arising from this candidature (see \vref{publications}):
 
@@ -705,10 +734,6 @@ Any time you see the symbol below on a page (bottom left footer), you can scan t
 
 \chapter{Chapter 4 Appendices}\label{bioinformatics_appendix}
 %\input{../appendices/bioinformatics_appendix/bioinformatics_appendix.tex}
-%
-%\chapter{Chapter \ref{tailfibres} Appendices}
-%\input{../appendices/tailfibre_appendix/tailfibreappendix.tex}
-%
 
 \chapter{Publications arising from this candidature}\label{publications}
 The following is a paper published in Angewandte Chemie in 2017. The structural modelling within the paper was performed by me and is the basis of my inclusion as an author. This paper is included as an appendix as it was a publication arising from a side project during my PhD candidature, but is not relevant to my personal thesis research, though the same methods as described in Chapter \ref{structbioinfo} were used.
