@@ -10,10 +10,10 @@ Since there are numerous PVC operons that have been identified, and each one con
 
 As the databases for gene function and protein structure are continuously updated and improved, this chapter is also a `revisit' to the now outdated genome annotations that were first put together when the strains were sequenced. By re-running these analyses at various points, new putative functions and homologies may be discovered.
 
-Furthermore, this chapter is intended to `pull double duty' somewhat; to serve both as an exploration of new roles and information regarding PVC proteins, but also as a continued, extended, introduction or `guided tour', including what is known about each of the individual proteins within the PVCs, in a similar manner to the exploration of related structures in the Introduction. Hopefully, therefore, this chapter will provide the reader with a understanding of the PVCs with regard to what is already known and what has been discovered, on an almost gene-by-gene basis.
+Furthermore, this chapter is intended to `pull double duty' somewhat; to serve both as an exploration of new roles and information regarding PVC proteins, but also as a continued, extended, introduction or `guided tour', to orient the reader with respect to PVC operons, including what is known about each of the individual proteins within the PVCs, in a similar manner to the exploration of related structures in the Introduction. Hopefully, therefore, this chapter will provide the reader with a understanding of the PVCs with regard to what is already known and what has been discovered, on an almost gene-by-gene basis.
 
 \subsection{The sequence identity problem}
-Despite progress in the elucidation of many related structures, as shown in \vref{intro}, much is still unclear with regard to PVCs. Many PVC proteins in the existing \Pa{} annotations are listed as `hypothetical', and in the case of some older genome annotations for some of the more diverse PVC elements, this can be the entire operon \citep{Duchaud2003}. The frequent lack of known good homologues from studying the genes through BLAST for instance, and the degree of sequence diversity that can be seen in the PVCs (see \vref{bioinformatics} for a more in-depth discussion), despite producing the same structure, suggested that structural studies might offer additional/better information.
+Despite progress in the elucidation of many related structures, as shown in \vref{intro}, much is still unclear with regard to PVCs. Many PVC proteins in the existing \Pa{} annotations are listed as `hypothetical proteins' with no useful information - in some cases, this can be the entire operon \citep{Duchaud2003}. The frequent lack of known good homologues from studying the genes through BLAST for instance, and the degree of sequence diversity that can be seen in the PVCs (see \vref{bioinformatics} for a more in-depth discussion), despite producing the same structure, suggested that structural studies might offer additional/better information.
 
 It is now a widely accepted phenomenon that sequence identity cannot always provide sufficient structural understanding on its own, as the evolutionary rules that constrain structures are not exactly the same as those that constrain sequences. Consequently, protein structures are known to evolve slower than the amino acid sequence, and slower still than the nucleotide sequence. In fact, this rate of change has even been quantified, and is estimated to be between three and ten times as slow \citep{Illergard2009}. Moreover, proteins with entirely unrelated sequences can give rise to functionally equivalent proteins, meaning this analogy between proteins would be completely missed through sequence studies alone. Now, of course this does not completely devalue the position of the sequence in determining protein structure and function, however, as \cite{Illergard2009} and \cite{Chothia1986} explain, the relationship between structural similarity (as quantified by Root Mean Square Deviation (RMSD)), and sequence identity is not linear. One of the earliest papers to explore this disconnect defined a so-called `twilight zone' of structural similarity, observing that once sequence identity dropped to around 25\% and below, false positive hits begin to predominate \citep{rost1999twilight}. Just to labor the point a little further, \cite{Holm1996} explain how structures are able to remain much the same, ``even when all sequence memory appears
 to have been lost". This means that for proteins whose common ancestors are extremely far back in time, it effectively becomes meaningless to compare the DNA or amino acid sequences, and only the 3D structure matters. The authors summarise this quite nicely with the analogy, 
@@ -22,7 +22,7 @@ to have been lost". This means that for proteins whose common ancestors are extr
 ``Comparing protein shapes rather than protein sequences is like using a bigger telescope that looks farther into the universe, and thus farther back in time, opening the door to detecting the most remote and most fascinating evolutionary relations."
 \end{displayquote}
 
-To make matters worse, even proteins which \emph{do} share significant sequence identity, do not necessarily have the same structure, and therefore may differ in function. A really good example of this is epitomised by the ``Paracelsus challenge". Posed by \cite{Rose1994}, the challenge was to convert one protein's conformation to that of another protein by altering less than 50\% of the sequence. This was achieved first by \cite{Dalal1997} (winning them a \$1,000 wager in the process), and though they did have to change roughly 44\% of the protein and include an additional 7 amino acids for solubility (bringing to mind a somewhat Ship-of-Theseus argument), they were able to convert an almost entirely $\beta$-sheet protein in to an entirely $\alpha$-helical one. Subsequently, their effort has been bested by the work of \cite{Alexander2007}, and thoroughly hammers home the message of ``sequence $\neq$ structure". They were able to convert domains from \emph{Streptococcus} G proteins to retain 88\% sequence identity, yet to change their fold structures, all the while keeping their ligand binding activities.
+To make matters worse, even proteins which \emph{do} share significant sequence identity, do not necessarily have the same structure, and therefore may differ in function. A really good example of this is epitomised by the ``Paracelsus challenge". Posed by \cite{Rose1994}, the challenge was to convert one protein's conformation to that of another protein by altering less than 50\% of the sequence. This was achieved first by \cite{Dalal1997} (winning them a \$1,000 wager in the process), and though they did have to change roughly 44\% of the protein and include an additional 7 amino acids for solubility (bringing to mind a somewhat `Ship-of-Theseus' argument), they were able to convert an almost entirely $\beta$-sheet protein in to an entirely $\alpha$-helical one. Subsequently, their effort has been bested by the work of \cite{Alexander2007}, and thoroughly hammers home the message of ``sequence $\neq$ structure". They were able to convert domains from \emph{Streptococcus} G proteins to retain 88\% sequence identity, yet to change their fold structures, all the while keeping their ligand binding activities.
 
 In short, there is no substitute for being able to \emph{see} the tertiary structure and individual folds for each and every protein. This is far from a solved problem however, as it currently requires exhaustive computation and experimental efforts to generate this kind of data. Protein structure simulation has advanced significantly, but is not without its flaws, and of course, the lottery that is protein structure determination via crystallography for example is an incredibly intensive process with a high failure rate. 
 
@@ -32,7 +32,7 @@ Finally, to underscore this idea with some relevant examples, \cite{Leiman2010} 
 A further complication with purely sequence based studies, for long, multicomponent operons such as the PVCs and other caudate structures, is that it seems synteny and gene copy may also be significant, potentially playing a role in how the assembly is choreographed (phage early versus late proteins for instance). Papers like that of \cite{Sarris2014}, note that while many of the gene products are identifiable between orthologous operons, the gene copy number varies, as does the syntenic arrangement. In the case of the MAC complex discussed in the first chapter, the whole complex isn't even encoded in one location in the genome \citep{Shikuma2014}. 
 
 
-To summarise, this chapter looks to address this `conservation of structure not sequence' question with regard to the PVCs, and to infer from these structures in such a way as to provide lab-testable hypotheses.
+To summarise, this chapter looks to address this `conservation of structure not sequence' question with regard to the PVCs, with the aim of identifying new roles for proteins for which sequence identity-based studies have failed to produce useful information; and to infer from these structures in such a way as to provide lab-testable hypotheses.
 
 \subsection*{Chapter Aims}
 
@@ -59,7 +59,7 @@ Hidden Markov Models (``HMMs") are a sensitive way of searching for sequence sim
 
 Individual homologies for different sections of the PVC operons will be discussed in the coming sections. In overall terms, there are 2 loose distributions to the hits. As the histogram in \vref{probhist} shows, of the roughly 350 sequences that were profiled, about half are extremely well matched, with probability scores of approximately 85\% or higher. The probability score from HHSuite is essentially a measure of how good a match is to a query in terms of their likelihoods of being orthologues. It functions similarly to the more common E-Value, but also takes in to consideration the secondary structures of the proteins matched, which is partly why it is able to reliably identify more distant matches than sequence identity alone.
 
-At the outset of this work, in the $\approx$ 350 studied PVC CDSs, 249 of them were annotated as hypothetical proteins. As a result of further probing through HMMs, all loci have garnered a hit/annotation of some sort, though there are still some unreliable hits. The least well profiled genes primarily consist of PVC14 - a putative tube tape measure protein, PVC7 an unknown protein which does however attract consistent annotation in almost all operons to a SIR2 metalloprotein deacetylase \citep{Shore2000}, and to assorted unique genes which do not mesh with the consistent nomenclature. These include several from the PVClumt operon, which in many ways appears to be a particularly unusual operon, and other unusual genes such as an additional locus in the PVCUnit2 locus of \Plum{} TT01, between the canonical PVC13 and 14. Unsurprisingly, the proteins with the highest confidence hits matched those with the best annotations before the project began, namely the sheath proteins and toxin enzymes. That said, many of the initial annotations for the tube proteins provided little more information than that they shared similarity with phage tail ``major" and ``minor" proteins. Through HMM searching, these annotations have begun to point to more specific matches such as gp19 orthologues and the sheaths of R-type pyocins. Moreover, subtle differences in the `conserved' sheath proteins reveal that not all operon's sheath proteins match the same orthologues.
+At the outset of this work, in the $\approx$ 350 studied PVC CDSs, 249 of them were annotated as hypothetical proteins. As a result of further probing through HMMs, all loci have garnered a hit/annotation of some sort, though there are still some unreliable hits. The least well profiled genes primarily consist of: PVC14 - a protein inferred to be a tube tape measure protein from the studies of \cite{Rybakova2013}; PVC7 - an unknown protein which does, however, attract consistent annotation in almost all operons to a SIR2 metalloprotein deacetylase \citep{Shore2000}, but with a huge range of hit scores (E-values ranging from +0.00024 to \sn{4.7}{-5}); and to other assorted unique genes which do not mesh with the consistent nomenclature. These include several from the PVClumt operon, which in many ways appears to be a particularly unusual operon, and other unusual genes such as an additional locus in the PVCUnit2 locus of \Plum{} TT01, between the canonical PVC13 and 14. Unsurprisingly, the proteins with the highest confidence hits matched those with the best annotations before the project began, namely the sheath proteins and toxin enzymes. That said, many of the initial annotations for the tube proteins provided little more information than that they shared similarity with phage tail ``major" and ``minor" proteins. Through HMM searching, these annotations have begun to point to more specific matches such as gp19 orthologues and the sheaths of R-type pyocins. Moreover, subtle differences in the `conserved' sheath proteins reveal that not all operon's sheath proteins match the same orthologues.
 
 
 \begin{figure}[h]
@@ -164,48 +164,17 @@ Locus & PDB ID Hit & Structure & Component \\
 {\tiny \noindent * PVC5 attracts the same 3 homology matches as PVC1, plus 4TV4.}
 \normalsize
 
-Figures \vrefrange{PVC1comparisons}{PVC5comparisons} showcase the similarities and differences in structure between the first 5 PVC loci and their nearest structural homologs. In addition, \vref{PVC1comparisons} also shows the structure of the R-type pyocin, which the outer sheath proteins match against so conclusively, to try to understand why the inner sheath proteins do not reflect this same orthology; as well as a simulated structure for the Antifeeding Prophage equivalent locus. The Afp is the closest orthologue when only DNA or amino acid sequence is considered, but no resolved structure exists. \vref{PVC2comparisons} replicates this for an example of the outer sheath proteins.
+Figures \vref{PVC1comparisons} and \vref{PVC2comparisons} showcase the similarities and differences in structure between the first 5 PVC loci and their nearest structural homologs either as determined via HHPred or previously shown in the literature. In addition, they also show a simulated structure for the Antifeeding Prophage equivalent locus. The Afp is the closest orthologue when only DNA or amino acid sequence is considered, but no resolved structure exists (and therefore cannot be picked up by HHPred when using HMMs of the PDB database). \vref{PVC2comparisons} replicates this for an example of the outer sheath proteins.
 
-Rather than show all the PVC loci compared to their homologs, where the PVC loci are similar, one example is shown (as in \vref{PVC1comparisons}) and then all the PVC variants are compared with one another in the subsequent figures.
+Rather than show all the PVC loci compared to their homologs, where the PVC loci are similar, one example is shown (as in \vref{PVC1comparisons}) and then all the PVC variants are compared with one another in the subsequent \vref{PVC1-5_conservation}.
 
-\begin{figure}[h]
- \thispagestyle{augment}
- \includegraphics[width=\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1_homolog_comparison.png}
- \put(-380,108){\small PVC Simulation}
- \put(-227,106){\small T6SS}
- \put(-105,108){\small T4 Tube}
- \put(-374,-10){\small T4 Baseplate}
- \put(-241,-10){\small Afp Simulation}
- \put(-100,-10){\small Pyocin} 
- \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=20pt}
- \caption[PVC1 homolog comparisons]{\textsc{\normalsize Comparisons of the structure of PVC locus 1 to orthologous proteins.}\vspace{0.1cm} \newline An example model of PVC locus 1 from the PVCPnf operon of \Pasy{} ATCC43949. Here the structure is compared to (from top left to bottom right) the Hcp protein (3EAA) of the \emph{E. tarda} T6SS, gp19 (5W5F chain V) from the T4 bacteriophage, gp6 also from T4 (5IV5 chain F), a simulated Afp1 structure from \emph{S. entomophila}, and an interior sheath monomer from the R-type pyocin (3J9Q chain V) from \emph{P. aeruginosa}. Models are shown `rainbow' coloured, from one terminus to the other, with a molecular surface `ghost'. It is evident that the 2 T4 proteins, despite being frequent sequence based matches to PVC1 (and 5), are not the closest matches in terms of structural conformation. The 3D model to accompany this page shows superimposed $\alpha$-carbon chain traces for all the structures (though without the T4 baseplate as its superposition is poor) - the PVC protein is rendered in thicker red wires/pipes, and the homologs in various monochrome shades. }
-	\label{PVC1comparisons}
-\end{figure}
+The inner sheath proteins from all these structures form a conserved pair of anti-parallel $\beta$-sheets which are sandwiched together approximately perpendicular to one another (with the exception of the T4 baseplate protein which appears to be an erroneous homology). They all exhibit a lower right hand extension positioned almost exactly in the centre of the amino acid chain (cyan/aquamarine) which would overlap the monomer adjacent to it within the tube hexamer. In the case of the T4 gp19 tube protein (chain F from PDB ID 5IV5), this is quite extended, along with a much longer protruding C-terminus (dark blue).
 
-The inner sheath proteins from all these structures form a conserved pair of anti-parallel $\beta$-sheets which are sandwiched together approximately perpendicular to one another (with the exception of the T4 baseplate protein which is clearly an erroneous homology). They all exhibit a lower right hand extension positioned almost exactly in the centre of the amino acid chain (cyan/aquamarine). In the case of the T4 gp19 tube protein (chain F from PDB ID 5IV5), this is quite extended, along with a much longer protruding C-terminus (dark blue).
+The matched PDB ID 5IV5 is the entire baseplate complex of T4, including part of the tube (and encapsulates PDB ID 5W5F, so there is a slightly redundant match), from the T4 phage. It seems unusual that many of the proteins match (at the sequence and secondary structure level) to chains within the model which are \emph{not} the tube, instead forming part of the baseplate complex, primarily gp6. It is clear from looking at the structures visually that these proteins are definitively homologues of the inner sheath proteins. On further inspection of the specific sequence matches detected by HHPred, it appears that what may have transpired is an error in the annotation of gp6 being attributed to some of the gp19 chains within the enormous 5IV5 PDB complex.
 
-The PDB ID 5IV5 is the entire baseplate complex of T4, including part of the tube (and encapsulates PDB ID 5W5F, so there is a slightly redudant match), from the T4 phage. It seems unusual that many of the proteins match (at the sequence and secondary structure level) so well to chains within the model which are \emph{not} the tube, instead forming part of the baseplate complex, primarily gp6. It is clear from looking at the structures visually that these proteins are homologues of the inner sheath proteins (which are matched by HHPred for some of the PVC1 proteins, but the minority in actual fact - see \vref{HHpredPVC1}). The basis for matching the gp6 monomer, therefore, is likely because they share similar predominantly $\beta$-sheet secondary structures (ADD SOMETHING ABOUT THEIR SEQUENCE IDENTITY - CAN'T BE THE EXPLANATION?).
+Inset in each figure is a pairwise distance matrix for alignments of the tube orthologues. Interestingly, though perhaps unsurprisingly, the sequence identity between the PVC and Afp is significantly better (a lower distance) than it is between either of them and the T6SS, T4 or Pyocin, despite the structures being extremely good matches, further reinforcing the message of this chapter that the sequence alone is insufficient to fully capture the subtleties of the evolution of these structures. Excluding the erroneous gp6 orthology, the remaining structures can be superimposed to an accuracy of 1.2 \AA{} or less.
 
-Strangely, it wasn't easy to obtain good quality overlays when matching chains between the PVC models and those of the R-type pyocin, even though they visible resemble one another reasonably well, and could be imposed within each other's simulated density maps well (not shown). To this end, some manual rotation/translation of the model has been performed to have a consistent orientation with the other models.
-
-For the outer sheath proteins, of which there are curiously 3 in most operons, there is no ambiguity in their sequence matches having homology to the R-type pyocin outer sheath under the PDB ID 3J9Q. \vref{PVC2comparisons} shows the structural similarity for this locus. The structures of the PVC1 locus from the ``Pnf" operon, and equivalent outer sheath proteins from other structures are also shown as in \vref{PVC1comparisons}, though they are less compelling matches than the pyocin at the sequence level (with the exception of the Afp, which is not detected by HHPred as the structures are unresolved).
-
-
-
-\begin{figure}[h]
- \thispagestyle{augment}
- \includegraphics[width=\textwidth, trim={150 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC2_homolog_comparison.png}
- \put(-400,125){\small PVC Simulation}
- \put(-295,145){\small T6SS (A) \customarrow{1pt}{200}}
- \put(-250,125){\small T6SS (B) \customarrow{1pt}{200}}
- \put(-105,125){\small T4 Tube}
- \put(-400,-10){\small Afp Simulation}
- \put(-230,-10){\small Pyocin} 
- \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=20pt}
- \caption[PVC2 homolog comparisons]{\textsc{\normalsize Comparisons of the structure of PVC locus 2 to orthologous proteins.}\vspace{0.1cm} \newline An example model of PVC locus 2 from the PVCPnf operon of \Pasy{} ATCC43949. Here the structure is compared to (from top left to bottom right) the VipA/VipB proteins (5OJQ chains c and m) of the \emph{V. cholerae} T6SS, gp18 (3J2N chain U) from the T4 bacteriophage, a simulated Afp2 structure from \emph{S. entomophila}, and an interior sheath monomer from the R-type pyocin (3J9Q chain A) from \emph{P. aeruginosa}. The T6SS structure uniquely comprises 2 distinct chains, along with some sequence extensions to the main chain. The T4 gp18 contains a considerable augmentation to its C-terminus consistent with protrusions that can be seen in \vref{t4structure}. Models are shown `rainbow' coloured, from one terminus to the other, with a molecular surface `ghost'. It is evident that the 2. The 3D model to accompany this page shows superimposed $\alpha$-carbon chain traces for all the structures - the PVC protein is rendered in thicker red wires/pipes, and the homologs in various monochrome shades. }
-	\label{PVC2comparisons}
-\end{figure}
-
+For the outer sheath proteins, of which there are curiously 3 in most operons, but PVC3 can be deleted, there is no ambiguity in their sequence matches, all having orthology to the R-type pyocin outer sheath under the PDB ID 3J9Q. The structures of the PVC2 locus from the ``Pnf" operon, and equivalent outer sheath proteins from other structures are also shown as in \vref{PVC1comparisons}, though they are less compelling matches than the pyocin at the sequence/HMM level (with the exception of the Afp, which is not detected by HHPred as the structures are unresolved).
 
 The outer sheath proteins are characterised by 2 outstretched termini which interlace with the adjacent monomers to form the contractile mesh over the rigid inner tube. In the case of the T4 tube, it's C-terminus actually forms an additional domain known as the ``protease resistant fragment", which the other structures lack \citep{Aksyuk2009}. The Type 6 Secretion System is unique amongst T4-like caudate structures, having a second outer sheath protein (TssB and TssC - known as VipA and VipB in the case of \emph{V. cholerae}), making the equivalent outer tube a heterododecamer. All the structures contain a pair of helices extending vertically which neighbour a pair of anti-parallel strands/sheets, that form the attachment interface to the inner tube electrostatically \cite{Ge2015a}.
 
@@ -213,47 +182,105 @@ Curiously, the 20 \AA{} Afp EM map depicted in \vref{afpstructure} seems to show
 
 The outer sheaths of all the non-T4, released/secreted, caudate structures are therefore much simpler proteins, representing perhaps a minimal functional unit capable of exerting the contraction, which is then decorated with domains such as the protease resistant fragment of T4 to confer further features to the sheath.
 
+The pairwise sequence distances between the outer sheaths tell a similar story to the inner sheaths, with the PVC and Afp being the closest by some margin, compared to the remaining structures. However, the sequence distance is greater between the PVCs/Afps outer sheaths than it was for the inner sheaths. This will be due in part to the fact that the proteins are longer, but it seems that the surfaces of caudate apparatuses are open to modification, possibly to cope with different environmental stresses, or at the very least have some sequence redundancy. All proteins can be superimposed to an accuracy of less than 1.2 \AA, despite significant sequence differences.
+
+\begin{figure}[p]
+ \thisfloatpagestyle{augment}
+\begin{subfigure}[H]{\textwidth}
+  \includegraphics[width=\textwidth, trim={30 0 30 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1_homolog_comparison.png}
+ \put(-370,115){\small \centering PVC Simulation}
+ \put(-227,115){\small \centering T6SS}
+ \put(-105,115){\small \centering T4 Tube}
+ \put(-370,-5){\small \centering T4 Baseplate}
+ \put(-241,-5){\small \centering Afp Simulation}
+ \put(-100,-5){\small \centering Pyocin}
+\end{subfigure}
+\begin{subfigure}[H]{\textwidth}
+\tiny
+\rowcolors{2}{gray!10}{white}
+\begin{tabularx}{1.01\textwidth}{CCCCCCC}
+\rowcolor{white!10}\multicolumn{7}{c}{Distance Matrix} \\
+\hline
+Model  & \multicolumn{6}{c}{Pairwise Distances}\\
+\hline\hline
+PVC                   & 0.000000 & 0.872483 & 0.885906 & 0.865772 & 0.255034 & 0.892617 \\
+T6SS                  & 0.872483 & 0.000000 & 0.895706 & 0.876471 & 0.865772 & 0.892857 \\
+T4 Tube               & 0.885906 & 0.895706 & 0.000000 & 0.846626 & 0.879195 & 0.877301 \\
+T4 Baseplate          & 0.865772 & 0.876471 & 0.846626 & 0.000000 & 0.852349 & 0.880952 \\
+Afp                   & 0.255034 & 0.865772 & 0.879195 & 0.852349 & 0.000000 & 0.899329 \\
+Pyocin                & 0.892617 & 0.892857 & 0.877301 & 0.880952 & 0.899329 & 0.000000 \\
+\end{tabularx}
+\end{subfigure}  
+ \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=20pt}
+ \caption[PVC1 homolog comparisons]{\textsc{\normalsize Comparisons of the structure of PVC locus 1 to orthologous proteins.}\vspace{0.1cm} \newline An example model of PVC locus 1 from the PVCPnf operon of \Pasy{} ATCC43949. Here the structure is compared to (from top left to bottom right) the Hcp protein (5OJQ chain W) of the \emph{V. cholerae} T6SS, gp19 (5W5F chain V) from the T4 bacteriophage, gp6 also from T4 (5IV5 chain F), a simulated Afp1 structure from \emph{S. entomophila}, and an interior sheath monomer from the R-type pyocin (3J9Q chain V) from \emph{P. aeruginosa}. Models are shown `rainbow' coloured, from one terminus to the other, with a molecular surface `ghost'. It is evident that the 2 T4 proteins, despite being frequent sequence based matches to PVC1 (and 5), are not the closest matches in terms of structural conformation. The 3D model to accompany this page shows superimposed $\alpha$-carbon chain traces for all the structures (though without the T4 baseplate as its superposition is poor) - the PVC protein is rendered in thicker red wires/pipes, and the homologs in various monochrome shades. The inset table shows the all-vs-all pairwise alignment distances for the amino acid chains depicted }
+	\label{PVC1comparisons}
+\end{figure}
+
+\begin{figure}[p]
+ \thisfloatpagestyle{augment}
+ \begin{subfigure}[H]{\textwidth}
+ \includegraphics[width=\textwidth, trim={150 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC2_homolog_comparison.png}
+ \put(-400,125){\small PVC Simulation}
+ \put(-295,145){\small T6SS (A) \customarrow{2pt}{200}}
+ \put(-250,125){\small T6SS (B) \customarrow{2pt}{200}}
+ \put(-105,125){\small T4 Tube}
+ \put(-400,-10){\small Afp Simulation}
+ \put(-230,-10){\small Pyocin}
+ \end{subfigure}
+\begin{subfigure}[H]{\textwidth}
+\tiny
+\rowcolors{2}{gray!10}{white}
+\begin{tabularx}{1.01\textwidth}{CCCCCCC}
+\rowcolor{white!10}\multicolumn{7}{c}{Distance Matrix} \\
+\hline
+Model  & \multicolumn{6}{c}{Pairwise Distances}\\
+\hline\hline
+PVC       & 0.000000 & 0.890141 & 0.851613 & 0.856338 & 0.539548 & 0.845070 \\
+T6SS VipA & 0.890141 & 0.000000 & 0.864516 & 0.883721 & 0.892655 & 0.898701 \\
+T6SS VipB & 0.851613 & 0.864516 & 0.000000 & 0.845161 & 0.851613 & 0.864516 \\
+T4        & 0.856338 & 0.883721 & 0.845161 & 0.000000 & 0.870056 & 0.875325 \\
+Afp       & 0.539548 & 0.892655 & 0.851613 & 0.870056 & 0.000000 & 0.838983 \\
+Pyocin    & 0.845070 & 0.898701 & 0.864516 & 0.875325 & 0.838983 & 0.000000 \\
+
+
+\end{tabularx}
+\end{subfigure}  
+ \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=20pt}
+ \caption[PVC2 homolog comparisons]{\textsc{\normalsize Comparisons of the structure of PVC locus 2 to orthologous proteins.}\vspace{0.1cm} \newline An example model of PVC locus 2 from the PVCPnf operon of \Pasy{} ATCC43949. Here the structure is compared to (from top left to bottom right) the VipA/VipB proteins (5OJQ chains c and m) of the \emph{V. cholerae} T6SS, gp18 (3J2N chain U) from the T4 bacteriophage, a simulated Afp2 structure from \emph{S. entomophila}, and an outer sheath monomer from the R-type pyocin (3J9Q chain A) from \emph{P. aeruginosa}. The T6SS structure uniquely comprises 2 distinct chains, along with some sequence extensions to the main chain. The T4 gp18 contains a considerable augmentation to its C-terminus consistent with protrusions that can be seen in \vref{t4structure}. Models are shown `rainbow' coloured, from one terminus to the other, with a molecular surface `ghost'. The 3D model to accompany this page shows superimposed $\alpha$-carbon chain traces for all the structures - the PVC protein is rendered in thicker red wires/pipes, and the homologues in various monochrome shades. The inset table shows the all-vs-all pairwise alignment distances for the amino acid chains depicted.}
+	\label{PVC2comparisons}
+\end{figure}
+
 
 \myparagraph{Structural comparisons of duplicated and triplicated tube proteins}\label{duptrip}
 An unanswered question is why \emph{Photorhabdus} has managed to maintain so many copies of what appear to be highly paralogous proteins in the tube region. Not only are the proteins paralogous within a single operon, but multiplied up by 5 or 6 times to account for the other operons, and somehow proteins with as many as 10 or more copies are somehow well preserved, when it might be expected that they would be open to drift.
 
-\vref{PVC1vsPVC5} demonstrates the structural and sequence similarities between 2 inner sheath proteins from the Pnf operon in \Pasy{} ATCC43949. The Pnf operon is good example of a case where its 2 inner sheath proteins match to different best hits with HHPred (for PVC1, it is gp19, but for PVC5 it is gp6), and it is unclear why this might be, when based on the results in \vref{PVC1comparisons}, it is obvious that both should be better matches to gp19 structurally.
+\vref{PVC1-5_conservation} demonstrates the structural and sequence similarities between all 5 inner and outer sheath loci from the Pnf operon in \Pasy{} ATCC43949. There are some subtle structural differences (spans of loop structure etc.) between the loci, though they generally agree very well and this may be a result of the stochasticity in the molecular dynamics trajectories calculated by I-Tasser. PVC locus 1 does exhibit greater sequence variability compared to its `compatriot' PVC locus 5, though its overall fold is the same.
 
-\begin{figure}[h]
- \thispagestyle{augment}
+To explore this further, a comparison is made in \vref{PVC1-5_leastsimilar} between the least similar paralogues, as determined by their distances in the guide tree that accompanies the alignments used to render the structures (the `furthest apart' branches of the tree), to exaggerate the differences (alignments can be found in Chapter \vref{bioinformatics_appendix}). In both cases (PVC1 and PVC5) the ``Lumt" operon from \Pasy{} Kingscliff and ATCC43949 respectively, present one of the pair of least similar sheath proteins. For the counterpart PVC1, the least similar paralogue is the inner sheath from the ``Cif" operon of \Pasy{} ATCC43949, and for PVC5 it is the tube protein of the ``Pnf" operon from the same genome.
+
+\begin{landscape}
+\begin{figure}[p]
+ \thisfloatpagestyle{IHA-fancy-style}
  \centering
- \includegraphics[width=\textwidth, trim={30 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1vsPVC5.png}
+ \includegraphics[width=\linewidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1-5_composite.png}
  \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
- \caption[PVC1 and PVC5 paralogue conservation comparison]{\textsc{\normalsize Comparisons of sequence conservation between inner sheath paralogues.}\vspace{0.1cm} \newline Models of PVC1 and PVC5 are shown, coloured according to their per-column sequence conservation (as per the sequence alignments in Appendix \ref{bioinformatics_appendix}). Front and rear rotations of the models are shown. Structural differences are minimal, and sequence conservation is generally high, though PVC1 is slightly more variable. Conservation is rendered from high (green), to low (red), as per the inset scalebar. A key for the orientation of the monomers relative to the gross tube architecture is provided using 3J9Q as an example, with the inner and outer sheaths coloured as per \vref{PVC1-5map}.}
-	\label{PVC1vsPVC5}
+ \caption[PVC1 to PVC5 paralogue conservation comparison]{\textsc{\normalsize Comparisons of sequence conservation in inner and outer sheath paralogues.}\vspace{0.1cm} \newline Models of PVC1 to PVC5 for the Pnf operon are shown as front and rear rotations, coloured according to their per-column sequence conservation (as per the sequence alignments in Appendix \ref{bioinformatics_appendix}); rendered from high (green), to low (red), as per the inset scalebar. Structural differences are minimal, and sequence conservation is generally high, though PVC1 is slightly more variable (more blue sites) than its paralogue PVC5. Of the outer sheath proteins, the interior aspect is better conserved than the exterior, and all 3 loci exhibit increased sequence diversity.}
+	\label{PVC1-5_conservation}
 \end{figure}
 
-\todo[inline]{add an augment model? (or alter page style if not)}
-
-There are some subtle structural differences (spans of loop structure etc.)  between the loci, though they generally agree very well and this may be a result of the stochasticity in the molecular dynamics trajectories calculated by I-Tasser. PVC locus 1 does exhibit greater sequence variability compared to its `compatriot' PVC locus 5, though its overall fold is the same.
-
-To explore this further, a comparison is made in \vref{PVC1and5_trans} between the least similar paralogues, as determined by their distances in the guide tree that accompanies the alignments used to render the structures (the `furthest apart' branches of the tree), to exaggerate the differences. In both cases (PVC1 and PVC5) the ``Lumt" operon from \Pasy{} Kingscliff and ATCC43949 respectively, present one of the pair of least similar sheath proteins. For the counterpart PVC1, the least similar paralogue is the inner sheath from the ``Cif" operon of \Pasy{} ATCC43949, and for PVC5 it is the tube protein of the ``Pnf" operon from the same genome.
-
-\begin{figure}[h]
- \thispagestyle{augment}
+\begin{figure}[p]
+ \thisfloatpagestyle{IHA-fancy-style}
  \centering
- \includegraphics[width=\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1sand5s.png}
+  \includegraphics[width=\linewidth, trim={10 10 20 30}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC1-5_leastsimilar_composite.png}
  \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
- \caption[Comparisons of the most dissimilar inner sheath proteins]{\textsc{\normalsize Comparisons of the most dissimilar inner sheath orthologues.}\vspace{0.1cm} \newline The most dissimilar homologues of both variants of inner tube proteins - PVC1 and PVC5. This panel highlights that, despite these being the least similar variants of the same locus, the structure is still very well conserved, and thus the sequences are evidently at liberty to drift without compromising the PVC structure. Again, the PVC1 locus stands out as more variable than PVC5. }
- \label{PVC1and5_trans}
+ \caption[Comparisons of the most dissimilar tube proteins]{\textsc{\normalsize Comparisons of the most dissimilar inner and outer sheath paralogues.}\vspace{0.1cm} \newline The most dissimilar homologues of the tube proteins (PVC1 to PVC5) and their structural/sequence differences. This panel highlights that, despite these being the least similar variants of the same locus, the structure is still well conserved, and thus the sequences are evidently at liberty to drift without compromising the PVC structure significantly. The variability in exterior sheath proteins, particularly PVC2 is highlighted.}
+ \label{PVC1-5_trans}
 \end{figure}
+\end{landscape}
 
 
-\begin{figure}[h]
- \thispagestyle{augment}
- \centering
- \includegraphics[width=\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC2vsPVC3vsPVC4.png}
- \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
- \caption[PVC2, PVC3 and PVC4 paralogue conservation comparison]{\textsc{\normalsize Comparisons of sequence conservation between outer sheath paralogues.}\vspace{0.1cm} \newline Models of PVC2, PVC3 and PVC4 are shown, coloured according to their per-column sequence conservation (as per the sequence alignments in Appendix \ref{bioinformatics_appendix}). Front and rear rotations of the models are shown. Structural differences are minimal, and sequence conservation is generally high, however the exterior of the sheath is considerably more variable than the interior. A key for the orientation of the monomers relative to the gross tube architecture is provided using 3J9Q as an example, with the inner and outer sheaths coloured as per \vref{PVC1-5map}.}
-	\label{PVC2vsPVC4vsPVC5}
-\end{figure}
 
-The interior facing side of the outer sheath is generally well conserved, as might be expected since it will need to interface with the generally well conserved inner tube proteins. The outer side of the sheath however, which represents the bulk of the structure which would be `exposed to the elements', shows a great deal of diversity in all 3 loci. Whether this is due to the even greater paralogy, and therefore increased possibility of drift, or to adaptation and `deliberate' diversification of the outer sheaths is not possible to say at this stage - though both present interesting hypotheses.
+The interior facing side of the outer sheath is generally well conserved, as might be expected since it will need to interface with the generally well conserved inner tube proteins. The outer side of the sheath however, which represents the bulk of the structure which would be `exposed to the elements', shows a great deal of diversity in all 3 loci. Whether this is due to the even greater paralogy, and therefore increased possibility of drift, or to adaptation and `deliberate' diversification of the outer sheaths is not possible to say at this stage - though both present interesting hypotheses.\footnote{In \vref{PVC1-5_trans} The most distant PVC2 locus according to the guide tree is from the PVCPnf operon of \Pasy{} Kingscliff, but it failed to simulate due to ambiguous amino acids, so the next most dissimilar locus has been used instead - PVCUnit2 from \Plum{} TT01.}
 
 
 \myparagraph{Electrostatic comparisons amongst tube proteins}
