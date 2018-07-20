@@ -1,0 +1,10 @@
+./chapters/methods/methods.tex
+./chapters/intro/intro.tex
+./chapters/chapter6/regulation.tex
+./chapters/chapter6/reporter_microscopy.tex
+./chapters/acknowledgements/acknowledgements.tex
+./chapters/chapter5/tailfibres.tex
+./chapters/chapter3/structuralbioinfo.tex
+./chapters/discussion/discussion.tex
+./chapters/chapter4/bioinformatics.tex
+./Thesis_Scaffold/Thesis_Base.tex
