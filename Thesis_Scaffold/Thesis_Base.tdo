@@ -1,18 +1,18 @@
 \contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add a table of nomenclature}{13}{section*.11}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Summary table of PVC1-16 and their roles}{128}{section*.56}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ move to discussion?}{129}{section*.57}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Change this to a non-tikz figure for consistency?}{134}{section*.59}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace intro augment models with lower tri counts (100k rather than 150k - smartphone struggles with 150)}{324}{section*.123}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{324}{section*.124}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with citep}{324}{section*.125}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{324}{section*.126}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{324}{section*.127}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count (and include in the preamble somwhere?}{324}{section*.128}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{324}{section*.129}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{324}{section*.130}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{324}{section*.131}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{324}{section*.132}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Modify bibtex to italicise et al - without breaking everything?}{324}{section*.133}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make headers in the methods consistent with rest of doc if space allows}{324}{section*.134}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Remake operon figures in the tail fibre chapter with larger font}{324}{section*.135}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Re-render the sequence maps like the gibson constructs on a higher res monitor??}{324}{section*.136}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Summary table of PVC1-16 and their roles}{131}{section*.57}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ move to discussion?}{132}{section*.58}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Change this to a non-tikz figure for consistency?}{137}{section*.60}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace intro augment models with lower tri counts (100k rather than 150k - smartphone struggles with 150)}{327}{section*.124}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{327}{section*.125}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with citep}{327}{section*.126}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{327}{section*.127}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{327}{section*.128}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count (and include in the preamble somwhere?}{327}{section*.129}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{327}{section*.130}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{327}{section*.131}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{327}{section*.132}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{327}{section*.133}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Modify bibtex to italicise et al - without breaking everything?}{327}{section*.134}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make headers in the methods consistent with rest of doc if space allows}{327}{section*.135}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Remake operon figures in the tail fibre chapter with larger font}{327}{section*.136}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Re-render the sequence maps like the gibson constructs on a higher res monitor??}{327}{section*.137}

@@ -341,7 +341,7 @@ Amongst all PVC1s there does not appear to be a great discrepancy in the surface
 
 
 
-There seems to be further subtlety to the structural assembly of the PVCs incorporating these proteins, as the other predominant electrostatic pattern shows that PVC1 has predominantly negative charges at its `top' and `bottom', whilst PVC5 has predominantly neutral/positive charges, as demonstrated in \vref{PVC1-5_charges}. Therefore, the hypothesis is proposed that the PVC is actually built from alternating stacks of PVC1-PVC5-PVC1-PVC5 with the negative and positive faces interacting. This is in contrast to, for example, the Pyocin tube, which has a negative face, and a positive face within the same hexameric disk (visible in the bottom right of \vref{inner_sheath_electrostatics}, akin to bar magnets placed end-to-end, thus forms directionally controlled spontaneously self-assembling tube. As per the rest of the chapter so far \vref{PVC1-5_charges} shows the case for just one of the inner sheath pairs (PVC1 and 5 from PVC ``Pnf" again), but this largely holds for all 32 proteins. The side aspects of the proteins (not shown) demonstrate predominantly neutral charges, suggesting there is little significant within-disk ordering.
+There seems to be further subtlety to the structural assembly of the PVCs incorporating these proteins, as the other predominant electrostatic pattern shows that PVC1 has predominantly negative charges at its `top' and `bottom', whilst PVC5 has predominantly neutral/positive charges, as demonstrated in \vref{PVC1-5_charges}. Therefore, one hypothesis is that the PVC is actually built from alternating stacks of PVC1-PVC5-PVC1-PVC5 with the negative and positive faces interacting. This is in contrast to, for example, the Pyocin tube, which has a prominent negative face, and a positive face within the same hexameric disk (visible in the bottom right of \vref{inner_sheath_electrostatics}, akin to bar magnets placed end-to-end, thus forms directionally controlled spontaneously self-assembling tube. As per the rest of the chapter so far \vref{PVC1-5_charges} shows the case for just one of the inner sheath pairs (PVC1 and 5 from PVC ``Pnf" again), but this largely holds for all 32 proteins. The side aspects of the proteins (not shown) demonstrate predominantly neutral charges, suggesting there is little significant within-disk ordering.
 
 The outer sheath proteins remain something of a mystery. Not only is there often an additional copy of the gene, with very little obvious significant structural difference, but there does not appear to be drastic differences in charge between them. They all have predominantly neutral/positively charged interiors, but overwhelmingly negatively charged surfaces. Even with the sequence variability demonstrated in \vref{PVC1-5_conservation} and \ref{PVC1-5_leastsimilar}, there appears to have been a drive to maintain a negative overall surface charge. As an experimental indication of the models validity, an anion exchange chromatography protocol has been developed in the lab which relies on positively charged resins to retain negatively charged molecules and has worked well for purification of several PVCs to date.
 
@@ -356,7 +356,21 @@ As their inter- and intra-protomer interactions are more complex, \vref{PVC2-4_c
  \label{PVC2-4_charges}
 \end{figure}
 
+The most compelling alternative hypothesis, certainly for the inner sheaths, is that one of the pair is specialised as an adaptor or collar. Given that PVC5 is translationally coupled to PVC6, another putative structural protein discussed in the next section, it might be likely that this is the case for PVC5. In \vref{PVC1-5_charges}, some greater structural differences do seem to manifest when viewed as a sliced hexamer. PVC5 has a slightly `squashed' confirmation, being somewhat wider than the PVC1 hexamer, and seems to have a slightly more restricted lumen suggesting that it is perhaps less suited to comprising the bulk of the tube. This fits with legacy 2D gel proteomic analysis which found PVC1 in abundance but lower levels of PVC5, and would also fit with the Coulombic patters noticed above in that PVC5 did not demonstrate the same outer aspect potentials as PVC1 (not shown explicitly), instead being much more neutral in charge. This might make sense if the hexamer doesn't have to interact with the outer sheath proteins like PVC1 might. \vref{PVCvsT4} shows a colour coded, stripped down, T4 baseplate complex, demonstrating that there are 2 additional proteins, gp48 and gp54 (red/orange), which form a transition between the inner tube and the spike, and resemble subtly modified inner sheath proteins. Interestingly, HHPred fails to attribute this orthology, instead matching primarily to the tube proteins themselves which may also have influence the homology modelling process. The figure shows the bulk of the baseplate hub in monochrome shades, the tube in yellow, and 2 fitted PVC proteins as white surface models. Outer sheath proteins are not shown.
 
+Better RMSDs are obtained when matching PVC5 to gp54, than to gp48, so it is unclear whether there is another protein which fulfils the role of gp48 or whether PVCs have a simplified baseplate; certainly, their baseplates lack the vast majority of peripheral T4 baseplate proteins (which are omitted from the figure but the extent can be seen in the EM map).
+
+\begin{figure}[p]
+ \thisfloatpagestyle{augment}
+ \centering
+   \includegraphics[width=\textwidth, trim={0 80 0 55}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC5_in_T4.png}
+   \put(-130,460){\customarrow{-1pt}{0} gp19 / PVC1}
+   \put(-135,410){\customarrow{-1pt}{0} gp54 / PVC5?}
+   \put(-137,377){\customarrow{-5pt}{35} gp48 / PVC5?}
+ \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+ \caption[Comparisons of PVC5 to the collar components of the T4 phage]{\textsc{\normalsize Colour coded T4 baseplate collar proteins compared to PVC subunits.}\vspace{0.1cm} \newline The baseplate hub and collar of the inner tube for the T4 bacteriophage (PDB ID 5IV5 and EMDB 3374) are shown colour coded to identify the adaptor proteins that interface the spike complex (monochrome) with the tube (yellow). This chapter proposes that PVC5 is not actually a tube monomer, but instead may form one of these 2 strata of adapters in a simplified complex.}
+ \label{PVCvsT4}
+\end{figure}
 
 
 
@@ -364,9 +378,9 @@ As their inter- and intra-protomer interactions are more complex, \vref{PVC2-4_c
 \subsubsection{The spike complex}
 \begin{figure}[h!]
 \thisfloatpagestyle{IHA-fancy-style}
-\includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC6-10_expanded_map.png}
+\includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC6-11_expanded_map.png}
 	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
-	\caption[Spike complex protein region of a PVC operon]{\textsc{\normalsize The 5 loci predicted to comprise the spike and baseplate complex of a PVC.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 5 loci that give rise to the functional unit of the spike complex itself are blown up below as an aid to understanding the operon organisation and the proteins under discussion.}
+	\caption[Spike complex protein region of a PVC operon]{\textsc{\normalsize The 6 loci predicted to comprise the spike and baseplate complex of a PVC.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 5 loci that give rise to the functional unit of the spike complex itself are blown up below as an aid to understanding the operon organisation and the proteins under discussion.}
 	\label{PVC6-10map}
 \end{figure}
 
@@ -391,12 +405,12 @@ Locus & PDB ID Hit & Structure & Component \\
 \showrowcolors
 \hline
 
-PVC6  &  Various & Various & Assorted enzymes/kinases (?)    \\
-PVC7  &  5A3A    & n/a     & SIR2 Family metalloprotease (?) \\
-PVC8  &  2P5Z    & T6SS    & VgrG                            \\
-PVC9  &  2IA7    & T4      & Tail lysozyme                   \\
+PVC6  &  Various & Various & Assorted enzymes/kinases (?)     \\
+PVC7  &  5A3A    & n/a     & SIR2 Family metalloprotease (?)  \\
+PVC8  &  2P5Z    & T6SS    & VgrG                             \\
+PVC9  &  2IA7    & T4      & Tail lysozyme                    \\
 PVC10 &  4JIV    & T6SS    & PAAR-spike tip (?)               \\
-
+PVC11 &  3H2T    & T4      & Baseplate structural protein gp6 \\
 \end{tabularx}
 \hrule
 \vspace{0.1cm}
@@ -407,24 +421,28 @@ PVC10 &  4JIV    & T6SS    & PAAR-spike tip (?)               \\
 Proceeding in turn, PVC6 demonstrates no reliable orthologies whatsoever. Even with the more sensitive approach of using HMMs, the lowest E-value obtained for a hit is $>$1. The only potentially informative information available is that the proteins are all quite short, at only $\approx$61 amino acids, and the structural simulations resulted, almost universally, in a pseudo-L-shaped helix-turn-helix structure, with a degenerate position forming the start of the turn (all structures not shown for brevity). While this doesn't provide information much to go on, it may suggest that this protein forms an augmentation to another structural protein, or perhaps forms a kind of lynchpin to lock elements of the structure together, given its size and potentially simple shape.
 
 
-In the case of PVC7, the hits are mixed, but dominated by matches (albeit weak ones) to an SIR2 family ADP-Ribsosyltransferase from \emph{Streptococcus pyogenes} \citep{Shore2000}, with the next most plausible hit being to an EssC-like chaperone of the \emph{Pseudomonas} Type 3 Secretion System \citep{Vogelaar2010}. While again, drawing too many conclusions from such weak similarities is unadvisable, it may be the case that these hits indicate that PVC7 has a role in assembly rather than the structure itself, potentially though some enzymatic or chaperone-like mechanism. Since the structural proteins are typically identifiable through structural homology, it is possible that PVC7 does not contribute directly to the structure proper. It is a much larger protein therefore the models simulated are likely among the more spurious, and they do indeed have some of the larger RMSDs to even the closest HMM matches (on the order of $\approx$20 \AA). Unfortunately, both PVC6 and 7 remain a mystery, and are therefore primer candidates for structural resolution and mutagenesis studies.
+In the case of PVC7, the hits are mixed, but dominated by matches (albeit weak ones) to an SIR2 family ADP-Ribsosyltransferase from \emph{Streptococcus pyogenes} \citep{Shore2000}, with the next most plausible hit being to an EssC-like chaperone of the \emph{Pseudomonas} Type 3 Secretion System \citep{Vogelaar2010}. While again, drawing too many conclusions from such weak similarities is unadvisable, it may be the case that these hits indicate that PVC7 has a role in assembly rather than the structure itself, potentially though some enzymatic or chaperone-like mechanism. Since the structural proteins are typically identifiable through structural homology, it is possible that PVC7 does not contribute directly to the structure proper. It is a much larger protein therefore the models simulated are likely among the more spurious, and they do indeed have some of the larger RMSDs to even the closest HMM matches (on the order of $\approx$20 \AA). Unfortunately, both PVC6 and 7 remain a mystery, and are therefore prime candidates for structural resolution and mutagenesis studies.
 
 This chapter proposes the idea that this section of the operon is made up of proteins which contribute to a baseplate and spike complex in some form or other. This may not be the case for the enigmatic PVC6 and 7, but almost certainly is for PVC8 and 9, and potentially 10. Firstly, PVC8 has long been identifiable as a structural orthologue of the VgrG class of trimeric `spikes' which sit atop the inner tubes of every caudate structure identified to date. In T4, this spike is comprised of gp27 which forms a sort of trimeric adapter which interfaces with the hexameric tube, bridging the difference in symmetry. As mentioned in \vref{introduction}, VgrG's can be decorated with many additional functional domains (also forming toxins in their own right in some cases). The models obtained here indicate that PVCs employ a simplified spike complex, closer in structure to a T6SS like that of uropathogenic \emph{E. coli} \citep{Leiman2009}.
 
 \begin{figure}[p]
-\thisfloatpagestyle{augment}
-\centering
-\includegraphics[width=0.75\textwidth, trim={10 50 12 27}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/spikes.png}
-\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+ \thisfloatpagestyle{augment}
+ \centering
+ \includegraphics[width=0.75\textwidth, trim={0 0 0 0}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/spikes.png}
+ \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+ \put(-265,400){PVC}
+ \put(-280,240){T6SS (UPEC)}
+ \put(-265,10){Afp}
+ \put(-110,350){T6SS (\emph{Pseudomonas})}
+ \put(-75,10){T4}
 \caption[PVC8 is the major spike complex of a PVC]{\textsc{\normalsize The PVC8 spike complex compared with homologues from T4, T6SS and Afp.}\vspace{0.1cm} \newline As one of the most distinctive proteins in the operon, annotations for this protein have proven reliable, however VrgG-like spikes are well known in the literature to be variable and share little sequence similarity. PVC spikes appear more like a simplified T6SS than like T4.}
 	\label{spike}
 \end{figure}
 
 
-Particularly prominent appears to be the loss (in the non-T4 complexes) of the `wings' that the T4 spike exhibits, flanking the extended ``$\beta$-prism". \cite{Kanamaru2002a} identified these as tail spike lysozyme domains of the gp5 protein, which T4 is proposed to use to `chew through' the peptidoglycan cell wall of target bacterial cells. With no cell wall to negotiate in eukaryotic targets, it stands to reason that the T6SS, PVCs and Afps have lost this (though the T6SS does mediate prokaryotic interactions as well, so may have other mechanisms/orthologues it can substitute in to solve this problem). In T4, the structure is comprised of 2 separate proteins, gp27, which forms the `OB-fold' at the base of the structure
+Particularly prominent appears to be the loss (in the non-T4 complexes) of the `wings' that the T4 spike exhibits, flanking the extended ``$\beta$-prism". \cite{Kanamaru2002a} identified these as tail spike lysozyme domains of the gp5 protein, which T4 is proposed to use to `chew through' the peptidoglycan cell wall of target bacterial cells. With no cell wall to negotiate in eukaryotic targets, it stands to reason that the T6SS, PVCs and Afps have lost this (though the T6SS does mediate prokaryotic interactions as well, so may have other mechanisms/orthologues it can substitute in to solve this problem). In T4, the structure is comprised of 2 separate proteins, gp27, which forms the `OB-fold' at the base of the structure and gp5 which contains the lyosozyme domain and forms the prominent $\beta$-prism at the very apex of the spike. In the simulations for the PVC and Afp, this upper prism area is less well defined, and in the case of the crystallised VgrG from the uropathogenic \emph{E. coli}, it has failed to be crystallised/resolved. Based purely on protein chain length however, it does appear that the stretch of prism in the PVCs and Afps might be shorter. As a further example of the sequence variability and apparent potential for drift or adaptation of the VgrG-like spikes, the distance between the PVC and Afp orthologues is comparatively higher than for other loci studied so far, even with very similar tertiary structures among orthologues. 
 
-Less reliable structural resolution at the tip of the beta -prism
-
+\clearpage
 PVC9 has also been identified by sequence searches and annotation, as an orthologue of the PDB ID 2IA7, which has been listed as a putative tail lysozyme. This has always been a point of some confusion though, as it is not clear what role a lysozyme would have in the biology of PVCs, since they have never demonstrated any antimicrobial activity. With the loss of the gp5-like lysozyme domain in the PVC8/VgrG/gp27-5 orthology locus, it seemed that this might present a domain split, and that this domain had moved to a locus of its own. Nevertheless, with no cell wall to act upon in anti-eukaryotic virulence, the only other hypothesis proposed was that this may be a mechanism of release for the PVCs, by degrading the host bacterium cell wall. This also seemed some what unlikely, since the locus is carried squarely within many other putatively structural proteins.
 
 On inspecting the structures, PVC9 candidates do indeed closely resemble the best HMM hit, PDB ID 2IA7, a putative tail lysozyme from \emph{Geobacter sulfurreducens}. However, they also closely structurally match the gp25 baseplate initiator protein of the T4 bacteriophage (PDB ID 5IW9), even though the E-value for this match (whilst still good) is 3 orders of magnitude greater. \vref{initiator} demonstrates the similarity between an example PVC9, the \emph{G. sulfurreducens} structure, and gp25 of T4 in purple, blue and orange respectively. The RMSD between the putative lysozyme and the example PVC9 used is 1.2\AA, whilst between PVC9 and the gp25 PDB ID 5IW9 is is less than 0.3\AA.
@@ -441,21 +459,21 @@ On inspecting the structures, PVC9 candidates do indeed closely resemble the bes
 
 Since the role of a tube initiator protein is relevant to the structure and assembly of all caudate structures (as far as is known presently), and no other compelling candidates have been identified so far, PVC9 is therefore likely fulfilling this role. The descriptor ascribed to the PDB ID 2IA7 of a putative lysozyme is almost certainly incorrect.
 
+PVC10 has been another enigmatic protein for some time and still recruits matches to a number of different potential orthologues including proteins such as RNA polymerase subunits and Amyloid proteins. In just a couple of cases when querying the various PVC orthologues of this protein, homology was noted to ``PAAR"-repeat motif proteins. ``PAAR", or Proline-Alanine-Alanine-Repeat proteins are integral components of most caudate structures studied to date, but are extremely variable and difficult to detect. The T6SS alone employs a bewildering diversity of these proteins \citep{Shneider2013}. Inspecting the sequences, there are few repeats to speak of when analysed by RADAR, and none of the orthologues even contain the PAAR subsequence.
+
+PAAR-repeat proteins sit at the apex of the extended $\beta$-prism of the spike complex, sharpening the otherwise slightly blunt face, down to a single atom's diameter potentially. \cite{Schneider2013} describe PAAR proteins in the case of model PDB ID 4JIV as being comprised of nine short $\beta$ strands, 3 of which form a base interacting with the rest of the spike complex following the $\beta$-prism conformation, and the remainder forming $\beta$ hairpins of different length.
+
+The simulated models obtained are fairly poor facsimiles of \emph{bona fide} PAAR proteins of resolved structure, however, all of the models share some characteristics which support the hypothesis. The majority of models adopted a $\beta$-sheet dominated structure, which run head to tail, reminiscent of the $\beta$-prism conformation seen at the base of PAAR protein spikes, suggesting they augment the prism, if not form the spike itself. As these proteins are slightly longer than canonical PAAR proteins, it may be the case that they incorporate more of the $\beta$-prism in to the spike itself, which could account for the slightly shorter prisms seen in the PVC8 models, even taking in to consideration limitations in the simulation quality. This gives the models a similar triangular cross section to the PAAR proteins. Where the structures are not $\beta$-stranded they produce turn regions, which would provide the alternating strand-turn-strand conformation needed to enable $\beta$-hairpins like those seen in the resolved structures. These proteins possibly present a limitation for the simulation software, lacking good tertiary structure models and therefore resorting to largely molecular dynamics based approaches, which has given an energy minimised `collapsed' structure. \vref{PAAR} shows examples of homologous structures and indicative examples of the obtained models.
+
+ADD PAAR IMAGE
 
 
-
-
-
-
-
-
-\clearpage
 \subsubsection{The operon core}
 \begin{figure}[h!]
 \thisfloatpagestyle{IHA-fancy-style}
-\includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC11-16_expanded_map.png}
+\includegraphics[width=\linewidth]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/PVC12-16_expanded_map.png}
 	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
-	\caption[`Core' protein region of a PVC operon]{\textsc{\normalsize The 6 loci comprising the `core' of a PVC operon with various functions.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 6 loci that give rise to the operon core are blown up below as an aid to understanding the operon organisation and the proteins under discussion. The `core' is a collection of conserved proteins present in almost all PVC operons, typically comprised of larger, single copy genes, some which are proposed to be structural, but also the proteins responsible for cell surface adhesion, and an ATPase which potentially loads payloads or recycles the tube apparatus.}
+	\caption[`Core' protein region of a PVC operon]{\textsc{\normalsize The 5 loci comprising the `core' of a PVC operon with various functions.}\vspace{0.1cm} \newline The Pnf operon is used as an exemplar of the numbering of loci within an archetypal PVC operon, and 3 colourings are used to demarcate the `functional units' of an operon: blue - tube proteins, orange/yellow - spike complex proteins, green/cyan - the operon `core'. The 6 loci that give rise to the operon core are blown up below as an aid to understanding the operon organisation and the proteins under discussion. The `core' is a collection of conserved proteins present in almost all PVC operons, typically comprised of larger, single copy genes, some which are proposed to be structural, but also the proteins responsible for cell surface adhesion, and an ATPase which potentially loads payloads or recycles the tube apparatus.}
 	\label{PVC11-16map}
 \end{figure}
 Tail fibres - highlight hyper variable domains
@@ -490,13 +508,13 @@ PVC1 & Inner tube   \\
 PVC2 & Outer sheath   \\
 PVC3 & Outer sheath (frequently deleted)   \\
 PVC4 & Outer sheath   \\
-PVC5 & Inner sheath   \\
+PVC5* & Possible collar adapter  \\
 PVC6 & Unknown (augment/lynchpin?)   \\
 PVC7 & Unknown (Possible enzyme/chaperone?)   \\
 PVC8 & Spike trimer   \\
 PVC9* & Tube initiator   \\
 PVC10* & PAAR-like spike augment   \\
-PVC11 & Unknown   \\
+PVC11 & Major baseplate protein   \\
 PVC12 & Unknown   \\
 PVC13 & Host binding tail-fibre chimeras   \\
 PVC14 &* Tube `tape measure protein'   \\
@@ -512,6 +530,7 @@ Hypotheses for paralogy:
  - Patchwork idea, or alternating stacks (bar magnets)
 
 
+PVC5 different exterior charge, because not in main tube! not interacting with PVC2-4!
 
 Differences in R-type pyocin sequence and structure versus other structures may be accounted for by originating from different phage. E.g if PVCs came from T4 and T6SS ancestors, but the R-type Pyocin is known to have come from phage P2 \citep{Nakayama2000}.
 
@@ -525,7 +544,7 @@ PVC6,7,11,12
 
 Basis of 3 copies of the outer sheath. Inner sheath may now have a plausible answer.
 
-
+Suggest that VgrGs may be somewhat adapted/evolved based on host
 Evaluations/Considerations:
 Obviously the simulations presented in this chapter are of assorted qualities, and care must be taken when concluding anything from theoretical data alone, however, there is a sufficient body of related proteins for many PVC loci, that comparative modelling can provide, and has provided, hypotheses and potential answers for a number of questions which are not answerable without resolving the structures either experimentally or otherwise.
 

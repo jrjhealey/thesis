@@ -75,6 +75,18 @@ Best homologies so far as reference:
 * PVC15 ATPase
 * PVC16 Cap/terminator
 
+Section and content plan:
+
+ - Comparison of PVC1 with homologs.
+ - Comparison of all PVC1s
+- "Understanding paralogy"
+ - Comparison of PVC1 and 5
+ - What might be defunct?
+
+- Spike section:
+  - VgrG similarity to the c3393 structure and its simplness compared with T4.
+  - Models of lyszosyme as augments to the spike?
+
 
 *Draw attention to the fact that these would form hexamers around the VgrG spike?
 ** Tape measure protein alpha helicity
