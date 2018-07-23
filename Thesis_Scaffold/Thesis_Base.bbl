@@ -1088,10 +1088,16 @@ Kageyama, M. (1975).
 \newblock {Bacteriocins and bacteriophages in Pseudomonas aeruginosa}.
 \newblock {\em Microbial drug resistance}, pages 291--305.
 
-\bibitem[Kanamaru et~al., 2002]{Kanamaru2002}
-Kanamaru, S., Leiman, P.~G., and Kostyuchenko, V.~A. (2002).
+\bibitem[Kanamaru et~al., 2002a]{Kanamaru2002}
+Kanamaru, S., Leiman, P.~G., and Kostyuchenko, V.~A. (2002a).
 \newblock {Structure of the cell-puncturing device of bacteriophage T4}.
 \newblock {\em Nature Letters}, 2428(2001):553--557.
+
+\bibitem[Kanamaru et~al., 2002b]{Kanamaru2002a}
+Kanamaru, S., Leiman, P.~G., Kostyuchenko, V.~A., Chipman, P.~R., Mesyanzhinov,
+  V.~V., Arisaka, F., and Rossmann, M.~G. (2002b).
+\newblock {Structure of the cell-puncturing device of bacteriophage T4}.
+\newblock {\em Nature}, 415(6871):553--557.
 
 \bibitem[Katsura, 1987]{Katsura1987}
 Katsura, I. (1987).
@@ -1767,6 +1773,13 @@ Remmert, M., Biegert, A., Hauser, A., and S{\"{o}}ding, J. (2011).
   HMM-HMM alignment}.
 \newblock {\em Nature Methods}, 9(2):173--175.
 
+\bibitem[Renault et~al., 2018]{Renault2018}
+Renault, M.~G., Beas, J.~Z., Douzi, B., Chabalier, M., Zoued, A., Brunet,
+  Y.~R., Cambillau, C., Journet, L., and Cascales, E. (2018).
+\newblock {The gp27-like Hub of VgrG Serves as Adaptor to Promote Hcp Tube
+  Assembly}.
+\newblock {\em Journal of Molecular Biology}, page {\#}pagerange{\#}.
+
 \bibitem[Richardson, 1981]{Richardson1981}
 Richardson, J. (1981).
 \newblock {The anatomy and toxonomy of protein structure.}
@@ -2238,6 +2251,13 @@ Vettiger, A., Winter, J., Lin, L., and Basler, M. (2017).
 \newblock {The type VI secretion system sheath assembles at the end distal from
   the membrane anchor}.
 \newblock {\em Nature Communications}, 8(May):1--9.
+
+\bibitem[Vogelaar et~al., 2010]{Vogelaar2010}
+Vogelaar, N.~J., Jing, X., Robinson, H.~H., and Schubot, F.~D. (2010).
+\newblock {Analysis of the crystal structure of the ExsCExsE complex reveals
+  distinctive binding interactions of the pseudomonas aeruginosa type III
+  secretion chaperone ExsC with ExsE and ExsD}.
+\newblock {\em Biochemistry}, 49(28):5870--5879.
 
 \bibitem[Wallace, 1983]{Wallace1983}
 Wallace, D.~L. (1983).
