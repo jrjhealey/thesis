@@ -12,36 +12,37 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces HHPred hit summary for PVC1-5}}{109}{table.3.1}
 \contentsline {table}{\numberline {3.4}{\ignorespaces HHPred hit summary for PVC6-10}}{126}{table.3.4}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Summary of loci functions in PVC structural biology}}{135}{table.3.5}
+\contentsline {table}{\numberline {3.5}{\ignorespaces HHPred hit summary for PVC6-10}}{135}{table.3.5}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Summary of loci functions in PVC structural biology}}{140}{table.3.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Cloned tail fibre domains according to HHPred}}{181}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Sequence repeats detected in the PVCpnf13 tail fibre}}{184}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Sequence repeats detected in the PVCpnf13 tail fibre}}{184}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Secondary structure proportions of resolved tail fibres according to DSSP}}{200}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Secondary structure proportions of resolved tail fibres}}{200}{table.5.5}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Mosquito Crystal Screen conditions}}{203}{table.5.6}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Pulldown candidates identified by mass spectrometry}}{207}{table.5.7}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Glycan hits for PVClumt13}}{209}{table.5.8}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Cloned tail fibre domains according to HHPred}}{186}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Sequence repeats detected in the PVCpnf13 tail fibre}}{189}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Sequence repeats detected in the PVCpnf13 tail fibre}}{189}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Secondary structure proportions of resolved tail fibres according to DSSP}}{205}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Secondary structure proportions of resolved tail fibres}}{205}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Mosquito Crystal Screen conditions}}{208}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Pulldown candidates identified by mass spectrometry}}{212}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Glycan hits for PVClumt13}}{214}{table.5.8}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces HHPred Hits for ``PVC1"}}{309}{table.a.A.1}
-\contentsline {table}{\numberline {A.2}{\ignorespaces HHPred hits for ``PVC2"}}{309}{table.a.A.2}
-\contentsline {table}{\numberline {A.3}{\ignorespaces HHPred hits for ``PVC3"}}{310}{table.a.A.3}
-\contentsline {table}{\numberline {A.4}{\ignorespaces HHPred hits for ``PVC4"}}{310}{table.a.A.4}
-\contentsline {table}{\numberline {A.5}{\ignorespaces HHPred hits for ``PVC5"}}{311}{table.a.A.5}
-\contentsline {table}{\numberline {A.6}{\ignorespaces HHPred hits for ``PVC6"}}{312}{table.a.A.6}
-\contentsline {table}{\numberline {A.7}{\ignorespaces HHPred hits for ``PVC7"}}{312}{table.a.A.7}
-\contentsline {table}{\numberline {A.8}{\ignorespaces HHPred hits for ``PVC8"}}{313}{table.a.A.8}
-\contentsline {table}{\numberline {A.9}{\ignorespaces HHPred hits for ``PVC9"}}{314}{table.a.A.9}
-\contentsline {table}{\numberline {A.10}{\ignorespaces HHPred hits for ``PVC10"}}{315}{table.a.A.10}
-\contentsline {table}{\numberline {A.11}{\ignorespaces HHPred hits for ``PVC11"}}{315}{table.a.A.11}
-\contentsline {table}{\numberline {A.12}{\ignorespaces HHPred hits for ``PVC12"}}{316}{table.a.A.12}
-\contentsline {table}{\numberline {A.13}{\ignorespaces HHPred hits for ``PVC13"}}{317}{table.a.A.13}
-\contentsline {table}{\numberline {A.14}{\ignorespaces HHPred hits for ``PVC14"}}{317}{table.a.A.14}
-\contentsline {table}{\numberline {A.15}{\ignorespaces HHPred hits for ``PVC15"}}{318}{table.a.A.15}
-\contentsline {table}{\numberline {A.16}{\ignorespaces HHPred hits for ``PVC16"}}{319}{table.a.A.16}
-\contentsline {table}{\numberline {A.17}{\ignorespaces HHPred hits for unique/anomalous PVC loci and effectors}}{320}{table.a.A.17}
+\contentsline {table}{\numberline {A.1}{\ignorespaces HHPred Hits for ``PVC1"}}{315}{table.a.A.1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces HHPred hits for ``PVC2"}}{315}{table.a.A.2}
+\contentsline {table}{\numberline {A.3}{\ignorespaces HHPred hits for ``PVC3"}}{316}{table.a.A.3}
+\contentsline {table}{\numberline {A.4}{\ignorespaces HHPred hits for ``PVC4"}}{316}{table.a.A.4}
+\contentsline {table}{\numberline {A.5}{\ignorespaces HHPred hits for ``PVC5"}}{317}{table.a.A.5}
+\contentsline {table}{\numberline {A.6}{\ignorespaces HHPred hits for ``PVC6"}}{318}{table.a.A.6}
+\contentsline {table}{\numberline {A.7}{\ignorespaces HHPred hits for ``PVC7"}}{318}{table.a.A.7}
+\contentsline {table}{\numberline {A.8}{\ignorespaces HHPred hits for ``PVC8"}}{319}{table.a.A.8}
+\contentsline {table}{\numberline {A.9}{\ignorespaces HHPred hits for ``PVC9"}}{320}{table.a.A.9}
+\contentsline {table}{\numberline {A.10}{\ignorespaces HHPred hits for ``PVC10"}}{321}{table.a.A.10}
+\contentsline {table}{\numberline {A.11}{\ignorespaces HHPred hits for ``PVC11"}}{321}{table.a.A.11}
+\contentsline {table}{\numberline {A.12}{\ignorespaces HHPred hits for ``PVC12"}}{322}{table.a.A.12}
+\contentsline {table}{\numberline {A.13}{\ignorespaces HHPred hits for ``PVC13"}}{323}{table.a.A.13}
+\contentsline {table}{\numberline {A.14}{\ignorespaces HHPred hits for ``PVC14"}}{323}{table.a.A.14}
+\contentsline {table}{\numberline {A.15}{\ignorespaces HHPred hits for ``PVC15"}}{324}{table.a.A.15}
+\contentsline {table}{\numberline {A.16}{\ignorespaces HHPred hits for ``PVC16"}}{325}{table.a.A.16}
+\contentsline {table}{\numberline {A.17}{\ignorespaces HHPred hits for unique/anomalous PVC loci and effectors}}{326}{table.a.A.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

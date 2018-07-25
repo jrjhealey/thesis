@@ -17,8 +17,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces HHPred orthologue match scores}}{104}{figure.caption.39}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces I-Tasser model accuracy distribution - RMSD}}{105}{figure.caption.40}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces I-Tasser model accuracy distribution - C-score}}{106}{figure.caption.41}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces I-Tasser model accuracy distribution TM-score}}{106}{figure.caption.42}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces I-Tasser model accuracy distribution - C-score}}{107}{figure.caption.41}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces I-Tasser model accuracy distribution TM-score}}{107}{figure.caption.42}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Tube protein region of a PVC operon}}{108}{figure.caption.43}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces PVC1 homolog comparisons}}{112}{figure.caption.44}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces PVC2 homolog comparisons}}{113}{figure.caption.45}
@@ -31,74 +31,75 @@
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Comparisons of PVC5 to the collar components of the T4 phage}}{124}{figure.caption.52}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Spike complex protein region of a PVC operon}}{125}{figure.caption.53}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces PVC8 is the major spike complex of a PVC}}{128}{figure.caption.54}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces PVC9 as a tube initiator candidate}}{129}{figure.caption.55}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces PVC9 as a tube initiator candidate}}{130}{figure.caption.55}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces A putative conformation of spike tip proteins}}{132}{figure.caption.56}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Possible conservation of metal binding activity in spike proteins}}{133}{figure.caption.57}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces `Core' protein region of a PVC operon}}{134}{figure.caption.58}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces `Core' protein region of a PVC operon}}{135}{figure.caption.58}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Conservation mapping off putative tail fibre structures}}{137}{figure.caption.59}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Congruency workflow flowchart}}{140}{figure.caption.61}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces GC Content of PVC Genes}}{144}{figure.caption.63}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Pairwise Amino Acid Similarity Scores for PVC Proteins}}{144}{figure.caption.64}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Gene tree for the first PVC locus}}{145}{figure.caption.65}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Gene tree for the second PVC locus}}{145}{figure.caption.66}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Gene tree for the third PVC locus}}{146}{figure.caption.67}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Gene tree for the fourth PVC locus}}{146}{figure.caption.68}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Gene tree for the fifth PVC locus}}{147}{figure.caption.69}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Gene tree for the sixth PVC locus}}{147}{figure.caption.70}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Gene tree for the seventh PVC locus}}{148}{figure.caption.71}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Gene tree for the eighth PVC locus}}{148}{figure.caption.72}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Gene tree for the ninth PVC locus}}{149}{figure.caption.73}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Gene tree for the tenth PVC locus}}{149}{figure.caption.74}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Gene tree for the eleventh PVC locus}}{150}{figure.caption.75}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Gene tree for the twelfth PVC locus}}{150}{figure.caption.76}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Gene tree for the thirteenth PVC locus}}{151}{figure.caption.77}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Gene tree for the fourteenth PVC locus}}{151}{figure.caption.78}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Gene tree for the fifteenth PVC locus}}{152}{figure.caption.79}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Gene tree for the sixteenth PVC locus}}{152}{figure.caption.80}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Consensus Tree}}{153}{figure.caption.81}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces All pairwise comparisons of congruency as measured by the Adjusted Wallace Coefficient (AWC)}}{155}{figure.caption.82}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces All pairwise comparisons of congruency as measured by the Normalised Robinson-Foulds metric (nRF)}}{156}{figure.caption.83}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Congruency workflow flowchart}}{145}{figure.caption.62}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces GC Content of PVC Genes}}{149}{figure.caption.64}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Pairwise Amino Acid Similarity Scores for PVC Proteins}}{149}{figure.caption.65}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Gene tree for the first PVC locus}}{150}{figure.caption.66}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Gene tree for the second PVC locus}}{150}{figure.caption.67}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Gene tree for the third PVC locus}}{151}{figure.caption.68}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Gene tree for the fourth PVC locus}}{151}{figure.caption.69}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Gene tree for the fifth PVC locus}}{152}{figure.caption.70}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Gene tree for the sixth PVC locus}}{152}{figure.caption.71}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Gene tree for the seventh PVC locus}}{153}{figure.caption.72}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Gene tree for the eighth PVC locus}}{153}{figure.caption.73}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Gene tree for the ninth PVC locus}}{154}{figure.caption.74}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Gene tree for the tenth PVC locus}}{154}{figure.caption.75}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Gene tree for the eleventh PVC locus}}{155}{figure.caption.76}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Gene tree for the twelfth PVC locus}}{155}{figure.caption.77}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Gene tree for the thirteenth PVC locus}}{156}{figure.caption.78}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Gene tree for the fourteenth PVC locus}}{156}{figure.caption.79}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Gene tree for the fifteenth PVC locus}}{157}{figure.caption.80}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Gene tree for the sixteenth PVC locus}}{157}{figure.caption.81}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Consensus Tree}}{158}{figure.caption.82}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces All pairwise comparisons of congruency as measured by the Adjusted Wallace Coefficient (AWC)}}{160}{figure.caption.83}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces All pairwise comparisons of congruency as measured by the Normalised Robinson-Foulds metric (nRF)}}{161}{figure.caption.84}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Existing resolved tail fibre protein structures}}{176}{figure.caption.84}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces PVCpnf operon map identifying cloned PVCpnf13 protein}}{179}{figure.caption.85}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces PVClumt operon map identifying cloned PVClumt13 protein}}{179}{figure.caption.86}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The domain structure of the PVCpnf13 tail fibre protein}}{182}{figure.caption.87}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The domain structure of the PVClumt13 tail fibre protein}}{182}{figure.caption.88}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Multiple Sequence Alignment of PVC Tail fibres}}{185}{figure.caption.89}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Plasmid maps for cloned PVCpnf tail fibre proteins}}{187}{figure.caption.90}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Plasmid maps for cloned PVClumt tail fibre proteins}}{188}{figure.caption.91}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces pnf13 expression trial Western blot}}{190}{figure.caption.92}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces lumt13 expression trial Western blot}}{190}{figure.caption.93}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Tail fibre chromatographic preparations}}{192}{figure.caption.94}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Trimeric nature of PVC tail fibres}}{192}{figure.caption.95}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces pnf13 CD melt plot}}{194}{figure.caption.96}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces lumt13 CD melt plot}}{194}{figure.caption.97}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparisons of Dichroweb algorithms and reference sets}}{197}{figure.caption.98}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces PVC Tail fibre secondary structure proportions across the melting gradient}}{198}{figure.caption.99}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Crystal images}}{204}{figure.caption.100}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Dynabead particle interactions}}{206}{figure.caption.101}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Existing resolved tail fibre protein structures}}{181}{figure.caption.85}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces PVCpnf operon map identifying cloned PVCpnf13 protein}}{184}{figure.caption.86}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces PVClumt operon map identifying cloned PVClumt13 protein}}{184}{figure.caption.87}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The domain structure of the PVCpnf13 tail fibre protein}}{187}{figure.caption.88}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The domain structure of the PVClumt13 tail fibre protein}}{187}{figure.caption.89}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Multiple Sequence Alignment of PVC Tail fibres}}{190}{figure.caption.90}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Plasmid maps for cloned PVCpnf tail fibre proteins}}{192}{figure.caption.91}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Plasmid maps for cloned PVClumt tail fibre proteins}}{193}{figure.caption.92}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces pnf13 expression trial Western blot}}{195}{figure.caption.93}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces lumt13 expression trial Western blot}}{195}{figure.caption.94}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Tail fibre chromatographic preparations}}{197}{figure.caption.95}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Trimeric nature of PVC tail fibres}}{197}{figure.caption.96}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces pnf13 CD melt plot}}{199}{figure.caption.97}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces lumt13 CD melt plot}}{199}{figure.caption.98}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparisons of Dichroweb algorithms and reference sets}}{202}{figure.caption.99}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces PVC Tail fibre secondary structure proportions across the melting gradient}}{203}{figure.caption.100}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Crystal images}}{209}{figure.caption.101}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Dynabead particle interactions}}{211}{figure.caption.102}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic diagram of the mechanism of RfaH-mediated transcript elongation}}{224}{figure.caption.102}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Flowchart of work threads for PVC regulation studies}}{226}{figure.caption.103}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Recombineering mechanism of action}}{229}{figure.caption.104}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Successful engineering of \emph {E. coli} chromosomal genes}}{230}{figure.caption.105}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Cosmid recombineering helper plasmids created}}{232}{figure.caption.106}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Gibson constructs obtained}}{235}{figure.caption.107}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Example of promoter fusions for PVC operons}}{237}{figure.caption.108}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Reporter microscopy - TT01 Unit 1}}{238}{figure.caption.109}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Reporter microscopy - PB68.1 Unit 1}}{239}{figure.caption.110}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Reporter microscopy - TT01 Unit 4}}{240}{figure.caption.111}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Reporter microscopy - PB68.1 pnf}}{241}{figure.caption.112}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Reporter microscopy - TT01 LopT}}{242}{figure.caption.113}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Reporter microscopy - PB68.1 LopT}}{243}{figure.caption.114}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Reporter microscopy - TT01 Cif}}{244}{figure.caption.115}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Reporter microscopy - PB68.1 Cif}}{245}{figure.caption.116}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Reporter microscopy - pAGAG Controls}}{246}{figure.caption.117}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Elongated cellular morphologies observed in reporter microscopy}}{249}{figure.caption.118}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Multiple sequence alignment of redundant RfaH \emph {ops} sites}}{253}{figure.caption.119}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces The canoncial semi-degenerate JUMPStart motif}}{254}{figure.caption.120}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces RNA structures for JUMPStart locations in PVCs/Afp}}{255}{figure.caption.121}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces RfaH locale in \emph {P. luminescens}{} TT01}}{257}{figure.caption.122}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic diagram of the mechanism of RfaH-mediated transcript elongation}}{229}{figure.caption.103}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Flowchart of work threads for PVC regulation studies}}{231}{figure.caption.104}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Recombineering mechanism of action}}{234}{figure.caption.105}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Successful engineering of \emph {E. coli} chromosomal genes}}{235}{figure.caption.106}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Cosmid recombineering helper plasmids created}}{237}{figure.caption.107}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Gibson constructs obtained}}{240}{figure.caption.108}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Example of promoter fusions for PVC operons}}{242}{figure.caption.109}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Reporter microscopy - TT01 Unit 1}}{243}{figure.caption.110}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Reporter microscopy - PB68.1 Unit 1}}{244}{figure.caption.111}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Reporter microscopy - TT01 Unit 4}}{245}{figure.caption.112}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Reporter microscopy - PB68.1 pnf}}{246}{figure.caption.113}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Reporter microscopy - TT01 LopT}}{247}{figure.caption.114}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Reporter microscopy - PB68.1 LopT}}{248}{figure.caption.115}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Reporter microscopy - TT01 Cif}}{249}{figure.caption.116}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Reporter microscopy - PB68.1 Cif}}{250}{figure.caption.117}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Reporter microscopy - pAGAG Controls}}{251}{figure.caption.118}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Elongated cellular morphologies observed in reporter microscopy}}{254}{figure.caption.119}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Multiple sequence alignment of redundant RfaH \emph {ops} sites}}{258}{figure.caption.120}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces The canoncial semi-degenerate JUMPStart motif}}{259}{figure.caption.121}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces RNA structures for JUMPStart locations in PVCs/Afp}}{260}{figure.caption.122}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces RfaH locale in \emph {P. luminescens}{} TT01}}{262}{figure.caption.123}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
