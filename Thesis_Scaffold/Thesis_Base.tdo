@@ -1,18 +1,16 @@
 \contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add a table of nomenclature}{13}{section*.11}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Summary table of PVC1-16 and their roles}{139}{section*.60}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ move to discussion?}{140}{section*.61}
-\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Change this to a non-tikz figure for consistency?}{145}{section*.63}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace intro augment models with lower tri counts (100k rather than 150k - smartphone struggles with 150)}{336}{section*.127}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{336}{section*.128}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with citep}{336}{section*.129}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{336}{section*.130}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{336}{section*.131}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count (and include in the preamble somwhere?}{336}{section*.132}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{336}{section*.133}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{336}{section*.134}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{336}{section*.135}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{336}{section*.136}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Modify bibtex to italicise et al - without breaking everything?}{336}{section*.137}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make headers in the methods consistent with rest of doc if space allows}{336}{section*.138}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Remake operon figures in the tail fibre chapter with larger font}{336}{section*.139}
-\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Re-render the sequence maps like the gibson constructs on a higher res monitor??}{336}{section*.140}
+\contentsline {todo}{\color@fb@x {}{black}{}{purple!40}{\leavevmode {\color {purple!40}o}}\ Change this to a non-tikz figure for consistency?}{147}{section*.62}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace intro augment models with lower tri counts (100k rather than 150k - smartphone struggles with 150)}{338}{section*.126}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Change captions to small caps as per fig 1.5 in intro}{338}{section*.127}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure cite citations are being included as with citep}{338}{section*.128}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure all tables (particularly in Methods) have references if needed}{338}{section*.129}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}{338}{section*.130}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Word count with TeX count (and include in the preamble somwhere?}{338}{section*.131}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: Check references and fix/examine bibtex warnings}{338}{section*.132}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Document check over: ensure consistent capitalisation of headings}{338}{section*.133}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Ensure all hyperreferences resolve correctly}{338}{section*.134}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Replace gray!10 everywhere so that it reproduces on paper better}{338}{section*.135}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Modify bibtex to italicise et al - without breaking everything?}{338}{section*.136}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Make headers in the methods consistent with rest of doc if space allows}{338}{section*.137}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Remake operon figures in the tail fibre chapter with larger font}{338}{section*.138}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Re-render the sequence maps like the gibson constructs on a higher res monitor??}{338}{section*.139}

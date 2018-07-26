@@ -561,20 +561,34 @@ The simulations are of mixed reliability/quality, likely due in large part to th
 \end{landscape}
 
 
+\myparagraph{Structural clues for understanding PVC14 - a putative `tape measure' protein}
+The work of \cite{Rybakova2015} showed that Afp14, the equivalent locus to PVC14, is involved in determining the length of the tube structures. There is little known of the structural conformation of these proteins, compounded by the fact that they are proposed to span the length of a viral tail tube. This would mean that efforts to heterologously express and crystallise the proteins would not reveal their true state \emph{in vivo}. As discussed in the Introduction, these proteins are thought to exhibit a disproportionately high degree of helicity, as well as having distributed and broadly conserved hydrophobicities.
 
+Inspecting the HHPred results for these proteins reveals no consistent hits, belying their variability, but many of them are to proteins such as a 3-helix bundle of \emph{S. aureus}, a heavily $\alpha$-helical nucleoporin of \emph{Saccharomyces} and typically helical membrane associated structures such as Photosystem II of \emph{Arabidopsis}.
 
-Tape measure proteins - high in helix? (add the calculations from the hhpred hits).
-Tape measure proteins - annotate the MSA with helical regions according to DSSP?
-Tape measure proteins - speculate on length
+Taking a selection of models obtained shown in \vref{tapemeasures}, it can be seen that there is little to no consistency in final globular structure (as would likely be the case with efforts to heterologously crystallise the proteins away from the tube), however, they are utterly dominated by alpha helical structures (the figures are coloured by secondary structure, with helix in magenta, $\beta$-sheets/strands in cyan, and coils in gray). Also rendered on the models is a hydrophobicity surface, which shows a homogenous distribution of hydrophobic/philic residues (orange/blue) across the structure, which is consistent with previously proposed orthologues.
+
+Another indicative factor is that these proteins vary substantially in overall length, anywhere from $\approx$450 to $\approx$650 amino acids. As was also explored in the Introduction, \cite{Rybakova2015} and \cite{Pedulla2003} note that there is a strong linear correlation between final tube length and tape measure protein length. To a quick `back of the envelope' approximation using the trend identified, this would suggest that PVC tape measure proteins would be between $\approx$80 nm to $\approx$110 nm, based purely on sequence length - with the upper values roughly the same as the Afp itself. Estimates of the particle length from electron micrographs suggest they are closer to 150-200 nm though, so it may be the case that this trend is not entirely universal.
+
+\begin{figure}[h!]
+ \thispagestyle{IHA-fancy-style}
+ \centering
+   \includegraphics[width=\textwidth, trim={120 0 120 9}, clip]{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter3/img/tapemeasures.png}
+ \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=10pt}
+ \caption[Conservation mapping off putative tail fibre structures]{\textsc{\normalsize Characteristic $\alpha$-helicity and hydropathy of `tape measure proteins'.}\vspace{0.1cm} \newline The simulated models for a selection of putative PVC14 tape measure proteins, revealing structure dominated, almost if not entirely, by $\alpha$-helix (magenta ribbons). Also rendered is a molecular surface coloured according to hydrophobicity/hydrophilicity, with the most hydrophobic residues in orange, and the most hydrophilic in blue. Tape measure proteins are proposed to have a largely conserved and homogeneously distributed pattern of residues with different hydropathy. }
+ \label{tapemeasures}
+\end{figure}
+
+\myparagraph{The conserved, characteristic, ATPase of PVC operons}
+
+\myparagraph{PVC16 as a tube terminator or cap protein}
 
 
 \clearpage
 \section{Discussion}
-The intention of this chapter was to explore new hypotheses for roles of as-yet not fully understood loci within PVC operons, whilst also explaining the existing hypotheses and orthologies which have been attributed to them. To be clear, this chapter does not claim to have solved any structures; merely the intention was to exploit a high performance computing resource while the opportunity was available, allowing the lab to test these hypotheses in future.
+The intention of this chapter as a results chapter was to explore new hypotheses for roles of as-yet not fully understood loci within PVC operons, whilst also acting as an extended introduction, explaining the existing hypotheses and orthologies and orienting the reader for the specifics of the chapters to come. To be clear, this chapter does not claim to have \emph{solved} any structures; merely the intention was to exploit a rare opportunity to use high performance computing resources, essentially at will, in the hopes of providing data that might be used to inform practical experiments further down the line.
 
-PVCs are a hybrid between T4 and pyocin like structures, with an inner sheath most resembling the former, and an outer sheath the latter.
-
-\addfloat{Summary table of PVC1-16 and their roles}
+PVCs appear to be a hybrid between the T4 phage, R-type pyocins and T6SS like structures. More specifically however, they appear to resemble the different structures in different parts of the overall apparatus. For example, the outer sheath proteins of PVCs appear more like the T4 phage, than they do like the T6SS for instance, whilst the opposite is true for the spike complexes.
 
 \clearpage
 \small
@@ -611,19 +625,18 @@ PVC16 &* Tube terminator (?)   \\
 \end{tabularx}
 \normalsize
 
-It is also interesting that the inner and outer tube orthologies do not share the same provenance. It might be expected that they should all match to the next closest structure (e.g. all matching to the \emph{P. aeruginosa} R-type pyocin). This indicates that the inner and outer sheaths may be subject to different evolutionary pressures. Additionally, interior sheath proteins are smaller and better conserved. This may, therefore, be indicative of \emph{Photorhabdus} honing the exterior of the sheath in different environments. An appealing hypothesis, especially since legacy data has shown that different PVCs are deployed in very particular inducing conditions\todo{move to discussion?}.
+For the bulk of the PVC tube, it is interesting that the inner and outer tube orthologies do not share the same provenance. It might be expected that they should all match to the next closest structure (e.g. all matching to the \emph{P. aeruginosa} R-type pyocin). This indicates that the inner and outer sheaths may be subject to different evolutionary pressures. Additionally, interior sheath proteins are smaller and better conserved. This may, therefore, be indicative of \emph{Photorhabdus} honing the exterior of the sheath in different environments. An appealing hypothesis, especially since legacy data has shown that different PVCs are deployed in very particular inducing conditions.
 
-Hypotheses for paralogy:
- - Stoichiometry (certainly plausible and may be true in addition to other factors (but why then, are there 3 outer proteins in most operons)).
- - Patchwork idea, or alternating stacks (bar magnets)
+A difference in provenance for the inner sheath proteins compared to the outer sheath proteins is consistent with published observations that, for instance, the R-type pyocin is generally negatively charged to convey protons for depolarisation, and that the T6SS is comparatively neutral for conveyance of proteins \citep{Ge2015}. This is therefore indicative of the inner and outer sheath proteins potentially being under different selection pressures, reflecting their deployment environment (in the case of the outer sheath) and their cargo (in the case of the inner).
 
+Why PVCs carry multiple copies of tube proteins has been unknown for some time. The original speculative hypothesis for this was that, as the bulk of the structure, they would need multiple copies to provide stoichiometric ratios to the rest of the operon components (i.e. 2 proteins would be produced `per transcript'). There are a few holes in this idea though. Firstly, the inner and outer sheaths are, to the best of our current knowledge, present in roughly equal parts, as hexameric concentric disks in an approximately 1:1 ratio. Yet, there are (normally) 3 outer sheath loci, and 2 inner sheath loci. Plus, the fact that at least one of these loci can be deleted with (as far as is known about their functional state) no consequence, suggests the stoichiometry is not that sensitive to disruption. From comparing the sequential and structural conservation, and biophysical properties of the tube proteins, the following alternative hypotheses for their maintenance are suggested. For the inner sheath proteins, there are prominent differences in the electrostatic nature of the subunits. This suggests that the tube is either made of alternating stacks of the different monomers, providing directionality to the tube, or increasingly likely, that PVC5 actually fulfils a role similar to gp48/gp54 of T4, as a collar/spike adapter. There are slight contradictions here too however, as in the T6SS, a recent paper has shown that no such adapter/collar proteins are needed \citep{Renault2018}. Given that the tube appears more reminiscent of a phage than a T6SS, but the spike is conversely T6SS-like, only experimental structural resolution will yield the answer. Preliminary data and EM maps from the ongoing structural resolution collaboration with the Max Planck Institute in Dortmund (not shown) have suggested that the baseplate region might be more substantial than has been seen in either the Afp or R-type pyocin so far, which could indicate that it is more similar to a T4 phage. In which case, the likelihood of a collar adapter protein remaining is somewhat higher.
 
-PVC5 different exterior charge, because not in main tube! not interacting with PVC2-4!
+The outer sheath proteins remain somewhat of a riddle. Their less conserved outer aspects suggest that they are open to adaptation to their deployment niches. A `phage like' exterior, for instance, is likely to be significantly immunogenic in a higher eukaryote infection, which runs counter to \emph{Photorhabdus}' extensive efforts to suppress immune responses. An appealing hypothesis therefore, is perhaps these nano-scale toxin delivery systems are adapted for use in these infections. The pronounced negative surface charges noted with all of the loci might also speak to a similar phenomenon, as previous publications have identified marked reduction in trypsin-based proteolysis of negatively charged particles compared with positive ones \citep{Liu1992}. Similarly, positively charged molecules have been shown to be preferentially endocytosed at greater rates \citep{Chung2007} - though admittedly neither of these studied focussed on proteinaceous entities.
 
 Differences in R-type pyocin sequence and structure versus other structures may be accounted for by originating from different phage. E.g if PVCs came from T4 and T6SS ancestors, but the R-type Pyocin is known to have come from phage P2 \citep{Nakayama2000}.
 
 
-Asymbiotica strains ditching an immunogenic outer sheath protein?!
+Perils of sequence annotations -> a number of misleading hits identified because they are badly named! Only by looking at the structure and performing structural comparisons was this easily identifiable.
 
 \cite{Hurst2004} demonstrated that Afp2 is required for formation of a toxic Afp. In several PVC operons a deletion in one of the 3 proteins which match to outer sheaths are observed. Initially, it was not obvious which of these 3 proteins, assumed to be equally paralogous, would be deleted in each case. It seemed unusual that 3 outer sheath CDSs would be required whilst only 2 inner sheath CDSs are ever present, if stoichiometry was the only explanation for their paralogy. On further inspection, it appears that the deletions in these outer sheath proteins is always PVC3 rather than 2 or 4. Unpublished communication from the Hurst lab has proposed that PVC4 may actually be a slightly modified variant of the outer tube. This may be such that it functions as an adapter protein at one end of the tube, possibly as a collar that interfaces with the baseplate.
 
@@ -646,6 +659,9 @@ Mention PVC6/7 as a deletion candidate
 Mention PVC15 as a deletion candidate
  - Involved in assembly in Hursts work.
  - if deleted, do PVCs still assemble, but empty?
+ 
+ Molecular dynamics pulling experiments with PVC14
+ 
 
 
 
