@@ -114,7 +114,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1.2}Homology modelling, threading and structural refinement}{104}{subsubsection.3.2.1.2}
 \contentsline {subsection}{\numberline {3.2.2}Exploration of the structure of PVCs by functional unit}{109}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}The PVC tube}{109}{subsubsection.3.2.2.1}
-\contentsline {paragraph}{\numberline {3.2.2.1.1}Structural comparisons of duplicated and triplicated tube proteins}{112}{paragraph.3.2.2.1.1}
+\contentsline {paragraph}{\numberline {3.2.2.1.1}Structural comparisons of duplicated and triplicated tube proteins}{115}{paragraph.3.2.2.1.1}
 \contentsline {paragraph}{\numberline {3.2.2.1.2}Electrostatic comparisons amongst tube proteins}{118}{paragraph.3.2.2.1.2}
 \contentsline {subsubsection}{\numberline {3.2.2.2}The spike complex}{126}{subsubsection.3.2.2.2}
 \contentsline {paragraph}{\numberline {3.2.2.2.1}Enigmatic putative collar/baseplate proteins}{127}{paragraph.3.2.2.2.1}
