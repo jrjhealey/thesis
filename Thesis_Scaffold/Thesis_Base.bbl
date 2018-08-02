@@ -554,6 +554,14 @@ Datsenko, K.~a. and Wanner, B.~L. (2000).
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 97(12):6640--5.
 
+\bibitem[{Del Tordello} et~al., 2016]{DelTordello2016}
+{Del Tordello}, E., Danilchanka, O., McCluskey, A.~J., and Mekalanos, J.~J.
+  (2016).
+\newblock {Type VI secretion system sheaths as nanoparticles for antigen
+  display}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  113(11):3042--3047.
+
 \bibitem[Delepelaire, 2004]{Delepelaire2004}
 Delepelaire, P. (2004).
 \newblock {Type I secretion in gram-negative bacteria}.
@@ -607,6 +615,13 @@ Dong, A., Xu, X., Edwards, A.~M., Chang, C., Chruszcz, M., Cuff, M.,
   determination}.
 \newblock {\em Nature Methods}, 4(12):1019--1021.
 
+\bibitem[Douzi et~al., 2016]{Douzi2016}
+Douzi, B., Brunet, Y.~R., Spinelli, S., Lensi, V., Legrand, P., Blangy, S.,
+  Kumar, A., Journet, L., Cascales, E., and Cambillau, C. (2016).
+\newblock {Structure and specificity of the Type VI secretion system ClpV-TssC
+  interaction in enteroaggregative Escherichia coli}.
+\newblock {\em Scientific Reports}, 6(October):1--13.
+
 \bibitem[Douzi et~al., 2012]{Douzi2012}
 Douzi, B., Filloux, A., and Voulhoux, R. (2012).
 \newblock {On the path to uncover the bacterial type II secretion system}.
@@ -652,6 +667,12 @@ Durham, S. (2001).
 Eddy, S.~R. (2004).
 \newblock {What is a hidden Markov model?}
 \newblock {\em Nature Biotechnology}, 22(10):1315--1316.
+
+\bibitem[Eleftherianos et~al., 2010]{Eleftherianos2010}
+Eleftherianos, I., Ffrench-Constant, R.~H., Clarke, D.~J., Dowling, A.~J., and
+  Reynolds, S.~E. (2010).
+\newblock {Dissecting the immune response to the entomopathogen Photorhabdus.}
+\newblock {\em Trends in microbiology}, 18(12):552--60.
 
 \bibitem[English et~al., 2014]{English2014}
 English, G., Byron, O., Cianfanelli, F., Prescott, A., and Coulthurst, S.
@@ -1126,6 +1147,12 @@ Katsura, I. and Hendrix, R.~W. (1984).
 \newblock {Length determination in bacteriophage lambda tails}.
 \newblock {\em Cell}, 39(3 PART 2):691--698.
 
+\bibitem[Kaur et~al., 2012]{Kaur2012}
+Kaur, T., Nafissi, N., Wasfi, O., Sheldon, K., Wettig, S., and Slavcev, R.
+  (2012).
+\newblock {Immunocompatibility of bacteriophages as nanomedicines}.
+\newblock {\em Journal of Nanotechnology}, 2012(i).
+
 \bibitem[Kelly et~al., 2015]{Kelly2015}
 Kelly, L., Mezulis, S., Yates, C., Wass, M., and Sternberg, M. (2015).
 \newblock {The Phyre2 web portal for protein modelling, prediction, and
@@ -1227,6 +1254,13 @@ Kumar, S.~N., Nambisan, B., Kumar, B. S.~D., Vasudevan, N.~G., Mohandas, C.,
   3,5-dihydroxy-4-isopropylstilbene produced by Bacillus sp. N strain isolated
   from entomopathogenic nematode}.
 \newblock {\em Archives of Pharmacal Research}, (3):1--11.
+
+\bibitem[{Kumar Sarkar} et~al., 2006]{KumarSarkar2006}
+{Kumar Sarkar}, S., Takeda, Y., Kanamaru, S., and Arisaka, F. (2006).
+\newblock {Association and dissociation of the cell puncturing complex of
+  bacteriophage T4 is controlled by both pH and temperature}.
+\newblock {\em Biochimica et Biophysica Acta - Proteins and Proteomics},
+  1764(9):1487--1492.
 
 \bibitem[Lan et~al., 2014]{Lan2014}
 Lan, M., Klose, T., Plevka, P., Aksyuk, A., Zhang, X., Arisaka, F., and
@@ -1435,6 +1469,13 @@ Machado, R. A.~R., W{\"{u}}thrich, D., Kuhnert, P., Arce, C. C.~M.,
   subspecies Photorhabdus laumondii subs}.
 \newblock {\em International Journal of Systematic and Evolutionary
   Microbiology}, pages 1--18.
+
+\bibitem[Mahony et~al., 2016]{Mahony2016}
+Mahony, J., Alqarni, M., Stockdale, S., Spinelli, S., Feyereisen, M.,
+  Cambillau, C., and {Van Sinderen}, D. (2016).
+\newblock {Functional and structural dissection of the tape measure protein of
+  lactococcal phage TP901-1}.
+\newblock {\em Scientific Reports}, 6(August):1--10.
 
 \bibitem[Manavalan and Johnson, 1987]{Manavalan1987}
 Manavalan, P. and Johnson, W.~C. (1987).
@@ -1667,16 +1708,23 @@ Pattengale, N.~D., Gottlieb, E.~J., and Moret, B. M.~E. (2007).
 \newblock {Efficiently Computing the Robinson-Foulds Metric}.
 \newblock {\em Journal of Computational Biology}, 14(6):724--735.
 
-\bibitem[Paul et~al., 2004a]{Paul2004}
+\bibitem[Paul et~al., 2004a]{Paul2004b}
 Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
   Jenal, U. (2004a).
 \newblock {Cell cycle-dependent dynamic localization of a bacterial response
   regulator with a novel di-guanylate cyclase output domain}.
 \newblock {\em Genes and Development}, 18(6):715--727.
 
-\bibitem[Paul et~al., 2004b]{Paul2004a}
+\bibitem[Paul et~al., 2004b]{Paul2004}
 Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
   Jenal, U. (2004b).
+\newblock {Cell cycle-dependent dynamic localization of a bacterial response
+  regulator with a novel di-guanylate cyclase output domain}.
+\newblock {\em Genes and Development}, 18(6):715--727.
+
+\bibitem[Paul et~al., 2004c]{Paul2004a}
+Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
+  Jenal, U. (2004c).
 \newblock {Cell cycle-dependent dynamic localization of a bacterial response
   regulator with a novel di-guanylate cyclase output domain}.
 \newblock {\em Genes and Development}, 18(6):715--727.
@@ -1913,8 +1961,14 @@ Rybakova, D., Schramm, P., Mitra, A.~K., and Hurst, M. R.~H. (2015b).
   (Afp)}.
 \newblock {\em Molecular Microbiology}, 96(4):815--826.
 
-\bibitem[Ryjenkov et~al., 2005]{Ryjenkov2005}
-Ryjenkov, D.~A., Tarutina, M., Moskvin, O.~V., and Gomelsky, M. (2005).
+\bibitem[Ryjenkov et~al., 2005a]{Ryjenkov2005}
+Ryjenkov, D.~A., Tarutina, M., Moskvin, O.~V., and Gomelsky, M. (2005a).
+\newblock {Cyclic diguanylate is a ubiquitous signaling molecule in bacteria:
+  Insights into biochemistry of the GGDEF protein domain}.
+\newblock {\em Journal of Bacteriology}, 187(5):1792--1798.
+
+\bibitem[Ryjenkov et~al., 2005b]{Ryjenkov2005a}
+Ryjenkov, D.~A., Tarutina, M., Moskvin, O.~V., and Gomelsky, M. (2005b).
 \newblock {Cyclic diguanylate is a ubiquitous signaling molecule in bacteria:
   Insights into biochemistry of the GGDEF protein domain}.
 \newblock {\em Journal of Bacteriology}, 187(5):1792--1798.
