@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis_Base.aux
-The style file: apalike_alt.bst
+The style file: customapalike.bst
 Reallocated field_info (elt_size=4) to 13448 items from 5000.
 Database file #1: /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
 Repeated entry---line 2249 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
@@ -123,7 +123,7 @@ Repeated entry---line 7902 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.
 I'm skipping whatever remains of this entry
 You've used 384 entries,
             1935 wiz_defined-function locations,
-            2774 strings with 95443 characters,
+            2774 strings with 95445 characters,
 and the built_in function-call counts, 189370 in all, are:
 = -- 18039
 > -- 10988
