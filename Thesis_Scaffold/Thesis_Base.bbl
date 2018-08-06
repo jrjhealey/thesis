@@ -1,26 +1,26 @@
 \begin{thebibliography}{}
 
-\bibitem[Abby et~al., 2016]{Abby2016}
+\bibitem[Abby \emph{et~al.}, 2016]{Abby2016}
 Abby, S.~S., Cury, J., Guglielmini, J., N{\'{e}}ron, B., Touchon, M., and
   Rocha, E.~P. (2016).
 \newblock {Identification of protein secretion systems in bacterial genomes}.
 \newblock {\em Scientific Reports}, 6(October 2015):1--14.
 
-\bibitem[Abdallah et~al., 2007]{Abdallah2007}
+\bibitem[Abdallah \emph{et~al.}, 2007]{Abdallah2007}
 Abdallah, A.~M., {Gey van Pittius}, N.~C., Champion, P. a.~D., Cox, J.,
   Luirink, J., Vandenbroucke-Grauls, C. M. J.~E., Appelmelk, B.~J., and Bitter,
   W. (2007).
 \newblock {Type VII secretion--mycobacteria show the way.}
 \newblock {\em Nature reviews. Microbiology}, 5(11):883--891.
 
-\bibitem[{Abu Hatab} et~al., 1998]{AbuHatab1998}
+\bibitem[{Abu Hatab} \emph{et~al.}, 1998]{AbuHatab1998}
 {Abu Hatab}, M.~a., Stuart, R.~J., and Gaugler, R. (1998).
 \newblock {Antibiotic resistance and protease production by Photorhabdus
   luminescens and Xenorhabdus poinarii bacteria symbiotic with entomopathogenic
   nematodes: Variation among species and strains}.
 \newblock {\em Soil Biology and Biochemistry}, 30(14):1955--1961.
 
-\bibitem[Abuladze et~al., 1994]{Abuladze1994}
+\bibitem[Abuladze \emph{et~al.}, 1994]{Abuladze1994}
 Abuladze, N.~K., Gingery, M., Tsai, J., and Eiserling, F.~a. (1994).
 \newblock {Tail length determination in bacteriophage T4.}
 
@@ -29,7 +29,7 @@ Ackermann, H.-W. (1998).
 \newblock {Tailed Bacteriophages: The Order Caudovirales}.
 \newblock {\em Advances in Virus Research}, 51:135--201.
 
-\bibitem[Adhya et~al., 1974]{Adhya1974}
+\bibitem[Adhya \emph{et~al.}, 1974]{Adhya1974}
 Adhya, S., Gottesman, M., and {De Crombrugghe}, B. (1974).
 \newblock {Release of polarity in Escherichia coli by gene N of phage lambda:
   termination and antitermination of transcription.}
@@ -48,28 +48,28 @@ Akhurst, R.~J. (1980).
   Neoaplectana and Heterorhabditis}.
 \newblock {\em Journal of General Microbiology}, 121(May):303--309.
 
-\bibitem[Aksyuk et~al., 2009a]{Aksyuk2009}
+\bibitem[Aksyuk \emph{et~al.}, 2009a]{Aksyuk2009}
 Aksyuk, A.~a., Leiman, P.~G., Kurochkina, L.~P., Shneider, M.~M., Kostyuchenko,
   V.~a., Mesyanzhinov, V.~V., and Rossmann, M.~G. (2009a).
 \newblock {The tail sheath structure of bacteriophage T4: a molecular machine
   for infecting bacteria.}
 \newblock {\em The EMBO journal}, 28(7):821--829.
 
-\bibitem[Aksyuk et~al., 2009b]{Aksyuk2009a}
+\bibitem[Aksyuk \emph{et~al.}, 2009b]{Aksyuk2009a}
 Aksyuk, A.~A., Leiman, P.~G., Shneider, M.~M., Mesyanzhinov, V.~V., and
   Rossmann, M.~G. (2009b).
 \newblock {The Structure of Gene Product 6 of Bacteriophage T4, the Hinge-Pin
   of the Baseplate}.
 \newblock {\em Structure}, 17(6):800--808.
 
-\bibitem[Alexander et~al., 2007]{Alexander2007}
+\bibitem[Alexander \emph{et~al.}, 2007]{Alexander2007}
 Alexander, P.~A., He, Y., Chen, Y., Orban, J., and Bryan, P.~N. (2007).
 \newblock {The design and characterization of two proteins with 88{\%} sequence
   identity but different structure and function}.
 \newblock {\em Proceedings of the National Academy of Sciences},
   104(29):11963--11968.
 
-\bibitem[Ali et~al., 2003]{Ali2003}
+\bibitem[Ali \emph{et~al.}, 2003]{Ali2003}
 Ali, S.~A., Iwabuchi, N., Matsui, T., Hirota, K., Kidokoro, S.~I., Arai, M.,
   Kuwajima, K., Schuck, P., and Arisaka, F. (2003).
 \newblock {Reversible and fast association equilibria of a molecular chaperone,
@@ -82,14 +82,14 @@ Amos, L.~A. and Klug, A. (1975).
   T4 Bacteriophage}.
 \newblock {\em Journal of Molecular Biology}, 99:51--73.
 
-\bibitem[Ancona et~al., 2015]{Ancona2015}
+\bibitem[Ancona \emph{et~al.}, 2015]{Ancona2015}
 Ancona, V., Lee, J.~H., Chatnaparat, T., Oh, J., Hong, J.~I., and Zhao, Y.
   (2015).
 \newblock {The bacterial alarmone (p)ppGpp activates the type III secretion
   system in Erwinia amylovora}.
 \newblock {\em Journal of Bacteriology}, 197(8):1433--1443.
 
-\bibitem[Arisaka et~al., 2003]{Arisaka2003}
+\bibitem[Arisaka \emph{et~al.}, 2003]{Arisaka2003}
 Arisaka, F., Kanamaru, S., Leiman, P., and Rossmann, M.~G. (2003).
 \newblock {The tail lysozyme complex of bacteriophage T4}.
 \newblock {\em International Journal of Biochemistry and Cell Biology},
@@ -102,38 +102,38 @@ Artsimovitch, I. and Landick, R. (2002).
   strand}.
 \newblock {\em Cell}, 109(2):193--203.
 
-\bibitem[Ates et~al., 2016]{Ates2016}
+\bibitem[Ates \emph{et~al.}, 2016]{Ates2016}
 Ates, L.~S., Houben, E. N.~G., and Bitter, W. (2016).
 \newblock {Type VII Secretion: A Highly Versatile Secretion System}.
 \newblock {\em Virulence Mechanisms of Bacterial Pathogens, Fifth Edition},
   pages 357--384.
 
-\bibitem[Baba et~al., 2006]{Baba2006}
+\bibitem[Baba \emph{et~al.}, 2006]{Baba2006}
 Baba, T., Ara, T., Hasegawa, M., Takai, Y., Okumura, Y., Baba, M., Datsenko,
   K.~a., Tomita, M., Wanner, B.~L., and Mori, H. (2006).
 \newblock {Construction of Escherichia coli K-12 in-frame, single-gene knockout
   mutants: the Keio collection.}
 \newblock {\em Molecular systems biology}, 2:2006.0008.
 
-\bibitem[Bager et~al., 2016]{Bager2016}
+\bibitem[Bager \emph{et~al.}, 2016]{Bager2016}
 Bager, R., Roghanian, M., Gerdes, K., and Clarke, D.~J. (2016).
 \newblock {Alarmone (p)ppGpp regulates the transition from pathogenicity to
   mutualism in Photorhabdus luminescens}.
 \newblock {\em Molecular Microbiology}, 100(4):735--747.
 
-\bibitem[Bailey et~al., 1996]{Bailey1996}
+\bibitem[Bailey \emph{et~al.}, 1996]{Bailey1996}
 Bailey, M.~J., Hughes, C., and Koronakis, V. (1996).
 \newblock {Increased distal gene transcription by the elongation factor RfaH, a
   specialized homologue of NusG}.
 \newblock {\em Mol Microbiol}, 22(4):729--737.
 
-\bibitem[Bailey et~al., 1997]{Bailey1997}
+\bibitem[Bailey \emph{et~al.}, 1997]{Bailey1997}
 Bailey, M.~J., Hughes, C., and Koronakis, V. (1997).
 \newblock {RfaH and the ops element, components of a novel system controlling
   bacterial transcription elongation.}
 \newblock {\em Molecular microbiology}, 26(5):845--851.
 
-\bibitem[Ballister et~al., 2008]{Ballister2008}
+\bibitem[Ballister \emph{et~al.}, 2008]{Ballister2008}
 Ballister, E.~R., Lai, A.~H., Zuckermann, R.~N., Cheng, Y., and Mougous, J.~D.
   (2008).
 \newblock {In vitro self-assembly of tailorable nanotubes from a simple protein
@@ -141,13 +141,13 @@ Ballister, E.~R., Lai, A.~H., Zuckermann, R.~N., Cheng, Y., and Mougous, J.~D.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 105(10):3733--3738.
 
-\bibitem[Banerjee et~al., 2006]{Banerjee2006}
+\bibitem[Banerjee \emph{et~al.}, 2006]{Banerjee2006}
 Banerjee, S., Chalissery, J., Bandey, I., and Sen, R. (2006).
 \newblock {Rho-dependent transcription termination: more questions than
   answers.}
 \newblock {\em Journal of microbiology (Seoul, Korea)}, 44(1):11--22.
 
-\bibitem[Bankevich et~al., 2012]{Bankevich2012}
+\bibitem[Bankevich \emph{et~al.}, 2012]{Bankevich2012}
 Bankevich, A., Nurk, S., Antipov, D., Gurevich, A.~A., Dvorkin, M., Kulikov,
   A.~S., Lesin, V.~M., Nikolenko, S.~I., Pham, S. O.~N., Prjibelski, A.~D.,
   Pyshkin, A.~V., Sirotkin, A.~V., Vyahhi, N., Tesler, G., Alekseyev, M. A.
@@ -161,7 +161,7 @@ Barnhart, M.~M. and Chapman, M.~R. (2010).
 \newblock {Curli biogenesis and function}.
 \newblock {\em Annual review Microbiogy}, 60:131--147.
 
-\bibitem[Bartual et~al., 2010]{Bartual2010}
+\bibitem[Bartual \emph{et~al.}, 2010]{Bartual2010}
 Bartual, S.~G., Otero, J.~M., Garcia-Doval, C., Llamas-Saiz, A.~L., Kahn, R.,
   Fox, G.~C., and van Raaij, M.~J. (2010).
 \newblock {Structure of the bacteriophage T4 long tail fiber receptor-binding
@@ -181,14 +181,14 @@ Basler, M. (2015b).
 \newblock {\em Philosophical Transactions of the Royal Society B: Biological
   Sciences}, 370(1679):20150021.
 
-\bibitem[Basler et~al., 2012]{Basler2012}
+\bibitem[Basler \emph{et~al.}, 2012]{Basler2012}
 Basler, M., Pilhofer, M., Henderson, G.~P., Jensen, G.~J., and Mekalanos, J.~J.
   (2012).
 \newblock {Type VI secretion requires a dynamic contractile phage tail-like
   structure.}
 \newblock {\em Nature}, 483(7388):182--6.
 
-\bibitem[Baur et~al., 1998]{Baur1998}
+\bibitem[Baur \emph{et~al.}, 1998]{Baur1998}
 Baur, M.~E., Kaya, H.~K., and Strong, D.~R. (1998).
 \newblock {Foraging ants as scavengers on entomopathogenic nematode-killed
   insects}.
@@ -200,14 +200,14 @@ Beck, K. and Brodsky, B. (1998).
   $\alpha$- helical coiled coil}.
 \newblock {\em Journal of Structural Biology}, 122(1-2):17--29.
 
-\bibitem[Bergmann et~al., 2007]{Bergmann2007}
+\bibitem[Bergmann \emph{et~al.}, 2007]{Bergmann2007}
 Bergmann, S., Sch{\"{u}}mann, J., Scherlach, K., Lange, C., Brakhage, A.~A.,
   and Hertweck, C. (2007).
 \newblock {Genomics-driven discovery of PKS-NRPS hybrid metabolites from
   Aspergillus nidulans}.
 \newblock {\em Nature Chemical Biology}, 3(4):213--217.
 
-\bibitem[{Bertozzi Silva} et~al., 2016]{BertozziSilva2016}
+\bibitem[{Bertozzi Silva} \emph{et~al.}, 2016]{BertozziSilva2016}
 {Bertozzi Silva}, J., Storms, Z., and Sauvageau, D. (2016).
 \newblock {Host receptors for bacteriophage adsorption}.
 \newblock {\em FEMS Microbiology Letters}, 363(4):1--11.
@@ -219,14 +219,14 @@ Birmingham, V.~A. and Pattee, P.~A. (1981).
   alpha lysates.}
 \newblock {\em Journal of bacteriology}, 148(1):301--307.
 
-\bibitem[Bleves et~al., 2010]{Bleves2010}
+\bibitem[Bleves \emph{et~al.}, 2010]{Bleves2010}
 Bleves, S., Viarre, V., Salacha, R., Michel, G.~P., Filloux, A., and Voulhoux,
   R. (2010).
 \newblock {Protein secretion systems in Pseudomonas aeruginosa: A wealth of
   pathogenic weapons}.
 \newblock {\em International Journal of Medical Microbiology}, 300(8):534--543.
 
-\bibitem[B{\"{o}}ck et~al., 2017]{Bock2017}
+\bibitem[B{\"{o}}ck \emph{et~al.}, 2017]{Bock2017}
 B{\"{o}}ck, D., Medeiros, J.~M., Tsao, H.-f., Penz, T., Weiss, G.~L.,
   Aistleitner, K., Horn, M., and Pilhofer, M. (2017).
 \newblock {In situ architecture, function, and evolution of a contractile
@@ -239,7 +239,7 @@ Boemare, N.~E. and Akhurst, R.~J. (1988).
   Variants in Xenorhabdus spp. (Enterobacteriaceae)}.
 \newblock {\em Microbiology}, 134(May):751--761.
 
-\bibitem[Boemare et~al., 1993]{Boemare1993}
+\bibitem[Boemare \emph{et~al.}, 1993]{Boemare1993}
 Boemare, N.~E., Akhurst, R.~J., and R., M.~G. (1993).
 \newblock {Symbiotic Bacteria of Entomopathogenic Nematodes , and a Proposal To
   Transfer Xenorhabdus luminescens to a}.
@@ -253,25 +253,25 @@ Bolanos-Garcia, V.~M. and Davies, O.~R. (2006).
 \newblock {\em Biochimica et Biophysica Acta - General Subjects},
   1760(9):1304--1313.
 
-\bibitem[B{\"{o}}nemann et~al., 2009]{Bonemann2009}
+\bibitem[B{\"{o}}nemann \emph{et~al.}, 2009]{Bonemann2009}
 B{\"{o}}nemann, G., Pietrosiuk, A., Diemand, A., Zentgraf, H., and Mogk, A.
   (2009).
 \newblock {Remodelling of VipA/VipB tubules by ClpV-mediated threading is
   crucial for type VI protein secretion.}
 \newblock {\em The EMBO journal}, 28(4):315--325.
 
-\bibitem[B{\"{o}}nemann et~al., 2010]{Bonemann2010}
+\bibitem[B{\"{o}}nemann \emph{et~al.}, 2010]{Bonemann2010}
 B{\"{o}}nemann, G., Pietrosiuk, A., and Mogk, A. (2010).
 \newblock {Tubules and donuts: A type VI secretion story: MicroReview}.
 \newblock {\em Molecular Microbiology}, 76(April):815--821.
 
-\bibitem[Bottai et~al., 2017]{Bottai2017}
+\bibitem[Bottai \emph{et~al.}, 2017]{Bottai2017}
 Bottai, D., Gr{\"{o}}schel, M.~I., and Brosch, R. (2017).
 \newblock {\em {Type VII Secretion Systems in Gram-Positive Bacteria}}, pages
   235--265.
 \newblock Springer International Publishing, Cham.
 
-\bibitem[Bourdin et~al., 2014]{Bourdin2014}
+\bibitem[Bourdin \emph{et~al.}, 2014]{Bourdin2014}
 Bourdin, G., Schmitt, B., Guy, L.~M., Germond, J.-e., Zuber, S., Michot, L.,
   and Reuteler, G. (2014).
 \newblock {Amplification and Purification of T4-Like Escherichia coli Phages
@@ -285,7 +285,7 @@ Bowen, D.~J. and Ensign, J.~C. (1998).
   Photorhabdus luminescens}.
 \newblock {\em Applied and Environmental Microbiology}, 64(8):3029--3035.
 
-\bibitem[Boyd et~al., 2014]{Boyd2014}
+\bibitem[Boyd \emph{et~al.}, 2014]{Boyd2014}
 Boyd, C.~D., {Jarrod Smith}, T., El-Kirat-Chatel, S., Newell, P.~D.,
   Dufr{\^{e}}ne, Y.~F., and O'Toolea, G.~A. (2014).
 \newblock {Structural features of the Pseudomonas fluorescens biofilm adhesin
@@ -293,56 +293,56 @@ Boyd, C.~D., {Jarrod Smith}, T., El-Kirat-Chatel, S., Newell, P.~D.,
   surface localization}.
 \newblock {\em Journal of Bacteriology}, 196(15):2775--2788.
 
-\bibitem[Brackmann et~al., 2017]{Brackmann2017}
+\bibitem[Brackmann \emph{et~al.}, 2017]{Brackmann2017}
 Brackmann, M., Nazarov, S., Wang, J., and Basler, M. (2017).
 \newblock {Using Force to Punch Holes: Mechanics of Contractile Nanomachines}.
 \newblock {\em Trends in Cell Biology}, 27(9):623--632.
 
-\bibitem[Brillard et~al., 2002]{Brillard2002b}
+\bibitem[Brillard \emph{et~al.}, 2002]{Brillard2002b}
 Brillard, J., Duchaud, E., Boemare, N., Kunst, F., and Givaudan, A. (2002).
 \newblock {The PhlA Hemolysin from the Entomopathogenic Bacterium Photorhabdus
   luminescens Belongs to the Two-Partner Secretion Family of Hemolysins}.
 \newblock {\em JOURNAL OF BACTERIOLOGY}, 184(14):3871--3878.
 
-\bibitem[Browning et~al., 2012]{Browning2012}
+\bibitem[Browning \emph{et~al.}, 2012]{Browning2012}
 Browning, C., Shneider, M.~M., Bowman, V.~D., Schwarzer, D., and Leiman, P.~G.
   (2012).
 \newblock {Phage pierces the host cell membrane with the iron-loaded spike}.
 \newblock {\em Structure}, 20(2):326--339.
 
-\bibitem[Brunet et~al., 2013]{Brunet2013}
+\bibitem[Brunet \emph{et~al.}, 2013]{Brunet2013}
 Brunet, Y.~R., Espinosa, L., Harchouni, S., Mignot, T., and Cascales, E.
   (2013).
 \newblock {Imaging Type VI Secretion-Mediated Bacterial Killing}.
 \newblock {\em Cell Reports}, 3(1):36--41.
 
-\bibitem[Buetow et~al., 2001]{Buetow2001}
+\bibitem[Buetow \emph{et~al.}, 2001]{Buetow2001}
 Buetow, L., Flatau, G., Chiu, K., Boquet, P., and Ghosh, P. (2001).
 \newblock {Structure of the Rho- activating domain of Escherichia coli
   cytotoxic necrotizing factor 1}.
 \newblock {\em Nature structural biology}, 8(7):584--588.
 
-\bibitem[Bundock et~al., 1995]{Bundock1995}
+\bibitem[Bundock \emph{et~al.}, 1995]{Bundock1995}
 Bundock, P., den Dulk-Ras, A., Beijersbergen, A., and Hooykaas, P.~J. (1995).
 \newblock {Trans-kingdom T-DNA transfer from Agrobacterium tumefaciens to
   Saccharomyces cerevisiae}.
 \newblock {\em Embo J}, 14(13):3206--3214.
 
-\bibitem[Burmeister et~al., 2004]{Burmeister2004}
+\bibitem[Burmeister \emph{et~al.}, 2004]{Burmeister2004}
 Burmeister, W.~P., Guilligay, D., and Cusack, S. (2004).
 \newblock {Crystal Structure of Species D Adenovirus Fiber Knobs and Their
   Sialic Acid Binding Sites Crystal Structure of Species D Adenovirus Fiber
   Knobs and Their Sialic Acid Binding Sites}.
 \newblock {\em Journal of Virology}, 78(14):7727--7736.
 
-\bibitem[C{\'{a}}rcamo-Oyarce et~al., 2015]{Carcamo-Oyarce2015}
+\bibitem[C{\'{a}}rcamo-Oyarce \emph{et~al.}, 2015]{Carcamo-Oyarce2015}
 C{\'{a}}rcamo-Oyarce, G., Lumjiaktase, P., K{\"{u}}mmerli, R., and Eberl, L.
   (2015).
 \newblock {Quorum sensing triggers the stochastic escape of individual cells
   from Pseudomonas putida biofilms}.
 \newblock {\em Nature Communications}, 6(May 2014).
 
-\bibitem[Cardarelli et~al., 2010]{Cardarelli2010}
+\bibitem[Cardarelli \emph{et~al.}, 2010]{Cardarelli2010}
 Cardarelli, L., Lam, R., Tuite, A., Baker, L.~A., Sadowski, P.~D., Radford,
   D.~R., Rubinstein, J.~L., Battaile, K.~P., Chirgadze, N., Maxwell, K.~L., and
   Davidson, A.~R. (2010).
@@ -350,7 +350,7 @@ Cardarelli, L., Lam, R., Tuite, A., Baker, L.~A., Sadowski, P.~D., Radford,
   Family of Head-Tail Connector Proteins}.
 \newblock {\em Journal of Molecular Biology}, 395(4):754--768.
 
-\bibitem[Carri{\c{c}}o et~al., 2006]{Carrico2006}
+\bibitem[Carri{\c{c}}o \emph{et~al.}, 2006]{Carrico2006}
 Carri{\c{c}}o, J.~A., Silva-Costa, C., Melo-Cristino, J., Pinto, F.~R., {De
   Lencastre}, H., Almeida, J.~S., and Ramirez, M. (2006).
 \newblock {Illustration of a common framework for relating multiple typing
@@ -363,7 +363,7 @@ Cascales, E. and Cambillau, C. (2012).
 \newblock {\em Philosophical transactions of the Royal Society of London.
   Series B, Biological sciences}, 367(1592):1102--11.
 
-\bibitem[Chaban et~al., 2015]{Chaban2015}
+\bibitem[Chaban \emph{et~al.}, 2015]{Chaban2015}
 Chaban, Y., Lurz, R., Brasil{\`{e}}s, S., Cornilleau, C., Karreman, M.,
   Zinn-Justin, S., Tavares, P., and Orlova, E.~V. (2015).
 \newblock {Structural rearrangements in the phage head-to-tail interface during
@@ -376,25 +376,25 @@ Challinor, V.~L. and Bode, H.~B. (2015).
 \newblock {Bioactive natural products from novel microbial sources}.
 \newblock {\em Annals of the New York Academy of Sciences}, 1354(1):82--97.
 
-\bibitem[Chang et~al., 2014]{Chang2014a}
+\bibitem[Chang \emph{et~al.}, 2014]{Chang2014a}
 Chang, J.~H., Desveaux, D., and Creason, A.~L. (2014).
 \newblock {The ABCs and 123s of Bacterial Secretion Systems in Plant
   Pathogenesis}.
 \newblock {\em Annual Review of Phytopathology}, 52(1):317--345.
 
-\bibitem[Chang et~al., 2017]{Chang2017}
+\bibitem[Chang \emph{et~al.}, 2017]{Chang2017}
 Chang, Y., Rettberg, L.~A., Ortega, D.~R., and Jensen, G.~J. (2017).
 \newblock {{\textless}i{\textgreater}In vivo{\textless}/i{\textgreater}
   structures of an intact type VI secretion system revealed by electron
   cryotomography}.
 \newblock {\em EMBO reports}, 18(7):1090--1099.
 
-\bibitem[Charlop-Powers et~al., 2014]{Charlop-Powers2014}
+\bibitem[Charlop-Powers \emph{et~al.}, 2014]{Charlop-Powers2014}
 Charlop-Powers, Z., Milshteyn, A., and Brady, S.~F. (2014).
 \newblock {Metagenomic small molecule discovery methods}.
 \newblock {\em Current Opinion in Microbiology}, 19(1):70--75.
 
-\bibitem[Chaston et~al., 2011]{Chaston2011}
+\bibitem[Chaston \emph{et~al.}, 2011]{Chaston2011}
 Chaston, J.~M., Suen, G., Tucker, S.~L., Andersen, A.~W., Bhasin, A., Bode, E.,
   Bode, H.~B., Brachmann, A.~O., Cowles, C.~E., Cowles, K.~N., Darby, C.,
   de~L{\'{e}}on, L., Drace, K., Du, Z., Givaudan, A., {Herbert Tran}, E.~E.,
@@ -410,13 +410,22 @@ Chaston, J.~M., Suen, G., Tucker, S.~L., Andersen, A.~W., Bhasin, A., Bode, E.,
   Photorhabdus: Convergent Lifestyles from Divergent Genomes}.
 \newblock {\em PLoS ONE}, 6(11).
 
+\bibitem[Chatnaparat \emph{et~al.}, 2015]{Chatnaparat2015}
+Chatnaparat, T., Li, Z., Korban, S.~S., and Zhao, Y. (2015).
+\newblock {The Stringent Response Mediated by (p)ppGpp Is Required for
+  Virulence of {\textless}i{\textgreater}Pseudomonas
+  syringae{\textless}/i{\textgreater} pv.
+  {\textless}i{\textgreater}tomato{\textless}/i{\textgreater} and Its Survival
+  on Tomato}.
+\newblock {\em Molecular Plant-Microbe Interactions}, 28(7):776--789.
+
 \bibitem[Chatterjee and Rothenberg, 2012]{Chatterjee2012}
 Chatterjee, S. and Rothenberg, E. (2012).
 \newblock {Interaction of bacteriophage $\lambda$ with Its E. coli receptor,
   LamB}.
 \newblock {\em Viruses}, 4(11):3162--3178.
 
-\bibitem[Chattopadhyay et~al., 2012]{Chattopadhyay2012}
+\bibitem[Chattopadhyay \emph{et~al.}, 2012]{Chattopadhyay2012}
 Chattopadhyay, P., Chatterjee, S., Gorthi, S., and Sen, S.~K. (2012).
 \newblock {Exploring Agricultural Potentiality of Serratia entomophila AB 2 :
   Dual Property of Biopesticide and Biofertilizer}.
@@ -428,14 +437,14 @@ Chothia, C. and Lesk, A.~M. (1986).
   proteins.}
 \newblock {\em The EMBO journal}, 5(4):823--6.
 
-\bibitem[Christie et~al., 2005]{Christie2005}
+\bibitem[Christie \emph{et~al.}, 2005]{Christie2005}
 Christie, P.~J., Atmakuri, K., Krishnamoorthy, V., Jakubowski, S., and
   Cascales, E. (2005).
 \newblock {Biogenesis, Architecture, and Function of Bacterial Type IV
   Secretion Systems}.
 \newblock {\em Annual review Microbiogy}, 59(29).
 
-\bibitem[Chung et~al., 2007]{Chung2007}
+\bibitem[Chung \emph{et~al.}, 2007]{Chung2007}
 Chung, T.~H., Wu, S.~H., Yao, M., Lu, C.~W., Lin, Y.~S., Hung, Y., Mou, C.~Y.,
   Chen, Y.~C., and Huang, D.~M. (2007).
 \newblock {The effect of surface charge on the uptake and biological function
@@ -443,7 +452,7 @@ Chung, T.~H., Wu, S.~H., Yao, M., Lu, C.~W., Lin, Y.~S., Hung, Y., Mou, C.~Y.,
   cells}.
 \newblock {\em Biomaterials}, 28(19):2959--2966.
 
-\bibitem[Cianfanelli et~al., 2016]{Cianfanelli2016}
+\bibitem[Cianfanelli \emph{et~al.}, 2016]{Cianfanelli2016}
 Cianfanelli, F.~R., {Alcoforado Diniz}, J., Guo, M., {De Cesare}, V., Trost,
   M., and Coulthurst, S.~J. (2016).
 \newblock {VgrG and PAAR Proteins Define Distinct Versions of a Functional Type
@@ -461,7 +470,7 @@ Clarke, D.~J. and Joyce, S.~A. (2008).
 \newblock {Photorhabdus: Shedding Light on Symbioses}.
 \newblock {\em Microbiology Today}, pages 1--4.
 
-\bibitem[Clemens et~al., 2015]{Clemens2015}
+\bibitem[Clemens \emph{et~al.}, 2015]{Clemens2015}
 Clemens, D.~L., Ge, P., Horwitz, M.~A., Zhou, Z.~H., Clemens, D.~L., Ge, P.,
   Lee, B.-y., Horwitz, M.~A., and Zhou, Z.~H. (2015).
 \newblock {Atomic Structure of T6SS Reveals Interlaced Array Essential to
@@ -469,7 +478,7 @@ Clemens, D.~L., Ge, P., Horwitz, M.~A., Zhou, Z.~H., Clemens, D.~L., Ge, P.,
   to Function}.
 \newblock {\em Cell}, 160(5):940--951.
 
-\bibitem[Clokie et~al., 2011]{Clokie2011}
+\bibitem[Clokie \emph{et~al.}, 2011]{Clokie2011}
 Clokie, M.~R., Millard, A.~D., Letarov, A.~V., and Heaphy, S. (2011).
 \newblock {Phages in nature}.
 \newblock {\em Bacteriophage}, 1(1):31--45.
@@ -481,7 +490,7 @@ Coca-Abia, M.~M. and Romero-Samper, J. (2016).
   Zealand grass grub}.
 \newblock {\em New Zealand Entomologist}, 39(2):129--146.
 
-\bibitem[Cock et~al., 2009]{Cock2009}
+\bibitem[Cock \emph{et~al.}, 2009]{Cock2009}
 Cock, P.~J., Antao, T., Chang, J.~T., Chapman, B.~A., Cox, C.~J., Dalke, A.,
   Friedberg, I., Hamelryck, T., Kauff, F., Wilczynski, B., and {De Hoon}, M.~J.
   (2009).
@@ -489,7 +498,7 @@ Cock, P.~J., Antao, T., Chang, J.~T., Chapman, B.~A., Cox, C.~J., Dalke, A.,
   biology and bioinformatics}.
 \newblock {\em Bioinformatics}, 25(11):1422--1423.
 
-\bibitem[Coetzee et~al., 1968]{Coetzee1968}
+\bibitem[Coetzee \emph{et~al.}, 1968]{Coetzee1968}
 Coetzee, H.~L., {De Klerk}, H.~C., Coetzee, J.~N., and Smit, J.~A. (1968).
 \newblock {Bacteriophage-tail-like particles associated with intra-species
   killing of Proteus vulgaris.}
@@ -501,7 +510,7 @@ Compton, L.~a. and Johnson, W.~C. (1986).
   structure using a simple matrix multiplication.}
 \newblock {\em Analytical biochemistry}, 155(1):155--167.
 
-\bibitem[Connor et~al., 2016]{Connor2016}
+\bibitem[Connor \emph{et~al.}, 2016]{Connor2016}
 Connor, T.~R., Loman, N.~J., Thompson, S., Smith, A., Southgate, J., Poplawski,
   R., Bull, M.~J., Richardson, E., Ismail, M., Elwood-Thompson, S., Kitchen,
   C., Guest, M., Bakke, M., Sheppard, S.~K., and Pallen, M.~J. (2016).
@@ -509,14 +518,14 @@ Connor, T.~R., Loman, N.~J., Thompson, S., Smith, A., Southgate, J., Poplawski,
   online resource for the medical microbiology community}.
 \newblock {\em bioRxiv}, 2(July 2016):064451.
 
-\bibitem[Costa et~al., 2015]{Costa2015}
+\bibitem[Costa \emph{et~al.}, 2015]{Costa2015}
 Costa, T. R.~D., Felisberto-Rodrigues, C., Meir, A., Prevost, M.~S., Redzej,
   A., Trokter, M., and Waksman, G. (2015).
 \newblock {Secretion systems in Gram-negative bacteria: structural and
   mechanistic insights}.
 \newblock {\em Nature Reviews Microbiology}, 13(6):343--359.
 
-\bibitem[Daborn et~al., 2001]{Daborn2001a}
+\bibitem[Daborn \emph{et~al.}, 2001]{Daborn2001a}
 Daborn, P.~J., Waterfield, N., Blight, M.~A., and Ffrench-constant, R.~H.
   (2001).
 \newblock {Measuring Virulence Factor Expression by the Pathogenic Bacterium
@@ -525,7 +534,7 @@ Daborn, P.~J., Waterfield, N., Blight, M.~A., and Ffrench-constant, R.~H.
   luminescens in Culture and during Insect Infec}.
 \newblock {\em Journal of Bacteriology}, 183(20):5834--5839.
 
-\bibitem[Dalal et~al., 1997]{Dalal1997}
+\bibitem[Dalal \emph{et~al.}, 1997]{Dalal1997}
 Dalal, S., Balasubramanian, S., and Regan, L. (1997).
 \newblock {Transmuting $\alpha$ helices and $\beta$ sheets}.
 \newblock {\em Folding and Design}, 2(5):R71--R79.
@@ -536,12 +545,12 @@ Dalbey, R.~E. and Kuhn, A. (2012).
   secreted proteins find their way}.
 \newblock {\em FEMS Microbiology Reviews}, 36(6):1023--1045.
 
-\bibitem[Dalebroux et~al., 2010]{Dalebroux2010}
+\bibitem[Dalebroux \emph{et~al.}, 2010]{Dalebroux2010}
 Dalebroux, Z.~D., Svensson, S.~L., Gaynor, E.~C., and Swanson, M.~S. (2010).
 \newblock {ppGpp Conjures Bacterial Virulence}.
 \newblock {\em Microbiology and Molecular Biology Reviews}, 74(2):171--199.
 
-\bibitem[Darling et~al., 2010]{Darling2010}
+\bibitem[Darling \emph{et~al.}, 2010]{Darling2010}
 Darling, A.~E., Mau, B., and Perna, N.~T. (2010).
 \newblock {Progressivemauve: Multiple genome alignment with gene gain, loss and
   rearrangement}.
@@ -554,7 +563,7 @@ Datsenko, K.~a. and Wanner, B.~L. (2000).
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 97(12):6640--5.
 
-\bibitem[{Del Tordello} et~al., 2016]{DelTordello2016}
+\bibitem[{Del Tordello} \emph{et~al.}, 2016]{DelTordello2016}
 {Del Tordello}, E., Danilchanka, O., McCluskey, A.~J., and Mekalanos, J.~J.
   (2016).
 \newblock {Type VI secretion system sheaths as nanoparticles for antigen
@@ -568,18 +577,18 @@ Delepelaire, P. (2004).
 \newblock {\em Biochimica et Biophysica Acta - Molecular Cell Research},
   1694(1-3 SPEC.ISS.):149--161.
 
-\bibitem[Delva et~al., 2009]{Delva2009}
+\bibitem[Delva \emph{et~al.}, 2009]{Delva2009}
 Delva, E., Tucker, D.~K., and Kowalczyk, A.~P. (2009).
 \newblock {The desmosome}.
 \newblock {\em Cold Spring Harb.Perspect.Biol}, 1(1943-0264
   (Electronic)):a002543.
 
-\bibitem[Desmyter et~al., 2015]{Desmyter2015}
+\bibitem[Desmyter \emph{et~al.}, 2015]{Desmyter2015}
 Desmyter, A., Spinelli, S., Roussel, A., and Cambillau, C. (2015).
 \newblock {Camelid nanobodies: Killing two birds with one stone}.
 \newblock {\em Current Opinion in Structural Biology}, 32:1--8.
 
-\bibitem[Desvaux et~al., 2009]{Desvaux2009}
+\bibitem[Desvaux \emph{et~al.}, 2009]{Desvaux2009}
 Desvaux, M., H{\'{e}}braud, M., Talon, R., and Henderson, I.~R. (2009).
 \newblock {Secretion and subcellular localizations of bacterial proteins: a
   semantic awareness issue}.
@@ -591,14 +600,14 @@ D'H{\'{e}}relle, F. (1917).
   bacillus}.
 \newblock {\em Comptesrendus Acad. Sciences,}, 165:373--375.
 
-\bibitem[Dodd et~al., 2006]{Dodd2006a}
+\bibitem[Dodd \emph{et~al.}, 2006]{Dodd2006a}
 Dodd, S.~J., Hurst, M. R.~H., Glare, T.~R., O'Callaghan, M., and Ronson, C.~W.
   (2006).
 \newblock {Occurrence of sep insecticidal toxin complex genes in Serratia spp.
   and Yersinia frederiksenii}.
 \newblock {\em Applied and Environmental Microbiology}, 72(10):6584--6592.
 
-\bibitem[Dong et~al., 2007]{Dong2007a}
+\bibitem[Dong \emph{et~al.}, 2007]{Dong2007a}
 Dong, A., Xu, X., Edwards, A.~M., Chang, C., Chruszcz, M., Cuff, M.,
   Cymborowski, M., {Di Leo}, R., Egorova, O., Evdokimova, E., Filippova, E.,
   Gu, J., Guthrie, J., Ignatchenko, A., Joachimiak, A., Klostermann, N., Kim,
@@ -615,20 +624,20 @@ Dong, A., Xu, X., Edwards, A.~M., Chang, C., Chruszcz, M., Cuff, M.,
   determination}.
 \newblock {\em Nature Methods}, 4(12):1019--1021.
 
-\bibitem[Douzi et~al., 2016]{Douzi2016}
+\bibitem[Douzi \emph{et~al.}, 2016]{Douzi2016}
 Douzi, B., Brunet, Y.~R., Spinelli, S., Lensi, V., Legrand, P., Blangy, S.,
   Kumar, A., Journet, L., Cascales, E., and Cambillau, C. (2016).
 \newblock {Structure and specificity of the Type VI secretion system ClpV-TssC
   interaction in enteroaggregative Escherichia coli}.
 \newblock {\em Scientific Reports}, 6(October):1--13.
 
-\bibitem[Douzi et~al., 2012]{Douzi2012}
+\bibitem[Douzi \emph{et~al.}, 2012]{Douzi2012}
 Douzi, B., Filloux, A., and Voulhoux, R. (2012).
 \newblock {On the path to uncover the bacterial type II secretion system}.
 \newblock {\em Philosophical Transactions of the Royal Society B: Biological
   Sciences}, 367(1592):1059--1072.
 
-\bibitem[Downing et~al., 2005]{Downing2005}
+\bibitem[Downing \emph{et~al.}, 2005]{Downing2005}
 Downing, K.~J., Mischenko, V.~V., Shleeva, M.~O., Young, D.~I., Young, M.,
   Kaprelyants, A.~S., Apt, A.~S., and Mizrahi, V. (2005).
 \newblock {Mutants of Mycobacterium tuberculosis Lacking Three of the Five
@@ -636,7 +645,7 @@ Downing, K.~J., Mischenko, V.~V., Shleeva, M.~O., Young, D.~I., Young, M.,
   Vitro}.
 \newblock {\em Society}, 73(5):3038--3043.
 
-\bibitem[Duchaud et~al., 2003]{Duchaud2003}
+\bibitem[Duchaud \emph{et~al.}, 2003]{Duchaud2003}
 Duchaud, E., Rusniok, C., Frangeul, L., Buchrieser, C., Givaudan, A., Taourit,
   S., Bocs, S., Boursaux-Eude, C., Chandler, M., Charles, J., Dassa, E.,
   Derose, R., Derzelle, S., Freyssinet, G., Gaudriault, S., M{\'{e}}digue, C.,
@@ -646,12 +655,12 @@ Duchaud, E., Rusniok, C., Frangeul, L., Buchrieser, C., Givaudan, A., Taourit,
   luminescens.}
 \newblock {\em Nature Biotechnology}, 21(11):1307--13.
 
-\bibitem[Dunwell et~al., 2004]{Dunwell2004}
+\bibitem[Dunwell \emph{et~al.}, 2004]{Dunwell2004}
 Dunwell, J.~M., Purvis, A., and Khuri, S. (2004).
 \newblock {Cupins: The most functionally diverse protein superfamily?}
 \newblock {\em Phytochemistry}, 65(1):7--17.
 
-\bibitem[Durand et~al., 2015]{Durand2015}
+\bibitem[Durand \emph{et~al.}, 2015]{Durand2015}
 Durand, E., Nguyen, V.~S., Zoued, A., Logger, L., P{\'{e}}hau-Arnaudet, G.,
   Aschtgen, M.-S., Spinelli, S., Desmyter, A., Bardiaux, B., Dujeancourt, A.,
   Roussel, A., Cambillau, C., Cascales, E., and Fronzes, R. (2015).
@@ -668,13 +677,13 @@ Eddy, S.~R. (2004).
 \newblock {What is a hidden Markov model?}
 \newblock {\em Nature Biotechnology}, 22(10):1315--1316.
 
-\bibitem[Eleftherianos et~al., 2010]{Eleftherianos2010}
+\bibitem[Eleftherianos \emph{et~al.}, 2010]{Eleftherianos2010}
 Eleftherianos, I., Ffrench-Constant, R.~H., Clarke, D.~J., Dowling, A.~J., and
   Reynolds, S.~E. (2010).
 \newblock {Dissecting the immune response to the entomopathogen Photorhabdus.}
 \newblock {\em Trends in microbiology}, 18(12):552--60.
 
-\bibitem[English et~al., 2014]{English2014}
+\bibitem[English \emph{et~al.}, 2014]{English2014}
 English, G., Byron, O., Cianfanelli, F., Prescott, A., and Coulthurst, S.
   (2014).
 \newblock {Biochemical analysis of TssK, a core component of the bacterial
@@ -682,7 +691,7 @@ English, G., Byron, O., Cianfanelli, F., Prescott, A., and Coulthurst, S.
   identifies a TssK–TssFG subcomplex}.
 \newblock {\em Biochemical Journal}, 461(2):291--304.
 
-\bibitem[English et~al., 2012]{English2012}
+\bibitem[English \emph{et~al.}, 2012]{English2012}
 English, G., Trunk, K., Rao, V.~A., Srikannathasan, V., Hunter, W.~N., and
   Coulthurst, S.~J. (2012).
 \newblock {New secreted toxins and immunity proteins encoded within the type VI
@@ -696,7 +705,7 @@ Erzberger, J.~P. and Berger, J.~M. (2006).
 \newblock {\em Annual Review of Biophysics and Biomolecular Structure},
   35(1):93--114.
 
-\bibitem[Farmer et~al., 1989]{Farmer1989}
+\bibitem[Farmer \emph{et~al.}, 1989]{Farmer1989}
 Farmer, J.~J., Jorgensen, J.~H., Grimont, P.~A., Akhurst, R.~J., Poinar, G.~O.,
   Ageron, E., Pierce, G.~V., Smith, J.~A., Carter, G.~P., and Wilson, K.~L.
   (1989).
@@ -704,7 +713,7 @@ Farmer, J.~J., Jorgensen, J.~H., Grimont, P.~A., Akhurst, R.~J., Poinar, G.~O.,
   clinical specimens.}
 \newblock {\em Journal of clinical microbiology}, 27(7):1594--600.
 
-\bibitem[Felisberto-Rodrigues et~al., 2011]{Felisberto-Rodrigues2011}
+\bibitem[Felisberto-Rodrigues \emph{et~al.}, 2011]{Felisberto-Rodrigues2011}
 Felisberto-Rodrigues, C., Durand, E., Aschtgen, M.~S., Blangy, S.,
   Ortiz-Lombardia, M., Douzi, B., Cambillau, C., and Cascales, E. (2011).
 \newblock {Towards a structural comprehension of bacterial type vi secretion
@@ -718,7 +727,7 @@ Ffrench-Constant, R.~H. and Dowling, A.~J. (2014).
 \newblock In {\em Advances in Insect Physiology}, volume~47, pages 343--388.
   Elsevier Ltd., 1 edition.
 
-\bibitem[Ffrench-Constant et~al., 2003]{Ffrench-Constant2003}
+\bibitem[Ffrench-Constant \emph{et~al.}, 2003]{Ffrench-Constant2003}
 Ffrench-Constant, R.~H., Waterfield, N., Daborn, P., Joyce, S., Bennett, H.,
   Au, C., Dowling, A., Boundy, S., Reynolds, S., and Clarke, D. (2003).
 \newblock {Photorhabdus: Towards a functional genomic analysis of a symbiont
@@ -730,20 +739,20 @@ Flower, D.~R. (1996).
 \newblock {The lipocalin protein family: structure and function.}
 \newblock {\em The Biochemical journal}, 318 ( Pt 1:1--14.
 
-\bibitem[Fokine et~al., 2004]{Fokine2004}
+\bibitem[Fokine \emph{et~al.}, 2004]{Fokine2004}
 Fokine, A., Chipman, P.~R., Leiman, P.~G., Mesyanzhinov, V.~V., Rao, V.~B., and
   Rossmann, M.~G. (2004).
 \newblock {Molecular architecture of the prolate head of bacteriophage T4}.
 \newblock {\em Proceedings of the National Academy of Sciences},
   101(16):6003--6008.
 
-\bibitem[Fokine et~al., 2013]{Fokine2013}
+\bibitem[Fokine \emph{et~al.}, 2013]{Fokine2013}
 Fokine, A., Zhang, Z., Kanamaru, S., Bowman, V.~D., Aksyuk, A.~A., and Arisaka,
   F. (2013).
 \newblock {The Molecular Architecture of the Bacteriophage T4 Neck}.
 \newblock {\em Journal of Molecular Biology}, 425(10):1731--1744.
 
-\bibitem[Forster et~al., 2014]{Forster2014}
+\bibitem[Forster \emph{et~al.}, 2014]{Forster2014}
 Forster, a., Planamente, S., Manoli, E., Lossi, N.~S., Freemont, P.~S., and
   Filloux, a. (2014).
 \newblock {Coevolution of the ATPase ClpV, the Sheath Proteins TssB and TssC,
@@ -756,35 +765,28 @@ Frickey, T. and Lupas, A.~N. (2004).
 \newblock {Phylogenetic analysis of AAA proteins}.
 \newblock {\em Journal of Structural Biology}, 146(1-2):2--10.
 
-\bibitem[Gaggar et~al., 2003]{Gaggar2003}
+\bibitem[Gaggar \emph{et~al.}, 2003]{Gaggar2003}
 Gaggar, A., Shayakhmetov, D.~M., and Lieber, A. (2003).
 \newblock {CD46 is a cellular receptor for group B adenoviruses}.
 \newblock {\em Nature Medicine}, 9(11):1408--1412.
 
-\bibitem[Garc{\'{i}}a et~al., 2004]{Garcia2004}
+\bibitem[Garc{\'{i}}a \emph{et~al.}, 2004]{Garcia2004}
 Garc{\'{i}}a, B., Olivera, E.~R., Sandoval, {\'{A}}., Arias-Barrau, E., Arias,
   S., Naharro, G., and Luengo, J.~M. (2004).
 \newblock {Strategy for cloning large gene assemblages as illustrated using the
   phenylacetate and polyhydroxyalkanoate gene clusters}.
 \newblock {\em Applied and Environmental Microbiology}, 70(8):5019--5025.
 
-\bibitem[Garc{\'{i}}a-Alcalde et~al., 2012]{Garcia-Alcalde2012}
+\bibitem[Garc{\'{i}}a-Alcalde \emph{et~al.}, 2012]{Garcia-Alcalde2012}
 Garc{\'{i}}a-Alcalde, F., Okonechnikov, K., Carbonell, J., Cruz, L.~M.,
   G{\"{o}}tz, S., Tarazona, S., Dopazo, J., Meyer, T.~F., and Conesa, A.
   (2012).
 \newblock {Qualimap: Evaluating next-generation sequencing alignment data}.
 \newblock {\em Bioinformatics}, 28(20):2678--2679.
 
-\bibitem[Ge et~al., 2015a]{Ge2015}
+\bibitem[Ge \emph{et~al.}, 2015]{Ge2015}
 Ge, P., Scholl, D., Leiman, P.~G., Yu, X., Miller, J.~F., and Zhou, Z.~H.
-  (2015a).
-\newblock {Atomic structures of a bactericidal contractile nanotube in its pre-
-  and postcontraction states}.
-\newblock {\em Nat Struct Mol Biol}, 22(5):377--382.
-
-\bibitem[Ge et~al., 2015b]{Ge2015a}
-Ge, P., Scholl, D., Leiman, P.~G., Yu, X., Miller, J.~F., and Zhou, Z.~H.
-  (2015b).
+  (2015).
 \newblock {Atomic structures of a bactericidal contractile nanotube in its pre-
   and postcontraction states}.
 \newblock {\em Nat Struct Mol Biol}, 22(5):377--382.
@@ -795,7 +797,7 @@ Gerlach, R.~G. and Hensel, M. (2007).
   Gram-negative pathogens}.
 \newblock {\em International Journal of Medical Microbiology}, 297(6):401--415.
 
-\bibitem[Gerrard et~al., 2003]{Gerrard2003}
+\bibitem[Gerrard \emph{et~al.}, 2003]{Gerrard2003}
 Gerrard, J.~G., Mcnevin, S., Alfredson, D., Forgan-smith, R., and Fraser, N.
   (2003).
 \newblock {Photorhabdus Species: Bioluminescent Bacteria as Emerging Human
@@ -807,20 +809,20 @@ Ghequire, M. G.~K. and {De Mot}, R. (2015).
 \newblock {The Tailocin Tale: Peeling off Phage Tails}.
 \newblock {\em Trends in Microbiology}, 23(10):587--590.
 
-\bibitem[Giacalone et~al., 2006]{Giacalone2006}
+\bibitem[Giacalone \emph{et~al.}, 2006]{Giacalone2006}
 Giacalone, M.~J., Gentile, A.~M., Lovitt, B.~T., Berkley, N.~L., Gunderson,
   C.~W., and Surber, M.~W. (2006).
 \newblock {Toxic protein expression in Escherichia coli using a rhamnose-based
   tightly regulated and tunable promoter system}.
 \newblock {\em BioTechniques}, 40(3):355--364.
 
-\bibitem[Gibbs et~al., 2008]{Gibbs2008}
+\bibitem[Gibbs \emph{et~al.}, 2008]{Gibbs2008}
 Gibbs, K.~A., Urbanowski, M.~L., and Greenberg, E.~P. (2008).
 \newblock {Genetic Determinants of Self Identity and Social Recognition in
   Bacteria}.
 \newblock {\em Science}, 321(5886):256--259.
 
-\bibitem[Gibson et~al., 2010]{Gibson2010c}
+\bibitem[Gibson \emph{et~al.}, 2010]{Gibson2010c}
 Gibson, D.~G., Glass, J.~I., Lartigue, C., Noskov, V.~N., Chuang, R.-Y.,
   Algire, M.~A., Benders, G.~A., Montague, M.~G., Ma, L., Moodie, M.~M.,
   Merryman, C., Vashee, S., Krishnakumar, R., Assad-Garcia, N.,
@@ -831,7 +833,7 @@ Gibson, D.~G., Glass, J.~I., Lartigue, C., Noskov, V.~N., Chuang, R.-Y.,
   genome}.
 \newblock {\em Science (New York, N.Y.)}, 329(5987):52--56.
 
-\bibitem[Gibson et~al., 2009]{Gibson2009a}
+\bibitem[Gibson \emph{et~al.}, 2009]{Gibson2009a}
 Gibson, D.~G., Young, L., Chuang, R.~Y., Venter, J.~C., Hutchison, C.~A., and
   Smith, H.~O. (2009).
 \newblock {Enzymatic assembly of DNA molecules up to several hundred
@@ -843,7 +845,7 @@ Glover, D.~M. (1995).
 \newblock {\em {DNA Cloning: A practical approach}}.
 \newblock IRL Press, Oxford.
 
-\bibitem[Goddard et~al., 2018]{Goddard2018}
+\bibitem[Goddard \emph{et~al.}, 2018]{Goddard2018}
 Goddard, T.~D., Huang, C.~C., Meng, E.~C., Pettersen, E.~F., Couch, G.~S.,
   Morris, J.~H., and Ferrin, T.~E. (2018).
 \newblock {UCSF ChimeraX: Meeting modern challenges in visualization and
@@ -851,26 +853,26 @@ Goddard, T.~D., Huang, C.~C., Meng, E.~C., Pettersen, E.~F., Couch, G.~S.,
 \newblock {\em Protein science : a publication of the Protein Society},
   27(1):14--25.
 
-\bibitem[Goldberg et~al., 1997]{Goldberg1997}
+\bibitem[Goldberg \emph{et~al.}, 1997]{Goldberg1997}
 Goldberg, E., Tsugita, A., Matsui, T., Griniuviene, B., Tanaka, N., and
   Arisaka, F. (1997).
 \newblock {Isolation and Characterization of a Molecular Chaperone , gp57A , of
   Bacteriophage T4}.
 \newblock {\em Journal of Bacteriology}, 179(6):1846--1851.
 
-\bibitem[Goodson et~al., 2017]{Goodson2017}
+\bibitem[Goodson \emph{et~al.}, 2017]{Goodson2017}
 Goodson, J.~R., Klupt, S., Zhang, C., Straight, P., and Winkler, W.~C. (2017).
 \newblock {LoaP is a broadly conserved antiterminator protein that regulates
   antibiotic gene clusters in Bacillus amyloliquefaciens}.
 \newblock {\em Nature Microbiology}, 2(February):1--10.
 
-\bibitem[Goulet et~al., 2004]{Goulet2004}
+\bibitem[Goulet \emph{et~al.}, 2004]{Goulet2004}
 Goulet, V., Britigan, B., Nakayama, K., and Grenier, D. (2004).
 \newblock {Cleavage of human transferrin by Porphyromonas gingivalis gingipains
   promotes growth and formation of hydroxyl radicals}.
 \newblock {\em Infection and Immunity}, 72(8):4351--4356.
 
-\bibitem[Goyal et~al., 2014]{Goyal2014}
+\bibitem[Goyal \emph{et~al.}, 2014]{Goyal2014}
 Goyal, P., Krasteva, P.~V., {Van Gerven}, N., Gubellini, F., {Van Den Broeck},
   I., Troupiotis-Tsa{\"{i}}laki, A., Jonckheere, W., P{\'{e}}hau-Arnaudet, G.,
   Pinkner, J.~S., Chapman, M.~R., Hultgren, S.~J., Howorka, S., Fronzes, R.,
@@ -879,17 +881,9 @@ Goyal, P., Krasteva, P.~V., {Van Gerven}, N., Gubellini, F., {Van Den Broeck},
   secretion channel CsgG}.
 \newblock {\em Nature}, 516(7530):250--253.
 
-\bibitem[Granell et~al., 2014a]{Granell2014}
+\bibitem[Granell \emph{et~al.}, 2014]{Granell2014}
 Granell, M., Namura, M., Alvira, S., Garcia-Doval, C., Singh, A.~K., Gutsche,
-  I., {Van Raaij}, M.~J., and Kanamaru, S. (2014a).
-\newblock {Crystallization of the carboxy-terminal region of the bacteriophage
-  T4 proximal long tail fibre protein gp34}.
-\newblock {\em Acta Crystallographica Section F:Structural Biology
-  Communications}, 70(7):970--975.
-
-\bibitem[Granell et~al., 2014b]{Granell2014a}
-Granell, M., Namura, M., Alvira, S., Garcia-Doval, C., Singh, A.~K., Gutsche,
-  I., {Van Raaij}, M.~J., and Kanamaru, S. (2014b).
+  I., {Van Raaij}, M.~J., and Kanamaru, S. (2014).
 \newblock {Crystallization of the carboxy-terminal region of the bacteriophage
   T4 proximal long tail fibre protein gp34}.
 \newblock {\em Acta Crystallographica Section F:Structural Biology
@@ -900,14 +894,14 @@ Green, E.~R. and Mecsas, J. (2015).
 \newblock {Bacterial Secretion Systems – An overview}.
 \newblock {\em American society for Microbiology}, 4(1):1--32.
 
-\bibitem[Guardado-Calvo et~al., 2010]{Guardado-Calvo2010}
+\bibitem[Guardado-Calvo \emph{et~al.}, 2010]{Guardado-Calvo2010}
 Guardado-Calvo, P., Mu{\~{n}}oz, E.~M., Llamas-Saiz, A.~L., Fox, G.~C., Kahn,
   R., Curiel, D.~T., Glasgow, J.~N., and van Raaij, M.~J. (2010).
 \newblock {Crystallographic Structure of Porcine Adenovirus Type 4 Fiber Head
   and Galectin Domains}.
 \newblock {\em Journal of Virology}, 84(20):10558--10568.
 
-\bibitem[Guzman et~al., 1995]{Guzman1995}
+\bibitem[Guzman \emph{et~al.}, 1995]{Guzman1995}
 Guzman, L. L.-m.~M., Belin, D., Carson, M.~J., Beckwith, J., {LUZ-MARIA GUZMAN
   MICHAEL J. CARSON, AND JON BECKWITH}, D.~B., and {LUZ-MARIA GUZMAN MICHAEL J.
   CARSON, AND JON BECKWITH}, D.~B. (1995).
@@ -915,13 +909,13 @@ Guzman, L. L.-m.~M., Belin, D., Carson, M.~J., Beckwith, J., {LUZ-MARIA GUZMAN
   Containing the Arabinose PBAD Promoter}.
 \newblock {\em Journal of Bacteriology}, 177(14):4121--4130.
 
-\bibitem[Hachani et~al., 2014]{Hachani2014}
+\bibitem[Hachani \emph{et~al.}, 2014]{Hachani2014}
 Hachani, A., Allsopp, L.~P., Oduko, Y., and Filloux, A. (2014).
 \newblock {The VgrG proteins are "{\`{a}} la carte" delivery systems for
   bacterial type VI effectors}.
 \newblock {\em Journal of Biological Chemistry}, 289(25):17872--17884.
 
-\bibitem[Hachani et~al., 2011]{Hachani2011}
+\bibitem[Hachani \emph{et~al.}, 2011]{Hachani2011}
 Hachani, A., Lossi, N.~S., Hamilton, A., Jones, C., Bleves, S.,
   Albesa-Jov{\'{e}}, D., and Filloux, A. (2011).
 \newblock {Type VI secretion system in Pseudomonas aeruginosa: Secretion and
@@ -934,7 +928,7 @@ Hadfield, M.~G. (2011).
   Larvae Use to Choose Settlement Sites}.
 \newblock {\em Annual Review of Marine Science}, 3(1):453--470.
 
-\bibitem[Hainfeld et~al., 1999]{Hainfeld1999}
+\bibitem[Hainfeld \emph{et~al.}, 1999]{Hainfeld1999}
 Hainfeld, J.~F., Liu, W., Halsey, C.~M., Freimuth, P., and Powell, R.~D.
   (1999).
 \newblock {Ni-NTA-gold clusters target His-tagged proteins}.
@@ -945,7 +939,7 @@ Hanson, P.~I. and Whiteheart, S.~W. (2005).
 \newblock {AAA+ proteins: have engine, will work}.
 \newblock {\em Nature Reviews Molecular Cell Biology}, 6(7):519--529.
 
-\bibitem[Hashemolhosseini et~al., 1996]{Hashemolhosseini1996}
+\bibitem[Hashemolhosseini \emph{et~al.}, 1996]{Hashemolhosseini1996}
 Hashemolhosseini, S., Stierhof, Y.~D., Hindennach, I., and Henning, U. (1996).
 \newblock {Characterization of the helper proteins for the assembly of tail
   fibers of coliphages T4 and $\lambda$}.
@@ -957,7 +951,7 @@ Hazan, R. and Engelberg-Kulka, H. (2004).
   that inhibits the spread of phage P1}.
 \newblock {\em Molecular Genetics and Genomics}, 272(2):227--234.
 
-\bibitem[Hedges et~al., 2008]{Hedges2008}
+\bibitem[Hedges \emph{et~al.}, 2008]{Hedges2008}
 Hedges, L.~M., Brownlie, J.~C., O'Neill, S.~L., and Johnson, K.~N. (2008).
 \newblock {Wolbachia and virus protection in insects}.
 \newblock {\em Science}, 322(5902):702.
@@ -968,20 +962,20 @@ Heger, A. and Holm, L. (2000).
   sequences}.
 \newblock {\em Proteins: Structure, Function and Genetics}, 41(2):224--237.
 
-\bibitem[Heinrich et~al., 2016]{Heinrich2016}
+\bibitem[Heinrich \emph{et~al.}, 2016]{Heinrich2016}
 Heinrich, A.~K., Glaeser, A., Tobias, N.~J., Heermann, R., and Bode, H.~B.
   (2016).
 \newblock {Heterogeneous regulation of bacterial natural product biosynthesis
   via a novel transcription factor}.
 \newblock {\em Heliyon}, 2(11).
 
-\bibitem[Heo et~al., 2007]{Heo2007}
+\bibitem[Heo \emph{et~al.}, 2007]{Heo2007}
 Heo, Y.~J., Chung, I.~Y., Choi, K.~B., and Cho, Y.~H. (2007).
 \newblock {R-type pyocin is required for competitive growth advantage between
   Pseudomonas aeruginosa strains}.
 \newblock {\em Journal of Microbiology and Biotechnology}, 17(1):180--185.
 
-\bibitem[Heymann et~al., 2013]{Heymann2013}
+\bibitem[Heymann \emph{et~al.}, 2013]{Heymann2013}
 Heymann, J.~B., Bartho, J.~D., Rybakova, D., Venugopal, H.~P., Winkler, D.~C.,
   Sen, A., Hurst, M. R.~H., and Mitra, A.~K. (2013).
 \newblock {Three-dimensional structure of the toxin-delivery particle
@@ -993,7 +987,7 @@ Holm, L. and Sander, C. (1996).
 \newblock {Mapping the protein universe}.
 \newblock {\em Science}, 273(5275):595--602.
 
-\bibitem[Hood et~al., 2010]{Hood2010}
+\bibitem[Hood \emph{et~al.}, 2010]{Hood2010}
 Hood, R.~D., Singh, P., Hsu, F., G{\"{u}}vener, T., Carl, M.~A., Trinidad,
   R.~S., Silverman, J.~M., Ohlson, B.~B., Hicks, K.~G., Rachael, L., Li, M.,
   Schwarz, S., Wang, W.~Y., Merz, A.~J., David, R., and Mougous, J.~D. (2010).
@@ -1016,31 +1010,31 @@ Hu, K. and Webster, J.~M. (2000).
   mellonella{\textless}/i{\textgreater} larvae}.
 \newblock {\em FEMS Microbiology Letters}, 189(2):219--223.
 
-\bibitem[Huerta-Cepas et~al., 2016]{Huerta-Cepas2016a}
+\bibitem[Huerta-Cepas \emph{et~al.}, 2016]{Huerta-Cepas2016a}
 Huerta-Cepas, J., Serra, F., and Bork, P. (2016).
 \newblock {ETE 3: Reconstruction, Analysis, and Visualization of Phylogenomic
   Data}.
 \newblock {\em Molecular Biology and Evolution}, 33(6):1635--1638.
 
-\bibitem[Hurst et~al., 2011]{Hurst2011a}
+\bibitem[Hurst \emph{et~al.}, 2011]{Hurst2011a}
 Hurst, M.~R., Becher, S.~A., and O'Callaghan, M. (2011).
 \newblock {Nucleotide sequence of the Serratia entomophila plasmid pADAP and
   the Serratia proteamaculans pU143 plasmid virulence associated region}.
 \newblock {\em Plasmid}, 65(1):32--41.
 
-\bibitem[Hurst et~al., 2007a]{Hurst2007}
+\bibitem[Hurst \emph{et~al.}, 2007a]{Hurst2007}
 Hurst, M. R.~H., Beard, S.~S., Jackson, T.~a., and Jones, S.~M. (2007a).
 \newblock {Isolation and characterization of the Serratia entomophila
   antifeeding prophage}.
 \newblock {\em FEMS Microbiology Letters}, 270:42--48.
 
-\bibitem[Hurst et~al., 2007b]{Hurst2007a}
+\bibitem[Hurst \emph{et~al.}, 2007b]{Hurst2007a}
 Hurst, M. R.~H., Beard, S.~S., Jackson, T.~a., and Jones, S.~M. (2007b).
 \newblock {Isolation and characterization of the Serratia entomophila
   antifeeding prophage}.
 \newblock {\em FEMS Microbiology Letters}, 270:42--48.
 
-\bibitem[Hurst et~al., 2018]{Hurst2018}
+\bibitem[Hurst \emph{et~al.}, 2018]{Hurst2018}
 Hurst, M. R.~H., Beattie, A., Jones, S.~A., Laugraud, A., van Koten, C., and
   Harper, L. (2018).
 \newblock {Characterization of Serratia proteamaculans strain AGR96X encoding
@@ -1048,25 +1042,25 @@ Hurst, M. R.~H., Beattie, A., Jones, S.~A., Laugraud, A., van Koten, C., and
   Costelytra giveni ) and manuka beetle ( Pyronota spp.) larvae}.
 \newblock {\em Applied and Environmental Microbiology}, 84(10):AEM.02739--17.
 
-\bibitem[Hurst et~al., 2004]{Hurst2004}
+\bibitem[Hurst \emph{et~al.}, 2004]{Hurst2004}
 Hurst, M. R.~H., Glare, T.~R., and Jackson, T.~A. (2004).
 \newblock {Cloning Serratia entomophila antifeeding genes—a putative
   defective prophage active against the grass grub Costelytra zealandica}.
 \newblock {\em Journal of Bacteriology}, 186(15):5116--5128.
 
-\bibitem[Hurst et~al., 2000]{Hurst2000}
+\bibitem[Hurst \emph{et~al.}, 2000]{Hurst2000}
 Hurst, M. R.~H., Glare, T.~R., Jackson, T.~a., and Ronson, C.~W. (2000).
 \newblock {Plasmid-located pathogenicity determinants of Serratia entomophila,
   the causal agent of amber disease of grass grub, show similarity to the
   insecticidal toxins of Photorhabdus luminescens}.
 \newblock {\em Journal of Bacteriology}, 182(18):5127--5138.
 
-\bibitem[ichi Ishii et~al., 1965]{Ishii1965}
+\bibitem[ichi Ishii \emph{et~al.}, 1965]{Ishii1965}
 ichi Ishii, S., Nishi, Y., and Egami, F. (1965).
 \newblock {The fine structure of a pyocin}.
 \newblock {\em Journal of Molecular Biology}, 13(2):IN5--IN12.
 
-\bibitem[Illerg{\aa}rd et~al., 2009]{Illergard2009}
+\bibitem[Illerg{\aa}rd \emph{et~al.}, 2009]{Illergard2009}
 Illerg{\aa}rd, K., Ardell, D.~H., and Elofsson, A. (2009).
 \newblock {Structure is three to ten times more conserved than sequence - A
   study of structural response in protein cores}.
@@ -1075,11 +1069,10 @@ Illerg{\aa}rd, K., Ardell, D.~H., and Elofsson, A. (2009).
 
 \bibitem[Isao, 1990]{Isao1990}
 Isao, M. O. F. L. D. L.~T. (1990).
-\newblock {Department of Biology, College of Arts and Sciences, The
-  Universi{\~{}} of Tokyo, Meguro-ku, Tokyo 153, Japan}.
-\newblock {\em Sciences-New York}, 26:1--18.
+\newblock {Mechanism of Length Determination in Bacteriophage Lambda Tails}.
+\newblock {\em Adv. Biophys.}, 26:1--18.
 
-\bibitem[Iyer et~al., 2004]{Iyer2004a}
+\bibitem[Iyer \emph{et~al.}, 2004]{Iyer2004a}
 Iyer, L.~M., Leipe, D.~D., Koonin, E.~V., and Aravind, L. (2004).
 \newblock {Evolutionary history and higher order classification of AAA+
   ATPases}.
@@ -1088,25 +1081,26 @@ Iyer, L.~M., Leipe, D.~D., Koonin, E.~V., and Aravind, L. (2004).
 \bibitem[Jacob, 1954]{jacob1954biosynthese}
 Jacob, F. (1954).
 \newblock {BIOSYNTHESE INDUITE ET MODE DACTION DUNE PYOCINE, ANTIBIOTIQUE DE
-  PSEUDOMONAS-PYOCYANEA}.
-\newblock In {\em ANNALES DE L INSTITUT PASTEUR}, volume~86, pages 149--160.
+  PSEUDOMONAS-PYOCYANEA Biosythese induite et mode d'action dune Pyocine,
+  antibiotique de Pseudomonas pyocynia}.
+\newblock In {\em Annales de l'Institute Pasteur}, volume~86, pages 149--160.
   MASSON EDITEUR 120 BLVD SAINT-GERMAIN, 75280 PARIS 06, FRANCE.
 
-\bibitem[Jobichen et~al., 2010]{Jobichen2010}
+\bibitem[Jobichen \emph{et~al.}, 2010]{Jobichen2010}
 Jobichen, C., Chakraborty, S., Li, M., Zheng, J., Joseph, L., Mok, Y.~K.,
   Leung, Y.~K., and Sivaraman, J. (2010).
 \newblock {Structural basis for the secretion of evpc: A key type vi secretion
   system protein from edwardsiella tarda}.
 \newblock {\em PLoS ONE}, 5(9):1--10.
 
-\bibitem[Johansson et~al., 2007]{Johansson2007}
+\bibitem[Johansson \emph{et~al.}, 2007]{Johansson2007}
 Johansson, C., Jonsson, M., Marttila, M., Persson, D., Fan, X.-L., Skog, J.,
   Frangsmyr, L., Wadell, G., and Arnberg, N. (2007).
 \newblock {Adenoviruses Use Lactoferrin as a Bridge for CAR-Independent Binding
   to and Infection of Epithelial Cells}.
 \newblock {\em Journal of Virology}, 81(2):954--963.
 
-\bibitem[Joyce et~al., 2008]{Joyce2008}
+\bibitem[Joyce \emph{et~al.}, 2008]{Joyce2008}
 Joyce, S.~A., Brachmann, A.~O., Glazer, I., Lango, L., Schw{\"{a}}r, G.,
   Clarke, D.~J., and Bode, H.~B. (2008).
 \newblock {Bacterial biosynthesis of a multipotent stilbene.}
@@ -1124,12 +1118,12 @@ Kageyama, M. (1975).
 \newblock {Bacteriocins and bacteriophages in Pseudomonas aeruginosa}.
 \newblock {\em Microbial drug resistance}, pages 291--305.
 
-\bibitem[Kanamaru et~al., 2002a]{Kanamaru2002}
+\bibitem[Kanamaru \emph{et~al.}, 2002a]{Kanamaru2002}
 Kanamaru, S., Leiman, P.~G., and Kostyuchenko, V.~A. (2002a).
 \newblock {Structure of the cell-puncturing device of bacteriophage T4}.
 \newblock {\em Nature Letters}, 2428(2001):553--557.
 
-\bibitem[Kanamaru et~al., 2002b]{Kanamaru2002a}
+\bibitem[Kanamaru \emph{et~al.}, 2002b]{Kanamaru2002a}
 Kanamaru, S., Leiman, P.~G., Kostyuchenko, V.~A., Chipman, P.~R., Mesyanzhinov,
   V.~V., Arisaka, F., and Rossmann, M.~G. (2002b).
 \newblock {Structure of the cell-puncturing device of bacteriophage T4}.
@@ -1146,25 +1140,25 @@ Katsura, I. and Hendrix, R.~W. (1984).
 \newblock {Length determination in bacteriophage lambda tails}.
 \newblock {\em Cell}, 39(3 PART 2):691--698.
 
-\bibitem[Kaur et~al., 2012]{Kaur2012}
+\bibitem[Kaur \emph{et~al.}, 2012]{Kaur2012}
 Kaur, T., Nafissi, N., Wasfi, O., Sheldon, K., Wettig, S., and Slavcev, R.
   (2012).
 \newblock {Immunocompatibility of bacteriophages as nanomedicines}.
 \newblock {\em Journal of Nanotechnology}, 2012(i).
 
-\bibitem[Kelly et~al., 2015]{Kelly2015}
+\bibitem[Kelly \emph{et~al.}, 2015]{Kelly2015}
 Kelly, L., Mezulis, S., Yates, C., Wass, M., and Sternberg, M. (2015).
 \newblock {The Phyre2 web portal for protein modelling, prediction, and
   analysis}.
 \newblock {\em Nature Protocols}, 10(6):845--858.
 
-\bibitem[Kerpedjiev et~al., 2015]{Kerpedjiev2015}
+\bibitem[Kerpedjiev \emph{et~al.}, 2015]{Kerpedjiev2015}
 Kerpedjiev, P., Hammer, S., and Hofacker, I.~L. (2015).
 \newblock {Forna (force-directed RNA): Simple and effective online RNA
   secondary structure diagrams}.
 \newblock {\em Bioinformatics}, 31(20):3377--3379.
 
-\bibitem[Khlebnikov et~al., 2000]{Khlebnikov2000}
+\bibitem[Khlebnikov \emph{et~al.}, 2000]{Khlebnikov2000}
 Khlebnikov, A., Risa, {\O}., Skaug, T., Trent, A., Keasling, J.~D., and
   Carrier, T.~A. (2000).
 \newblock {Regulatable Arabinose-Inducible Gene Expression System with
@@ -1177,40 +1171,40 @@ Knott, G. and Genoud, C. (2013).
 \newblock {Is EM dead?}
 \newblock {\em Journal of Cell Science}, 126:4545--4552.
 
-\bibitem[Korotkov et~al., 2012]{Korotkov2012}
+\bibitem[Korotkov \emph{et~al.}, 2012]{Korotkov2012}
 Korotkov, K.~V., Sandkvist, M., and Hol, W.~G. (2012).
 \newblock {The type II secretion system: Biogenesis, molecular architecture and
   mechanism}.
 \newblock {\em Nature Reviews Microbiology}, 10(5):336--351.
 
-\bibitem[Kostyuchenko et~al., 2005]{Kostyuchenko2005}
+\bibitem[Kostyuchenko \emph{et~al.}, 2005]{Kostyuchenko2005}
 Kostyuchenko, V.~A., Chipman, P.~R., Leiman, P.~G., Arisaka, F., Mesyanzhinov,
   V.~V., and Rossmann, M.~G. (2005).
 \newblock {The tail structure of bacteriophage T4 and its mechanism of
   contraction}.
 \newblock {\em Nature Structural {\&} Molecular Biology}, 12(9):810--813.
 
-\bibitem[Kostyuchenko et~al., 2003]{Kostyuchenko2003}
+\bibitem[Kostyuchenko \emph{et~al.}, 2003]{Kostyuchenko2003}
 Kostyuchenko, V.~a., Leiman, P.~G., Chipman, P.~R., Kanamaru, S., van Raaij,
   M.~J., Arisaka, F., Mesyanzhinov, V.~V., and Rossmann, M.~G. (2003).
 \newblock {Three-dimensional structure of bacteriophage T4 baseplate.}
 \newblock {\em Nature structural biology}, 10(9):688--693.
 
-\bibitem[Krasnykh et~al., 2001]{Krasnykh2001}
+\bibitem[Krasnykh \emph{et~al.}, 2001]{Krasnykh2001}
 Krasnykh, V., Belousova, N., Korokhov, N., Mikheeva, G., and Curiel, D.~T.
   (2001).
 \newblock {Genetic Targeting of an Adenovirus Vector via Replacement of the
   Fiber Protein with the Phage T4 Fibritin}.
 \newblock {\em Journal of Virology}, 75(9):4176--4183.
 
-\bibitem[Kube et~al., 2014a]{Kube2014}
+\bibitem[Kube \emph{et~al.}, 2014a]{Kube2014}
 Kube, S., Kapitein, N., Zimniak, T., Herzog, F., Mogk, A., and Wendler, P.
   (2014a).
 \newblock {Structure of the VipA / B Type VI Secretion Complex Suggests a
   Contraction-State-Specific Recycling Mechanism}.
 \newblock {\em Cell Reports}, 8(1):20--30.
 
-\bibitem[Kube et~al., 2014b]{Kube2014a}
+\bibitem[Kube \emph{et~al.}, 2014b]{Kube2014a}
 Kube, S., Kapitein, N., Zimniak, T., Herzog, F., Mogk, A., and Wendler, P.
   (2014b).
 \newblock {Structure of the VipA/B type VI secretion complex suggests a
@@ -1227,7 +1221,7 @@ Kube, S. and Wendler, P. (2015b).
 \newblock {Structural comparison of contractile nanomachines}.
 \newblock {\em AIMS Biophysics}, 2(2):88--115.
 
-\bibitem[Kudryashev et~al., 2015]{Kudryashev2015}
+\bibitem[Kudryashev \emph{et~al.}, 2015]{Kudryashev2015}
 Kudryashev, M., Wang, R.-R., Brackmann, M., Scherer, S., Maier, T., Baker, D.,
   DiMaio, F., Stahlberg, H., Egelman, E., and Basler, M. (2015).
 \newblock {Structure of the Type VI Secretion System Contractile Sheath}.
@@ -1238,7 +1232,7 @@ K{\"{u}}hlbrandt, W. (2014).
 \newblock {The Resolution Revolution}.
 \newblock {\em Science}, 343:1443--1444.
 
-\bibitem[Kuijpers et~al., 2013]{Kuijpers2013}
+\bibitem[Kuijpers \emph{et~al.}, 2013]{Kuijpers2013}
 Kuijpers, N. G.~A., Solis-Escalante, D., Bosman, L., van~den Broek, M., Pronk,
   J.~T., Daran, J.~M., and Daran-Lapujade, P. (2013).
 \newblock {A versatile, efficient strategy for assembly of multi-fragment
@@ -1246,7 +1240,7 @@ Kuijpers, N. G.~A., Solis-Escalante, D., Bosman, L., van~den Broek, M., Pronk,
   recombination sequences}.
 \newblock {\em Microbial Cell Factories}, 12(1):1--13.
 
-\bibitem[Kumar et~al., 2013]{Kumar2013}
+\bibitem[Kumar \emph{et~al.}, 2013]{Kumar2013}
 Kumar, S.~N., Nambisan, B., Kumar, B. S.~D., Vasudevan, N.~G., Mohandas, C.,
   Cheriyan, V.~T., and Anto, R.~J. (2013).
 \newblock {Antioxidant and anticancer activity of
@@ -1254,28 +1248,28 @@ Kumar, S.~N., Nambisan, B., Kumar, B. S.~D., Vasudevan, N.~G., Mohandas, C.,
   from entomopathogenic nematode}.
 \newblock {\em Archives of Pharmacal Research}, 1(3):1--11.
 
-\bibitem[{Kumar Sarkar} et~al., 2006]{KumarSarkar2006}
+\bibitem[{Kumar Sarkar} \emph{et~al.}, 2006]{KumarSarkar2006}
 {Kumar Sarkar}, S., Takeda, Y., Kanamaru, S., and Arisaka, F. (2006).
 \newblock {Association and dissociation of the cell puncturing complex of
   bacteriophage T4 is controlled by both pH and temperature}.
 \newblock {\em Biochimica et Biophysica Acta - Proteins and Proteomics},
   1764(9):1487--1492.
 
-\bibitem[Lan et~al., 2014]{Lan2014}
+\bibitem[Lan \emph{et~al.}, 2014]{Lan2014}
 Lan, M., Klose, T., Plevka, P., Aksyuk, A., Zhang, X., Arisaka, F., and
   Rossmann, M.~G. (2014).
 \newblock {Structure of the 3.3 MDa, in vitro assembled, hubless bacteriophage
   T4 baseplate}.
 \newblock {\em Journal of Structural Biology}, 187(2):95--102.
 
-\bibitem[Landraud et~al., 2003]{Landraud2003}
+\bibitem[Landraud \emph{et~al.}, 2003]{Landraud2003}
 Landraud, L., Gibert, M., Popoff, M.~R., Boquet, P., and Gauthier, M. (2003).
 \newblock {Expression of cnf1 by Escherichia coli J96 involves a large upstream
   DNA region including the hlyCABD operon, and is regulated by the RfaH
   protein}.
 \newblock {\em Molecular Microbiology}, 47(6):1653--1667.
 
-\bibitem[Landraud et~al., 2004]{Landraud2004}
+\bibitem[Landraud \emph{et~al.}, 2004]{Landraud2004}
 Landraud, L., Pulcini, C., Gounon, P., Flatau, G., Boquet, P., and Lemichez, E.
   (2004).
 \newblock {E. coli CNF1 toxin: A two-in-one system for host-cell invasion}.
@@ -1287,7 +1281,7 @@ Lane, C.~E. (2007).
 \newblock {Bacterial Endosymbionts: Genome Reduction in a Hot Spot}.
 \newblock {\em Current Biology}, 17(13):510--512.
 
-\bibitem[Langer et~al., 2017]{Langer2017}
+\bibitem[Langer \emph{et~al.}, 2017]{Langer2017}
 Langer, A., Moldovan, A., Harmath, C., Joyce, S.~A., Clarke, D.~J., and
   Heermann, R. (2017).
 \newblock {HexA is a versatile regulator involved in the control of phenotypic
@@ -1300,19 +1294,19 @@ Lango, L. and Clarke, D.~J. (2010).
   Photorhabdus luminescens}.
 \newblock {\em Molecular Microbiology}, 77(6):1394--1405.
 
-\bibitem[Lasica et~al., 2017]{Lasica2017a}
+\bibitem[Lasica \emph{et~al.}, 2017]{Lasica2017a}
 Lasica, A.~M., Ksiazek, M., Madej, M., and Potempa, J. (2017).
 \newblock {The Type IX Secretion System (T9SS): Highlights and Recent Insights
   into Its Structure and Function}.
 \newblock {\em Frontiers in Cellular and Infection Microbiology}, 7(May).
 
-\bibitem[Lautru et~al., 2005]{Lautru2005}
+\bibitem[Lautru \emph{et~al.}, 2005]{Lautru2005}
 Lautru, S., Deeth, R.~J., Bailey, L.~M., and Challis, G.~L. (2005).
 \newblock {Discovery of a new peptide natural product by streptomyces
   coelicolor genome mining}.
 \newblock {\em Nature Chemical Biology}, 1(5):265--269.
 
-\bibitem[Le et~al., 2013]{Le2013}
+\bibitem[Le \emph{et~al.}, 2013]{Le2013}
 Le, S., He, X., Tan, Y., Huang, G., Zhang, L., Lux, R., Shi, W., and Hu, F.
   (2013).
 \newblock {Mapping the Tail Fiber as the Receptor Binding Protein Responsible
@@ -1320,14 +1314,14 @@ Le, S., He, X., Tan, Y., Huang, G., Zhang, L., Lux, R., Shi, W., and Hu, F.
   PaP1 and JG004}.
 \newblock {\em PLoS ONE}, 8(7):1--8.
 
-\bibitem[Lee et~al., 2001]{Lee2001}
+\bibitem[Lee \emph{et~al.}, 2001]{Lee2001}
 Lee, E.-C., Yu, D., {Martinez de Velasco}, J., Tessarollo, L., Swing, D.~A.,
   Court, D.~L., Jenkins, N.~A., and Copeland, N.~G. (2001).
 \newblock {A Highly Efficient Escherichia coli-Based Chromosome Engineering
   System Adapted for Recombinogenic Targeting and Subcloning of BAC DNA}.
 \newblock {\em Genomics}, 73(1):56--65.
 
-\bibitem[Lee et~al., 1999]{Lee1999}
+\bibitem[Lee \emph{et~al.}, 1999]{Lee1999}
 Lee, F. K.~N., Dudas, K.~C., Hanson, J.~a., Bud, M., Loverde, P.~T., Apicella,
   M.~a., and Verde, P. T. L.~O. (1999).
 \newblock {The R-Type Pyocin of Pseudomonas aeruginosa C Is a Bacteriophage
@@ -1348,19 +1342,19 @@ Leeds, J.~A. and Welch, R.~A. (1997).
   via a postinitiation mechanism}.
 \newblock {\em Journal of Bacteriology}, 179(11):3519--3527.
 
-\bibitem[Lees et~al., 2006]{Lees2006}
+\bibitem[Lees \emph{et~al.}, 2006]{Lees2006}
 Lees, J.~G., Miles, A.~J., Wien, F., and Wallace, B.~A. (2006).
 \newblock {A reference database for circular dichroism spectroscopy covering
   fold and secondary structure space}.
 \newblock {\em Bioinformatics}, 22(16):1955--1962.
 
-\bibitem[Leiman et~al., 2010]{Leiman2010}
+\bibitem[Leiman \emph{et~al.}, 2010]{Leiman2010}
 Leiman, P.~G., Arisaka, F., van Raaij, M.~J., Kostyuchenko, V.~a., Aksyuk,
   A.~a., Kanamaru, S., and Rossmann, M.~G. (2010).
 \newblock {Morphogenesis of the T4 tail and tail fibers.}
 \newblock {\em Virology journal}, 7(1):355.
 
-\bibitem[Leiman et~al., 2009]{Leiman2009}
+\bibitem[Leiman \emph{et~al.}, 2009]{Leiman2009}
 Leiman, P.~G., Basler, M., Ramagopal, U.~a., Bonanno, J.~B., Sauder, J.~M.,
   Pukatzki, S., Burley, S.~K., Almo, S.~C., and Mekalanos, J.~J. (2009).
 \newblock {Type VI secretion apparatus and phage tail-associated protein
@@ -1368,7 +1362,7 @@ Leiman, P.~G., Basler, M., Ramagopal, U.~a., Bonanno, J.~B., Sauder, J.~M.,
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 106(11):4154--9.
 
-\bibitem[Leiman et~al., 2004]{Leiman2004}
+\bibitem[Leiman \emph{et~al.}, 2004]{Leiman2004}
 Leiman, P.~G., Chipman, P.~R., Kostyuchenko, V.~A., Mesyanzhinov, V.~V., and
   Rossmann, M.~G. (2004).
 \newblock {Three-dimensional rearrangement of proteins in the tail of
@@ -1381,7 +1375,7 @@ Lemaitre, B. and Hoffmann, J. (2007).
   melanogaster{\textless}/i{\textgreater}}.
 \newblock {\em Annual Review of Immunology}, 25(1):697--743.
 
-\bibitem[Lenman et~al., 2018]{Lenman2018}
+\bibitem[Lenman \emph{et~al.}, 2018]{Lenman2018}
 Lenman, A., Liaci, A.~M., Liu, Y., Fr{\"{a}}ngsmyr, L., Frank, M., Blaum,
   B.~S., and Chai, W. (2018).
 \newblock {Polysialic acid is a cellular receptor for human adenovirus 52}.
@@ -1393,14 +1387,14 @@ Li, H. and Durbin, R. (2009).
   transform}.
 \newblock {\em Bioinformatics}, 25(14):1754--1760.
 
-\bibitem[Li et~al., 2006]{Li2006}
+\bibitem[Li \emph{et~al.}, 2006]{Li2006}
 Li, J., Lad, S., Yang, G., Luo, Y., Iacobelli-Martinez, M., Primus, F.~J.,
   Reisfeld, R.~a., and Li, E. (2006).
 \newblock {Adenovirus fiber shaft contains a trimerization element that
   supports peptide fusion for targeted gene delivery.}
 \newblock {\em Journal of virology}, 80(24):12324--31.
 
-\bibitem[Lin et~al., 1999]{Lin1999}
+\bibitem[Lin \emph{et~al.}, 1999]{Lin1999}
 Lin, W., Fullner, K.~J., Clayton, R., Sexton, J.~a., Rogers, M.~B., Calia,
   K.~E., Calderwood, S.~B., Fraser, C., and Mekalanos, J.~J. (1999).
 \newblock {Identification of a vibrio cholerae RTX toxin gene cluster that is
@@ -1414,45 +1408,45 @@ Liu, D. and Huang, L. (1992).
   and lipid composition}.
 \newblock {\em Analytical Biochemistry}, 202(1):1--5.
 
-\bibitem[Liu et~al., 2011]{Liu2011}
+\bibitem[Liu \emph{et~al.}, 2011]{Liu2011}
 Liu, H., Wu, L., and Zhou, Z.~H. (2011).
 \newblock {Model of the trimeric fiber and its interactions with the pentameric
   penton base of human adenovirus by cryo-electron microscopy}.
 \newblock {\em Journal of Molecular Biology}, 406(5):764--774.
 
-\bibitem[Lobley et~al., 2002]{Lobley2002}
+\bibitem[Lobley \emph{et~al.}, 2002]{Lobley2002}
 Lobley, A., Whitmore, L., and Wallace, B.~A. (2002).
 \newblock {DICHROWEB: an interactive website for the analysis of protein
   secondary structure from circular dichroism spectra}.
 \newblock {\em Bioinformatics}, 18(1):211--212.
 
-\bibitem[Lorenz et~al., 2011]{Lorenz2011}
+\bibitem[Lorenz \emph{et~al.}, 2011]{Lorenz2011}
 Lorenz, R., Bernhart, S.~H., {H{\"{o}}ner zu Siederdissen}, C., Tafer, H.,
   Flamm, C., Stadler, P.~F., and Hofacker, I.~L. (2011).
 \newblock {ViennaRNA Package 2.0}.
 \newblock {\em Algorithms for Molecular Biology}, 6(1).
 
-\bibitem[Lu et~al., 2013]{Lu2013}
+\bibitem[Lu \emph{et~al.}, 2013]{Lu2013}
 Lu, C., Turley, S., Marionni, S.~T., Park, Y.~J., Lee, K.~K., Patrick, M.,
   Shah, R., Sandkvist, M., Bush, M.~F., and Hol, W.~G. (2013).
 \newblock {Hexamers of the type II secretion ATPase GspE from Vibrio cholerae
   with Increased ATPase activity}.
 \newblock {\em Structure}, 21(9):1707--1717.
 
-\bibitem[Ma et~al., 2017]{Ma2017}
+\bibitem[Ma \emph{et~al.}, 2017]{Ma2017}
 Ma, J., Sun, M., Dong, W., Pan, Z., Lu, C., and Yao, H. (2017).
 \newblock {PAAR-Rhs proteins harbor various C-terminal toxins to diversify the
   antibacterial pathways of type VI secretion systems}.
 \newblock {\em Environmental Microbiology}, 19(1):345--360.
 
-\bibitem[Ma et~al., 2009]{Ma2009}
+\bibitem[Ma \emph{et~al.}, 2009]{Ma2009}
 Ma, L.~S., Lin, J.~S., and Lai, E.~M. (2009).
 \newblock {An IcmF family protein, ImpLM, is an integral inner membrane protein
   interacting with ImpKL, and its Walker a motif is required for type VI
   secretion system-mediated Hcp secretion in Agrobacterium tumefaciens}.
 \newblock {\em Journal of Bacteriology}, 191(13):4316--4329.
 
-\bibitem[Machado et~al., 2018]{Machado2018}
+\bibitem[Machado \emph{et~al.}, 2018]{Machado2018}
 Machado, R. A.~R., W{\"{u}}thrich, D., Kuhnert, P., Arce, C. C.~M.,
   Th{\"{o}}nen, L., Ruiz, C., and Zhang, X. (2018).
 \newblock {Whole-genome-based revisit of Photorhabdus phylogeny : proposal for
@@ -1462,7 +1456,7 @@ Machado, R. A.~R., W{\"{u}}thrich, D., Kuhnert, P., Arce, C. C.~M.,
 \newblock {\em International Journal of Systematic and Evolutionary
   Microbiology}, pages 1--18.
 
-\bibitem[Mahony et~al., 2016]{Mahony2016}
+\bibitem[Mahony \emph{et~al.}, 2016]{Mahony2016}
 Mahony, J., Alqarni, M., Stockdale, S., Spinelli, S., Feyereisen, M.,
   Cambillau, C., and {Van Sinderen}, D. (2016).
 \newblock {Functional and structural dissection of the tape measure protein of
@@ -1475,13 +1469,13 @@ Manavalan, P. and Johnson, W.~C. (1987).
   secondary structure from circular dichroism spectra.}
 \newblock {\em Analytical biochemistry}, 167(1):76--85.
 
-\bibitem[Mao et~al., 1982]{Mao1982}
+\bibitem[Mao \emph{et~al.}, 1982]{Mao1982}
 Mao, D., Wachter, E., and Wallace, B.~A. (1982).
 \newblock {Folding of the mitochondrial proton adenosinetriphosphatase
   proteolipid channel in phospholipid vesicles.}
 \newblock {\em Biochemistry}, 21(20):4960--4968.
 
-\bibitem[Marokh{\'{a}}zi et~al., 2004]{Marokhazi2004}
+\bibitem[Marokh{\'{a}}zi \emph{et~al.}, 2004]{Marokhazi2004}
 Marokh{\'{a}}zi, J., Lengyel, K., Pek{\'{a}}r, S., Felf{\"{o}}ldi, G., Patthy,
   A., Gr{\'{a}}f, L., Fodor, A., and Venekei, I. (2004).
 \newblock {Comparison of proteolytic activities produced by entomopathogenic
@@ -1495,7 +1489,7 @@ Mavridis, L. and Janes, R.~W. (2017).
   dichroism spectra from protein atomic coordinates}.
 \newblock {\em Bioinformatics}, 33(1):56--63.
 
-\bibitem[Meusch et~al., 2014]{Meusch2014}
+\bibitem[Meusch \emph{et~al.}, 2014]{Meusch2014}
 Meusch, D., Gatsogiannis, C., Efremov, R.~G., Lang, A.~E., Hofnagel, O.,
   Vetter, I.~R., Aktories, K., and Raunser, S. (2014).
 \newblock {Mechanism of Tc toxin action revealed in molecular detail}.
@@ -1506,7 +1500,7 @@ Michel-Briand, Y. and Baysse, C. (2002).
 \newblock {The pyocins of Pseudomonas aeruginosa}.
 \newblock {\em Biochimie}, 84:499--510.
 
-\bibitem[Miller et~al., 2003]{Miller2003}
+\bibitem[Miller \emph{et~al.}, 2003]{Miller2003}
 Miller, E.~S., Kutter, E., Mosig, G., Arisaka, F., Kunisawa, T., and Ru, W.
   (2003).
 \newblock {Bacteriophage T4 Genome}.
@@ -1524,19 +1518,19 @@ Moody, M.~F. (1973).
   partially contracted sheaths}.
 \newblock {\em Journal of Molecular Biology}, 80(4):613--635.
 
-\bibitem[Morona et~al., 1984]{Morona1984}
+\bibitem[Morona \emph{et~al.}, 1984]{Morona1984}
 Morona, R., Klose, M., and Henning, U. (1984).
 \newblock {Escherichia K12 outer membrane protein (ompA): Analysis of mutant
   genes expressing altered proteins.}
 \newblock {\em Journal of Bacteriology}, 159(2):570--578.
 
-\bibitem[Morse et~al., 1976]{Morse1976}
+\bibitem[Morse \emph{et~al.}, 1976]{Morse1976}
 Morse, S.~A., Vaughan, P., Johnson, D., and Iglewski, B.~H. (1976).
 \newblock {Inhibition of Neisseria gonorrhoeae by a bacteriocin from
   Pseudomonas aeruginosa}.
 \newblock {\em Antimicrobial Agents and Chemotherapy}, 10(2):354--362.
 
-\bibitem[Mougous et~al., 2006]{Mougous2006a}
+\bibitem[Mougous \emph{et~al.}, 2006]{Mougous2006a}
 Mougous, J.~D., Cuff, M.~E., Raunser, S., Shen, A., Zhou, M., Gifford, C.~A.,
   Goodman, A.~L., Joachimiak, G., Ordo{\~{n}}ez, C.~L., Lory, S., Walz, T.,
   Joachimiak, A., and Mekalanos, J.~J. (2006).
@@ -1544,20 +1538,20 @@ Mougous, J.~D., Cuff, M.~E., Raunser, S., Shen, A., Zhou, M., Gifford, C.~A.,
   secretion apparatus}.
 \newblock {\em Science}, 312(5779):1526--1530.
 
-\bibitem[Moult et~al., 2015]{Moult2015}
+\bibitem[Moult \emph{et~al.}, 2015]{Moult2015}
 Moult, J., Fidelis, K., Kryshtafovych, A., Schwede, T., Genetics, M., Pasteur,
   I., and Bolognetti, F.~C. (2015).
 \newblock {Critical assessment of methods of protein structure prediction}.
 \newblock {\em Proteins}, 82(0 2):1--6.
 
-\bibitem[Mukamolova et~al., 2006]{Mukamolova2006}
+\bibitem[Mukamolova \emph{et~al.}, 2006]{Mukamolova2006}
 Mukamolova, G.~V., Murzin, A.~G., Salina, E.~G., Demina, G.~R., Kell, D.~B.,
   Kaprelyants, A.~S., and Young, M. (2006).
 \newblock {Muralytic activity of Micrococcus luteus Rpf and its relationship to
   physiological activity in promoting bacterial growth and resuscitation}.
 \newblock {\em Molecular Microbiology}, 59(1):84--98.
 
-\bibitem[Mulley et~al., 2015]{Mulley2015}
+\bibitem[Mulley \emph{et~al.}, 2015]{Mulley2015}
 Mulley, G., Beeton, M.~L., Wilkinson, P., Vlisidou, I., Ockendon-Powell, N.,
   Hapeshi, A., Tobias, N.~J., Nollmann, F.~I., Bode, H.~B., {Van Den Elsen},
   J., Ffrench-Constant, R.~H., and Waterfield, N.~R. (2015).
@@ -1571,13 +1565,13 @@ Murzin, a.~G. (1993).
   and functional solution for non-homologous sequences.}
 \newblock {\em The EMBO journal}, 12(3):861--867.
 
-\bibitem[Muskot{\'{a}}l et~al., 2006]{Muskotal2006}
+\bibitem[Muskot{\'{a}}l \emph{et~al.}, 2006]{Muskotal2006}
 Muskot{\'{a}}l, A., Kir{\'{a}}ly, R., Sebesty{\'{e}}n, A., Gugolya, Z.,
   V{\'{e}}gh, B.~M., and Vonderviszt, F. (2006).
 \newblock {Interaction of FliS flagellar chaperone with flagellin}.
 \newblock {\em FEBS Letters}, 580(16):3916--3920.
 
-\bibitem[Naidoo et~al., 2015]{Naidoo2015}
+\bibitem[Naidoo \emph{et~al.}, 2015]{Naidoo2015}
 Naidoo, S., Mothupi, B., Featherston, J., Mpangase, P.~T., and Gray, V.~M.
   (2015).
 \newblock {Draft Genome Sequence and Assembly of Photorhabdus heterorhabditis
@@ -1585,41 +1579,41 @@ Naidoo, S., Mothupi, B., Featherston, J., Mpangase, P.~T., and Gray, V.~M.
   Nematode Heterorhabditis zealandica.}
 \newblock {\em Genome announcements}, 3(5):5--6.
 
-\bibitem[Nakayama et~al., 2000]{Nakayama2000}
+\bibitem[Nakayama \emph{et~al.}, 2000]{Nakayama2000}
 Nakayama, K., Takashima, K., Ishihara, H., Shinomiya, T., Kageyama, M., Kanaya,
   S., Ohnishi, M., Murata, T., Mori, H., and Hayashi, T. (2000).
 \newblock {The R-type pyocin of Pseudomonas aeruginosa is related to P2 phage,
   and the F-type is related to lambda phage}.
 \newblock {\em Molecular Microbiology}, 38:213--231.
 
-\bibitem[Nazarov et~al., 2017]{Nazarov2017}
+\bibitem[Nazarov \emph{et~al.}, 2017]{Nazarov2017}
 Nazarov, S., Schneider, J.~P., Brackmann, M., Goldie, K.~N., Stahlberg, H., and
   Basler, M. (2017).
 \newblock {Cryo‐EM reconstruction of Type VI secretion system baseplate and
   sheath distal end}.
 \newblock {\em The EMBO Journal}, page e201797103.
 
-\bibitem[Netta et~al., 2009]{Netta2009}
+\bibitem[Netta \emph{et~al.}, 2009]{Netta2009}
 Netta, M., Ikedab, H., and Moore, B.~S. (2009).
 \newblock {Genomic basis for natural product biosynthetic diversity in the
   actinomycetes}.
 \newblock {\em Natural Product Reports}, 26(11):1362--1384.
 
-\bibitem[Nguyen et~al., 2018]{Nguyen2018}
+\bibitem[Nguyen \emph{et~al.}, 2018]{Nguyen2018}
 Nguyen, V.~S., Douzi, B., Durand, E., Roussel, A., Cascales, E., and Cambillau,
   C. (2018).
 \newblock {Towards a complete structural deciphering of Type VI secretion
   system}.
 \newblock {\em Current Opinion in Structural Biology}, 49:77--84.
 
-\bibitem[Nieto et~al., 1996]{Nieto1996}
+\bibitem[Nieto \emph{et~al.}, 1996]{Nieto1996}
 Nieto, J.~M., Bailey, M. J.~A., Hughes, C., and Koronakis, V. (1996).
 \newblock {Suppression of transcription polarity in the Escherichia coli
   haemolysin operon by a short upstream element shared by polysaccharide and
   DNA transfer determinants}.
 \newblock {\em Molecular Microbiology}, 19(4):705--713.
 
-\bibitem[Nilsson et~al., 2011]{Nilsson2011}
+\bibitem[Nilsson \emph{et~al.}, 2011]{Nilsson2011}
 Nilsson, E.~C., Storm, R.~J., Bauer, J., Johansson, S.~M., Lookene, A.,
   {\AA}ngstr{\"{o}}m, J., Hedenstr{\"{o}}m, M., Eriksson, T.~L.,
   {Fr{\"{a}}Currency Signngsmyr}, L., Rinaldi, S., Willison, H.~J.,
@@ -1638,12 +1632,12 @@ O'Farrell, P.~Z. and Gold, L. (1973).
 \newblock {Bacteriophage T4 Gene Expression}.
 \newblock {\em Journal of Biological Chemistry}, 248(15):5502--5511.
 
-\bibitem[Ohkawa et~al., 1973]{OHKAWA1973}
+\bibitem[Ohkawa \emph{et~al.}, 1973]{OHKAWA1973}
 Ohkawa, I., Kageyama, M., and Egami, F. (1973).
 \newblock {Purification and Properties of Pyocin S2}.
 \newblock {\em The Journal of Biochemistry}, 73(2):281--289.
 
-\bibitem[Oliver et~al., 2003]{Oliver2003}
+\bibitem[Oliver \emph{et~al.}, 2003]{Oliver2003}
 Oliver, K.~M., Russell, J.~A., Moran, N.~A., and Hunter, M.~S. (2003).
 \newblock {Facultative bacterial symbionts in aphids confer resistance to
   parasitic wasps}.
@@ -1656,27 +1650,27 @@ Oliver, K.~M., Russell, J.~A., Moran, N.~A., and Hunter, M.~S. (2003).
 \newblock {\em CAB Reviews: Perspectives in Agriculture, Veterinary Science,
   Nutrition and Natural Resources}, 6(056).
 
-\bibitem[Orozco et~al., 2016]{Orozco2016}
+\bibitem[Orozco \emph{et~al.}, 2016]{Orozco2016}
 Orozco, R.~A., Moln{\'{a}}r, I., Bode, H., and {Patricia Stock}, S. (2016).
 \newblock {Bioprospecting for secondary metabolites in the entomopathogenic
   bacterium Photorhabdus luminescens subsp. sonorensis}.
 \newblock {\em Journal of Invertebrate Pathology}.
 
-\bibitem[Osipiuk et~al., 2011]{Osipiuk2011}
+\bibitem[Osipiuk \emph{et~al.}, 2011]{Osipiuk2011}
 Osipiuk, J., Xu, X., Cui, H., Savchenko, A., Edwards, A., and Joachimiak, A.
   (2011).
 \newblock {Crystal structure of secretory protein Hcp3 from Pseudomonas
   aeruginosa}.
 \newblock {\em Journal of Structural and Functional Genomics}, 12(1):21--26.
 
-\bibitem[Papanikolopoulou et~al., 2004a]{Papanikolopoulou2004a}
+\bibitem[Papanikolopoulou \emph{et~al.}, 2004a]{Papanikolopoulou2004a}
 Papanikolopoulou, K., Forge, V., Goeltz, P., and Mitraki, A. (2004a).
 \newblock {Formation of Highly Stable Chimeric Trimers by Fusion of an
   Adenovirus Fiber Shaft Fragment with the Foldon Domain of Bacteriophage T4
   Fibritin}.
 \newblock {\em Journal of Biological Chemistry}, 279(10):8991--8998.
 
-\bibitem[Papanikolopoulou et~al., 2004b]{Papanikolopoulou2004}
+\bibitem[Papanikolopoulou \emph{et~al.}, 2004b]{Papanikolopoulou2004}
 Papanikolopoulou, K., Teixeira, S., Belrhali, H., Forsyth, V.~T., Mitraki, A.,
   and {Van Raaij}, M.~J. (2004b).
 \newblock {Adenovirus fibre shaft sequences fold into the native triple
@@ -1684,44 +1678,30 @@ Papanikolopoulou, K., Teixeira, S., Belrhali, H., Forsyth, V.~T., Mitraki, A.,
   foldon trimerisation motif}.
 \newblock {\em Journal of Molecular Biology}, 342(1):219--227.
 
-\bibitem[Papanikolopoulou et~al., 2008a]{Papanikolopoulou2008}
+\bibitem[Papanikolopoulou \emph{et~al.}, 2008a]{Papanikolopoulou2008}
 Papanikolopoulou, K., van Raaij, M.~J., and Mitraki, A. (2008a).
 \newblock {\em {Creation of Hybrid Nanorods From Sequences of Natural Trimeric
   Fibrous Proteins Using the Fibritin Trimerization Motif}}, pages 15--33.
 \newblock Humana Press, Totowa, NJ.
 
-\bibitem[Papanikolopoulou et~al., 2008b]{Gazit2008}
+\bibitem[Papanikolopoulou \emph{et~al.}, 2008b]{Gazit2008}
 Papanikolopoulou, K., van Raaij, M.~J., and Mitraki, A. (2008b).
 \newblock {\em {Nanostructure Design: Methods and Protocols}}.
 \newblock Humana Press, Tel Aviv.
 
-\bibitem[Pattengale et~al., 2007]{Pattengale2007}
+\bibitem[Pattengale \emph{et~al.}, 2007]{Pattengale2007}
 Pattengale, N.~D., Gottlieb, E.~J., and Moret, B. M.~E. (2007).
 \newblock {Efficiently Computing the Robinson-Foulds Metric}.
 \newblock {\em Journal of Computational Biology}, 14(6):724--735.
 
-\bibitem[Paul et~al., 2004a]{Paul2004b}
+\bibitem[Paul \emph{et~al.}, 2004]{Paul2004}
 Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
-  Jenal, U. (2004a).
+  Jenal, U. (2004).
 \newblock {Cell cycle-dependent dynamic localization of a bacterial response
   regulator with a novel di-guanylate cyclase output domain}.
 \newblock {\em Genes and Development}, 18(6):715--727.
 
-\bibitem[Paul et~al., 2004b]{Paul2004}
-Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
-  Jenal, U. (2004b).
-\newblock {Cell cycle-dependent dynamic localization of a bacterial response
-  regulator with a novel di-guanylate cyclase output domain}.
-\newblock {\em Genes and Development}, 18(6):715--727.
-
-\bibitem[Paul et~al., 2004c]{Paul2004a}
-Paul, R., Weiser, S., Amiot, N.~C., Chan, C., Schirmer, T., Giese, B., and
-  Jenal, U. (2004c).
-\newblock {Cell cycle-dependent dynamic localization of a bacterial response
-  regulator with a novel di-guanylate cyclase output domain}.
-\newblock {\em Genes and Development}, 18(6):715--727.
-
-\bibitem[Peat et~al., 2010]{Peat2010}
+\bibitem[Peat \emph{et~al.}, 2010]{Peat2010}
 Peat, S.~M., Ffrench-Constant, R.~H., Waterfield, N.~R., Marokh{\'{a}}zi, J.,
   Fodor, A., and Adams, B.~J. (2010).
 \newblock {A robust phylogenetic framework for the bacterial genus Photorhabdus
@@ -1729,7 +1709,7 @@ Peat, S.~M., Ffrench-Constant, R.~H., Waterfield, N.~R., Marokh{\'{a}}zi, J.,
   case for 16S, gyrB, and glnA.}
 \newblock {\em Molecular Phylogenetics and Evolution}, 57(2):728--40.
 
-\bibitem[Pedulla et~al., 2003]{Pedulla2003}
+\bibitem[Pedulla \emph{et~al.}, 2003]{Pedulla2003}
 Pedulla, M.~L., Ford, M.~E., Houtz, J.~M., Karthikeyan, T., Wadsworth, C.,
   Lewis, J.~A., Jacobs-Sera, D., Falbo, J., Gross, J., Pannunzio, N.~R.,
   Brucker, W., Kumar, V., Kandasamy, J., Keenan, L., Bardarov, S., Kriakov, J.,
@@ -1737,7 +1717,7 @@ Pedulla, M.~L., Ford, M.~E., Houtz, J.~M., Karthikeyan, T., Wadsworth, C.,
 \newblock {Origins of highly mosaic mycobacteriophage genomes}.
 \newblock {\em Cell}, 113(2):171--182.
 
-\bibitem[Pell et~al., 2009]{Pell2009a}
+\bibitem[Pell \emph{et~al.}, 2009]{Pell2009a}
 Pell, L.~G., Kanelis, V., Donaldson, L.~W., {Lynne Howell}, P., and Davidson,
   A.~R. (2009).
 \newblock {The lambda phage major tail protein structure reveals a common
@@ -1745,33 +1725,33 @@ Pell, L.~G., Kanelis, V., Donaldson, L.~W., {Lynne Howell}, P., and Davidson,
 \newblock {\em Proceedings of the National Academy of Sciences},
   106(11):4160--4165.
 
-\bibitem[Penz et~al., 2012]{Penz2012}
+\bibitem[Penz \emph{et~al.}, 2012]{Penz2012}
 Penz, T., Schmitz-Esser, S., Kelly, S.~E., Cass, B.~N., M{\"{u}}ller, A.,
   Woyke, T., Malfatti, S.~a., Hunter, M.~S., and Horn, M. (2012).
 \newblock {Comparative Genomics Suggests an Independent Origin of Cytoplasmic
   Incompatibility in Cardinium hertigii}.
 \newblock {\em PLoS Genetics}, 8(10).
 
-\bibitem[Persson et~al., 2009]{Persson2009}
+\bibitem[Persson \emph{et~al.}, 2009]{Persson2009}
 Persson, O.~P., Pinhassi, J., Riemann, L., Marklund, B.~I., Rhen, M., Normark,
   S., Gonz{\'{a}}lez, J.~M., and Hagstr{\"{o}}m, {\AA}. (2009).
 \newblock {High abundance of virulence gene homologues in marine bacteria}.
 \newblock {\em Environmental Microbiology}, 11(6):1348--1357.
 
-\bibitem[Pettersen et~al., 2004]{Pettersen2004}
+\bibitem[Pettersen \emph{et~al.}, 2004]{Pettersen2004}
 Pettersen, E.~F., Goddard, T.~D., Huang, C.~C., Couch, G.~S., Greenblatt,
   D.~M., Meng, E.~C., and Ferrin, T.~E. (2004).
 \newblock {UCSF Chimera - A visualization system for exploratory research and
   analysis}.
 \newblock {\em Journal of Computational Chemistry}, 25(13):1605--1612.
 
-\bibitem[Pinto et~al., 2008]{Pinto2008}
+\bibitem[Pinto \emph{et~al.}, 2008]{Pinto2008}
 Pinto, F.~R., Melo-Cristino, J., and Ramirez, M. (2008).
 \newblock {A confidence interval for the wallace coefficient of concordance and
   its application to microbial typing methods}.
 \newblock {\em PLoS ONE}, 3(11).
 
-\bibitem[Pukatzki et~al., 2007]{Pukatzki2007}
+\bibitem[Pukatzki \emph{et~al.}, 2007]{Pukatzki2007}
 Pukatzki, S., Ma, A.~T., Revel, A.~T., Sturtevant, D., and Mekalanos, J.~J.
   (2007).
 \newblock {Type VI secretion system translocates a phage tail spike-like
@@ -1779,7 +1759,7 @@ Pukatzki, S., Ma, A.~T., Revel, A.~T., Sturtevant, D., and Mekalanos, J.~J.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 104(39):15508--15513.
 
-\bibitem[Pukatzki et~al., 2006]{Pukatzki2006}
+\bibitem[Pukatzki \emph{et~al.}, 2006]{Pukatzki2006}
 Pukatzki, S., Ma, A.~T., Sturtevant, D., Krastins, B., Sarracino, D., Nelson,
   W.~C., Heidelberg, J.~F., and Mekalanos, J.~J. (2006).
 \newblock {Identification of a conserved bacterial protein secretion system in
@@ -1792,14 +1772,14 @@ Pukatzki, S., Ma, A.~T., Sturtevant, D., Krastins, B., Sarracino, D., Nelson,
 \newblock {\em {R: A Language and Environment for Statistical Computing}}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria.
 
-\bibitem[Rademacher et~al., 2012]{Rademacher2012}
+\bibitem[Rademacher \emph{et~al.}, 2012]{Rademacher2012}
 Rademacher, C., Bru, T., McBride, R., Robison, E., Nycholat, C.~M., Kremer,
   E.~J., and Paulson, J.~C. (2012).
 \newblock {A Siglec-like sialic-acid-binding motif revealed in an adenovirus
   capsid protein}.
 \newblock {\em Glycobiology}, 22(8):1086--1091.
 
-\bibitem[Ramachandran et~al., 2006]{Ramachandran2006}
+\bibitem[Ramachandran \emph{et~al.}, 2006]{Ramachandran2006}
 Ramachandran, P., Boontheung, P., Xie, Y., Sondej, M., Wong, D.~T., and Loo,
   J.~A. (2006).
 \newblock {Identification of N-linked glycoproteins in human saliva by
@@ -1817,7 +1797,7 @@ Reich, K.~A. and Schoolnik, G.~K. (1996).
   is a member of a new class of ADP-ribosyltransferases}.
 \newblock {\em Journal of Bacteriology}, 178(1):209--215.
 
-\bibitem[Remaut et~al., 2008]{Remaut2008}
+\bibitem[Remaut \emph{et~al.}, 2008]{Remaut2008}
 Remaut, H., Tang, C., Henderson, N.~S., Pinkner, J.~S., Wang, T., Hultgren,
   S.~J., Thanassi, D.~G., Waksman, G., and Li, H. (2008).
 \newblock {Fiber Formation across the Bacterial Outer Membrane by the
@@ -1829,13 +1809,13 @@ Remaut, H. and Waksman, G. (2006).
 \newblock {Protein-protein interaction through $\beta$-strand addition}.
 \newblock {\em Trends in Biochemical Sciences}, 31(8):436--444.
 
-\bibitem[Remmert et~al., 2011]{Remmert2012}
+\bibitem[Remmert \emph{et~al.}, 2011]{Remmert2012}
 Remmert, M., Biegert, A., Hauser, A., and S{\"{o}}ding, J. (2011).
 \newblock {HHblits: lightning-fast iterative protein sequence searching by
   HMM-HMM alignment}.
 \newblock {\em Nature Methods}, 9(2):173--175.
 
-\bibitem[Renault et~al., 2018]{Renault2018}
+\bibitem[Renault \emph{et~al.}, 2018]{Renault2018}
 Renault, M.~G., Beas, J.~Z., Douzi, B., Chabalier, M., Zoued, A., Brunet,
   Y.~R., Cambillau, C., Journet, L., and Cascales, E. (2018).
 \newblock {The gp27-like Hub of VgrG Serves as Adaptor to Promote Hcp Tube
@@ -1853,7 +1833,7 @@ Riede, I. (1987).
   Escherichia coli phages}.
 \newblock {\em MGG Molecular {\&} General Genetics}, 206(1):110--115.
 
-\bibitem[Robichon et~al., 2011]{Robichon2011}
+\bibitem[Robichon \emph{et~al.}, 2011]{Robichon2011}
 Robichon, C., Luo, J., Causey, T.~B., Benner, J.~S., and Samuelson, J.~C.
   (2011).
 \newblock {Engineering Escherichia coli BL21(DE3) derivative strains to
@@ -1866,7 +1846,7 @@ Robinson, D.~F. and Foulds, L.~R. (1981).
 \newblock {Comparison of phylogenetic trees}.
 \newblock {\em Mathematical Biosciences}, 53(1-2):131--147.
 
-\bibitem[Rodriguez et~al., 1998]{Rodriguez1998}
+\bibitem[Rodriguez \emph{et~al.}, 1998]{Rodriguez1998}
 Rodriguez, R., Chinea, G., Lopez, N., Pons, T., and Vriend, G. (1998).
 \newblock {Homology modeling, model and software evaluation: three related
   resources.}
@@ -1876,13 +1856,13 @@ Rodriguez, R., Chinea, G., Lopez, N., Pons, T., and Vriend, G. (1998).
   2018]{Rodriguez-GuerraPedregal2018}
 {Rodr{\'{i}}guez-Guerra Pedregal}, J. and Mar{\'{e}}chal, J.-D. (2018).
 \newblock {PyChimera: use UCSF Chimera modules in any Python 2.7 project}.
-\newblock {\em Bioinformatics}, (January):1--2.
+\newblock {\em Bioinformatics}, 1(January):1--2.
 
 \bibitem[Rose and Creamer, 1994]{Rose1994}
 Rose, G.~D. and Creamer, T.~P. (1994).
 \newblock {Protein folding: Predicting predicting}.
 
-\bibitem[Rossmann et~al., 2004]{Rossmann2004}
+\bibitem[Rossmann \emph{et~al.}, 2004]{Rossmann2004}
 Rossmann, M.~G., Mesyanzhinov, V.~V., Arisaka, F., and Leiman, P.~G. (2004).
 \newblock {The bacteriophage T4 DNA injection machine}.
 \newblock {\em Current Opinion in Structural Biology}, 14:171--180.
@@ -1892,7 +1872,7 @@ Rost, B. (1999).
 \newblock {Twilight zone of protein sequence alignments}.
 \newblock {\em Protein engineering}, 12(2):85--94.
 
-\bibitem[Roy et~al., 2010]{Roy2010}
+\bibitem[Roy \emph{et~al.}, 2010]{Roy2010}
 Roy, A., Kucukural, A., and Zhang, Y. (2010).
 \newblock {I-TASSER: A unified platform for automated protein structure and
   function prediction}.
@@ -1909,12 +1889,12 @@ Ruby, E.~G. and McFall-Ngai, M.~J. (1999).
   light organ by Vibrio fischeri}.
 \newblock {\em Trends in Microbiology}, 7(10):414--420.
 
-\bibitem[Russell et~al., 2014]{Russell2014}
+\bibitem[Russell \emph{et~al.}, 2014]{Russell2014}
 Russell, A.~B., Peterson, S.~B., and Mougous, J.~D. (2014).
 \newblock {Type VI secretion system effectors: poisons with a purpose.}
 \newblock {\em Nature reviews. Microbiology}, 12(2):137--48.
 
-\bibitem[Russell et~al., 2012]{Russell2012}
+\bibitem[Russell \emph{et~al.}, 2012]{Russell2012}
 Russell, A.~B., Singh, P., Brittnacher, M., Bui, N.~K., Hood, R.~D., Carl,
   M.~A., Agnello, D.~M., Schwarz, S., Goodlett, D.~R., Vollmer, W., and
   Mougous, J.~D. (2012).
@@ -1922,7 +1902,7 @@ Russell, A.~B., Singh, P., Brittnacher, M., Bui, N.~K., Hood, R.~D., Carl,
   identified using a heuristic approach}.
 \newblock {\em Cell Host and Microbe}, 11(5):538--549.
 
-\bibitem[Rutherford et~al., 2000]{Rutherford2000}
+\bibitem[Rutherford \emph{et~al.}, 2000]{Rutherford2000}
 Rutherford, K., Parkhill, J., Crook, J., Horsnell, T., Rice, P., Rajandream,
   M.~A., and Barrell, B. (2000).
 \newblock {Artemis: Sequence visualization and annotation}.
@@ -1934,33 +1914,21 @@ Rybakova, D. (1994).
   entomophila Anti-feeding Prophage}}.
 \newblock PhD thesis, University of Auckland.
 
-\bibitem[Rybakova et~al., 2013]{Rybakova2013}
+\bibitem[Rybakova \emph{et~al.}, 2013]{Rybakova2013}
 Rybakova, D., Radjainia, M., Turner, A., Sen, A., Mitra, A.~K., and Hurst, M.
   R.~H. (2013).
 \newblock {Role of antifeeding prophage (Afp) protein Afp16 in terminating the
   length of the Afp tailocin and stabilizing its sheath.}
 \newblock {\em Molecular microbiology}, 89(4):702--14.
 
-\bibitem[Rybakova et~al., 2015a]{Rybakova2015}
-Rybakova, D., Schramm, P., Mitra, A.~K., and Hurst, M. R.~H. (2015a).
+\bibitem[Rybakova \emph{et~al.}, 2015]{Rybakova2015}
+Rybakova, D., Schramm, P., Mitra, A.~K., and Hurst, M. R.~H. (2015).
 \newblock {Afp14 is involved in regulating the length of Anti-feeding prophage
   (Afp)}.
 \newblock {\em Molecular Microbiology}, pages n/a--n/a.
 
-\bibitem[Rybakova et~al., 2015b]{Rybakova2015a}
-Rybakova, D., Schramm, P., Mitra, A.~K., and Hurst, M. R.~H. (2015b).
-\newblock {Afp14 is involved in regulating the length of Anti-feeding prophage
-  (Afp)}.
-\newblock {\em Molecular Microbiology}, 96(4):815--826.
-
-\bibitem[Ryjenkov et~al., 2005a]{Ryjenkov2005}
-Ryjenkov, D.~A., Tarutina, M., Moskvin, O.~V., and Gomelsky, M. (2005a).
-\newblock {Cyclic diguanylate is a ubiquitous signaling molecule in bacteria:
-  Insights into biochemistry of the GGDEF protein domain}.
-\newblock {\em Journal of Bacteriology}, 187(5):1792--1798.
-
-\bibitem[Ryjenkov et~al., 2005b]{Ryjenkov2005a}
-Ryjenkov, D.~A., Tarutina, M., Moskvin, O.~V., and Gomelsky, M. (2005b).
+\bibitem[Ryjenkov \emph{et~al.}, 2005]{Ryjenkov2005}
+Ryjenkov, D.~A., Tarutina, M., Moskvin, O.~V., and Gomelsky, M. (2005).
 \newblock {Cyclic diguanylate is a ubiquitous signaling molecule in bacteria:
   Insights into biochemistry of the GGDEF protein domain}.
 \newblock {\em Journal of Bacteriology}, 187(5):1792--1798.
@@ -1971,7 +1939,7 @@ Sandmeler, H. (1994).
   bacteriophage tail fibres}.
 \newblock {\em Molecular Microbiology}, 12(3):343--350.
 
-\bibitem[Santangelo et~al., 2008]{Santangelo2008}
+\bibitem[Santangelo \emph{et~al.}, 2008]{Santangelo2008}
 Santangelo, T.~J., {\v{C}}uboňov{\'{a}}, L., Matsumi, R., Atomi, H., Imanaka,
   T., and Reeve, J.~N. (2008).
 \newblock {Polarity in archaeal operon transcription in Thermococcus
@@ -1983,14 +1951,14 @@ Santangelo, T.~J. and Roberts, J.~W. (2002).
 \newblock {RfaH, a bacterial transcription antiterminator}.
 \newblock {\em Molecular Cell}, 9(4):698--700.
 
-\bibitem[Sarris et~al., 2014]{Sarris2014}
+\bibitem[Sarris \emph{et~al.}, 2014]{Sarris2014}
 Sarris, P.~F., Ladoukakis, E.~D., Panopoulos, N.~J., and Scoulica, E.~V.
   (2014).
 \newblock {A phage tail-derived element with wide distribution among both
   prokaryotic domains: a comparative genomic and phylogenetic study.}
 \newblock {\em Genome biology and evolution}, 6(7):1739--47.
 
-\bibitem[Saux et~al., 1999]{Saux1999a}
+\bibitem[Saux \emph{et~al.}, 1999]{Saux1999a}
 Saux, M. F.-l., Viallardt, V., Brunelt, B., Normand, P., and Boemarel, N.~E.
   (1999).
 \newblock {Polyphasic classification of the genus Photorhabdus and proposal of
@@ -1999,7 +1967,7 @@ Saux, M. F.-l., Viallardt, V., Brunelt, B., Normand, P., and Boemarel, N.~E.
 \newblock {\em International journal of systematic bacteriology}, 49(1
   999):1645--1 656.
 
-\bibitem[Scholl et~al., 2009]{Scholl2009a}
+\bibitem[Scholl \emph{et~al.}, 2009]{Scholl2009a}
 Scholl, D., Cooley, M., Williams, S.~R., Gebhart, D., Martin, D., Bates, A.,
   and Mandrell, R. (2009).
 \newblock {An engineered R-type pyocin is a highly specific and sensitive
@@ -2017,20 +1985,20 @@ Seemann, T. (2014).
 \newblock {Prokka: Rapid prokaryotic genome annotation}.
 \newblock {\em Bioinformatics}, 30(14):2068--2069.
 
-\bibitem[Sen et~al., 2010]{Sen2010}
+\bibitem[Sen \emph{et~al.}, 2010]{Sen2010}
 Sen, A., Rybakova, D., Hurst, M. R.~H., and Mitra, A.~K. (2010).
 \newblock {Structural study of the Serratia entomophila antifeeding prophage:
   Three-dimensional structure of the helical sheath}.
 \newblock {\em Journal of Bacteriology}, 192(17):4522--4525.
 
-\bibitem[Severiano et~al., 2011a]{Severiano2011a}
+\bibitem[Severiano \emph{et~al.}, 2011a]{Severiano2011a}
 Severiano, A., Carri{\c{c}}o, J.~A., Robinson, D.~A., Ramirez, M., and Pinto,
   F.~R. (2011a).
 \newblock {Evaluation of Jackknife and Bootstrap for defining confidence
   intervals for pairwise agreement measures}.
 \newblock {\em PLoS ONE}, 6(5):6--8.
 
-\bibitem[Severiano et~al., 2011b]{Severiano2011b}
+\bibitem[Severiano \emph{et~al.}, 2011b]{Severiano2011b}
 Severiano, A., Pinto, F.~R., Ramirez, M., and Carri{\c{c}}o, J.~A. (2011b).
 \newblock {Adjusted Wallace coefficient as a measure of congruence between
   typing methods}.
@@ -2042,7 +2010,7 @@ Shi, Y.-M. and Bode, H.~B. (2018).
   bacteria–nematode–insect interactions}.
 \newblock {\em Natural Product Reports}, 00:1--27.
 
-\bibitem[Shikuma et~al., 2016]{Shikuma2016}
+\bibitem[Shikuma \emph{et~al.}, 2016]{Shikuma2016}
 Shikuma, N.~J., Antoshechkin, I., Medeiros, J.~M., Pilhofer, M., and Newman,
   D.~K. (2016).
 \newblock {Stepwise metamorphosis of the tubeworm
@@ -2051,7 +2019,7 @@ Shikuma, N.~J., Antoshechkin, I., Medeiros, J.~M., Pilhofer, M., and Newman,
 \newblock {\em Proceedings of the National Academy of Sciences},
   113(36):10097--10102.
 
-\bibitem[Shikuma et~al., 2014]{Shikuma2014}
+\bibitem[Shikuma \emph{et~al.}, 2014]{Shikuma2014}
 Shikuma, N.~J., Pilhofer, M., Weiss, G.~L., Hadfield, M.~G., Jensen, G.~J., and
   Newman, D.~K. (2014).
 \newblock {Marine tubeworm metamorphosis induced by arrays of bacterial phage
@@ -2065,7 +2033,7 @@ Shinomiya, T. (1972).
   assembly into pyocin particles in mitomycin C-induced cells.}
 \newblock {\em Journal of Biochemistry}, 72(March):39--48.
 
-\bibitem[Shneider et~al., 2013]{Shneider2013}
+\bibitem[Shneider \emph{et~al.}, 2013]{Shneider2013}
 Shneider, M.~M., Buth, S.~a., Ho, B.~T., Basler, M., Mekalanos, J.~J., and
   Leiman, P.~G. (2013).
 \newblock {PAAR-repeat proteins sharpen and diversify the type VI secretion
@@ -2086,7 +2054,7 @@ Siegele, D.~A. and Hu, J.~C. (1997).
 \newblock {\em Proceedings of the National Academy of Sciences},
   94(15):8168--8172.
 
-\bibitem[Sievers et~al., 2011]{Sievers2011}
+\bibitem[Sievers \emph{et~al.}, 2011]{Sievers2011}
 Sievers, F., Wilm, A., Dineen, D., Gibson, T.~J., Karplus, K., Li, W., Lopez,
   R., McWilliam, H., Remmert, M., S{\"{o}}ding, J., Thompson, J.~D., and
   Higgins, D.~G. (2011).
@@ -2094,23 +2062,23 @@ Sievers, F., Wilm, A., Dineen, D., Gibson, T.~J., Karplus, K., Li, W., Lopez,
   alignments using Clustal Omega}.
 \newblock {\em Molecular Systems Biology}, 7(539).
 
-\bibitem[Silverman et~al., 2012a]{Silverman2012a}
+\bibitem[Silverman \emph{et~al.}, 2012a]{Silverman2012a}
 Silverman, J.~M., Brunet, Y.~R., Cascales, E., and Mougous, J.~D. (2012a).
 \newblock {Structure and Regulation of the Type VI Secretion System}.
 \newblock {\em Annual Review of Microbiology}, 66(1):453--472.
 
-\bibitem[Silverman et~al., 2012b]{Silverman2012}
+\bibitem[Silverman \emph{et~al.}, 2012b]{Silverman2012}
 Silverman, J.~M., Brunet, Y.~R., Cascales, E., and Mougous, J.~D. (2012b).
 \newblock {Structure and Regulation of the Type VI Secretion System}.
 \newblock {\em Annual Review of Microbiology}, 66(1):453--472.
 
-\bibitem[Simpson et~al., 2015]{Simpson2015}
+\bibitem[Simpson \emph{et~al.}, 2015]{Simpson2015}
 Simpson, D.~J., Sacher, J.~C., and Szymanski, C.~M. (2015).
 \newblock {Exploring the interactions between bacteriophage-encoded glycan
   binding proteins and carbohydrates}.
 \newblock {\em Current Opinion in Structural Biology}, 34:69--79.
 
-\bibitem[Singh et~al., 2015]{Singh2015}
+\bibitem[Singh \emph{et~al.}, 2015]{Singh2015}
 Singh, A.~K., Berb{\'{i}}s, M.~{\'{A}}., Ballmann, M.~Z., Kilcoyne, M.,
   Men{\'{e}}ndez, M., Nguyen, T.~H., Joshi, L., Ca{\~{n}}ada, F.~J.,
   Jim{\'{e}}nez-Barbero, J., Benko, M., Harrach, B., and {Van Raaij}, M.~J.
@@ -2119,14 +2087,14 @@ Singh, A.~K., Berb{\'{i}}s, M.~{\'{A}}., Ballmann, M.~Z., Kilcoyne, M.,
   domain of the fibre from a siadenovirus, Turkey adenovirus 3}.
 \newblock {\em PLoS ONE}, 10(9):1--22.
 
-\bibitem[Skibinski et~al., 2002]{Skibinski2002}
+\bibitem[Skibinski \emph{et~al.}, 2002]{Skibinski2002}
 Skibinski, D. a.~G., Golby, P., Chang, Y.-s., Sargent, F., Hoffman, R., Harper,
   R., Guest, J.~R., Attwood, M.~M., Berks, B.~C., and Andrews, S.~C. (2002).
 \newblock {Regulation of the Hydrogenase-4 Operon of Escherichia coli by the
   sigma-54 -Dependent Transcriptional Activators FhlA and HyfR}.
 \newblock {\em Society}, 184(23):6642--6653.
 
-\bibitem[Smigielski et~al., 1994]{Smigielski1994}
+\bibitem[Smigielski \emph{et~al.}, 1994]{Smigielski1994}
 Smigielski, A.~J., Akhurst, R.~J., and Boemaret, N.~E. (1994).
 \newblock {Phase Variation in {\textless}i{\textgreater}Xenorhabdus
   nematophilus{\textless}/i{\textgreater} and
@@ -2134,7 +2102,7 @@ Smigielski, A.~J., Akhurst, R.~J., and Boemaret, N.~E. (1994).
   : Differences in Respiratory Activity and Membrane Energization}.
 \newblock {\em Applied and Environmental Microbiology}, 60(1):120--125.
 
-\bibitem[S{\"{o}}ding et~al., 2005]{Soding2005}
+\bibitem[S{\"{o}}ding \emph{et~al.}, 2005]{Soding2005}
 S{\"{o}}ding, J., Biegert, A., and Lupas, A.~N. (2005).
 \newblock {The HHpred interactive server for protein homology detection and
   structure prediction}.
@@ -2151,13 +2119,13 @@ Sperling, R.~A. and Parak, W.~J. (2010).
 \newblock {\em Philosophical Transactions of the Royal Society A: Mathematical,
   Physical and Engineering Sciences}, 368(1915):1333--1383.
 
-\bibitem[Sproer et~al., 1999]{Sproer1999}
+\bibitem[Sproer \emph{et~al.}, 1999]{Sproer1999}
 Sproer, C., Mendrock, U., Swiderski, J., and Lang, E. (1999).
 \newblock {The phylogenetic position of}.
 \newblock {\em International Journal of Systematic Bacteriology},
   49:1433--1438.
 
-\bibitem[Sreerama et~al., 2000]{Sreerama2000a}
+\bibitem[Sreerama \emph{et~al.}, 2000]{Sreerama2000a}
 Sreerama, N., Venyaminov, S.~Y., and Woody, R.~W. (2000).
 \newblock {Estimation of Protein Secondary Structure from Circular Dichroism
   Spectra: Inclusion of Denatured Proteins with Native Proteins in the
@@ -2171,7 +2139,7 @@ Sreerama, N. and Woody, R.~W. (2000).
   Reference Set}.
 \newblock {\em Analytical Biochemistry}, 287(2):252--260.
 
-\bibitem[Stabb et~al., 2001]{Stabb2001}
+\bibitem[Stabb \emph{et~al.}, 2001]{Stabb2001}
 Stabb, E.~V., Reich, K.~A., and Ruby, E.~G. (2001).
 \newblock {Vibrio fischeri genes hvnA and hvnB encode secreted
   NAD+-glycohydrolases}.
@@ -2194,7 +2162,7 @@ Stephens, C. (1998).
 \newblock {Bacterial sporulation: a question of commitment?}
 \newblock {\em Current biology : CB}, 8:R45--R48.
 
-\bibitem[Suarez et~al., 2010]{Suarez2010}
+\bibitem[Suarez \emph{et~al.}, 2010]{Suarez2010}
 Suarez, G., Sierra, J.~C., Erova, T.~E., Sha, J., Horneman, A.~J., and Chopra,
   A.~K. (2010).
 \newblock {A type VI secretion system effector protein, VgrG1, from Aeromonas
@@ -2207,53 +2175,53 @@ Szumanski, M.~B. and Boyle, S.~M. (1990).
   ureohydrolase, a putrescine biosynthetic enzyme in Escherichia coli}.
 \newblock {\em Journal of Bacteriology}, 172(2):538--547.
 
-\bibitem[Taylor et~al., 2016a]{Taylor2016b}
+\bibitem[Taylor \emph{et~al.}, 2016a]{Taylor2016b}
 Taylor, N.~M., Prokhorov, N.~S., Guerrero-Ferreira, R.~C., Shneider, M.~M.,
   Browning, C., Goldie, K.~N., Stahlberg, H., and Leiman, P.~G. (2016a).
 \newblock {Structure of the T4 baseplate and its function in triggering sheath
   contraction}.
 \newblock {\em Nature}, 533(7603):346--352.
 
-\bibitem[Taylor et~al., 2016b]{Taylor2016}
+\bibitem[Taylor \emph{et~al.}, 2016b]{Taylor2016}
 Taylor, N.~M., Prokhorov, N.~S., Guerrero-Ferreira, R.~C., Shneider, M.~M.,
   Browning, C., Goldie, K.~N., Stahlberg, H., and Leiman, P.~G. (2016b).
 \newblock {Structure of the T4 baseplate and its function in triggering sheath
   contraction}.
 \newblock {\em Nature}, 533(7603):346--352.
 
-\bibitem[Taylor et~al., 2018]{Taylor2018a}
+\bibitem[Taylor \emph{et~al.}, 2018]{Taylor2018}
 Taylor, N.~M., van Raaij, M.~J., and Leiman, P.~G. (2018).
 \newblock {Contractile injection systems of bacteriophages and related
   systems}.
-\newblock {\em Molecular Microbiology}, 108(February):6--15.
+\newblock {\em Molecular Microbiology}.
 
-\bibitem[Thanassi et~al., 2005]{Thanassi2005}
+\bibitem[Thanassi \emph{et~al.}, 2005]{Thanassi2005}
 Thanassi, D.~G., Stathopoulos, C., Karkal, A., and Li, H. (2005).
 \newblock {Protein secretion in the absence of ATP: The autotransporter,
   two-partner secretion and chaperone/usher pathways of Gram-negative
   bacteria}.
 \newblock {\em Molecular Membrane Biology}, 22(1-2):63--72.
 
-\bibitem[Thomason et~al., 2007]{Thomason2007}
+\bibitem[Thomason \emph{et~al.}, 2007]{Thomason2007}
 Thomason, L.~C., Costantino, N., Shaw, D.~V., and Court, D.~L. (2007).
 \newblock {Multicopy plasmid modification with phage ?? Red recombineering}.
 \newblock {\em Plasmid}, 58:148--158.
 
-\bibitem[Thomassen et~al., 2003]{Thomassen2003}
+\bibitem[Thomassen \emph{et~al.}, 2003]{Thomassen2003}
 Thomassen, E., Gielen, G., Sch{\"{u}}tz, M., Schoehn, G., Abrahams, J.~P.,
   Miller, S., and {Van Raaij}, M.~J. (2003).
 \newblock {The structure of the receptor-binding domain of the bacteriophage T4
   short tail fibre reveals a knitted trimeric metal-binding fold}.
 \newblock {\em Journal of Molecular Biology}, 331(2):361--373.
 
-\bibitem[Tobias et~al., 2016]{Tobias2016}
+\bibitem[Tobias \emph{et~al.}, 2016]{Tobias2016}
 Tobias, N.~J., Heinrich, A.~K., Eresmann, H., Wright, P.~R., Neubacher, N.,
   Backofen, R., and Bode, H.~B. (2016).
 \newblock {Photorhabdus-nematode symbiosis is dependent on hfq-mediated
   regulation of secondary metabolites.}
 \newblock {\em Environmental microbiology}, pages 1--20.
 
-\bibitem[Turlin et~al., 2006]{Turlin2006}
+\bibitem[Turlin \emph{et~al.}, 2006]{Turlin2006}
 Turlin, E., Pascal, G., Rousselle, J.~C., Lenormand, P., Ngo, S., Danchin, A.,
   and Derzelle, S. (2006).
 \newblock {Proteome analysis of the phenotypic variation process in
@@ -2272,19 +2240,19 @@ Uratani, Y. and Hoshino, T. (1984).
   discovery}.
 \newblock {\em Current Opinion in Microbiology}, 9(3):252--260.
 
-\bibitem[van Raaij et~al., 1999]{VanRaaij1999}
+\bibitem[van Raaij \emph{et~al.}, 1999]{VanRaaij1999}
 van Raaij, M.~J., Mitraki, A., Lavigne, G., and Cusack, S. (1999).
 \newblock {A triple beta-spiral in the adenovirus ﬁbre shaft reveals a new
   structural motif for a ﬁbrous protein}.
 \newblock {\em Nature}, 461:935--938.
 
-\bibitem[van Raaij et~al., 2001]{VanRaaij2001}
+\bibitem[van Raaij \emph{et~al.}, 2001]{VanRaaij2001}
 van Raaij, M.~J., Schoehn, G., Burda, M.~R., and Miller, S. (2001).
 \newblock {Crystal structure of a heat and protease-stable part of the
   bacteriophage T4 short tail fibre}.
 \newblock {\em Journal of Molecular Biology}, 314(5):1137--1146.
 
-\bibitem[Varki et~al., 2015]{Varki2015}
+\bibitem[Varki \emph{et~al.}, 2015]{Varki2015}
 Varki, A., Cummings, R.~D., Aebi, M., Packer, N.~H., Seeberger, P.~H., Esko,
   J.~D., Stanley, P., Hart, G., Darvill, A., Kinoshita, T., Prestegard, J.~J.,
   Schnaar, R.~L., Freeze, H.~H., Marth, J.~D., Bertozzi, C.~R., Etzler, M.~E.,
@@ -2312,7 +2280,7 @@ Verma, S.~C. and Miyashiro, T. (2013).
 \newblock {\em International journal of molecular sciences},
   14(8):16386--16401.
 
-\bibitem[Vetcher et~al., 2005]{Vetcher2005}
+\bibitem[Vetcher \emph{et~al.}, 2005]{Vetcher2005}
 Vetcher, L., Tian, Z.-q., Mcdaniel, R., Rascher, A., Revill, W.~P., Hutchinson,
   C.~R., and Hu, Z. (2005).
 \newblock {Rapid Engineering of the Geldanamycin Biosynthesis Pathway by Red /
@@ -2321,13 +2289,13 @@ Vetcher, L., Tian, Z.-q., Mcdaniel, R., Rascher, A., Revill, W.~P., Hutchinson,
   Complementation}.
 \newblock {\em Society}, 71(4):1829--1835.
 
-\bibitem[Vettiger et~al., 2017]{Vettiger2017}
+\bibitem[Vettiger \emph{et~al.}, 2017]{Vettiger2017}
 Vettiger, A., Winter, J., Lin, L., and Basler, M. (2017).
 \newblock {The type VI secretion system sheath assembles at the end distal from
   the membrane anchor}.
 \newblock {\em Nature Communications}, 8(May):1--9.
 
-\bibitem[Vogelaar et~al., 2010]{Vogelaar2010}
+\bibitem[Vogelaar \emph{et~al.}, 2010]{Vogelaar2010}
 Vogelaar, N.~J., Jing, X., Robinson, H.~H., and Schubot, F.~D. (2010).
 \newblock {Analysis of the crystal structure of the ExsCExsE complex reveals
   distinctive binding interactions of the pseudomonas aeruginosa type III
@@ -2340,7 +2308,7 @@ Wallace, D.~L. (1983).
 \newblock {\em Journal of the American Statistical Association},
   78(383):553--569.
 
-\bibitem[Wang et~al., 2016]{Wang2016}
+\bibitem[Wang \emph{et~al.}, 2016]{Wang2016}
 Wang, H., Li, Z., Jia, R., Hou, Y., Yin, J., Bian, X., Li, A., M{\"{u}}ller,
   R., Stewart, A.~F., Fu, J., and Zhang, Y. (2016).
 \newblock {RecET direct cloning and Red$\alpha$$\beta$ recombineering of
@@ -2348,38 +2316,31 @@ Wang, H., Li, Z., Jia, R., Hou, Y., Yin, J., Bian, X., Li, A., M{\"{u}}ller,
   expression}.
 \newblock {\em Nature Protocols}, 11(7):1175--1190.
 
-\bibitem[Wang et~al., 2017a]{Wang2017}
+\bibitem[Wang \emph{et~al.}, 2017]{Wang2017}
 Wang, J., Brackmann, M., Casta{\~{n}}o-D{\'{i}}ez, D., Kudryashev, M., Goldie,
-  K.~N., Maier, T., Stahlberg, H., and Basler, M. (2017a).
+  K.~N., Maier, T., Stahlberg, H., and Basler, M. (2017).
 \newblock {Cryo-EM structure of the extended type VI secretion system
   sheath-tube complex}.
 \newblock {\em Nature Microbiology}, 2(11):1507--1512.
 
-\bibitem[Wang et~al., 2017b]{Wang2017a}
-Wang, J., Brackmann, M., Casta{\~{n}}o-D{\'{i}}ez, D., Kudryashev, M., Goldie,
-  K.~N., Maier, T., Stahlberg, H., and Basler, M. (2017b).
-\newblock {Cryo-EM structure of the extended type VI secretion system
-  sheath-tube complex}.
-\newblock {\em Nature Microbiology}, 2(11):1507--1512.
-
-\bibitem[Wang et~al., 1998]{Wang1998}
+\bibitem[Wang \emph{et~al.}, 1998]{Wang1998}
 Wang, L., Jensen, S., Hallman, R., and Reeves, P.~R. (1998).
 \newblock {Expression of the O antigen gene cluster is regulated by RfaH
   through the JUMPstart sequence}.
 \newblock {\em FEMS Microbiology Letters}, 165(1):201--206.
 
-\bibitem[Waterfield et~al., 2009]{Waterfield2009}
+\bibitem[Waterfield \emph{et~al.}, 2009]{Waterfield2009}
 Waterfield, N.~R., Ciche, T.~A., and Clarke, D.~J. (2009).
 \newblock {Photorhabdus and a host of hosts.}
 \newblock {\em Annual Review of Microbiology}, 63:557--74.
 
-\bibitem[Waterfield et~al., 2004]{Waterfield2004a}
+\bibitem[Waterfield \emph{et~al.}, 2004]{Waterfield2004a}
 Waterfield, N.~R., Daborn, P.~J., and Ffrench-Constant, R.~H. (2004).
 \newblock {Insect pathogenicity islands in the insect pathogenic bacterium
   Photorhabdus}.
 \newblock {\em Physiological Entomology}, 29(3 SPEC. ISS.):240--250.
 
-\bibitem[Waterfield et~al., 2008]{Waterfield2008}
+\bibitem[Waterfield \emph{et~al.}, 2008]{Waterfield2008}
 Waterfield, N.~R., Sanchez-Contreras, M., Eleftherianos, I., Dowling, A., Yang,
   G., Wilkinson, P., Parkhill, J., Thomson, N., Reynolds, S.~E., Bode, H.~B.,
   Dorus, S., and Ffrench-Constant, R.~H. (2008).
@@ -2388,7 +2349,7 @@ Waterfield, N.~R., Sanchez-Contreras, M., Eleftherianos, I., Dowling, A., Yang,
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 105(41):15967--72.
 
-\bibitem[Wenren et~al., 2013]{Wenren2013}
+\bibitem[Wenren \emph{et~al.}, 2013]{Wenren2013}
 Wenren, L.~M., Sullivan, N.~L., and Cardarelli, L. (2013).
 \newblock {Two Independent Pathways for Self-Recognition in Proteus mirabilis
   Are Linked by Type VI-Dependent Export}.
@@ -2406,7 +2367,7 @@ Wernimont, A. and Edwards, A. (2009).
   determination: An update}.
 \newblock {\em PLoS ONE}, 4(4).
 
-\bibitem[Werren et~al., 2008]{Werren2008}
+\bibitem[Werren \emph{et~al.}, 2008]{Werren2008}
 Werren, J.~H., Baldo, L., and Clark, M.~E. (2008).
 \newblock {Wolbachia: Master manipulators of invertebrate biology}.
 \newblock {\em Nature Reviews Microbiology}, 6(10):741--751.
@@ -2422,14 +2383,14 @@ Wickham, H. (2009).
 \newblock {\em {ggplot2: Elegant Graphics for Data Analysis}}.
 \newblock Springer-Verlag New York.
 
-\bibitem[Wilkinson et~al., 2010]{Wilkinson2010a}
+\bibitem[Wilkinson \emph{et~al.}, 2010]{Wilkinson2010a}
 Wilkinson, P., Paszkiewicz, K., Moorhouse, A., Szubert, J.~M., Beatson, S.,
   Gerrard, J., Waterfield, N.~R., and Ffrench-Constant, R.~H. (2010).
 \newblock {New plasmids and putative virulence factors from the draft genome of
   an Australian clinical isolate of Photorhabdus asymbiotica}.
 \newblock {\em FEMS Microbiology Letters}, 309(2):136--143.
 
-\bibitem[Wilkinson et~al., 2009]{Wilkinson2009a}
+\bibitem[Wilkinson \emph{et~al.}, 2009]{Wilkinson2009a}
 Wilkinson, P., Waterfield, N.~R., Crossman, L., Corton, C., Sanchez-contreras,
   M., Vlisidou, I., Barron, A., Bignell, A., Clark, L., Ormond, D., Mayho, M.,
   Bason, N., Smith, F., Simmonds, M., Churcher, C., Harris, D., Thompson,
@@ -2439,25 +2400,25 @@ Wilkinson, P., Waterfield, N.~R., Crossman, L., Corton, C., Sanchez-contreras,
   asymbiotica with the insect pathogen Photorhabdus luminescens.}
 \newblock {\em BMC Genomics}, 10(302):302.
 
-\bibitem[Wilkinson et~al., 1972]{Wilkinson1972}
+\bibitem[Wilkinson \emph{et~al.}, 1972]{Wilkinson1972}
 Wilkinson, R.~G., Gemski, P., and Stocker, B.~a. (1972).
 \newblock {Non-smooth mutants of Salmonella typhimurium: differentiation by
   phage sensitivity and genetic mapping.}
 \newblock {\em Journal of general microbiology}, 70(3):527--54.
 
-\bibitem[Williams et~al., 2008]{Williams2008a}
+\bibitem[Williams \emph{et~al.}, 2008]{Williams2008a}
 Williams, S.~R., Gebhart, D., Martin, D.~W., and Scholl, D. (2008).
 \newblock {Retargeting R-type pyocins to generate novel bactericidal protein
   complexes}.
 \newblock {\em Applied and Environmental Microbiology}, 74(12):3868--3876.
 
-\bibitem[Yang et~al., 2006]{Yang2006}
+\bibitem[Yang \emph{et~al.}, 2006]{Yang2006}
 Yang, G., Dowling, A.~J., Gerike, U., and Waterfield, N.~R. (2006).
 \newblock {Photorhabdus virulence cassettes confer injectable insecticidal
   activity against the wax moth}.
 \newblock {\em Journal of {\ldots}}, 188(6):2254--2261.
 
-\bibitem[Yang et~al., 2014]{Yang2014}
+\bibitem[Yang \emph{et~al.}, 2014]{Yang2014}
 Yang, J., Yan, R., Roy, A., Xu, D., Poisson, J., and Zhang, Y. (2014).
 \newblock {The I-TASSER suite: Protein structure and function prediction}.
 \newblock {\em Nature Methods}, 12(1):7--8.
@@ -2472,24 +2433,24 @@ Yap, M.~L. and Rossmann, M.~G. (2014b).
 \newblock {Structure and function of bacteriophage T4}.
 \newblock {\em Future Microbiology}, 9(12):1319--1327.
 
-\bibitem[Yin et~al., 2015]{Yin2015}
+\bibitem[Yin \emph{et~al.}, 2015]{Yin2015}
 Yin, J., Zhu, H., Xia, L., Ding, X., Hoffmann, T., Hoffmann, M., Bian, X.,
   M{\"{u}}ller, R., Fu, J., Stewart, A.~F., and Zhang, Y. (2015).
 \newblock {A new recombineering system for Photorhabdus and Xenorhabdus}.
 \newblock {\em Nucleic Acids Research}, 43(6):e36.
 
-\bibitem[Yosef et~al., 2004]{Yosef2004}
+\bibitem[Yosef \emph{et~al.}, 2004]{Yosef2004}
 Yosef, I., Bloushtain, N., Shapira, M., and Qimron, U. (2004).
 \newblock {Restoration of gene function by homologous recombination: From PCR
   to gene expression in one step}.
 \newblock {\em Applied and Environmental Microbiology}, 70(12):7156--7160.
 
-\bibitem[Young et~al., 2000]{Young2000}
+\bibitem[Young \emph{et~al.}, 2000]{Young2000}
 Young, R., Wang, I.~N., and Roof, W.~D. (2000).
 \newblock {Phages will out: Strategies of host cell lysis}.
 \newblock {\em Trends in Microbiology}, 8(3):120--128.
 
-\bibitem[Yu et~al., 2000]{Yu2000}
+\bibitem[Yu \emph{et~al.}, 2000]{Yu2000}
 Yu, D., Ellis, H.~M., Lee, E.~C., Jenkins, N.~a., Copeland, N.~G., and Court,
   D.~L. (2000).
 \newblock {An efficient recombination system for chromosome engineering in
@@ -2497,7 +2458,7 @@ Yu, D., Ellis, H.~M., Lee, E.~C., Jenkins, N.~a., Copeland, N.~G., and Court,
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 97(11):5978--83.
 
-\bibitem[Zhang et~al., 2012]{Zhang2012a}
+\bibitem[Zhang \emph{et~al.}, 2012]{Zhang2012a}
 Zhang, D., de~Souza, R.~F., Anantharaman, V., Iyer, L.~M., and Aravind, L.
   (2012).
 \newblock {Polymorphic toxin systems: Comprehensive characterization of
@@ -2521,25 +2482,25 @@ Zheng, J. and Leung, K.~Y. (2007).
 \newblock {Dissection of a type VI secretion system in Edwardsiella tarda}.
 \newblock {\em Molecular Microbiology}, 66(5):1192--1206.
 
-\bibitem[Zheng et~al., 2017]{Zheng2017}
+\bibitem[Zheng \emph{et~al.}, 2017]{Zheng2017}
 Zheng, W., Wang, F., Taylor, N.~M., Guerrero-Ferreira, R.~C., Leiman, P.~G.,
   and Egelman, E.~H. (2017).
 \newblock {Refined Cryo-EM Structure of the T4 Tail Tube: Exploring the Lowest
   Dose Limit}.
 \newblock {\em Structure}, 25(9):1436--1441.e2.
 
-\bibitem[Ziemert et~al., 2016]{Ziemert2016}
+\bibitem[Ziemert \emph{et~al.}, 2016]{Ziemert2016}
 Ziemert, N., Alanjary, M., and Weber, T. (2016).
 \newblock {The evolution of genome mining in microbes – a review}.
 \newblock {\em Nat. Prod. Rep.}, 33(8):988--1005.
 
-\bibitem[Zink et~al., 1995]{Zink1995}
+\bibitem[Zink \emph{et~al.}, 1995]{Zink1995}
 Zink, R., Loessner, M.~J., and Scherer, S. (1995).
 \newblock {Characterization of cryptic prophages (monocins) in Listeria and
   sequence analysis of a holin/endolysin gene}.
 \newblock {\em Microbiology}, 141(10):2577--2584.
 
-\bibitem[Zoued et~al., 2016]{Zoued2016}
+\bibitem[Zoued \emph{et~al.}, 2016]{Zoued2016}
 Zoued, A., Durand, E., Brunet, Y.~R., Spinelli, S., Douzi, B., Guzzo, M.,
   Flaugnatti, N., Legrand, P., Journet, L., Fronzes, R., Mignot, T., Cambillau,
   C., and Cascales, E. (2016).

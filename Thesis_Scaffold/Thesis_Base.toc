@@ -197,6 +197,6 @@
 \contentsline {part}{IV\hspace {1em}Discussion}{287}{part.4}
 \contentsline {chapter}{\numberline {7}Discussion}{288}{chapter.7}
 \contentsline {chapter}{Bibliography}{289}{chapter.7}
-\contentsline {chapter}{Appendices}{324}{section*.123}
-\contentsline {chapter}{\numberline {A}Publications arising from this candidature}{325}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Chapter 4 Appendices}{330}{Appendix.a.B}
+\contentsline {chapter}{Appendices}{323}{section*.123}
+\contentsline {chapter}{\numberline {A}Publications arising from this candidature}{324}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Chapter 4 Appendices}{329}{Appendix.a.B}

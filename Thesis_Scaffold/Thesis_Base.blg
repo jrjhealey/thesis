@@ -1,194 +1,165 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis_Base.aux
-White space in argument---line 1998 of file Thesis_Base.aux
- : \citation{Dalebroux2010,Chatnaparat2015
- :                                         }
-I'm skipping whatever remains of this command
-The style file: apalike.bst
-Reallocated field_info (elt_size=4) to 13580 items from 5000.
+The style file: apalike_alt.bst
+Reallocated field_info (elt_size=4) to 13448 items from 5000.
 Database file #1: /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
-Repeated entry---line 1990 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
- : @article{AbuHatab1998
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2301 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 2249 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Cascales2012
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2477 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 2425 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Cascales2012
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2541 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 2474 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Rybakova2013
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2589 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 2522 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Heymann2013
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2744 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 2677 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Rybakova2013
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3881 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 3748 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Ballister2008
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4119 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 3972 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Sen2010
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4150 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 4003 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Bonemann2010
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4215 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 4068 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Arisaka2003
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4881 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 4705 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Heymann2013
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4937 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 4761 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Heymann2013
  :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4966 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
- : @article{Wang2017
- :                  ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 5286 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
- : @article{Katsura1987
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5506 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
- : @article{Rybakova2015
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5804 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 5543 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Aksyuk2009
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5866 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 5605 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Bonemann2009
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6300 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6039 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Hurst2000
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6406 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6130 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Bonemann2010
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6495 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6204 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Bartual2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6616 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6309 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Guzman1995
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6953 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
- : @article{Eleftherianos2010
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7137 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6813 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Aksyuk2009
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7155 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6831 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Shikuma2014
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7199 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6875 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Kostyuchenko2003
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7214 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6890 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Yang2006
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7285 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 6961 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Hurst2007a
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7366 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
- : @article{Baba2006
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7612 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 7273 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Thomason2007
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7844 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 7505 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @misc{Abuladze1994
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8045 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 7706 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Leiman2009
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8166 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 7827 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Naidoo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8197 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 7858 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Shikuma2014
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8214 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 7875 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Michel-Briand2002
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8241 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
+Repeated entry---line 7902 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
  : @article{Nakayama2000
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--there's a number but no volume in Rodriguez-GuerraPedregal2018
-You've used 390 entries,
+You've used 384 entries,
             1935 wiz_defined-function locations,
-            2786 strings with 95304 characters,
-and the built_in function-call counts, 192730 in all, are:
-= -- 18354
-> -- 11206
+            2774 strings with 95443 characters,
+and the built_in function-call counts, 189370 in all, are:
+= -- 18039
+> -- 10988
 < -- 126
-+ -- 4049
-- -- 4030
-* -- 18874
-:= -- 33768
-add.period$ -- 1168
-call.type$ -- 390
-change.case$ -- 3958
-chr.to.int$ -- 371
-cite$ -- 391
-duplicate$ -- 5573
-empty$ -- 11524
-format.name$ -- 4564
-if$ -- 36251
-int.to.chr$ -- 20
++ -- 3962
+- -- 3950
+* -- 18524
+:= -- 33182
+add.period$ -- 1150
+call.type$ -- 384
+change.case$ -- 3888
+chr.to.int$ -- 372
+cite$ -- 384
+duplicate$ -- 5488
+empty$ -- 11333
+format.name$ -- 4478
+if$ -- 35627
+int.to.chr$ -- 13
 int.to.str$ -- 0
-missing$ -- 388
-newline$ -- 1949
-num.names$ -- 1170
-pop$ -- 3138
+missing$ -- 382
+newline$ -- 1919
+num.names$ -- 1152
+pop$ -- 3081
 preamble$ -- 1
-purify$ -- 3965
+purify$ -- 3895
 quote$ -- 0
-skip$ -- 4174
+skip$ -- 4122
 stack$ -- 0
-substring$ -- 13882
-swap$ -- 529
+substring$ -- 13632
+swap$ -- 523
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2330
-warning$ -- 1
-while$ -- 1506
+type$ -- 2294
+warning$ -- 0
+while$ -- 1480
 width$ -- 0
-write$ -- 5065
-(There were 36 error messages)
+write$ -- 4986
+(There were 29 error messages)
