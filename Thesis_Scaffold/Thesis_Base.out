@@ -83,13 +83,13 @@
 \BOOKMARK [3][-]{subsubsection.2.3.4.3}{Concentration/Dialysis}{subsection.2.3.4}% 83
 \BOOKMARK [2][-]{subsection.2.3.5}{Quantification}{section.2.3}% 84
 \BOOKMARK [2][-]{subsection.2.3.6}{SDS-PAGE}{section.2.3}% 85
-\BOOKMARK [2][-]{subsection.2.3.7}{Staining}{section.2.3}% 86
-\BOOKMARK [2][-]{subsection.2.3.8}{Western Blotting}{section.2.3}% 87
-\BOOKMARK [1][-]{section.2.4}{Bio-physical Techniques}{chapter.2}% 88
-\BOOKMARK [2][-]{subsection.2.4.1}{Fluorescence microscopy}{section.2.4}% 89
-\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Image normalisation and consistency}{subsection.2.4.1}% 90
-\BOOKMARK [2][-]{subsection.2.4.2}{Circular Dichroism}{section.2.4}% 91
-\BOOKMARK [2][-]{subsection.2.4.3}{Crystallography}{section.2.4}% 92
+\BOOKMARK [3][-]{subsubsection.2.3.6.1}{Staining}{subsection.2.3.6}% 86
+\BOOKMARK [3][-]{subsubsection.2.3.6.2}{Western Blotting}{subsection.2.3.6}% 87
+\BOOKMARK [2][-]{subsection.2.3.7}{Crystallography}{section.2.3}% 88
+\BOOKMARK [1][-]{section.2.4}{Bio-physical Techniques}{chapter.2}% 89
+\BOOKMARK [2][-]{subsection.2.4.1}{Fluorescence microscopy}{section.2.4}% 90
+\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Image normalisation and consistency}{subsection.2.4.1}% 91
+\BOOKMARK [2][-]{subsection.2.4.2}{Circular Dichroism}{section.2.4}% 92
 \BOOKMARK [1][-]{section.2.5}{Bioinformatics Methods}{chapter.2}% 93
 \BOOKMARK [2][-]{subsection.2.5.1}{Quality Control}{section.2.5}% 94
 \BOOKMARK [2][-]{subsection.2.5.2}{Assembly}{section.2.5}% 95
@@ -197,10 +197,6 @@
 \BOOKMARK [-1][-]{part.4}{IV Discussion}{}% 197
 \BOOKMARK [0][-]{chapter.7}{Discussion}{part.4}% 198
 \BOOKMARK [0][-]{chapter.7}{Bibliography}{part.4}% 199
-\BOOKMARK [0][-]{section*.124}{Appendices}{part.4}% 200
+\BOOKMARK [0][-]{section*.123}{Appendices}{part.4}% 200
 \BOOKMARK [0][-]{Appendix.a.A}{Publications arising from this candidature}{part.4}% 201
-\BOOKMARK [0][-]{Appendix.a.B}{Chapter 3 Appendices}{part.4}% 202
-\BOOKMARK [1][-]{section.a.B.1}{HHPred results for all loci \(excluding payload regions\)}{Appendix.a.B}% 203
-\BOOKMARK [0][-]{Appendix.a.C}{Chapter 4 Appendices}{part.4}% 204
-\BOOKMARK [1][-]{section.a.C.1}{Clusterings of PVC genes for phylogenetic studies}{Appendix.a.C}% 205
-\BOOKMARK [1][-]{section.a.C.2}{Multiple Sequence Alignments for PVC proteins}{Appendix.a.C}% 206
+\BOOKMARK [0][-]{Appendix.a.B}{Chapter 4 Appendices}{part.4}% 202

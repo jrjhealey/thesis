@@ -31,7 +31,7 @@
         \renewcommand{\abstractnamefont}{\normalfont\Large\bfseries}
 
 \usepackage{natbib} % Bibliography
-\setlength{\bibsep}{0.512cm} % Increase spacing between references
+\setlength{\bibsep}{0.45cm} % Increase spacing between references
 
 \usepackage{pgffor, ifthen} % Add notes pages
 \newcommand{\notes}[3][\empty]{%
@@ -513,7 +513,7 @@ Author Contribution: Creation of simulated structural and modelling data for exe
 \rhead{\textsf{Abstract}}
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-\lettrine[lraise=0.0, nindent=0.1em, slope=1em]{T}{ he} ``\emph{Photorhabdus} Virulence Cassette" is an elaborate macromolecular protein complex evolved to specifically and potently deliver effector molecules to the interior of target cells. A PVC can be thought of a ``headless bacteriophage", with with a protein cargo rather than a nucleic acid one. This thesis sheds light on some of the `dark matter' in the content and operon structure of PVCs, though mysteries remain. The Introduction guides the reader through the universe of similar protein complexes. The first 2 results chapters `pave the way' for lab experiments by examining the PVCs in a number of computational workflows. In Chapter 3, the disconnect between sequence and structure for proteins is examined - and what this means for PVCs. Through sensitive methods, less dependent on sequence, new, informative homologies are detected, and we get a `first look' at the likely structure for many elements of a PVC. Chapter 4 explores the operon structure of PVCs, identifying proteins which are non-essential to PVC function, and demonstrating the variability between operons. In the first of the `wet lab' chapters, Chapter 5 examines the enigmatic proposed `tail fibres' of the PVCs, identified as hypervariable in Chapter 4. This chapter represents the first experimental study of such proteins, and goes a long way to confirming their true nature as real tail fibres. Finally, Chapter 6 details the efforts made to heterologously clone controllable PVCs - a non-trivial task it turns out; and to understand the regulation and population dynamics of how PVCs are deployed by \emph{Photorhabdus} naturally.
+\lettrine[lraise=0.0, nindent=0.1em, slope=1em]{T}{ he} ``\emph{Photorhabdus} Virulence Cassette" is an elaborate macromolecular protein complex evolved to specifically and potently deliver effector molecules to the interior of target cells. A PVC can be thought of a ``headless bacteriophage", with with a protein cargo rather than a nucleic acid one. This thesis sheds light on some of the `dark matter' in the content and operon structure of PVCs, though mysteries remain. The Introduction guides the reader through the universe of similar protein complexes. The first 2 results chapters `pave the way' for lab experiments by examining the PVCs in a number of computational workflows. In Chapter 3, the disconnect between sequence and structure for proteins is examined - and what this means for PVCs. Through sensitive methods, less dependent on sequence, new, informative homologies are detected, and we get a `first look' at the likely structure for many elements of a PVC. Chapter 4 explores the operon structure of PVCs, identifying proteins which may be non-essential to PVC function, and demonstrating the `microevolution' in, and variability between, operons. In the first of the `wet lab' chapters, Chapter 5 examines the enigmatic proposed `tail fibres' of the PVCs, identified as hypervariable in Chapter 4. This chapter represents the first experimental study of of a potentially unique chimeric fibre protein, and provides the first experimental data confirming their true nature as real tail fibres. Finally, Chapter 6 details the efforts made to heterologously clone controllable PVCs - a non-trivial task it turns out; and to understand the regulation and population dynamics of how PVCs are deployed by \emph{Photorhabdus} naturally, with preliminary observations implicating a role for RfaH-like proteins and anti-termination/operon polarity suppression.
 
 \newpage
 
@@ -523,6 +523,8 @@ Author Contribution: Creation of simulated structural and modelling data for exe
 %%                                                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter*{Abbreviations}
+\rhead{\textsf{}}
+
 \addcontentsline{toc}{chapter}{Abbreviations}
 \small
 \begin{sortedlist}
@@ -541,7 +543,7 @@ Author Contribution: Creation of simulated structural and modelling data for exe
   \sortitem{bp          \hfill basepairs}
   \sortitem{kbp         \hfill kilo-basepairs}
   \sortitem{Mbp         \hfill Mega-basepairs}
-  \sortitem{gp\#\#      \hfill gene product \#\#}
+  \sortitem{gp\#\#      \hfill Phage T4 gene product \#\#}
   \sortitem{hcp         \hfill hemolysin co-regulated protein}
   \sortitem{T6SS        \hfill Type 6 Secretion System}
   \sortitem{TXSS        \hfill Type $x$ Secretion System}
@@ -559,7 +561,7 @@ Author Contribution: Creation of simulated structural and modelling data for exe
   \sortitem{AWC         \hfill Adjusted Wallace Coefficient}
   \sortitem{lumt        \hfill Large Unknown Mosaic Toxin}
   \sortitem{cif         \hfill Cell-cycle Inhibition Factor}
-  \sortitem{lopt        \hfill \emph{luminescens} Outer membrane Protein}
+  \sortitem{lopt        \hfill \emph{Photorhabdus} YopT-like toxin}
   \sortitem{ops         \hfill Operon Polarity Suppressor}
   \sortitem{IJ          \hfill Infective Juvenile nematode}
   \sortitem{cnf         \hfill Cytonecrosis Factor}
@@ -587,7 +589,7 @@ Author Contribution: Creation of simulated structural and modelling data for exe
   \sortitem{GFP         \hfill Green Fluorescent Protein}
   \sortitem{BLAST       \hfill Basic Local Alignment Search Tool}
   \sortitem{MSA         \hfill Multiple Sequence Alignment}
-  \sortitem{INDEL       \hfill INsertion of DELetion in a sequence}
+  \sortitem{INDEL       \hfill INsertion/DELetion in a sequence}
   \sortitem{NMR         \hfill Nuclear Magnetic Resonance}
   \sortitem{kDa         \hfill kilo-Daltons}
   \sortitem{CAR         \hfill Coxsackie Adenovirus Receptor}
@@ -617,7 +619,7 @@ Author Contribution: Creation of simulated structural and modelling data for exe
 
 Welcome to the future! This thesis contains elements which can be viewed in augmented reality! (I know right?!). If you want to view these features, you'll need a smart phone or tablet device, and you'll need to download the ``Augment" app. It can be found in the the Google Play Store or Apple App Store (\url{www.augment.com}) - don't worry, it's free!
 
-Any time you see the symbol below on a page (bottom left footer), you can scan that page with the app, and see the model spring to life on the page! (Note, that due to some rendering limitations and reduced resolution, the augmented reality image may not entirely resemble the image on the page, and in cases where the render would have been too large, the image might have been replaced with a related one for simplicity).
+Any time you see the symbol below on a page (bottom left footer), you can scan that page with the app, and see the model spring to life on the page! (Note, that due to some rendering limitations of mobile devices `horsepower' and reduced resolution, the augmented reality image may not entirely resemble the image on the page, and in cases where the render would have been too large, the image might have been replaced with a related one for simplicity).
 
 \vspace{1cm}
 \begin{figure}[h!]
@@ -696,8 +698,9 @@ Any time you see the symbol below on a page (bottom left footer), you can scan t
 %%                            BIBLIOGRAPHY                            %%
 %%                                                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\pagestyle{fancy}
+\pagestyle{IHA-fancy-style}
 \rhead{\textsf{Bibliography}}
+\lhead{\textsf{}}
 \addcontentsline{toc}{chapter}{Bibliography}
 \begingroup
 \bibliographystyle{apalike}
@@ -724,12 +727,12 @@ The paper demonstrates that polyproline helices exhibit ice recrystallisation in
 \includepdf[pages={-}]{/Users/joehealey/Documents/Warwick/PhD/Thesis/appendices/publications/ange201706703.pdf}
 
 
-\chapter{Chapter 3 Appendices}\label{structural_appendix}
-\input{../appendices/structuralbioinformatics_appendix/structuralbioinformatics_appendix.tex}
+%\chapter{Chapter 3 Appendices}\label{structural_appendix}
+%\input{../appendices/structuralbioinformatics_appendix/structuralbioinformatics_appendix.tex}
 
 
 \chapter{Chapter 4 Appendices}\label{bioinformatics_appendix}
-\input{../appendices/bioinformatics_appendix/bioinformatics_appendix.tex}
+%\input{../appendices/bioinformatics_appendix/bioinformatics_appendix.tex}
 
 \end{appendices}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -747,8 +750,9 @@ The paper demonstrates that polyproline helices exhibit ice recrystallisation in
 \pagestyle{empty}
 \chapter*{Notes}
 \notes[9pt]{37}{\textwidth}\clearpage
+\todo[inline]{Add a table of nomenclature???}
 \todo[inline]{Replace intro augment models with lower tri counts (100k rather than 150k - smartphone struggles with 150)}
-\todo[inline]{Document check over: Change captions to small caps as per fig 1.5 in intro}
+\todo[inline]{Document check over: Change headings to title case, subheadings to sentence case}
 \todo[inline]{Document check over: ensure cite citations are being included as with citep}
 \todo[inline]{Document check over: ensure all tables (particularly in Methods) have references if needed}
 \todo[inline]{Check formatting of all references, ensure no duplicates (e.g. Smith2000, and Smith2000a relating to the same article), and ensure all in-text citations resolve fully (including captions)}

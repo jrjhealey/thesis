@@ -681,11 +681,16 @@ Gels were prepared via standard methods, routinely using 12 and 15 \% v/v resolv
 \end{table}
 
 	
-\subsection{Staining}
+\subsubsection{Staining}
 Staining was performed by shaking overnight in a Coomassie blue solution, or for approximately 1 hour in Instant-Blue (Expedeon). Destaining was performed using an 80\% ethanol, 20\% acetic acid solution, mixed 1:1 with water, until the desired de-colouration was observed.
 
-\subsection{Western Blotting}
+\subsubsection{Western Blotting}
 For Western blots, gels were run as just described. Upon removal of the gel from the running tank, it was washed thoroughly in water. The gels band were transferred to polyvinylidene fluoride (PVDF) membranes via a Biorad ``TransBlot Turbo" electroblotter, using the 7 minute turbo protocol. For washing, antibody binding and visualisation, the Pierce Fast Western Blot kit from Thermo was used according to the manufacturers protocol. A rabbit anti-his monoclonal antibody from Cell Signalling was used as the primary. The secondary was included with the Pierce kit and was a horseradish peroxidase conjugate, which could be visualised in the GelDoc transillumination cabinet upon addition of luminol.
+
+\subsection{Crystallography}
+Initial crystallographic screens were set up using $\approx$ 150\ul{} of purified protein at between 10 and 15\mgml. Crystallisation conditions were screened in picolitre drop volumes using the mosquito$^{\textregistered}$ crystal screening robot from TTP Biotech, and several commercially available 96-well format buffer plates; namely, the ``Wizard" 1, 2, 3, 4, ``SG1", and ``Morpheus" screens from Molecular Dimensions. In total, around 400 conditions could be screened in a manner of hours. Progress of crystallisation was checked every few days, and each well of the plate was examined via microscope.
+
+If promising preliminary conditions were identified, the corresponding buffer was made up in larger volume, and an increased buffer and protein crystal ``sitting drop'' was set up to obtain fully sized crystals for diffraction testing.
 
 
 \section{Bio-physical Techniques}
@@ -701,13 +706,8 @@ Once ideal conditions for individual traces are identified, a temperature rampin
 
 Spectral data were analysed with the online tool \texttt{Dichroweb} \citep{Whitmore2004}. Details of reference sets and other analysis parameters are discussed in \vref{tailfibres} due to it requiring some empirical experimentation, and results are presented there.
 
-\subsection{Crystallography}
-Initial crystallographic screens were set up using $\approx$ 150\ul{} of purified protein at between 10 and 15\mgml. Crystallisation conditions were screened in picolitre drop volumes using the mosquito$^{\textregistered}$ crystal screening robot from TTP Biotech, and several commercially available 96-well format buffer plates; namely, the ``Wizard" 1, 2, 3, 4, ``SG1", and ``Morpheus" screens from Molecular Dimensions. In total, around 400 conditions could be screened in a manner of hours. Progress of crystallisation was checked every few days, and each well of the plate was examined via microscope.
-
-If promising preliminary conditions were identified, the corresponding buffer was made up in larger volume, and an increased buffer and protein crystal ``sitting drop'' was set up to obtain fully sized crystals for diffraction testing.
-
 \section{Bioinformatics Methods}
-Bioinformatics workflows often require a great many different tools for different purposes, and it is beyond the scope and remit of this thesis to discuss the intricacies of all of them. Here, an overview of their purpose in this study is given, and where necessary/relevant, the concept underlying the tool. Where specified parameters may have influenced the result of the computation, those parameters are provided here. All scripts created for this thesis are available online at GitHub\footnote{\url{https://github.com/jrjhealey}}. As is conventional in computer science and bioinformatics fora, names of scripts and programs will be given in \texttt{monospaced font}. Except where explicitly stated otherwise, software was used with its default/recommended parameters. Work was performed mostly on our local server (a ProLiant DL385p Gen8, with 32x AMD Opteron 6380s, 377 GB DDR3 RAM). For structural simulation, we fortunately had access to a pre-public early beta version of the now-completed MRC CLIMB infrastructure (Cloud Infrastructure for Microbial Bioinformatics)\citep{Connor2016a} (more information in \vref{structuresimulation}).
+Bioinformatics workflows often require a great many different tools for different purposes, and it is beyond the scope and remit of this thesis to discuss the intricacies of all of them. Here, an overview of their purpose in this study is given, and where necessary/relevant, the concept underlying the tool. Where specified parameters may have influenced the result of the computation, those parameters are provided here. All scripts created for this thesis are available online at GitHub\footnote{\url{https://github.com/jrjhealey}}. As is conventional in computer science and bioinformatics fora, names of scripts and programs will be given in \texttt{monospaced font}. Except where explicitly stated otherwise, software was used with its default/recommended parameters. Work was performed mostly on our local server (a ProLiant DL385p Gen8, with 32x AMD Opteron 6380s, 377 GB DDR3 RAM). For structural simulation, we fortunately had access to a pre-public early beta version of the now-completed MRC CLIMB infrastructure (Cloud Infrastructure for Microbial Bioinformatics)\citep{Connor2016} (more information in \vref{structuresimulation}).
 
 For general file manipulation and miscellaneous tasks, various bespoke \texttt{bash} and \texttt{python} scripts were used. For inter-conversion of bioinformatic file formats, \texttt{BioPython} was a primary tool \citep{Cock2009}.
 

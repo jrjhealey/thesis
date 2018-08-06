@@ -1,10 +1,10 @@
 \contentsline {chapter}{List of Figures}{ix}{Item.2}
-\contentsline {chapter}{List of Tables}{xi}{Item.2}
-\contentsline {chapter}{List of Equations}{xii}{Item.2}
-\contentsline {chapter}{Acknowledgements}{xii}{Item.2}
-\contentsline {chapter}{Declaration}{xvi}{chapter*.1}
-\contentsline {chapter}{Abstract}{xviii}{chapter*.3}
-\contentsline {chapter}{Abbreviations}{xix}{chapter*.4}
+\contentsline {chapter}{List of Tables}{x}{Item.2}
+\contentsline {chapter}{List of Equations}{xi}{Item.2}
+\contentsline {chapter}{Acknowledgements}{xi}{Item.2}
+\contentsline {chapter}{Declaration}{xv}{chapter*.1}
+\contentsline {chapter}{Abstract}{xvii}{chapter*.3}
+\contentsline {chapter}{Abbreviations}{xviii}{chapter*.4}
 \contentsline {part}{I\hspace {1em}Introduction \& Methodology}{1}{part.1}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}\Pa }{3}{section.1.1}
@@ -22,7 +22,7 @@
 \contentsline {paragraph}{\numberline {1.2.3.4.1}The ``Type \textbf {$x$}" Secretion System repertoire}{36}{paragraph.1.2.3.4.1}
 \contentsline {subsubsection}{\numberline {1.2.3.5}Of PVCs and their extended family}{48}{subsubsection.1.2.3.5}
 \contentsline {paragraph}{\numberline {1.2.3.5.1}In \emph {Pseudoalteromonas luteoviolacea}}{48}{paragraph.1.2.3.5.1}
-\contentsline {paragraph}{\numberline {1.2.3.5.2}In Amoebophilus asiaticus}{49}{paragraph.1.2.3.5.2}
+\contentsline {paragraph}{\numberline {1.2.3.5.2}In \emph {Amoebophilus asiaticus}}{49}{paragraph.1.2.3.5.2}
 \contentsline {paragraph}{\numberline {1.2.3.5.3}In \emph {Cardinium hertegii}}{50}{paragraph.1.2.3.5.3}
 \contentsline {subsection}{\numberline {1.2.4}Mechanism of Action}{53}{subsection.1.2.4}
 \contentsline {subsection}{\numberline {1.2.5}The \emph {status quo} of PVC genetics}{54}{subsection.1.2.5}
@@ -83,15 +83,15 @@
 \contentsline {subsubsection}{\numberline {2.3.4.3}Concentration/Dialysis}{84}{subsubsection.2.3.4.3}
 \contentsline {subsection}{\numberline {2.3.5}Quantification}{84}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}SDS-PAGE}{85}{subsection.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Staining}{86}{subsection.2.3.7}
-\contentsline {subsection}{\numberline {2.3.8}Western Blotting}{86}{subsection.2.3.8}
-\contentsline {section}{\numberline {2.4}Bio-physical Techniques}{86}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Fluorescence microscopy}{86}{subsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.1.1}Image normalisation and consistency}{86}{subsubsection.2.4.1.1}
+\contentsline {subsubsection}{\numberline {2.3.6.1}Staining}{86}{subsubsection.2.3.6.1}
+\contentsline {subsubsection}{\numberline {2.3.6.2}Western Blotting}{86}{subsubsection.2.3.6.2}
+\contentsline {subsection}{\numberline {2.3.7}Crystallography}{86}{subsection.2.3.7}
+\contentsline {section}{\numberline {2.4}Bio-physical Techniques}{87}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Fluorescence microscopy}{87}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Image normalisation and consistency}{87}{subsubsection.2.4.1.1}
 \contentsline {subsection}{\numberline {2.4.2}Circular Dichroism}{87}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Crystallography}{87}{subsection.2.4.3}
 \contentsline {section}{\numberline {2.5}Bioinformatics Methods}{88}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Quality Control}{88}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Quality Control}{89}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Assembly}{89}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Mapping}{89}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Annotation}{89}{subsection.2.5.4}
@@ -197,10 +197,6 @@
 \contentsline {part}{IV\hspace {1em}Discussion}{287}{part.4}
 \contentsline {chapter}{\numberline {7}Discussion}{288}{chapter.7}
 \contentsline {chapter}{Bibliography}{289}{chapter.7}
-\contentsline {chapter}{Appendices}{325}{section*.124}
-\contentsline {chapter}{\numberline {A}Publications arising from this candidature}{326}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Chapter 3 Appendices}{331}{Appendix.a.B}
-\contentsline {section}{\numberline {B.1}HHPred results for all loci (excluding payload regions)}{331}{section.a.B.1}
-\contentsline {chapter}{\numberline {C}Chapter 4 Appendices}{345}{Appendix.a.C}
-\contentsline {section}{\numberline {C.1}Clusterings of PVC genes for phylogenetic studies}{345}{section.a.C.1}
-\contentsline {section}{\numberline {C.2}Multiple Sequence Alignments for PVC proteins}{347}{section.a.C.2}
+\contentsline {chapter}{Appendices}{324}{section*.123}
+\contentsline {chapter}{\numberline {A}Publications arising from this candidature}{325}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Chapter 4 Appendices}{330}{Appendix.a.B}
