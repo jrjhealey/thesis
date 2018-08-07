@@ -377,38 +377,39 @@ However, a diversified operator sequence would suggest a diversified cognate bin
 \vspace{1cm}
 \begin{figure}[h]
 \thisfloatpagestyle{IHA-fancy-style}
-
-\vspace{-0.5cm}
-\begin{texshade}{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/resources/alignments/PVC_upstream_w_RfaH.afasta}
-\seqtype{N}
-\setends{19}{0..180}
-\setfont{numbering}{tt}{md}{sc}{tiny}
-\setfont{names}{tt}{md}{up}{tiny}
-\setfont{residues}{tt}{md}{sc}{tiny}
-\setfont{ruler}{tt}{bf}{sc}{tiny}
-\shadingmode[allmatchspecial]{similar}
-%\conservedresidues{Black}{LightCornflowerBlue}{upper}{md}
-%\allmatchresidues{Goldenrod}{RoyalPurple}{upper}{bf}
-\threshold[80]{30}
-\smallblockskip
-%\rulersteps{5}
-%\showruler{top}
-
-\hideruler
-\vsepspace{0.2pt}
-\showsequencelogo{bottom}
-%\showconsensus[ColdHot]{bottom}
-%\defconsensus{.}{lower}{upper}
-\hideconsensus
-\topspace{-3pt}
-\featuressmall
-\feature{top}{1}{1..12}{brace}{ops site}
-
+\includegraphics[width=\textwidth, trim={0 0 0 0}, clip]{ops_alignment.png}
+%
+%\vspace{-0.5cm}
+%\begin{texshade}{/Users/joehealey/Documents/Warwick/PhD/Thesis/chapters/chapter6/resources/alignments/PVC_upstream_w_RfaH.afasta}
+%\seqtype{N}
+%\setends{19}{0..180}
+%\setfont{numbering}{tt}{md}{sc}{tiny}
+%\setfont{names}{tt}{md}{up}{tiny}
+%\setfont{residues}{tt}{md}{sc}{tiny}
+%\setfont{ruler}{tt}{bf}{sc}{tiny}
+%\shadingmode[allmatchspecial]{similar}
+%%\conservedresidues{Black}{LightCornflowerBlue}{upper}{md}
+%%\allmatchresidues{Goldenrod}{RoyalPurple}{upper}{bf}
+%\threshold[80]{30}
+%\smallblockskip
+%%\rulersteps{5}
+%%\showruler{top}
+%
+%\hideruler
+%\vsepspace{0.2pt}
+%\showsequencelogo{bottom}
+%%\showconsensus[ColdHot]{bottom}
+%%\defconsensus{.}{lower}{upper}
+%\hideconsensus
+%\topspace{-3pt}
+%\featuressmall
+%\feature{top}{1}{1..12}{brace}{ops site}
+%
 %
 %\shortcaption{Multiple sequence alignment of PVC tail fibre genes, denoting conserved domains}
 %\showcaption[bottom]{\small Multiple sequence alignments for all tail fibre sequences known for the PVCs. This is the same alignment as that referred to in previous chapters and in Appendix \vref{bioinformatics_appendix}. The MSA was generated with Clustal Omega, and has been visualised here via the \texttt{TexShade} package. Residues are colour coded by residue similarity.}
 %
-\end{texshade}
+%\end{texshade}
 	\captionsetup{singlelinecheck=off, justification=justified, font=footnotesize, aboveskip=5pt}
 	\caption[Multiple sequence alignment of redundant RfaH \emph{ops} sites]{\textsc{\normalsize Identifying RfaH \emph{ops} sites via profile MSA.}\vspace{0.1cm}\newline A sequence alignment of $\approx$500 bases upstream of the first locus of the PVC operons (only $\approx$200 bases reproduced here), with redundant permutations of the RfaH \emph{ops} binding site profile aligned. 5' regions of the PVCs were first aligned together, then permutations of the canonical \emph{E. coli} RfaH binding site were generated and aligned together against the existing MSA to identify the binding site and its conservation (or lack thereof). Visualised here via the \texttt{TexShade} \LaTeX package, identical residues are yellow-on-purple, residues conserved at over 80 \% are white-on-blue, residues conserved at over 30 \% are black-on-pink, and uncoloured residues are less conserved than this cutoff.}
 	\label{rfahmsa}
