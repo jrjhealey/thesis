@@ -9,7 +9,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}\Pa }{3}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}The \Pa {} genus: the same but different}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}A biological `box of tricks'}{6}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}A biological `box of tricks'}{5}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}The life cycle of a pathogen and mutualist}{7}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}The \Pa {} Virulence Cassette}{10}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Discovery of the PVCs}{11}{subsection.1.2.1}
@@ -17,9 +17,9 @@
 \contentsline {subsection}{\numberline {1.2.3}PVCs as contractile nanomachines}{15}{subsection.1.2.3}
 \contentsline {subsubsection}{\numberline {1.2.3.1}Of PVCs and Phage}{15}{subsubsection.1.2.3.1}
 \contentsline {subsubsection}{\numberline {1.2.3.2}Of PVCs and R-type Pyocins/Tailocins}{22}{subsubsection.1.2.3.2}
-\contentsline {subsubsection}{\numberline {1.2.3.3}Of PVCs and the \emph {Serratia entomophila} ``Antifeeding prophage"}{29}{subsubsection.1.2.3.3}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Of PVCs and the \emph {Serratia entomophila} ``Antifeeding prophage"}{28}{subsubsection.1.2.3.3}
 \contentsline {subsubsection}{\numberline {1.2.3.4}Of PVCs and Type VI Secretion Systems}{35}{subsubsection.1.2.3.4}
-\contentsline {paragraph}{\numberline {1.2.3.4.1}The ``Type \textbf {$x$}" Secretion System repertoire}{36}{paragraph.1.2.3.4.1}
+\contentsline {paragraph}{\numberline {1.2.3.4.1}The ``Type \textbf {$x$}" Secretion System repertoire}{35}{paragraph.1.2.3.4.1}
 \contentsline {subsubsection}{\numberline {1.2.3.5}Of PVCs and their extended family}{48}{subsubsection.1.2.3.5}
 \contentsline {paragraph}{\numberline {1.2.3.5.1}In \emph {Pseudoalteromonas luteoviolacea}}{48}{paragraph.1.2.3.5.1}
 \contentsline {paragraph}{\numberline {1.2.3.5.2}In \emph {Amoebophilus asiaticus}}{49}{paragraph.1.2.3.5.2}
@@ -82,138 +82,138 @@
 \contentsline {subsubsection}{\numberline {2.3.4.2}Gel Filtration}{84}{subsubsection.2.3.4.2}
 \contentsline {subsubsection}{\numberline {2.3.4.3}Concentration/Dialysis}{84}{subsubsection.2.3.4.3}
 \contentsline {subsection}{\numberline {2.3.5}Quantification}{84}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}SDS-PAGE}{85}{subsection.2.3.6}
-\contentsline {subsubsection}{\numberline {2.3.6.1}Staining}{86}{subsubsection.2.3.6.1}
+\contentsline {subsection}{\numberline {2.3.6}SDS-PAGE}{84}{subsection.2.3.6}
+\contentsline {subsubsection}{\numberline {2.3.6.1}Staining}{85}{subsubsection.2.3.6.1}
 \contentsline {subsubsection}{\numberline {2.3.6.2}Western Blotting}{86}{subsubsection.2.3.6.2}
 \contentsline {subsection}{\numberline {2.3.7}Crystallography}{86}{subsection.2.3.7}
-\contentsline {section}{\numberline {2.4}Bio-physical Techniques}{87}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Fluorescence microscopy}{87}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.4}Bio-physical Techniques}{86}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Fluorescence microscopy}{86}{subsection.2.4.1}
 \contentsline {subsubsection}{\numberline {2.4.1.1}Image normalisation and consistency}{87}{subsubsection.2.4.1.1}
 \contentsline {subsection}{\numberline {2.4.2}Circular Dichroism}{87}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Bioinformatics Methods}{88}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Quality Control}{89}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Assembly}{89}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.1}Quality Control}{88}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Assembly}{88}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Mapping}{89}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Annotation}{89}{subsection.2.5.4}
 \contentsline {subsection}{\numberline {2.5.5}Alignment}{89}{subsection.2.5.5}
 \contentsline {subsection}{\numberline {2.5.6}Phylogenetics}{89}{subsection.2.5.6}
-\contentsline {subsection}{\numberline {2.5.7}Congruency}{90}{subsection.2.5.7}
+\contentsline {subsection}{\numberline {2.5.7}Congruency}{89}{subsection.2.5.7}
 \contentsline {subsection}{\numberline {2.5.8}Ortholog Detection}{92}{subsection.2.5.8}
 \contentsline {subsection}{\numberline {2.5.9}Structure Prediction}{92}{subsection.2.5.9}
 \contentsline {subsection}{\numberline {2.5.10}Structural Analysis}{93}{subsection.2.5.10}
 \contentsline {subsection}{\numberline {2.5.11}Repeat detection}{94}{subsection.2.5.11}
 \contentsline {subsection}{\numberline {2.5.12}RNA structure analysis}{94}{subsection.2.5.12}
 \contentsline {subsection}{\numberline {2.5.13}Data Visualisation}{94}{subsection.2.5.13}
-\contentsline {part}{II\hspace {1em}Computational Results}{96}{part.2}
-\contentsline {chapter}{\numberline {3}Structural Bioinformatics of PVC Proteins}{97}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{97}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The sequence identity problem}{98}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Experimental procedures}{102}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Methods used for probing the structures of PVC proteins}{102}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}Hidden Markov Model Homology Searching}{102}{subsubsection.3.2.1.1}
-\contentsline {subsubsection}{\numberline {3.2.1.2}Homology modelling, threading and structural refinement}{104}{subsubsection.3.2.1.2}
-\contentsline {subsection}{\numberline {3.2.2}Exploration of the structure of PVCs by functional unit}{109}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}The PVC tube}{109}{subsubsection.3.2.2.1}
-\contentsline {paragraph}{\numberline {3.2.2.1.1}Structural comparisons of duplicated and triplicated tube proteins}{115}{paragraph.3.2.2.1.1}
-\contentsline {paragraph}{\numberline {3.2.2.1.2}Electrostatic comparisons amongst tube proteins}{118}{paragraph.3.2.2.1.2}
-\contentsline {subsubsection}{\numberline {3.2.2.2}The spike complex}{126}{subsubsection.3.2.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.2.1}Enigmatic putative collar/baseplate proteins}{127}{paragraph.3.2.2.2.1}
-\contentsline {paragraph}{\numberline {3.2.2.2.2}The putative spike complex and PVC baseplate hub is more reminiscent of the T6SS}{128}{paragraph.3.2.2.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.2.3}A new suggested role for PVC9 in tube initiation}{130}{paragraph.3.2.2.2.3}
-\contentsline {paragraph}{\numberline {3.2.2.2.4}Identifying subtle hallmarks of potential spike ``PAAR" proteins}{131}{paragraph.3.2.2.2.4}
-\contentsline {paragraph}{\numberline {3.2.2.2.5}PVC11 as the major baseplate structural component}{134}{paragraph.3.2.2.2.5}
-\contentsline {subsubsection}{\numberline {3.2.2.3}The operon core}{136}{subsubsection.3.2.2.3}
-\contentsline {paragraph}{\numberline {3.2.2.3.1}PVC12, an enigmatic nucleotide binding protein?}{136}{paragraph.3.2.2.3.1}
-\contentsline {paragraph}{\numberline {3.2.2.3.2}The putative tail fibres equivalents of PVC operons}{137}{paragraph.3.2.2.3.2}
-\contentsline {paragraph}{\numberline {3.2.2.3.3}PVC14 as a putative `tape measure' protein}{139}{paragraph.3.2.2.3.3}
-\contentsline {paragraph}{\numberline {3.2.2.3.4}The conserved, characteristic, ATPase of PVC operons}{141}{paragraph.3.2.2.3.4}
-\contentsline {paragraph}{\numberline {3.2.2.3.5}PVC16 as a tube terminator or cap protein}{141}{paragraph.3.2.2.3.5}
-\contentsline {section}{\numberline {3.3}Discussion}{142}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Summary and future work}{150}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}Comparative Phylogenetics of PVC Operons}{154}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{154}{section.4.1}
-\contentsline {section}{\numberline {4.2}Experimental procedures}{156}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Syntenic Clustering of Orthologs}{156}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Curation of the anomalous lumt operon}{157}{subsubsection.4.2.1.1}
-\contentsline {subsection}{\numberline {4.2.2}Curation of Sequences}{158}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Sequence Alignment and Phylogenies}{159}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.3.1}GC Content and CDS Identity Within Operons}{159}{subsubsection.4.2.3.1}
-\contentsline {subsection}{\numberline {4.2.4}Gene trees}{161}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Consensus Tree Inference via ASTRAL-II}{169}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Congruency Analysis}{170}{subsection.4.2.6}
-\contentsline {subsubsection}{\numberline {4.2.6.1}Adjusted Wallace Coefficient}{170}{subsubsection.4.2.6.1}
-\contentsline {subsubsection}{\numberline {4.2.6.2}Normalised Robinson-Foulds}{170}{subsubsection.4.2.6.2}
-\contentsline {section}{\numberline {4.3}Discussion}{173}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Correlation between PVC structural proteins and their payloads}{180}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Identifying the PVC blueprint in other locations}{183}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Summary and future work}{186}{subsection.4.3.3}
-\contentsline {part}{III\hspace {1em}Experimental Results}{188}{part.3}
-\contentsline {chapter}{\numberline {5}Structure and Function of PVC Tail Fibre-like Genes}{189}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{189}{section.5.1}
-\contentsline {section}{\numberline {5.2}Experimental procedures}{195}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}\emph {in silico} examination of tail fibre sequences}{195}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Domain structure}{196}{subsubsection.5.2.1.1}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Sequence characteristics}{198}{subsubsection.5.2.1.2}
-\contentsline {subsubsection}{\numberline {5.2.1.3}\emph {in silico} cloning}{202}{subsubsection.5.2.1.3}
-\contentsline {subsection}{\numberline {5.2.2}Experimental cloning, expression and purification}{205}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}IMAC Purification and Polishing}{205}{subsubsection.5.2.2.1}
-\contentsline {subsection}{\numberline {5.2.3}Structural Analyses}{207}{subsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.3.1}Trimerism of PVC tail fibre proteins}{207}{subsubsection.5.2.3.1}
-\contentsline {subsubsection}{\numberline {5.2.3.2}Thermal stability and secondary structure studies via Circular Dichroism}{209}{subsubsection.5.2.3.2}
-\contentsline {subsubsection}{\numberline {5.2.3.3}Secondary structure prediction via Dichroweb}{209}{subsubsection.5.2.3.3}
-\contentsline {paragraph}{\numberline {5.2.3.3.1}Algorithm and reference set selection}{211}{paragraph.5.2.3.3.1}
-\contentsline {paragraph}{\numberline {5.2.3.3.2}Secondary structure predictions}{212}{paragraph.5.2.3.3.2}
-\contentsline {subsubsection}{\numberline {5.2.3.4}Comparisons with known structures}{215}{subsubsection.5.2.3.4}
-\contentsline {subsubsection}{\numberline {5.2.3.5}Crystallography}{217}{subsubsection.5.2.3.5}
-\contentsline {paragraph}{\numberline {5.2.3.5.1}\emph {In-situ} partial proteolysis}{217}{paragraph.5.2.3.5.1}
-\contentsline {subsection}{\numberline {5.2.4}Finding binding partners for tail fibre proteins}{221}{subsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.4.1}Iron nanoparticle protein pulldowns}{221}{subsubsection.5.2.4.1}
-\contentsline {subsubsection}{\numberline {5.2.4.2}Sugar binding studies via glycan arrays}{223}{subsubsection.5.2.4.2}
-\contentsline {section}{\numberline {5.3}Discussion}{226}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Cloning, purification, and characterisation of PVC tail fibres}{226}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}The chimeric/split domain structure of PVC tail fibres}{229}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Candidate binding targets for PVC tail fibres}{230}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Summary and future work}{233}{subsection.5.3.4}
-\contentsline {chapter}{\numberline {6}Synthetic \& Natural PVC Operon Regulation}{236}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{236}{section.6.1}
-\contentsline {section}{\numberline {6.2}Experimental procedures}{242}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Cloning and engineering PVC operons}{242}{subsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.1.1}Recombineering}{244}{subsubsection.6.2.1.1}
-\contentsline {paragraph}{\numberline {6.2.1.1.1}Chromosomal engineering}{244}{paragraph.6.2.1.1.1}
-\contentsline {paragraph}{\numberline {6.2.1.1.2}Cosmid engineering}{247}{paragraph.6.2.1.1.2}
-\contentsline {subsubsection}{\numberline {6.2.1.2}Gibson assembly}{250}{subsubsection.6.2.1.2}
-\contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{252}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Cellular morphology in reporter assays}{264}{subsubsection.6.2.2.1}
-\contentsline {paragraph}{\numberline {6.2.2.1.1}Cellular elongation}{264}{paragraph.6.2.2.1.1}
-\contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{266}{paragraph.6.2.2.1.2}
-\contentsline {subsection}{\numberline {6.2.3}A putative role for transcript elongation in PVC regulation}{267}{subsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{272}{subsubsection.6.2.3.1}
-\contentsline {section}{\numberline {6.3}Discussion}{274}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Heterologous expression and control of PVC operons}{274}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Understanding the natural regulation and deployment of PVCs}{278}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Summary and future work}{281}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{282}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{284}{subsubsection.6.3.3.2}
-\contentsline {part}{IV\hspace {1em}Discussion \& Future Directions}{287}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{288}{chapter.7}
-\contentsline {section}{\numberline {7.1}Chapter \ref {structbioinfo}: New insights on PVC assembly and structure}{289}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}A new role for an inner sheath paralogue}{289}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}PVCs have profoundly negatively charged surfaces}{290}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}PVCs resemble `hybrid' caudate structures}{290}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Structural evidence for PVC14 as a `tape measure protein'}{290}{subsection.7.1.4}
-\contentsline {subsection}{\numberline {7.1.5}Identification of possible new roles for certain loci}{291}{subsection.7.1.5}
-\contentsline {section}{\numberline {7.2}Chapter \ref {bioinformatics}: Understanding PVC variability \& mobility}{291}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}PVCs as highly variable operons}{291}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}PVCs are likely older than first thought}{292}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Chapter \ref {tailfibres}: PVCs have hyper-variable, chimeric tail fibres}{292}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}PVC tail fibre proteins share hallmarks of real tail fibre proteins}{292}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Improved annotations lend confidence to a chimeric fibre structure}{293}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}PVC tail fibres potentially interact with cell surface proteins/sugars}{293}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Chapter \ref {regulation} suggests PVC regulation is complex}{294}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}PVCs are difficult to clone!}{294}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Antitermination and operon polarity suppression is implicated in PVC production}{294}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}PVCs production is subject to significant population heterogeneity}{295}{subsection.7.4.3}
-\contentsline {chapter}{\numberline {8}Future work}{296}{chapter.8}
+\contentsline {part}{II\hspace {1em}Computational Results}{95}{part.2}
+\contentsline {chapter}{\numberline {3}Structural Bioinformatics of PVC Proteins}{96}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{96}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The sequence identity problem}{97}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Experimental procedures}{101}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Methods used for probing the structures of PVC proteins}{101}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Hidden Markov Model Homology Searching}{101}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Homology modelling, threading and structural refinement}{103}{subsubsection.3.2.1.2}
+\contentsline {subsection}{\numberline {3.2.2}Exploration of the structure of PVCs by functional unit}{108}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}The PVC tube}{108}{subsubsection.3.2.2.1}
+\contentsline {paragraph}{\numberline {3.2.2.1.1}Structural comparisons of duplicated and triplicated tube proteins}{114}{paragraph.3.2.2.1.1}
+\contentsline {paragraph}{\numberline {3.2.2.1.2}Electrostatic comparisons amongst tube proteins}{117}{paragraph.3.2.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.2.2}The spike complex}{125}{subsubsection.3.2.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.2.1}Enigmatic putative collar/baseplate proteins}{126}{paragraph.3.2.2.2.1}
+\contentsline {paragraph}{\numberline {3.2.2.2.2}The putative spike complex and PVC baseplate hub is more reminiscent of the T6SS}{127}{paragraph.3.2.2.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.2.3}A new suggested role for PVC9 in tube initiation}{129}{paragraph.3.2.2.2.3}
+\contentsline {paragraph}{\numberline {3.2.2.2.4}Identifying subtle hallmarks of potential spike ``PAAR" proteins}{130}{paragraph.3.2.2.2.4}
+\contentsline {paragraph}{\numberline {3.2.2.2.5}PVC11 as the major baseplate structural component}{133}{paragraph.3.2.2.2.5}
+\contentsline {subsubsection}{\numberline {3.2.2.3}The operon core}{135}{subsubsection.3.2.2.3}
+\contentsline {paragraph}{\numberline {3.2.2.3.1}PVC12, an enigmatic nucleotide binding protein?}{135}{paragraph.3.2.2.3.1}
+\contentsline {paragraph}{\numberline {3.2.2.3.2}The putative tail fibres equivalents of PVC operons}{136}{paragraph.3.2.2.3.2}
+\contentsline {paragraph}{\numberline {3.2.2.3.3}PVC14 as a putative `tape measure' protein}{138}{paragraph.3.2.2.3.3}
+\contentsline {paragraph}{\numberline {3.2.2.3.4}The conserved, characteristic, ATPase of PVC operons}{140}{paragraph.3.2.2.3.4}
+\contentsline {paragraph}{\numberline {3.2.2.3.5}PVC16 as a tube terminator or cap protein}{140}{paragraph.3.2.2.3.5}
+\contentsline {section}{\numberline {3.3}Discussion}{141}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Summary and future work}{149}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Comparative Phylogenetics of PVC Operons}{153}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{153}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experimental procedures}{155}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Syntenic Clustering of Orthologs}{155}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Curation of the anomalous lumt operon}{156}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {4.2.2}Curation of Sequences}{157}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Sequence Alignment and Phylogenies}{158}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}GC Content and CDS Identity Within Operons}{158}{subsubsection.4.2.3.1}
+\contentsline {subsection}{\numberline {4.2.4}Gene trees}{160}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Consensus Tree Inference via ASTRAL-II}{168}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Congruency Analysis}{169}{subsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.6.1}Adjusted Wallace Coefficient}{169}{subsubsection.4.2.6.1}
+\contentsline {subsubsection}{\numberline {4.2.6.2}Normalised Robinson-Foulds}{169}{subsubsection.4.2.6.2}
+\contentsline {section}{\numberline {4.3}Discussion}{172}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Correlation between PVC structural proteins and their payloads}{179}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Identifying the PVC blueprint in other locations}{182}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Summary and future work}{185}{subsection.4.3.3}
+\contentsline {part}{III\hspace {1em}Experimental Results}{187}{part.3}
+\contentsline {chapter}{\numberline {5}Structure and Function of PVC Tail Fibre-like Genes}{188}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{188}{section.5.1}
+\contentsline {section}{\numberline {5.2}Experimental procedures}{194}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}\emph {in silico} examination of tail fibre sequences}{194}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Domain structure}{195}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Sequence characteristics}{197}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.3}\emph {in silico} cloning}{201}{subsubsection.5.2.1.3}
+\contentsline {subsection}{\numberline {5.2.2}Experimental cloning, expression and purification}{204}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}IMAC Purification and Polishing}{204}{subsubsection.5.2.2.1}
+\contentsline {subsection}{\numberline {5.2.3}Structural Analyses}{206}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Trimerism of PVC tail fibre proteins}{206}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Thermal stability and secondary structure studies via Circular Dichroism}{208}{subsubsection.5.2.3.2}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Secondary structure prediction via Dichroweb}{208}{subsubsection.5.2.3.3}
+\contentsline {paragraph}{\numberline {5.2.3.3.1}Algorithm and reference set selection}{210}{paragraph.5.2.3.3.1}
+\contentsline {paragraph}{\numberline {5.2.3.3.2}Secondary structure predictions}{211}{paragraph.5.2.3.3.2}
+\contentsline {subsubsection}{\numberline {5.2.3.4}Comparisons with known structures}{214}{subsubsection.5.2.3.4}
+\contentsline {subsubsection}{\numberline {5.2.3.5}Crystallography}{216}{subsubsection.5.2.3.5}
+\contentsline {paragraph}{\numberline {5.2.3.5.1}\emph {In-situ} partial proteolysis}{216}{paragraph.5.2.3.5.1}
+\contentsline {subsection}{\numberline {5.2.4}Finding binding partners for tail fibre proteins}{220}{subsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Iron nanoparticle protein pulldowns}{220}{subsubsection.5.2.4.1}
+\contentsline {subsubsection}{\numberline {5.2.4.2}Sugar binding studies via glycan arrays}{222}{subsubsection.5.2.4.2}
+\contentsline {section}{\numberline {5.3}Discussion}{225}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Cloning, purification, and characterisation of PVC tail fibres}{225}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}The chimeric/split domain structure of PVC tail fibres}{228}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Candidate binding targets for PVC tail fibres}{229}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Summary and future work}{232}{subsection.5.3.4}
+\contentsline {chapter}{\numberline {6}Synthetic \& Natural PVC Operon Regulation}{235}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{235}{section.6.1}
+\contentsline {section}{\numberline {6.2}Experimental procedures}{241}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Cloning and engineering PVC operons}{241}{subsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Recombineering}{243}{subsubsection.6.2.1.1}
+\contentsline {paragraph}{\numberline {6.2.1.1.1}Chromosomal engineering}{243}{paragraph.6.2.1.1.1}
+\contentsline {paragraph}{\numberline {6.2.1.1.2}Cosmid engineering}{246}{paragraph.6.2.1.1.2}
+\contentsline {subsubsection}{\numberline {6.2.1.2}Gibson assembly}{249}{subsubsection.6.2.1.2}
+\contentsline {subsection}{\numberline {6.2.2}Population heterogeneity in PVC activity}{251}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Cellular morphology in reporter assays}{263}{subsubsection.6.2.2.1}
+\contentsline {paragraph}{\numberline {6.2.2.1.1}Cellular elongation}{263}{paragraph.6.2.2.1.1}
+\contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{265}{paragraph.6.2.2.1.2}
+\contentsline {subsection}{\numberline {6.2.3}A putative role for transcript elongation in PVC regulation}{266}{subsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{271}{subsubsection.6.2.3.1}
+\contentsline {section}{\numberline {6.3}Discussion}{273}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Heterologous expression and control of PVC operons}{273}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Understanding the natural regulation and deployment of PVCs}{277}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Summary and future work}{280}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{280}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{283}{subsubsection.6.3.3.2}
+\contentsline {part}{IV\hspace {1em}Discussion \& Future Directions}{286}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{287}{chapter.7}
+\contentsline {section}{\numberline {7.1}Chapter \ref {structbioinfo}: New insights on PVC assembly and structure}{288}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}A new role for an inner sheath paralogue}{288}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}PVCs have profoundly negatively charged surfaces}{289}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}PVCs resemble `hybrid' caudate structures}{289}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Structural evidence for PVC14 as a `tape measure protein'}{289}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Identification of possible new roles for certain loci}{290}{subsection.7.1.5}
+\contentsline {section}{\numberline {7.2}Chapter \ref {bioinformatics}: Understanding PVC variability \& mobility}{290}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}PVCs as highly variable operons}{290}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}PVCs are likely older than first thought}{291}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Chapter \ref {tailfibres}: PVCs have hyper-variable, chimeric tail fibres}{291}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}PVC tail fibre proteins share hallmarks of real tail fibre proteins}{291}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Improved annotations lend confidence to a chimeric fibre structure}{291}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}PVC tail fibres potentially interact with cell surface proteins/sugars}{292}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Chapter \ref {regulation} suggests PVC regulation is complex}{292}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}PVCs are difficult to clone!}{292}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Antitermination and operon polarity suppression is implicated in PVC production}{293}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}PVCs production is subject to significant population heterogeneity}{293}{subsection.7.4.3}
+\contentsline {chapter}{\numberline {8}Future work}{295}{chapter.8}
 \contentsline {chapter}{Bibliography}{298}{chapter.8}
 \contentsline {chapter}{Appendices}{331}{section*.122}
 \contentsline {chapter}{\numberline {A}Publications arising from this candidature}{332}{Appendix.a.A}

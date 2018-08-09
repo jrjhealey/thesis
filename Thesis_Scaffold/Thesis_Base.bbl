@@ -21,8 +21,9 @@ Abdallah, A.~M., {Gey van Pittius}, N.~C., Champion, P. a.~D., Cox, J.,
 \newblock {\em Soil Biology and Biochemistry}, 30(14):1955--1961.
 
 \bibitem[Abuladze \emph{et~al.}, 1994]{Abuladze1994}
-Abuladze, N.~K., Gingery, M., Tsai, J., and Eiserling, F.~a. (1994).
+Abuladze, N.~K., Gingery, M., Tsai, J., and Eiserling, F. (1994).
 \newblock {Tail length determination in bacteriophage T4.}
+\newblock {\em Virology}, 199:301--310.
 
 \bibitem[Ackermann, 1998]{Ackermann1998}
 Ackermann, H.-W. (1998).
@@ -125,7 +126,7 @@ Bager, R., Roghanian, M., Gerdes, K., and Clarke, D.~J. (2016).
 Bailey, M.~J., Hughes, C., and Koronakis, V. (1996).
 \newblock {Increased distal gene transcription by the elongation factor RfaH, a
   specialized homologue of NusG}.
-\newblock {\em Mol Microbiol}, 22(4):729--737.
+\newblock {\em Molecular Microbiology}, 22(4):729--737.
 
 \bibitem[Bailey \emph{et~al.}, 1997]{Bailey1997}
 Bailey, M.~J., Hughes, C., and Koronakis, V. (1997).
@@ -145,7 +146,7 @@ Ballister, E.~R., Lai, A.~H., Zuckermann, R.~N., Cheng, Y., and Mougous, J.~D.
 Banerjee, S., Chalissery, J., Bandey, I., and Sen, R. (2006).
 \newblock {Rho-dependent transcription termination: more questions than
   answers.}
-\newblock {\em Journal of microbiology (Seoul, Korea)}, 44(1):11--22.
+\newblock {\em Journal of microbiology}, 44(1):11--22.
 
 \bibitem[Bankevich \emph{et~al.}, 2012]{Bankevich2012}
 Bankevich, A., Nurk, S., Antipov, D., Gurevich, A.~A., Dvorkin, M., Kulikov,
@@ -169,14 +170,8 @@ Bartual, S.~G., Otero, J.~M., Garcia-Doval, C., Llamas-Saiz, A.~L., Kahn, R.,
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 107(47):20287--20292.
 
-\bibitem[Basler, 2015a]{Basler2015}
-Basler, M. (2015a).
-\newblock {Type VI secretion system: secretion by a contractile nanomachine}.
-\newblock {\em Philosophical Transactions of the Royal Society B: Biological
-  Sciences}, 370(1679):20150021.
-
-\bibitem[Basler, 2015b]{Basler2015a}
-Basler, M. (2015b).
+\bibitem[Basler, 2015]{Basler2015}
+Basler, M. (2015).
 \newblock {Type VI secretion system: secretion by a contractile nanomachine}.
 \newblock {\em Philosophical Transactions of the Royal Society B: Biological
   Sciences}, 370(1679):20150021.
@@ -1010,7 +1005,7 @@ Hu, K. and Webster, J.~M. (2000).
   mellonella{\textless}/i{\textgreater} larvae}.
 \newblock {\em FEMS Microbiology Letters}, 189(2):219--223.
 
-\bibitem[Huerta-Cepas \emph{et~al.}, 2016]{Huerta-Cepas2016a}
+\bibitem[Huerta-Cepas \emph{et~al.}, 2016]{Huerta-Cepas2016}
 Huerta-Cepas, J., Serra, F., and Bork, P. (2016).
 \newblock {ETE 3: Reconstruction, Analysis, and Visualization of Phylogenomic
   Data}.
@@ -1072,7 +1067,7 @@ Isao, M. O. F. L. D. L.~T. (1990).
 \newblock {Mechanism of Length Determination in Bacteriophage Lambda Tails}.
 \newblock {\em Adv. Biophys.}, 26:1--18.
 
-\bibitem[Iyer \emph{et~al.}, 2004]{Iyer2004a}
+\bibitem[Iyer \emph{et~al.}, 2004]{Iyer2004}
 Iyer, L.~M., Leipe, D.~D., Koonin, E.~V., and Aravind, L. (2004).
 \newblock {Evolutionary history and higher order classification of AAA+
   ATPases}.
