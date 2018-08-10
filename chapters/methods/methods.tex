@@ -694,9 +694,9 @@ If promising preliminary conditions were identified, the corresponding buffer wa
 
 
 \section{Bio-physical Techniques}
-\subsection{Fluorescence microscopy}
+\subsection{Fluorescence Microscopy}
 For fluorescence microscopy time course studies, cultures were sampled across the growth curve. 2\ul{} of each time point normalised to an optical density of 0.05 was added to GeneFrames from Thermo, according to the manufacturers instructions. Images of the frames were collected on a Leica DMi8 microscope fitted with a Hamamatsu Flash4 Camera under phase contrast, and with a FITC filter cube for GFP fluorescence.
-\subsubsection{Image normalisation and consistency}
+\subsubsection{Image Normalisation and Consistency}
 Images were taken under equivalent conditions, with an exposure determined empirically at the time of imaging, in order to ensure minimal GFP bleaching, but sufficient signal to visualise. Heterogeneity in sample preparation on the GeneFrames meant that some images appeared darker than others for equivalent exposures. To make images more consistent, \texttt{ImageMagick v7.0.8-2 Q16} was used to normalise the images to a single reference image that was considered sufficiently bright for clarity. This was done using the Hue/Saturation/Intensity (HSI) colourspace of the \texttt{matchimages.sh} script which wraps a number of ImageMagick functions\footnote{\url{http://www.fmwconcepts.com/imagemagick/matchimage/index.php}}
 
 \subsection{Circular Dichroism}
@@ -865,7 +865,7 @@ Similarly, TM-score, another measure of structural similarity, is calculated as 
 
 \noindent where $L_{target}$ and $L_{aligned}$ are the lengths of the target protein and aligned region respectively, and $d_i$ is the distance between the $i$th residues. The cube root is a scaling term which normalises the distances.
 
-\subsection{Repeat detection}
+\subsection{Repeat Detection}
 Repeats in protein sequences were detected automatically via the EMBL-EBI's \texttt{Rapid Automatic Detection and Alignment of Repeats program (RADAR) v1.1.1.1} \footnote{\url{https://www.ebi.ac.uk/Tools/pfa/radar/}}. The most frequent or longest set of repeats were retained after a default number of iterations.
 
 \subsection{RNA structure analysis}
