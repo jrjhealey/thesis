@@ -174,7 +174,7 @@
 \contentsline {subsection}{\numberline {5.3.2}The Chimeric/split Domain Structure of PVC Tail Fibres}{228}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Candidate Binding Targets for PVC Tail Tibres}{229}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Summary and Future Work}{232}{subsection.5.3.4}
-\contentsline {chapter}{\numberline {6}Synthetic \& Natural PVC Operon Regulation}{235}{chapter.6}
+\contentsline {chapter}{\numberline {6}Synthetic \& Natural PVC Operon Expression}{235}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{235}{section.6.1}
 \contentsline {section}{\numberline {6.2}Experimental procedures}{241}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Cloning and engineering PVC operons}{241}{subsection.6.2.1}
@@ -187,34 +187,36 @@
 \contentsline {paragraph}{\numberline {6.2.2.1.1}Cellular elongation}{263}{paragraph.6.2.2.1.1}
 \contentsline {paragraph}{\numberline {6.2.2.1.2}Culture integrity}{265}{paragraph.6.2.2.1.2}
 \contentsline {subsection}{\numberline {6.2.3}A putative role for transcript elongation in PVC regulation}{266}{subsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{271}{subsubsection.6.2.3.1}
-\contentsline {section}{\numberline {6.3}Discussion}{273}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Heterologous expression and control of PVC operons}{273}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Understanding the natural regulation and deployment of PVCs}{277}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Summary and future work}{280}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{280}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{283}{subsubsection.6.3.3.2}
-\contentsline {part}{IV\hspace {1em}Discussion \& Future Directions}{286}{part.4}
-\contentsline {chapter}{\numberline {7}Discussion}{287}{chapter.7}
-\contentsline {section}{\numberline {7.1}Chapter \ref {structbioinfo}: New insights on PVC assembly and structure}{288}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}A new role for an inner sheath paralogue}{288}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}PVCs have profoundly negatively charged surfaces}{289}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}PVCs resemble `hybrid' caudate structures}{289}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Structural evidence for PVC14 as a `tape measure protein'}{289}{subsection.7.1.4}
-\contentsline {subsection}{\numberline {7.1.5}Identification of possible new roles for certain loci}{290}{subsection.7.1.5}
-\contentsline {section}{\numberline {7.2}Chapter \ref {bioinformatics}: Understanding PVC variability \& mobility}{290}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}PVCs as highly variable operons}{290}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}PVCs are likely older than first thought}{291}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Chapter \ref {tailfibres}: PVCs have hyper-variable, chimeric tail fibres}{291}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}PVC tail fibre proteins share hallmarks of real tail fibre proteins}{291}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Improved annotations lend confidence to a chimeric fibre structure}{291}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}PVC tail fibres potentially interact with cell surface proteins/sugars}{292}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Chapter \ref {regulation} suggests PVC regulation is complex}{292}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}PVCs are difficult to clone!}{292}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Antitermination and operon polarity suppression is implicated in PVC production}{293}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}PVCs production is subject to significant population heterogeneity}{293}{subsection.7.4.3}
-\contentsline {chapter}{\numberline {8}Future work}{295}{chapter.8}
-\contentsline {chapter}{Bibliography}{298}{chapter.8}
-\contentsline {chapter}{Appendices}{330}{section*.122}
-\contentsline {chapter}{\numberline {A}Publications arising from this candidature}{331}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Chapter 4 Appendices}{336}{Appendix.a.B}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Controlling RfaH activity}{272}{subsubsection.6.2.3.1}
+\contentsline {section}{\numberline {6.3}Discussion}{274}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Heterologous expression and control of PVC operons}{274}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Understanding the natural regulation and deployment of PVCs}{278}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Summary and future work}{281}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}PVC cloning}{281}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}PVC natural regulation and population dynamics}{284}{subsubsection.6.3.3.2}
+\contentsline {part}{IV\hspace {1em}Discussion \& Future Directions}{287}{part.4}
+\contentsline {chapter}{\numberline {7}Discussion}{288}{chapter.7}
+\contentsline {section}{\numberline {7.1}Chapter \ref {structbioinfo}: New insights on PVC assembly and structure}{289}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}A new role for an inner sheath paralogue}{289}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}PVCs have profoundly negatively charged surfaces}{290}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}PVCs resemble `hybrid' caudate structures}{290}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Structural evidence for PVC14 as a `tape measure protein'}{290}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Identification of possible new roles for certain loci}{291}{subsection.7.1.5}
+\contentsline {section}{\numberline {7.2}Chapter \ref {bioinformatics}: Understanding PVC variability \& mobility}{291}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}PVCs as highly variable operons}{291}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}PVCs are likely older than first thought}{292}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Chapter \ref {tailfibres}: PVCs have hyper-variable, chimeric tail fibres}{292}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}PVC tail fibre proteins share hallmarks of real tail fibre proteins}{292}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Improved annotations lend confidence to a chimeric fibre structure}{292}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}PVC tail fibres potentially interact with cell surface proteins/sugars}{293}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Chapter \ref {regulation}: PVC regulation is complex and heterogenous}{293}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}PVCs are difficult to clone!}{293}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Antitermination and operon polarity suppression is implicated in PVC production}{294}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}PVCs production is subject to significant population heterogeneity}{294}{subsection.7.4.3}
+\contentsline {chapter}{\numberline {8}Future work}{296}{chapter.8}
+\contentsline {chapter}{Bibliography}{299}{chapter.8}
+\contentsline {chapter}{Appendices}{331}{section*.122}
+\contentsline {chapter}{\numberline {A}Publications arising from this candidature}{332}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Chapter 4 Appendices}{337}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}Clusterings of PVC genes for phylogenetic studies}{337}{section.a.B.1}
+\contentsline {section}{\numberline {B.2}Multiple Sequence Alignments for PVC proteins}{339}{section.a.B.2}
