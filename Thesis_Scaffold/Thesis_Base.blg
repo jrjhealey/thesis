@@ -5,10 +5,6 @@ The style file: customapalike.bst
 Reallocated field_info (elt_size=4) to 13294 items from 5000.
 Database file #1: /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 7077 of file /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
- : @article{Leiman2009
- :                    ,
-I'm skipping whatever remains of this entry
 You've used 377 entries,
             1935 wiz_defined-function locations,
             2756 strings with 94570 characters,
@@ -50,4 +46,3 @@ warning$ -- 0
 while$ -- 1455
 width$ -- 0
 write$ -- 4898
-(There was 1 error message)

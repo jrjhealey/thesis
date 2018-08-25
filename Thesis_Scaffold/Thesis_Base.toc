@@ -121,7 +121,7 @@
 \contentsline {paragraph}{\numberline {3.2.2.2.2}The putative spike complex and PVC baseplate hub is more reminiscent of the T6SS}{127}{paragraph.3.2.2.2.2}
 \contentsline {paragraph}{\numberline {3.2.2.2.3}A new suggested role for PVC9 in tube initiation}{129}{paragraph.3.2.2.2.3}
 \contentsline {paragraph}{\numberline {3.2.2.2.4}Identifying subtle hallmarks of potential spike ``PAAR" proteins}{130}{paragraph.3.2.2.2.4}
-\contentsline {paragraph}{\numberline {3.2.2.2.5}PVC11 as the major baseplate structural component}{133}{paragraph.3.2.2.2.5}
+\contentsline {paragraph}{\numberline {3.2.2.2.5}PVC11 as the major baseplate structural component}{134}{paragraph.3.2.2.2.5}
 \contentsline {subsubsection}{\numberline {3.2.2.3}The Operon Core}{135}{subsubsection.3.2.2.3}
 \contentsline {paragraph}{\numberline {3.2.2.3.1}PVC12, an enigmatic nucleotide binding protein?}{135}{paragraph.3.2.2.3.1}
 \contentsline {paragraph}{\numberline {3.2.2.3.2}The putative tail fibres equivalents of PVC operons}{136}{paragraph.3.2.2.3.2}
@@ -213,7 +213,7 @@
 \contentsline {subsection}{\numberline {7.4.1}PVCs are difficult to clone!}{293}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Antitermination and operon polarity suppression is implicated in PVC production}{294}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}PVCs production is subject to significant population heterogeneity}{294}{subsection.7.4.3}
-\contentsline {chapter}{\numberline {8}Future work}{296}{chapter.8}
+\contentsline {chapter}{\numberline {8}Outlook}{296}{chapter.8}
 \contentsline {chapter}{Bibliography}{299}{chapter.8}
 \contentsline {chapter}{Appendices}{331}{section*.122}
 \contentsline {chapter}{\numberline {A}Publications arising from this candidature}{332}{Appendix.a.A}
