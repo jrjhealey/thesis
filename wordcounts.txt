@@ -1,0 +1,14 @@
+8088+148+287 (72/5/121/6) File: .//methods/methods.tex
+17235+99+1537 (22/14/42/0) File: .//intro/intro.tex
+11327+68+1226 (17/12/45/0) File: .//chapter6/regulation.tex
+0+0+655 (0/9/0/0) File: .//chapter6/reporter_microscopy.tex
+1052+1+9 (1/0/0/0) File: .//acknowledgements/acknowledgements.tex
+987+1+0 (1/0/0/0) File: .//future_work/future_work.tex
+10752+109+1976 (24/18/37/0) File: .//chapter5/tailfibres.tex
+13878+57+2523 (14/22/50/0) File: .//chapter3/structuralbioinfo.tex
+2181+129+0 (18/0/2/0) File: .//discussion/discussion.tex
+7673+66+526 (18/22/10/0) File: .//chapter4/bioinformatics.tex
+Main Text Total:
+33115
+Grand Total:
+82590
