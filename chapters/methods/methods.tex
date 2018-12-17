@@ -2,23 +2,6 @@
 
 All methods from all chapters are collected here in detail, for clarity. Where appropriate, the methods have been reiterated at a higher level, in the context of the experimental workflow in their respective chapters.
 
-%\section{Materials Suppliers}
-%Unless indicated otherwise, materials were procured from the following manufacturers:
-%
-%\small
-%\begin{itemize}
-%\item \emph{PCR enzymes}: Invitrogen \emph{Taq} was purchased from ThermoFisher Scientific. Q5\textsuperscript{\textregistered} Polymerase was purchased from New England Biolabs (NEB).
-%\item \emph{Restriction Enzymes}: All restriction enzymes were purchased from New England Biolabs
-%\item \emph{Strains}: Most strains used in this study were provided by other labs, but those that were purchased came from New England Biolabs.
-%\item \emph{Oligonucleotides}: Primers and synthesised oligonucleotides were primarily purchased from Integrated DNA Technologies (IDT) or Sigma-Aldrich
-%\item \emph{Protein Purification Columns}: Gel filtration and IMAC columns were purchased from General Electric (GE) Healthcare
-%\item \emph{Media}: Most media is provided pre-made at the University of Warwick. Autoinduction Media is a Formedium product.
-%\end{itemize}
-%
-%
-%\normalsize
-
-
 \section{Bacterial Culture Techniques}
 The vast majority of this project, as a molecular and synthetic biology research project,  involved microbial culture and heterologous expression work. Despite being a thesis on the study of \Pa, almost all of the work conducted was in \emph{E. coli}. As a member of the \emph{Enterobacteriaceae}, \Pa{} is fairly closely related to \emph{E. coli}, thus much of the genetic work can be conducted in the considerably more tractable lab strain with few, if any, complications.
 
@@ -28,7 +11,7 @@ A number of specialist and host strains were used for various purposes and they 
 \begin{landscape}
 \scriptsize
 \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
-\rowcolors{1}{gray!10}{white}
+\rowcolors{1}{gray!20}{white}
 \begin{tabularx}{\linewidth}{>{\centering\arraybackslash}m{0.07\linewidth}  >{\raggedright\arraybackslash}m{0.415\linewidth} >{\raggedright\arraybackslash}m{0.32\linewidth}  >{\centering\arraybackslash}m{0.14\linewidth}}
 \hiderowcolors
 \caption[Strains]{\emph{E. coli} strains used throughout this work, their available genotypic data, and their originating source.}
@@ -74,7 +57,7 @@ BW25113 & F- \emph{$\Delta$(araD-araB)567, lacZ4787($\Delta$)::rrnB-3, LAM-, rph
 \subsection{Culture Conditions}
 	\subsubsection{Media}
 		\paragraph{LB}
-		Routine culture of \emph{E. coli} and \Pa{} was conducted in standard Lysogeny Broth (LB) liquid media and agar plates, at 200 RCF in a shaking incubator (or static incubator for plates). The media is supplemented with 0.1\% pyruvate when culturing \Pa. For \Plum{} strains, cultures were grown at 28\degC{} due to their temperature intolerance.
+		Routine culture of \emph{E. coli} and \Pa{} was conducted in standard Lysogeny Broth (LB) liquid media and agar plates, at 200 RPM in a shaking incubator (or static incubator for plates). The media is supplemented with 0.1\% pyruvate when culturing \Pa. For \Plum{} strains, cultures were grown at 28\degC{} due to their temperature intolerance.
 		\paragraph{SOC}
 		Super Optimal Media with catabolite repression (SOC), is a high glucose medium routinely used in the recovery culture phase of bacterial transformation. It is designed to be a rich media which reduces stress on the transformed cells, allowing them to optimally uptake the target DNA. In particular, the high glucose content in comparison to standard LB media is useful as it represses the pBAD and pLac promoter systems, helping to clone otherwise potentially toxic/recalcitrant targets.
 
@@ -85,7 +68,7 @@ BW25113 & F- \emph{$\Delta$(araD-araB)567, lacZ4787($\Delta$)::rrnB-3, LAM-, rph
 \begin{table}[h]
 \thisfloatpagestyle{IHA-fancy-style}
 \scriptsize
-\rowcolors{2}{gray!10}{white}
+\rowcolors{2}{gray!20}{white}
 \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
 \caption[Media Supplements]{Antibiotics and other media supplements, and the final concentrations for use.}
 \label{supplementtable}
@@ -108,7 +91,7 @@ Growth Supplements & Pyruvate & 0.1 \% (w/v) \\
  & Arabinose & 0.2\% (w/v) \\
 \rowcolor{white!10}\multirow{-2}{*}{Induction} & IPTG & 2 mM \\
 
-\rowcolor{gray!10}Repression & Glucose & 0.2\% (w/v) \\
+\rowcolor{gray!20}Repression & Glucose & 0.2\% (w/v) \\
 
 \end{tabularx}
 \end{table}
@@ -139,7 +122,7 @@ Growth Supplements & Pyruvate & 0.1 \% (w/v) \\
 \begin{landscape}
 \scriptsize
 \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
-\rowcolors{1}{gray!10}{white}
+\rowcolors{1}{gray!20}{white}
 \begin{tabularx}{\linewidth}{ >{\centering\arraybackslash}m{0.13\linewidth} >{\raggedright\arraybackslash} m{0.68\linewidth} >{\raggedleft\arraybackslash} m{0.16\linewidth} }
 \hiderowcolors
 \caption[Plasmids]{Existing plasmids used as the bases for derivations listed in \vref{customplasmids}. All plasmids were either gifted, existed in lab stocks already, or purchased.}
@@ -178,7 +161,7 @@ pJET-FRT-Kan & Recombineering knockout cassette template plasmids bearing an FRT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \captionsetup{singlelinecheck=off, justification=justified, font=footnotesize}
-\rowcolors{1}{gray!10}{white}
+\rowcolors{1}{gray!20}{white}
 \begin{tabularx}{\linewidth}{ c >{\centering\arraybackslash} m{0.26\linewidth} >{\centering} m{0.08\linewidth} m{0.48\linewidth} }
 \hiderowcolors
 \caption[Custom Plasmids]{Cloned and/or derivatised plasmids created during the course of this study.}
@@ -205,7 +188,7 @@ pET29a\_\emph{lumt13} & PVC\emph{lumt} Putative Tail Fibre Gene & pET29a & PVC\e
 \hline
 pJETBAD-FRT-Kan & \emph{araBAD} promotor system and terminators & pJET-FRT-Kan & Recombineering helper plasmid derivatised from pJET-FRT-Kan by addition of the pBAD30 promoter system adjacent to the Kanomycin resistance cassette.  \\
 
-\rowcolor{gray!10} pJETBAD-FRT-Cm & \emph{araBAD} promotor system and terminators & pJET-FRT-Cm & Recombineering helper plasmid derivatised from pJET-FRT-Cm by addition of the pBAD30 promoter system adjacent to the Chloramphenicol resistance cassette.  \\
+\rowcolor{gray!20} pJETBAD-FRT-Cm & \emph{araBAD} promotor system and terminators & pJET-FRT-Cm & Recombineering helper plasmid derivatised from pJET-FRT-Cm by addition of the pBAD30 promoter system adjacent to the Chloramphenicol resistance cassette.  \\
 \hline
 \hiderowcolors
 \multicolumn{4}{p{\linewidth}}{\centering Reporter Constructs}\tstrut\bstrut \\
@@ -219,13 +202,13 @@ pAGAG\_PB68.1PVCcif & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{cif} promoter &
 
 pAGAG\_PB68.1PVCU1 & \emph{P. asymbiotica} Thai PB68.1 PVC\emph{Unit1} promoter & pAGAG & \emph{P. asymbiotica} strain Thai PB68.1 PVC\emph{Unit1} operon promoter fused to GFP\\
 
-pAGAG\_TT01PVCU4 & \emph{P. luminescens} TT01 PVC\emph{Unit4} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+pAGAG\_TT01PVCU4 & \emph{P. luminescens} TT01 PVC\emph{Unit4} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{Unit 4} operon promoter fused to GFP\\
 
-pAGAG\_TT01PVClopT & \emph{P. luminescens} TT01 PVC\emph{lopT} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+pAGAG\_TT01PVClopT & \emph{P. luminescens} TT01 PVC\emph{lopT} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{LopT} operon promoter fused to GFP\\
 
-pAGAG\_TT01PVCcif & \emph{P. luminescens} TT01 PVC\emph{cif} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+pAGAG\_TT01PVCcif & \emph{P. luminescens} TT01 PVC\emph{cif} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{cif} operon promoter fused to GFP\\
 
-pAGAG\_TT01PVCU1 & \emph{P. luminescens} TT01 PVC\emph{Unit1} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{pnf} operon promoter fused to GFP\\
+pAGAG\_TT01PVCU1 & \emph{P. luminescens} TT01 PVC\emph{Unit1} promoter & pAGAG & \emph{P. luminescens} strain TT01 PVC\emph{Unit 1} operon promoter fused to GFP\\
 
 \end{tabularx}
 
@@ -271,7 +254,7 @@ rfaH\_3'\_SP\_R & & TATGACATTGCTGGAGCC & 52.2 [62] & \\[0.5ex]
 
 
 \begin{tabularx}{\linewidth}{l  c  L c  c }
-\caption[Functionalised Primer Sequences]{Primers for specialist purposes, harbouring modifications, including restriction sites for cloning and overlap homologies for recombineering and Gibson Assembly. Restriction Sites are shown in \textbf{bold}. Overlap homology is shown \underline{underlined} Annealing temperatures shown in [ ] are specific to NEB's Q5 Polymerase. F: Forward Primer, R: Reverse Primer, bp - Base Pair.}
+\caption[Functionalised Primer Sequences]{Primers for specialist purposes, harbouring modifications, including restriction sites for cloning and overlap homologies for recombineering and Gibson Assembly. Restriction Sites are shown in \textbf{bold}. Overlap homology is shown \underline{underlined}. Annealing temperatures shown in [ ] are specific to NEB's Q5 Polymerase. F: Forward Primer, R: Reverse Primer, bp - Base Pair.}
 \label{specprimers}\\
 
 Primer Name  & Function/Target  & \multicolumn{1}{c}{Sequence (5' $\rightarrow$ 3')} & Tm ($^{\circ}\mathrm{C}$) & Length (bp)\\
@@ -315,9 +298,6 @@ PB68.1Cif-KpnI\_R   &                                            & ATA\textbf{GG
 PB68.1U1-BamHI\_F  & \multirow{2}{*}{PB68.1Cif PVCU1 Promoter} & ATA\textbf{GGATCC}CAATTTTAACTATTTACTGGACTTCG     & \multirow{2}{*}{[57]} & \multirow{2}{*}{$\approx$500}\\
 PB68.1U1-KpnI\_R   &                                            & ATT\textbf{GGTACC}TGGAGTTGTAGACATAATGTTTCC &  & \\
 
-
-%rfaH\_EcoRI\_F & \multirow{2}{*}{\emph{rfaH}} & ACAGGT\textbf{CATATG}GAATTAAATGAGTTAACTAACAAATT & [71] & \multirow{2}{*}{500} \\
-%rfaH\_SalI\_R & & CTA\textbf{GTCGAC}TTAGAGTTTGCGGAACTCG & [71] & \\
 \noalign{\let\noalign\relax\pagebreak}
 
 \hline
@@ -361,7 +341,7 @@ hyfC\_no2\_R & & \underline{GACGCGGAAGGGTTTTTTTATATCGACTTTGTAATAGGAGTCCATCCATG}G
 \newpage
 
 \subsubsection{\emph{Taq} \& Colony PCR}
-For colony PCR, and applications where sequence fidelity was not absolutely necessary (e.g. band shift assessment), \emph{Taq	} polymerase was used, purchased from Invitrogen. Typical reaction composition and cycling parameters are laid out in \vref{taqreaction}. The enzyme was used largely according the the manufacturers protocol.
+For colony PCR, and applications where sequence fidelity was not absolutely necessary (e.g. band shift assessment), \emph{Taq} polymerase was used, purchased from Invitrogen. Typical reaction composition and cycling parameters are laid out in \vref{taqreaction}. The enzyme was used largely according the the manufacturers protocol.
 
 For rapid screening of transformed bacteria and detection of sequences in colonies/culture, colony PCR was used. Single colonies, or 5\ul{} of liquid culture, are resuspended in 50\ul{} of molecular grade water, boiled at 100\degC{} for 10 minutes and pelleted at 16,000 RCF for 1 minute. 5\ul{} of supernatant can then be used in place of the standard 1\ul{} of DNA template (offsetting the volumes with reduced water content in the PCR), to give good amplification.
 
@@ -651,7 +631,7 @@ For subsequent polishing of protein purifications, gel filtration was performed 
 Concentration of protein samples from gel filtration and IMAC was performed by centrifugation at 7,000 RCF in Amicon filter columns. Appropriate molecular weight cutoffs were chosen for the theoretical size of the protein to ensure maximum retention of just the protein of interest. Concentration of these volumes was typically a slow process, requiring several concentration cycles of 30 minutes to an hour at 4\degC, though this is indicative of high protein concentrations. Dialysis can also be performed using Amicon columns, by cycles of centrifugation, resuspension/dilution, and washing in the new buffer. Alternatively, dialysis was performed with Thermo ``Slide-A-Lyzer MINI" dialysis tubes, placed on an orbital shaker at low speed. Depending on the application, the buffer was changed a number of times over the course of approximately 48 hours.
 
 \subsection{Quantification}
-Routine quantification of protein samples was performed with a nanospectrophotometer, measuring absorbance at UV$_{\mathrm{280nm}}$. Fluorescence dyes such as those used in the Qubit spectrometer were found to precipitate the proteins studied in this work and could not be relied on.
+Routine quantification of protein samples was performed with a nanospectrophotometer, measuring absorbance at UV$_{\mathrm{280nm}}$. Fluorescence dyes such as those used in the Qubit spectrometer were found to precipitate the proteins studied in this work and could not be relied upon.
 
 \subsection{SDS-PAGE}
 	Sodium-Dodecyl-Sulphate Polyacrylamide Gel Electrophoresis was used routinely to estimate the purity of protein samples and to gauge their size to ensure correct expression and assembly. Commonly, precast gels were used with various well numbers/sizes. In cases where a large number of gels were required, gels were `homemade'. Precast gels, namely Biorad TGX Mini-protean 4-15\% gels were used for more sensitive applications such as Western Blots, and run as per the manufacturers instructions.
@@ -732,13 +712,13 @@ Initial trees were computed with \texttt{RAxML v7.0.3} \citep{Stamatakis2006} wi
 Consensus trees were computed with \texttt{ASTRAL-II v4.7.12} \citep{Mirarab2015}. As there were at most 16 taxa in the trees provided to ASTRAL, it was run with the ``\texttt{--exact}" flag for improved accuracy.
 
 \subsection{Congruency}
-Congruency was estimated in 2 ways. The Adjusted Wallace Coefficient was used, but required an element of subjectivity. With this in mind, the data was also tested with a less powerful, but entirely objective method - the Normalised Robinson-Foulds distance.
+Congruency was estimated in two ways. The Adjusted Wallace Coefficient was used, but required an element of subjectivity. With this in mind, the data was also tested with a less powerful, but entirely objective method - the Normalised Robinson-Foulds distance.
 
 The Adjusted Wallace Coefficient (AWC) builds on a tool which compares how data is clustered via different methods. Much more information about the various metrics, and the technique's use in sequence typing can be found at the Comparing Partitions website\footnote{\url{http://www.comparingpartitions.info/index.php?link=Tut8}} \citep{Pinto2008, Severiano2011a, Severiano2011b, Carrico2006}. Since the manner in which it was used in this study is valid, but not the norm, some time will be spent explaining the process:
 
-In the case of experimental sequence typing, it is common to predict STs from one or more experimental techniques (e.g eletrophoretic restriction enzyme tests with 2 different restriction enzymes), and researchers commonly wish to see how well they agree on their predicted ST. The Comparing Partitions web-server takes as an input, a matrix where one scores how each taxon label clusters in each tree. This had to be created manually by visually inspecting the clustering behaviour of each tree, for a given taxon label. An arbitrary cluster label is assigned (1 to $n$), and the taxa that are within that cluster are assigned its number. Absent taxon labels were just assigned a unique cluster identifier (equivalent to not clustering at all). As this has a large subjective component, clustering was corroborated by several other individuals in a 'blind' manner (no knowledge of how anyone else clustered the trees). While subjective in the manner in which it was used here, the AWC has greater resolution, in that it is an asymmetric measurement. The metric captures some of the discriminatory power of one tree versus another, that is to say, \emph{how clear} a given cluster is. Under the normal use case, one can think of this as how `definitive' one typing method is versus another.
+In the case of experimental sequence typing, it is common to predict STs from one or more experimental techniques (e.g eletrophoretic restriction enzyme tests with two different restriction enzymes), and researchers commonly wish to see how well they agree on their predicted ST. The Comparing Partitions web-server takes as an input, a matrix where one scores how each taxon label clusters in each tree. This had to be created manually by visually inspecting the clustering behaviour of each tree, for a given taxon label. An arbitrary cluster label is assigned (1 to $n$), and the taxa that are within that cluster are assigned its number. Absent taxon labels were just assigned a unique cluster identifier (equivalent to not clustering at all). As this has a large subjective component, clustering was corroborated by several other individuals in a 'blind' manner (no knowledge of how anyone else clustered the trees). While subjective in the manner in which it was used here, the AWC has greater resolution, in that it is an asymmetric measurement. The metric captures some of the discriminatory power of one tree versus another, that is to say, \emph{how clear} a given cluster is. Under the normal use case, one can think of this as how `definitive' one typing method is versus another.
 
-In brief, the data of interest is clustered by 2 methods of choice. In this case, the clusters would be 2 different phylogenetic trees (clusterings), of operons where the `method` would be use of different genes (under normal usage, the clusters would be sequence types, and the `method' might be pulsed field gel eletrophoresis for example). This is repeated for all pairs of clustering methods. A contingency table is constructed from this information, which effectively describes how often the same cluster is predicted by each technique. The AWC then describes the fraction of all the times the same cluster is found between 2 methods, out of all the clusterings in which the taxa appeared. The ``Adjusted" part of the metric comes from the added step, in which the ``coefficient under independence" is subtracted from the Wallace Coefficient. This is a kind of normalising step, which removes the effects of clusters occurring randomly, leaving only the contributions from meaningful clusterings. Therefore, the final value of the AWC is given by the equation below. For a more detailed explanation, see the link and the references provided at the start of this section. The values returned from this equation are those depicted in resulting figures.
+In brief, the data of interest is clustered by two methods of choice. In this case, the clusters would be two different phylogenetic trees (clusterings), of operons where the `method` would be use of different genes (under normal usage, the clusters would be sequence types, and the `method' might be pulsed field gel eletrophoresis for example). This is repeated for all pairs of clustering methods. A contingency table is constructed from this information, which effectively describes how often the same cluster is predicted by each technique. The AWC then describes the fraction of all the times the same cluster is found between 2 methods, out of all the clusterings in which the taxa appeared. The ``Adjusted" part of the metric comes from the added step, in which the ``coefficient under independence" is subtracted from the Wallace Coefficient. This is a kind of normalising step, which removes the effects of clusters occurring randomly, leaving only the contributions from meaningful clusterings. Therefore, the final value of the AWC is given by the equation below. For a more detailed explanation, see the link and the references provided at the start of this section. The values returned from this equation are those depicted in resulting figures.
 
 \begin{align}\label{adwcoeff}
 {AW}_{A \rightarrow B} = {\mathrm{W}_{A \rightarrow B} - {W}_{i(A \rightarrow B)} \over { 1 - {W}_{i(A\rightarrow B)}}} \\%
@@ -847,7 +827,7 @@ RMSD is calculated as follows:
 
 \begin{align}\label{rmsdeqn}
 %
-\mathrm{RMSD(v,w)} = \sqrt{ {1 \over n} \sum_{i=1}^{n} (({v_{ix} - w_{ix})}^2 + ({v_{iy} - w_{iy})}^2 + ({v_{iz} - w_{iz})}^2  } \\
+\mathrm{RMSD(v,w)} = \sqrt{ {1 \over n} \sum_{i=1}^{n} (({v_{ix} - w_{ix})}^2 + ({v_{iy} - w_{iy})}^2 + ({v_{iz} - w_{iz}))}^2  } \\
 \eqname{Root Mean Square Deviation of protein model superpositions} \
 \end{align}
 \myequations{Root Mean Square Deviation}

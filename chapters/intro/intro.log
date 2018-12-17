@@ -1,0 +1,17 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdftex 2017.9.8)  17 DEC 2018 10:34
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**intro.tex
+(./intro.tex
+./intro.tex:1: Undefined control sequence.
+l.1 \chapter
+            {Introduction}\label{intro}
+? 
+./intro.tex:1: Emergency stop.
+l.1 \chapter
+            {Introduction}\label{intro}
+End of file on the terminal!
+
+./intro.tex:1:  ==> Fatal error occurred, no output PDF file produced!
