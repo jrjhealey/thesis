@@ -7,7 +7,7 @@ Database file #1: /Users/joehealey/Documents/Bibtex/PhD_Thesis.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 You've used 377 entries,
             1935 wiz_defined-function locations,
-            2756 strings with 94570 characters,
+            2755 strings with 94372 characters,
 and the built_in function-call counts, 186220 in all, are:
 = -- 17737
 > -- 10818

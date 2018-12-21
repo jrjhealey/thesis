@@ -7,14 +7,14 @@ Abby, S.~S., Cury, J., Guglielmini, J., N{\'{e}}ron, B., Touchon, M., and
 \newblock {\em Scientific Reports}, 6(October 2015):1--14.
 
 \bibitem[Abdallah \emph{et~al.}, 2007]{Abdallah2007}
-Abdallah, A.~M., {Gey van Pittius}, N.~C., Champion, P. a.~D., Cox, J.,
+Abdallah, A.~M., {Gey van Pittius}, N.~C., Champion, P. A.~D., Cox, J.,
   Luirink, J., Vandenbroucke-Grauls, C. M. J.~E., Appelmelk, B.~J., and Bitter,
   W. (2007).
 \newblock {Type VII secretion--mycobacteria show the way.}
 \newblock {\em Nature reviews. Microbiology}, 5(11):883--891.
 
 \bibitem[{Abu Hatab} \emph{et~al.}, 1998]{AbuHatab1998}
-{Abu Hatab}, M.~a., Stuart, R.~J., and Gaugler, R. (1998).
+{Abu Hatab}, M., Stuart, R.~J., and Gaugler, R. (1998).
 \newblock {Antibiotic resistance and protease production by Photorhabdus
   luminescens and Xenorhabdus poinarii bacteria symbiotic with entomopathogenic
   nematodes: Variation among species and strains}.
@@ -50,8 +50,8 @@ Akhurst, R.~J. (1980).
 \newblock {\em Journal of General Microbiology}, 121(May):303--309.
 
 \bibitem[Aksyuk \emph{et~al.}, 2009a]{Aksyuk2009}
-Aksyuk, A.~a., Leiman, P.~G., Kurochkina, L.~P., Shneider, M.~M., Kostyuchenko,
-  V.~a., Mesyanzhinov, V.~V., and Rossmann, M.~G. (2009a).
+Aksyuk, A., Leiman, P.~G., Kurochkina, L.~P., Shneider, M.~M., Kostyuchenko,
+  V., Mesyanzhinov, V.~V., and Rossmann, M.~G. (2009a).
 \newblock {The tail sheath structure of bacteriophage T4: a molecular machine
   for infecting bacteria.}
 \newblock {\em The EMBO journal}, 28(7):821--829.
@@ -111,7 +111,7 @@ Ates, L.~S., Houben, E. N.~G., and Bitter, W. (2016).
 
 \bibitem[Baba \emph{et~al.}, 2006]{Baba2006}
 Baba, T., Ara, T., Hasegawa, M., Takai, Y., Okumura, Y., Baba, M., Datsenko,
-  K.~a., Tomita, M., Wanner, B.~L., and Mori, H. (2006).
+  K., Tomita, M., Wanner, B.~L., and Mori, H. (2006).
 \newblock {Construction of Escherichia coli K-12 in-frame, single-gene knockout
   mutants: the Keio collection.}
 \newblock {\em Molecular systems biology}, 2:2006.0008.
@@ -236,8 +236,9 @@ Boemare, N.~E. and Akhurst, R.~J. (1988).
 
 \bibitem[Boemare \emph{et~al.}, 1993]{Boemare1993}
 Boemare, N.~E., Akhurst, R.~J., and R., M.~G. (1993).
-\newblock {Symbiotic Bacteria of Entomopathogenic Nematodes , and a Proposal To
-  Transfer Xenorhabdus luminescens to a}.
+\newblock {DNA Relatedness between Xenorhabdus spp. (Enterobacteriaceae),
+  Symbiotic Bacteria of Entomopathogenic Nematodes, and a Proposal To Transfer
+  Xenorhabdus luminescens to a New Genus, Photorhabdus gen. nov. N.}
 \newblock {\em International Journal of Systematic Bacteriology},
   43(18):249--255.
 
@@ -408,10 +409,7 @@ Chaston, J.~M., Suen, G., Tucker, S.~L., Andersen, A.~W., Bhasin, A., Bode, E.,
 \bibitem[Chatnaparat \emph{et~al.}, 2015]{Chatnaparat2015}
 Chatnaparat, T., Li, Z., Korban, S.~S., and Zhao, Y. (2015).
 \newblock {The Stringent Response Mediated by (p)ppGpp Is Required for
-  Virulence of {\textless}i{\textgreater}Pseudomonas
-  syringae{\textless}/i{\textgreater} pv.
-  {\textless}i{\textgreater}tomato{\textless}/i{\textgreater} and Its Survival
-  on Tomato}.
+  Virulence of Pseudomonas syringae pv. tomato and Its Survival on Tomato}.
 \newblock {\em Molecular Plant-Microbe Interactions}, 28(7):776--789.
 
 \bibitem[Chatterjee and Rothenberg, 2012]{Chatterjee2012}
@@ -749,8 +747,8 @@ Fokine, A., Zhang, Z., Kanamaru, S., Bowman, V.~D., Aksyuk, A.~A., and Arisaka,
 \newblock {\em Journal of Molecular Biology}, 425(10):1731--1744.
 
 \bibitem[Forster \emph{et~al.}, 2014]{Forster2014}
-Forster, a., Planamente, S., Manoli, E., Lossi, N.~S., Freemont, P.~S., and
-  Filloux, a. (2014).
+Forster, A., Planamente, S., Manoli, E., Lossi, N.~S., Freemont, P.~S., and
+  Filloux, A. (2014).
 \newblock {Coevolution of the ATPase ClpV, the Sheath Proteins TssB and TssC,
   and the Accessory Protein TagJ/HsiE1 Distinguishes Type VI Secretion
   Classes}.
@@ -1008,12 +1006,6 @@ Huerta-Cepas, J., Serra, F., and Bork, P. (2016).
   Data}.
 \newblock {\em Molecular Biology and Evolution}, 33(6):1635--1638.
 
-\bibitem[Hurst \emph{et~al.}, 2011]{Hurst2011a}
-Hurst, M.~R., Becher, S.~A., and O'Callaghan, M. (2011).
-\newblock {Nucleotide sequence of the Serratia entomophila plasmid pADAP and
-  the Serratia proteamaculans pU143 plasmid virulence associated region}.
-\newblock {\em Plasmid}, 65(1):32--41.
-
 \bibitem[Hurst \emph{et~al.}, 2007]{Hurst2007}
 Hurst, M. R.~H., Beard, S.~S., Jackson, T.~A., and Jones, S.~M. (2007).
 \newblock {Isolation and characterization of the Serratia entomophila
@@ -1027,6 +1019,12 @@ Hurst, M. R.~H., Beattie, A., Jones, S.~A., Laugraud, A., van Koten, C., and
   an anti-feeding prophage (tailocin) with activity against grass grub (
   Costelytra giveni ) and manuka beetle ( Pyronota spp.) larvae}.
 \newblock {\em Applied and Environmental Microbiology}, 84(10):AEM.02739--17.
+
+\bibitem[Hurst \emph{et~al.}, 2011]{Hurst2011a}
+Hurst, M. R.~H., Becher, S.~A., and O'Callaghan, M. (2011).
+\newblock {Nucleotide sequence of the Serratia entomophila plasmid pADAP and
+  the Serratia proteamaculans pU143 plasmid virulence associated region}.
+\newblock {\em Plasmid}, 65(1):32--41.
 
 \bibitem[Hurst \emph{et~al.}, 2004]{Hurst2004}
 Hurst, M. R.~H., Glare, T.~R., and Jackson, T.~A. (2004).
@@ -1344,8 +1342,7 @@ Leiman, P.~G., Chipman, P.~R., Kostyuchenko, V.~A., Mesyanzhinov, V.~V., and
 
 \bibitem[Lemaitre and Hoffmann, 2007]{Lemaitre2007a}
 Lemaitre, B. and Hoffmann, J. (2007).
-\newblock {The Host Defense of {\textless}i{\textgreater}Drosophila
-  melanogaster{\textless}/i{\textgreater}}.
+\newblock {The Host Defence of Drosophila melanogaster}.
 \newblock {\em Annual Review of Immunology}, 25(1):697--743.
 
 \bibitem[Lenman \emph{et~al.}, 2018]{Lenman2018}
@@ -2007,8 +2004,8 @@ Shinomiya, T. (1972).
 \newblock {\em Journal of Biochemistry}, 72(March):39--48.
 
 \bibitem[Shneider \emph{et~al.}, 2013]{Shneider2013}
-Shneider, M.~M., Buth, S.~a., Ho, B.~T., Basler, M., Mekalanos, J.~J., and
-  Leiman, P.~G. (2013).
+Shneider, M.~M., Buth, S., Ho, B.~T., Basler, M., Mekalanos, J.~J., and Leiman,
+  P.~G. (2013).
 \newblock {PAAR-repeat proteins sharpen and diversify the type VI secretion
   system spike.}
 \newblock {\em Nature}, 500(7462):350--3.
@@ -2064,10 +2061,8 @@ Skibinski, D. a.~G., Golby, P., Chang, Y.-s., Sargent, F., Hoffman, R., Harper,
 
 \bibitem[Smigielski \emph{et~al.}, 1994]{Smigielski1994}
 Smigielski, A.~J., Akhurst, R.~J., and Boemaret, N.~E. (1994).
-\newblock {Phase Variation in {\textless}i{\textgreater}Xenorhabdus
-  nematophilus{\textless}/i{\textgreater} and
-  {\textless}i{\textgreater}Photorhabdus luminescens{\textless}/i{\textgreater}
-  : Differences in Respiratory Activity and Membrane Energization}.
+\newblock {Phase Variation in Xenorhabdus nematophilus and Photorhabdus
+  luminescens: Differences in Respiratory Activity and Membrane Energization}.
 \newblock {\em Applied and Environmental Microbiology}, 60(1):120--125.
 
 \bibitem[S{\"{o}}ding \emph{et~al.}, 2005]{Soding2005}
@@ -2378,7 +2373,7 @@ Williams, S.~R., Gebhart, D., Martin, D.~W., and Scholl, D. (2008).
 Yang, G., Dowling, A.~J., Gerike, U., and Waterfield, N.~R. (2006).
 \newblock {Photorhabdus virulence cassettes confer injectable insecticidal
   activity against the wax moth}.
-\newblock {\em Journal of {\ldots}}, 188(6):2254--2261.
+\newblock {\em Journal of Bacteriology}, 188(6):2254--2261.
 
 \bibitem[Yang \emph{et~al.}, 2014]{Yang2014}
 Yang, J., Yan, R., Roy, A., Xu, D., Poisson, J., and Zhang, Y. (2014).
